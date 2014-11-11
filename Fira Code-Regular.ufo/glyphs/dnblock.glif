@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dnblock" format="1">
+  <advance width="600"/>
+  <unicode hex="2584"/>
+  <outline>
+    <contour>
+      <point x="600" y="-500" type="line"/>
+      <point x="600" y="250" type="line"/>
+      <point x="0" y="250" type="line"/>
+      <point x="0" y="-500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="radical.tosf" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="694" y="795" type="line"/>
+      <point x="694" y="866" type="line"/>
+      <point x="453" y="866" type="line"/>
+      <point x="241" y="89" type="line"/>
+      <point x="102" y="481" type="line"/>
+      <point x="30" y="456" type="line"/>
+      <point x="197" y="0" type="line"/>
+      <point x="290" y="0" type="line"/>
+      <point x="511" y="795" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

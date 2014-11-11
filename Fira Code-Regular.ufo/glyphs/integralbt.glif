@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="integralbt" format="1">
+  <advance width="600"/>
+  <unicode hex="2321"/>
+  <outline>
+    <contour>
+      <point x="332" y="-74" type="curve" smooth="yes"/>
+      <point x="332" y="1000" type="line"/>
+      <point x="252" y="1000" type="line"/>
+      <point x="252" y="-73" type="line" smooth="yes"/>
+      <point x="252" y="-117"/>
+      <point x="230" y="-143"/>
+      <point x="188" y="-143" type="curve" smooth="yes"/>
+      <point x="161" y="-143"/>
+      <point x="138" y="-139"/>
+      <point x="105" y="-124" type="curve"/>
+      <point x="78" y="-186" type="line"/>
+      <point x="118" y="-203"/>
+      <point x="144" y="-212"/>
+      <point x="193" y="-212" type="curve" smooth="yes"/>
+      <point x="280" y="-212"/>
+      <point x="332" y="-167"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

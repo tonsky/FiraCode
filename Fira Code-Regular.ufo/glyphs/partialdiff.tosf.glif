@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="partialdiff.tosf" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="165" y="696" type="curve"/>
+      <point x="145" y="633" type="line"/>
+      <point x="315" y="587"/>
+      <point x="417" y="491"/>
+      <point x="424" y="350" type="curve"/>
+      <point x="393" y="395"/>
+      <point x="344" y="429"/>
+      <point x="279" y="429" type="curve" smooth="yes"/>
+      <point x="174" y="429"/>
+      <point x="90" y="341"/>
+      <point x="90" y="209" type="curve" smooth="yes"/>
+      <point x="90" y="70"/>
+      <point x="186" y="-11"/>
+      <point x="299" y="-11" type="curve" smooth="yes"/>
+      <point x="430" y="-11"/>
+      <point x="511" y="102"/>
+      <point x="511" y="258" type="curve" smooth="yes"/>
+      <point x="511" y="518"/>
+      <point x="407" y="629"/>
+    </contour>
+    <contour>
+      <point x="289" y="363" type="curve" smooth="yes"/>
+      <point x="344" y="363"/>
+      <point x="385" y="336"/>
+      <point x="428" y="277" type="curve"/>
+      <point x="428" y="253" type="line"/>
+      <point x="427" y="121"/>
+      <point x="378" y="56"/>
+      <point x="296" y="56" type="curve" smooth="yes"/>
+      <point x="223" y="56"/>
+      <point x="174" y="117"/>
+      <point x="174" y="214" type="curve" smooth="yes"/>
+      <point x="174" y="310"/>
+      <point x="224" y="363"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

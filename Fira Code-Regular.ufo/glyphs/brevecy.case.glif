@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecy.case" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="298" y="773" type="curve" smooth="yes"/>
+      <point x="375" y="773"/>
+      <point x="440" y="812"/>
+      <point x="448" y="885" type="curve"/>
+      <point x="391" y="898" type="line"/>
+      <point x="376" y="854"/>
+      <point x="345" y="838"/>
+      <point x="298" y="838" type="curve" smooth="yes"/>
+      <point x="251" y="838"/>
+      <point x="223" y="854"/>
+      <point x="208" y="898" type="curve"/>
+      <point x="151" y="885" type="line"/>
+      <point x="159" y="812"/>
+      <point x="222" y="773"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

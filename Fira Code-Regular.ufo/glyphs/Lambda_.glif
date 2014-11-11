@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lambda" format="1">
+  <advance width="600"/>
+  <unicode hex="039B"/>
+  <outline>
+    <contour>
+      <point x="574" y="0" type="line"/>
+      <point x="355" y="688" type="line"/>
+      <point x="245" y="688" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="298" y="609" type="line"/>
+      <point x="484" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

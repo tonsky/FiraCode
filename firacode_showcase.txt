@@ -1,0 +1,56 @@
+      x == 0
+     el === document.body
+   true != false
+   true !== false
+      n >= 0
+      i <= Interger.MAX_INT
+   A.id <> NULL
+   true <=> false
+
+
+      x := -1
+        ++i
+       1..10
+       1...9
+   mask >> 4
+   cout << "Hola";
+        !!object
+
+        /* */
+        // comment
+     <hr/>
+       (-> s vec)
+       (->> xs (map inc))
+   ((w) => w.Length)
+[X || X <- [1,2,3]]
+        <<-
+
+        ::keyword
+        #(+ 1 %)
+        #_form
+
+       (>>=) :: m a -> (a -> m b) -> m b
+       (=<<) :: Monad m => (a -> m b) -> m a -> m b
+
+
+(>>=) :: (Num a) => a -> a -> a
+a /=b ++ a <- c << [1..2] -<<
+a == w <- rng -< ()
+
+
+
+# Ruby
+=~
+!~
+#{abc}
+(. abc)
+(.- abc)
+<!!
+>!!
+<!
+>!
+~@ macro
+#'var
+#"regexp"
+*in*
+*out*

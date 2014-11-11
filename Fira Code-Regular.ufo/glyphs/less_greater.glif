@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_greater" format="1">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="600" y="-20" type="line"/>
+      <point x="1065" y="271" type="line"/>
+      <point x="1065" y="356" type="line"/>
+      <point x="600" y="645" type="line"/>
+      <point x="135" y="356" type="line"/>
+      <point x="135" y="271" type="line"/>
+    </contour>
+    <contour>
+      <point x="206" y="313" type="line"/>
+      <point x="601" y="556" type="line"/>
+      <point x="994" y="313" type="line"/>
+      <point x="599" y="69" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

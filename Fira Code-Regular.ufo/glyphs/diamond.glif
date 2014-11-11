@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="diamond" format="1">
+  <advance width="600"/>
+  <unicode hex="2666"/>
+  <outline>
+    <contour>
+      <point x="496" y="266" type="line"/>
+      <point x="300" y="539" type="line"/>
+      <point x="104" y="266" type="line"/>
+      <point x="300" y="-12" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

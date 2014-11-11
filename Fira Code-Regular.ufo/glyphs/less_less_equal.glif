@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_less_equal" format="1">
+  <advance width="1800"/>
+  <outline>
+    <contour>
+      <point x="1641" y="370" type="line"/>
+      <point x="759" y="370" type="line"/>
+      <point x="759" y="442" type="line"/>
+      <point x="1641" y="442" type="line"/>
+    </contour>
+    <contour>
+      <point x="1641" y="180" type="line"/>
+      <point x="759" y="180" type="line"/>
+      <point x="759" y="252" type="line"/>
+      <point x="1641" y="252" type="line"/>
+    </contour>
+    <contour>
+      <point x="557" y="356" type="line"/>
+      <point x="1001" y="571" type="line"/>
+      <point x="1033" y="506" type="line"/>
+      <point x="640" y="313" type="line" smooth="yes"/>
+      <point x="1033" y="121" type="line"/>
+      <point x="1001" y="57" type="line"/>
+      <point x="557" y="271" type="line"/>
+    </contour>
+    <contour>
+      <point x="187" y="356" type="line"/>
+      <point x="631" y="581" type="line"/>
+      <point x="663" y="516" type="line"/>
+      <point x="270" y="313" type="line"/>
+      <point x="663" y="111" type="line"/>
+      <point x="631" y="47" type="line"/>
+      <point x="187" y="271" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

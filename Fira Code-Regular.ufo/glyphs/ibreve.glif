@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ibreve" format="1">
+  <advance width="600"/>
+  <unicode hex="012D"/>
+  <outline>
+    <contour>
+      <point x="299" y="630" type="curve" smooth="yes"/>
+      <point x="391" y="630"/>
+      <point x="441" y="705"/>
+      <point x="449" y="765" type="curve"/>
+      <point x="392" y="778" type="line"/>
+      <point x="377" y="728"/>
+      <point x="347" y="694"/>
+      <point x="299" y="694" type="curve" smooth="yes"/>
+      <point x="252" y="694"/>
+      <point x="223" y="728"/>
+      <point x="209" y="778" type="curve"/>
+      <point x="152" y="765" type="line"/>
+      <point x="160" y="705"/>
+      <point x="208" y="630"/>
+    </contour>
+    <contour>
+      <point x="367" y="66" type="line"/>
+      <point x="367" y="526" type="line"/>
+      <point x="126" y="526" type="line"/>
+      <point x="126" y="461" type="line"/>
+      <point x="284" y="461" type="line"/>
+      <point x="284" y="66" type="line"/>
+      <point x="121" y="66" type="line"/>
+      <point x="121" y="0" type="line"/>
+      <point x="515" y="0" type="line"/>
+      <point x="515" y="66" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

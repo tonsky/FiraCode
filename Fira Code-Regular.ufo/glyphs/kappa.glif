@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kappa" format="1">
+  <advance width="600"/>
+  <unicode hex="03BA"/>
+  <outline>
+    <contour>
+      <point x="527" y="489" type="line"/>
+      <point x="457" y="538" type="line"/>
+      <point x="200" y="283" type="line"/>
+      <point x="398" y="67" type="line" smooth="yes"/>
+      <point x="438" y="25"/>
+      <point x="474" y="-3"/>
+      <point x="531" y="-11" type="curve"/>
+      <point x="560" y="57" type="line"/>
+      <point x="519" y="66"/>
+      <point x="492" y="84"/>
+      <point x="449" y="129" type="curve" smooth="yes"/>
+      <point x="301" y="285" type="line"/>
+    </contour>
+    <contour>
+      <point x="169" y="526" type="curve"/>
+      <point x="87" y="526" type="line"/>
+      <point x="103" y="467"/>
+      <point x="113" y="409"/>
+      <point x="113" y="340" type="curve" smooth="yes"/>
+      <point x="113" y="0" type="line"/>
+      <point x="196" y="0" type="line"/>
+      <point x="196" y="325" type="line" smooth="yes"/>
+      <point x="196" y="384"/>
+      <point x="192" y="462"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

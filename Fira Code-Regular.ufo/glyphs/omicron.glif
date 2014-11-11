@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="omicron" format="1">
+  <advance width="600"/>
+  <unicode hex="03BF"/>
+  <outline>
+    <contour>
+      <point x="301" y="538" type="curve" smooth="yes"/>
+      <point x="153" y="538"/>
+      <point x="74" y="425"/>
+      <point x="74" y="263" type="curve" smooth="yes"/>
+      <point x="74" y="97"/>
+      <point x="152" y="-11"/>
+      <point x="300" y="-11" type="curve" smooth="yes"/>
+      <point x="447" y="-11"/>
+      <point x="526" y="103"/>
+      <point x="526" y="264" type="curve" smooth="yes"/>
+      <point x="526" y="430"/>
+      <point x="449" y="538"/>
+    </contour>
+    <contour>
+      <point x="301" y="470" type="curve" smooth="yes"/>
+      <point x="391" y="470"/>
+      <point x="437" y="404"/>
+      <point x="437" y="264" type="curve" smooth="yes"/>
+      <point x="437" y="123"/>
+      <point x="391" y="57"/>
+      <point x="300" y="57" type="curve" smooth="yes"/>
+      <point x="209" y="57"/>
+      <point x="163" y="123"/>
+      <point x="163" y="263" type="curve" smooth="yes"/>
+      <point x="163" y="404"/>
+      <point x="210" y="470"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

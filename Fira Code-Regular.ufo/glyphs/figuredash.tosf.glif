@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="figuredash.tosf" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="35" y="348" type="line"/>
+      <point x="35" y="276" type="line"/>
+      <point x="565" y="276" type="line"/>
+      <point x="565" y="348" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

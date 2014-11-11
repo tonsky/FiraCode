@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="theta" format="1">
+  <advance width="600"/>
+  <unicode hex="03B8"/>
+  <outline>
+    <contour>
+      <point x="301" y="749" type="curve" smooth="yes"/>
+      <point x="153" y="749"/>
+      <point x="74" y="602"/>
+      <point x="74" y="371" type="curve" smooth="yes"/>
+      <point x="74" y="135"/>
+      <point x="152" y="-11"/>
+      <point x="300" y="-11" type="curve" smooth="yes"/>
+      <point x="447" y="-11"/>
+      <point x="526" y="141"/>
+      <point x="526" y="372" type="curve" smooth="yes"/>
+      <point x="526" y="608"/>
+      <point x="449" y="749"/>
+    </contour>
+    <contour>
+      <point x="301" y="679" type="curve" smooth="yes"/>
+      <point x="392" y="679"/>
+      <point x="435" y="598"/>
+      <point x="439" y="406" type="curve"/>
+      <point x="161" y="406" type="line"/>
+      <point x="165" y="598"/>
+      <point x="209" y="679"/>
+    </contour>
+    <contour>
+      <point x="161" y="339" type="curve"/>
+      <point x="438" y="339" type="line"/>
+      <point x="433" y="141"/>
+      <point x="390" y="57"/>
+      <point x="300" y="57" type="curve" smooth="yes"/>
+      <point x="210" y="57"/>
+      <point x="166" y="141"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

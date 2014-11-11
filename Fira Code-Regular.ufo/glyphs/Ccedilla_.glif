@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccedilla" format="1">
+  <advance width="600"/>
+  <unicode hex="00C7"/>
+  <outline>
+    <contour>
+      <point x="370" y="-57" type="curve"/>
+      <point x="370" y="-11" type="line"/>
+      <point x="464" y="-9"/>
+      <point x="527" y="24"/>
+      <point x="567" y="63" type="curve"/>
+      <point x="523" y="120" type="line"/>
+      <point x="486" y="90"/>
+      <point x="440" y="62"/>
+      <point x="363" y="62" type="curve" smooth="yes"/>
+      <point x="245" y="62"/>
+      <point x="153" y="139"/>
+      <point x="153" y="345" type="curve" smooth="yes"/>
+      <point x="153" y="556"/>
+      <point x="251" y="628"/>
+      <point x="364" y="628" type="curve" smooth="yes"/>
+      <point x="417" y="628"/>
+      <point x="465" y="613"/>
+      <point x="509" y="577" type="curve"/>
+      <point x="557" y="633" type="line"/>
+      <point x="503" y="676"/>
+      <point x="448" y="700"/>
+      <point x="358" y="700" type="curve" smooth="yes"/>
+      <point x="199" y="700"/>
+      <point x="64" y="577"/>
+      <point x="64" y="345" type="curve" smooth="yes"/>
+      <point x="64" y="137"/>
+      <point x="168" y="16"/>
+      <point x="311" y="-7" type="curve"/>
+      <point x="304" y="-97" type="line"/>
+      <point x="357" y="-97"/>
+      <point x="391" y="-104"/>
+      <point x="391" y="-140" type="curve" smooth="yes"/>
+      <point x="391" y="-170"/>
+      <point x="366" y="-182"/>
+      <point x="331" y="-182" type="curve" smooth="yes"/>
+      <point x="309" y="-182"/>
+      <point x="282" y="-176"/>
+      <point x="263" y="-166" type="curve"/>
+      <point x="236" y="-214" type="line"/>
+      <point x="262" y="-229"/>
+      <point x="301" y="-238"/>
+      <point x="341" y="-238" type="curve" smooth="yes"/>
+      <point x="405" y="-238"/>
+      <point x="462" y="-206"/>
+      <point x="462" y="-140" type="curve" smooth="yes"/>
+      <point x="462" y="-101"/>
+      <point x="435" y="-63"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

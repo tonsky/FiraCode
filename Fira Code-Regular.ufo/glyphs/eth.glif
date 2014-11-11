@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eth" format="1">
+  <advance width="600"/>
+  <unicode hex="00F0"/>
+  <outline>
+    <contour>
+      <point x="251" y="647" type="curve"/>
+      <point x="170" y="562" type="line"/>
+      <point x="229" y="532" type="line"/>
+      <point x="308" y="613" type="line"/>
+      <point x="372" y="566"/>
+      <point x="420" y="497"/>
+      <point x="438" y="412" type="curve"/>
+      <point x="400" y="456"/>
+      <point x="348" y="481"/>
+      <point x="280" y="481" type="curve" smooth="yes"/>
+      <point x="166" y="481"/>
+      <point x="67" y="383"/>
+      <point x="67" y="235" type="curve" smooth="yes"/>
+      <point x="67" y="77"/>
+      <point x="169" y="-11"/>
+      <point x="295" y="-11" type="curve" smooth="yes"/>
+      <point x="438" y="-11"/>
+      <point x="532" y="95"/>
+      <point x="532" y="263" type="curve" smooth="yes"/>
+      <point x="532" y="455"/>
+      <point x="478" y="583"/>
+      <point x="360" y="665" type="curve"/>
+      <point x="422" y="729" type="line"/>
+      <point x="371" y="773" type="line"/>
+      <point x="302" y="699" type="line"/>
+      <point x="261" y="721"/>
+      <point x="211" y="736"/>
+      <point x="152" y="749" type="curve"/>
+      <point x="134" y="683" type="line"/>
+      <point x="181" y="674"/>
+      <point x="218" y="663"/>
+    </contour>
+    <contour>
+      <point x="448" y="267" type="curve" smooth="yes"/>
+      <point x="448" y="128"/>
+      <point x="388" y="56"/>
+      <point x="294" y="56" type="curve" smooth="yes"/>
+      <point x="211" y="56"/>
+      <point x="152" y="120"/>
+      <point x="152" y="239" type="curve" smooth="yes"/>
+      <point x="152" y="361"/>
+      <point x="217" y="414"/>
+      <point x="290" y="414" type="curve" smooth="yes"/>
+      <point x="355" y="414"/>
+      <point x="411" y="386"/>
+      <point x="445" y="333" type="curve"/>
+      <point x="447" y="312"/>
+      <point x="448" y="291"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

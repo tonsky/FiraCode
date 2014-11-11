@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus.dnom" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="333" y="197" type="line"/>
+      <point x="333" y="287" type="line"/>
+      <point x="268" y="287" type="line"/>
+      <point x="268" y="197" type="line"/>
+      <point x="182" y="197" type="line"/>
+      <point x="182" y="135" type="line"/>
+      <point x="268" y="135" type="line"/>
+      <point x="268" y="46" type="line"/>
+      <point x="333" y="46" type="line"/>
+      <point x="333" y="135" type="line"/>
+      <point x="418" y="135" type="line"/>
+      <point x="418" y="197" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

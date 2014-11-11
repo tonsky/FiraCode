@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.tosf" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="546" y="42" type="line"/>
+      <point x="546" y="106" type="line"/>
+      <point x="446" y="106" type="line"/>
+      <point x="446" y="291" type="line"/>
+      <point x="376" y="291" type="line"/>
+      <point x="369" y="106" type="line"/>
+      <point x="151" y="106" type="line"/>
+      <point x="335" y="544" type="line"/>
+      <point x="265" y="573" type="line"/>
+      <point x="63" y="100" type="line"/>
+      <point x="63" y="42" type="line"/>
+      <point x="368" y="42" type="line"/>
+      <point x="368" y="-106" type="line"/>
+      <point x="446" y="-106" type="line"/>
+      <point x="446" y="42" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

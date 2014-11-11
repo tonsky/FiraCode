@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="chi" format="1">
+  <advance width="600"/>
+  <unicode hex="03C7"/>
+  <outline>
+    <contour>
+      <point x="552" y="-203" type="line"/>
+      <point x="357" y="188" type="line"/>
+      <point x="533" y="529" type="line"/>
+      <point x="446" y="533" type="line"/>
+      <point x="308" y="238" type="line"/>
+      <point x="246" y="398"/>
+      <point x="199" y="473"/>
+      <point x="136" y="537" type="curve"/>
+      <point x="55" y="506" type="line"/>
+      <point x="127" y="431"/>
+      <point x="170" y="377"/>
+      <point x="257" y="183" type="curve"/>
+      <point x="59" y="-202" type="line"/>
+      <point x="145" y="-208" type="line"/>
+      <point x="307" y="124" type="line"/>
+      <point x="466" y="-210" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

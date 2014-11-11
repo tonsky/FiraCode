@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imacron" format="1">
+  <advance width="600"/>
+  <unicode hex="012B"/>
+  <outline>
+    <contour>
+      <point x="166" y="676" type="line"/>
+      <point x="435" y="676" type="line"/>
+      <point x="435" y="740" type="line"/>
+      <point x="166" y="740" type="line"/>
+    </contour>
+    <contour>
+      <point x="367" y="66" type="line"/>
+      <point x="367" y="526" type="line"/>
+      <point x="126" y="526" type="line"/>
+      <point x="126" y="461" type="line"/>
+      <point x="284" y="461" type="line"/>
+      <point x="284" y="66" type="line"/>
+      <point x="121" y="66" type="line"/>
+      <point x="121" y="0" type="line"/>
+      <point x="515" y="0" type="line"/>
+      <point x="515" y="66" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

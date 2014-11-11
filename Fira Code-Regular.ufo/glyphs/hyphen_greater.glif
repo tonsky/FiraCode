@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen_greater" format="1">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="1100" y="310" type="line"/>
+      <point x="829" y="614" type="line"/>
+      <point x="767" y="562" type="line"/>
+      <point x="911" y="404" type="line" smooth="yes"/>
+      <point x="938" y="373"/>
+      <point x="946" y="365"/>
+      <point x="974" y="347" type="curve"/>
+      <point x="101" y="347" type="line"/>
+      <point x="101" y="273" type="line"/>
+      <point x="974" y="273" type="line"/>
+      <point x="950" y="258"/>
+      <point x="930" y="238"/>
+      <point x="911" y="216" type="curve" smooth="yes"/>
+      <point x="767" y="58" type="line"/>
+      <point x="829" y="6" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

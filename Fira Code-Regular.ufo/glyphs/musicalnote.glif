@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="musicalnote" format="1">
+  <advance width="600"/>
+  <unicode hex="266A"/>
+  <outline>
+    <contour>
+      <point x="385" y="496" type="curve" smooth="yes"/>
+      <point x="338" y="527" type="line"/>
+      <point x="290" y="527" type="line"/>
+      <point x="290" y="135" type="line"/>
+      <point x="275" y="143"/>
+      <point x="257" y="148"/>
+      <point x="234" y="148" type="curve" smooth="yes"/>
+      <point x="164" y="148"/>
+      <point x="109" y="108"/>
+      <point x="109" y="58" type="curve" smooth="yes"/>
+      <point x="109" y="12"/>
+      <point x="149" y="-12"/>
+      <point x="214" y="-12" type="curve" smooth="yes"/>
+      <point x="287" y="-12"/>
+      <point x="338" y="38"/>
+      <point x="338" y="78" type="curve" smooth="yes"/>
+      <point x="338" y="460" type="line"/>
+      <point x="361" y="445" type="line" smooth="yes"/>
+      <point x="406" y="416"/>
+      <point x="419" y="386"/>
+      <point x="419" y="307" type="curve"/>
+      <point x="448" y="295" type="line"/>
+      <point x="458" y="316"/>
+      <point x="466" y="343"/>
+      <point x="466" y="373" type="curve" smooth="yes"/>
+      <point x="466" y="426"/>
+      <point x="445" y="456"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

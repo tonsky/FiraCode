@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edotaccent" format="1">
+  <advance width="600"/>
+  <unicode hex="0116"/>
+  <outline>
+    <contour>
+      <point x="320" y="892" type="curve" smooth="yes"/>
+      <point x="284" y="892"/>
+      <point x="260" y="866"/>
+      <point x="260" y="833" type="curve" smooth="yes"/>
+      <point x="260" y="799"/>
+      <point x="284" y="774"/>
+      <point x="320" y="774" type="curve" smooth="yes"/>
+      <point x="357" y="774"/>
+      <point x="381" y="799"/>
+      <point x="381" y="833" type="curve" smooth="yes"/>
+      <point x="381" y="866"/>
+      <point x="357" y="892"/>
+    </contour>
+    <contour>
+      <point x="212" y="385" type="line"/>
+      <point x="212" y="618" type="line"/>
+      <point x="506" y="618" type="line"/>
+      <point x="516" y="688" type="line"/>
+      <point x="126" y="688" type="line"/>
+      <point x="126" y="0" type="line"/>
+      <point x="525" y="0" type="line"/>
+      <point x="525" y="69" type="line"/>
+      <point x="212" y="69" type="line"/>
+      <point x="212" y="314" type="line"/>
+      <point x="467" y="314" type="line"/>
+      <point x="467" y="385" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

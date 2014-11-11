@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdotless" format="1">
+  <advance width="600"/>
+  <unicode hex="0237"/>
+  <outline>
+    <contour>
+      <point x="445" y="83" type="curve" smooth="yes"/>
+      <point x="445" y="526" type="line"/>
+      <point x="142" y="526" type="line"/>
+      <point x="142" y="461" type="line"/>
+      <point x="362" y="461" type="line"/>
+      <point x="362" y="78" type="line" smooth="yes"/>
+      <point x="362" y="-63"/>
+      <point x="252" y="-122"/>
+      <point x="96" y="-148" type="curve"/>
+      <point x="110" y="-212" type="line"/>
+      <point x="321" y="-176"/>
+      <point x="445" y="-92"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

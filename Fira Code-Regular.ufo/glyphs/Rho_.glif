@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Rho" format="1">
+  <advance width="600"/>
+  <unicode hex="03A1"/>
+  <outline>
+    <contour>
+      <point x="557" y="477" type="curve" smooth="yes"/>
+      <point x="557" y="621"/>
+      <point x="455" y="688"/>
+      <point x="291" y="688" type="curve" smooth="yes"/>
+      <point x="117" y="688" type="line"/>
+      <point x="117" y="0" type="line"/>
+      <point x="202" y="0" type="line"/>
+      <point x="202" y="256" type="line"/>
+      <point x="291" y="256" type="line" smooth="yes"/>
+      <point x="446" y="256"/>
+      <point x="557" y="316"/>
+    </contour>
+    <contour>
+      <point x="465" y="476" type="curve" smooth="yes"/>
+      <point x="465" y="358"/>
+      <point x="395" y="325"/>
+      <point x="299" y="325" type="curve" smooth="yes"/>
+      <point x="202" y="325" type="line"/>
+      <point x="202" y="620" type="line"/>
+      <point x="302" y="620" type="line" smooth="yes"/>
+      <point x="396" y="620"/>
+      <point x="465" y="583"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

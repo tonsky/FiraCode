@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_asterisk" format="1">
+  <advance width="1200"/>
+  <outline>
+    <component base="slash" xOffset="82"/>
+    <component base="asterisk" xOffset="561"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Scircumflex" format="1">
+  <advance width="600"/>
+  <unicode hex="015C"/>
+  <outline>
+    <contour>
+      <point x="468" y="803" type="line"/>
+      <point x="334" y="910" type="line"/>
+      <point x="278" y="910" type="line"/>
+      <point x="142" y="803" type="line"/>
+      <point x="180" y="760" type="line"/>
+      <point x="305" y="841" type="line"/>
+      <point x="431" y="760" type="line"/>
+    </contour>
+    <contour>
+      <point x="536" y="191" type="curve" smooth="yes"/>
+      <point x="536" y="322"/>
+      <point x="442" y="367"/>
+      <point x="335" y="398" type="curve" smooth="yes"/>
+      <point x="204" y="436"/>
+      <point x="161" y="466"/>
+      <point x="161" y="525" type="curve" smooth="yes"/>
+      <point x="161" y="594"/>
+      <point x="224" y="628"/>
+      <point x="299" y="628" type="curve" smooth="yes"/>
+      <point x="358" y="628"/>
+      <point x="416" y="609"/>
+      <point x="465" y="565" type="curve"/>
+      <point x="516" y="621" type="line"/>
+      <point x="458" y="671"/>
+      <point x="391" y="700"/>
+      <point x="297" y="700" type="curve" smooth="yes"/>
+      <point x="165" y="700"/>
+      <point x="74" y="626"/>
+      <point x="74" y="523" type="curve" smooth="yes"/>
+      <point x="74" y="413"/>
+      <point x="160" y="364"/>
+      <point x="296" y="324" type="curve" smooth="yes"/>
+      <point x="415" y="289"/>
+      <point x="447" y="256"/>
+      <point x="447" y="189" type="curve" smooth="yes"/>
+      <point x="447" y="102"/>
+      <point x="370" y="61"/>
+      <point x="287" y="61" type="curve" smooth="yes"/>
+      <point x="202" y="61"/>
+      <point x="143" y="89"/>
+      <point x="95" y="134" type="curve"/>
+      <point x="44" y="76" type="line"/>
+      <point x="102" y="20"/>
+      <point x="185" y="-11"/>
+      <point x="285" y="-11" type="curve" smooth="yes"/>
+      <point x="445" y="-11"/>
+      <point x="536" y="72"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

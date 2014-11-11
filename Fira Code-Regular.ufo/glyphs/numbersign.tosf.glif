@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign.tosf" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="428" y="234" type="line"/>
+      <point x="458" y="456" type="line"/>
+      <point x="547" y="456" type="line"/>
+      <point x="547" y="521" type="line"/>
+      <point x="466" y="521" type="line"/>
+      <point x="490" y="688" type="line"/>
+      <point x="419" y="688" type="line"/>
+      <point x="397" y="521" type="line"/>
+      <point x="249" y="521" type="line"/>
+      <point x="273" y="688" type="line"/>
+      <point x="202" y="688" type="line"/>
+      <point x="180" y="521" type="line"/>
+      <point x="90" y="521" type="line"/>
+      <point x="90" y="456" type="line"/>
+      <point x="171" y="456" type="line"/>
+      <point x="141" y="234" type="line"/>
+      <point x="53" y="234" type="line"/>
+      <point x="53" y="170" type="line"/>
+      <point x="133" y="170" type="line"/>
+      <point x="110" y="0" type="line"/>
+      <point x="181" y="0" type="line"/>
+      <point x="203" y="170" type="line"/>
+      <point x="349" y="170" type="line"/>
+      <point x="327" y="0" type="line"/>
+      <point x="398" y="0" type="line"/>
+      <point x="419" y="170" type="line"/>
+      <point x="510" y="170" type="line"/>
+      <point x="510" y="234" type="line"/>
+    </contour>
+    <contour>
+      <point x="358" y="234" type="line"/>
+      <point x="212" y="234" type="line"/>
+      <point x="241" y="456" type="line"/>
+      <point x="388" y="456" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

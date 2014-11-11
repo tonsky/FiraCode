@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe" format="1">
+  <advance width="600"/>
+  <unicode hex="0149"/>
+  <outline>
+    <contour>
+      <point x="98" y="749" type="curve" smooth="yes"/>
+      <point x="67" y="749"/>
+      <point x="42" y="726"/>
+      <point x="42" y="696" type="curve" smooth="yes"/>
+      <point x="42" y="678"/>
+      <point x="52" y="663"/>
+      <point x="65" y="651" type="curve"/>
+      <point x="35" y="530" type="line"/>
+      <point x="84" y="530" type="line"/>
+      <point x="126" y="619" type="line" smooth="yes"/>
+      <point x="148" y="665"/>
+      <point x="152" y="679"/>
+      <point x="152" y="695" type="curve" smooth="yes"/>
+      <point x="152" y="726"/>
+      <point x="128" y="749"/>
+    </contour>
+    <contour>
+      <point x="109" y="526" type="line"/>
+      <point x="109" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="192" y="384" type="line"/>
+      <point x="220" y="425"/>
+      <point x="273" y="472"/>
+      <point x="335" y="472" type="curve" smooth="yes"/>
+      <point x="415" y="472"/>
+      <point x="426" y="428"/>
+      <point x="426" y="320" type="curve" smooth="yes"/>
+      <point x="426" y="0" type="line"/>
+      <point x="509" y="0" type="line"/>
+      <point x="509" y="382" type="line" smooth="yes"/>
+      <point x="509" y="480"/>
+      <point x="464" y="538"/>
+      <point x="361" y="538" type="curve" smooth="yes"/>
+      <point x="299" y="538"/>
+      <point x="229" y="507"/>
+      <point x="187" y="453" type="curve"/>
+      <point x="180" y="526" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

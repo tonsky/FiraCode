@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sigma" format="1">
+  <advance width="600"/>
+  <unicode hex="03A3"/>
+  <outline>
+    <contour>
+      <point x="174" y="72" type="line"/>
+      <point x="404" y="316" type="line"/>
+      <point x="404" y="377" type="line"/>
+      <point x="172" y="616" type="line"/>
+      <point x="527" y="616" type="line"/>
+      <point x="527" y="688" type="line"/>
+      <point x="73" y="688" type="line"/>
+      <point x="73" y="615" type="line"/>
+      <point x="328" y="344" type="line"/>
+      <point x="73" y="72" type="line"/>
+      <point x="73" y="0" type="line"/>
+      <point x="527" y="0" type="line"/>
+      <point x="527" y="72" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

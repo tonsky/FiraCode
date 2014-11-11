@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.dnom" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="435" y="221" type="curve" smooth="yes"/>
+      <point x="435" y="284"/>
+      <point x="387" y="327"/>
+      <point x="302" y="327" type="curve" smooth="yes"/>
+      <point x="246" y="327"/>
+      <point x="194" y="303"/>
+      <point x="154" y="256" type="curve"/>
+      <point x="205" y="218" type="line"/>
+      <point x="234" y="254"/>
+      <point x="267" y="267"/>
+      <point x="300" y="267" type="curve" smooth="yes"/>
+      <point x="337" y="267"/>
+      <point x="359" y="248"/>
+      <point x="359" y="218" type="curve" smooth="yes"/>
+      <point x="359" y="174"/>
+      <point x="319" y="150"/>
+      <point x="159" y="52" type="curve"/>
+      <point x="159" y="0" type="line"/>
+      <point x="436" y="0" type="line"/>
+      <point x="445" y="60" type="line"/>
+      <point x="266" y="60" type="line"/>
+      <point x="392" y="123"/>
+      <point x="435" y="157"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

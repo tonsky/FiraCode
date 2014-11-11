@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Xi" format="1">
+  <advance width="600"/>
+  <unicode hex="039E"/>
+  <outline>
+    <contour>
+      <point x="501" y="610" type="line"/>
+      <point x="513" y="688" type="line"/>
+      <point x="77" y="688" type="line"/>
+      <point x="77" y="610" type="line"/>
+    </contour>
+    <contour>
+      <point x="463" y="309" type="line"/>
+      <point x="463" y="389" type="line"/>
+      <point x="127" y="389" type="line"/>
+      <point x="127" y="309" type="line"/>
+    </contour>
+    <contour>
+      <point x="523" y="0" type="line"/>
+      <point x="523" y="80" type="line"/>
+      <point x="77" y="80" type="line"/>
+      <point x="77" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

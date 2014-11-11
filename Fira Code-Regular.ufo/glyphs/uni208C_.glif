@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni208C" format="1">
+  <advance width="600"/>
+  <unicode hex="208C"/>
+  <outline>
+    <contour>
+      <point x="416" y="2" type="line"/>
+      <point x="416" y="64" type="line"/>
+      <point x="183" y="64" type="line"/>
+      <point x="183" y="2" type="line"/>
+    </contour>
+    <contour>
+      <point x="416" y="-118" type="line"/>
+      <point x="416" y="-56" type="line"/>
+      <point x="183" y="-56" type="line"/>
+      <point x="183" y="-118" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

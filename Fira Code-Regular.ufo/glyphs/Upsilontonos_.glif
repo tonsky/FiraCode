@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilontonos" format="1">
+  <advance width="600"/>
+  <unicode hex="038E"/>
+  <outline>
+    <contour>
+      <point x="576" y="688" type="line"/>
+      <point x="487" y="688" type="line"/>
+      <point x="302" y="343" type="line"/>
+      <point x="119" y="688" type="line"/>
+      <point x="26" y="688" type="line"/>
+      <point x="-65" y="703" type="line"/>
+      <point x="-112" y="519" type="line"/>
+      <point x="-48" y="508" type="line"/>
+      <point x="25" y="686" type="line"/>
+      <point x="257" y="265" type="line"/>
+      <point x="257" y="0" type="line"/>
+      <point x="343" y="0" type="line"/>
+      <point x="343" y="266" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

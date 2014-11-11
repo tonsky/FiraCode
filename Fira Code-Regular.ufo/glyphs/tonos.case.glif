@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonos.case" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="278" y="703" type="line"/>
+      <point x="231" y="519" type="line"/>
+      <point x="295" y="508" type="line"/>
+      <point x="369" y="688" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

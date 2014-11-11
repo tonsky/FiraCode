@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="intersection" format="1">
+  <advance width="600"/>
+  <unicode hex="2229"/>
+  <outline>
+    <contour>
+      <point x="300" y="574" type="curve" smooth="yes"/>
+      <point x="175" y="574"/>
+      <point x="74" y="473"/>
+      <point x="74" y="348" type="curve" smooth="yes"/>
+      <point x="74" y="43" type="line"/>
+      <point x="146" y="43" type="line"/>
+      <point x="146" y="348" type="line" smooth="yes"/>
+      <point x="146" y="432"/>
+      <point x="216" y="502"/>
+      <point x="300" y="502" type="curve" smooth="yes"/>
+      <point x="384" y="502"/>
+      <point x="454" y="432"/>
+      <point x="454" y="348" type="curve" smooth="yes"/>
+      <point x="454" y="43" type="line"/>
+      <point x="526" y="43" type="line"/>
+      <point x="526" y="348" type="line" smooth="yes"/>
+      <point x="526" y="473"/>
+      <point x="425" y="574"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

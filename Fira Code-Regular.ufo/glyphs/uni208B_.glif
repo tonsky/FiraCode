@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni208B" format="1">
+  <advance width="600"/>
+  <unicode hex="208B"/>
+  <outline>
+    <contour>
+      <point x="416" y="-60" type="line"/>
+      <point x="416" y="2" type="line"/>
+      <point x="184" y="2" type="line"/>
+      <point x="184" y="-60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

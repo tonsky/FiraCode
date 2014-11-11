@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenright.dnom" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="307" y="159" type="curve" smooth="yes"/>
+      <point x="307" y="54"/>
+      <point x="284" y="4"/>
+      <point x="228" y="-80" type="curve"/>
+      <point x="275" y="-106" type="line"/>
+      <point x="335" y="-26"/>
+      <point x="378" y="37"/>
+      <point x="378" y="159" type="curve" smooth="yes"/>
+      <point x="378" y="282"/>
+      <point x="335" y="346"/>
+      <point x="275" y="426" type="curve"/>
+      <point x="228" y="399" type="line"/>
+      <point x="284" y="315"/>
+      <point x="307" y="266"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

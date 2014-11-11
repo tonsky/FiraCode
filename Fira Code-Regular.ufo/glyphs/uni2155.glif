@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2155" format="1">
+  <advance width="600"/>
+  <unicode hex="2155"/>
+  <outline>
+    <contour>
+      <point x="114" y="607" type="line"/>
+      <point x="114" y="368" type="line"/>
+      <point x="183" y="368" type="line"/>
+      <point x="183" y="689" type="line"/>
+      <point x="127" y="689" type="line"/>
+      <point x="-17" y="604" type="line"/>
+      <point x="18" y="555" type="line"/>
+    </contour>
+    <contour>
+      <point x="-16" y="237" type="line"/>
+      <point x="15" y="184" type="line"/>
+      <point x="549" y="440" type="line"/>
+      <point x="519" y="493" type="line"/>
+    </contour>
+    <contour>
+      <point x="619" y="109" type="curve" smooth="yes"/>
+      <point x="619" y="178"/>
+      <point x="570" y="214"/>
+      <point x="502" y="214" type="curve" smooth="yes"/>
+      <point x="479" y="214"/>
+      <point x="452" y="208"/>
+      <point x="432" y="199" type="curve"/>
+      <point x="432" y="262" type="line"/>
+      <point x="597" y="262" type="line"/>
+      <point x="603" y="321" type="line"/>
+      <point x="361" y="321" type="line"/>
+      <point x="361" y="145" type="line"/>
+      <point x="415" y="145" type="line"/>
+      <point x="436" y="156"/>
+      <point x="463" y="162"/>
+      <point x="481" y="162" type="curve" smooth="yes"/>
+      <point x="521" y="162"/>
+      <point x="544" y="145"/>
+      <point x="544" y="109" type="curve" smooth="yes"/>
+      <point x="544" y="72"/>
+      <point x="520" y="51"/>
+      <point x="473" y="51" type="curve" smooth="yes"/>
+      <point x="435" y="51"/>
+      <point x="402" y="64"/>
+      <point x="375" y="88" type="curve"/>
+      <point x="330" y="49" type="line"/>
+      <point x="370" y="9"/>
+      <point x="421" y="-6"/>
+      <point x="474" y="-6" type="curve" smooth="yes"/>
+      <point x="557" y="-6"/>
+      <point x="619" y="32"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

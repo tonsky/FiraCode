@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wcircumflex" format="1">
+  <advance width="600"/>
+  <unicode hex="0175"/>
+  <outline>
+    <contour>
+      <point x="137" y="670" type="line"/>
+      <point x="177" y="629" type="line"/>
+      <point x="301" y="720" type="line"/>
+      <point x="425" y="629" type="line"/>
+      <point x="463" y="670" type="line"/>
+      <point x="329" y="789" type="line"/>
+      <point x="273" y="789" type="line"/>
+    </contour>
+    <contour>
+      <point x="372" y="0" type="line"/>
+      <point x="490" y="0" type="line"/>
+      <point x="582" y="526" type="line"/>
+      <point x="501" y="526" type="line"/>
+      <point x="433" y="66" type="line"/>
+      <point x="429" y="66" type="line"/>
+      <point x="354" y="459" type="line"/>
+      <point x="255" y="459" type="line"/>
+      <point x="175" y="64" type="line"/>
+      <point x="171" y="64" type="line"/>
+      <point x="103" y="526" type="line"/>
+      <point x="18" y="526" type="line"/>
+      <point x="114" y="0" type="line"/>
+      <point x="229" y="0" type="line"/>
+      <point x="300" y="378" type="line"/>
+      <point x="304" y="378" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iota" format="1">
+  <advance width="600"/>
+  <unicode hex="03B9"/>
+  <outline>
+    <contour>
+      <point x="63" y="456" type="line"/>
+      <point x="241" y="456" type="line"/>
+      <point x="241" y="139" type="line" smooth="yes"/>
+      <point x="241" y="44"/>
+      <point x="303" y="-11"/>
+      <point x="397" y="-11" type="curve" smooth="yes"/>
+      <point x="445" y="-11"/>
+      <point x="498" y="2"/>
+      <point x="522" y="16" type="curve"/>
+      <point x="500" y="76" type="line"/>
+      <point x="471" y="65"/>
+      <point x="439" y="58"/>
+      <point x="411" y="58" type="curve" smooth="yes"/>
+      <point x="360" y="58"/>
+      <point x="324" y="77"/>
+      <point x="324" y="130" type="curve" smooth="yes"/>
+      <point x="324" y="526" type="line"/>
+      <point x="73" y="526" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

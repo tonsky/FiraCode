@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onefraction" format="1">
+  <advance width="600"/>
+  <unicode hex="215F"/>
+  <outline>
+    <contour>
+      <point x="148" y="607" type="line"/>
+      <point x="148" y="368" type="line"/>
+      <point x="217" y="368" type="line"/>
+      <point x="217" y="689" type="line"/>
+      <point x="161" y="689" type="line"/>
+      <point x="17" y="604" type="line"/>
+      <point x="52" y="555" type="line"/>
+    </contour>
+    <contour>
+      <point x="19" y="237" type="line"/>
+      <point x="49" y="184" type="line"/>
+      <point x="583" y="440" type="line"/>
+      <point x="554" y="493" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

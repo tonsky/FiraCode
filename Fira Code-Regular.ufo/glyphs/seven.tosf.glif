@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.tosf" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="500" y="499" type="line"/>
+      <point x="500" y="563" type="line"/>
+      <point x="92" y="563" type="line"/>
+      <point x="92" y="494" type="line"/>
+      <point x="416" y="494" type="line"/>
+      <point x="175" y="-92" type="line"/>
+      <point x="250" y="-117" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

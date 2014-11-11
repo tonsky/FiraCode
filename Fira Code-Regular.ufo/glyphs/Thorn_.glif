@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Thorn" format="1">
+  <advance width="600"/>
+  <unicode hex="00DE"/>
+  <outline>
+    <contour>
+      <point x="193" y="572" type="line"/>
+      <point x="193" y="688" type="line"/>
+      <point x="108" y="688" type="line"/>
+      <point x="108" y="0" type="line"/>
+      <point x="193" y="0" type="line"/>
+      <point x="193" y="128" type="line"/>
+      <point x="292" y="128" type="line" smooth="yes"/>
+      <point x="446" y="128"/>
+      <point x="555" y="194"/>
+      <point x="555" y="355" type="curve" smooth="yes"/>
+      <point x="555" y="504"/>
+      <point x="458" y="572"/>
+      <point x="293" y="572" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="193" y="504" type="line"/>
+      <point x="303" y="504" type="line" smooth="yes"/>
+      <point x="399" y="504"/>
+      <point x="465" y="461"/>
+      <point x="465" y="353" type="curve" smooth="yes"/>
+      <point x="465" y="232"/>
+      <point x="398" y="197"/>
+      <point x="304" y="197" type="curve" smooth="yes"/>
+      <point x="193" y="197" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

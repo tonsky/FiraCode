@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0303"/>
+  <outline>
+    <contour>
+      <point x="353" y="598" type="curve" smooth="yes"/>
+      <point x="409" y="598"/>
+      <point x="444" y="639"/>
+      <point x="463" y="683" type="curve"/>
+      <point x="409" y="707" type="line"/>
+      <point x="393" y="679"/>
+      <point x="380" y="663"/>
+      <point x="358" y="663" type="curve" smooth="yes"/>
+      <point x="327" y="663"/>
+      <point x="308" y="711"/>
+      <point x="249" y="711" type="curve" smooth="yes"/>
+      <point x="192" y="711"/>
+      <point x="158" y="672"/>
+      <point x="138" y="627" type="curve"/>
+      <point x="192" y="603" type="line"/>
+      <point x="208" y="631"/>
+      <point x="221" y="647"/>
+      <point x="243" y="647" type="curve" smooth="yes"/>
+      <point x="274" y="647"/>
+      <point x="295" y="598"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

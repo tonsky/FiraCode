@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcaron" format="1">
+  <advance width="600"/>
+  <unicode hex="0165"/>
+  <outline>
+    <contour>
+      <point x="518" y="26" type="curve"/>
+      <point x="486" y="83" type="line"/>
+      <point x="457" y="68"/>
+      <point x="424" y="58"/>
+      <point x="385" y="58" type="curve" smooth="yes"/>
+      <point x="312" y="58"/>
+      <point x="284" y="89"/>
+      <point x="284" y="148" type="curve" smooth="yes"/>
+      <point x="284" y="462" type="line"/>
+      <point x="456" y="462" type="line"/>
+      <point x="466" y="526" type="line"/>
+      <point x="284" y="526" type="line"/>
+      <point x="284" y="656" type="line"/>
+      <point x="201" y="646" type="line"/>
+      <point x="201" y="526" type="line"/>
+      <point x="80" y="526" type="line"/>
+      <point x="80" y="462" type="line"/>
+      <point x="201" y="462" type="line"/>
+      <point x="201" y="147" type="line" smooth="yes"/>
+      <point x="201" y="54"/>
+      <point x="265" y="-11"/>
+      <point x="377" y="-11" type="curve" smooth="yes"/>
+      <point x="426" y="-11"/>
+      <point x="482" y="3"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

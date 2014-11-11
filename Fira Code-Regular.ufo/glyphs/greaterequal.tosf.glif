@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal.tosf" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="492" y="385" type="line"/>
+      <point x="141" y="546" type="line"/>
+      <point x="107" y="476" type="line"/>
+      <point x="428" y="339" type="line"/>
+      <point x="107" y="209" type="line"/>
+      <point x="141" y="142" type="line"/>
+      <point x="492" y="296" type="line"/>
+    </contour>
+    <contour>
+      <point x="493" y="0" type="line"/>
+      <point x="493" y="73" type="line"/>
+      <point x="125" y="73" type="line"/>
+      <point x="125" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.loclPLK" format="1">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="385" y="728" type="line"/>
+      <point x="320" y="770" type="line"/>
+      <point x="215" y="602" type="line"/>
+      <point x="256" y="576" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
