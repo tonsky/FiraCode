@@ -10,13 +10,13 @@ Fira Code is a Fira Mono font extended with a set of ligatures for common progra
 
 ### Fira Code (with ligatures):
 
-<img src="./blob/master/firacode.png" style="width: 742px; height: 187px;"/>
+<img src="./firacode.png" style="width: 742px; height: 187px;"/>
 
 Compare to Fira Mono (without ligatures):
 
-<img src="./blob/master/firamono.png" style="width: 742px; height: 187px;"/>
+<img src="./firamono.png" style="width: 742px; height: 187px;"/>
 
-#### [Download Fira Code v0.1](./releases/download/0.1/FiraCode-Regular.otf)
+#### [Download Fira Code v0.1](https://github.com/tonsky/FiraCode/releases/download/0.1/FiraCode-Regular.otf)
 
 ### Editor support
 
