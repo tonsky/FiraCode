@@ -3,7 +3,7 @@
    true != false
    true !== false
       n >= 0
-      i <= Interger.MAX_INT
+      i <= Integer.MAX_INT
    A.id <> NULL
    true <=> false
 
