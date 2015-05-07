@@ -1,6 +1,6 @@
 ## Fira Code: monospaced font with programming ligatures
 
-#### [Download Fira Code v0.2](https://github.com/tonsky/FiraCode/releases/download/0.2/FiraCode-Regular.otf)
+#### [Download Fira Code v0.2.1](https://github.com/tonsky/FiraCode/releases/download/0.2.1/FiraCode-Regular.otf)
 
 ### Problem
 
@@ -55,11 +55,15 @@ Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligat
 
 ### Changelog
 
-Version 0.2:
+**Version 0.2.1:**
+
+Fixed witdh of `&&` and `||`
+
+**Version 0.2:**
 
 `-->` `<--` `&&` `||` `=>>` `=/=`
 
-Version 0.1:
+**Version 0.1:**
 
 `>>=` `=<<` `<<=` `->>` `->` `=>` `<<-` `<-`  
 `===` `==` `<=>` `>=` `<=` `>>` `<<` `!==` `!=` `<>`  
