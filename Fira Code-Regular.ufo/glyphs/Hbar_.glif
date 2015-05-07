@@ -4,6 +4,12 @@
   <unicode hex="0126"/>
   <outline>
     <contour>
+      <point x="431" y="509" type="line"/>
+      <point x="431" y="398" type="line"/>
+      <point x="169" y="398" type="line"/>
+      <point x="169" y="509" type="line"/>
+    </contour>
+    <contour>
       <point x="598" y="509" type="line"/>
       <point x="598" y="575" type="line"/>
       <point x="517" y="575" type="line"/>
@@ -24,12 +30,6 @@
       <point x="431" y="0" type="line"/>
       <point x="517" y="0" type="line"/>
       <point x="517" y="509" type="line"/>
-    </contour>
-    <contour>
-      <point x="431" y="509" type="line"/>
-      <point x="431" y="398" type="line"/>
-      <point x="169" y="398" type="line"/>
-      <point x="169" y="509" type="line"/>
     </contour>
   </outline>
   <lib>

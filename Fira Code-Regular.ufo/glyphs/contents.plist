@@ -378,6 +378,8 @@
 	<string>amacron.glif</string>
 	<key>ampersand</key>
 	<string>ampersand.glif</string>
+	<key>ampersand_ampersand</key>
+	<string>ampersand_ampersand.glif</string>
 	<key>aogonek</key>
 	<string>aogonek.glif</string>
 	<key>approxequal</key>
@@ -424,6 +426,8 @@
 	<string>backslash.glif</string>
 	<key>bar</key>
 	<string>bar.glif</string>
+	<key>bar_bar</key>
+	<string>bar_bar.glif</string>
 	<key>beta</key>
 	<string>beta.glif</string>
 	<key>blackDiamond</key>
@@ -644,8 +648,12 @@
 	<string>equal_equal_equal.glif</string>
 	<key>equal_greater</key>
 	<string>equal_greater.glif</string>
+	<key>equal_greater_greater</key>
+	<string>equal_greater_greater.glif</string>
 	<key>equal_less_less</key>
 	<string>equal_less_less.glif</string>
+	<key>equal_slash_equal</key>
+	<string>equal_slash_equal.glif</string>
 	<key>equalsuperior</key>
 	<string>equalsuperior.glif</string>
 	<key>equivalence</key>
@@ -792,6 +800,8 @@
 	<string>hyphen_greater.glif</string>
 	<key>hyphen_greater_greater</key>
 	<string>hyphen_greater_greater.glif</string>
+	<key>hyphen_hyphen_greater</key>
+	<string>hyphen_hyphen_greater.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
 	<key>i.loclTRK</key>
@@ -882,6 +892,8 @@
 	<string>less_greater.glif</string>
 	<key>less_hyphen</key>
 	<string>less_hyphen.glif</string>
+	<key>less_hyphen_hyphen</key>
+	<string>less_hyphen_hyphen.glif</string>
 	<key>less_less</key>
 	<string>less_less.glif</string>
 	<key>less_less_equal</key>

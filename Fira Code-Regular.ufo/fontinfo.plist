@@ -15,7 +15,7 @@
 	<key>italicAngle</key>
 	<real>0.0</real>
 	<key>openTypeHeadCreated</key>
-	<string>2014/07/07 17:39:01</string>
+	<string>2014/11/11 23:02:05</string>
 	<key>openTypeHeadFlags</key>
 	<array>
 		<integer>0</integer>
@@ -50,7 +50,7 @@
 	<key>openTypeNameUniqueID</key>
 	<string>3.111;CTDB;FiraCode-Regular</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 3.111;PS 003.111;hotconv 1.0.70;makeotf.lib2.5.58329</string>
+	<string>Version 3.111;PS 3.111;hotconv 1.0.72;makeotf.lib2.5.5900</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -59,8 +59,6 @@
 		<integer>3</integer>
 		<integer>4</integer>
 		<integer>7</integer>
-		<integer>32</integer>
-		<integer>33</integer>
 	</array>
 	<key>openTypeOS2Panose</key>
 	<array>
@@ -114,12 +112,12 @@
 		<integer>1</integer>
 		<integer>2</integer>
 		<integer>7</integer>
-		<integer>10</integer>
+		<integer>11</integer>
 		<integer>32</integer>
-		<integer>44</integer>
 		<integer>45</integer>
 		<integer>46</integer>
-		<integer>60</integer>
+		<integer>47</integer>
+		<integer>63</integer>
 	</array>
 	<key>openTypeOS2VendorID</key>
 	<string>CTDB</string>
@@ -186,7 +184,7 @@
 		<integer>83</integer>
 	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-75</integer>
+	<integer>-50</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>50</integer>
 	<key>postscriptWeightName</key>

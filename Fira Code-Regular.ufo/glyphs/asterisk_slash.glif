@@ -2,8 +2,29 @@
 <glyph name="asterisk_slash" format="1">
   <advance width="1200"/>
   <outline>
-    <component base="slash" xOffset="518"/>
-    <component base="asterisk" xOffset="39"/>
+    <contour>
+      <point x="571" y="-73" type="line"/>
+      <point x="638" y="-103" type="line"/>
+      <point x="1065" y="777" type="line"/>
+      <point x="999" y="809" type="line"/>
+    </contour>
+    <contour>
+      <point x="366" y="362" type="line"/>
+      <point x="381" y="526" type="line"/>
+      <point x="297" y="526" type="line"/>
+      <point x="311" y="362" type="line"/>
+      <point x="161" y="425" type="line"/>
+      <point x="135" y="345" type="line"/>
+      <point x="295" y="309" type="line"/>
+      <point x="188" y="182" type="line"/>
+      <point x="259" y="135" type="line"/>
+      <point x="340" y="278" type="line"/>
+      <point x="427" y="137" type="line"/>
+      <point x="495" y="189" type="line"/>
+      <point x="385" y="309" type="line"/>
+      <point x="543" y="345" type="line"/>
+      <point x="518" y="425" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

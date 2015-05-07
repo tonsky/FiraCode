@@ -4,20 +4,6 @@
   <unicode hex="04F9"/>
   <outline>
     <contour>
-      <point x="196" y="648" type="curve" smooth="yes"/>
-      <point x="226" y="648"/>
-      <point x="250" y="671"/>
-      <point x="250" y="701" type="curve" smooth="yes"/>
-      <point x="250" y="732"/>
-      <point x="226" y="755"/>
-      <point x="196" y="755" type="curve" smooth="yes"/>
-      <point x="165" y="755"/>
-      <point x="142" y="732"/>
-      <point x="142" y="701" type="curve" smooth="yes"/>
-      <point x="142" y="671"/>
-      <point x="165" y="648"/>
-    </contour>
-    <contour>
       <point x="402" y="648" type="curve" smooth="yes"/>
       <point x="434" y="648"/>
       <point x="457" y="671"/>
@@ -32,6 +18,26 @@
       <point x="372" y="648"/>
     </contour>
     <contour>
+      <point x="196" y="648" type="curve" smooth="yes"/>
+      <point x="226" y="648"/>
+      <point x="250" y="671"/>
+      <point x="250" y="701" type="curve" smooth="yes"/>
+      <point x="250" y="732"/>
+      <point x="226" y="755"/>
+      <point x="196" y="755" type="curve" smooth="yes"/>
+      <point x="165" y="755"/>
+      <point x="142" y="732"/>
+      <point x="142" y="701" type="curve" smooth="yes"/>
+      <point x="142" y="671"/>
+      <point x="165" y="648"/>
+    </contour>
+    <contour>
+      <point x="538" y="0" type="line"/>
+      <point x="538" y="526" type="line"/>
+      <point x="457" y="526" type="line"/>
+      <point x="457" y="0" type="line"/>
+    </contour>
+    <contour>
       <point x="142" y="355" type="line"/>
       <point x="142" y="526" type="line"/>
       <point x="62" y="526" type="line"/>
@@ -43,12 +49,6 @@
       <point x="402" y="304"/>
       <point x="317" y="355"/>
       <point x="178" y="355" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="538" y="0" type="line"/>
-      <point x="538" y="526" type="line"/>
-      <point x="457" y="526" type="line"/>
-      <point x="457" y="0" type="line"/>
     </contour>
     <contour>
       <point x="142" y="293" type="line"/>

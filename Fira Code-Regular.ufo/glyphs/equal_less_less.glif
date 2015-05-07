@@ -2,7 +2,34 @@
 <glyph name="equal_less_less" format="1">
   <advance width="1800"/>
   <outline>
-    <component base="greater_greater_equal" xScale="-0.999799638444" xOffset="1800"/>
+    <contour>
+      <point x="1137" y="271" type="line"/>
+      <point x="1581" y="57" type="line"/>
+      <point x="1613" y="121" type="line"/>
+      <point x="1220" y="313" type="line"/>
+      <point x="1613" y="506" type="line"/>
+      <point x="1581" y="571" type="line"/>
+      <point x="1137" y="356" type="line"/>
+    </contour>
+    <contour>
+      <point x="1181" y="47" type="line"/>
+      <point x="1213" y="111" type="line"/>
+      <point x="820" y="313" type="line"/>
+      <point x="1213" y="516" type="line"/>
+      <point x="1181" y="581" type="line"/>
+      <point x="907" y="442" type="line"/>
+      <point x="159" y="442" type="line"/>
+      <point x="159" y="370" type="line"/>
+      <point x="714" y="370" type="line"/>
+      <point x="786" y="381" type="line"/>
+      <point x="652" y="313" type="line"/>
+      <point x="796" y="240" type="line"/>
+      <point x="715" y="252" type="line"/>
+      <point x="159" y="252" type="line"/>
+      <point x="159" y="180" type="line"/>
+      <point x="912" y="180" type="line"/>
+      <point x="909" y="184" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

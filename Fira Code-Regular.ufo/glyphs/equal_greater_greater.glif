@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_greater_greater" format="1">
+  <advance width="1800"/>
+  <outline>
+    <contour>
+      <point x="1385" y="312" type="line"/>
+      <point x="1114" y="616" type="line"/>
+      <point x="1052" y="564" type="line"/>
+      <point x="1101" y="501" type="line"/>
+      <point x="1128" y="470"/>
+      <point x="1136" y="462"/>
+      <point x="1164" y="444" type="curve"/>
+      <point x="101" y="444" type="line"/>
+      <point x="101" y="372" type="line"/>
+      <point x="1216" y="372" type="line"/>
+      <point x="1278" y="313" type="line"/>
+      <point x="1216" y="254" type="line"/>
+      <point x="101" y="254" type="line"/>
+      <point x="101" y="182" type="line"/>
+      <point x="1166" y="182" type="line"/>
+      <point x="1142" y="167"/>
+      <point x="1122" y="147"/>
+      <point x="1103" y="125" type="curve" smooth="yes"/>
+      <point x="1052" y="60" type="line"/>
+      <point x="1114" y="8" type="line"/>
+    </contour>
+    <contour>
+      <point x="1699" y="312" type="line"/>
+      <point x="1428" y="616" type="line"/>
+      <point x="1366" y="564" type="line"/>
+      <point x="1590" y="312" type="line"/>
+      <point x="1366" y="60" type="line"/>
+      <point x="1428" y="8" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

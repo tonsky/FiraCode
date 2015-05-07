@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ampersand_ampersand" format="1">
+  <advance width="900"/>
+  <outline>
+    <contour>
+      <point x="700" y="62" type="line"/>
+      <point x="487" y="465" type="line"/>
+      <point x="413" y="465" type="line"/>
+      <point x="200" y="62" type="line"/>
+      <point x="289" y="62" type="line"/>
+      <point x="449" y="391" type="line"/>
+      <point x="609" y="62" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
