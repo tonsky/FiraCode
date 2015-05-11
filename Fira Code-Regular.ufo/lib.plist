@@ -2375,6 +2375,9 @@
 		<string>equal_greater_greater</string>
 		<string>less_hyphen_hyphen</string>
 		<string>hyphen_hyphen_greater</string>
+		<string>asciitilde_at</string>
+		<string>numbersign_question</string>
+		<string>equal_colon_equal</string>
 	</array>
 </dict>
 </plist>

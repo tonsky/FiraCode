@@ -1,4 +1,7 @@
 feature liga {
+sub numbersign question by numbersign_question;
+sub asciitilde at by asciitilde_at;
+sub equal colon equal by equal_colon_equal;
 sub equal greater greater by equal_greater_greater;
 sub hyphen hyphen greater by hyphen_hyphen_greater;
 sub less hyphen hyphen by less_hyphen_hyphen;
@@ -27,6 +30,7 @@ sub less equal greater by less_equal_greater;
 sub less hyphen by less_hyphen;
 sub less less by less_less;
 sub less equal by less_equal;
+sub equal less by less_equal;
 sub less greater by less_greater;
 sub equal less less by equal_less_less;
 sub equal equal equal by equal_equal_equal;

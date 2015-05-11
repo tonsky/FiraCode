@@ -412,6 +412,8 @@
 	<string>asciitilde.glif</string>
 	<key>asciitilde.tosf</key>
 	<string>asciitilde.tosf.glif</string>
+	<key>asciitilde_at</key>
+	<string>asciitilde_at.glif</string>
 	<key>asterisk</key>
 	<string>asterisk.glif</string>
 	<key>asterisk_slash</key>
@@ -642,6 +644,8 @@
 	<string>equal.numr.glif</string>
 	<key>equal.tosf</key>
 	<string>equal.tosf.glif</string>
+	<key>equal_colon_equal</key>
+	<string>equal_colon_equal.glif</string>
 	<key>equal_equal</key>
 	<string>equal_equal.glif</string>
 	<key>equal_equal_equal</key>
@@ -984,6 +988,8 @@
 	<string>numbersign.tosf.glif</string>
 	<key>numbersign_parenleft</key>
 	<string>numbersign_parenleft.glif</string>
+	<key>numbersign_question</key>
+	<string>numbersign_question.glif</string>
 	<key>numbersign_underscore</key>
 	<string>numbersign_underscore.glif</string>
 	<key>o</key>
