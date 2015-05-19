@@ -57,7 +57,7 @@ Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligat
 
 **0.3**: `~@` `#?` `=:=` `=<`
 
-**0.2.1**: Fixed witdh of `&&` and `||`
+**0.2.1**: Fixed width of `&&` and `||`
 
 **0.2**: `-->` `<--` `&&` `||` `=>>` `=/=`
 
