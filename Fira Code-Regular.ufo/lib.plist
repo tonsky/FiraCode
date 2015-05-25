@@ -15,7 +15,7 @@
 	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.path</key>
-	<string>/Users/prokopov/Desktop/FiraCode-Regular.otf</string>
+	<string>/Users/prokopov/Dropbox/Public/Fonts/FiraCode/FiraCode-Regular.otf</string>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
@@ -1198,6 +1198,12 @@
 				<string>equal_greater_greater</string>
 				<string>less_hyphen_hyphen</string>
 				<string>hyphen_hyphen_greater</string>
+				<string>asciitilde_at</string>
+				<string>numbersign_question</string>
+				<string>equal_colon_equal</string>
+				<string>asciitilde_equal</string>
+				<string>numbersign_bracketleft</string>
+				<string>asciitilde_asciitilde</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -2378,6 +2384,9 @@
 		<string>asciitilde_at</string>
 		<string>numbersign_question</string>
 		<string>equal_colon_equal</string>
+		<string>asciitilde_equal</string>
+		<string>numbersign_bracketleft</string>
+		<string>asciitilde_asciitilde</string>
 	</array>
 </dict>
 </plist>

@@ -1,6 +1,6 @@
 ## Fira Code: monospaced font with programming ligatures
 
-#### [Download Fira Code v0.3](https://github.com/tonsky/FiraCode/releases/download/0.3/FiraCode-Regular.otf)
+#### [Download Fira Code v0.4](https://github.com/tonsky/FiraCode/releases/download/0.4/FiraCode-Regular.otf)
 
 ### Problem
 
@@ -12,11 +12,11 @@ Fira Code is a Fira Mono font extended with a set of ligatures for common progra
 
 ### Fira Code (with ligatures):
 
-<img src="./showcases/all_ligatures.png" style="width: 728px; height: 175px;"/>
+<img src="./showcases/all_ligatures.png" />
 
 Compare to Fira Mono (without ligatures):
 
-<img src="./showcases/no_ligatures.png" style="width: 728px; height: 175px;"/>
+<img src="./showcases/no_ligatures.png" />
 
 ### Editor support
 
@@ -28,23 +28,23 @@ _Note:_ I’m not a font designer, and Fira Code is built in sort of [a hacky wa
 
 Erlang:
 
-<img src="./showcases/erlang.png" width="405" height="433" />
+<img src="./showcases/erlang.png" />
 
 Go:
 
-<img src="./showcases/go.png" width="274" height="171"/>
+<img src="./showcases/go.png" />
 
 Haskell:
 
-<img src="./showcases/haskell.png" width="319" height="265"/>
+<img src="./showcases/haskell.png" />
 
 JavaScript:
 
-<img src="./showcases/javascript.png" width="361" height="183"/>
+<img src="./showcases/javascript.png" />
 
 Ruby:
 
-<img src="./showcases/ruby.png" width="464" height="143"/>
+<img src="./showcases/ruby.png" />
 
 
 ### Credits
@@ -54,6 +54,12 @@ This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/F
 Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligatures for Haskell code
 
 ### Changelog
+
+**0.4**:
+
+- Added `~=` `~~` `#[`
+- Rolled back `&&` and `||` to more traditional look
+- `===` and `!==` are now rendered with 3 horisontal bars
 
 **0.3**: `~@` `#?` `=:=` `=<`
 

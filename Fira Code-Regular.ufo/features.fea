@@ -1,4 +1,7 @@
 feature liga {
+sub asciitilde equal by asciitilde_equal;
+sub asciitilde asciitilde by asciitilde_asciitilde;
+sub numbersign bracketleft by numbersign_bracketleft;
 sub numbersign question by numbersign_question;
 sub asciitilde at by asciitilde_at;
 sub equal colon equal by equal_colon_equal;

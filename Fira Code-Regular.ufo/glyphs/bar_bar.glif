@@ -2,15 +2,8 @@
 <glyph name="bar_bar" format="1">
   <advance width="1200"/>
   <outline>
-    <contour>
-      <point x="350" y="464" type="line"/>
-      <point x="563" y="61" type="line"/>
-      <point x="637" y="61" type="line"/>
-      <point x="850" y="464" type="line"/>
-      <point x="761" y="464" type="line"/>
-      <point x="601" y="135" type="line"/>
-      <point x="441" y="464" type="line"/>
-    </contour>
+    <component base="bar" xOffset="463"/>
+    <component base="bar" xOffset="138"/>
   </outline>
   <lib>
     <dict>
