@@ -2,7 +2,7 @@ $firacode-font-path: "../fonts";
 
 @each $font-face in "FiraCode-Regular" {
   @font-face {
-    font-family: $font-face, monospace;
+    font-family: $font-face;
     font-style: normal;
     font-weight: normal;
     src: url('#{$firacode-font-path}/#{$font-face}.eot');

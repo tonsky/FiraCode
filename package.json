@@ -10,7 +10,8 @@
     "eot": "./node_modules/.bin/ttf2eot FiraCode-Regular.ttf dist/fonts/FiraCode-Regular.eot",
     "svg": "./node_modules/.bin/ttf2svg FiraCode-Regular.ttf && mv FiraCode-Regular.svg dist/fonts/",
     "sass": "./node_modules/.bin/node-sass ./scss/FiraCode.scss  -o dist/css/",
-    "build": "npm run clean && npm run cp && npm run woff && npm run eot && npm run svg && npm run sass"
+    "jade": "./node_modules/.bin/jade jade/*.jade -o dist/",
+    "build": "npm run clean && npm run cp && npm run woff && npm run eot && npm run svg && npm run sass && npm run jade"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "ttf2woff": "~1.3.0",
     "ttf2svg": "0.0.7",
     "ttf2eot": "~1.3.0",
-    "node-sass": "~3.1.2"
+    "node-sass": "~3.1.2",
+    "jade": "~1.9.2"
   }
 }
