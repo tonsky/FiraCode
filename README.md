@@ -26,6 +26,15 @@ _Note:_ I’m not a font designer, and Fira Code is built in sort of [a hacky wa
 
 ### Code examples
 
+Ruby:
+
+<img src="./showcases/ruby.png" />
+
+JavaScript:
+
+<img src="./showcases/javascript.png" />
+
+
 Erlang:
 
 <img src="./showcases/erlang.png" />
@@ -37,15 +46,6 @@ Go:
 Haskell:
 
 <img src="./showcases/haskell.png" />
-
-JavaScript:
-
-<img src="./showcases/javascript.png" />
-
-Ruby:
-
-<img src="./showcases/ruby.png" />
-
 
 ### Credits
 
