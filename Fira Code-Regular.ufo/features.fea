@@ -1,4 +1,12 @@
 feature liga {
+sub less slash by less_slash;
+sub numbersign braceleft by numbersign_braceleft;
+sub hyphen asciitilde by hyphen_asciitilde;
+sub asciitilde hyphen by asciitilde_hyphen;
+sub less equal equal by less_equal_equal;
+sub equal equal greater by equal_equal_greater;
+sub slash slash slash by slash_slash_slash;
+sub semicolon semicolon by semicolon_semicolon;
 sub asciitilde equal by asciitilde_equal;
 sub asciitilde asciitilde by asciitilde_asciitilde;
 sub numbersign bracketleft by numbersign_bracketleft;

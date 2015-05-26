@@ -13,9 +13,9 @@
 	<key>com.typemytype.robofont.compileSettings.decompose</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.path</key>
-	<string>/Users/prokopov/Dropbox/Public/Fonts/FiraCode/FiraCode-Regular.otf</string>
+	<string>/Users/prokopov/Dropbox/Public/Fonts/FiraCode/FiraCode-Regular.ttf</string>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
@@ -1204,6 +1204,13 @@
 				<string>asciitilde_equal</string>
 				<string>numbersign_bracketleft</string>
 				<string>asciitilde_asciitilde</string>
+				<string>numbersign_braceleft</string>
+				<string>asciitilde_hyphen</string>
+				<string>hyphen_asciitilde</string>
+				<string>less_equal_equal</string>
+				<string>slash_slash_slash</string>
+				<string>equal_equal_greater</string>
+				<string>semicolon_semicolon</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -2387,6 +2394,14 @@
 		<string>asciitilde_equal</string>
 		<string>numbersign_bracketleft</string>
 		<string>asciitilde_asciitilde</string>
+		<string>numbersign_braceleft</string>
+		<string>asciitilde_hyphen</string>
+		<string>hyphen_asciitilde</string>
+		<string>less_equal_equal</string>
+		<string>slash_slash_slash</string>
+		<string>equal_equal_greater</string>
+		<string>semicolon_semicolon</string>
+		<string>less_slash</string>
 	</array>
 </dict>
 </plist>

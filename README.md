@@ -1,6 +1,6 @@
 ## Fira Code: monospaced font with programming ligatures
 
-#### [Download Fira Code v0.4](https://github.com/tonsky/FiraCode/releases/download/0.4/FiraCode-Regular.otf)
+#### [Download Fira Code v0.5](https://github.com/tonsky/FiraCode/releases/download/0.5/FiraCode-Regular.otf)
 
 ### Problem
 
@@ -54,6 +54,8 @@ This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/F
 Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligatures for Haskell code
 
 ### Changelog
+
+**0.5**: `#{` `~-` `-~` `<==` `==>` `///` `;;` `</`
 
 **0.4**:
 

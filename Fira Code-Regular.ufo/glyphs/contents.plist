@@ -418,6 +418,8 @@
 	<string>asciitilde_at.glif</string>
 	<key>asciitilde_equal</key>
 	<string>asciitilde_equal.glif</string>
+	<key>asciitilde_hyphen</key>
+	<string>asciitilde_hyphen.glif</string>
 	<key>asterisk</key>
 	<string>asterisk.glif</string>
 	<key>asterisk_slash</key>
@@ -654,6 +656,8 @@
 	<string>equal_equal.glif</string>
 	<key>equal_equal_equal</key>
 	<string>equal_equal_equal.glif</string>
+	<key>equal_equal_greater</key>
+	<string>equal_equal_greater.glif</string>
 	<key>equal_greater</key>
 	<string>equal_greater.glif</string>
 	<key>equal_greater_greater</key>
@@ -804,6 +808,8 @@
 	<string>hyphen.glif</string>
 	<key>hyphen.case</key>
 	<string>hyphen.case.glif</string>
+	<key>hyphen_asciitilde</key>
+	<string>hyphen_asciitilde.glif</string>
 	<key>hyphen_greater</key>
 	<string>hyphen_greater.glif</string>
 	<key>hyphen_greater_greater</key>
@@ -894,6 +900,8 @@
 	<string>less.tosf.glif</string>
 	<key>less_equal</key>
 	<string>less_equal.glif</string>
+	<key>less_equal_equal</key>
+	<string>less_equal_equal.glif</string>
 	<key>less_equal_greater</key>
 	<string>less_equal_greater.glif</string>
 	<key>less_greater</key>
@@ -908,6 +916,8 @@
 	<string>less_less_equal.glif</string>
 	<key>less_less_hyphen</key>
 	<string>less_less_hyphen.glif</string>
+	<key>less_slash</key>
+	<string>less_slash.glif</string>
 	<key>lessequal</key>
 	<string>lessequal.glif</string>
 	<key>lessequal.tosf</key>
@@ -990,6 +1000,8 @@
 	<string>numbersign.glif</string>
 	<key>numbersign.tosf</key>
 	<string>numbersign.tosf.glif</string>
+	<key>numbersign_braceleft</key>
+	<string>numbersign_braceleft.glif</string>
 	<key>numbersign_bracketleft</key>
 	<string>numbersign_bracketleft.glif</string>
 	<key>numbersign_parenleft</key>
@@ -1196,6 +1208,8 @@
 	<string>section.tosf.glif</string>
 	<key>semicolon</key>
 	<string>semicolon.glif</string>
+	<key>semicolon_semicolon</key>
+	<string>semicolon_semicolon.glif</string>
 	<key>seven</key>
 	<string>seven.glif</string>
 	<key>seven.dnom</key>
@@ -1236,6 +1250,8 @@
 	<string>slash_greater.glif</string>
 	<key>slash_slash</key>
 	<string>slash_slash.glif</string>
+	<key>slash_slash_slash</key>
+	<string>slash_slash_slash.glif</string>
 	<key>smileface</key>
 	<string>smileface.glif</string>
 	<key>softhyphen</key>
