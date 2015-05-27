@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = https://github.com/bollwyvl/FiraCode.git
+	branch = gh-pages
