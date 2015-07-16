@@ -20,7 +20,35 @@ Compare to Fira Mono (without ligatures):
 
 ### Editor support
 
-Please refer to [Hasklig Readme](https://github.com/i-tu/Hasklig) for editor support
+Do **not** work:
+
+- Atom ([bug](https://github.com/atom/atom/issues/6055))
+- SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
+- Intellij Idea ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539))
+- XCode
+- iTerm 2 ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
+- OS X Terminal.app
+- Emacs
+- gVim, MacVim
+
+Do work:
+
+- Visual Studio
+- TextMate 2
+- QtCreator
+- LightTable ([instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
+- BBEdit ([instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
+- Chocolat
+
+Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
+
+- Geany
+- gEdit
+- Kate
+- Konsole
+- KWrite
+- Smultron
+- Vico
 
 _Note:_ I’m not a font designer, and Fira Code is built in sort of [a hacky way](https://github.com/mozilla/Fira/issues/62) from OTF version of Fira Mono. Please forgive me if it doesn’t work for you. Help will be greatly appreciated.
 
@@ -46,6 +74,14 @@ Go:
 Haskell:
 
 <img src="./showcases/haskell.png" />
+
+### Alternatives
+
+Another monospaced fonts with ligatures:
+
+- [Hasklig](https://github.com/i-tu/Hasklig) (free)
+- [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm) (€59)
+- [Monoid](http://larsenwork.com/monoid/) (free)
 
 ### Credits
 
