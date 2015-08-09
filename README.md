@@ -2,7 +2,7 @@
 
 <img src="https://dl.dropboxusercontent.com/u/561580/imgs/fira_code_logo.svg">
 
-#### [Download Fira Code v0.5](https://github.com/tonsky/FiraCode/releases/download/0.5/FiraCode-Regular.otf)
+#### [Download Fira Code v0.6](https://github.com/tonsky/FiraCode/releases/download/0.6/FiraCode-Regular.otf)
 
 ### Problem
 
@@ -32,6 +32,7 @@ Do **not** work:
 - OS X Terminal.app
 - Emacs
 - gVim, MacVim
+- Eclipse ([vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 
 Do work:
 
@@ -40,6 +41,7 @@ Do work:
 - QtCreator
 - LightTable ([instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
 - BBEdit ([instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
+- RStudio
 - Chocolat
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
@@ -87,11 +89,22 @@ Another monospaced fonts with ligatures:
 
 ### Credits
 
-This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/Fira). Original Fira Mono font was not changed, only extended.
+This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/Fira). Original Fira Mono font was not changed, only extended
 
 Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligatures for Haskell code
 
 ### Changelog
+
+**0.6**:
+
+`**` `***` `+++` `--` `---` `?:`
+`/=` `/==` `.=` `^=` `=~` `?=` `||=` `|=`
+`<<<` `<=<` `-<<` `-<` `>-` `>>-` `>=>` `>>>`
+`<*>` `<|>` `<$>` `<+>`
+`<!--` `{-` `-}` `/**`
+`..<` `??` `|||` `&&&` `<||>`
+
+and Powerline support
 
 **0.5**: `#{` `~-` `-~` `<==` `==>` `///` `;;` `</`
 
