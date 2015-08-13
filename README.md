@@ -40,7 +40,8 @@ Do work:
 - TextMate 2
 - QtCreator
 - LightTable ([instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
-- BBEdit ([instructions](https://github.com/i-tu/Hasklig/issues/3#issue-46601683))
+- BBEdit — enter this command in a terminal to enable ligatures:  
+  `defaults write com.barebones.bbedit "EnableFontLigatures_Fira Code" -bool YES`
 - RStudio
 - Chocolat
 
