@@ -33,18 +33,19 @@ Do **not** work:
 - Emacs
 - gVim, MacVim
 - Eclipse ([vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
+- Notepad++
 
 Do work:
 
 - Visual Studio
 - TextMate 2
+- Coda 2
 - QtCreator
 - LightTable ([instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
 - BBEdit — enter this command in a terminal to enable ligatures:  
   `defaults write com.barebones.bbedit "EnableFontLigatures_Fira Code" -bool YES`
 - RStudio
 - Chocolat
-- Coda 2
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
