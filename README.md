@@ -44,6 +44,7 @@ Do work:
   `defaults write com.barebones.bbedit "EnableFontLigatures_Fira Code" -bool YES`
 - RStudio
 - Chocolat
+- Coda 2
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
