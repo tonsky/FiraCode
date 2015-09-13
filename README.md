@@ -32,28 +32,29 @@ Do **not** work:
 - OS X Terminal.app
 - Emacs
 - gVim, MacVim
-- Eclipse ([vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
+- Eclipse (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 - Notepad++
+- Kate, Konsole, KWrite in KDE 4
 
 Do work:
 
 - Visual Studio
 - TextMate 2
 - Coda 2
+- Eclipse (Linux)
 - QtCreator
 - LightTable ([instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
 - BBEdit — enter this command in a terminal to enable ligatures:  
   `defaults write com.barebones.bbedit "EnableFontLigatures_Fira Code" -bool YES`
 - RStudio
 - Chocolat
+- Kate, Konsole, KWrite in Plasma/KDE 5
+
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
 - Geany
 - gEdit
-- Kate
-- Konsole
-- KWrite
 - Smultron
 - Vico
 
