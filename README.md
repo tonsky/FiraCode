@@ -24,7 +24,7 @@ Compare to Fira Mono (without ligatures):
 
 Do **not** work:
 
-- Atom ([bug](https://github.com/atom/atom/issues/6055))
+- Atom ([bug](https://github.com/atom/atom/issues/6055), [workaround - don't enable ligatures in cursor line](https://gist.github.com/larsenwork/255432b5101093fb07bc))
 - SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
 - Intellij Idea ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539))
 - XCode
