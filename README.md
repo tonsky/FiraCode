@@ -35,6 +35,7 @@ Do **not** work:
 - Eclipse (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 - Notepad++
 - Kate, Konsole, KWrite in KDE 4
+- Xamarin Studio/Monodevelop
 
 Do work:
 
