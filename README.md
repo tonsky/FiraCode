@@ -30,7 +30,6 @@ Do **not** work:
 - XCode
 - iTerm 2 ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 - OS X Terminal.app
-- Emacs
 - gVim, MacVim
 - Eclipse (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 - Notepad++
@@ -51,6 +50,36 @@ Do work:
 - Chocolat
 - Kate, Konsole, KWrite in Plasma/KDE 5
 - Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
+- Emacs - put this lisp in your .emacs:
+  ```
+  (when (window-system)
+  (set-default-font "Fira Code"))
+
+  (let ((alist '((33 . ".\\(?:\\(?:==\\)\\|[!=]\\)")
+                 (35 . ".\\(?:[(?[_{]\\)")
+                 (38 . ".\\(?:\\(?:&&\\)\\|&\\)")
+                 (42 . ".\\(?:\\(?:\\*\\*\\)\\|[*/]\\)")
+                 (43 . ".\\(?:\\(?:\\+\\+\\)\\|\\+\\)")
+                 (45 . ".\\(?:\\(?:-[>-]\\|<<\\|>>\\)\\|[<>}~-]\\)")
+                 (46 . ".\\(?:\\(?:\\.[.<]\\)\\|[.=]\\)")
+                 (47 . ".\\(?:\\(?:\\*\\*\\|//\\|==\\)\\|[*/=>]\\)")
+                 (58 . ".\\(?:[:=]\\)")
+                 (59 . ".\\(?:;\\)")
+                 (60 . ".\\(?:\\(?:!--\\)\\|\\(?:\\$>\\|\\*>\\|\\+>\\|--\\|<[<=-]\\|=[<=>]\\||>\\)\\|[/<=>|-]\\)")
+                 (61 . ".\\(?:\\(?:/=\\|:=\\|<<\\|=[=>]\\|>>\\)\\|[<=>~]\\)")
+                 (62 . ".\\(?:\\(?:=>\\|>[=>-]\\)\\|[=>-]\\)")
+                 (63 . ".\\(?:[:=?]\\)")
+                 (92 . ".\\(?:\\(?:\\\\\\\\\\)\\|\\\\\\)")
+                 (94 . ".\\(?:=\\)")
+                 (123 . ".\\(?:-\\)")
+                 (124 . ".\\(?:\\(?:|[=|]\\)\\|[=>|]\\)")
+                 (126 . ".\\(?:[=@~-]\\)")
+               )
+        ))
+  (dolist (char-regexp alist)
+    (set-char-table-range composition-function-table (car char-regexp)
+                          `([,(cdr char-regexp) 0 font-shape-gstring]))))
+  ```
 
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
