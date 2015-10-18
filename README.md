@@ -30,7 +30,7 @@ Do **not** work:
 - XCode
 - iTerm 2 ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 - OS X Terminal.app
-- Emacs
+- Emacs ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
 - gVim, MacVim
 - Eclipse (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 - Notepad++
