@@ -24,7 +24,6 @@ Compare to Fira Mono (without ligatures):
 
 Do **not** work:
 
-- Atom ([bug](https://github.com/atom/atom/issues/6055))
 - SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
 - Intellij Idea ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539)), including everything built on top of it (PhpStorm, PyCharm, RubyMine, WebStorm, AppCode, CLion, ReSharper)
 - XCode
@@ -39,6 +38,7 @@ Do **not** work:
 
 Do work:
 
+- Atom (since [1.1](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html), add `atom-text-editor { text-rendering:optimizeLegibility }` to the stylesheet)
 - Visual Studio
 - TextMate 2
 - Coda 2
