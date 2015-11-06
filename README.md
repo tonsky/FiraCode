@@ -38,6 +38,7 @@ Do **not** work:
 Do work:
 
 - Atom (since [1.1](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html), add `atom-text-editor { text-rendering:optimizeLegibility }` to the stylesheet)
+- Xcode (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin))
 - Visual Studio
 - TextMate 2
 - Coda 2
@@ -50,8 +51,6 @@ Do work:
 - Chocolat
 - Kate, Konsole, KWrite in Plasma/KDE 5
 - Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
-- Xcode (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin))
-
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
