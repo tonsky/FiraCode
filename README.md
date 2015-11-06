@@ -26,7 +26,6 @@ Do **not** work:
 
 - SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
 - Intellij Idea ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539)), including everything built on top of it (PhpStorm, PyCharm, RubyMine, WebStorm, AppCode, CLion, ReSharper)
-- Xcode
 - iTerm 2 ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 - OS X Terminal.app
 - Emacs ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
@@ -51,6 +50,7 @@ Do work:
 - Chocolat
 - Kate, Konsole, KWrite in Plasma/KDE 5
 - Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
+- Xcode (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin))
 
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
