@@ -37,7 +37,7 @@ Do **not** work:
 
 Do work:
 
-- Atom (since [1.1](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html), add `atom-text-editor { text-rendering:optimizeLegibility }` to the stylesheet)
+- Atom (since [1.1](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html), add `atom-text-editor { text-rendering:optimizeLegibility }` to the stylesheet. For JavaScript you [need to replace the language-javascript package](https://github.com/tonsky/FiraCode/issues/71) for all liguatures to work.)
 - Xcode (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin))
 - Visual Studio
 - TextMate 2
