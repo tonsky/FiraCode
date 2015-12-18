@@ -2,7 +2,7 @@
 
 <img src="https://dl.dropboxusercontent.com/u/561580/imgs/fira_code_logo.svg">
 
-#### [Download Fira Code v0.6](https://github.com/tonsky/FiraCode/releases/download/0.6/FiraCode-Regular.otf)
+#### [Download Fira Code v1.000](https://github.com/tonsky/FiraCode/releases/download/1.000/FiraCode.zip)
 
 ### Problem
 
@@ -12,13 +12,7 @@ Programmers use a lot of symbols, often encoded with several characters. For hum
 
 Fira Code is a Fira Mono font extended with a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//` ligatures allow us to correct spacing.
 
-### Fira Code (with ligatures):
-
 <img src="./showcases/all_ligatures.png" />
-
-Compare to Fira Mono (without ligatures):
-
-<img src="./showcases/no_ligatures.png" />
 
 ### Editor support
 
@@ -52,6 +46,7 @@ Do work:
 - Kate, Konsole, KWrite in Plasma/KDE 5
 - Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
 - Mancy
+- TextAdept (Mac)
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
@@ -60,7 +55,6 @@ Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 - Smultron
 - Vico
 
-_Note:_ I’m not a font designer, and Fira Code is built in sort of [a hacky way](https://github.com/mozilla/Fira/issues/62) from OTF version of Fira Mono. Please forgive me if it doesn’t work for you. Help will be greatly appreciated.
 
 ### Code examples
 
@@ -71,7 +65,6 @@ Ruby:
 JavaScript:
 
 <img src="./showcases/javascript.png" />
-
 
 Erlang:
 
@@ -95,11 +88,40 @@ Another monospaced fonts with ligatures:
 
 ### Credits
 
-This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/Fira). Original Fira Mono font was not changed, only extended
+This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/Fira). Original Fira Mono font was not changed, only extended.
 
-Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligatures for Haskell code
+Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligatures for Haskell code.
+
+Thanks Georg Seifert for providing a [Glyphs 2](https://glyphsapp.com) license.
 
 ### Changelog
+
+**1.000**:
+
+Added weights:
+
+- Retina (just slightly bolder than Regular)
+- Medium
+- Bold
+
+Switched to `calt` instead of `liga`. You can now “step inside” the ligature in text editors.
+
+Fira Code is now drawn and built in Glyps 2 app (should improve compatibility).
+
+Added:
+
+`<->` `<~~` `<~` `~~~` `~>` `~~>`
+`<$` `<+` `<*` `*>` `+>` `$>`
+`;;;` `:::` `!!!` `???` `%%` `%%%` `##` `###` `####`
+`.-` `#_(` `=<`  `**/` `0x` `www` `[]`
+
+Redrawn:
+
+`{-` `-}` `~=` `=~` `=<<` `>>=` `<$>` `<=>` `.=`
+
+Removed: `?:`
+
+Total ligatures count: 115
 
 **0.6**:
 
