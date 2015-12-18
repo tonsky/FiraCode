@@ -96,11 +96,12 @@ Thanks Georg Seifert for providing a [Glyphs 2](https://glyphsapp.com) license.
 
 ### Changelog
 
-**1.000**:
+
+#### 1.000
 
 Added weights:
 
-- Retina (just slightly bolder than Regular)
+- Retina (just slightly heavier than Regular)
 - Medium
 - Bold
 
@@ -123,7 +124,8 @@ Removed: `?:`
 
 Total ligatures count: 115
 
-**0.6**:
+
+#### 0.6
 
 Redrawn from Fira Mono 3.204 (slightly heavier weight)
 
@@ -136,23 +138,37 @@ Added:
 `<!--` `{-` `-}` `/**`  `\\` `\\\`
 `..<` `??` `|||` `&&&` `<|` `|>`  
   
-and Powerline support
+Added support for Powerline
 
-**0.5**: `#{` `~-` `-~` `<==` `==>` `///` `;;` `</`
 
-**0.4**:
+#### 0.5
+
+Added: `#{` `~-` `-~` `<==` `==>` `///` `;;` `</`
+
+
+#### 0.4
 
 - Added `~=` `~~` `#[`
 - Rolled back `&&` and `||` to more traditional look
 - `===` and `!==` are now rendered with 3 horisontal bars
 
-**0.3**: `~@` `#?` `=:=` `=<`
 
-**0.2.1**: Fixed width of `&&` and `||`
+#### 0.3
 
-**0.2**: `-->` `<--` `&&` `||` `=>>` `=/=`
+Added: `~@` `#?` `=:=` `=<`
 
-**0.1**
+
+#### 0.2.1
+
+Fixed width of `&&` and `||`
+
+
+#### 0.2
+
+Added: `-->` `<--` `&&` `||` `=>>` `=/=`
+
+
+#### 0.1
 
 `>>=` `=<<` `<<=` `->>` `->` `=>` `<<-` `<-`  
 `===` `==` `<=>` `>=` `<=` `>>` `<<` `!==` `!=` `<>`  
