@@ -51,6 +51,7 @@ Do work:
 - Chocolat
 - Kate, Konsole, KWrite in Plasma/KDE 5
 - Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
+- Mancy
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
