@@ -1,0 +1,15 @@
+$firacode-font-path: "../fonts";
+
+@each $font-face in "FiraCode-Regular" {
+  @font-face {
+    font-family: $font-face;
+    font-style: normal;
+    font-weight: normal;
+    src: url('#{$firacode-font-path}/#{$font-face}.eot');
+    src: url('#{$firacode-font-path}/#{$font-face}.eot?') format('eot'),
+         url('#{$firacode-font-path}/#{$font-face}.woff') format('woff'),
+         url('#{$firacode-font-path}/#{$font-face}.ttf') format('truetype'),
+         url('#{$firacode-font-path}/#{$font-face}.svg') format('svg');
+  }
+}
+

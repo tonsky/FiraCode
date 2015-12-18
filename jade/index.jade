@@ -1,0 +1,109 @@
+doctype html
+html
+  head
+    meta(name="viewport"
+         content="width=device-width, initial-scale=1.0")
+    style.
+      @import url("css/FiraCode.css");
+      @import url("https://cdn.jsdelivr.net/g/codemirror(codemirror.css+theme/elegant.css),octicons,primer");
+      
+      .CodeMirror {
+        font-family: "FiraCode-Regular";
+        height: auto;
+        margin-bottom: 10px;
+      }
+      
+      .show-ligatures .CodeMirror {
+        text-rendering: optimizeLegibility;
+        -webkit-font-variant-ligatures: common-ligatures;
+        font-variant-ligatures: common-ligatures;
+      }
+      
+      .toggle-ligatures-label {
+        color: #777;
+      }
+      .show-ligatures .toggle-ligatures-label {
+        color: #000;
+      }
+      
+  body.show-ligatures
+    .container
+      h1: a(href="https://github.com/tonsky/FiraCode") Fira Code
+      h2 monospaced font 
+        input.toggle-ligatures(type="checkbox", checked)
+        span.toggle-ligatures-label  with programming ligatures
+
+      .columns
+        h3.one-fifth.column JavaScript
+        .four-fifths.column
+          textarea.javascript.
+            x == 0
+            el === document.body
+            true != false
+            true !== false
+            n >= 0
+            i <= Integer.MAX_INT
+            A.id <> NULL
+            true <=> false
+
+        h3.one-fifth.column Erlang
+        .four-fifths.column
+          textarea.erlang.
+            if L !== [] -> % Is L is not empty
+                sum(L) / count(L);
+            true -->
+                error
+            end.
+                
+            -spec foo(integer())) -> integer().
+            foo(X) -> 1 + X
+            
+            text(Foo)-->Foo.
+            
+            qsort1([H | T)]) ->
+                   qsort1([ X || x <- T, X < H ]) ++ [H] ++ qsort([ X || X <- T, X  H ]).
+
+        h3.one-fifth.column go
+        .four-fifths.column
+          textarea.go.
+            func main() {
+              ch := make(chan int)
+              ch <- 1.0e10 // magic number
+              x, ok := <- ch
+              ok = true
+              defer fmt.Println(`exittingnow\`)
+              go println(le("hello world!"))
+              return
+            }
+
+        h3.one-fifth.column ruby
+        .four-fifths.column
+          textarea.ruby.
+            class Car < ActiveRecord::Base
+              has_many :wheels, :class_name => 'Wheel', :foreign_key => 'car_id'
+              scope :available, -> { where(available: true) }
+            end
+            omega = -> { 'alpha' }
+            alpha = ->(arg) { arg*2 }
+            hash = {1 => 'one', 2 => 'two'}
+    
+    script(
+      src="https://cdn.jsdelivr.net/g/codemirror(codemirror.js+mode/javascript/javascript.js+mode/ruby/ruby.js+mode/haskell/haskell.js+mode/go/go.js+mode/ruby/ruby.js)"
+    )
+    
+    script.
+      ;(function(){
+        ["javascript", "erlang", "go", "ruby"].map(function(lang){
+          CodeMirror.fromTextArea(
+            document.querySelector("." + lang),
+            {
+              mode: lang
+            }
+          );
+        });
+        
+        var toggle = document.querySelector(".toggle-ligatures");
+        toggle.onchange = function(){
+          document.body.classList.toggle('show-ligatures');
+        }
+      }).call();
