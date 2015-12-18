@@ -2,7 +2,7 @@
 
 <img src="https://dl.dropboxusercontent.com/u/561580/imgs/fira_code_logo.svg">
 
-#### [Download Fira Code v1.000](https://github.com/tonsky/FiraCode/releases/download/1.000/FiraCode.zip)
+#### [Download Fira Code v1.000](https://github.com/tonsky/FiraCode/releases/download/1.000/FiraCode_1.000.zip)
 
 ### Problem
 
@@ -110,10 +110,10 @@ Fira Code is now drawn and built in Glyps 2 app (should improve compatibility).
 
 Added:
 
-`<->` `<~~` `<~` `~~~` `~>` `~~>`
-`<$` `<+` `<*` `*>` `+>` `$>`
-`;;;` `:::` `!!!` `???` `%%` `%%%` `##` `###` `####`
-`.-` `#_(` `=<`  `**/` `0x` `www` `[]`
+`<->` `<~~` `<~` `~~~` `~>` `~~>`  
+`<$` `<+` `<*` `*>` `+>` `$>`  
+`;;;` `:::` `!!!` `???` `%%` `%%%` `##` `###` `####`  
+`.-` `#_(` `=<`  `**/` `0x` `www` `[]`  
 
 Redrawn:
 
