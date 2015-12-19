@@ -55,7 +55,12 @@ Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 - Smultron
 - Vico
 
+### Browser support
 
+- Firefox
+- Chromium-based browsers: due to a spec violation (issue [571246](https://code.google.com/p/chromium/issues/detail?q=font-variant-ligatures&id=571246&thanks=571246&ts=1450553433&)) you must explicitly enable contextual alternates in your stylesheet:
+  `font-variant-ligatures: contextual;`
+  
 ### Code examples
 
 Ruby:
