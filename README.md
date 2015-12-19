@@ -46,7 +46,7 @@ Do work:
 - Kate, Konsole, KWrite in Plasma/KDE 5
 - Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
 - Mancy
-- TextAdept (Mac)
+- TextAdept (Linux, Mac)
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
