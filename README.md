@@ -2,7 +2,7 @@
 
 <img src="https://dl.dropboxusercontent.com/u/561580/imgs/fira_code_logo.svg">
 
-#### [Download Fira Code v1.000](https://github.com/tonsky/FiraCode/releases/download/1.000/FiraCode_1.000.zip)
+#### [Download Fira Code v1.100](https://github.com/tonsky/FiraCode/releases/download/1.100/FiraCode_1.100.zip)
 
 ### Problem
 
@@ -96,6 +96,12 @@ Thanks Georg Seifert for providing a [Glyphs 2](https://glyphsapp.com) license.
 
 ### Changelog
 
+#### 1.100
+
+- Fixed calt table conflicts (`----` would incorrectly render as `<!--`)
+- Added centered `:` (between digits, e.g. `10:40`)
+- Added lowercase-aligned `-`, `*` and `+` (only between lowercase letters, e.g. kebab case `var-name`, pointers `*ptr` etc)
+
 
 #### 1.000
 
@@ -114,7 +120,7 @@ Added:
 `<->` `<~~` `<~` `~~~` `~>` `~~>`  
 `<$` `<+` `<*` `*>` `+>` `$>`  
 `;;;` `:::` `!!!` `???` `%%` `%%%` `##` `###` `####`  
-`.-` `#_(` `=<`  `**/` `0x` `www` `[]`  
+`.-` `#_(` `=<`  `**/` `0x` `www` `[]` 
 
 Redrawn:
 

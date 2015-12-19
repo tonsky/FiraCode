@@ -24,6 +24,14 @@ name = GreekUCdiphUPSILON;
 {
 code = "zero one two three four five six seven eight nine a b c d e f A B C D E F";
 name = HexDigit;
+},
+{
+code = "zero one two three four five six seven eight nine";
+name = Digit;
+},
+{
+code = "a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae aeacute b c cacute ccaron ccedilla ccircumflex cdotaccent d eth dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve gcircumflex gcommaaccent gdotaccent h hbar hcircumflex i dotlessi iacute ibreve icircumflex idieresis idotaccent igrave ij imacron iogonek itilde j dotlessj jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash m n nacute napostrophe ncaron ncommaaccent eng ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent germandbls t tbar tcaron tcedilla tcommaaccent u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent x.hex.calt cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK w_w_w.liga ordfeminine ordmasculine nmod a-cy be-cy ve-cy ge-cy gje-cy gheupturn-cy de-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ef-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy hardsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy iu-cy ia-cy dje-cy omega-cy yat-cy eiotified-cy yuslittle-cy yuslittleiotified-cy yusbig-cy yusbigiotified-cy ksi-cy psi-cy fita-cy izhitsa-cy izhitsadblgrave-cy uk-cy ghestroke-cy ghemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy kastroke-cy kabashkir-cy endescender-cy pedescender-cy pemiddlehook-cy haabkhasian-cy esdescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy kahook-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hahook-cy hastroke-cy komide-cy komidje-cy komizje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy reversedze-cy elhook-cy lha-cy rha-cy yae-cy qa-cy we-cy aleutka-cy elmiddlehook-cy enmiddlehook-cy semisoftsign-cy ertick-cy dche-cy dzzhe-cy eldescender-cy enlefthook-cy enghe-cy tetse-cy aie-cy alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon phi chi psi omega iotatonos iotadieresis iotadieresistonos upsilontonos upsilondieresis upsilondieresistonos omicrontonos omegatonos alphatonos epsilontonos etatonos heta archaicsampi pamphyliandigamma reversedlunatesigmasymbol dottedlunatesigmasymbol reverseddottedlunatesigmasymbol koppaArchaic stigma digamma koppa sampi kaiSymbol betaSymbol thetaSymbol phiSymbol piSymbol kappaSymbol rhoSymbol sigmaLunateSymbol yot epsilonLunateSymbol sho san rhoStrokeSymbol alphapsili alphadasia alphapsilivaria alphadasiavaria alphapsilioxia alphadasiaoxia alphapsiliperispomeni alphadasiaperispomeni alphavaria alphaoxia alphaperispomeni alphavrachy alphamacron alphaypogegrammeni alphavariaypogegrammeni alphaoxiaypogegrammeni alphapsiliypogegrammeni alphadasiaypogegrammeni alphapsilivariaypogegrammeni alphadasiavariaypogegrammeni alphapsilioxiaypogegrammeni alphadasiaoxiaypogegrammeni alphapsiliperispomeniypogegrammeni alphadasiaperispomeniypogegrammeni alphaperispomeniypogegrammeni epsilonpsili epsilondasia epsilonpsilivaria epsilondasiavaria epsilonpsilioxia epsilondasiaoxia epsilonvaria epsilonoxia etapsili etadasia etapsilivaria etadasiavaria etapsilioxia etadasiaoxia etapsiliperispomeni etadasiaperispomeni etavaria etaoxia etaperispomeni etaypogegrammeni etavariaypogegrammeni etaoxiaypogegrammeni etapsiliypogegrammeni etadasiaypogegrammeni etapsilivariaypogegrammeni etadasiavariaypogegrammeni etapsilioxiaypogegrammeni etadasiaoxiaypogegrammeni etapsiliperispomeniypogegrammeni etadasiaperispomeniypogegrammeni etaperispomeniypogegrammeni iotapsili iotadasia iotapsilivaria iotadasiavaria iotapsilioxia iotadasiaoxia iotapsiliperispomeni iotadasiaperispomeni iotavaria iotaoxia iotaperispomeni iotavrachy iotamacron iotadialytikavaria iotadialytikaoxia iotadialytikaperispomeni omicronpsili omicrondasia omicronpsilivaria omicrondasiavaria omicronpsilioxia omicrondasiaoxia omicronvaria omicronoxia rhopsili rhodasia upsilonpsili upsilondasia upsilonpsilivaria upsilondasiavaria upsilonpsilioxia upsilondasiaoxia upsilonpsiliperispomeni upsilondasiaperispomeni upsilonvaria upsilonoxia upsilonperispomeni upsilonvrachy upsilonmacron upsilondialytikavaria upsilondialytikaoxia upsilondialytikaperispomeni omegapsili omegadasia omegapsilivaria omegadasiavaria omegapsilioxia omegadasiaoxia omegapsiliperispomeni omegadasiaperispomeni omegavaria omegaoxia omegaperispomeni omegaypogegrammeni omegavariaypogegrammeni omegaoxiaypogegrammeni omegapsiliypogegrammeni omegadasiaypogegrammeni omegapsilivariaypogegrammeni omegadasiavariaypogegrammeni omegapsilioxiaypogegrammeni omegadasiaoxiaypogegrammeni omegapsiliperispomeniypogegrammeni omegadasiaperispomeniypogegrammeni omegaperispomeniypogegrammeni prosgegrammeni ypogegrammeni";
+name = Lowercase;
 }
 );
 copyright = "Copyright \U00A9 2015 by Nikita Prokopov";
@@ -159,7 +167,7 @@ code = "pos @Uppercase <5 0 10 0>;\012";
 name = cpsp;
 },
 {
-code = "  sub \\CR.00 \\CR.00 \\CR.00 \\hyphen' by \\less_exclam_hyphen_hyphen.liga;\012  sub \\CR.00 \\CR.00 \\CR.00 \\numbersign' by \\numbersign_numbersign_numbersign_numbersign.liga;\012  sub \\CR.00 \\CR.00 \\hyphen' \\hyphen by \\CR.00;\012  sub \\CR.00 \\CR.00 \\numbersign' \\numbersign by \\CR.00;\012  sub \\CR.00 \\CR.00 \\ampersand' by \\ampersand_ampersand_ampersand.liga;\012  sub \\CR.00 \\CR.00 \\asciitilde' by \\less_asciitilde_asciitilde.liga;\012  sub \\CR.00 \\CR.00 \\asterisk' by \\slash_asterisk_asterisk.liga;\012  sub \\CR.00 \\CR.00 \\backslash' by \\backslash_backslash_backslash.liga;\012  sub \\CR.00 \\CR.00 \\bar' by \\bar_bar_bar.liga;\012  sub \\CR.00 \\CR.00 \\colon' by \\colon_colon_colon.liga;\012  sub \\CR.00 \\CR.00 \\equal' by \\equal_equal_equal.liga;\012  sub \\CR.00 \\CR.00 \\exclam' by \\exclam_exclam_exclam.liga;\012  sub \\CR.00 \\CR.00 \\greater' by \\greater_greater_greater.liga;\012  sub \\CR.00 \\CR.00 \\hyphen' by \\hyphen_hyphen_hyphen.liga;\012  sub \\CR.00 \\CR.00 \\less' by \\period_period_less.liga;\012  sub \\CR.00 \\CR.00 \\numbersign' by \\numbersign_numbersign_numbersign.liga;\012  sub \\CR.00 \\CR.00 \\parenleft' by \\numbersign_underscore_parenleft.liga;\012  sub \\CR.00 \\CR.00 \\percent' by \\percent_percent_percent.liga;\012  sub \\CR.00 \\CR.00 \\period' by \\period_period_period.liga;\012  sub \\CR.00 \\CR.00 \\plus' by \\plus_plus_plus.liga;\012  sub \\CR.00 \\CR.00 \\question' by \\question_question_question.liga;\012  sub \\CR.00 \\CR.00 \\semicolon' by \\semicolon_semicolon_semicolon.liga;\012  sub \\CR.00 \\CR.00 \\slash' by \\asterisk_asterisk_slash.liga;\012  sub \\CR.00 \\CR.00 \\w' by \\w_w_w.liga;\012  sub \\CR.01 \\CR.01 \\asciitilde' by \\asciitilde_asciitilde_asciitilde.liga;\012  sub \\CR.01 \\CR.01 \\asterisk' by \\asterisk_asterisk_asterisk.liga;\012  sub \\CR.01 \\CR.01 \\equal' by \\equal_colon_equal.liga;\012  sub \\CR.01 \\CR.01 \\greater' by \\less_equal_greater.liga;\012  sub \\CR.01 \\CR.01 \\hyphen' by \\less_less_hyphen.liga;\012  sub \\CR.01 \\CR.01 \\less' by \\less_less_less.liga;\012  sub \\CR.01 \\CR.01 \\slash' by \\slash_slash_slash.liga;\012  sub \\CR.02 \\CR.02 \\equal' by \\greater_greater_equal.liga;\012  sub \\CR.02 \\CR.02 \\greater' by \\hyphen_hyphen_greater.liga;\012  sub \\CR.02 \\CR.02 \\hyphen' by \\less_hyphen_hyphen.liga;\012  sub \\CR.02 \\CR.02 \\less' by \\hyphen_less_less.liga;\012  sub \\CR.03 \\CR.03 \\equal' by \\equal_slash_equal.liga;\012  sub \\CR.03 \\CR.03 \\greater' by \\less_asterisk_greater.liga;\012  sub \\CR.03 \\CR.03 \\hyphen' by \\greater_greater_hyphen.liga;\012  sub \\CR.03 \\CR.03 \\less' by \\less_equal_less.liga;\012  sub \\CR.04 \\CR.04 \\equal' by \\exclam_equal_equal.liga;\012  sub \\CR.04 \\CR.04 \\greater' by \\greater_equal_greater.liga;\012  sub \\CR.04 \\CR.04 \\less' by \\equal_less_less.liga;\012  sub \\CR.05 \\CR.05 \\equal' by \\less_equal_equal.liga;\012  sub \\CR.05 \\CR.05 \\greater' by \\equal_equal_greater.liga;\012  sub \\CR.06 \\CR.06 \\equal' by \\slash_equal_equal.liga;\012  sub \\CR.06 \\CR.06 \\greater' by \\hyphen_greater_greater.liga;\012  sub \\CR.07 \\CR.07 \\equal' by \\less_less_equal.liga;\012  sub \\CR.07 \\CR.07 \\greater' by \\equal_greater_greater.liga;\012  sub \\CR.08 \\CR.08 \\equal' by \\bar_bar_equal.liga;\012  sub \\CR.08 \\CR.08 \\greater' by \\less_bar_greater.liga;\012  sub \\CR.09 \\CR.09 \\greater' by \\asciitilde_asciitilde_greater.liga;\012  sub \\CR.10 \\CR.10 \\greater' by \\less_hyphen_greater.liga;\012  sub \\CR.11 \\CR.11 \\greater' by \\less_dollar_greater.liga;\012  sub \\CR.12 \\CR.12 \\greater' by \\less_plus_greater.liga;\012  sub \\CR.00 \\exclam' \\hyphen \\hyphen by \\CR.00;\012  sub \\CR.00 \\numbersign' \\numbersign \\numbersign by \\CR.00;\012  sub \\CR.00 \\ampersand' \\ampersand by \\CR.00;\012  sub \\CR.00 \\asciitilde' \\asciitilde by \\CR.00;\012  sub \\CR.00 \\asterisk' \\asterisk by \\CR.00;\012  sub \\CR.00 \\asterisk' \\slash by \\CR.00;\012  sub \\CR.00 \\backslash' \\backslash by \\CR.00;\012  sub \\CR.00 \\bar' \\bar by \\CR.00;\012  sub \\CR.00 \\colon' \\colon by \\CR.00;\012  sub \\CR.00 \\equal' \\equal by \\CR.00;\012  sub \\CR.00 \\exclam' \\exclam by \\CR.00;\012  sub \\CR.00 \\greater' \\greater by \\CR.00;\012  sub \\CR.00 \\hyphen' \\hyphen by \\CR.00;\012  sub \\CR.00 \\numbersign' \\numbersign by \\CR.00;\012  sub \\CR.00 \\percent' \\percent by \\CR.00;\012  sub \\CR.00 \\period' \\less by \\CR.00;\012  sub \\CR.00 \\period' \\period by \\CR.00;\012  sub \\CR.00 \\plus' \\plus by \\CR.00;\012  sub \\CR.00 \\question' \\question by \\CR.00;\012  sub \\CR.00 \\semicolon' \\semicolon by \\CR.00;\012  sub \\CR.00 \\underscore' \\parenleft by \\CR.00;\012  sub \\CR.00 \\w' \\w by \\CR.00;\012  sub \\CR.01 \\asciitilde' \\asciitilde by \\CR.01;\012  sub \\CR.01 \\asterisk' \\asterisk by \\CR.01;\012  sub \\CR.01 \\colon' \\equal by \\CR.01;\012  sub \\CR.01 \\equal' \\greater by \\CR.01;\012  sub \\CR.01 \\less' \\hyphen by \\CR.01;\012  sub \\CR.01 \\less' \\less by \\CR.01;\012  sub \\CR.01 \\slash' \\slash by \\CR.01;\012  sub \\CR.02 \\greater' \\equal by \\CR.02;\012  sub \\CR.02 \\hyphen' \\greater by \\CR.02;\012  sub \\CR.02 \\hyphen' \\hyphen by \\CR.02;\012  sub \\CR.02 \\less' \\less by \\CR.02;\012  sub \\CR.03 \\asterisk' \\greater by \\CR.03;\012  sub \\CR.03 \\equal' \\less by \\CR.03;\012  sub \\CR.03 \\greater' \\hyphen by \\CR.03;\012  sub \\CR.03 \\slash' \\equal by \\CR.03;\012  sub \\CR.04 \\equal' \\equal by \\CR.04;\012  sub \\CR.04 \\equal' \\greater by \\CR.04;\012  sub \\CR.04 \\less' \\less by \\CR.04;\012  sub \\CR.05 \\equal' \\equal by \\CR.05;\012  sub \\CR.05 \\equal' \\greater by \\CR.05;\012  sub \\CR.06 \\equal' \\equal by \\CR.06;\012  sub \\CR.06 \\greater' \\greater by \\CR.06;\012  sub \\CR.07 \\greater' \\greater by \\CR.07;\012  sub \\CR.07 \\less' \\equal by \\CR.07;\012  sub \\CR.08 \\bar' \\equal by \\CR.08;\012  sub \\CR.08 \\bar' \\greater by \\CR.08;\012  sub \\CR.09 \\asciitilde' \\greater by \\CR.09;\012  sub \\CR.10 \\hyphen' \\greater by \\CR.10;\012  sub \\CR.11 \\dollar' \\greater by \\CR.11;\012  sub \\CR.12 \\plus' \\greater by \\CR.12;\012  sub \\CR.00 \\ampersand' by \\ampersand_ampersand.liga;\012  sub \\CR.00 \\asciitilde' by \\less_asciitilde.liga;\012  sub \\CR.00 \\asterisk' by \\less_asterisk.liga;\012  sub \\CR.00 \\at' by \\asciitilde_at.liga;\012  sub \\CR.00 \\backslash' by \\backslash_backslash.liga;\012  sub \\CR.00 \\bar' by \\less_bar.liga;\012  sub \\CR.00 \\braceleft' by \\numbersign_braceleft.liga;\012  sub \\CR.00 \\braceright' by \\hyphen_braceright.liga;\012  sub \\CR.00 \\bracketleft' by \\numbersign_bracketleft.liga;\012  sub \\CR.00 \\bracketright' by \\bracketleft_bracketright.liga;\012  sub \\CR.00 \\colon' by \\colon_colon.liga;\012  sub \\CR.00 \\dollar' by \\less_dollar.liga;\012  sub \\CR.00 \\equal' by \\slash_equal.liga;\012  sub \\CR.00 \\exclam' by \\exclam_exclam.liga;\012  sub \\CR.00 \\greater' by \\hyphen_greater.liga;\012  sub \\CR.00 \\hyphen' by \\less_hyphen.liga;\012  sub \\CR.00 \\less' by \\equal_less.liga;\012  sub \\CR.00 \\numbersign' by \\numbersign_numbersign.liga;\012  sub \\CR.00 \\parenleft' by \\numbersign_parenleft.liga;\012  sub \\CR.00 \\percent' by \\percent_percent.liga;\012  sub \\CR.00 \\period' by \\period_period.liga;\012  sub \\CR.00 \\plus' by \\plus_plus.liga;\012  sub \\CR.00 \\question' by \\numbersign_question.liga;\012  sub \\CR.00 \\semicolon' by \\semicolon_semicolon.liga;\012  sub \\CR.00 \\slash' by \\asterisk_slash.liga;\012  sub \\CR.00 \\underscore' by \\numbersign_underscore.liga;\012  sub \\CR.00 \\x' by \\zero_x.liga;\012  sub \\CR.01 \\asciitilde' by \\hyphen_asciitilde.liga;\012  sub \\CR.01 \\asterisk' by \\slash_asterisk.liga;\012  sub \\CR.01 \\bar' by \\bar_bar.liga;\012  sub \\CR.01 \\equal' by \\exclam_equal.liga;\012  sub \\CR.01 \\greater' by \\slash_greater.liga;\012  sub \\CR.01 \\hyphen' by \\period_hyphen.liga;\012  sub \\CR.01 \\less' by \\hyphen_less.liga;\012  sub \\CR.01 \\plus' by \\less_plus.liga;\012  sub \\CR.01 \\question' by \\question_question.liga;\012  sub \\CR.01 \\slash' by \\less_slash.liga;\012  sub \\CR.02 \\asciitilde' by \\equal_asciitilde.liga;\012  sub \\CR.02 \\asterisk' by \\asterisk_asterisk.liga;\012  sub \\CR.02 \\equal' by \\less_equal.liga;\012  sub \\CR.02 \\greater' by \\dollar_greater.liga;\012  sub \\CR.02 \\hyphen' by \\asciitilde_hyphen.liga;\012  sub \\CR.02 \\less' by \\less_less.liga;\012  sub \\CR.02 \\slash' by \\slash_slash.liga;\012  sub \\CR.03 \\asciitilde' by \\asciitilde_asciitilde.liga;\012  sub \\CR.03 \\equal' by \\period_equal.liga;\012  sub \\CR.03 \\greater' by \\asterisk_greater.liga;\012  sub \\CR.03 \\hyphen' by \\greater_hyphen.liga;\012  sub \\CR.04 \\equal' by \\equal_equal.liga;\012  sub \\CR.04 \\greater' by \\equal_greater.liga;\012  sub \\CR.04 \\hyphen' by \\hyphen_hyphen.liga;\012  sub \\CR.05 \\equal' by \\greater_equal.liga;\012  sub \\CR.05 \\greater' by \\plus_greater.liga;\012  sub \\CR.05 \\hyphen' by \\braceleft_hyphen.liga;\012  sub \\CR.06 \\equal' by \\bar_equal.liga;\012  sub \\CR.06 \\greater' by \\bar_greater.liga;\012  sub \\CR.07 \\equal' by \\asciicircum_equal.liga;\012  sub \\CR.07 \\greater' by \\asciitilde_greater.liga;\012  sub \\CR.08 \\equal' by \\asciitilde_equal.liga;\012  sub \\CR.08 \\greater' by \\less_greater.liga;\012  sub \\CR.09 \\equal' by \\question_equal.liga;\012  sub \\CR.09 \\greater' by \\greater_greater.liga;\012  sub \\CR.10 \\equal' by \\colon_equal.liga;\012  sub \\less' \\exclam \\hyphen \\hyphen by \\CR.00;\012  sub \\numbersign' \\numbersign \\numbersign \\numbersign by \\CR.00;\012  sub \\ampersand' \\ampersand \\ampersand by \\CR.00;\012  sub \\asciitilde' \\asciitilde \\asciitilde by \\CR.01;\012  sub \\asciitilde' \\asciitilde \\greater by \\CR.09;\012  sub \\asterisk' \\asterisk \\asterisk by \\CR.01;\012  sub \\asterisk' \\asterisk \\slash by \\CR.00;\012  sub \\backslash' \\backslash \\backslash by \\CR.00;\012  sub \\bar' \\bar \\bar by \\CR.00;\012  sub \\bar' \\bar \\equal by \\CR.08;\012  sub \\colon' \\colon \\colon by \\CR.00;\012  sub \\equal' \\colon \\equal by \\CR.01;\012  sub \\equal' \\equal \\equal by \\CR.00;\012  sub \\equal' \\equal \\greater by \\CR.05;\012  sub \\equal' \\greater \\greater by \\CR.07;\012  sub \\equal' \\less \\less by \\CR.04;\012  sub \\equal' \\slash \\equal by \\CR.03;\012  sub \\exclam' \\equal \\equal by \\CR.04;\012  sub \\exclam' \\exclam \\exclam by \\CR.00;\012  sub \\greater' \\equal \\greater by \\CR.04;\012  sub \\greater' \\greater \\equal by \\CR.02;\012  sub \\greater' \\greater \\greater by \\CR.00;\012  sub \\greater' \\greater \\hyphen by \\CR.03;\012  sub \\hyphen' \\greater \\greater by \\CR.06;\012  sub \\hyphen' \\hyphen \\greater by \\CR.02;\012  sub \\hyphen' \\hyphen \\hyphen by \\CR.00;\012  sub \\hyphen' \\less \\less by \\CR.02;\012  sub \\less' \\asciitilde \\asciitilde by \\CR.00;\012  sub \\less' \\asterisk \\greater by \\CR.03;\012  sub \\less' \\bar \\greater by \\CR.08;\012  sub \\less' \\dollar \\greater by \\CR.11;\012  sub \\less' \\equal \\equal by \\CR.05;\012  sub \\less' \\equal \\greater by \\CR.01;\012  sub \\less' \\equal \\less by \\CR.03;\012  sub \\less' \\hyphen \\greater by \\CR.10;\012  sub \\less' \\hyphen \\hyphen by \\CR.02;\012  sub \\less' \\less \\equal by \\CR.07;\012  sub \\less' \\less \\hyphen by \\CR.01;\012  sub \\less' \\less \\less by \\CR.01;\012  sub \\less' \\plus \\greater by \\CR.12;\012  sub \\numbersign' \\numbersign \\numbersign by \\CR.00;\012  sub \\numbersign' \\underscore \\parenleft by \\CR.00;\012  sub \\percent' \\percent \\percent by \\CR.00;\012  sub \\period' \\period \\less by \\CR.00;\012  sub \\period' \\period \\period by \\CR.00;\012  sub \\plus' \\plus \\plus by \\CR.00;\012  sub \\question' \\question \\question by \\CR.00;\012  sub \\semicolon' \\semicolon \\semicolon by \\CR.00;\012  sub \\slash' \\asterisk \\asterisk by \\CR.00;\012  sub \\slash' \\equal \\equal by \\CR.06;\012  sub \\slash' \\slash \\slash by \\CR.01;\012  sub \\w' \\w \\w by \\CR.00;\012  sub \\ampersand' \\ampersand by \\CR.00;\012  sub \\asciicircum' \\equal by \\CR.07;\012  sub \\asciitilde' \\asciitilde by \\CR.03;\012  sub \\asciitilde' \\at by \\CR.00;\012  sub \\asciitilde' \\equal by \\CR.08;\012  sub \\asciitilde' \\greater by \\CR.07;\012  sub \\asciitilde' \\hyphen by \\CR.02;\012  sub \\asterisk' \\asterisk by \\CR.02;\012  sub \\asterisk' \\greater by \\CR.03;\012  sub \\asterisk' \\slash by \\CR.00;\012  sub \\backslash' \\backslash by \\CR.00;\012  sub \\bar' \\bar by \\CR.01;\012  sub \\bar' \\equal by \\CR.06;\012  sub \\bar' \\greater by \\CR.06;\012  sub \\braceleft' \\hyphen by \\CR.05;\012  sub \\bracketleft' \\bracketright by \\CR.00;\012  sub \\colon' \\colon by \\CR.00;\012  sub \\colon' \\equal by \\CR.10;\012  sub \\dollar' \\greater by \\CR.02;\012  sub \\equal' \\asciitilde by \\CR.02;\012  sub \\equal' \\equal by \\CR.04;\012  sub \\equal' \\greater by \\CR.04;\012  sub \\equal' \\less by \\CR.00;\012  sub \\exclam' \\equal by \\CR.01;\012  sub \\exclam' \\exclam by \\CR.00;\012  sub \\greater' \\equal by \\CR.05;\012  sub \\greater' \\greater by \\CR.09;\012  sub \\greater' \\hyphen by \\CR.03;\012  sub \\hyphen' \\asciitilde by \\CR.01;\012  sub \\hyphen' \\braceright by \\CR.00;\012  sub \\hyphen' \\greater by \\CR.00;\012  sub \\hyphen' \\hyphen by \\CR.04;\012  sub \\hyphen' \\less by \\CR.01;\012  sub \\less' \\asciitilde by \\CR.00;\012  sub \\less' \\asterisk by \\CR.00;\012  sub \\less' \\bar by \\CR.00;\012  sub \\less' \\dollar by \\CR.00;\012  sub \\less' \\equal by \\CR.02;\012  sub \\less' \\greater by \\CR.08;\012  sub \\less' \\hyphen by \\CR.00;\012  sub \\less' \\less by \\CR.02;\012  sub \\less' \\plus by \\CR.01;\012  sub \\less' \\slash by \\CR.01;\012  sub \\numbersign' \\braceleft by \\CR.00;\012  sub \\numbersign' \\bracketleft by \\CR.00;\012  sub \\numbersign' \\numbersign by \\CR.00;\012  sub \\numbersign' \\parenleft by \\CR.00;\012  sub \\numbersign' \\question by \\CR.00;\012  sub \\numbersign' \\underscore by \\CR.00;\012  sub \\percent' \\percent by \\CR.00;\012  sub \\period' \\equal by \\CR.03;\012  sub \\period' \\hyphen by \\CR.01;\012  sub \\period' \\period by \\CR.00;\012  sub \\plus' \\greater by \\CR.05;\012  sub \\plus' \\plus by \\CR.00;\012  sub \\question' \\equal by \\CR.09;\012  sub \\question' \\question by \\CR.01;\012  sub \\semicolon' \\semicolon by \\CR.00;\012  sub \\slash' \\asterisk by \\CR.01;\012  sub \\slash' \\equal by \\CR.00;\012  sub \\slash' \\greater by \\CR.01;\012  sub \\slash' \\slash by \\CR.02;\012  sub \\zero' \\x @HexDigit by \\CR.00;\012\012lookup caltGreekUCdiph {    sub @GreekUCdiphIOTA Iota' by Iotadieresis;    sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;} caltGreekUCdiph;\012lookup caltGreekUC {    sub @GreekUCAcc' @GreekUC by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];    sub @GreekUC @GreekUCAcc' by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];    sub @GreekUCAcc' space @GreekUC by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];    sub @GreekUC space @GreekUCAcc' by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];} caltGreekUC;\012";
+code = "  sub \\CR.00 \\CR.00 \\CR.00 \\hyphen' by \\less_exclam_hyphen_hyphen.liga;\012  sub \\CR.00 \\CR.00 \\CR.00 \\numbersign' by \\numbersign_numbersign_numbersign_numbersign.liga;\012  sub \\CR.00 \\CR.00 \\hyphen' \\hyphen by \\CR.00;\012  sub \\CR.00 \\CR.00 \\numbersign' \\numbersign by \\CR.00;\012  sub \\CR.00 \\CR.00 \\ampersand' by \\ampersand_ampersand_ampersand.liga;\012  sub \\CR.00 \\CR.00 \\asciitilde' by \\asciitilde_asciitilde_asciitilde.liga;\012  sub \\CR.00 \\CR.00 \\asterisk' by \\asterisk_asterisk_asterisk.liga;\012  sub \\CR.00 \\CR.00 \\backslash' by \\backslash_backslash_backslash.liga;\012  sub \\CR.00 \\CR.00 \\bar' by \\bar_bar_bar.liga;\012  sub \\CR.00 \\CR.00 \\colon' by \\colon_colon_colon.liga;\012  sub \\CR.00 \\CR.00 \\equal' by \\bar_bar_equal.liga;\012  sub \\CR.00 \\CR.00 \\exclam' by \\exclam_exclam_exclam.liga;\012  sub \\CR.00 \\CR.00 \\greater' by \\less_plus_greater.liga;\012  sub \\CR.00 \\CR.00 \\less' by \\equal_less_less.liga;\012  sub \\CR.00 \\CR.00 \\parenleft' by \\numbersign_underscore_parenleft.liga;\012  sub \\CR.00 \\CR.00 \\percent' by \\percent_percent_percent.liga;\012  sub \\CR.00 \\CR.00 \\period' by \\period_period_period.liga;\012  sub \\CR.00 \\CR.00 \\plus' by \\plus_plus_plus.liga;\012  sub \\CR.00 \\CR.00 \\question' by \\question_question_question.liga;\012  sub \\CR.00 \\CR.00 \\semicolon' by \\semicolon_semicolon_semicolon.liga;\012  sub \\CR.00 \\CR.00 \\slash' by \\slash_slash_slash.liga;\012  sub \\CR.00 \\CR.00 \\w' by \\w_w_w.liga;\012  sub \\CR.01 \\CR.01 \\asciitilde' by \\less_asciitilde_asciitilde.liga;\012  sub \\CR.01 \\CR.01 \\asterisk' by \\slash_asterisk_asterisk.liga;\012  sub \\CR.01 \\CR.01 \\equal' by \\less_less_equal.liga;\012  sub \\CR.01 \\CR.01 \\greater' by \\less_dollar_greater.liga;\012  sub \\CR.01 \\CR.01 \\hyphen' by \\greater_greater_hyphen.liga;\012  sub \\CR.01 \\CR.01 \\less' by \\less_equal_less.liga;\012  sub \\CR.01 \\CR.01 \\numbersign' by \\numbersign_numbersign_numbersign.liga;\012  sub \\CR.01 \\CR.01 \\slash' by \\asterisk_asterisk_slash.liga;\012  sub \\CR.02 \\CR.02 \\equal' by \\slash_equal_equal.liga;\012  sub \\CR.02 \\CR.02 \\greater' by \\less_hyphen_greater.liga;\012  sub \\CR.02 \\CR.02 \\hyphen' by \\less_hyphen_hyphen.liga;\012  sub \\CR.02 \\CR.02 \\less' by \\hyphen_less_less.liga;\012  sub \\CR.03 \\CR.03 \\equal' by \\less_equal_equal.liga;\012  sub \\CR.03 \\CR.03 \\greater' by \\asciitilde_asciitilde_greater.liga;\012  sub \\CR.03 \\CR.03 \\hyphen' by \\less_less_hyphen.liga;\012  sub \\CR.03 \\CR.03 \\less' by \\less_less_less.liga;\012  sub \\CR.04 \\CR.04 \\equal' by \\exclam_equal_equal.liga;\012  sub \\CR.04 \\CR.04 \\greater' by \\less_bar_greater.liga;\012  sub \\CR.04 \\CR.04 \\hyphen' by \\hyphen_hyphen_hyphen.liga;\012  sub \\CR.04 \\CR.04 \\less' by \\period_period_less.liga;\012  sub \\CR.05 \\CR.05 \\equal' by \\equal_slash_equal.liga;\012  sub \\CR.05 \\CR.05 \\greater' by \\equal_greater_greater.liga;\012  sub \\CR.06 \\CR.06 \\equal' by \\greater_greater_equal.liga;\012  sub \\CR.06 \\CR.06 \\greater' by \\hyphen_greater_greater.liga;\012  sub \\CR.07 \\CR.07 \\equal' by \\equal_colon_equal.liga;\012  sub \\CR.07 \\CR.07 \\greater' by \\equal_equal_greater.liga;\012  sub \\CR.08 \\CR.08 \\equal' by \\equal_equal_equal.liga;\012  sub \\CR.08 \\CR.08 \\greater' by \\greater_equal_greater.liga;\012  sub \\CR.09 \\CR.09 \\greater' by \\less_asterisk_greater.liga;\012  sub \\CR.10 \\CR.10 \\greater' by \\hyphen_hyphen_greater.liga;\012  sub \\CR.11 \\CR.11 \\greater' by \\less_equal_greater.liga;\012  sub \\CR.12 \\CR.12 \\greater' by \\greater_greater_greater.liga;\012  sub \\CR.00 \\exclam' \\hyphen \\hyphen by \\CR.00;\012  sub \\CR.00 \\numbersign' \\numbersign \\numbersign by \\CR.00;\012  sub \\CR.00 \\ampersand' \\ampersand by \\CR.00;\012  sub \\CR.00 \\asciitilde' \\asciitilde by \\CR.00;\012  sub \\CR.00 \\asterisk' \\asterisk by \\CR.00;\012  sub \\CR.00 \\backslash' \\backslash by \\CR.00;\012  sub \\CR.00 \\bar' \\bar by \\CR.00;\012  sub \\CR.00 \\bar' \\equal by \\CR.00;\012  sub \\CR.00 \\colon' \\colon by \\CR.00;\012  sub \\CR.00 \\exclam' \\exclam by \\CR.00;\012  sub \\CR.00 \\less' \\less by \\CR.00;\012  sub \\CR.00 \\percent' \\percent by \\CR.00;\012  sub \\CR.00 \\period' \\period by \\CR.00;\012  sub \\CR.00 \\plus' \\greater by \\CR.00;\012  sub \\CR.00 \\plus' \\plus by \\CR.00;\012  sub \\CR.00 \\question' \\question by \\CR.00;\012  sub \\CR.00 \\semicolon' \\semicolon by \\CR.00;\012  sub \\CR.00 \\slash' \\slash by \\CR.00;\012  sub \\CR.00 \\underscore' \\parenleft by \\CR.00;\012  sub \\CR.00 \\w' \\w by \\CR.00;\012  sub \\CR.01 \\asciitilde' \\asciitilde by \\CR.01;\012  sub \\CR.01 \\asterisk' \\asterisk by \\CR.01;\012  sub \\CR.01 \\asterisk' \\slash by \\CR.01;\012  sub \\CR.01 \\dollar' \\greater by \\CR.01;\012  sub \\CR.01 \\equal' \\less by \\CR.01;\012  sub \\CR.01 \\greater' \\hyphen by \\CR.01;\012  sub \\CR.01 \\less' \\equal by \\CR.01;\012  sub \\CR.01 \\numbersign' \\numbersign by \\CR.01;\012  sub \\CR.02 \\equal' \\equal by \\CR.02;\012  sub \\CR.02 \\hyphen' \\greater by \\CR.02;\012  sub \\CR.02 \\hyphen' \\hyphen by \\CR.02;\012  sub \\CR.02 \\less' \\less by \\CR.02;\012  sub \\CR.03 \\asciitilde' \\greater by \\CR.03;\012  sub \\CR.03 \\equal' \\equal by \\CR.03;\012  sub \\CR.03 \\less' \\hyphen by \\CR.03;\012  sub \\CR.03 \\less' \\less by \\CR.03;\012  sub \\CR.04 \\bar' \\greater by \\CR.04;\012  sub \\CR.04 \\equal' \\equal by \\CR.04;\012  sub \\CR.04 \\hyphen' \\hyphen by \\CR.04;\012  sub \\CR.04 \\period' \\less by \\CR.04;\012  sub \\CR.05 \\greater' \\greater by \\CR.05;\012  sub \\CR.05 \\slash' \\equal by \\CR.05;\012  sub \\CR.06 \\greater' \\equal by \\CR.06;\012  sub \\CR.06 \\greater' \\greater by \\CR.06;\012  sub \\CR.07 \\colon' \\equal by \\CR.07;\012  sub \\CR.07 \\equal' \\greater by \\CR.07;\012  sub \\CR.08 \\equal' \\equal by \\CR.08;\012  sub \\CR.08 \\equal' \\greater by \\CR.08;\012  sub \\CR.09 \\asterisk' \\greater by \\CR.09;\012  sub \\CR.10 \\hyphen' \\greater by \\CR.10;\012  sub \\CR.11 \\equal' \\greater by \\CR.11;\012  sub \\CR.12 \\greater' \\greater by \\CR.12;\012  sub \\CR.00 \\at' by \\asciitilde_at.liga;\012  sub \\CR.00 \\braceleft' by \\numbersign_braceleft.liga;\012  sub \\CR.00 \\braceright' by \\hyphen_braceright.liga;\012  sub \\CR.00 \\bracketleft' by \\numbersign_bracketleft.liga;\012  sub \\CR.00 \\bracketright' by \\bracketleft_bracketright.liga;\012  sub \\CR.00 \\dollar' by \\less_dollar.liga;\012  sub \\CR.00 \\equal' by \\colon_equal.liga;\012  sub \\CR.00 \\greater' by \\greater_greater.liga;\012  sub \\CR.00 \\hyphen' by \\braceleft_hyphen.liga;\012  sub \\CR.00 \\parenleft' by \\numbersign_parenleft.liga;\012  sub \\CR.01 \\ampersand' by \\ampersand_ampersand.liga;\012  sub \\CR.01 \\backslash' by \\backslash_backslash.liga;\012  sub \\CR.01 \\bar' by \\bar_bar.liga;\012  sub \\CR.01 \\colon' by \\colon_colon.liga;\012  sub \\CR.01 \\exclam' by \\exclam_exclam.liga;\012  sub \\CR.01 \\hyphen' by \\hyphen_hyphen.liga;\012  sub \\CR.01 \\percent' by \\percent_percent.liga;\012  sub \\CR.01 \\period' by \\period_period.liga;\012  sub \\CR.01 \\plus' by \\less_plus.liga;\012  sub \\CR.01 \\question' by \\question_question.liga;\012  sub \\CR.01 \\semicolon' by \\semicolon_semicolon.liga;\012  sub \\CR.01 \\slash' by \\slash_slash.liga;\012  sub \\CR.01 \\underscore' by \\numbersign_underscore.liga;\012  sub \\CR.02 \\asciitilde' by \\asciitilde_asciitilde.liga;\012  sub \\CR.02 \\asterisk' by \\asterisk_asterisk.liga;\012  sub \\CR.02 \\bar' by \\less_bar.liga;\012  sub \\CR.02 \\greater' by \\less_greater.liga;\012  sub \\CR.02 \\numbersign' by \\numbersign_numbersign.liga;\012  sub \\CR.02 \\plus' by \\plus_plus.liga;\012  sub \\CR.02 \\question' by \\numbersign_question.liga;\012  sub \\CR.02 \\slash' by \\less_slash.liga;\012  sub \\CR.03 \\asterisk' by \\slash_asterisk.liga;\012  sub \\CR.03 \\greater' by \\asciitilde_greater.liga;\012  sub \\CR.03 \\hyphen' by \\greater_hyphen.liga;\012  sub \\CR.03 \\slash' by \\asterisk_slash.liga;\012  sub \\CR.04 \\asciitilde' by \\equal_asciitilde.liga;\012  sub \\CR.04 \\asterisk' by \\less_asterisk.liga;\012  sub \\CR.04 \\greater' by \\bar_greater.liga;\012  sub \\CR.04 \\less' by \\less_less.liga;\012  sub \\CR.05 \\asciitilde' by \\hyphen_asciitilde.liga;\012  sub \\CR.05 \\equal' by \\question_equal.liga;\012  sub \\CR.05 \\hyphen' by \\asciitilde_hyphen.liga;\012  sub \\CR.05 \\less' by \\hyphen_less.liga;\012  sub \\CR.06 \\asciitilde' by \\less_asciitilde.liga;\012  sub \\CR.06 \\equal' by \\asciitilde_equal.liga;\012  sub \\CR.06 \\hyphen' by \\period_hyphen.liga;\012  sub \\CR.06 \\less' by \\equal_less.liga;\012  sub \\CR.07 \\greater' by \\plus_greater.liga;\012  sub \\CR.07 \\hyphen' by \\less_hyphen.liga;\012  sub \\CR.08 \\greater' by \\equal_greater.liga;\012  sub \\CR.09 \\equal' by \\asciicircum_equal.liga;\012  sub \\CR.09 \\greater' by \\asterisk_greater.liga;\012  sub \\CR.10 \\equal' by \\bar_equal.liga;\012  sub \\CR.10 \\greater' by \\dollar_greater.liga;\012  sub \\CR.11 \\greater' by \\slash_greater.liga;\012  sub \\CR.12 \\equal' by \\greater_equal.liga;\012  sub \\CR.13 \\equal' by \\equal_equal.liga;\012  sub \\CR.13 \\greater' by \\hyphen_greater.liga;\012  sub \\CR.14 \\equal' by \\period_equal.liga;\012  sub \\CR.15 \\equal' by \\less_equal.liga;\012  sub \\CR.16 \\equal' by \\exclam_equal.liga;\012  sub \\CR.17 \\equal' by \\slash_equal.liga;\012  sub \\less' \\exclam \\hyphen \\hyphen by \\CR.00;\012  sub \\numbersign' \\numbersign \\numbersign \\numbersign by \\CR.00;\012  sub \\ampersand' \\ampersand \\ampersand by \\CR.00;\012  sub \\asciitilde' \\asciitilde \\asciitilde by \\CR.00;\012  sub \\asciitilde' \\asciitilde \\greater by \\CR.03;\012  sub \\asterisk' \\asterisk \\asterisk by \\CR.00;\012  sub \\asterisk' \\asterisk \\slash by \\CR.01;\012  sub \\backslash' \\backslash \\backslash by \\CR.00;\012  sub \\bar' \\bar \\bar by \\CR.00;\012  sub \\bar' \\bar \\equal by \\CR.00;\012  sub \\colon' \\colon \\colon by \\CR.00;\012  sub \\equal' \\colon \\equal by \\CR.07;\012  sub \\equal' \\equal \\equal by \\CR.08;\012  sub \\equal' \\equal \\greater by \\CR.07;\012  sub \\equal' \\greater \\greater by \\CR.05;\012  sub \\equal' \\less \\less by \\CR.00;\012  sub \\equal' \\slash \\equal by \\CR.05;\012  sub \\exclam' \\equal \\equal by \\CR.04;\012  sub \\exclam' \\exclam \\exclam by \\CR.00;\012  sub \\greater' \\equal \\greater by \\CR.08;\012  sub \\greater' \\greater \\equal by \\CR.06;\012  sub \\greater' \\greater \\greater by \\CR.12;\012  sub \\greater' \\greater \\hyphen by \\CR.01;\012  sub \\hyphen' \\greater \\greater by \\CR.06;\012  sub \\hyphen' \\hyphen \\greater by \\CR.10;\012  sub \\hyphen' \\hyphen \\hyphen by \\CR.04;\012  sub \\hyphen' \\less \\less by \\CR.02;\012  sub \\less' \\asciitilde \\asciitilde by \\CR.01;\012  sub \\less' \\asterisk \\greater by \\CR.09;\012  sub \\less' \\bar \\greater by \\CR.04;\012  sub \\less' \\dollar \\greater by \\CR.01;\012  sub \\less' \\equal \\equal by \\CR.03;\012  sub \\less' \\equal \\greater by \\CR.11;\012  sub \\less' \\equal \\less by \\CR.01;\012  sub \\less' \\hyphen \\greater by \\CR.02;\012  sub \\less' \\hyphen \\hyphen by \\CR.02;\012  sub \\less' \\less \\equal by \\CR.01;\012  sub \\less' \\less \\hyphen by \\CR.03;\012  sub \\less' \\less \\less by \\CR.03;\012  sub \\less' \\plus \\greater by \\CR.00;\012  sub \\numbersign' \\numbersign \\numbersign by \\CR.01;\012  sub \\numbersign' \\underscore \\parenleft by \\CR.00;\012  sub \\percent' \\percent \\percent by \\CR.00;\012  sub \\period' \\period \\less by \\CR.04;\012  sub \\period' \\period \\period by \\CR.00;\012  sub \\plus' \\plus \\plus by \\CR.00;\012  sub \\question' \\question \\question by \\CR.00;\012  sub \\semicolon' \\semicolon \\semicolon by \\CR.00;\012  sub \\slash' \\asterisk \\asterisk by \\CR.01;\012  sub \\slash' \\equal \\equal by \\CR.02;\012  sub \\slash' \\slash \\slash by \\CR.00;\012  sub \\w' \\w \\w by \\CR.00;\012  sub \\ampersand' \\ampersand by \\CR.01;\012  sub \\asciicircum' \\equal by \\CR.09;\012  sub \\asciitilde' \\asciitilde by \\CR.02;\012  sub \\asciitilde' \\at by \\CR.00;\012  sub \\asciitilde' \\equal by \\CR.06;\012  sub \\asciitilde' \\greater by \\CR.03;\012  sub \\asciitilde' \\hyphen by \\CR.05;\012  sub \\asterisk' \\asterisk by \\CR.02;\012  sub \\asterisk' \\greater by \\CR.09;\012  sub \\asterisk' \\slash by \\CR.03;\012  sub \\backslash' \\backslash by \\CR.01;\012  sub \\bar' \\bar by \\CR.01;\012  sub \\bar' \\equal by \\CR.10;\012  sub \\bar' \\greater by \\CR.04;\012  sub \\braceleft' \\hyphen by \\CR.00;\012  sub \\bracketleft' \\bracketright by \\CR.00;\012  sub \\colon' \\colon by \\CR.01;\012  sub \\colon' \\equal by \\CR.00;\012  sub \\dollar' \\greater by \\CR.10;\012  sub \\equal' \\asciitilde by \\CR.04;\012  sub \\equal' \\equal by \\CR.13;\012  sub \\equal' \\greater by \\CR.08;\012  sub \\equal' \\less by \\CR.06;\012  sub \\exclam' \\equal by \\CR.16;\012  sub \\exclam' \\exclam by \\CR.01;\012  sub \\greater' \\equal by \\CR.12;\012  sub \\greater' \\greater by \\CR.00;\012  sub \\greater' \\hyphen by \\CR.03;\012  sub \\hyphen' \\asciitilde by \\CR.05;\012  sub \\hyphen' \\braceright by \\CR.00;\012  sub \\hyphen' \\greater by \\CR.13;\012  sub \\hyphen' \\hyphen by \\CR.01;\012  sub \\hyphen' \\less by \\CR.05;\012  sub \\less' \\asciitilde by \\CR.06;\012  sub \\less' \\asterisk by \\CR.04;\012  sub \\less' \\bar by \\CR.02;\012  sub \\less' \\dollar by \\CR.00;\012  sub \\less' \\equal by \\CR.15;\012  sub \\less' \\greater by \\CR.02;\012  sub \\less' \\hyphen by \\CR.07;\012  sub \\less' \\less by \\CR.04;\012  sub \\less' \\plus by \\CR.01;\012  sub \\less' \\slash by \\CR.02;\012  sub \\numbersign' \\braceleft by \\CR.00;\012  sub \\numbersign' \\bracketleft by \\CR.00;\012  sub \\numbersign' \\numbersign by \\CR.02;\012  sub \\numbersign' \\parenleft by \\CR.00;\012  sub \\numbersign' \\question by \\CR.02;\012  sub \\numbersign' \\underscore by \\CR.01;\012  sub \\percent' \\percent by \\CR.01;\012  sub \\period' \\equal by \\CR.14;\012  sub \\period' \\hyphen by \\CR.06;\012  sub \\period' \\period by \\CR.01;\012  sub \\plus' \\greater by \\CR.07;\012  sub \\plus' \\plus by \\CR.02;\012  sub \\question' \\equal by \\CR.05;\012  sub \\question' \\question by \\CR.01;\012  sub \\semicolon' \\semicolon by \\CR.01;\012  sub \\slash' \\asterisk by \\CR.03;\012  sub \\slash' \\equal by \\CR.17;\012  sub \\slash' \\greater by \\CR.11;\012  sub \\slash' \\slash by \\CR.01;\012  \012sub \\hyphen' @Lowercase by \\hyphen.lowercase.calt;\012sub @Lowercase \\hyphen' by \\hyphen.lowercase.calt;\012sub \\plus' @Lowercase by \\plus.lowercase.calt;\012sub @Lowercase \\plus' by \\plus.lowercase.calt;\012sub \\asterisk' @Lowercase by \\asterisk.lowercase.calt;\012sub @Lowercase \\asterisk' by \\asterisk.lowercase.calt;\012sub \\zero \\x' @HexDigit by \\x.hex.calt;\012sub @Digit \\colon' @Digit by \\colon.centered.calt;\012  \012lookup caltGreekUCdiph {    sub @GreekUCdiphIOTA Iota' by Iotadieresis;    sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;} caltGreekUCdiph;\012lookup caltGreekUC {    sub @GreekUCAcc' @GreekUC by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];    sub @GreekUC @GreekUCAcc' by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];    sub @GreekUCAcc' space @GreekUC by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];    sub @GreekUC space @GreekUCAcc' by [Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega];} caltGreekUC;\012";
 name = calt;
 }
 );
@@ -17139,6 +17147,61 @@ width = 600;
 }
 );
 unicode = 017C;
+},
+{
+color = 6;
+glyphname = x.hex.calt;
+lastChange = "2015-12-19 15:22:12 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"300 382 LINE",
+"113 569 LINE",
+"56 512 LINE",
+"243 325 LINE",
+"56 138 LINE",
+"113 81 LINE",
+"300 268 LINE",
+"487 81 LINE",
+"544 138 LINE",
+"357 325 LINE",
+"544 512 LINE",
+"487 569 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"300 412 LINE",
+"128 585 LINE",
+"40 497 LINE",
+"214 326 LINE",
+"40 153 LINE",
+"128 65 LINE",
+"300 240 LINE",
+"472 65 LINE",
+"560 153 LINE",
+"386 326 LINE",
+"560 497 LINE",
+"472 585 LINE"
+);
+}
+);
+width = 600;
+}
+);
 },
 {
 color = 7;
@@ -70185,73 +70248,6 @@ width = 400;
 unicode = 2079;
 },
 {
-color = 6;
-glyphname = zero_x.liga;
-lastChange = "2015-12-18 11:41:30 +0000";
-layers = (
-{
-components = (
-{
-name = zero;
-transform = "{1, 0, 0, 1, -600, 0}";
-}
-);
-layerId = UUID0;
-name = Regular;
-paths = (
-{
-closed = 1;
-nodes = (
-"300 382 LINE",
-"113 569 LINE",
-"56 512 LINE",
-"243 325 LINE",
-"56 138 LINE",
-"113 81 LINE",
-"300 268 LINE",
-"487 81 LINE",
-"544 138 LINE",
-"357 325 LINE",
-"544 512 LINE",
-"487 569 LINE"
-);
-}
-);
-width = 600;
-},
-{
-components = (
-{
-name = zero;
-transform = "{1, 0, 0, 1, -600, 0}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-name = Bold;
-paths = (
-{
-closed = 1;
-nodes = (
-"300 412 LINE",
-"128 585 LINE",
-"40 497 LINE",
-"214 326 LINE",
-"40 153 LINE",
-"128 65 LINE",
-"300 240 LINE",
-"472 65 LINE",
-"560 153 LINE",
-"386 326 LINE",
-"560 497 LINE",
-"472 585 LINE"
-);
-}
-);
-width = 600;
-}
-);
-},
-{
 color = 4;
 glyphname = asterisk;
 lastChange = "2015-03-19 16:57:05 +0000";
@@ -71750,6 +71746,212 @@ width = 600;
 unicode = 2017;
 },
 {
+color = 6;
+glyphname = colon.centered.calt;
+lastChange = "2015-12-19 15:24:25 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"216 105 OFFCURVE",
+"252 68 OFFCURVE",
+"299 68 CURVE SMOOTH",
+"347 68 OFFCURVE",
+"383 105 OFFCURVE",
+"383 152 CURVE SMOOTH",
+"383 197 OFFCURVE",
+"347 235 OFFCURVE",
+"299 235 CURVE SMOOTH",
+"252 235 OFFCURVE",
+"216 197 OFFCURVE",
+"216 152 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"216 465 OFFCURVE",
+"252 427 OFFCURVE",
+"299 427 CURVE SMOOTH",
+"347 427 OFFCURVE",
+"383 465 OFFCURVE",
+"383 511 CURVE SMOOTH",
+"383 557 OFFCURVE",
+"347 594 OFFCURVE",
+"299 594 CURVE SMOOTH",
+"252 594 OFFCURVE",
+"216 557 OFFCURVE",
+"216 511 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"194 111 OFFCURVE",
+"241 63 OFFCURVE",
+"300 63 CURVE SMOOTH",
+"359 63 OFFCURVE",
+"405 111 OFFCURVE",
+"405 169 CURVE SMOOTH",
+"405 226 OFFCURVE",
+"359 273 OFFCURVE",
+"300 273 CURVE SMOOTH",
+"241 273 OFFCURVE",
+"194 226 OFFCURVE",
+"194 169 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"194 457 OFFCURVE",
+"241 409 OFFCURVE",
+"300 409 CURVE SMOOTH",
+"359 409 OFFCURVE",
+"405 457 OFFCURVE",
+"405 514 CURVE SMOOTH",
+"405 571 OFFCURVE",
+"359 620 OFFCURVE",
+"300 620 CURVE SMOOTH",
+"241 620 OFFCURVE",
+"194 571 OFFCURVE",
+"194 514 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 6;
+glyphname = asterisk.lowercase.calt;
+lastChange = "2015-12-19 16:53:05 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"255 487 LINE",
+"270 324 LINE",
+"121 387 LINE",
+"94 302 LINE",
+"252 267 LINE",
+"146 142 LINE",
+"221 91 LINE",
+"301 233 LINE",
+"386 93 LINE",
+"459 148 LINE",
+"349 267 LINE",
+"506 302 LINE",
+"479 387 LINE",
+"329 324 LINE",
+"345 487 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"231 491 LINE",
+"253 341 LINE",
+"117 405 LINE",
+"77 279 LINE",
+"224 253 LINE",
+"120 142 LINE",
+"230 62 LINE",
+"299 197 LINE",
+"371 63 LINE",
+"481 143 LINE",
+"375 252 LINE",
+"523 279 LINE",
+"482 405 LINE",
+"346 340 LINE",
+"368 491 LINE"
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = UUID0;
+layerId = "3BA0A9C5-DFD5-4908-8817-237E363EC45D";
+name = "Regular Jun 1 14, 13:39";
+paths = (
+{
+closed = 1;
+nodes = (
+"255 738 LINE",
+"270 585 LINE",
+"131 645 LINE",
+"104 560 LINE",
+"252 528 LINE",
+"151 413 LINE",
+"226 362 LINE",
+"301 494 LINE",
+"381 364 LINE",
+"454 419 LINE",
+"349 528 LINE",
+"496 560 LINE",
+"469 645 LINE",
+"329 585 LINE",
+"345 738 LINE"
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+layerId = "7CC500CD-C10D-449B-BC1E-579E9C7B0FB7";
+name = "Bold Jun 1 14, 13:39";
+paths = (
+{
+closed = 1;
+nodes = (
+"231 743 LINE",
+"253 603 LINE",
+"127 664 LINE",
+"87 538 LINE",
+"224 515 LINE",
+"125 414 LINE",
+"235 334 LINE",
+"299 459 LINE",
+"366 335 LINE",
+"476 415 LINE",
+"375 514 LINE",
+"513 538 LINE",
+"472 664 LINE",
+"346 602 LINE",
+"368 743 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
 color = 4;
 glyphname = exclamdown.case;
 lastChange = "2015-03-19 16:57:06 +0000";
@@ -73170,6 +73372,45 @@ width = 600;
 }
 );
 unicode = 00AD;
+},
+{
+color = 6;
+glyphname = hyphen.lowercase.calt;
+lastChange = "2015-12-19 16:52:35 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"477 234 LINE",
+"477 312 LINE",
+"123 312 LINE",
+"123 234 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"492 211 LINE",
+"492 335 LINE",
+"108 335 LINE",
+"108 211 LINE"
+);
+}
+);
+width = 600;
+}
+);
 },
 {
 color = 7;
@@ -78250,6 +78491,86 @@ width = 600;
 {
 glyphname = CR.12;
 lastChange = "2015-12-18 12:19:05 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+width = 600;
+}
+);
+},
+{
+glyphname = CR.13;
+lastChange = "2015-12-19 16:06:04 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+width = 600;
+}
+);
+},
+{
+glyphname = CR.14;
+lastChange = "2015-12-19 16:06:07 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+width = 600;
+}
+);
+},
+{
+glyphname = CR.15;
+lastChange = "2015-12-19 16:06:10 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+width = 600;
+}
+);
+},
+{
+glyphname = CR.16;
+lastChange = "2015-12-19 16:06:13 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+width = 600;
+}
+);
+},
+{
+glyphname = CR.17;
+lastChange = "2015-12-19 16:06:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -83435,6 +83756,61 @@ width = 600;
 }
 );
 unicode = 2211;
+},
+{
+color = 6;
+glyphname = plus.lowercase.calt;
+lastChange = "2015-12-19 16:56:37 +0000";
+layers = (
+{
+layerId = UUID0;
+name = Regular;
+paths = (
+{
+closed = 1;
+nodes = (
+"257 459 LINE",
+"257 309 LINE",
+"112 309 LINE",
+"112 233 LINE",
+"257 233 LINE",
+"257 84 LINE",
+"341 84 LINE",
+"341 233 LINE",
+"488 233 LINE",
+"488 309 LINE",
+"341 309 LINE",
+"341 459 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+name = Bold;
+paths = (
+{
+closed = 1;
+nodes = (
+"233 490 LINE",
+"233 334 LINE",
+"82 334 LINE",
+"82 211 LINE",
+"233 211 LINE",
+"233 55 LINE",
+"366 55 LINE",
+"366 211 LINE",
+"518 211 LINE",
+"518 334 LINE",
+"366 334 LINE",
+"366 490 LINE"
+);
+}
+);
+width = 600;
+}
+);
 },
 {
 color = 7;
@@ -121382,5 +121758,5 @@ oV = 98;
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }

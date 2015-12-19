@@ -51,6 +51,23 @@
          [ a  b  c  d] CR})))
 
 
+(defn any? [p & colls]
+  (if colls
+    (let [[coll & cs] colls]
+      (some #(apply any? (partial p %) cs) coll))
+    (p)))
+
+
+(defn conflicts? [r1 r2]
+  (when (.startsWith (first r2) "CR.") ;; we accept that higher-len ligatures can override lower-length
+                                       ;; but once replacement has started (first glyph in rule is CR.*)
+                                       ;; there should be no possibility for conflits
+    (let [l1 (count r1)
+          l2 (count r2)
+          prefix1 (subvec r1 0 l2)]
+      (= r2 prefix1))))
+
+
 (def all-rules
   (reduce
     (fn [generated liga]
@@ -59,12 +76,13 @@
         ;; with any of previous rules
         (some (fn [i]
                 (let [CR (str "CR." (String/format "%02d" (to-array [i])))
-                      rs (liga->rules liga CR)]
-                  (when-not (some generated (keys rs))
+                      rs (liga->rules liga CR)]  
+                  ; (println (keys generated) (keys rs))
+                  (when-not (any? conflicts? (keys generated) (keys rs))
                     rs)))
               (range))))
     {}
-    ligas))
+    (->> ligas (sort-by count) reverse)))
     
     
 (defn priority-fn [[from to]]
@@ -76,16 +94,8 @@
    (into from (repeat (- 4 (count from)) "z"))])
 
 
-(defn replace-keys [replacements coll]
-  (reduce (fn [result [k v]]
-            (conj result [(or (replacements k) k) v]))
-          (empty coll) coll))
-
-    
 (def table (->> all-rules
-                (sort-by priority-fn)
-                vec
-                (replace-keys {["zero" "x"] ["zero" "x" "@HexDigit"]})))
+                (sort-by priority-fn)))
 
 
 (defn rule->str [[from to]]
