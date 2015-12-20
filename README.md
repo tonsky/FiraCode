@@ -28,12 +28,12 @@ Work | Don’t work
 --------|----------------
 **Atom [1.1]** or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) | **Intellij Idea-based** ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539))
-**Visual Studio** | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**TextMate 2** | **gVim, MacVim**
-**Coda 2** | **Notepad++**
+**Visual Studio** | **Visual Studio Code**
+**TextMate 2** | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**Coda 2** | **gVim, MacVim**
 **Eclipse** (Linux) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**QtCreator** | **Xamarin Studio/Monodevelop**
-**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
+**QtCreator** | **Notepad++**
+**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | **Xamarin Studio/Monodevelop**
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions])) |
 **RStudio** |
 **Chocolat** |
