@@ -16,7 +16,7 @@ Fira Code is a Fira Mono font extended with a set of ligatures for common progra
 
 ### Terminals support
 
-Do work | Do **not** work
+Work | Don’t work
 ------- | ---------------
 **Terminal.app** (OS X default terminal) | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 **Konsole** (except KDE4) | **GNOME Terminal**
@@ -24,7 +24,7 @@ Do work | Do **not** work
 
 ### Editor support
 
-Do work | Do **not** work
+Work | Don’t work
 --------|----------------
 **Atom [1.1]** or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) | **Intellij Idea-based** ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539))
