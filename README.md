@@ -60,6 +60,7 @@ Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
 ### Browser support
 
+- IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
 - Firefox
 - Safari
 - Chromium-based browsers: enable with  `font-variant-ligatures: contextual;` or `text-rendering: optimizeLegibility` (see [571246](https://code.google.com/p/chromium/issues/detail?q=font-variant-ligatures&id=571246&thanks=571246&ts=1450553433&))
