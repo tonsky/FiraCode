@@ -34,7 +34,7 @@ Work | Don’t work
 **Eclipse** (Linux) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 **QtCreator** | **Notepad++**
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | **Xamarin Studio/Monodevelop**
-**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions])) |
+**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) |
 **RStudio** |
 **Chocolat** |
 **Kate, KWrite** (except KDE 4) |
