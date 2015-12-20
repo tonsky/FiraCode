@@ -14,49 +14,35 @@ Fira Code is a Fira Mono font extended with a set of ligatures for common progra
 
 <img src="./showcases/all_ligatures.png" />
 
+### Terminals support
+
+Do work | Do **not** work
+------- | ---------------
+**Terminal.app** (OS X default terminal) | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
+**Konsole** (except KDE4) | **GNOME Terminal**
+ | **rxvt**
+
 ### Editor support
 
-Do **not** work:
-
-- SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
-- Intellij Idea ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539)), including everything built on top of it (PhpStorm, PyCharm, RubyMine, WebStorm, AppCode, CLion, ReSharper)
-- iTerm 2 ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
-- Emacs ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-- gVim, MacVim, Vim
-- Eclipse (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-- Notepad++
-- Kate, Konsole, KWrite in KDE 4
-- Xamarin Studio/Monodevelop
-- GNOME Terminal
-
-Do work:
-
-- Atom (since [1.1](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html), add `atom-text-editor { text-rendering:optimizeLegibility }` to the stylesheet)
-- Xcode (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin))
-- Visual Studio
-- Terminal.app (OS X default terminal)
-- TextMate 2
-- Coda 2
-- Eclipse (Linux)
-- QtCreator
-- LightTable ([instructions](https://github.com/LightTable/LightTable/issues/1459#issuecomment-57366504))
-- BBEdit — enter this command in a terminal to enable ligatures:  
-  `defaults write com.barebones.bbedit "EnableFontLigatures_Fira Code" -bool YES`
-- RStudio
-- Chocolat
-- Kate, Konsole, KWrite in Plasma/KDE 5
-- Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
-- Mancy
-- TextAdept (Linux, Mac)
-- GNOME Builder
-- Leafpad
-
-Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
-
-- Geany
-- gEdit
-- Smultron
-- Vico
+Do work | Do **not** work
+--------|----------------
+**Atom [1.1]** or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
+**Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) | **Intellij Idea-based** ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539))
+**Visual Studio** | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**TextMate 2** | **gVim, MacVim**
+**Coda 2** | **Notepad++**
+**Eclipse** (Linux) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
+**QtCreator** | **Xamarin Studio/Monodevelop**
+**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
+**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions])) |
+**RStudio** |
+**Chocolat** |
+**Kate, KWrite** (except KDE 4) |
+**Mancy** |
+**TextAdept** (Linux, Mac) |
+**GNOME Builder** |
+**Leafpad** |
+Probably work: **Geany, gEdit, Smultron, Vico** |
 
 ### Browser support
 
