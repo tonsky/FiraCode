@@ -30,10 +30,11 @@ Work | Don’t work
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) | **Intellij Idea-based** ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539))
 **Visual Studio** | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
 **TextMate 2** | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**Coda 2** | **gVim, MacVim**
+**MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) | **gVim**
+**Coda 2** | **Notepad++**
 **Eclipse** (Linux) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**QtCreator** | **Notepad++**
-**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | **Xamarin Studio/Monodevelop**
+**QtCreator** | **Xamarin Studio/Monodevelop**
+**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) |
 **RStudio** |
 **Chocolat** |
