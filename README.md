@@ -50,6 +50,7 @@ Do work:
 - TextAdept (Linux, Mac)
 - GNOME Builder
 - Leafpad
+- Cloud9 ACE
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
