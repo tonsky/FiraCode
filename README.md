@@ -21,7 +21,6 @@ Do **not** work:
 - SublimeText ([vote here](http://sublimetext.userecho.com/topic/433445-opentype-support-ligatures-curly-quotes-contextual-and-alternate-symbols/))
 - Intellij Idea ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539)), including everything built on top of it (PhpStorm, PyCharm, RubyMine, WebStorm, AppCode, CLion, ReSharper)
 - iTerm 2 ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
-- OS X Terminal.app
 - Emacs ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
 - gVim, MacVim, Vim
 - Eclipse (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
@@ -35,6 +34,7 @@ Do work:
 - Atom (since [1.1](http://blog.atom.io/2015/10/29/atom-1-1-is-out.html), add `atom-text-editor { text-rendering:optimizeLegibility }` to the stylesheet)
 - Xcode (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin))
 - Visual Studio
+- Terminal.app (OS X default terminal)
 - TextMate 2
 - Coda 2
 - Eclipse (Linux)
