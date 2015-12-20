@@ -23,11 +23,12 @@ Do **not** work:
 - iTerm 2 ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 - OS X Terminal.app
 - Emacs ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-- gVim, MacVim
+- gVim, MacVim, Vim
 - Eclipse (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 - Notepad++
 - Kate, Konsole, KWrite in KDE 4
 - Xamarin Studio/Monodevelop
+- GNOME Terminal
 
 Do work:
 
@@ -48,6 +49,7 @@ Do work:
 - Mancy
 - TextAdept (Linux, Mac)
 - GNOME Builder
+- Leafpad
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
