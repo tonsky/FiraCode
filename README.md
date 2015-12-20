@@ -47,6 +47,7 @@ Do work:
 - Kate, Konsole, KWrite in KDE 4 using Debian Jessie or OS X
 - Mancy
 - TextAdept (Linux, Mac)
+- GNOME Builder
 
 Should work (copied from [Hasklig README](https://github.com/i-tu/Hasklig)):
 
