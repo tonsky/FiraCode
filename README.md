@@ -8,7 +8,7 @@ Programmers use a lot of symbols, often encoded with several characters. For hum
 
 ### Solution
 
-#### Download [Fira Code v1.100](https://github.com/tonsky/FiraCode/releases/download/1.100/FiraCode_1.100.zip) | Follow updates 📢 [@FiraCode](https://twitter.com/FiraCode)
+#### Download [Fira Code v1.101](https://github.com/tonsky/FiraCode/releases/download/1.101/FiraCode_1.101.zip) | Follow updates 📢 [@FiraCode](https://twitter.com/FiraCode)
 
 
 Fira Code is a Fira Mono font extended with a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//` ligatures allow us to correct spacing.
@@ -95,6 +95,12 @@ Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligat
 Thanks Georg Seifert for providing a [Glyphs 2](https://glyphsapp.com) license.
 
 ### Changelog
+
+#### 1.101
+
+- Added Light weight
+- Adjusted rules when vertical centering of `:`, `-`, `*` and `+` occurs
+
 
 #### 1.100
 
