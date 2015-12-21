@@ -2,13 +2,14 @@
 
 <img src="https://dl.dropboxusercontent.com/u/561580/imgs/fira_code_logo.svg">
 
-#### [Download Fira Code v1.100](https://github.com/tonsky/FiraCode/releases/download/1.100/FiraCode_1.100.zip)
-
 ### Problem
 
 Programmers use a lot of symbols, often encoded with several characters. For human brain sequences like `->`, `<=` or `:=` are single logical token, even if they take two or three places on the screen. Your eye spends non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
 
 ### Solution
+
+#### Download [Fira Code v1.100](https://github.com/tonsky/FiraCode/releases/download/1.100/FiraCode_1.100.zip) | Follow updates 📢 [@FiraCode](https://twitter.com/FiraCode)
+
 
 Fira Code is a Fira Mono font extended with a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//` ligatures allow us to correct spacing.
 
