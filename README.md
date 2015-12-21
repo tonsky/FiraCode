@@ -44,6 +44,7 @@ Work | Don’t work
 **TextAdept** (Linux, Mac) |
 **GNOME Builder** |
 **Leafpad** |
+**Notepad** (Win) |
 Probably work: **Geany, gEdit, Smultron, Vico** |
 
 ### Browser support
