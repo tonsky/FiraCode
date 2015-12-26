@@ -8,7 +8,7 @@ Programmers use a lot of symbols, often encoded with several characters. For hum
 
 ### Solution
 
-#### Download [Fira Code v1.101](https://github.com/tonsky/FiraCode/releases/download/1.101/FiraCode_1.101.zip) | Follow updates 📢 [@FiraCode](https://twitter.com/FiraCode)
+#### Download [Fira Code v1.102](https://github.com/tonsky/FiraCode/releases/download/1.102/FiraCode_1.102.zip) | Follow updates 📢 [@FiraCode](https://twitter.com/FiraCode)
 
 
 Fira Code is a Fira Mono font extended with a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//` ligatures allow us to correct spacing.
@@ -27,14 +27,15 @@ Work | Don’t work
 
 Work | Don’t work
 --------|----------------
-**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | SublimeText ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) | **Intellij Idea-based** ([vote here](https://youtrack.jetbrains.com/issue/IDEA-127539))
-**Visual Studio** | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
-**TextMate 2** | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) | **gVim**
-**Coda 2** | **Notepad++**
+**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
+**Intellij products** ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Xamarin Studio/Monodevelop**
 **Eclipse** (Linux) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**QtCreator** | **Xamarin Studio/Monodevelop**
+**Visual Studio** | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
+**MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) | **gVim**
+**Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**TextMate 2** | **Notepad++**
+**Coda 2** | 
+**QtCreator** | 
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) |
 **RStudio** |
@@ -88,6 +89,10 @@ Another monospaced fonts with ligatures:
 
 ### Credits
 
+My name is Nikita Prokopov ([@nikitonsky](https://twitter.com/nikitonsky)).
+
+Official Fira Code twitter: [@FiraCode](https://twitter.com/FiraCode) (subscribe for updates & announcements)
+
 This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/Fira). Original Fira Mono font was not changed, only extended.
 
 Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligatures for Haskell code.
@@ -95,6 +100,12 @@ Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligat
 Thanks Georg Seifert for providing a [Glyphs 2](https://glyphsapp.com) license.
 
 ### Changelog
+
+#### 1.102
+
+- Support for Intellij-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions))
+- Turned on autohinting
+
 
 #### 1.101
 

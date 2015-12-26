@@ -6,6 +6,22 @@ code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atild
 name = Uppercase;
 },
 {
+code = "a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae aeacute b c cacute ccaron ccedilla ccircumflex cdotaccent d eth dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve gcircumflex gcommaaccent gdotaccent h hbar hcircumflex i dotlessi iacute ibreve icircumflex idieresis idotaccent igrave ij imacron iogonek itilde j dotlessj jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash m n nacute napostrophe ncaron ncommaaccent eng ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent germandbls t tbar tcaron tcedilla tcommaaccent u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent x.hex.calt cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK w_w_w.liga ordfeminine ordmasculine nmod a-cy be-cy ve-cy ge-cy gje-cy gheupturn-cy de-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ef-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy hardsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy iu-cy ia-cy dje-cy omega-cy yat-cy eiotified-cy yuslittle-cy yuslittleiotified-cy yusbig-cy yusbigiotified-cy ksi-cy psi-cy fita-cy izhitsa-cy izhitsadblgrave-cy uk-cy ghestroke-cy ghemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy kastroke-cy kabashkir-cy endescender-cy pedescender-cy pemiddlehook-cy haabkhasian-cy esdescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy kahook-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hahook-cy hastroke-cy komide-cy komidje-cy komizje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy reversedze-cy elhook-cy lha-cy rha-cy yae-cy qa-cy we-cy aleutka-cy elmiddlehook-cy enmiddlehook-cy semisoftsign-cy ertick-cy dche-cy dzzhe-cy eldescender-cy enlefthook-cy enghe-cy tetse-cy aie-cy alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon phi chi psi omega iotatonos iotadieresis iotadieresistonos upsilontonos upsilondieresis upsilondieresistonos omicrontonos omegatonos alphatonos epsilontonos etatonos heta archaicsampi pamphyliandigamma reversedlunatesigmasymbol dottedlunatesigmasymbol reverseddottedlunatesigmasymbol koppaArchaic stigma digamma koppa sampi kaiSymbol betaSymbol thetaSymbol phiSymbol piSymbol kappaSymbol rhoSymbol sigmaLunateSymbol yot epsilonLunateSymbol sho san rhoStrokeSymbol alphapsili alphadasia alphapsilivaria alphadasiavaria alphapsilioxia alphadasiaoxia alphapsiliperispomeni alphadasiaperispomeni alphavaria alphaoxia alphaperispomeni alphavrachy alphamacron alphaypogegrammeni alphavariaypogegrammeni alphaoxiaypogegrammeni alphapsiliypogegrammeni alphadasiaypogegrammeni alphapsilivariaypogegrammeni alphadasiavariaypogegrammeni alphapsilioxiaypogegrammeni alphadasiaoxiaypogegrammeni alphapsiliperispomeniypogegrammeni alphadasiaperispomeniypogegrammeni alphaperispomeniypogegrammeni epsilonpsili epsilondasia epsilonpsilivaria epsilondasiavaria epsilonpsilioxia epsilondasiaoxia epsilonvaria epsilonoxia etapsili etadasia etapsilivaria etadasiavaria etapsilioxia etadasiaoxia etapsiliperispomeni etadasiaperispomeni etavaria etaoxia etaperispomeni etaypogegrammeni etavariaypogegrammeni etaoxiaypogegrammeni etapsiliypogegrammeni etadasiaypogegrammeni etapsilivariaypogegrammeni etadasiavariaypogegrammeni etapsilioxiaypogegrammeni etadasiaoxiaypogegrammeni etapsiliperispomeniypogegrammeni etadasiaperispomeniypogegrammeni etaperispomeniypogegrammeni iotapsili iotadasia iotapsilivaria iotadasiavaria iotapsilioxia iotadasiaoxia iotapsiliperispomeni iotadasiaperispomeni iotavaria iotaoxia iotaperispomeni iotavrachy iotamacron iotadialytikavaria iotadialytikaoxia iotadialytikaperispomeni omicronpsili omicrondasia omicronpsilivaria omicrondasiavaria omicronpsilioxia omicrondasiaoxia omicronvaria omicronoxia rhopsili rhodasia upsilonpsili upsilondasia upsilonpsilivaria upsilondasiavaria upsilonpsilioxia upsilondasiaoxia upsilonpsiliperispomeni upsilondasiaperispomeni upsilonvaria upsilonoxia upsilonperispomeni upsilonvrachy upsilonmacron upsilondialytikavaria upsilondialytikaoxia upsilondialytikaperispomeni omegapsili omegadasia omegapsilivaria omegadasiavaria omegapsilioxia omegadasiaoxia omegapsiliperispomeni omegadasiaperispomeni omegavaria omegaoxia omegaperispomeni omegaypogegrammeni omegavariaypogegrammeni omegaoxiaypogegrammeni omegapsiliypogegrammeni omegadasiaypogegrammeni omegapsilivariaypogegrammeni omegadasiavariaypogegrammeni omegapsilioxiaypogegrammeni omegadasiaoxiaypogegrammeni omegapsiliperispomeniypogegrammeni omegadasiaperispomeniypogegrammeni omegaperispomeniypogegrammeni prosgegrammeni ypogegrammeni";
+name = Lowercase;
+},
+{
+code = "zero one two three four five six seven eight nine";
+name = Digit;
+},
+{
+code = "@Digit a b c d e f A B C D E F";
+name = HexDigit;
+},
+{
+code = "@Uppercase @Digit";
+name = Tall;
+},
+{
 code = "Alpha\012Beta\012Gamma\012Delta\012Epsilon\012Zeta\012Eta\012Theta\012Iota\012Kappa\012Lambda\012Mu\012Nu\012Xi\012Omicron\012Pi\012Rho\012Sigma\012Tau\012Upsilon\012Phi\012Chi\012Psi\012Omega\012Alphatonos\012Epsilontonos\012Etatonos\012Iotatonos\012Omicrontonos\012Upsilontonos\012Omegatonos\012Iotadieresis\012Upsilondieresis\012Alphapsili\012Alphadasia\012Alphapsilivaria\012Alphadasiavaria\012Alphapsilioxia\012Alphadasiaoxia\012Alphapsiliperispomeni\012Alphadasiaperispomeni\012Alphavaria\012Alphaoxia\012Alphavrachy\012Alphamacron\012Alphaprosgegrammeni\012Alphapsiliprosgegrammeni\012Alphadasiaprosgegrammeni\012Alphapsilivariaprosgegrammeni\012Alphadasiavariaprosgegrammeni\012Alphapsilioxiaprosgegrammeni\012Alphadasiaoxiaprosgegrammeni\012Alphapsiliperispomeniprosgegrammeni\012Alphadasiaperispomeniprosgegrammeni\012Epsilonpsili\012Epsilondasia\012Epsilonpsilivaria\012Epsilondasiavaria\012Epsilonpsilioxia\012Epsilondasiaoxia\012Epsilonvaria\012Epsilonoxia\012Etapsili\012Etadasia\012Etapsilivaria\012Etadasiavaria\012Etapsilioxia\012Etadasiaoxia\012Etapsiliperispomeni\012Etadasiaperispomeni\012Etavaria\012Etaoxia\012Etaprosgegrammeni\012Etapsiliprosgegrammeni\012Etadasiaprosgegrammeni\012Etapsilivariaprosgegrammeni\012Etadasiavariaprosgegrammeni\012Etapsilioxiaprosgegrammeni\012Etadasiaoxiaprosgegrammeni\012Etapsiliperispomeniprosgegrammeni\012Etadasiaperispomeniprosgegrammeni\012Iotapsili\012Iotadasia\012Iotapsilivaria\012Iotadasiavaria\012Iotapsilioxia\012Iotadasiaoxia\012Iotapsiliperispomeni\012Iotadasiaperispomeni\012Iotavaria\012Iotaoxia\012Iotavrachy\012Iotamacron\012Omicronpsili\012Omicrondasia\012Omicronpsilivaria\012Omicrondasiavaria\012Omicronpsilioxia\012Omicrondasiaoxia\012Omicronvaria\012Omicronoxia\012Rhodasia\012Upsilondasia\012Upsilondasiavaria\012Upsilondasiaoxia\012Upsilondasiaperispomeni\012Upsilonvaria\012Upsilonoxia\012Upsilonvrachy\012Upsilonmacron\012Omegapsili\012Omegadasia\012Omegapsilivaria\012Omegadasiavaria\012Omegapsilioxia\012Omegadasiaoxia\012Omegapsiliperispomeni\012Omegadasiaperispomeni\012Omegavaria\012Omegaoxia\012Omegaprosgegrammeni\012Omegapsiliprosgegrammeni\012Omegadasiaprosgegrammeni\012Omegapsilivariaprosgegrammeni\012Omegadasiavariaprosgegrammeni\012Omegapsilioxiaprosgegrammeni\012Omegadasiaoxiaprosgegrammeni\012Omegapsiliperispomeniprosgegrammeni\012Omegadasiaperispomeniprosgegrammeni";
 name = GreekUC;
 },
@@ -20,22 +36,6 @@ name = GreekUCdiphIOTA;
 {
 code = "Alphatonos\012Epsilontonos\012Omicrontonos\012Alphapsili\012Alphadasia\012Alphapsilivaria\012Alphadasiavaria\012Alphapsilioxia\012Alphadasiaoxia\012Alphapsiliperispomeni\012Alphadasiaperispomeni\012Alphavaria\012Alphaoxia\012Alphavrachy\012Alphamacron\012Alphaprosgegrammeni\012Alphapsiliprosgegrammeni\012Alphadasiaprosgegrammeni\012Alphapsilivariaprosgegrammeni\012Alphadasiavariaprosgegrammeni\012Alphapsilioxiaprosgegrammeni\012Alphadasiaoxiaprosgegrammeni\012Alphapsiliperispomeniprosgegrammeni\012Alphadasiaperispomeniprosgegrammeni\012Epsilonpsili\012Epsilondasia\012Epsilonpsilivaria\012Epsilondasiavaria\012Epsilonpsilioxia\012Epsilondasiaoxia\012Epsilonvaria\012Epsilonoxia\012Omicronpsili\012Omicrondasia\012Omicronpsilivaria\012Omicrondasiavaria\012Omicronpsilioxia\012Omicrondasiaoxia\012Omicronvaria\012Omicronoxia";
 name = GreekUCdiphUPSILON;
-},
-{
-code = "zero one two three four five six seven eight nine a b c d e f A B C D E F";
-name = HexDigit;
-},
-{
-code = "zero one two three four five six seven eight nine";
-name = Digit;
-},
-{
-code = "a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae aeacute b c cacute ccaron ccedilla ccircumflex cdotaccent d eth dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve gcircumflex gcommaaccent gdotaccent h hbar hcircumflex i dotlessi iacute ibreve icircumflex idieresis idotaccent igrave ij imacron iogonek itilde j dotlessj jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash m n nacute napostrophe ncaron ncommaaccent eng ntilde o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde oe p thorn q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent germandbls t tbar tcaron tcedilla tcommaaccent u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent x.hex.calt cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK w_w_w.liga ordfeminine ordmasculine nmod a-cy be-cy ve-cy ge-cy gje-cy gheupturn-cy de-cy ie-cy iegrave-cy io-cy zhe-cy ze-cy ii-cy iishort-cy iigrave-cy iishorttail-cy ka-cy kje-cy el-cy em-cy en-cy o-cy pe-cy er-cy es-cy te-cy u-cy ushort-cy ef-cy ha-cy che-cy tse-cy sha-cy shcha-cy dzhe-cy softsign-cy hardsign-cy yeru-cy lje-cy nje-cy dze-cy e-cy ereversed-cy i-cy yi-cy je-cy tshe-cy iu-cy ia-cy dje-cy omega-cy yat-cy eiotified-cy yuslittle-cy yuslittleiotified-cy yusbig-cy yusbigiotified-cy ksi-cy psi-cy fita-cy izhitsa-cy izhitsadblgrave-cy uk-cy ghestroke-cy ghemiddlehook-cy zhedescender-cy zedescender-cy kadescender-cy kaverticalstroke-cy kastroke-cy kabashkir-cy endescender-cy pedescender-cy pemiddlehook-cy haabkhasian-cy esdescender-cy tedescender-cy ustrait-cy ustraitstroke-cy hadescender-cy chedescender-cy cheverticalstroke-cy shha-cy shhadescender-cy cheabkhasian-cy chedescenderabkhasian-cy palochka-cy zhebreve-cy kahook-cy eltail-cy enhook-cy entail-cy chekhakassian-cy emtail-cy abreve-cy adieresis-cy iebreve-cy schwa-cy schwadieresis-cy zhedieresis-cy zedieresis-cy dzeabkhasian-cy imacron-cy idieresis-cy odieresis-cy obarred-cy obarreddieresis-cy edieresis-cy umacron-cy udieresis-cy uhungarumlaut-cy chedieresis-cy gedescender-cy yerudieresis-cy gestrokehook-cy hahook-cy hastroke-cy komide-cy komidje-cy komizje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy reversedze-cy elhook-cy lha-cy rha-cy yae-cy qa-cy we-cy aleutka-cy elmiddlehook-cy enmiddlehook-cy semisoftsign-cy ertick-cy dche-cy dzzhe-cy eldescender-cy enlefthook-cy enghe-cy tetse-cy aie-cy alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigmafinal sigma tau upsilon phi chi psi omega iotatonos iotadieresis iotadieresistonos upsilontonos upsilondieresis upsilondieresistonos omicrontonos omegatonos alphatonos epsilontonos etatonos heta archaicsampi pamphyliandigamma reversedlunatesigmasymbol dottedlunatesigmasymbol reverseddottedlunatesigmasymbol koppaArchaic stigma digamma koppa sampi kaiSymbol betaSymbol thetaSymbol phiSymbol piSymbol kappaSymbol rhoSymbol sigmaLunateSymbol yot epsilonLunateSymbol sho san rhoStrokeSymbol alphapsili alphadasia alphapsilivaria alphadasiavaria alphapsilioxia alphadasiaoxia alphapsiliperispomeni alphadasiaperispomeni alphavaria alphaoxia alphaperispomeni alphavrachy alphamacron alphaypogegrammeni alphavariaypogegrammeni alphaoxiaypogegrammeni alphapsiliypogegrammeni alphadasiaypogegrammeni alphapsilivariaypogegrammeni alphadasiavariaypogegrammeni alphapsilioxiaypogegrammeni alphadasiaoxiaypogegrammeni alphapsiliperispomeniypogegrammeni alphadasiaperispomeniypogegrammeni alphaperispomeniypogegrammeni epsilonpsili epsilondasia epsilonpsilivaria epsilondasiavaria epsilonpsilioxia epsilondasiaoxia epsilonvaria epsilonoxia etapsili etadasia etapsilivaria etadasiavaria etapsilioxia etadasiaoxia etapsiliperispomeni etadasiaperispomeni etavaria etaoxia etaperispomeni etaypogegrammeni etavariaypogegrammeni etaoxiaypogegrammeni etapsiliypogegrammeni etadasiaypogegrammeni etapsilivariaypogegrammeni etadasiavariaypogegrammeni etapsilioxiaypogegrammeni etadasiaoxiaypogegrammeni etapsiliperispomeniypogegrammeni etadasiaperispomeniypogegrammeni etaperispomeniypogegrammeni iotapsili iotadasia iotapsilivaria iotadasiavaria iotapsilioxia iotadasiaoxia iotapsiliperispomeni iotadasiaperispomeni iotavaria iotaoxia iotaperispomeni iotavrachy iotamacron iotadialytikavaria iotadialytikaoxia iotadialytikaperispomeni omicronpsili omicrondasia omicronpsilivaria omicrondasiavaria omicronpsilioxia omicrondasiaoxia omicronvaria omicronoxia rhopsili rhodasia upsilonpsili upsilondasia upsilonpsilivaria upsilondasiavaria upsilonpsilioxia upsilondasiaoxia upsilonpsiliperispomeni upsilondasiaperispomeni upsilonvaria upsilonoxia upsilonperispomeni upsilonvrachy upsilonmacron upsilondialytikavaria upsilondialytikaoxia upsilondialytikaperispomeni omegapsili omegadasia omegapsilivaria omegadasiavaria omegapsilioxia omegadasiaoxia omegapsiliperispomeni omegadasiaperispomeni omegavaria omegaoxia omegaperispomeni omegaypogegrammeni omegavariaypogegrammeni omegaoxiaypogegrammeni omegapsiliypogegrammeni omegadasiaypogegrammeni omegapsilivariaypogegrammeni omegadasiavariaypogegrammeni omegapsilioxiaypogegrammeni omegadasiaoxiaypogegrammeni omegapsiliperispomeniypogegrammeni omegadasiaperispomeniypogegrammeni omegaperispomeniypogegrammeni prosgegrammeni ypogegrammeni";
-name = Lowercase;
-},
-{
-code = "@Uppercase @Digit";
-name = Tall;
 }
 );
 copyright = "Copyright \U00A9 2015 by Nikita Prokopov";
@@ -90,7 +90,7 @@ designerURL = "http://tonsky.me";
 familyName = "Fira Code";
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn MOL;\012languagesystem latn ROM;\012languagesystem latn KAZ;\012languagesystem latn PLK;\012languagesystem latn AZE;\012languagesystem latn CAT;\012languagesystem latn CRT;\012languagesystem latn AFK;\012";
+code = "languagesystem DFLT dflt;\012languagesystem zyyy dflt;\012languagesystem zinh dflt;\012languagesystem cyrl dflt;\012languagesystem grek dflt;\012languagesystem latn dflt;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn MOL;\012languagesystem latn ROM;\012languagesystem latn KAZ;\012languagesystem latn PLK;\012languagesystem latn AZE;\012languagesystem latn CAT;\012languagesystem latn CRT;\012languagesystem latn AFK;\012";
 name = Languagesystems;
 }
 );
@@ -121599,7 +121599,7 @@ name = panose;
 value = (
     2,
     11,
-    5,
+    4,
     9,
     5,
     0,
@@ -121650,6 +121650,10 @@ name = Regular;
 {
 customParameters = (
 {
+name = weightClass;
+value = "450";
+},
+{
 name = panose;
 value = (
     2,
@@ -121673,7 +121677,6 @@ value = (
 );
 interpolationWeight = 96;
 name = Retina;
-weightClass = Normal;
 },
 {
 customParameters = (
@@ -121790,5 +121793,5 @@ oV = 98;
 };
 };
 versionMajor = 1;
-versionMinor = 101;
+versionMinor = 102;
 }
