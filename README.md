@@ -28,7 +28,7 @@ Work | Don’t work
 Work | Don’t work
 --------|----------------
 **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**Intellij products** ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Xamarin Studio/Monodevelop**
+**IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Xamarin Studio/Monodevelop**
 **Eclipse** (Linux) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 **Visual Studio** | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
 **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) | **gVim**
@@ -103,7 +103,7 @@ Thanks Georg Seifert for providing a [Glyphs 2](https://glyphsapp.com) license.
 
 #### 1.102
 
-- Support for Intellij-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions))
+- Support for IntelliJ-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions))
 - Turned on autohinting
 
 
