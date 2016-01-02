@@ -46,7 +46,8 @@ Work | Don’t work
 **GNOME Builder** |
 **Leafpad** |
 **Notepad** (Win) |
-Probably work: **Geany, gEdit, Smultron, Vico** |
+**gEdit / Pluma** |
+Probably work: **Geany, Smultron, Vico** |
 
 ### Browser support
 
