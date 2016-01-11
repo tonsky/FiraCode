@@ -47,6 +47,7 @@ Work | Don’t work
 **Leafpad** |
 **Notepad** (Win) |
 **gEdit / Pluma** |
+**Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) |
 Probably work: **Geany, Smultron, Vico** |
 
 ### Browser support
