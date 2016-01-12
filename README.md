@@ -38,7 +38,7 @@ Work | Don’t work
 **QtCreator** | 
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) |
-**RStudio** |
+**RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 **Chocolat** |
 **Kate, KWrite** (except KDE 4) |
 **Mancy** |
