@@ -27,27 +27,27 @@ Work | Don’t work
 
 Work | Don’t work
 --------|----------------
-**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Xamarin Studio/Monodevelop**
-**Eclipse** (Linux) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**Visual Studio** | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
-**MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) | **gVim**
-**Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**TextMate 2** | **Notepad++**
-**Coda 2** | 
-**QtCreator** | 
-**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
-**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) |
-**RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
-**Chocolat** |
-**Kate, KWrite** (except KDE 4) |
-**Mancy** |
-**TextAdept** (Linux, Mac) |
+**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
+**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **gVim**
+**Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **Notepad++**
+**Chocolat** | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**Coda 2** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
+**Eclipse** (Linux) | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
+**gEdit / Pluma** | **Xamarin Studio/Monodevelop**
 **GNOME Builder** |
+**IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+**Kate, KWrite** (except KDE 4) |
 **Leafpad** |
+**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
+**MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
+**Mancy** |
 **Notepad** (Win) |
-**gEdit / Pluma** |
-**Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) |
+**QtCreator** | 
+**RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
+**TextAdept** (Linux, Mac) |
+**TextMate 2** |
+**Visual Studio 2015** |
+**Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 Probably work: **Geany, Smultron, Vico** |
 
 ### Browser support
