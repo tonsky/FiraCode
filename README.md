@@ -28,12 +28,13 @@ Work | Don’t work
 Work | Don’t work
 --------|----------------
 **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **gVim**
-**Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **Notepad++**
-**Chocolat** | **Standalone Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
+**Chocolat** | **Notepad++**
 **Coda 2** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 **Eclipse** (Linux) | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
-**gEdit / Pluma** | **Xamarin Studio/Monodevelop**
+**Geany** | **Xamarin Studio/Monodevelop**
+**gEdit / Pluma** | 
 **GNOME Builder** |
 **IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Kate, KWrite** (except KDE 4) |
@@ -48,7 +49,7 @@ Work | Don’t work
 **TextMate 2** |
 **Visual Studio 2015** |
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
-Probably work: **Geany, Smultron, Vico** |
+Probably work: **Smultron, Vico** |
 
 ### Browser support
 
