@@ -33,7 +33,8 @@ Work | Don’t work
 **Chocolat** | **Notepad++**
 **Coda 2** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 **Eclipse** (Linux) | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
-**Geany** | **Xamarin Studio/Monodevelop**
+**Xamarin Studio/Monodevelop** |
+**Geany** | 
 **gEdit / Pluma** | 
 **GNOME Builder** |
 **IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
