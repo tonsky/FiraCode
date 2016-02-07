@@ -20,7 +20,7 @@ Fira Code is a Fira Mono font extended with a set of ligatures for common progra
 Work | Don’t work
 ------- | ---------------
 **Terminal.app** (OS X default terminal) | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
-**Konsole** (except KDE4) | **GNOME Terminal**
+**Konsole** | **GNOME Terminal**
 **Termux** (Android terminal emulator) | **rxvt**
 
 ### Editor support
@@ -38,7 +38,7 @@ Work | Don’t work
 **gEdit / Pluma** | 
 **GNOME Builder** |
 **IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
-**Kate, KWrite** (except KDE 4) |
+**Kate, KWrite** |
 **Leafpad** |
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
 **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
