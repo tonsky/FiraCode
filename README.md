@@ -22,6 +22,7 @@ Work | Don’t work
 **Terminal.app** (OS X default terminal) | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 **Konsole** | **GNOME Terminal**
 **Termux** (Android terminal emulator) | **rxvt**
+**Black Screen** |
 
 ### Editor support
 
