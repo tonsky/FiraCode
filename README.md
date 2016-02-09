@@ -87,7 +87,7 @@ Haskell:
 
 ### Alternatives
 
-Another monospaced fonts with ligatures:
+Other monospaced fonts with ligatures:
 
 - [Hasklig](https://github.com/i-tu/Hasklig) (free)
 - [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm) (€59)
