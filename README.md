@@ -50,7 +50,7 @@ Work | Don’t work
 **TextAdept** (Linux, Mac) |
 **TextMate 2** |
 **Visual Studio 2015** |
-**Visual Studio Code** |
+**Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 Probably work: **Smultron, Vico** |
 
