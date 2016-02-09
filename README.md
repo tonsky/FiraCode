@@ -33,7 +33,7 @@ Work | Don’t work
 **Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
 **Chocolat** | **Notepad++**
 **Coda 2** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**Eclipse** (Linux) | **Visual Studio Code** ([issue](https://github.com/Microsoft/vscode/issues/192))
+**Eclipse** (Linux) | 
 **Xamarin Studio/Monodevelop** |
 **Geany** | 
 **gEdit / Pluma** | 
@@ -50,6 +50,7 @@ Work | Don’t work
 **TextAdept** (Linux, Mac) |
 **TextMate 2** |
 **Visual Studio 2015** |
+**Visual Studio Code** |
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 Probably work: **Smultron, Vico** |
 
