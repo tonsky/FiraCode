@@ -47,6 +47,7 @@ Work | Don’t work
 **Notepad** (Win) |
 **QtCreator** | 
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
+**Scratch** |
 **TextAdept** (Linux, Mac) |
 **TextMate 2** |
 **Visual Studio 2015** |
