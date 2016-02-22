@@ -32,8 +32,8 @@ Work | Don’t work
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
 **Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
 **Chocolat** | **Notepad++**
-**Coda 2** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**Eclipse** (Linux) | 
+**Coda 2** | **Spyder IDE**
+**Eclipse** (Linux) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 **Xamarin Studio/Monodevelop** |
 **Geany** | 
 **gEdit / Pluma** | 
