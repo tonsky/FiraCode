@@ -28,22 +28,27 @@ Work | Don’t work
 
 Work | Don’t work
 --------|----------------
+**Anjuta** (ligatures rendered unless last char is at the end of file) | **Arduino IDE**
 **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
 **Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
-**Chocolat** | **Notepad++**
-**Coda 2** | **Spyder IDE**
-**Eclipse** (Linux) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**Xamarin Studio/Monodevelop** |
-**Geany** | 
+**Chocolat** | **IDLE**
+**Coda 2** | **KDevelop 4**
+**Code::Blocks IDE** | **Monkey Studio IDE**
+**CodeLite** | **Notepad++**
+**Eclipse** (Linux) | **Spyder IDE**
+**Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 **gEdit / Pluma** | 
 **GNOME Builder** |
 **IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Kate, KWrite** |
 **Leafpad** |
+**LibreOffice** |
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
 **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
 **Mancy** |
+**Meld** |
+**Mousepad** |
 **Notepad** (Win) |
 **QtCreator** | 
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
@@ -52,6 +57,7 @@ Work | Don’t work
 **TextMate 2** |
 **Visual Studio 2015** |
 **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
+**Xamarin Studio/Monodevelop** |
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 Probably work: **Smultron, Vico** |
 
