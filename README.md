@@ -31,7 +31,7 @@ Work | Don’t work
 **Anjuta** (ligatures rendered unless last char is at the end of file) | **Arduino IDE**
 **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**Bracket** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
+**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
 **Chocolat** | **IDLE**
 **Coda 2** | **KDevelop 4**
 **Code::Blocks IDE** | **Monkey Studio IDE**
