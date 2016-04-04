@@ -22,6 +22,7 @@ Work | Don’t work
 **Konsole** | **GNOME Terminal**
 **Termux** (Android terminal emulator) | **rxvt**
 **Black Screen** | **xfce4-terminal**
+**QTerminal** |
 
 ### Editor support
 
