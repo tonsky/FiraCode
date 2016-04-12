@@ -18,10 +18,10 @@ Fira Code is an extension of the Fira Mono font containing a set of ligatures fo
 
 Works | Doesn’t work
 ------- | ---------------
-**Terminal.app** (OS X default terminal) | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
+**Black Screen** | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 **Konsole** | **GNOME Terminal**
-**Termux** (Android terminal emulator) | **rxvt**
-**Black Screen** | **xfce4-terminal**
+**Terminal.app** (OS X default terminal)| **rxvt**
+**Termux** (Android terminal emulator)  | **xfce4-terminal**
 **QTerminal** |
 
 ### Editor support
@@ -35,10 +35,10 @@ Works | Doesn’t work
 **Chocolat** | **IDLE**
 **Coda 2** | **KDevelop 4**
 **Code::Blocks IDE** | **Monkey Studio IDE**
-**CodeLite** | **Notepad++**
-**Eclipse** (Linux only) | **Spyder IDE**
-**Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**gEdit / Pluma** | 
+**CodeLite** | **Netbeans**
+**Eclipse** (Linux only) | **Notepad++**
+**Geany** | **Spyder IDE**
+**gEdit / Pluma** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 **GNOME Builder** |
 **IntelliJ products** (IDEA, Android Studio, etc; [Instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Kate, KWrite** |
@@ -54,6 +54,7 @@ Works | Doesn’t work
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 **Scratch** |
 **TextAdept** (Linux, Mac) |
+**TextEdit** (Mac OS X text editor) |
 **TextMate 2** |
 **Visual Studio 2015** |
 **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
