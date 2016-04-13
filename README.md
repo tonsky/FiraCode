@@ -18,8 +18,8 @@ Fira Code is an extension of the Fira Mono font containing a set of ligatures fo
 
 Works | Doesn’t work
 ------- | ---------------
-**Black Screen** | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
-**Konsole** | **GNOME Terminal**
+**Black Screen** | **GNOME Terminal**
+**Konsole** | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 **QTerminal** | **rxvt**
 **Terminal.app** (OS X default terminal) | **xfce4-terminal**
 **Termux** (Android terminal emulator) |
