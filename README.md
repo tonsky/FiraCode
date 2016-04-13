@@ -16,31 +16,31 @@ Fira Code is an extension of the Fira Mono font containing a set of ligatures fo
 
 ### Terminal support
 
-Work | Don’t work
+Works | Doesn’t work
 ------- | ---------------
-**Terminal.app** (OS X default terminal) | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
-**Konsole** | **GNOME Terminal**
-**Termux** (Android terminal emulator) | **rxvt**
-**Black Screen** | **xfce4-terminal**
-**QTerminal** |
+**Black Screen** | **GNOME Terminal**
+**Konsole** | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
+**QTerminal** | **rxvt**
+**Terminal.app** (OS X default terminal) | **xfce4-terminal**
+**Termux** (Android terminal emulator) |
 
 ### Editor support
 
-Work | Don’t work
+Works | Doesn’t work
 --------|----------------
 **Anjuta** (ligatures rendered unless last char is at the end of file) | **Arduino IDE**
-**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
-**Chocolat** | **IDLE**
-**Coda 2** | **KDevelop 4**
-**Code::Blocks IDE** | **Monkey Studio IDE**
-**CodeLite** | **Notepad++**
-**Eclipse** (Linux) | **Spyder IDE**
-**Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**gEdit / Pluma** | 
-**GNOME Builder** |
-**IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Adobe Dreamweaver CS6**
+**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Eclipse** (Mac and Windows only; [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
+**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**Chocolat** | **gVim**
+**Coda 2** | **IDLE**
+**Code::Blocks IDE** | **KDevelop 4**
+**CodeLite** | **Monkey Studio IDE**
+**Eclipse** (Linux only) | **Netbeans**
+**Geany** | **Notepad++**
+**gEdit / Pluma** | **Spyder IDE**
+**GNOME Builder** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
+**IntelliJ products** (IDEA, Android Studio, etc; [Instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Kate, KWrite** |
 **Leafpad** |
 **LibreOffice** |
@@ -49,24 +49,25 @@ Work | Don’t work
 **Mancy** |
 **Meld** |
 **Mousepad** |
-**Notepad** (Win) |
+**Notepad** (Windows) |
 **QtCreator** | 
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 **Scratch** |
 **TextAdept** (Linux, Mac) |
+**TextEdit** (Mac OS X text editor) |
 **TextMate 2** |
 **Visual Studio 2015** |
 **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
 **Xamarin Studio/Monodevelop** |
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
-Probably work: **Smultron, Vico** |
+Probably works: **Smultron, Vico** |
 
 ### Browser support
 
-- IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
+- IE 10+ and Edge: enable with `font-feature-settings: "calt" 1;`
 - Firefox
 - Safari
-- Chromium-based browsers: enable with  `font-variant-ligatures: contextual;` or `text-rendering: optimizeLegibility` (see [571246](https://code.google.com/p/chromium/issues/detail?q=font-variant-ligatures&id=571246&thanks=571246&ts=1450553433&))
+- Chromium-based browsers (like Chrome, most Android browsers, and Opera): enable with  `font-variant-ligatures: contextual;` or `text-rendering: optimizeLegibility` (see [bug 571246](https://code.google.com/p/chromium/issues/detail?q=font-variant-ligatures&id=571246&thanks=571246&ts=1450553433&))
 - ACE
 - CodeMirror
 
@@ -143,7 +144,7 @@ Added weights:
 
 Switched to `calt` instead of `liga`. You can now “step inside” the ligature in text editors.
 
-Fira Code is now drawn and built in Glyps 2 app (should improve compatibility).
+Fira Code is now drawn and built in Glyphs 2 app (should improve compatibility).
 
 Added:
 
@@ -186,7 +187,7 @@ Added: `#{` `~-` `-~` `<==` `==>` `///` `;;` `</`
 
 - Added `~=` `~~` `#[`
 - Rolled back `&&` and `||` to more traditional look
-- `===` and `!==` are now rendered with 3 horisontal bars
+- `===` and `!==` are now rendered with 3 horizontal bars
 
 
 #### 0.3
