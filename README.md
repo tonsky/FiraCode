@@ -29,17 +29,17 @@ Works | Doesn’t work
 Works | Doesn’t work
 --------|----------------
 **Anjuta** (ligatures rendered unless last char is at the end of file) | **Arduino IDE**
-**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Windows only; [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
-**Chocolat** | **IDLE**
-**Coda 2** | **KDevelop 4**
-**Code::Blocks IDE** | **Monkey Studio IDE**
-**CodeLite** | **Netbeans**
-**Eclipse** (Linux only) | **Notepad++**
-**Geany** | **Spyder IDE**
-**gEdit / Pluma** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**GNOME Builder** |
+**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Adobe Dreamweaver CS6**
+**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Eclipse** (Mac and Windows only; [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
+**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**Chocolat** | **gVim**
+**Coda 2** | **IDLE**
+**Code::Blocks IDE** | **KDevelop 4**
+**CodeLite** | **Monkey Studio IDE**
+**Eclipse** (Linux only) | **Netbeans**
+**Geany** | **Notepad++**
+**gEdit / Pluma** | **Spyder IDE**
+**GNOME Builder** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 **IntelliJ products** (IDEA, Android Studio, etc; [Instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Kate, KWrite** |
 **Leafpad** |
