@@ -20,9 +20,9 @@ Works | Doesn’t work
 ------- | ---------------
 **Black Screen** | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 **Konsole** | **GNOME Terminal**
-**Terminal.app** (OS X default terminal)| **rxvt**
-**Termux** (Android terminal emulator)  | **xfce4-terminal**
-**QTerminal** |
+**QTerminal** | **rxvt**
+**Terminal.app** (OS X default terminal) | **xfce4-terminal**
+**Termux** (Android terminal emulator) |
 
 ### Editor support
 
