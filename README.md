@@ -28,8 +28,8 @@ Works | Doesn’t work
 
 Works | Doesn’t work
 --------|----------------
-**Anjuta** (ligatures rendered unless last char is at the end of file) | **Arduino IDE**
-**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | Adobe Dreamweaver CS6
+**Anjuta** (unless at the EOF) | **Arduino IDE**
+**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Adobe Dreamweaver**
 **BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
 **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
 **Chocolat** | **gVim**
@@ -66,7 +66,8 @@ Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
 - IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
 - Firefox
 - Safari
-- Chromium-based browsers (Chrome, Opera): enable with  `font-variant-ligatures: contextual;` or `text-rendering: optimizeLegibility` (see [571246](https://code.google.com/p/chromium/issues/detail?q=font-variant-ligatures&id=571246&thanks=571246&ts=1450553433&))
+- Chromium-based browsers (Chrome, Opera):
+  - enable with  `font-variant-ligatures: contextual;` or `text-rendering: optimizeLegibility`, see [571246](https://code.google.com/p/chromium/issues/detail?q=font-variant-ligatures&id=571246&thanks=571246&ts=1450553433&)
 - ACE
 - CodeMirror
 
@@ -102,15 +103,10 @@ Other monospaced fonts with ligatures:
 
 ### Credits
 
-My name is Nikita Prokopov ([@nikitonsky](https://twitter.com/nikitonsky)).
-
-Official Fira Code twitter: [@FiraCode](https://twitter.com/FiraCode) (subscribe for updates & announcements)
-
-This work is based on OFL-licensed [Fira Mono font](https://github.com/mozilla/Fira). Original Fira Mono font was not changed, only extended.
-
-Fira Code was inspired by [Hasklig font](https://github.com/i-tu/Hasklig): Ligatures for Haskell code.
-
-Thanks Georg Seifert for providing a [Glyphs 2](https://glyphsapp.com) license.
+- Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
+- Based on: [Fira Mono](https://github.com/mozilla/Fira)
+- Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
+- Software: [Glyphs 2](https://glyphsapp.com) (thx Georg Seifert for a license)
 
 ### Changelog
 
