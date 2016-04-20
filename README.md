@@ -41,6 +41,7 @@ Works | Doesn’t work
 **GNOME Builder** | **Spyder IDE**
 **IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
 **Kate, KWrite** |
+**Komodo** |
 **Leafpad** |
 **LibreOffice** |
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
