@@ -101,6 +101,7 @@ Other monospaced fonts with ligatures:
 - [Hasklig](https://github.com/i-tu/Hasklig) (free)
 - [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm) (€59)
 - [Monoid](http://larsenwork.com/monoid/) (free)
+- [Fixedsys Excelsior](https://github.com/kika/fixedsys) (free)
 
 ### Credits
 
