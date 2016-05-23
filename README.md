@@ -90,9 +90,9 @@ Go:
 
 <img src="./showcases/go.png" />
 
-Haskell:
+LiveScript:
 
-<img src="./showcases/haskell.png" />
+<img src="./showcases/livescript.png" />
 
 ### Alternatives
 
