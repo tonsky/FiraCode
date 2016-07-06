@@ -23,6 +23,7 @@ Works | Doesn’t work
 **QTerminal** | **rxvt**
 **Terminal.app** (OS X default terminal) | **xfce4-terminal**
 **Termux** (Android terminal emulator) |
+**Butterfly** |
 
 ### Editor support
 
