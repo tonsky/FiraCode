@@ -59,6 +59,7 @@ Works | Doesn’t work
 **TextMate 2** |
 **Visual Studio 2015** |
 **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
+**WebStorm** |
 **Xamarin Studio/Monodevelop** |
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
