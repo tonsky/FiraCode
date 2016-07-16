@@ -115,11 +115,15 @@ Other monospaced fonts with ligatures:
 
 ### Changelog
 
+#### Work in progress
+
+- Removed `!!!` `???` `;;;` `&&&` `|||` `=~` (#167) `~~~` `%%%`
+- New safer `calt` code that doesn’t  apply ligatures to long sequences of chars, e.g. `!!!!`, `>>>>`, etc (#49, #110, #176)
+
 #### 1.102
 
 - Support for IntelliJ-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions))
 - Turned on autohinting
-
 
 #### 1.101
 
