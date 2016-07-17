@@ -123,6 +123,7 @@ Other monospaced fonts with ligatures:
 - New safer `calt` code that doesn’t  apply ligatures to long sequences of chars, e.g. `!!!!`, `>>>>`, etc (#49, #110, #176)
 - Larger `+` `-` `*` and corresponding ligatures (#86)
 - Hexadecimal `x` (`0xFF`) is now applied to sequences like `128x128` as well (#161)
+- Added twoTurned (U+218A) and threeTurned (U+218B) (#146)
 
 #### 1.102
 
