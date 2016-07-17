@@ -126,6 +126,7 @@ Other monospaced fonts with ligatures:
 - Added twoTurned (U+218A) and threeTurned (U+218B) (#146)
 - Added whiteFrowningFace (U+2639) (#190)
 - Simplified visual style on markdown headers `##` `###` `####` (#107)
+- Added `</>` (#147)
 
 #### 1.102
 
