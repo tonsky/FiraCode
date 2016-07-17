@@ -121,6 +121,7 @@ Other monospaced fonts with ligatures:
 
 - Removed `!!!` `???` `;;;` `&&&` `|||` `=~` (#167) `~~~` `%%%`
 - New safer `calt` code that doesn’t  apply ligatures to long sequences of chars, e.g. `!!!!`, `>>>>`, etc (#49, #110, #176)
+- Larger `+` `-` `*` and corresponding ligatures (#86)
 
 #### 1.102
 
