@@ -25,6 +25,7 @@ Works | Doesn’t work
 **Terminal.app** (OS X default terminal) | **xfce4-terminal**
 **Termux** (Android terminal emulator) |
 **Butterfly** |
+**HyperTerm** <sup>([New](https://github.com/zeit/hyperterm))</sup> |
 
 ### Editor support
 
@@ -46,13 +47,13 @@ Works | Doesn’t work
 **Komodo** |
 **Leafpad** |
 **LibreOffice** |
-**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
+**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) |
 **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
 **Mancy** |
 **Meld** |
 **Mousepad** |
 **Notepad** (Win) |
-**QtCreator** | 
+**QtCreator** |
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 **Scratch** |
 **TextAdept** (Linux, Mac) |
@@ -155,7 +156,7 @@ Added:
 `<->` `<~~` `<~` `~~~` `~>` `~~>`  
 `<$` `<+` `<*` `*>` `+>` `$>`  
 `;;;` `:::` `!!!` `???` `%%` `%%%` `##` `###` `####`  
-`.-` `#_(` `=<`  `**/` `0x` `www` `[]` 
+`.-` `#_(` `=<`  `**/` `0x` `www` `[]`
 
 Redrawn:
 
@@ -178,7 +179,7 @@ Added:
 `<*>` `<|>` `<$>` `<+>`  
 `<!--` `{-` `-}` `/**`  `\\` `\\\`
 `..<` `??` `|||` `&&&` `<|` `|>`  
-  
+
 Added support for Powerline
 
 
