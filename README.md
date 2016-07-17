@@ -127,6 +127,7 @@ Other monospaced fonts with ligatures:
 - Added whiteFrowningFace (U+2639) (#190)
 - Simplified visual style on markdown headers `##` `###` `####` (#107)
 - Added `</>` (#147)
+- Provided ttf and webfonts versions (eot, woff, woff2) (#18, #24, #38, #101, #106)
 
 #### 1.102
 

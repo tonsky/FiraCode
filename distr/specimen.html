@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Fira Code Specimen</title>
+
+  <link rel="stylesheet" href="fira_code.css">
+  <style>
+    body { font: 14px/1.5em "Fira Code"; }
+    .code {
+      font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
+      text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
+      width: 30em;
+      margin: 5em auto;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+    .light { font-weight: 300; }
+    .regular { font-weight: 400; }
+    .medium { font-weight: 500; }
+    .bold { font-weight: 700; }
+    i { font-style: normal; color: #c33; }
+    b { font-weight: inherit; color: #c33; }
+  </style>
+<body>
+
+<div class="code light"><b># Fira Code Light</b>
+
+take = (n, [x, <i>...</i>xs]:list) <i>--></i>
+  | n <i><=</i> 0     <i>=></i> <i>[]</i>
+  | empty list <i>=></i> <i>[]</i>
+  | otherwise  <i>=></i> [x] <i>++</i> take n-1, xs
+
+last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
+
+
+    <div class="code regular"><b># Fira Code Regular</b>
+
+take = (n, [x, <i>...</i>xs]:list) <i>--></i>
+  | n <i><=</i> 0     <i>=></i> <i>[]</i>
+  | empty list <i>=></i> <i>[]</i>
+  | otherwise  <i>=></i> [x] <i>++</i> take n-1, xs
+
+last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
+
+
+    <div class="code medium"><b># Fira Code Medium</b>
+
+take = (n, [x, <i>...</i>xs]:list) <i>--></i>
+  | n <i><=</i> 0     <i>=></i> <i>[]</i>
+  | empty list <i>=></i> <i>[]</i>
+  | otherwise  <i>=></i> [x] <i>++</i> take n-1, xs
+
+last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
+
+
+    <div class="code bold"><b># Fira Code Bold</b>
+
+take = (n, [x, <i>...</i>xs]:list) <i>--></i>
+  | n <i><=</i> 0     <i>=></i> <i>[]</i>
+  | empty list <i>=></i> <i>[]</i>
+  | otherwise  <i>=></i> [x] <i>++</i> take n-1, xs
+
+last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
