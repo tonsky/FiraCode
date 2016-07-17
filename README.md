@@ -125,6 +125,7 @@ Other monospaced fonts with ligatures:
 - Hexadecimal `x` (`0xFF`) is now applied to sequences like `128x128` as well (#161)
 - Added twoTurned (U+218A) and threeTurned (U+218B) (#146)
 - Added whiteFrowningFace (U+2639) (#190)
+- Simplified visual style on markdown headers `##` `###` `####` (#107)
 
 #### 1.102
 

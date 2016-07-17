@@ -59,6 +59,8 @@
     4 (let [[a b c d] liga]
         (str/replace
           (str "  lookup 1_2_3_4 {\n"
+               "    ignore sub 1 1' 2 3 4;\n"
+               "    ignore sub 1' 2 3 4 4;\n"
                "    sub CR CR CR 4' by 1_2_3_4.liga;\n"
                "    sub CR CR 3' 4  by CR;\n"
                "    sub CR 2' 3  4  by CR;\n"

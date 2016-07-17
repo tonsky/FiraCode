@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+"    #head\012   ##head\012  ###head\012 ####head\012#####head"
+);
 classes = (
 {
 automatic = 1;
@@ -176,7 +179,7 @@ code = "pos @Uppercase <5 0 10 0>;\012";
 name = cpsp;
 },
 {
-code = "ignore sub greater' equal less;\012ignore sub greater equal' less;\012\012### start of generated calt\012\012  lookup less_exclam_hyphen_hyphen {\012    sub CR CR CR hyphen' by less_exclam_hyphen_hyphen.liga;\012    sub CR CR hyphen' hyphen  by CR;\012    sub CR exclam' hyphen  hyphen  by CR;\012    sub less' exclam  hyphen  hyphen  by CR;\012  } less_exclam_hyphen_hyphen;\012\012  lookup numbersign_numbersign_numbersign_numbersign {\012    sub CR CR CR numbersign' by numbersign_numbersign_numbersign_numbersign.liga;\012    sub CR CR numbersign' numbersign  by CR;\012    sub CR numbersign' numbersign  numbersign  by CR;\012    sub numbersign' numbersign  numbersign  numbersign  by CR;\012  } numbersign_numbersign_numbersign_numbersign;\012\012  lookup less_plus_greater {\012    ignore sub less less' plus greater;\012    ignore sub less' plus greater greater;\012    sub CR CR greater' by less_plus_greater.liga;\012    sub CR plus' greater  by CR;\012    sub less' plus  greater  by CR;\012  } less_plus_greater;\012	\012  lookup less_dollar_greater {\012    ignore sub less less' dollar greater;\012    ignore sub less' dollar greater greater;\012    sub CR CR greater' by less_dollar_greater.liga;\012    sub CR dollar' greater  by CR;\012    sub less' dollar  greater  by CR;\012  } less_dollar_greater;\012\012  lookup bar_bar_equal {\012    ignore sub bar bar' bar equal;\012    ignore sub bar' bar equal equal;\012    sub CR CR equal' by bar_bar_equal.liga;\012    sub CR bar' equal  by CR;\012    sub bar' bar  equal  by CR;\012  } bar_bar_equal;\012\012  lookup less_hyphen_greater {\012    ignore sub less less' hyphen greater;\012    ignore sub less' hyphen greater greater;\012    sub CR CR greater' by less_hyphen_greater.liga;\012    sub CR hyphen' greater  by CR;\012    sub less' hyphen  greater  by CR;\012  } less_hyphen_greater;\012\012  lookup greater_greater_hyphen {\012    ignore sub greater greater' greater hyphen;\012    ignore sub greater' greater hyphen hyphen;\012    sub CR CR hyphen' by greater_greater_hyphen.liga;\012    sub CR greater' hyphen  by CR;\012    sub greater' greater  hyphen  by CR;\012  } greater_greater_hyphen;\012\012  lookup equal_less_less {\012    ignore sub equal equal' less less;\012    ignore sub equal' less less less;\012    sub CR CR less' by equal_less_less.liga;\012    sub CR less' less  by CR;\012    sub equal' less  less  by CR;\012  } equal_less_less;\012\012  lookup less_equal_less {\012    ignore sub less less' equal less;\012    ignore sub less' equal less less;\012    sub CR CR less' by less_equal_less.liga;\012    sub CR equal' less  by CR;\012    sub less' equal  less  by CR;\012  } less_equal_less;\012\012  lookup asciitilde_asciitilde_greater {\012    ignore sub asciitilde asciitilde' asciitilde greater;\012    ignore sub asciitilde' asciitilde greater greater;\012    sub CR CR greater' by asciitilde_asciitilde_greater.liga;\012    sub CR asciitilde' greater  by CR;\012    sub asciitilde' asciitilde  greater  by CR;\012  } asciitilde_asciitilde_greater;\012\012  lookup numbersign_numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign numbersign;\012    ignore sub numbersign' numbersign numbersign numbersign;\012    sub CR CR numbersign' by numbersign_numbersign_numbersign.liga;\012    sub CR numbersign' numbersign  by CR;\012    sub numbersign' numbersign  numbersign  by CR;\012  } numbersign_numbersign_numbersign;\012\012  lookup asterisk_asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk asterisk;\012    ignore sub asterisk' asterisk asterisk asterisk;\012    sub CR CR asterisk' by asterisk_asterisk_asterisk.liga;\012    sub CR asterisk' asterisk  by CR;\012    sub asterisk' asterisk  asterisk  by CR;\012  } asterisk_asterisk_asterisk;\012\012  lookup backslash_backslash_backslash {\012    ignore sub backslash backslash' backslash backslash;\012    ignore sub backslash' backslash backslash backslash;\012    sub CR CR backslash' by backslash_backslash_backslash.liga;\012    sub CR backslash' backslash  by CR;\012    sub backslash' backslash  backslash  by CR;\012  } backslash_backslash_backslash;\012\012  lookup less_less_equal {\012    ignore sub less less' less equal;\012    ignore sub less' less equal equal;\012    sub CR CR equal' by less_less_equal.liga;\012    sub CR less' equal  by CR;\012    sub less' less  equal  by CR;\012  } less_less_equal;\012\012  lookup less_bar_greater {\012    ignore sub less less' bar greater;\012    ignore sub less' bar greater greater;\012    sub CR CR greater' by less_bar_greater.liga;\012    sub CR bar' greater  by CR;\012    sub less' bar  greater  by CR;\012  } less_bar_greater;\012\012  lookup w_w_w {\012    ignore sub w w' w w;\012    ignore sub w' w w w;\012    sub CR CR w' by w_w_w.liga;\012    sub CR w' w  by CR;\012    sub w' w  w  by CR;\012  } w_w_w;\012\012  lookup slash_slash_slash {\012    ignore sub slash slash' slash slash;\012    ignore sub slash' slash slash slash;\012    sub CR CR slash' by slash_slash_slash.liga;\012    sub CR slash' slash  by CR;\012    sub slash' slash  slash  by CR;\012  } slash_slash_slash;\012\012  lookup slash_equal_equal {\012    ignore sub slash slash' equal equal;\012    ignore sub slash' equal equal equal;\012    sub CR CR equal' by slash_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub slash' equal  equal  by CR;\012  } slash_equal_equal;\012\012  lookup less_hyphen_hyphen {\012    ignore sub less less' hyphen hyphen;\012    ignore sub less' hyphen hyphen hyphen;\012    sub CR CR hyphen' by less_hyphen_hyphen.liga;\012    sub CR hyphen' hyphen  by CR;\012    sub less' hyphen  hyphen  by CR;\012  } less_hyphen_hyphen;\012\012  lookup equal_greater_greater {\012    ignore sub equal equal' greater greater;\012    ignore sub equal' greater greater greater;\012    sub CR CR greater' by equal_greater_greater.liga;\012    sub CR greater' greater  by CR;\012    sub equal' greater  greater  by CR;\012  } equal_greater_greater;\012\012  lookup slash_asterisk_asterisk {\012    ignore sub slash slash' asterisk asterisk;\012    ignore sub slash' asterisk asterisk asterisk;\012    sub CR CR asterisk' by slash_asterisk_asterisk.liga;\012    sub CR asterisk' asterisk  by CR;\012    sub slash' asterisk  asterisk  by CR;\012  } slash_asterisk_asterisk;\012\012  lookup less_less_hyphen {\012    ignore sub less less' less hyphen;\012    ignore sub less' less hyphen hyphen;\012    sub CR CR hyphen' by less_less_hyphen.liga;\012    sub CR less' hyphen  by CR;\012    sub less' less  hyphen  by CR;\012  } less_less_hyphen;\012\012  lookup hyphen_hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen hyphen;\012    ignore sub hyphen' hyphen hyphen hyphen;\012    sub CR CR hyphen' by hyphen_hyphen_hyphen.liga;\012    sub CR hyphen' hyphen  by CR;\012    sub hyphen' hyphen  hyphen  by CR;\012  } hyphen_hyphen_hyphen;\012\012  lookup hyphen_greater_greater {\012    ignore sub hyphen hyphen' greater greater;\012    ignore sub hyphen' greater greater greater;\012    sub CR CR greater' by hyphen_greater_greater.liga;\012    sub CR greater' greater  by CR;\012    sub hyphen' greater  greater  by CR;\012  } hyphen_greater_greater;\012\012  lookup hyphen_less_less {\012    ignore sub hyphen hyphen' less less;\012    ignore sub hyphen' less less less;\012    sub CR CR less' by hyphen_less_less.liga;\012    sub CR less' less  by CR;\012    sub hyphen' less  less  by CR;\012  } hyphen_less_less;\012\012  lookup less_less_less {\012    ignore sub less less' less less;\012    ignore sub less' less less less;\012    sub CR CR less' by less_less_less.liga;\012    sub CR less' less  by CR;\012    sub less' less  less  by CR;\012  } less_less_less;\012\012  lookup equal_equal_greater {\012    ignore sub equal equal' equal greater;\012    ignore sub equal' equal greater greater;\012    sub CR CR greater' by equal_equal_greater.liga;\012    sub CR equal' greater  by CR;\012    sub equal' equal  greater  by CR;\012  } equal_equal_greater;\012\012  lookup period_period_period {\012    ignore sub period period' period period;\012    ignore sub period' period period period;\012    sub CR CR period' by period_period_period.liga;\012    sub CR period' period  by CR;\012    sub period' period  period  by CR;\012  } period_period_period;\012\012  lookup less_equal_equal {\012    ignore sub less less' equal equal;\012    ignore sub less' equal equal equal;\012    sub CR CR equal' by less_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub less' equal  equal  by CR;\012  } less_equal_equal;\012\012  lookup greater_equal_greater {\012    ignore sub greater greater' equal greater;\012    ignore sub greater' equal greater greater;\012    sub CR CR greater' by greater_equal_greater.liga;\012    sub CR equal' greater  by CR;\012    sub greater' equal  greater  by CR;\012  } greater_equal_greater;\012\012  lookup less_asterisk_greater {\012    ignore sub less less' asterisk greater;\012    ignore sub less' asterisk greater greater;\012    sub CR CR greater' by less_asterisk_greater.liga;\012    sub CR asterisk' greater  by CR;\012    sub less' asterisk  greater  by CR;\012  } less_asterisk_greater;\012\012  lookup numbersign_underscore_parenleft {\012    ignore sub numbersign numbersign' underscore parenleft;\012    ignore sub numbersign' underscore parenleft parenleft;\012    sub CR CR parenleft' by numbersign_underscore_parenleft.liga;\012    sub CR underscore' parenleft  by CR;\012    sub numbersign' underscore  parenleft  by CR;\012  } numbersign_underscore_parenleft;\012\012  lookup less_asciitilde_asciitilde {\012    ignore sub less less' asciitilde asciitilde;\012    ignore sub less' asciitilde asciitilde asciitilde;\012    sub CR CR asciitilde' by less_asciitilde_asciitilde.liga;\012    sub CR asciitilde' asciitilde  by CR;\012    sub less' asciitilde  asciitilde  by CR;\012  } less_asciitilde_asciitilde;\012\012  lookup exclam_equal_equal {\012    ignore sub exclam exclam' equal equal;\012    ignore sub exclam' equal equal equal;\012    sub CR CR equal' by exclam_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub exclam' equal  equal  by CR;\012  } exclam_equal_equal;\012\012  lookup hyphen_hyphen_greater {\012    ignore sub hyphen hyphen' hyphen greater;\012    ignore sub hyphen' hyphen greater greater;\012    sub CR CR greater' by hyphen_hyphen_greater.liga;\012    sub CR hyphen' greater  by CR;\012    sub hyphen' hyphen  greater  by CR;\012  } hyphen_hyphen_greater;\012\012  lookup equal_slash_equal {\012    ignore sub equal equal' slash equal;\012    ignore sub equal' slash equal equal;\012    sub CR CR equal' by equal_slash_equal.liga;\012    sub CR slash' equal  by CR;\012    sub equal' slash  equal  by CR;\012  } equal_slash_equal;\012\012  lookup asterisk_asterisk_slash {\012    ignore sub asterisk asterisk' asterisk slash;\012    ignore sub asterisk' asterisk slash slash;\012    sub CR CR slash' by asterisk_asterisk_slash.liga;\012    sub CR asterisk' slash  by CR;\012    sub asterisk' asterisk  slash  by CR;\012  } asterisk_asterisk_slash;\012\012  lookup less_equal_greater {\012    ignore sub less less' equal greater;\012    ignore sub less' equal greater greater;\012    sub CR CR greater' by less_equal_greater.liga;\012    sub CR equal' greater  by CR;\012    sub less' equal  greater  by CR;\012  } less_equal_greater;\012\012  lookup greater_greater_greater {\012    ignore sub greater greater' greater greater;\012    ignore sub greater' greater greater greater;\012    sub CR CR greater' by greater_greater_greater.liga;\012    sub CR greater' greater  by CR;\012    sub greater' greater  greater  by CR;\012  } greater_greater_greater;\012\012  lookup greater_greater_equal {\012    ignore sub greater greater' greater equal;\012    ignore sub greater' greater equal equal;\012    sub CR CR equal' by greater_greater_equal.liga;\012    sub CR greater' equal  by CR;\012    sub greater' greater  equal  by CR;\012  } greater_greater_equal;\012\012  lookup period_period_less {\012    ignore sub period period' period less;\012    ignore sub period' period less less;\012    sub CR CR less' by period_period_less.liga;\012    sub CR period' less  by CR;\012    sub period' period  less  by CR;\012  } period_period_less;\012\012  lookup equal_colon_equal {\012    ignore sub equal equal' colon equal;\012    ignore sub equal' colon equal equal;\012    sub CR CR equal' by equal_colon_equal.liga;\012    sub CR colon' equal  by CR;\012    sub equal' colon  equal  by CR;\012  } equal_colon_equal;\012\012  lookup equal_equal_equal {\012    ignore sub equal equal' equal equal;\012    ignore sub equal' equal equal equal;\012    sub CR CR equal' by equal_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub equal' equal  equal  by CR;\012  } equal_equal_equal;\012\012  lookup colon_colon_colon {\012    ignore sub colon colon' colon colon;\012    ignore sub colon' colon colon colon;\012    sub CR CR colon' by colon_colon_colon.liga;\012    sub CR colon' colon  by CR;\012    sub colon' colon  colon  by CR;\012  } colon_colon_colon;\012\012  lookup less_dollar {\012    ignore sub less less' dollar;\012    ignore sub less' dollar dollar;\012    sub CR dollar' by less_dollar.liga;\012    sub less' dollar  by CR;\012  } less_dollar;\012\012  lookup question_question {\012    ignore sub question question' question;\012    ignore sub question' question question;\012    sub CR question' by question_question.liga;\012    sub question' question  by CR;\012  } question_question;\012\012  lookup asciitilde_asciitilde {\012    ignore sub asciitilde asciitilde' asciitilde;\012    ignore sub asciitilde' asciitilde asciitilde;\012    sub CR asciitilde' by asciitilde_asciitilde.liga;\012    sub asciitilde' asciitilde  by CR;\012  } asciitilde_asciitilde;\012\012  lookup asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk;\012    ignore sub asterisk' asterisk asterisk;\012    sub CR asterisk' by asterisk_asterisk.liga;\012    sub asterisk' asterisk  by CR;\012  } asterisk_asterisk;\012\012  lookup greater_greater {\012    ignore sub greater greater' greater;\012    ignore sub greater' greater greater;\012    sub CR greater' by greater_greater.liga;\012    sub greater' greater  by CR;\012  } greater_greater;\012\012  lookup slash_slash {\012    ignore sub slash slash' slash;\012    ignore sub slash' slash slash;\012    sub CR slash' by slash_slash.liga;\012    sub slash' slash  by CR;\012  } slash_slash;\012\012  lookup colon_equal {\012    ignore sub colon colon' equal;\012    ignore sub colon' equal equal;\012    sub CR equal' by colon_equal.liga;\012    sub colon' equal  by CR;\012  } colon_equal;\012\012  lookup less_greater {\012    ignore sub less less' greater;\012    ignore sub less' greater greater;\012    sub CR greater' by less_greater.liga;\012    sub less' greater  by CR;\012  } less_greater;\012\012  lookup exclam_exclam {\012    ignore sub exclam exclam' exclam;\012    ignore sub exclam' exclam exclam;\012    sub CR exclam' by exclam_exclam.liga;\012    sub exclam' exclam  by CR;\012  } exclam_exclam;\012\012  lookup braceleft_hyphen {\012    ignore sub braceleft braceleft' hyphen;\012    ignore sub braceleft' hyphen hyphen;\012    sub CR hyphen' by braceleft_hyphen.liga;\012    sub braceleft' hyphen  by CR;\012  } braceleft_hyphen;\012\012  lookup asciitilde_greater {\012    ignore sub asciitilde asciitilde' greater;\012    ignore sub asciitilde' greater greater;\012    sub CR greater' by asciitilde_greater.liga;\012    sub asciitilde' greater  by CR;\012  } asciitilde_greater;\012\012  lookup bar_greater {\012    ignore sub bar bar' greater;\012    ignore sub bar' greater greater;\012    sub CR greater' by bar_greater.liga;\012    sub bar' greater  by CR;\012  } bar_greater;\012\012  lookup less_less {\012    ignore sub less less' less;\012    ignore sub less' less less;\012    sub CR less' by less_less.liga;\012    sub less' less  by CR;\012  } less_less;\012\012  lookup hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen;\012    ignore sub hyphen' hyphen hyphen;\012    sub CR hyphen' by hyphen_hyphen.liga;\012    sub hyphen' hyphen  by CR;\012  } hyphen_hyphen;\012\012  lookup ampersand_ampersand {\012    ignore sub ampersand ampersand' ampersand;\012    ignore sub ampersand' ampersand ampersand;\012    sub CR ampersand' by ampersand_ampersand.liga;\012    sub ampersand' ampersand  by CR;\012  } ampersand_ampersand;\012\012  lookup hyphen_braceright {\012    ignore sub hyphen hyphen' braceright;\012    ignore sub hyphen' braceright braceright;\012    sub CR braceright' by hyphen_braceright.liga;\012    sub hyphen' braceright  by CR;\012  } hyphen_braceright;\012\012  lookup question_equal {\012    ignore sub question question' equal;\012    ignore sub question' equal equal;\012    sub CR equal' by question_equal.liga;\012    sub question' equal  by CR;\012  } question_equal;\012\012  lookup plus_greater {\012    ignore sub plus plus' greater;\012    ignore sub plus' greater greater;\012    sub CR greater' by plus_greater.liga;\012    sub plus' greater  by CR;\012  } plus_greater;\012\012  lookup asciitilde_equal {\012    ignore sub asciitilde asciitilde' equal;\012    ignore sub asciitilde' equal equal;\012    sub CR equal' by asciitilde_equal.liga;\012    sub asciitilde' equal  by CR;\012  } asciitilde_equal;\012\012  lookup asciicircum_equal {\012    ignore sub asciicircum asciicircum' equal;\012    ignore sub asciicircum' equal equal;\012    sub CR equal' by asciicircum_equal.liga;\012    sub asciicircum' equal  by CR;\012  } asciicircum_equal;\012\012  lookup bar_equal {\012    ignore sub bar bar' equal;\012    ignore sub bar' equal equal;\012    sub CR equal' by bar_equal.liga;\012    sub bar' equal  by CR;\012  } bar_equal;\012\012  lookup backslash_backslash {\012    ignore sub backslash backslash' backslash;\012    ignore sub backslash' backslash backslash;\012    sub CR backslash' by backslash_backslash.liga;\012    sub backslash' backslash  by CR;\012  } backslash_backslash;\012\012  lookup numbersign_question {\012    ignore sub numbersign numbersign' question;\012    ignore sub numbersign' question question;\012    sub CR question' by numbersign_question.liga;\012    sub numbersign' question  by CR;\012  } numbersign_question;\012\012  lookup less_slash {\012    ignore sub less less' slash;\012    ignore sub less' slash slash;\012    sub CR slash' by less_slash.liga;\012    sub less' slash  by CR;\012  } less_slash;\012\012  lookup bar_bar {\012    ignore sub bar bar' bar;\012    ignore sub bar' bar bar;\012    sub CR bar' by bar_bar.liga;\012    sub bar' bar  by CR;\012  } bar_bar;\012\012  lookup less_plus {\012    ignore sub less less' plus;\012    ignore sub less' plus plus;\012    sub CR plus' by less_plus.liga;\012    sub less' plus  by CR;\012  } less_plus;\012\012  lookup numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign;\012    ignore sub numbersign' numbersign numbersign;\012    sub CR numbersign' by numbersign_numbersign.liga;\012    sub numbersign' numbersign  by CR;\012  } numbersign_numbersign;\012\012  lookup numbersign_parenleft {\012    ignore sub numbersign numbersign' parenleft;\012    ignore sub numbersign' parenleft parenleft;\012    sub CR parenleft' by numbersign_parenleft.liga;\012    sub numbersign' parenleft  by CR;\012  } numbersign_parenleft;\012\012  lookup greater_hyphen {\012    ignore sub greater greater' hyphen;\012    ignore sub greater' hyphen hyphen;\012    sub CR hyphen' by greater_hyphen.liga;\012    sub greater' hyphen  by CR;\012  } greater_hyphen;\012\012  lookup greater_equal {\012    ignore sub greater greater' equal;\012    ignore sub greater' equal equal;\012    sub CR equal' by greater_equal.liga;\012    sub greater' equal  by CR;\012  } greater_equal;\012\012  lookup percent_percent {\012    ignore sub percent percent' percent;\012    ignore sub percent' percent percent;\012    sub CR percent' by percent_percent.liga;\012    sub percent' percent  by CR;\012  } percent_percent;\012\012  lookup equal_greater {\012    ignore sub equal equal' greater;\012    ignore sub equal' greater greater;\012    sub CR greater' by equal_greater.liga;\012    sub equal' greater  by CR;\012  } equal_greater;\012\012  lookup hyphen_less {\012    ignore sub hyphen hyphen' less;\012    ignore sub hyphen' less less;\012    sub CR less' by hyphen_less.liga;\012    sub hyphen' less  by CR;\012  } hyphen_less;\012\012  lookup asciitilde_hyphen {\012    ignore sub asciitilde asciitilde' hyphen;\012    ignore sub asciitilde' hyphen hyphen;\012    sub CR hyphen' by asciitilde_hyphen.liga;\012    sub asciitilde' hyphen  by CR;\012  } asciitilde_hyphen;\012\012  lookup equal_equal {\012    ignore sub equal equal' equal;\012    ignore sub equal' equal equal;\012    sub CR equal' by equal_equal.liga;\012    sub equal' equal  by CR;\012  } equal_equal;\012\012  lookup period_equal {\012    ignore sub period period' equal;\012    ignore sub period' equal equal;\012    sub CR equal' by period_equal.liga;\012    sub period' equal  by CR;\012  } period_equal;\012\012  lookup numbersign_underscore {\012    ignore sub numbersign numbersign' underscore;\012    ignore sub numbersign' underscore underscore;\012    sub CR underscore' by numbersign_underscore.liga;\012    sub numbersign' underscore  by CR;\012  } numbersign_underscore;\012\012  lookup less_bar {\012    ignore sub less less' bar;\012    ignore sub less' bar bar;\012    sub CR bar' by less_bar.liga;\012    sub less' bar  by CR;\012  } less_bar;\012\012  lookup hyphen_asciitilde {\012    ignore sub hyphen hyphen' asciitilde;\012    ignore sub hyphen' asciitilde asciitilde;\012    sub CR asciitilde' by hyphen_asciitilde.liga;\012    sub hyphen' asciitilde  by CR;\012  } hyphen_asciitilde;\012\012  lookup asterisk_greater {\012    ignore sub asterisk asterisk' greater;\012    ignore sub asterisk' greater greater;\012    sub CR greater' by asterisk_greater.liga;\012    sub asterisk' greater  by CR;\012  } asterisk_greater;\012\012  lookup period_hyphen {\012    ignore sub period period' hyphen;\012    ignore sub period' hyphen hyphen;\012    sub CR hyphen' by period_hyphen.liga;\012    sub period' hyphen  by CR;\012  } period_hyphen;\012\012  lookup plus_plus {\012    ignore sub plus plus' plus;\012    ignore sub plus' plus plus;\012    sub CR plus' by plus_plus.liga;\012    sub plus' plus  by CR;\012  } plus_plus;\012\012  lookup numbersign_bracketleft {\012    ignore sub numbersign numbersign' bracketleft;\012    ignore sub numbersign' bracketleft bracketleft;\012    sub CR bracketleft' by numbersign_bracketleft.liga;\012    sub numbersign' bracketleft  by CR;\012  } numbersign_bracketleft;\012\012  lookup equal_less {\012    ignore sub equal equal' less;\012    ignore sub equal' less less;\012    sub CR less' by equal_less.liga;\012    sub equal' less  by CR;\012  } equal_less;\012\012  lookup bracketleft_bracketright {\012    ignore sub bracketleft bracketleft' bracketright;\012    ignore sub bracketleft' bracketright bracketright;\012    sub CR bracketright' by bracketleft_bracketright.liga;\012    sub bracketleft' bracketright  by CR;\012  } bracketleft_bracketright;\012\012  lookup less_equal {\012    ignore sub less less' equal;\012    ignore sub less' equal equal;\012    sub CR equal' by less_equal.liga;\012    sub less' equal  by CR;\012  } less_equal;\012\012  lookup period_period {\012    ignore sub period period' period;\012    ignore sub period' period period;\012    sub CR period' by period_period.liga;\012    sub period' period  by CR;\012  } period_period;\012\012  lookup less_asciitilde {\012    ignore sub less less' asciitilde;\012    ignore sub less' asciitilde asciitilde;\012    sub CR asciitilde' by less_asciitilde.liga;\012    sub less' asciitilde  by CR;\012  } less_asciitilde;\012\012  lookup semicolon_semicolon {\012    ignore sub semicolon semicolon' semicolon;\012    ignore sub semicolon' semicolon semicolon;\012    sub CR semicolon' by semicolon_semicolon.liga;\012    sub semicolon' semicolon  by CR;\012  } semicolon_semicolon;\012\012  lookup dollar_greater {\012    ignore sub dollar dollar' greater;\012    ignore sub dollar' greater greater;\012    sub CR greater' by dollar_greater.liga;\012    sub dollar' greater  by CR;\012  } dollar_greater;\012\012  lookup slash_greater {\012    ignore sub slash slash' greater;\012    ignore sub slash' greater greater;\012    sub CR greater' by slash_greater.liga;\012    sub slash' greater  by CR;\012  } slash_greater;\012\012  lookup slash_asterisk {\012    ignore sub slash slash' asterisk;\012    ignore sub slash' asterisk asterisk;\012    sub CR asterisk' by slash_asterisk.liga;\012    sub slash' asterisk  by CR;\012  } slash_asterisk;\012\012  lookup less_asterisk {\012    ignore sub less less' asterisk;\012    ignore sub less' asterisk asterisk;\012    sub CR asterisk' by less_asterisk.liga;\012    sub less' asterisk  by CR;\012  } less_asterisk;\012\012  lookup exclam_equal {\012    ignore sub exclam exclam' equal;\012    ignore sub exclam' equal equal;\012    sub CR equal' by exclam_equal.liga;\012    sub exclam' equal  by CR;\012  } exclam_equal;\012\012  lookup slash_equal {\012    ignore sub slash slash' equal;\012    ignore sub slash' equal equal;\012    sub CR equal' by slash_equal.liga;\012    sub slash' equal  by CR;\012  } slash_equal;\012\012  lookup hyphen_greater {\012    ignore sub hyphen hyphen' greater;\012    ignore sub hyphen' greater greater;\012    sub CR greater' by hyphen_greater.liga;\012    sub hyphen' greater  by CR;\012  } hyphen_greater;\012\012  lookup less_hyphen {\012    ignore sub less less' hyphen;\012    ignore sub less' hyphen hyphen;\012    sub CR hyphen' by less_hyphen.liga;\012    sub less' hyphen  by CR;\012  } less_hyphen;\012\012  lookup colon_colon {\012    ignore sub colon colon' colon;\012    ignore sub colon' colon colon;\012    sub CR colon' by colon_colon.liga;\012    sub colon' colon  by CR;\012  } colon_colon;\012\012  lookup numbersign_braceleft {\012    ignore sub numbersign numbersign' braceleft;\012    ignore sub numbersign' braceleft braceleft;\012    sub CR braceleft' by numbersign_braceleft.liga;\012    sub numbersign' braceleft  by CR;\012  } numbersign_braceleft;\012\012  lookup asterisk_slash {\012    ignore sub asterisk asterisk' slash;\012    ignore sub asterisk' slash slash;\012    sub CR slash' by asterisk_slash.liga;\012    sub asterisk' slash  by CR;\012  } asterisk_slash;\012\012  lookup asciitilde_at {\012    ignore sub asciitilde asciitilde' at;\012    ignore sub asciitilde' at at;\012    sub CR at' by asciitilde_at.liga;\012    sub asciitilde' at  by CR;\012  } asciitilde_at;\012\012### end of generated calt\012\012\012lookup lowercase_hyphen {\012  ignore sub @Tall \\hyphen' @Lowercase;\012  ignore sub @Lowercase \\hyphen' @Tall;  \012  sub \\hyphen' @Lowercase by \\hyphen.lc;\012  sub @Lowercase \\hyphen' by \\hyphen.lc;\012} lowercase_hyphen;\012\012lookup lowercase_plus {\012  ignore sub @Tall \\plus' @Lowercase;\012  ignore sub @Lowercase \\plus' @Tall;\012  sub \\plus' @Lowercase by \\plus.lc;\012  sub @Lowercase \\plus' by \\plus.lc;\012} lowercase_plus;\012\012lookup lowercase_asterisk {\012  ignore sub @Tall \\asterisk' @Lowercase;\012  ignore sub @Lowercase \\asterisk' @Tall;\012  sub \\asterisk' @Lowercase by \\asterisk.lc;\012  sub @Lowercase \\asterisk' by \\asterisk.lc;\012} lowercase_asterisk;\012\012lookup uppercase_colon {\012  ignore sub @Tall \\colon' @Lowercase;\012  ignore sub @Lowercase \\colon' @Tall;\012  sub @Tall \\colon' by \\colon.uc;\012  sub \\colon' @Tall by \\colon.uc;\012} uppercase_colon;\012\012sub \\zero \\x' @HexDigit by \\x.multiply;\012sub @Digit \\x' @Digit by \\x.multiply;\012\012###\012\012lookup caltGreekUCdiph {\012  sub @GreekUCdiphIOTA Iota' by Iotadieresis;\012  sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;\012} caltGreekUCdiph;\012\012lookup caltGreekUC {\012  sub @GreekUCAcc' @GreekUC by @GreekUCcalt;\012  sub @GreekUC @GreekUCAcc' by @GreekUCcalt;\012  sub @GreekUCAcc' space @GreekUC by @GreekUCcalt;\012  sub @GreekUC space @GreekUCAcc' by @GreekUCcalt;\012} caltGreekUC;\012";
+code = "### start of generated calt\012  lookup less_exclam_hyphen_hyphen {\012    ignore sub less less' exclam hyphen hyphen;\012    ignore sub less' exclam hyphen hyphen hyphen;\012    sub CR CR CR hyphen' by less_exclam_hyphen_hyphen.liga;\012    sub CR CR hyphen' hyphen  by CR;\012    sub CR exclam' hyphen  hyphen  by CR;\012    sub less' exclam  hyphen  hyphen  by CR;\012  } less_exclam_hyphen_hyphen;\012\012  lookup numbersign_numbersign_numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign numbersign numbersign;\012    ignore sub numbersign' numbersign numbersign numbersign numbersign;\012    sub CR CR CR numbersign' by numbersign_numbersign_numbersign_numbersign.liga;\012    sub CR CR numbersign' numbersign  by CR;\012    sub CR numbersign' numbersign  numbersign  by CR;\012    sub numbersign' numbersign  numbersign  numbersign  by CR;\012  } numbersign_numbersign_numbersign_numbersign;\012\012  lookup less_plus_greater {\012    ignore sub less less' plus greater;\012    ignore sub less' plus greater greater;\012    sub CR CR greater' by less_plus_greater.liga;\012    sub CR plus' greater  by CR;\012    sub less' plus  greater  by CR;\012  } less_plus_greater;\012\012  lookup less_dollar_greater {\012    ignore sub less less' dollar greater;\012    ignore sub less' dollar greater greater;\012    sub CR CR greater' by less_dollar_greater.liga;\012    sub CR dollar' greater  by CR;\012    sub less' dollar  greater  by CR;\012  } less_dollar_greater;\012\012  lookup bar_bar_equal {\012    ignore sub bar bar' bar equal;\012    ignore sub bar' bar equal equal;\012    sub CR CR equal' by bar_bar_equal.liga;\012    sub CR bar' equal  by CR;\012    sub bar' bar  equal  by CR;\012  } bar_bar_equal;\012\012  lookup less_hyphen_greater {\012    ignore sub less less' hyphen greater;\012    ignore sub less' hyphen greater greater;\012    sub CR CR greater' by less_hyphen_greater.liga;\012    sub CR hyphen' greater  by CR;\012    sub less' hyphen  greater  by CR;\012  } less_hyphen_greater;\012\012  lookup greater_greater_hyphen {\012    ignore sub greater greater' greater hyphen;\012    ignore sub greater' greater hyphen hyphen;\012    sub CR CR hyphen' by greater_greater_hyphen.liga;\012    sub CR greater' hyphen  by CR;\012    sub greater' greater  hyphen  by CR;\012  } greater_greater_hyphen;\012\012  lookup equal_less_less {\012    ignore sub equal equal' less less;\012    ignore sub equal' less less less;\012    sub CR CR less' by equal_less_less.liga;\012    sub CR less' less  by CR;\012    sub equal' less  less  by CR;\012  } equal_less_less;\012\012  lookup less_equal_less {\012    ignore sub less less' equal less;\012    ignore sub less' equal less less;\012    sub CR CR less' by less_equal_less.liga;\012    sub CR equal' less  by CR;\012    sub less' equal  less  by CR;\012  } less_equal_less;\012\012  lookup asciitilde_asciitilde_greater {\012    ignore sub asciitilde asciitilde' asciitilde greater;\012    ignore sub asciitilde' asciitilde greater greater;\012    sub CR CR greater' by asciitilde_asciitilde_greater.liga;\012    sub CR asciitilde' greater  by CR;\012    sub asciitilde' asciitilde  greater  by CR;\012  } asciitilde_asciitilde_greater;\012\012  lookup numbersign_numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign numbersign;\012    ignore sub numbersign' numbersign numbersign numbersign;\012    sub CR CR numbersign' by numbersign_numbersign_numbersign.liga;\012    sub CR numbersign' numbersign  by CR;\012    sub numbersign' numbersign  numbersign  by CR;\012  } numbersign_numbersign_numbersign;\012\012  lookup asterisk_asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk asterisk;\012    ignore sub asterisk' asterisk asterisk asterisk;\012    sub CR CR asterisk' by asterisk_asterisk_asterisk.liga;\012    sub CR asterisk' asterisk  by CR;\012    sub asterisk' asterisk  asterisk  by CR;\012  } asterisk_asterisk_asterisk;\012\012  lookup backslash_backslash_backslash {\012    ignore sub backslash backslash' backslash backslash;\012    ignore sub backslash' backslash backslash backslash;\012    sub CR CR backslash' by backslash_backslash_backslash.liga;\012    sub CR backslash' backslash  by CR;\012    sub backslash' backslash  backslash  by CR;\012  } backslash_backslash_backslash;\012\012  lookup less_less_equal {\012    ignore sub less less' less equal;\012    ignore sub less' less equal equal;\012    sub CR CR equal' by less_less_equal.liga;\012    sub CR less' equal  by CR;\012    sub less' less  equal  by CR;\012  } less_less_equal;\012\012  lookup less_bar_greater {\012    ignore sub less less' bar greater;\012    ignore sub less' bar greater greater;\012    sub CR CR greater' by less_bar_greater.liga;\012    sub CR bar' greater  by CR;\012    sub less' bar  greater  by CR;\012  } less_bar_greater;\012\012  lookup w_w_w {\012    ignore sub w w' w w;\012    ignore sub w' w w w;\012    sub CR CR w' by w_w_w.liga;\012    sub CR w' w  by CR;\012    sub w' w  w  by CR;\012  } w_w_w;\012\012  lookup slash_slash_slash {\012    ignore sub slash slash' slash slash;\012    ignore sub slash' slash slash slash;\012    sub CR CR slash' by slash_slash_slash.liga;\012    sub CR slash' slash  by CR;\012    sub slash' slash  slash  by CR;\012  } slash_slash_slash;\012\012  lookup slash_equal_equal {\012    ignore sub slash slash' equal equal;\012    ignore sub slash' equal equal equal;\012    sub CR CR equal' by slash_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub slash' equal  equal  by CR;\012  } slash_equal_equal;\012\012  lookup less_hyphen_hyphen {\012    ignore sub less less' hyphen hyphen;\012    ignore sub less' hyphen hyphen hyphen;\012    sub CR CR hyphen' by less_hyphen_hyphen.liga;\012    sub CR hyphen' hyphen  by CR;\012    sub less' hyphen  hyphen  by CR;\012  } less_hyphen_hyphen;\012\012  lookup equal_greater_greater {\012    ignore sub equal equal' greater greater;\012    ignore sub equal' greater greater greater;\012    sub CR CR greater' by equal_greater_greater.liga;\012    sub CR greater' greater  by CR;\012    sub equal' greater  greater  by CR;\012  } equal_greater_greater;\012\012  lookup slash_asterisk_asterisk {\012    ignore sub slash slash' asterisk asterisk;\012    ignore sub slash' asterisk asterisk asterisk;\012    sub CR CR asterisk' by slash_asterisk_asterisk.liga;\012    sub CR asterisk' asterisk  by CR;\012    sub slash' asterisk  asterisk  by CR;\012  } slash_asterisk_asterisk;\012\012  lookup less_less_hyphen {\012    ignore sub less less' less hyphen;\012    ignore sub less' less hyphen hyphen;\012    sub CR CR hyphen' by less_less_hyphen.liga;\012    sub CR less' hyphen  by CR;\012    sub less' less  hyphen  by CR;\012  } less_less_hyphen;\012\012  lookup hyphen_hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen hyphen;\012    ignore sub hyphen' hyphen hyphen hyphen;\012    sub CR CR hyphen' by hyphen_hyphen_hyphen.liga;\012    sub CR hyphen' hyphen  by CR;\012    sub hyphen' hyphen  hyphen  by CR;\012  } hyphen_hyphen_hyphen;\012\012  lookup hyphen_greater_greater {\012    ignore sub hyphen hyphen' greater greater;\012    ignore sub hyphen' greater greater greater;\012    sub CR CR greater' by hyphen_greater_greater.liga;\012    sub CR greater' greater  by CR;\012    sub hyphen' greater  greater  by CR;\012  } hyphen_greater_greater;\012\012  lookup hyphen_less_less {\012    ignore sub hyphen hyphen' less less;\012    ignore sub hyphen' less less less;\012    sub CR CR less' by hyphen_less_less.liga;\012    sub CR less' less  by CR;\012    sub hyphen' less  less  by CR;\012  } hyphen_less_less;\012\012  lookup less_less_less {\012    ignore sub less less' less less;\012    ignore sub less' less less less;\012    sub CR CR less' by less_less_less.liga;\012    sub CR less' less  by CR;\012    sub less' less  less  by CR;\012  } less_less_less;\012\012  lookup equal_equal_greater {\012    ignore sub equal equal' equal greater;\012    ignore sub equal' equal greater greater;\012    sub CR CR greater' by equal_equal_greater.liga;\012    sub CR equal' greater  by CR;\012    sub equal' equal  greater  by CR;\012  } equal_equal_greater;\012\012  lookup period_period_period {\012    ignore sub period period' period period;\012    ignore sub period' period period period;\012    sub CR CR period' by period_period_period.liga;\012    sub CR period' period  by CR;\012    sub period' period  period  by CR;\012  } period_period_period;\012\012  lookup less_equal_equal {\012    ignore sub less less' equal equal;\012    ignore sub less' equal equal equal;\012    sub CR CR equal' by less_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub less' equal  equal  by CR;\012  } less_equal_equal;\012\012  lookup greater_equal_greater {\012    ignore sub greater greater' equal greater;\012    ignore sub greater' equal greater greater;\012    sub CR CR greater' by greater_equal_greater.liga;\012    sub CR equal' greater  by CR;\012    sub greater' equal  greater  by CR;\012  } greater_equal_greater;\012\012  lookup less_asterisk_greater {\012    ignore sub less less' asterisk greater;\012    ignore sub less' asterisk greater greater;\012    sub CR CR greater' by less_asterisk_greater.liga;\012    sub CR asterisk' greater  by CR;\012    sub less' asterisk  greater  by CR;\012  } less_asterisk_greater;\012\012  lookup numbersign_underscore_parenleft {\012    ignore sub numbersign numbersign' underscore parenleft;\012    ignore sub numbersign' underscore parenleft parenleft;\012    sub CR CR parenleft' by numbersign_underscore_parenleft.liga;\012    sub CR underscore' parenleft  by CR;\012    sub numbersign' underscore  parenleft  by CR;\012  } numbersign_underscore_parenleft;\012\012  lookup less_asciitilde_asciitilde {\012    ignore sub less less' asciitilde asciitilde;\012    ignore sub less' asciitilde asciitilde asciitilde;\012    sub CR CR asciitilde' by less_asciitilde_asciitilde.liga;\012    sub CR asciitilde' asciitilde  by CR;\012    sub less' asciitilde  asciitilde  by CR;\012  } less_asciitilde_asciitilde;\012\012  lookup exclam_equal_equal {\012    ignore sub exclam exclam' equal equal;\012    ignore sub exclam' equal equal equal;\012    sub CR CR equal' by exclam_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub exclam' equal  equal  by CR;\012  } exclam_equal_equal;\012\012  lookup hyphen_hyphen_greater {\012    ignore sub hyphen hyphen' hyphen greater;\012    ignore sub hyphen' hyphen greater greater;\012    sub CR CR greater' by hyphen_hyphen_greater.liga;\012    sub CR hyphen' greater  by CR;\012    sub hyphen' hyphen  greater  by CR;\012  } hyphen_hyphen_greater;\012\012  lookup equal_slash_equal {\012    ignore sub equal equal' slash equal;\012    ignore sub equal' slash equal equal;\012    sub CR CR equal' by equal_slash_equal.liga;\012    sub CR slash' equal  by CR;\012    sub equal' slash  equal  by CR;\012  } equal_slash_equal;\012\012  lookup asterisk_asterisk_slash {\012    ignore sub asterisk asterisk' asterisk slash;\012    ignore sub asterisk' asterisk slash slash;\012    sub CR CR slash' by asterisk_asterisk_slash.liga;\012    sub CR asterisk' slash  by CR;\012    sub asterisk' asterisk  slash  by CR;\012  } asterisk_asterisk_slash;\012\012  lookup less_equal_greater {\012    ignore sub less less' equal greater;\012    ignore sub less' equal greater greater;\012    sub CR CR greater' by less_equal_greater.liga;\012    sub CR equal' greater  by CR;\012    sub less' equal  greater  by CR;\012  } less_equal_greater;\012\012  lookup greater_greater_greater {\012    ignore sub greater greater' greater greater;\012    ignore sub greater' greater greater greater;\012    sub CR CR greater' by greater_greater_greater.liga;\012    sub CR greater' greater  by CR;\012    sub greater' greater  greater  by CR;\012  } greater_greater_greater;\012\012  lookup greater_greater_equal {\012    ignore sub greater greater' greater equal;\012    ignore sub greater' greater equal equal;\012    sub CR CR equal' by greater_greater_equal.liga;\012    sub CR greater' equal  by CR;\012    sub greater' greater  equal  by CR;\012  } greater_greater_equal;\012\012  lookup period_period_less {\012    ignore sub period period' period less;\012    ignore sub period' period less less;\012    sub CR CR less' by period_period_less.liga;\012    sub CR period' less  by CR;\012    sub period' period  less  by CR;\012  } period_period_less;\012\012  lookup equal_colon_equal {\012    ignore sub equal equal' colon equal;\012    ignore sub equal' colon equal equal;\012    sub CR CR equal' by equal_colon_equal.liga;\012    sub CR colon' equal  by CR;\012    sub equal' colon  equal  by CR;\012  } equal_colon_equal;\012\012  lookup equal_equal_equal {\012    ignore sub equal equal' equal equal;\012    ignore sub equal' equal equal equal;\012    sub CR CR equal' by equal_equal_equal.liga;\012    sub CR equal' equal  by CR;\012    sub equal' equal  equal  by CR;\012  } equal_equal_equal;\012\012  lookup colon_colon_colon {\012    ignore sub colon colon' colon colon;\012    ignore sub colon' colon colon colon;\012    sub CR CR colon' by colon_colon_colon.liga;\012    sub CR colon' colon  by CR;\012    sub colon' colon  colon  by CR;\012  } colon_colon_colon;\012\012  lookup less_dollar {\012    ignore sub less less' dollar;\012    ignore sub less' dollar dollar;\012    sub CR dollar' by less_dollar.liga;\012    sub less' dollar  by CR;\012  } less_dollar;\012\012  lookup question_question {\012    ignore sub question question' question;\012    ignore sub question' question question;\012    sub CR question' by question_question.liga;\012    sub question' question  by CR;\012  } question_question;\012\012  lookup asciitilde_asciitilde {\012    ignore sub asciitilde asciitilde' asciitilde;\012    ignore sub asciitilde' asciitilde asciitilde;\012    sub CR asciitilde' by asciitilde_asciitilde.liga;\012    sub asciitilde' asciitilde  by CR;\012  } asciitilde_asciitilde;\012\012  lookup asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk;\012    ignore sub asterisk' asterisk asterisk;\012    sub CR asterisk' by asterisk_asterisk.liga;\012    sub asterisk' asterisk  by CR;\012  } asterisk_asterisk;\012\012  lookup greater_greater {\012    ignore sub greater greater' greater;\012    ignore sub greater' greater greater;\012    sub CR greater' by greater_greater.liga;\012    sub greater' greater  by CR;\012  } greater_greater;\012\012  lookup slash_slash {\012    ignore sub slash slash' slash;\012    ignore sub slash' slash slash;\012    sub CR slash' by slash_slash.liga;\012    sub slash' slash  by CR;\012  } slash_slash;\012\012  lookup colon_equal {\012    ignore sub colon colon' equal;\012    ignore sub colon' equal equal;\012    sub CR equal' by colon_equal.liga;\012    sub colon' equal  by CR;\012  } colon_equal;\012\012  lookup less_greater {\012    ignore sub less less' greater;\012    ignore sub less' greater greater;\012    sub CR greater' by less_greater.liga;\012    sub less' greater  by CR;\012  } less_greater;\012\012  lookup exclam_exclam {\012    ignore sub exclam exclam' exclam;\012    ignore sub exclam' exclam exclam;\012    sub CR exclam' by exclam_exclam.liga;\012    sub exclam' exclam  by CR;\012  } exclam_exclam;\012\012  lookup braceleft_hyphen {\012    ignore sub braceleft braceleft' hyphen;\012    ignore sub braceleft' hyphen hyphen;\012    sub CR hyphen' by braceleft_hyphen.liga;\012    sub braceleft' hyphen  by CR;\012  } braceleft_hyphen;\012\012  lookup asciitilde_greater {\012    ignore sub asciitilde asciitilde' greater;\012    ignore sub asciitilde' greater greater;\012    sub CR greater' by asciitilde_greater.liga;\012    sub asciitilde' greater  by CR;\012  } asciitilde_greater;\012\012  lookup bar_greater {\012    ignore sub bar bar' greater;\012    ignore sub bar' greater greater;\012    sub CR greater' by bar_greater.liga;\012    sub bar' greater  by CR;\012  } bar_greater;\012\012  lookup less_less {\012    ignore sub less less' less;\012    ignore sub less' less less;\012    sub CR less' by less_less.liga;\012    sub less' less  by CR;\012  } less_less;\012\012  lookup hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen;\012    ignore sub hyphen' hyphen hyphen;\012    sub CR hyphen' by hyphen_hyphen.liga;\012    sub hyphen' hyphen  by CR;\012  } hyphen_hyphen;\012\012  lookup ampersand_ampersand {\012    ignore sub ampersand ampersand' ampersand;\012    ignore sub ampersand' ampersand ampersand;\012    sub CR ampersand' by ampersand_ampersand.liga;\012    sub ampersand' ampersand  by CR;\012  } ampersand_ampersand;\012\012  lookup hyphen_braceright {\012    ignore sub hyphen hyphen' braceright;\012    ignore sub hyphen' braceright braceright;\012    sub CR braceright' by hyphen_braceright.liga;\012    sub hyphen' braceright  by CR;\012  } hyphen_braceright;\012\012  lookup question_equal {\012    ignore sub question question' equal;\012    ignore sub question' equal equal;\012    sub CR equal' by question_equal.liga;\012    sub question' equal  by CR;\012  } question_equal;\012\012  lookup plus_greater {\012    ignore sub plus plus' greater;\012    ignore sub plus' greater greater;\012    sub CR greater' by plus_greater.liga;\012    sub plus' greater  by CR;\012  } plus_greater;\012\012  lookup asciitilde_equal {\012    ignore sub asciitilde asciitilde' equal;\012    ignore sub asciitilde' equal equal;\012    sub CR equal' by asciitilde_equal.liga;\012    sub asciitilde' equal  by CR;\012  } asciitilde_equal;\012\012  lookup asciicircum_equal {\012    ignore sub asciicircum asciicircum' equal;\012    ignore sub asciicircum' equal equal;\012    sub CR equal' by asciicircum_equal.liga;\012    sub asciicircum' equal  by CR;\012  } asciicircum_equal;\012\012  lookup bar_equal {\012    ignore sub bar bar' equal;\012    ignore sub bar' equal equal;\012    sub CR equal' by bar_equal.liga;\012    sub bar' equal  by CR;\012  } bar_equal;\012\012  lookup backslash_backslash {\012    ignore sub backslash backslash' backslash;\012    ignore sub backslash' backslash backslash;\012    sub CR backslash' by backslash_backslash.liga;\012    sub backslash' backslash  by CR;\012  } backslash_backslash;\012\012  lookup numbersign_question {\012    ignore sub numbersign numbersign' question;\012    ignore sub numbersign' question question;\012    sub CR question' by numbersign_question.liga;\012    sub numbersign' question  by CR;\012  } numbersign_question;\012\012  lookup less_slash {\012    ignore sub less less' slash;\012    ignore sub less' slash slash;\012    sub CR slash' by less_slash.liga;\012    sub less' slash  by CR;\012  } less_slash;\012\012  lookup bar_bar {\012    ignore sub bar bar' bar;\012    ignore sub bar' bar bar;\012    sub CR bar' by bar_bar.liga;\012    sub bar' bar  by CR;\012  } bar_bar;\012\012  lookup less_plus {\012    ignore sub less less' plus;\012    ignore sub less' plus plus;\012    sub CR plus' by less_plus.liga;\012    sub less' plus  by CR;\012  } less_plus;\012\012  lookup numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign;\012    ignore sub numbersign' numbersign numbersign;\012    sub CR numbersign' by numbersign_numbersign.liga;\012    sub numbersign' numbersign  by CR;\012  } numbersign_numbersign;\012\012  lookup numbersign_parenleft {\012    ignore sub numbersign numbersign' parenleft;\012    ignore sub numbersign' parenleft parenleft;\012    sub CR parenleft' by numbersign_parenleft.liga;\012    sub numbersign' parenleft  by CR;\012  } numbersign_parenleft;\012\012  lookup greater_hyphen {\012    ignore sub greater greater' hyphen;\012    ignore sub greater' hyphen hyphen;\012    sub CR hyphen' by greater_hyphen.liga;\012    sub greater' hyphen  by CR;\012  } greater_hyphen;\012\012  lookup greater_equal {\012    ignore sub greater greater' equal;\012    ignore sub greater' equal equal;\012    sub CR equal' by greater_equal.liga;\012    sub greater' equal  by CR;\012  } greater_equal;\012\012  lookup percent_percent {\012    ignore sub percent percent' percent;\012    ignore sub percent' percent percent;\012    sub CR percent' by percent_percent.liga;\012    sub percent' percent  by CR;\012  } percent_percent;\012\012  lookup equal_greater {\012    ignore sub equal equal' greater;\012    ignore sub equal' greater greater;\012    sub CR greater' by equal_greater.liga;\012    sub equal' greater  by CR;\012  } equal_greater;\012\012  lookup hyphen_less {\012    ignore sub hyphen hyphen' less;\012    ignore sub hyphen' less less;\012    sub CR less' by hyphen_less.liga;\012    sub hyphen' less  by CR;\012  } hyphen_less;\012\012  lookup asciitilde_hyphen {\012    ignore sub asciitilde asciitilde' hyphen;\012    ignore sub asciitilde' hyphen hyphen;\012    sub CR hyphen' by asciitilde_hyphen.liga;\012    sub asciitilde' hyphen  by CR;\012  } asciitilde_hyphen;\012\012  lookup equal_equal {\012    ignore sub equal equal' equal;\012    ignore sub equal' equal equal;\012    sub CR equal' by equal_equal.liga;\012    sub equal' equal  by CR;\012  } equal_equal;\012\012  lookup period_equal {\012    ignore sub period period' equal;\012    ignore sub period' equal equal;\012    sub CR equal' by period_equal.liga;\012    sub period' equal  by CR;\012  } period_equal;\012\012  lookup numbersign_underscore {\012    ignore sub numbersign numbersign' underscore;\012    ignore sub numbersign' underscore underscore;\012    sub CR underscore' by numbersign_underscore.liga;\012    sub numbersign' underscore  by CR;\012  } numbersign_underscore;\012\012  lookup less_bar {\012    ignore sub less less' bar;\012    ignore sub less' bar bar;\012    sub CR bar' by less_bar.liga;\012    sub less' bar  by CR;\012  } less_bar;\012\012  lookup hyphen_asciitilde {\012    ignore sub hyphen hyphen' asciitilde;\012    ignore sub hyphen' asciitilde asciitilde;\012    sub CR asciitilde' by hyphen_asciitilde.liga;\012    sub hyphen' asciitilde  by CR;\012  } hyphen_asciitilde;\012\012  lookup asterisk_greater {\012    ignore sub asterisk asterisk' greater;\012    ignore sub asterisk' greater greater;\012    sub CR greater' by asterisk_greater.liga;\012    sub asterisk' greater  by CR;\012  } asterisk_greater;\012\012  lookup period_hyphen {\012    ignore sub period period' hyphen;\012    ignore sub period' hyphen hyphen;\012    sub CR hyphen' by period_hyphen.liga;\012    sub period' hyphen  by CR;\012  } period_hyphen;\012\012  lookup plus_plus {\012    ignore sub plus plus' plus;\012    ignore sub plus' plus plus;\012    sub CR plus' by plus_plus.liga;\012    sub plus' plus  by CR;\012  } plus_plus;\012\012  lookup numbersign_bracketleft {\012    ignore sub numbersign numbersign' bracketleft;\012    ignore sub numbersign' bracketleft bracketleft;\012    sub CR bracketleft' by numbersign_bracketleft.liga;\012    sub numbersign' bracketleft  by CR;\012  } numbersign_bracketleft;\012\012  lookup equal_less {\012    ignore sub equal equal' less;\012    ignore sub equal' less less;\012    sub CR less' by equal_less.liga;\012    sub equal' less  by CR;\012  } equal_less;\012\012  lookup bracketleft_bracketright {\012    ignore sub bracketleft bracketleft' bracketright;\012    ignore sub bracketleft' bracketright bracketright;\012    sub CR bracketright' by bracketleft_bracketright.liga;\012    sub bracketleft' bracketright  by CR;\012  } bracketleft_bracketright;\012\012  lookup less_equal {\012    ignore sub less less' equal;\012    ignore sub less' equal equal;\012    sub CR equal' by less_equal.liga;\012    sub less' equal  by CR;\012  } less_equal;\012\012  lookup period_period {\012    ignore sub period period' period;\012    ignore sub period' period period;\012    sub CR period' by period_period.liga;\012    sub period' period  by CR;\012  } period_period;\012\012  lookup less_asciitilde {\012    ignore sub less less' asciitilde;\012    ignore sub less' asciitilde asciitilde;\012    sub CR asciitilde' by less_asciitilde.liga;\012    sub less' asciitilde  by CR;\012  } less_asciitilde;\012\012  lookup semicolon_semicolon {\012    ignore sub semicolon semicolon' semicolon;\012    ignore sub semicolon' semicolon semicolon;\012    sub CR semicolon' by semicolon_semicolon.liga;\012    sub semicolon' semicolon  by CR;\012  } semicolon_semicolon;\012\012  lookup dollar_greater {\012    ignore sub dollar dollar' greater;\012    ignore sub dollar' greater greater;\012    sub CR greater' by dollar_greater.liga;\012    sub dollar' greater  by CR;\012  } dollar_greater;\012\012  lookup slash_greater {\012    ignore sub slash slash' greater;\012    ignore sub slash' greater greater;\012    sub CR greater' by slash_greater.liga;\012    sub slash' greater  by CR;\012  } slash_greater;\012\012  lookup slash_asterisk {\012    ignore sub slash slash' asterisk;\012    ignore sub slash' asterisk asterisk;\012    sub CR asterisk' by slash_asterisk.liga;\012    sub slash' asterisk  by CR;\012  } slash_asterisk;\012\012  lookup less_asterisk {\012    ignore sub less less' asterisk;\012    ignore sub less' asterisk asterisk;\012    sub CR asterisk' by less_asterisk.liga;\012    sub less' asterisk  by CR;\012  } less_asterisk;\012\012  lookup exclam_equal {\012    ignore sub exclam exclam' equal;\012    ignore sub exclam' equal equal;\012    sub CR equal' by exclam_equal.liga;\012    sub exclam' equal  by CR;\012  } exclam_equal;\012\012  lookup slash_equal {\012    ignore sub slash slash' equal;\012    ignore sub slash' equal equal;\012    sub CR equal' by slash_equal.liga;\012    sub slash' equal  by CR;\012  } slash_equal;\012\012  lookup hyphen_greater {\012    ignore sub hyphen hyphen' greater;\012    ignore sub hyphen' greater greater;\012    sub CR greater' by hyphen_greater.liga;\012    sub hyphen' greater  by CR;\012  } hyphen_greater;\012\012  lookup less_hyphen {\012    ignore sub less less' hyphen;\012    ignore sub less' hyphen hyphen;\012    sub CR hyphen' by less_hyphen.liga;\012    sub less' hyphen  by CR;\012  } less_hyphen;\012\012  lookup colon_colon {\012    ignore sub colon colon' colon;\012    ignore sub colon' colon colon;\012    sub CR colon' by colon_colon.liga;\012    sub colon' colon  by CR;\012  } colon_colon;\012\012  lookup numbersign_braceleft {\012    ignore sub numbersign numbersign' braceleft;\012    ignore sub numbersign' braceleft braceleft;\012    sub CR braceleft' by numbersign_braceleft.liga;\012    sub numbersign' braceleft  by CR;\012  } numbersign_braceleft;\012\012  lookup asterisk_slash {\012    ignore sub asterisk asterisk' slash;\012    ignore sub asterisk' slash slash;\012    sub CR slash' by asterisk_slash.liga;\012    sub asterisk' slash  by CR;\012  } asterisk_slash;\012\012  lookup asciitilde_at {\012    ignore sub asciitilde asciitilde' at;\012    ignore sub asciitilde' at at;\012    sub CR at' by asciitilde_at.liga;\012    sub asciitilde' at  by CR;\012  } asciitilde_at;\012\012### end of generated calt\012\012\012lookup lowercase_hyphen {\012  ignore sub @Tall \\hyphen' @Lowercase;\012  ignore sub @Lowercase \\hyphen' @Tall;  \012  sub \\hyphen' @Lowercase by \\hyphen.lc;\012  sub @Lowercase \\hyphen' by \\hyphen.lc;\012} lowercase_hyphen;\012\012lookup lowercase_plus {\012  ignore sub @Tall \\plus' @Lowercase;\012  ignore sub @Lowercase \\plus' @Tall;\012  sub \\plus' @Lowercase by \\plus.lc;\012  sub @Lowercase \\plus' by \\plus.lc;\012} lowercase_plus;\012\012lookup lowercase_asterisk {\012  ignore sub @Tall \\asterisk' @Lowercase;\012  ignore sub @Lowercase \\asterisk' @Tall;\012  sub \\asterisk' @Lowercase by \\asterisk.lc;\012  sub @Lowercase \\asterisk' by \\asterisk.lc;\012} lowercase_asterisk;\012\012lookup uppercase_colon {\012  ignore sub @Tall \\colon' @Lowercase;\012  ignore sub @Lowercase \\colon' @Tall;\012  sub @Tall \\colon' by \\colon.uc;\012  sub \\colon' @Tall by \\colon.uc;\012} uppercase_colon;\012\012sub \\zero \\x' @HexDigit by \\x.multiply;\012sub @Digit \\x' @Digit by \\x.multiply;\012\012###\012\012lookup caltGreekUCdiph {\012  sub @GreekUCdiphIOTA Iota' by Iotadieresis;\012  sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;\012} caltGreekUCdiph;\012\012lookup caltGreekUC {\012  sub @GreekUCAcc' @GreekUC by @GreekUCcalt;\012  sub @GreekUC @GreekUCAcc' by @GreekUCcalt;\012  sub @GreekUCAcc' space @GreekUC by @GreekUCcalt;\012  sub @GreekUC space @GreekUCAcc' by @GreekUCcalt;\012} caltGreekUC;\012";
 name = calt;
 }
 );
@@ -73841,9 +73844,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = numbersign_numbersign.liga;
-lastChange = "2016-07-16 13:20:04 +0000";
+lastChange = "2016-07-17 10:46:33 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -73851,77 +73854,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"549 525 LINE",
-"471 525 LINE",
-"494 689 LINE",
-"416 689 LINE",
-"394 525 LINE",
-"198 525 LINE",
-"221 689 LINE",
-"143 689 LINE",
-"121 525 LINE",
-"-74 525 LINE",
-"-51 689 LINE",
-"-129 689 LINE",
-"-151 525 LINE",
-"-347 525 LINE",
-"-324 689 LINE",
-"-402 689 LINE",
-"-424 525 LINE",
-"-512 525 LINE",
-"-512 455 LINE",
-"-433 455 LINE",
-"-463 236 LINE",
-"-549 236 LINE",
-"-549 167 LINE",
-"-472 167 LINE",
-"-494 0 LINE",
-"-416 0 LINE",
-"-394 167 LINE",
-"-199 167 LINE",
-"-221 0 LINE",
-"-143 0 LINE",
-"-122 167 LINE",
-"73 167 LINE",
-"51 0 LINE",
-"129 0 LINE",
-"151 167 LINE",
-"346 167 LINE",
-"324 0 LINE",
-"402 0 LINE",
-"423 167 LINE",
-"512 167 LINE",
-"512 236 LINE",
-"433 236 LINE",
-"462 455 LINE",
-"549 455 LINE"
+"499 525 LINE",
+"371 525 LINE",
+"394 689 LINE",
+"316 689 LINE",
+"294 525 LINE",
+"62 525 LINE",
+"85 689 LINE",
+"7 689 LINE",
+"-15 525 LINE",
+"-247 525 LINE",
+"-224 689 LINE",
+"-302 689 LINE",
+"-324 525 LINE",
+"-462 525 LINE",
+"-462 455 LINE",
+"-333 455 LINE",
+"-363 236 LINE",
+"-499 236 LINE",
+"-499 167 LINE",
+"-372 167 LINE",
+"-394 0 LINE",
+"-316 0 LINE",
+"-294 167 LINE",
+"-63 167 LINE",
+"-85 0 LINE",
+"-7 0 LINE",
+"15 167 LINE",
+"246 167 LINE",
+"224 0 LINE",
+"302 0 LINE",
+"323 167 LINE",
+"462 167 LINE",
+"462 236 LINE",
+"333 236 LINE",
+"362 455 LINE",
+"499 455 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-385 236 LINE",
-"-356 455 LINE",
-"-160 455 LINE",
-"-190 236 LINE"
+"-285 236 LINE",
+"-256 455 LINE",
+"-24 455 LINE",
+"-54 236 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-112 236 LINE",
-"-83 455 LINE",
-"112 455 LINE",
-"82 236 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"160 236 LINE",
-"189 455 LINE",
-"385 455 LINE",
-"355 236 LINE"
+"24 236 LINE",
+"53 455 LINE",
+"285 455 LINE",
+"255 236 LINE"
 );
 }
 );
@@ -73933,77 +73919,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"566 552 LINE",
-"506 552 LINE",
-"525 693 LINE",
-"393 693 LINE",
-"374 552 LINE",
-"231 552 LINE",
-"250 693 LINE",
-"117 693 LINE",
-"99 552 LINE",
-"-45 552 LINE",
-"-26 693 LINE",
-"-158 693 LINE",
-"-177 552 LINE",
-"-320 552 LINE",
-"-301 693 LINE",
-"-434 693 LINE",
-"-452 552 LINE",
-"-528 552 LINE",
-"-528 446 LINE",
-"-466 446 LINE",
-"-492 249 LINE",
-"-565 249 LINE",
-"-565 144 LINE",
-"-506 144 LINE",
-"-524 0 LINE",
-"-392 0 LINE",
-"-373 144 LINE",
-"-230 144 LINE",
-"-249 0 LINE",
-"-117 0 LINE",
-"-98 144 LINE",
-"45 144 LINE",
-"27 0 LINE",
-"159 0 LINE",
-"178 144 LINE",
-"321 144 LINE",
-"302 0 LINE",
-"434 0 LINE",
-"453 144 LINE",
-"529 144 LINE",
-"529 249 LINE",
-"467 249 LINE",
-"492 446 LINE",
-"566 446 LINE"
+"516 552 LINE",
+"406 552 LINE",
+"425 693 LINE",
+"293 693 LINE",
+"274 552 LINE",
+"93 552 LINE",
+"112 693 LINE",
+"-21 693 LINE",
+"-40 552 LINE",
+"-220 552 LINE",
+"-201 693 LINE",
+"-334 693 LINE",
+"-352 552 LINE",
+"-478 552 LINE",
+"-478 446 LINE",
+"-366 446 LINE",
+"-392 249 LINE",
+"-515 249 LINE",
+"-515 144 LINE",
+"-406 144 LINE",
+"-424 0 LINE",
+"-292 0 LINE",
+"-273 144 LINE",
+"-93 144 LINE",
+"-112 0 LINE",
+"21 0 LINE",
+"40 144 LINE",
+"221 144 LINE",
+"202 0 LINE",
+"334 0 LINE",
+"353 144 LINE",
+"479 144 LINE",
+"479 249 LINE",
+"367 249 LINE",
+"392 446 LINE",
+"516 446 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-360 249 LINE",
-"-334 446 LINE",
-"-191 446 LINE",
-"-217 249 LINE"
+"-260 249 LINE",
+"-234 446 LINE",
+"-54 446 LINE",
+"-80 249 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-84 249 LINE",
-"-59 446 LINE",
-"85 446 LINE",
-"59 249 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"191 249 LINE",
-"217 446 LINE",
-"360 446 LINE",
-"334 249 LINE"
+"53 249 LINE",
+"79 446 LINE",
+"260 446 LINE",
+"234 249 LINE"
 );
 }
 );
@@ -74012,9 +73981,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = numbersign_numbersign_numbersign.liga;
-lastChange = "2016-07-16 13:20:04 +0000";
+lastChange = "2016-07-17 11:09:12 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -74022,111 +73991,77 @@ paths = (
 {
 closed = 1;
 nodes = (
-"549 525 LINE",
-"471 525 LINE",
-"494 689 LINE",
-"416 689 LINE",
-"394 525 LINE",
-"188 525 LINE",
-"211 689 LINE",
-"133 689 LINE",
-"111 525 LINE",
-"-95 525 LINE",
-"-72 689 LINE",
-"-150 689 LINE",
-"-172 525 LINE",
-"-381 525 LINE",
-"-358 689 LINE",
-"-436 689 LINE",
-"-458 525 LINE",
-"-664 525 LINE",
-"-641 689 LINE",
-"-719 689 LINE",
-"-741 525 LINE",
-"-947 525 LINE",
-"-924 689 LINE",
-"-1002 689 LINE",
-"-1024 525 LINE",
-"-1112 525 LINE",
-"-1112 455 LINE",
-"-1033 455 LINE",
-"-1063 236 LINE",
-"-1149 236 LINE",
-"-1149 167 LINE",
-"-1072 167 LINE",
-"-1094 0 LINE",
-"-1016 0 LINE",
-"-994 167 LINE",
-"-789 167 LINE",
-"-811 0 LINE",
-"-733 0 LINE",
-"-712 167 LINE",
-"-506 167 LINE",
-"-528 0 LINE",
-"-450 0 LINE",
-"-428 167 LINE",
-"-220 167 LINE",
-"-242 0 LINE",
-"-164 0 LINE",
-"-143 167 LINE",
-"63 167 LINE",
-"41 0 LINE",
-"119 0 LINE",
-"141 167 LINE",
-"346 167 LINE",
-"324 0 LINE",
-"402 0 LINE",
-"423 167 LINE",
-"512 167 LINE",
-"512 236 LINE",
-"433 236 LINE",
-"462 455 LINE",
-"549 455 LINE"
+"424 525 LINE",
+"295 525 LINE",
+"318 689 LINE",
+"240 689 LINE",
+"218 525 LINE",
+"-61 525 LINE",
+"-38 689 LINE",
+"-116 689 LINE",
+"-138 525 LINE",
+"-416 525 LINE",
+"-393 689 LINE",
+"-471 689 LINE",
+"-493 525 LINE",
+"-771 525 LINE",
+"-748 689 LINE",
+"-826 689 LINE",
+"-848 525 LINE",
+"-987 525 LINE",
+"-987 455 LINE",
+"-857 455 LINE",
+"-887 236 LINE",
+"-1024 236 LINE",
+"-1024 167 LINE",
+"-896 167 LINE",
+"-918 0 LINE",
+"-840 0 LINE",
+"-818 167 LINE",
+"-541 167 LINE",
+"-563 0 LINE",
+"-485 0 LINE",
+"-463 167 LINE",
+"-186 167 LINE",
+"-208 0 LINE",
+"-130 0 LINE",
+"-108 167 LINE",
+"170 167 LINE",
+"148 0 LINE",
+"226 0 LINE",
+"247 167 LINE",
+"387 167 LINE",
+"387 236 LINE",
+"257 236 LINE",
+"286 455 LINE",
+"424 455 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-985 236 LINE",
-"-956 455 LINE",
-"-750 455 LINE",
-"-780 236 LINE"
+"-809 236 LINE",
+"-780 455 LINE",
+"-502 455 LINE",
+"-532 236 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-702 236 LINE",
-"-673 455 LINE",
-"-467 455 LINE",
-"-497 236 LINE"
+"-454 236 LINE",
+"-425 455 LINE",
+"-147 455 LINE",
+"-177 236 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-419 236 LINE",
-"-390 455 LINE",
-"-181 455 LINE",
-"-211 236 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-133 236 LINE",
-"-104 455 LINE",
-"102 455 LINE",
-"72 236 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"150 236 LINE",
-"179 455 LINE",
-"385 455 LINE",
-"355 236 LINE"
+"-99 236 LINE",
+"-70 455 LINE",
+"209 455 LINE",
+"179 236 LINE"
 );
 }
 );
@@ -74138,111 +74073,77 @@ paths = (
 {
 closed = 1;
 nodes = (
-"566 552 LINE",
-"506 552 LINE",
-"525 693 LINE",
-"393 693 LINE",
-"374 552 LINE",
-"221 552 LINE",
-"240 693 LINE",
-"107 693 LINE",
-"89 552 LINE",
-"-65 552 LINE",
-"-46 693 LINE",
-"-178 693 LINE",
-"-197 552 LINE",
-"-350 552 LINE",
-"-331 693 LINE",
-"-464 693 LINE",
-"-482 552 LINE",
-"-635 552 LINE",
-"-616 693 LINE",
-"-748 693 LINE",
-"-767 552 LINE",
-"-920 552 LINE",
-"-901 693 LINE",
-"-1034 693 LINE",
-"-1052 552 LINE",
-"-1128 552 LINE",
-"-1128 446 LINE",
-"-1066 446 LINE",
-"-1092 249 LINE",
-"-1165 249 LINE",
-"-1165 144 LINE",
-"-1106 144 LINE",
-"-1124 0 LINE",
-"-992 0 LINE",
-"-973 144 LINE",
-"-820 144 LINE",
-"-839 0 LINE",
-"-707 0 LINE",
-"-688 144 LINE",
-"-536 144 LINE",
-"-554 0 LINE",
-"-422 0 LINE",
-"-403 144 LINE",
-"-250 144 LINE",
-"-269 0 LINE",
-"-137 0 LINE",
-"-118 144 LINE",
-"35 144 LINE",
-"17 0 LINE",
-"149 0 LINE",
-"168 144 LINE",
-"321 144 LINE",
-"302 0 LINE",
-"434 0 LINE",
-"453 144 LINE",
-"529 144 LINE",
-"529 249 LINE",
-"467 249 LINE",
-"492 446 LINE",
-"566 446 LINE"
+"440 552 LINE",
+"327 552 LINE",
+"347 693 LINE",
+"214 693 LINE",
+"195 552 LINE",
+"-29 552 LINE",
+"-9 693 LINE",
+"-142 693 LINE",
+"-161 552 LINE",
+"-384 552 LINE",
+"-364 693 LINE",
+"-497 693 LINE",
+"-516 552 LINE",
+"-739 552 LINE",
+"-719 693 LINE",
+"-852 693 LINE",
+"-871 552 LINE",
+"-1002 552 LINE",
+"-1002 446 LINE",
+"-885 446 LINE",
+"-912 249 LINE",
+"-1039 249 LINE",
+"-1039 144 LINE",
+"-926 144 LINE",
+"-945 0 LINE",
+"-812 0 LINE",
+"-793 144 LINE",
+"-571 144 LINE",
+"-590 0 LINE",
+"-457 0 LINE",
+"-438 144 LINE",
+"-216 144 LINE",
+"-235 0 LINE",
+"-102 0 LINE",
+"-83 144 LINE",
+"140 144 LINE",
+"121 0 LINE",
+"254 0 LINE",
+"272 144 LINE",
+"403 144 LINE",
+"403 249 LINE",
+"287 249 LINE",
+"313 446 LINE",
+"440 446 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-960 249 LINE",
-"-934 446 LINE",
-"-781 446 LINE",
-"-807 249 LINE"
+"-779 249 LINE",
+"-753 446 LINE",
+"-530 446 LINE",
+"-557 249 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-674 249 LINE",
-"-649 446 LINE",
-"-496 446 LINE",
-"-522 249 LINE"
+"-424 249 LINE",
+"-398 446 LINE",
+"-175 446 LINE",
+"-202 249 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-390 249 LINE",
-"-364 446 LINE",
-"-211 446 LINE",
-"-237 249 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-104 249 LINE",
-"-79 446 LINE",
-"75 446 LINE",
-"49 249 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"181 249 LINE",
-"207 446 LINE",
-"360 446 LINE",
-"334 249 LINE"
+"-69 249 LINE",
+"-43 446 LINE",
+"181 446 LINE",
+"154 249 LINE"
 );
 }
 );
@@ -74251,9 +74152,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = numbersign_numbersign_numbersign_numbersign.liga;
-lastChange = "2016-07-16 13:20:04 +0000";
+lastChange = "2016-07-17 11:23:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -74261,145 +74162,94 @@ paths = (
 {
 closed = 1;
 nodes = (
-"549 525 LINE",
-"471 525 LINE",
-"494 689 LINE",
-"416 689 LINE",
-"394 525 LINE",
-"182 525 LINE",
-"205 689 LINE",
-"127 689 LINE",
-"105 525 LINE",
-"-107 525 LINE",
-"-84 689 LINE",
-"-162 689 LINE",
-"-184 525 LINE",
-"-395 525 LINE",
-"-372 689 LINE",
-"-450 689 LINE",
-"-472 525 LINE",
-"-681 525 LINE",
-"-658 689 LINE",
-"-736 689 LINE",
-"-758 525 LINE",
-"-969 525 LINE",
-"-946 689 LINE",
-"-1024 689 LINE",
-"-1046 525 LINE",
-"-1258 525 LINE",
-"-1235 689 LINE",
-"-1313 689 LINE",
-"-1335 525 LINE",
-"-1547 525 LINE",
-"-1524 689 LINE",
-"-1602 689 LINE",
-"-1624 525 LINE",
-"-1712 525 LINE",
-"-1712 455 LINE",
-"-1633 455 LINE",
-"-1663 236 LINE",
-"-1749 236 LINE",
-"-1749 167 LINE",
-"-1672 167 LINE",
-"-1694 0 LINE",
-"-1616 0 LINE",
-"-1594 167 LINE",
-"-1383 167 LINE",
-"-1405 0 LINE",
-"-1327 0 LINE",
-"-1306 167 LINE",
-"-1094 167 LINE",
-"-1116 0 LINE",
-"-1038 0 LINE",
-"-1016 167 LINE",
-"-806 167 LINE",
-"-828 0 LINE",
-"-750 0 LINE",
-"-729 167 LINE",
-"-520 167 LINE",
-"-542 0 LINE",
-"-464 0 LINE",
-"-442 167 LINE",
-"-232 167 LINE",
-"-254 0 LINE",
-"-176 0 LINE",
+"404 525 LINE",
+"326 525 LINE",
+"349 689 LINE",
+"271 689 LINE",
+"249 525 LINE",
+"-108 525 LINE",
+"-85 689 LINE",
+"-163 689 LINE",
+"-185 525 LINE",
+"-540 525 LINE",
+"-517 689 LINE",
+"-592 689 LINE",
+"-614 525 LINE",
+"-970 525 LINE",
+"-947 689 LINE",
+"-1025 689 LINE",
+"-1047 525 LINE",
+"-1403 525 LINE",
+"-1380 689 LINE",
+"-1458 689 LINE",
+"-1480 525 LINE",
+"-1568 525 LINE",
+"-1568 455 LINE",
+"-1489 455 LINE",
+"-1519 236 LINE",
+"-1605 236 LINE",
+"-1605 167 LINE",
+"-1528 167 LINE",
+"-1550 0 LINE",
+"-1472 0 LINE",
+"-1450 167 LINE",
+"-1095 167 LINE",
+"-1117 0 LINE",
+"-1039 0 LINE",
+"-1017 167 LINE",
+"-662 167 LINE",
+"-684 0 LINE",
+"-609 0 LINE",
+"-587 167 LINE",
+"-233 167 LINE",
+"-255 0 LINE",
+"-177 0 LINE",
 "-155 167 LINE",
-"57 167 LINE",
-"35 0 LINE",
-"113 0 LINE",
-"135 167 LINE",
-"346 167 LINE",
-"324 0 LINE",
-"402 0 LINE",
-"423 167 LINE",
-"512 167 LINE",
-"512 236 LINE",
-"433 236 LINE",
-"462 455 LINE",
-"549 455 LINE"
+"201 167 LINE",
+"179 0 LINE",
+"257 0 LINE",
+"278 167 LINE",
+"367 167 LINE",
+"367 236 LINE",
+"288 236 LINE",
+"317 455 LINE",
+"404 455 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1585 236 LINE",
-"-1556 455 LINE",
-"-1344 455 LINE",
-"-1374 236 LINE"
+"-1441 236 LINE",
+"-1412 455 LINE",
+"-1056 455 LINE",
+"-1086 236 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1296 236 LINE",
-"-1267 455 LINE",
-"-1055 455 LINE",
-"-1085 236 LINE"
+"-1008 236 LINE",
+"-979 455 LINE",
+"-623 455 LINE",
+"-653 236 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1007 236 LINE",
-"-978 455 LINE",
-"-767 455 LINE",
-"-797 236 LINE"
+"-578 236 LINE",
+"-549 455 LINE",
+"-194 455 LINE",
+"-224 236 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-719 236 LINE",
-"-690 455 LINE",
-"-481 455 LINE",
-"-511 236 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-433 236 LINE",
-"-404 455 LINE",
-"-193 455 LINE",
-"-223 236 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-145 236 LINE",
-"-116 455 LINE",
-"96 455 LINE",
-"66 236 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"144 236 LINE",
-"173 455 LINE",
-"385 455 LINE",
-"355 236 LINE"
+"-146 236 LINE",
+"-117 455 LINE",
+"240 455 LINE",
+"210 236 LINE"
 );
 }
 );
@@ -74411,145 +74261,94 @@ paths = (
 {
 closed = 1;
 nodes = (
-"566 552 LINE",
-"506 552 LINE",
-"525 693 LINE",
-"393 693 LINE",
-"374 552 LINE",
-"217 552 LINE",
-"236 693 LINE",
-"103 693 LINE",
-"85 552 LINE",
-"-73 552 LINE",
-"-54 693 LINE",
-"-186 693 LINE",
-"-205 552 LINE",
-"-362 552 LINE",
-"-343 693 LINE",
-"-476 693 LINE",
-"-494 552 LINE",
-"-652 552 LINE",
-"-633 693 LINE",
-"-765 693 LINE",
-"-784 552 LINE",
-"-941 552 LINE",
-"-922 693 LINE",
-"-1055 693 LINE",
-"-1073 552 LINE",
-"-1231 552 LINE",
-"-1212 693 LINE",
-"-1344 693 LINE",
-"-1363 552 LINE",
-"-1520 552 LINE",
-"-1501 693 LINE",
-"-1634 693 LINE",
-"-1652 552 LINE",
-"-1728 552 LINE",
-"-1728 446 LINE",
-"-1666 446 LINE",
-"-1692 249 LINE",
-"-1765 249 LINE",
-"-1765 144 LINE",
-"-1706 144 LINE",
-"-1724 0 LINE",
-"-1592 0 LINE",
-"-1573 144 LINE",
-"-1416 144 LINE",
-"-1435 0 LINE",
-"-1303 0 LINE",
-"-1284 144 LINE",
-"-1127 144 LINE",
-"-1145 0 LINE",
-"-1013 0 LINE",
-"-994 144 LINE",
-"-837 144 LINE",
-"-856 0 LINE",
-"-724 0 LINE",
-"-705 144 LINE",
-"-548 144 LINE",
-"-566 0 LINE",
-"-434 0 LINE",
-"-415 144 LINE",
+"420 552 LINE",
+"353 552 LINE",
+"373 693 LINE",
+"250 693 LINE",
+"231 552 LINE",
+"-81 552 LINE",
+"-61 693 LINE",
+"-184 693 LINE",
+"-203 552 LINE",
+"-513 552 LINE",
+"-493 693 LINE",
+"-613 693 LINE",
+"-632 552 LINE",
+"-943 552 LINE",
+"-923 693 LINE",
+"-1046 693 LINE",
+"-1065 552 LINE",
+"-1376 552 LINE",
+"-1356 693 LINE",
+"-1479 693 LINE",
+"-1498 552 LINE",
+"-1583 552 LINE",
+"-1583 446 LINE",
+"-1512 446 LINE",
+"-1539 249 LINE",
+"-1620 249 LINE",
+"-1620 144 LINE",
+"-1553 144 LINE",
+"-1572 0 LINE",
+"-1449 0 LINE",
+"-1430 144 LINE",
+"-1120 144 LINE",
+"-1139 0 LINE",
+"-1016 0 LINE",
+"-997 144 LINE",
+"-687 144 LINE",
+"-706 0 LINE",
+"-586 0 LINE",
+"-567 144 LINE",
 "-258 144 LINE",
 "-277 0 LINE",
-"-145 0 LINE",
-"-126 144 LINE",
-"31 144 LINE",
-"13 0 LINE",
-"145 0 LINE",
-"164 144 LINE",
-"321 144 LINE",
-"302 0 LINE",
-"434 0 LINE",
-"453 144 LINE",
-"529 144 LINE",
-"529 249 LINE",
-"467 249 LINE",
-"492 446 LINE",
-"566 446 LINE"
+"-154 0 LINE",
+"-135 144 LINE",
+"176 144 LINE",
+"157 0 LINE",
+"280 0 LINE",
+"298 144 LINE",
+"383 144 LINE",
+"383 249 LINE",
+"313 249 LINE",
+"339 446 LINE",
+"420 446 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1560 249 LINE",
-"-1534 446 LINE",
-"-1377 446 LINE",
-"-1403 249 LINE"
+"-1416 249 LINE",
+"-1390 446 LINE",
+"-1079 446 LINE",
+"-1106 249 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1270 249 LINE",
-"-1245 446 LINE",
-"-1087 446 LINE",
-"-1113 249 LINE"
+"-983 249 LINE",
+"-957 446 LINE",
+"-646 446 LINE",
+"-673 249 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-981 249 LINE",
-"-955 446 LINE",
-"-798 446 LINE",
-"-824 249 LINE"
+"-553 249 LINE",
+"-527 446 LINE",
+"-217 446 LINE",
+"-244 249 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-691 249 LINE",
-"-666 446 LINE",
-"-508 446 LINE",
-"-534 249 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-402 249 LINE",
-"-376 446 LINE",
-"-219 446 LINE",
-"-245 249 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-112 249 LINE",
-"-87 446 LINE",
-"71 446 LINE",
-"45 249 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"177 249 LINE",
-"203 446 LINE",
-"360 446 LINE",
-"334 249 LINE"
+"-121 249 LINE",
+"-95 446 LINE",
+"217 446 LINE",
+"190 249 LINE"
 );
 }
 );
@@ -118706,5 +118505,5 @@ oV = 98;
 };
 };
 versionMajor = 1;
-versionMinor = 107;
+versionMinor = 108;
 }
