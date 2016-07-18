@@ -128,6 +128,7 @@ Other monospaced fonts with ligatures:
 - Simplified visual style on markdown headers `##` `###` `####` (#107)
 - Added `</>` (#147)
 - Provided ttf and webfonts versions (eot, woff, woff2) (#18, #24, #38, #101, #106)
+- Increased spacing in `<=` `>=` (#117)
 
 #### 1.102
 

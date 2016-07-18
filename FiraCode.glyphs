@@ -1,9 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/slash_greater.liga,
-"++\012---\012***"
-);
 classes = (
 {
 automatic = 1;
@@ -93,7 +89,7 @@ name = note;
 value = "Based on Fira Mono 3.206";
 }
 );
-date = "2016-07-17 10:55:00 +0000";
+date = "2016-07-18 08:51:12 +0000";
 designer = "Nikita Prokopov";
 designerURL = "http://tonsky.me";
 familyName = "Fira Code";
@@ -104270,9 +104266,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = equal_less.liga;
-lastChange = "2016-07-16 13:20:04 +0000";
+lastChange = "2016-07-18 07:51:28 +0000";
 layers = (
 {
 components = (
@@ -104424,9 +104420,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = greater_equal.liga;
-lastChange = "2016-07-16 13:20:04 +0000";
+lastChange = "2016-07-18 08:42:43 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104434,29 +104430,29 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-258 28 LINE",
-"291 272 LINE",
-"259 342 LINE",
-"-290 101 LINE"
+"-258 48 LINE",
+"291 292 LINE",
+"259 362 LINE",
+"-290 121 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-238 -137 LINE",
-"311 107 LINE",
-"279 177 LINE",
-"-270 -64 LINE"
+"-238 -187 LINE",
+"311 57 LINE",
+"279 127 LINE",
+"-270 -114 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"259 286 LINE",
-"291 272 LINE",
-"291 356 LINE",
-"-258 600 LINE",
-"-290 527 LINE"
+"259 306 LINE",
+"291 292 LINE",
+"291 376 LINE",
+"-258 620 LINE",
+"-290 547 LINE"
 );
 }
 );
@@ -104468,29 +104464,29 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-251 11 LINE",
-"303 257 LINE",
-"251 370 LINE",
-"-302 127 LINE"
+"-251 31 LINE",
+"303 277 LINE",
+"251 390 LINE",
+"-302 147 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-218 -180 LINE",
-"336 66 LINE",
-"284 179 LINE",
-"-269 -64 LINE"
+"-218 -230 LINE",
+"336 17 LINE",
+"284 130 LINE",
+"-269 -114 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"251 258 LINE",
-"303 257 LINE",
-"303 371 LINE",
-"-251 617 LINE",
-"-302 501 LINE"
+"251 278 LINE",
+"303 277 LINE",
+"303 391 LINE",
+"-251 637 LINE",
+"-302 521 LINE"
 );
 }
 );
@@ -107045,6 +107041,80 @@ transform = "{1, 0, 0, 1, -100, 0}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+glyphname = greater_equal.ss01;
+lastChange = "2016-07-18 08:44:24 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-258 28 LINE",
+"291 272 LINE",
+"259 342 LINE",
+"-290 101 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"259 286 LINE",
+"291 272 LINE",
+"291 356 LINE",
+"-258 600 LINE",
+"-290 527 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-277 -39 LINE",
+"-277 -118 LINE",
+"291 -118 LINE",
+"291 -39 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-251 11 LINE",
+"303 257 LINE",
+"251 370 LINE",
+"-302 127 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"251 258 LINE",
+"303 257 LINE",
+"303 371 LINE",
+"-251 617 LINE",
+"-302 501 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-293 -45 LINE",
+"-293 -166 LINE",
+"303 -166 LINE",
+"303 -45 LINE"
+);
+}
+);
 width = 600;
 }
 );
@@ -118561,5 +118631,5 @@ oV = 98;
 };
 };
 versionMajor = 1;
-versionMinor = 109;
+versionMinor = 110;
 }
