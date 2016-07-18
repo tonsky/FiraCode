@@ -8,7 +8,7 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-#### Download [Fira Code v1.102](https://github.com/tonsky/FiraCode/releases/download/1.102/FiraCode_1.102.zip) | Read [how to install](https://github.com/tonsky/FiraCode/wiki) | Follow updates 📢 [@FiraCode](https://twitter.com/FiraCode)
+#### Download [Fira Code v1.200](https://github.com/tonsky/FiraCode/releases/download/1.200/FiraCode_1.200.zip) | Read [how to install](https://github.com/tonsky/FiraCode/wiki) | Follow updates 📢 [@FiraCode](https://twitter.com/FiraCode)
 
 
 Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
@@ -98,6 +98,11 @@ LiveScript:
 
 <img src="./showcases/livescript.png" />
 
+Clojure:
+
+<img src="./showcases/clojure.png" />
+
+
 ### Alternatives
 
 Other monospaced fonts with ligatures:
@@ -117,7 +122,7 @@ Other monospaced fonts with ligatures:
 
 ### Changelog
 
-#### Work in progress
+#### 1.200 (July 18, 2016)
 
 - Removed `!!!` `???` `;;;` `&&&` `|||` `=~` (#167) `~~~` `%%%`
 - New safer `calt` code that doesn’t  apply ligatures to long sequences of chars, e.g. `!!!!`, `>>>>`, etc (#49, #110, #176)

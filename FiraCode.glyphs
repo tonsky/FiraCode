@@ -75533,10 +75533,9 @@ width = 600;
 );
 },
 {
-color = 6;
 export = 0;
 glyphname = asterisk_large.rem;
-lastChange = "2016-07-18 13:26:41 +0000";
+lastChange = "2016-07-18 15:00:26 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -118759,5 +118758,5 @@ oV = 98;
 };
 };
 versionMajor = 1;
-versionMinor = 111;
+versionMinor = 200;
 }
