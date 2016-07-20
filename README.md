@@ -23,7 +23,7 @@ Works            | Doesn’t work
 **Butterfly**    | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
 **HyperTerm**    | **rxvt**
 **Konsole**      | **xfce4-terminal**
-**QTerminal**    |
+**QTerminal**    | **Terminator** ([bug report](https://bugs.launchpad.net/terminator/+bug/1604861))
 **Terminal.app** (OS X default terminal) |
 **Termux** (Android terminal emulator) |
 
