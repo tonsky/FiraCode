@@ -78,29 +78,33 @@ Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
 
 ### Code examples
 
-Ruby:
+##### Ruby:
 
 <img src="./showcases/ruby.png" />
 
-JavaScript:
+##### JavaScript:
 
 <img src="./showcases/javascript.png" />
 
-Erlang:
+##### Erlang:
 
 <img src="./showcases/erlang.png" />
 
-Go:
+##### Go:
 
 <img src="./showcases/go.png" />
 
-LiveScript:
+##### LiveScript:
 
 <img src="./showcases/livescript.png" />
 
-Clojure:
+##### Clojure:
 
 <img src="./showcases/clojure.png" />
+
+##### Javascript: Minified, Colorized:
+
+<img src="./showcases/javascript_minimized_colorized.png" />
 
 
 ### Alternatives
