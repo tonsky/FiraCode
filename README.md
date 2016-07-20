@@ -103,6 +103,11 @@ Clojure:
 <img src="./showcases/clojure.png" />
 
 
+Javascript: Minified, Colorized:
+
+<img src="./showcases/javascript_minimized_colorized.png" />
+
+
 ### Alternatives
 
 Other monospaced fonts with ligatures:
