@@ -21,11 +21,11 @@ Works            | Doesn’t work
 ---------------- | ---------------
 **Black Screen** | **GNOME Terminal**
 **Butterfly**    | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
-**HyperTerm**    | **rxvt**
-**Konsole**      | **xfce4-terminal**
-**QTerminal**    | **Terminator** ([bug report](https://bugs.launchpad.net/terminator/+bug/1604861))
-**Terminal.app** (OS X default terminal) |
-**Termux** (Android terminal emulator) |
+**HyperTerm**    | **LXTerminal**
+**Konsole**      | **mate-terminal**
+**QTerminal**    |  **rxvt**
+**Terminal.app** (OS X default terminal) | **Terminator** ([bug report](https://bugs.launchpad.net/terminator/+bug/1604861))
+**Termux** (Android terminal emulator) |**xfce4-terminal**
 
 
 ### Editor support
