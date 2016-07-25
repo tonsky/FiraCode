@@ -33,17 +33,19 @@ Works            | Doesn’t work
 Works | Doesn’t work
 --------|----------------
 **Anjuta** (unless at the EOF) | **Arduino IDE**
-**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Adobe Dreamweaver**
-**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**Chocolat** | **gVim**
-**Coda 2** | **IDLE**
-**CodeLite** | **KDevelop 4**
-**Eclipse** (Linux) | **Monkey Studio IDE**
-**Geany** | **NetBeans**
-**gEdit / Pluma** | **Notepad++**
-**GNOME Builder** | **Spyder IDE**
-**IntelliJ products** (IDEA etc, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
+**AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver**
+**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
+**BBEdit** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
+**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
+**Chocolat** | **IDLE**
+**CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4**
+**Coda 2** | **Monkey Studio IDE**
+**CodeLite** | **NetBeans**
+**Eclipse** (Linux) | **Notepad++**
+**Geany** | **Spyder IDE**
+**gEdit / Pluma** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
+**GNOME Builder** | 
+**IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | 
 **Kate, KWrite** |
 **Komodo** |
 **Leafpad** |
@@ -54,14 +56,18 @@ Works | Doesn’t work
 **Meld** |
 **Mousepad** |
 **Notepad** (Win) |
+**PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+**PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **QtCreator** | 
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
+**RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Scratch** |
 **TextAdept** (Linux, Mac) |
 **TextEdit** |
 **TextMate 2** |
 **Visual Studio 2015** |
 **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
+**WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Xamarin Studio/Monodevelop** |
 **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
