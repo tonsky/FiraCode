@@ -20,7 +20,7 @@ Fira Code is an extension of the Fira Mono font containing a set of ligatures fo
 Works            | Doesn’t work
 ---------------- | ---------------
 **Black Screen** | **GNOME Terminal**
-**Butterfly**    | **iTerm 2** ([feature request](https://gitlab.com/gnachman/iterm2/issues/3568))
+**Butterfly**    | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))
 **HyperTerm**    | **LXTerminal**
 **Konsole**      | **mate-terminal**
 **QTerminal**    |  **rxvt**
