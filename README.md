@@ -40,10 +40,10 @@ Works | Doesn’t work
 **Chocolat** | **IDLE**
 **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4**
 **Coda 2** | **Monkey Studio IDE**
-**CodeLite** | **NetBeans**
-**Eclipse** (Linux) | **Notepad++**
-**Geany** | **Spyder IDE**
-**gEdit / Pluma** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
+**CodeLite** | **Notepad++**
+**Eclipse** (Linux) | **Spyder IDE**
+**Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
+**gEdit / Pluma** | 
 **GNOME Builder** | 
 **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | 
 **Kate, KWrite** |
@@ -55,6 +55,7 @@ Works | Doesn’t work
 **Mancy** |
 **Meld** |
 **Mousepad** |
+**NetBeans** | 
 **Notepad** (Win) |
 **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
