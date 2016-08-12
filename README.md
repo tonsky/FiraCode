@@ -119,6 +119,7 @@ Other monospaced fonts with ligatures:
 - [Monoid](http://larsenwork.com/monoid/) (free)
 - [Fixedsys Excelsior](https://github.com/kika/fixedsys) (free)
 - [Iosevka](https://be5invis.github.io/Iosevka/) (free)
+- [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode) (free)
 
 ### Credits
 
