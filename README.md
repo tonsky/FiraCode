@@ -19,14 +19,16 @@ Fira Code is an extension of the Fira Mono font containing a set of ligatures fo
 
 Works            | Doesn’t work
 ---------------- | ---------------
-**Black Screen** | **GNOME Terminal**
-**Butterfly**    | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))
-**HyperTerm**    | **LXTerminal**
-**Konsole**      | **mate-terminal**
-**QTerminal**    |  **rxvt**
-**Terminal.app** (OS X default terminal) | **Terminator** ([bug report](https://bugs.launchpad.net/terminator/+bug/1604861))
-**Termux** (Android terminal emulator) |**xfce4-terminal**
-
+**Black Screen** | **Cmder**
+**Butterfly**    | **ConEmu**
+**HyperTerm**    | **GNOME Terminal**
+**Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))
+**QTerminal**    | **LXTerminal**
+**Terminal.app** (OS X default terminal) | **mate-terminal** 
+**Termux** (Android terminal emulator) | **PuTTY**
+                 | **rxvt**
+                 | **Terminator** ([bug report](https://bugs.launchpad.net/terminator/+bug/1604861))
+                 | **xfce4-terminal**
 
 ### Editor support
 
