@@ -136,6 +136,7 @@ Other monospaced fonts with ligatures:
 
 - Removed `[]` (#92) `{-` `-}` (#248)
 - Removed `/**` `**/` and disabled ligatures for `/*/` `*/*` sequences (#219 #238)
+- Added `]#` `{.` `.}` `[.` `.]` `(.` `.)` (#214)
 
 #### 1.200 (July 18, 2016)
 
