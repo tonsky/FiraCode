@@ -30,6 +30,27 @@
 ;     ["asterisk" "asterisk"]
 ;     ["asterisk" "asterisk" "asterisk"]])
 
+(def ignores
+  { ["slash" "asterisk"]
+    (str
+      "    ignore sub slash' asterisk slash;\n"
+      "    ignore sub asterisk slash' asterisk;\n")
+
+    ["asterisk" "slash"]
+    (str
+      "    ignore sub slash asterisk' slash;\n"
+      "    ignore sub asterisk' slash asterisk;\n")
+
+    ["asterisk" "asterisk"]
+    (str
+      "    ignore sub slash asterisk' asterisk;\n"
+      "    ignore sub asterisk' asterisk slash;\n")
+
+    ["asterisk" "asterisk" "asterisk"]
+    (str
+      "    ignore sub slash asterisk' asterisk asterisk;\n"
+      "    ignore sub asterisk' asterisk asterisk slash;\n")
+    })
 
 (defn liga->rule
   "[f f i] => { [CR CR i] f_f_i.liga
@@ -42,6 +63,7 @@
           (str "  lookup 1_2 {\n"
                "    ignore sub 1 1' 2;\n"
                "    ignore sub 1' 2 2;\n"
+               (get ignores liga)
                "    sub CR 2' by 1_2.liga;\n"
                "    sub 1' 2  by CR;\n"
                "  } 1_2;")
@@ -51,6 +73,7 @@
           (str "  lookup 1_2_3 {\n"
                "    ignore sub 1 1' 2 3;\n"
                "    ignore sub 1' 2 3 3;\n"
+               (get ignores liga)
                "    sub CR CR 3' by 1_2_3.liga;\n"
                "    sub CR 2' 3  by CR;\n"
                "    sub 1' 2  3  by CR;\n"
@@ -61,6 +84,7 @@
           (str "  lookup 1_2_3_4 {\n"
                "    ignore sub 1 1' 2 3 4;\n"
                "    ignore sub 1' 2 3 4 4;\n"
+               (get ignores liga)
                "    sub CR CR CR 4' by 1_2_3_4.liga;\n"
                "    sub CR CR 3' 4  by CR;\n"
                "    sub CR 2' 3  4  by CR;\n"
