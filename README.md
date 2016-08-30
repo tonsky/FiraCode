@@ -132,6 +132,10 @@ Other monospaced fonts with ligatures:
 
 ### Changelog
 
+#### 1.201 (August 30, 2016)
+
+- Removed `[]` (#92) `{-` `-}` (#248)
+
 #### 1.200 (July 18, 2016)
 
 - Removed `!!!` `???` `;;;` `&&&` `|||` `=~` (#167) `~~~` `%%%`

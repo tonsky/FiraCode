@@ -1,5 +1,5 @@
 #^:shebang '[
-              exec java -cp "$HOME/.m2/repository/org/clojure/clojure/1.7.0/clojure-1.7.0.jar" clojure.main "$0" "$@"]
+              exec java -cp "$HOME/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar" clojure.main "$0" "$@"]
              
 
 (require '[clojure.string :as str])
@@ -69,9 +69,9 @@
           #"\d" {"1" a "2" b "3" c "4" d}))))
             
 
-(println "feature calt {")
+(println "### start of generated calt\n")
 (println (->> ligas (sort-by count) (reverse) (map liga->rule) (str/join "\n\n")))
-(println "}\n")
+(println "\n### end of generated calt\n")
 
 (println "Total ligatures count:" (count ligas))
 (println " " (->> ligas
