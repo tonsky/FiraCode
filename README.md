@@ -8,12 +8,39 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-#### Download [Fira Code v1.200](https://github.com/tonsky/FiraCode/releases/download/1.200/FiraCode_1.200.zip) | Read [how to install](https://github.com/tonsky/FiraCode/wiki) | Follow updates [@FiraCode](https://twitter.com/FiraCode)
-
+#### [Download v1.201](https://github.com/tonsky/FiraCode/releases/download/1.201/FiraCode_1.201.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [News & updates](https://twitter.com/FiraCode)
 
 Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
 <img src="./showcases/all_ligatures.png" />
+
+
+### Code examples
+
+Ruby:
+
+<img src="./showcases/ruby.png" />
+
+JavaScript:
+
+<img src="./showcases/javascript.png" />
+
+Erlang:
+
+<img src="./showcases/erlang.png" />
+
+Go:
+
+<img src="./showcases/go.png" />
+
+LiveScript:
+
+<img src="./showcases/livescript.png" />
+
+Clojure:
+
+<img src="./showcases/clojure.png" />
+
 
 ### Terminal support
 
@@ -85,31 +112,6 @@ Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
 - ACE
 - CodeMirror
 
-### Code examples
-
-Ruby:
-
-<img src="./showcases/ruby.png" />
-
-JavaScript:
-
-<img src="./showcases/javascript.png" />
-
-Erlang:
-
-<img src="./showcases/erlang.png" />
-
-Go:
-
-<img src="./showcases/go.png" />
-
-LiveScript:
-
-<img src="./showcases/livescript.png" />
-
-Clojure:
-
-<img src="./showcases/clojure.png" />
 
 
 ### Alternatives
