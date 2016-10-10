@@ -52,7 +52,8 @@ Works            | Doesn’t work
 **Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))
 **QTerminal**    | **LXTerminal**
 **Terminal.app** (OS X default terminal) | **mate-terminal** 
-**Termux** (Android terminal emulator) | **PuTTY**
+**Termux** (Android terminal emulator) | **mintty**
+                 | **PuTTY**
                  | **rxvt**
                  | **Terminator, xfce4-terminal, lxterminal, gtkterm, xfce4-terminal** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160))
                  | **sakura**
