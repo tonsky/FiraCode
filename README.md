@@ -135,6 +135,10 @@ Other monospaced fonts with ligatures:
 
 ### Changelog
 
+#### WIP
+
+- Added `U+25B6` (black right-pointing triangle) and `U+25C0` (black left-pointing triangle) (#289)
+
 #### 1.203 (September 17, 2016)
 
 - Added `__` (#120, #269)

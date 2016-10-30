@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-""
-);
 classes = (
 {
 automatic = 1;
@@ -100,7 +97,7 @@ name = note;
 value = "Based on Fira Mono 3.206";
 }
 );
-date = "2016-09-17 12:32:47 +0000";
+date = "2016-10-30 20:23:28 +0000";
 designer = "Nikita Prokopov";
 designerURL = "http://tonsky.me";
 familyName = "Fira Code";
@@ -72660,9 +72657,9 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 glyphname = bracketright_numbersign.liga;
-lastChange = "2016-08-30 09:38:00 +0000";
+lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
 {
 components = (
@@ -75400,9 +75397,9 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 glyphname = underscore_underscore.liga;
-lastChange = "2016-09-17 12:30:39 +0000";
+lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -75437,10 +75434,10 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 export = 0;
 glyphname = asterisk_asterisk_slash.rem;
-lastChange = "2016-08-30 09:38:14 +0000";
+lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
 {
 components = (
@@ -75588,10 +75585,10 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 export = 0;
 glyphname = braceleft_hyphen.rem;
-lastChange = "2016-08-30 09:38:20 +0000";
+lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -75698,10 +75695,10 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 export = 0;
 glyphname = bracketleft_bracketright.rem;
-lastChange = "2016-08-30 09:38:20 +0000";
+lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -75798,10 +75795,10 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 export = 0;
 glyphname = hyphen_braceright.rem;
-lastChange = "2016-08-30 09:38:20 +0000";
+lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
 {
 components = (
@@ -75914,10 +75911,10 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 export = 0;
 glyphname = slash_asterisk_asterisk.rem;
-lastChange = "2016-08-30 09:38:11 +0000";
+lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
 {
 components = (
@@ -94333,6 +94330,32 @@ width = 600;
 unicode = 25B2;
 },
 {
+color = 6;
+glyphname = rightBlackTriangle;
+lastChange = "2016-10-30 20:24:11 +0000";
+layers = (
+{
+components = (
+{
+name = triangleright;
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = triangleright;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+unicode = 25B6;
+},
+{
 color = 4;
 glyphname = triangledown;
 lastChange = "2015-03-19 16:57:06 +0000";
@@ -94367,6 +94390,32 @@ width = 600;
 }
 );
 unicode = 25BC;
+},
+{
+color = 6;
+glyphname = leftBlackTriangle;
+lastChange = "2016-10-30 20:24:11 +0000";
+layers = (
+{
+components = (
+{
+name = triaglf;
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = triaglf;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+unicode = 25C0;
 },
 {
 color = 4;
@@ -118928,5 +118977,5 @@ oV = 98;
 };
 };
 versionMajor = 1;
-versionMinor = 203;
+versionMinor = 204;
 }
