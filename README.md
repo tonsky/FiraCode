@@ -138,6 +138,7 @@ Other monospaced fonts with ligatures:
 #### WIP
 
 - Added `U+25B6` (black right-pointing triangle) and `U+25C0` (black left-pointing triangle) (#289)
+- Changed look of `##` `###` `####` to make them easier to tell apart (#287)
 
 #### 1.203 (September 17, 2016)
 
