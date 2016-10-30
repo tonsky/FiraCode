@@ -139,6 +139,7 @@ Other monospaced fonts with ligatures:
 
 - Added `U+25B6` (black right-pointing triangle) and `U+25C0` (black left-pointing triangle) (#289)
 - Changed look of `##` `###` `####` to make them easier to tell apart (#287)
+- Fixed BBEdit incorrectly applying ligatures after tab (#274)
 
 #### 1.203 (September 17, 2016)
 

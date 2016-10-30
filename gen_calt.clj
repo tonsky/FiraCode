@@ -53,9 +53,9 @@
     })
 
 (defn liga->rule
-  "[f f i] => { [CR CR i] f_f_i.liga
-                [CR  f i] CR
-                [ f  f i] CR }"
+  "[f f i] => { [LIG LIG i] f_f_i.liga
+                [LIG   f i] LIG
+                [ f    f i] LIG }"
   [liga]
   (case (count liga)
     2 (let [[a b] liga]
@@ -64,8 +64,8 @@
                "    ignore sub 1 1' 2;\n"
                "    ignore sub 1' 2 2;\n"
                (get ignores liga)
-               "    sub CR 2' by 1_2.liga;\n"
-               "    sub 1' 2  by CR;\n"
+               "    sub LIG 2' by 1_2.liga;\n"
+               "    sub 1'  2  by LIG;\n"
                "  } 1_2;")
           #"\d" {"1" a "2" b}))
     3 (let [[a b c] liga]
@@ -74,9 +74,9 @@
                "    ignore sub 1 1' 2 3;\n"
                "    ignore sub 1' 2 3 3;\n"
                (get ignores liga)
-               "    sub CR CR 3' by 1_2_3.liga;\n"
-               "    sub CR 2' 3  by CR;\n"
-               "    sub 1' 2  3  by CR;\n"
+               "    sub LIG LIG 3' by 1_2_3.liga;\n"
+               "    sub LIG  2' 3  by LIG;\n"
+               "    sub 1'   2  3  by LIG;\n"
                "  } 1_2_3;")
           #"\d" {"1" a "2" b "3" c}))
     4 (let [[a b c d] liga]
@@ -85,10 +85,10 @@
                "    ignore sub 1 1' 2 3 4;\n"
                "    ignore sub 1' 2 3 4 4;\n"
                (get ignores liga)
-               "    sub CR CR CR 4' by 1_2_3_4.liga;\n"
-               "    sub CR CR 3' 4  by CR;\n"
-               "    sub CR 2' 3  4  by CR;\n"
-               "    sub 1' 2  3  4  by CR;\n"
+               "    sub LIG LIG LIG 4' by 1_2_3_4.liga;\n"
+               "    sub LIG LIG  3' 4  by LIG;\n"
+               "    sub LIG  2'  3  4  by LIG;\n"
+               "    sub 1'   2   3  4  by LIG;\n"
                "  } 1_2_3_4;")
           #"\d" {"1" a "2" b "3" c "4" d}))))
             
