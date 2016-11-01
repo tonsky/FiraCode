@@ -55,7 +55,7 @@ Works            | Doesn’t work
 **Termux** (Android terminal emulator) | **mintty**
                  | **PuTTY**
                  | **rxvt**
-                 | **Terminator, xfce4-terminal, lxterminal, gtkterm, xfce4-terminal** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160))
+                 | **Terminator, xfce4-terminal, lxterminal, gtkterm, xfce4-terminal, guake** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160))
                  | **sakura**
 
 ### Editor support
