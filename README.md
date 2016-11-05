@@ -142,6 +142,7 @@ Other monospaced fonts with ligatures:
 - Fixed BBEdit incorrectly applying ligatures after tab (#274)
 - Returned `{.` `.}` (#279)
 - Added `U+2206` (increment) (#174, #298)
+- Added `>->` `<-<` (#297)
 
 #### 1.203 (September 17, 2016)
 
