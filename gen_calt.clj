@@ -51,11 +51,6 @@
       "    ignore sub slash asterisk' asterisk asterisk;\n"
       "    ignore sub asterisk' asterisk asterisk slash;\n")
 
-    ["less" "asciitilde"]
-    "    ignore sub less asciitilde' greater;\n"
-
-    ["asciitilde" "greater"]
-    "    ignore sub less asciitilde' greater;\n"
     })
 
 (defn liga->rule
