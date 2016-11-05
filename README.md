@@ -138,13 +138,14 @@ Other monospaced fonts with ligatures:
 #### WIP
 
 - Added `U+25B6` (black right-pointing triangle) and `U+25C0` (black left-pointing triangle) (#289)
-- Changed look of `##` `###` `####` to make them easier to tell apart (#287)
+- Changed look of Markdown headers `##` `###` `####` to make them easier to tell apart (#287)
 - Fixed BBEdit incorrectly applying ligatures after tab (#274)
-- Returned `{.` `.}` (#279)
-- Added `U+2206` (increment) (#174, #298)
-- Added `>->` `<-<` (#297)
-- Added `?.` `.?` `?:` (#215)
-- Added `<~>` (#179)
+- Returned Nim pragmas `{.` `.}` (#279)
+- Added Unicode increment `U+2206` (#174, #298)
+- Added fish operators `>->` `<-<` (#297)
+- Added safe navigation operators `?.` `.?` `?:` (#215)
+- Added `<~>` (#179, used in IntelliJ for collapsed methods)
+- Added F# piping operators `||>` `|||>` `<||` `<|||` (#184)
 
 #### 1.203 (September 17, 2016)
 
