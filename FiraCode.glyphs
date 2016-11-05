@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+/numbersign_exclam.liga
+);
 classes = (
 {
 automatic = 1;
@@ -73744,7 +73747,7 @@ width = 600;
 {
 color = 6;
 glyphname = numbersign_exclam.liga;
-lastChange = "2016-11-05 13:17:56 +0000";
+lastChange = "2016-11-05 19:37:35 +0000";
 layers = (
 {
 components = (
@@ -73758,19 +73761,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"346 689 LINE",
+"366 689 LINE",
 "268 689 LINE",
 "208 237 LINE",
-"286 237 LINE"
+"306 237 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"271 112 LINE",
-"193 112 LINE",
-"176 0 LINE",
-"254 0 LINE"
+"303 130 LINE",
+"185 130 LINE",
+"166 0 LINE",
+"284 0 LINE"
 );
 }
 );
@@ -73788,19 +73791,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"379 693 LINE",
+"399 693 LINE",
 "247 693 LINE",
 "188 249 LINE",
-"321 249 LINE"
+"341 249 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"307 144 LINE",
-"175 144 LINE",
-"156 0 LINE",
-"288 0 LINE"
+"337 144 LINE",
+"165 144 LINE",
+"146 0 LINE",
+"318 0 LINE"
 );
 }
 );
@@ -104649,7 +104652,7 @@ width = 600;
 {
 color = 6;
 glyphname = bar_bar_bar_greater.liga;
-lastChange = "2016-11-05 12:56:57 +0000";
+lastChange = "2016-11-05 19:12:57 +0000";
 layers = (
 {
 components = (
@@ -104672,10 +104675,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"-860 712 LINE",
-"-860 -89 LINE",
-"-779 -89 LINE",
-"-779 712 LINE"
+"-850 712 LINE",
+"-850 -89 LINE",
+"-769 -89 LINE",
+"-769 712 LINE"
 );
 }
 );
@@ -104693,19 +104696,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-883 711 LINE",
-"-883 -86 LINE",
-"-759 -86 LINE",
-"-759 711 LINE"
+"-1333 711 LINE",
+"-1333 -86 LINE",
+"-1209 -86 LINE",
+"-1209 711 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1333 711 LINE",
-"-1333 -86 LINE",
-"-1209 -86 LINE",
-"-1209 711 LINE"
+"-873 711 LINE",
+"-873 -86 LINE",
+"-749 -86 LINE",
+"-749 711 LINE"
 );
 }
 );
@@ -104791,7 +104794,7 @@ width = 600;
 {
 color = 6;
 glyphname = bar_bar_greater.liga;
-lastChange = "2016-11-05 12:51:19 +0000";
+lastChange = "2016-11-05 19:10:21 +0000";
 layers = (
 {
 components = (
@@ -106467,7 +106470,7 @@ width = 600;
 {
 color = 6;
 glyphname = less_bar_bar.liga;
-lastChange = "2016-11-05 12:56:23 +0000";
+lastChange = "2016-11-05 19:10:21 +0000";
 layers = (
 {
 components = (
