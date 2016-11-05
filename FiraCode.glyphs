@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/numbersign_exclam.liga
-);
 classes = (
 {
 automatic = 1;

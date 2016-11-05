@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 # Remove Retina from webfonts
 rm distr/FiraCode-Retina.eot   2> /dev/null
