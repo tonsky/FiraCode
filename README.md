@@ -146,6 +146,7 @@ Other monospaced fonts with ligatures:
 - Added safe navigation operators `?.` `.?` `?:` (#215)
 - Added `<~>` (#179, used in IntelliJ for collapsed methods)
 - Added F# piping operators `||>` `|||>` `<||` `<|||` (#184)
+- Added shebang `#!` (#169, #193)
 
 #### 1.203 (September 17, 2016)
 
