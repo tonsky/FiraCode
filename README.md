@@ -141,6 +141,7 @@ Other monospaced fonts with ligatures:
 - Changed look of `##` `###` `####` to make them easier to tell apart (#287)
 - Fixed BBEdit incorrectly applying ligatures after tab (#274)
 - Returned `{.` `.}` (#279)
+- Added `U+2206` (increment) (#174, #298)
 
 #### 1.203 (September 17, 2016)
 

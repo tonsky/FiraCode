@@ -81063,6 +81063,32 @@ width = 600;
 unicode = 222B;
 },
 {
+color = 6;
+glyphname = increment;
+lastChange = "2016-11-05 11:32:46 +0000";
+layers = (
+{
+components = (
+{
+name = Delta;
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = Delta;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+unicode = 2206;
+},
+{
 color = 4;
 glyphname = product;
 lastChange = "2015-03-19 16:57:05 +0000";
