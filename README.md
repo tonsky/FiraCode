@@ -144,6 +144,7 @@ Other monospaced fonts with ligatures:
 - Added `U+2206` (increment) (#174, #298)
 - Added `>->` `<-<` (#297)
 - Added `?.` `.?` `?:` (#215)
+- Added `<~>` (#179)
 
 #### 1.203 (September 17, 2016)
 
