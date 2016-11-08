@@ -48,7 +48,7 @@ Works            | Doesn’t work
 ---------------- | ---------------
 **Black Screen** | **Cmder**
 **Butterfly**    | **ConEmu**
-**HyperTerm**    | **GNOME Terminal**
+**Hyper.app**    | **GNOME Terminal**
 **Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))
 **QTerminal**    | **mate-terminal** 
 **Terminal.app** (OS X default terminal) | **mintty**
