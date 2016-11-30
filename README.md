@@ -109,8 +109,7 @@ Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
 - Safari
 - Chromium-based browsers (Chrome, Opera)
 - ACE
-- CodeMirror
-
+- CodeMirror (enable with `font-variant-ligatures: contextual;`)
 
 
 ### Alternatives
