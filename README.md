@@ -29,6 +29,10 @@ Erlang:
 
 <img src="./showcases/erlang.png" />
 
+Elixir:
+
+<img src="/showcases/elixir.png" />
+
 Go:
 
 <img src="./showcases/go.png" />
@@ -50,7 +54,7 @@ Works            | Doesn’t work
 **Butterfly**    | **ConEmu**
 **Hyper.app**    | **GNOME Terminal**
 **Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))
-**QTerminal**    | **mate-terminal** 
+**QTerminal**    | **mate-terminal**
 **Terminal.app** (OS X default terminal) | **mintty**
 **Termux** (Android terminal emulator) | **PuTTY**
                  | **rxvt**
@@ -71,23 +75,23 @@ Works | Doesn’t work
 **CodeLite** | **Notepad++**
 **Eclipse** (Linux) | **Spyder IDE**
 **Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**gEdit / Pluma** | 
-**GNOME Builder** | 
-**IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | 
+**gEdit / Pluma** |
+**GNOME Builder** |
+**IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Kate, KWrite** |
 **Komodo** |
 **Leafpad** |
 **LibreOffice** |
-**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) | 
+**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) |
 **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
 **Mancy** |
 **Meld** |
 **Mousepad** |
-**NetBeans** | 
+**NetBeans** |
 **Notepad** (Win) |
 **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
-**QtCreator** | 
+**QtCreator** |
 **Rider** |
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 **RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
@@ -207,7 +211,7 @@ Added:
 `<->` `<~~` `<~` `~~~` `~>` `~~>`  
 `<$` `<+` `<*` `*>` `+>` `$>`  
 `;;;` `:::` `!!!` `???` `%%` `%%%` `##` `###` `####`  
-`.-` `#_(` `=<`  `**/` `0x` `www` `[]` 
+`.-` `#_(` `=<`  `**/` `0x` `www` `[]`
 
 Redrawn:
 
@@ -230,7 +234,7 @@ Added:
 `<*>` `<|>` `<$>` `<+>`  
 `<!--` `{-` `-}` `/**`  `\\` `\\\`
 `..<` `??` `|||` `&&&` `<|` `|>`  
-  
+
 Added support for Powerline
 
 
