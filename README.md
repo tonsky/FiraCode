@@ -80,6 +80,7 @@ Works | Doesn’t work
 **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Kate, KWrite** |
 **Komodo** |
+**[KLIPSE - A clojure[script] web repl] (http://app.klipse.tech/)** |
 **Leafpad** |
 **LibreOffice** |
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) |
