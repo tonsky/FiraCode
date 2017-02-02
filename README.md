@@ -83,6 +83,7 @@ Works | Doesn’t work
 **Leafpad** |
 **LibreOffice** |
 **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) |
+**LINQPad** |
 **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
 **Mancy** |
 **Meld** |
