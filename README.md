@@ -96,6 +96,7 @@ Works | Doesn’t work
 **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 **RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Scratch** |
+**Scribus** | [Using Complex Text Layout enabled 2017 version of Scribus DTP app](https://www.scribus.net/new-text-layout-engine-with-full-opentype-support) |
 **TextAdept** (Linux, Mac) |
 **TextEdit** |
 **TextMate 2** |
