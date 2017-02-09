@@ -122,6 +122,7 @@ Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
 Other monospaced fonts with ligatures:
 
 - [Hasklig](https://github.com/i-tu/Hasklig) (free)
+- [Hack](http://sourcefoundry.org/hack/) (free)
 - [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm) (€59)
 - [Monoid](http://larsenwork.com/monoid/) (free)
 - [Fixedsys Excelsior](https://github.com/kika/fixedsys) (free)
