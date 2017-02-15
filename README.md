@@ -116,6 +116,13 @@ Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
 - ACE
 - CodeMirror (enable with `font-variant-ligatures: contextual;`)
 
+### Projects using Fira Code
+
+- All [JetBrains products](https://www.jetbrains.com/)
+- [Blink Shell](http://www.blink.sh/)
+- [Klipse](http://app.klipse.tech/)
+- [IlyaBirman.net](http://ilyabirman.net/)
+- [EvilMartians.com](https://evilmartians.com/)
 
 ### Alternatives
 
