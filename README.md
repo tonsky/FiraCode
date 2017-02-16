@@ -100,6 +100,7 @@ Works | Doesn’t work
 **TextAdept** (Linux, Mac) |
 **TextEdit** |
 **TextMate 2** |
+**VimR** ([instructions](https://github.com/qvacua/vimr/wiki#ligatures)) |
 **Visual Studio 2015** |
 **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
 **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
