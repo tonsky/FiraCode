@@ -10,16 +10,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tonsky/FiraCode.git"
+    "url": "https://github.com/tonsky/FiraCode.git"
   },
-  "author": {
-    "name": "Nikita Prokopov",
-    "email": "prokopov@gmail.com"
-  },
-  "license": "SIL OPEN FONT LICENSE Version 1.1",
+  "author": "Nikita Prokopov <prokopov@gmail.com>",
+  "license": "OFL-1.1",
   "bugs": {
     "url": "https://github.com/tonsky/FiraCode/issues"
   },
-  "homepage": "https://github.com/tonsky/FiraCode#readme"
+  "homepage": "https://github.com/tonsky/FiraCode#readme",
+  "files": [
+    "distr"
+  ]
 }
 
