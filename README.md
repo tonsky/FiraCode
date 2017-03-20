@@ -1,6 +1,6 @@
 ## Fira Code: monospaced font with programming ligatures
 
-<img src="https://dl.dropboxusercontent.com/u/561580/imgs/fira_code_logo.svg">
+<img src="http://s.tonsky.me/imgs/fira_code_logo.svg">
 
 ### Problem
 
