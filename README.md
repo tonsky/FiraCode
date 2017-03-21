@@ -101,7 +101,8 @@ Works | Doesn’t work
 **TextEdit** |
 **TextMate 2** |
 **VimR** ([instructions](https://github.com/qvacua/vimr/wiki#ligatures)) |
-**Visual Studio 2015** |
+**Visual Studio 2015** | 
+**Visual Studio 2017** |
 **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
 **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 **Xamarin Studio/Monodevelop** |
