@@ -127,6 +127,12 @@ Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
 - [IlyaBirman.net](http://ilyabirman.net/)
 - [EvilMartians.com](https://evilmartians.com/)
 
+### Installation
+
+- MacOS X with [brew](http://brew.sh) and [cask](https://caskroom.github.io): `brew cask install font-fira-code`
+
+[Enable ligatures](https://github.com/tonsky/FiraCode/wiki#how-to-enable-ligatures) in your favourite editor
+
 ### Alternatives
 
 Other monospaced fonts with ligatures:
