@@ -48,66 +48,66 @@ Clojure:
 
 ### Terminal support
 
-Works            | Doesn’t work
----------------- | ---------------
-**Black Screen** | **Cmder**
-**Butterfly**    | **ConEmu**
-**Hyper.app**    | **GNOME Terminal**
-**Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))
-**QTerminal**    | **mate-terminal**
-**Terminal.app** (OS X default terminal) | **mintty**
-**Termux** (Android terminal emulator) | **PuTTY**
-                 | **rxvt**
-                 | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160))
+| Works            | Doesn’t work       |
+| ---------------- | ------------------ |
+| **Black Screen** | **Cmder**          |
+| **Butterfly**    | **ConEmu**         |
+| **Hyper.app**    | **GNOME Terminal** |
+| **Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) |
+| **QTerminal**    | **mate-terminal**  |
+| **Terminal.app** (OS X default terminal) | **mintty**
+| **Termux** (Android terminal emulator) | **PuTTY**
+|                  | **rxvt**           |
+|                  | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
 
 ### Editor support
 
-Works | Doesn’t work
---------|----------------
-**Anjuta** (unless at the EOF) | **Arduino IDE**
-**AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver**
-**Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656))
-**BBEdit/TextWrangler** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs))
-**Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim**
-**Chocolat** | **IDLE**
-**CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4**
-**Coda 2** | **Monkey Studio IDE**
-**CodeLite** | **Notepad++**
-**Eclipse** (Linux) | **Spyder IDE**
-**Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/))
-**gEdit / Pluma** |
-**GNOME Builder** |
-**IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
-**Kate, KWrite** |
-**Komodo** |
-**Leafpad** |
-**LibreOffice** |
-**LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) |
-**LINQPad** |
-**MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
-**Mancy** |
-**Meld** |
-**Mousepad** |
-**NetBeans** |
-**Notepad** (Win) |
-**PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
-**PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
-**QtCreator** |
-**Rider** |
-**RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
-**RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
-**Scratch** |
-**TextAdept** (Linux, Mac) |
-**TextEdit** |
-**TextMate 2** |
-**VimR** ([instructions](https://github.com/qvacua/vimr/wiki#ligatures)) |
-**Visual Studio 2015** | 
-**Visual Studio 2017** |
-**Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
-**WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
-**Xamarin Studio/Monodevelop** |
-**Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
-Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE**
+| Works | Doesn’t work   |
+| ----- | -------------- |
+| **Anjuta** (unless at the EOF) | **Arduino IDE** |
+| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver** |
+| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656)) |
+| **BBEdit/TextWrangler** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs)) |
+| **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** |
+| **Chocolat** | **IDLE** |
+| **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
+| **Coda 2** | **Monkey Studio IDE** |
+| **CodeLite** | **Notepad++** |
+| **Eclipse** (Linux) | **Spyder IDE** |
+| **Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **gEdit / Pluma** |
+| **GNOME Builder** |
+| **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+| **Kate, KWrite** |
+| **Komodo** |
+| **Leafpad** |
+| **LibreOffice** |
+| **LightTable** ([instructions](https://github.com/tonsky/FiraCode/wiki/LightTable-instructions)) |
+| **LINQPad** |
+| **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
+| **Mancy** |
+| **Meld** |
+| **Mousepad** |
+| **NetBeans** |
+| **Notepad** (Win) |
+| **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+| **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+| **QtCreator** |
+| **Rider** |
+| **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
+| **RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+| **Scratch** |
+| **TextAdept** (Linux, Mac) |
+| **TextEdit** |
+| **TextMate 2** |
+| **VimR** ([instructions](https://github.com/qvacua/vimr/wiki#ligatures)) |
+| **Visual Studio 2015** | 
+| **Visual Studio 2017** |
+| **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
+| **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+| **Xamarin Studio/Monodevelop** |
+| **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
+| Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
 
 ### Browser support
 
