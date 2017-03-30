@@ -71,10 +71,11 @@ Clojure:
 | **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** |
 | **Chocolat** | **IDLE** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
-| **Coda 2** | **Monkey Studio IDE** |
-| **CodeLite** | **Notepad++** |
-| **Eclipse** (Linux) | **Spyder IDE** |
-| **Geany** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **Cloud9** | **Monkey Studio IDE** |
+| **Coda 2** | **Notepad++** |
+| **CodeLite** | **Spyder IDE** |
+| **Eclipse** (Linux) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **Geany** |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
