@@ -73,8 +73,8 @@ Clojure:
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
 | **Cloud9** | **Monkey Studio IDE** |
 | **Coda 2** | **Notepad++** |
-| **CodeLite** | **Spyder IDE** |
-| **Eclipse** (Linux) | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **CodeLite** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **Eclipse** (Linux) | 
 | **Geany** |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
@@ -98,6 +98,7 @@ Clojure:
 | **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 | **RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Scratch** |
+| **Spyder IDE** (only with Qt5) |
 | **TextAdept** (Linux, Mac) |
 | **TextEdit** |
 | **TextMate 2** |
