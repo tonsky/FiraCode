@@ -50,14 +50,15 @@ Clojure:
 
 | Works            | Doesn’t work       |
 | ---------------- | ------------------ |
-| **Black Screen** | **Cmder**          |
-| **Butterfly**    | **ConEmu**         |
-| **Hyper.app**    | **GNOME Terminal** |
-| **Konsole**      | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) |
-| **QTerminal**    | **mate-terminal**  |
-| **Terminal.app** (OS X default terminal) | **mintty**
-| **Termux** (Android terminal emulator) | **PuTTY**
-|                  | **rxvt**           |
+| **Black Screen** | **cmd.exe*         |
+| **Butterfly**    | **Cmder**          |
+| **Hyper.app**    | **ConEmu**         |
+| **Konsole**      | **GNOME Terminal** |
+| **QTerminal**    | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))  |
+| **Terminal.app** (OS X default terminal) | **mate-terminal** |
+| **Termux** (Android terminal emulator) | **mintty** |
+|                  | **PuTTY**           |
+|                  | **rxvt**            |
 |                  | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
 
 ### Editor support
