@@ -8,7 +8,7 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-#### [Download v1.204](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [News & updates](https://twitter.com/FiraCode)
+#### [Download v1.204](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News & updates](https://twitter.com/FiraCode)
 
 Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
