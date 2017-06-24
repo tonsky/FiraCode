@@ -45,6 +45,10 @@ Clojure:
 
 <img src="./showcases/clojure.png" />
 
+Scala:
+
+<img src="./showcases/scala.png" />
+
 
 ### Terminal support
 
