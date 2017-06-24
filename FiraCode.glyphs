@@ -1,9 +1,21 @@
 {
-.appVersion = "895";
+.appVersion = "983";
+DisplayStrings = (
+/less_colon.liga,
+"",
+/backslash_slash.liga,
+/slash_backslash.liga,
+/backslash_bar_slash.liga,
+/less_colon_less.liga,
+/backslash_ampersand_slash.liga,
+/greater_colon.liga,
+/colon_colon.liga,
+/less_percent.liga
+);
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK Dche-cy Dzzhe-cy Eldescender-cy EnLeftHook-cy A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Omega-cy Yat-cy Eiotified-cy Yuslittle-cy Yuslittleiotified-cy Yusbig-cy Yusbigiotified-cy Ksi-cy Psi-cy Fita-cy Izhitsa-cy Izhitsadblgrave-cy Uk-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Lha-cy Rha-cy Yae-cy Qa-cy We-cy Aleutka-cy Elmiddlehook-cy Enmiddlehook-cy Semisoftsign-cy Ertick-cy Yot-greek Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis Heta Archaicsampi Pamphyliandigamma KoppaArchaic Stigma Digamma Koppa Sampi KaiSymbol UpsilonhookSymbol UpsilonacutehookSymbol UpsilondieresishookSymbol ThetaSymbol Sho SigmaLunateSymbol San SigmaLunateReversedSymbol SigmaLunateDottedSymbol SigmaLunateDottedReversedSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Omega-cy Yat-cy Eiotified-cy Yuslittle-cy Yuslittleiotified-cy Yusbig-cy Yusbigiotified-cy Ksi-cy Psi-cy Fita-cy Izhitsa-cy Izhitsadblgrave-cy Uk-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Lha-cy Rha-cy Yae-cy Qa-cy We-cy Aleutka-cy Elmiddlehook-cy Enmiddlehook-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Dzzhe-cy Dche-cy Eldescender-cy Yot-greek Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis Heta Archaicsampi Pamphyliandigamma KoppaArchaic Stigma Digamma Koppa Sampi KaiSymbol UpsilonhookSymbol UpsilonacutehookSymbol UpsilondieresishookSymbol ThetaSymbol Sho SigmaLunateSymbol San SigmaLunateReversedSymbol SigmaLunateDottedSymbol SigmaLunateDottedReversedSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni";
 name = Uppercase;
 },
 {
@@ -155,7 +167,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "sub w w w by w_w_w.liga;\012sub asterisk asterisk by asterisk_asterisk.liga;\012sub asterisk asterisk asterisk by asterisk_asterisk_asterisk.liga;\012sub asterisk asterisk slash by asterisk_asterisk_slash.liga;\012sub asterisk greater by asterisk_greater.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub backslash backslash by backslash_backslash.liga;\012sub backslash backslash backslash by backslash_backslash_backslash.liga;\012sub braceleft hyphen by braceleft_hyphen.liga;\012sub bracketleft bracketright by bracketleft_bracketright.liga;\012sub colon colon by colon_colon.liga;\012sub colon colon colon by colon_colon_colon.liga;\012sub colon equal by colon_equal.liga;\012sub exclam exclam by exclam_exclam.liga;\012sub exclam exclam exclam by exclam_exclam_exclam.liga;\012sub exclam equal by exclam_equal.liga;\012sub exclam equal equal by exclam_equal_equal.liga;\012sub hyphen braceright by hyphen_braceright.liga;\012sub hyphen hyphen by hyphen_hyphen.liga;\012sub hyphen hyphen hyphen by hyphen_hyphen_hyphen.liga;\012sub hyphen hyphen greater by hyphen_hyphen_greater.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub hyphen greater greater by hyphen_greater_greater.liga;\012sub hyphen less by hyphen_less.liga;\012sub hyphen less less by hyphen_less_less.liga;\012sub hyphen asciitilde by hyphen_asciitilde.liga;\012sub numbersign braceleft by numbersign_braceleft.liga;\012sub numbersign bracketleft by numbersign_bracketleft.liga;\012sub numbersign numbersign by numbersign_numbersign.liga;\012sub numbersign numbersign numbersign by numbersign_numbersign_numbersign.liga;\012sub numbersign numbersign numbersign numbersign by numbersign_numbersign_numbersign_numbersign.liga;\012sub numbersign parenleft by numbersign_parenleft.liga;\012sub numbersign question by numbersign_question.liga;\012sub numbersign underscore by numbersign_underscore.liga;\012sub numbersign underscore parenleft by numbersign_underscore_parenleft.liga;\012sub period hyphen by period_hyphen.liga;\012sub period equal by period_equal.liga;\012sub period period by period_period.liga;\012sub period period less by period_period_less.liga;\012sub period period period by period_period_period.liga;\012sub question equal by question_equal.liga;\012sub question question by question_question.liga;\012sub question question question by question_question_question.liga;\012sub semicolon semicolon by semicolon_semicolon.liga;\012sub semicolon semicolon semicolon by semicolon_semicolon_semicolon.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub slash asterisk asterisk by slash_asterisk_asterisk.liga;\012sub slash equal by slash_equal.liga;\012sub slash equal equal by slash_equal_equal.liga;\012sub slash greater by slash_greater.liga;\012sub slash slash by slash_slash.liga;\012sub slash slash slash by slash_slash_slash.liga;\012sub ampersand ampersand by ampersand_ampersand.liga;\012sub ampersand ampersand ampersand by ampersand_ampersand_ampersand.liga;\012sub bar bar by bar_bar.liga;\012sub bar bar bar by bar_bar_bar.liga;\012sub bar bar equal by bar_bar_equal.liga;\012sub bar equal by bar_equal.liga;\012sub bar greater by bar_greater.liga;\012sub asciicircum equal by asciicircum_equal.liga;\012sub dollar greater by dollar_greater.liga;\012sub plus plus by plus_plus.liga;\012sub plus greater by plus_greater.liga;\012sub equal colon equal by equal_colon_equal.liga;\012sub equal equal by equal_equal.liga;\012sub equal equal equal by equal_equal_equal.liga;\012sub equal equal greater by equal_equal_greater.liga;\012sub equal greater by equal_greater.liga;\012sub equal greater greater by equal_greater_greater.liga;\012sub equal less by equal_less.liga;\012sub equal less less by equal_less_less.liga;\012sub equal asciitilde by equal_asciitilde.liga;\012sub equal slash equal by equal_slash_equal.liga;\012sub greater hyphen by greater_hyphen.liga;\012sub greater equal by greater_equal.liga;\012sub greater equal greater by greater_equal_greater.liga;\012sub greater greater by greater_greater.liga;\012sub greater greater hyphen by greater_greater_hyphen.liga;\012sub greater greater equal by greater_greater_equal.liga;\012sub greater greater greater by greater_greater_greater.liga;\012sub less asterisk by less_asterisk.liga;\012sub less asterisk greater by less_asterisk_greater.liga;\012sub less bar by less_bar.liga;\012sub less bar greater by less_bar_greater.liga;\012sub less dollar by less_dollar.liga;\012sub less dollar greater by less_dollar_greater.liga;\012sub less exclam hyphen hyphen by less_exclam_hyphen_hyphen.liga;\012sub less hyphen by less_hyphen.liga;\012sub less hyphen hyphen by less_hyphen_hyphen.liga;\012sub less hyphen greater by less_hyphen_greater.liga;\012sub less plus by less_plus.liga;\012sub less plus greater by less_plus_greater.liga;\012sub less equal by less_equal.liga;\012sub less equal equal by less_equal_equal.liga;\012sub less equal greater by less_equal_greater.liga;\012sub less equal less by less_equal_less.liga;\012sub less greater by less_greater.liga;\012sub less less by less_less.liga;\012sub less less hyphen by less_less_hyphen.liga;\012sub less less equal by less_less_equal.liga;\012sub less less less by less_less_less.liga;\012sub less asciitilde by less_asciitilde.liga;\012sub less asciitilde asciitilde by less_asciitilde_asciitilde.liga;\012sub less slash by less_slash.liga;\012sub asciitilde at by asciitilde_at.liga;\012sub asciitilde hyphen by asciitilde_hyphen.liga;\012sub asciitilde equal by asciitilde_equal.liga;\012sub asciitilde greater by asciitilde_greater.liga;\012sub asciitilde asciitilde by asciitilde_asciitilde.liga;\012sub asciitilde asciitilde greater by asciitilde_asciitilde_greater.liga;\012sub asciitilde asciitilde asciitilde by asciitilde_asciitilde_asciitilde.liga;\012sub percent percent by percent_percent.liga;\012sub percent percent percent by percent_percent_percent.liga;\012";
+code = "sub w w w by w_w_w.liga;\012sub asterisk asterisk by asterisk_asterisk.liga;\012sub asterisk asterisk asterisk by asterisk_asterisk_asterisk.liga;\012sub asterisk greater by asterisk_greater.liga;\012sub asterisk slash by asterisk_slash.liga;\012sub backslash backslash by backslash_backslash.liga;\012sub backslash backslash backslash by backslash_backslash_backslash.liga;\012sub backslash ampersand slash by backslash_ampersand_slash.liga;\012sub backslash bar slash by backslash_bar_slash.liga;\012sub backslash slash by backslash_slash.liga;\012sub backslash slash hyphen by backslash_slash_hyphen.liga;\012sub backslash slash greater by backslash_slash_greater.liga;\012sub bracketright numbersign by bracketright_numbersign.liga;\012sub colon colon by colon_colon.liga;\012sub colon colon colon by colon_colon_colon.liga;\012sub colon equal by colon_equal.liga;\012sub exclam exclam by exclam_exclam.liga;\012sub exclam equal by exclam_equal.liga;\012sub exclam equal equal by exclam_equal_equal.liga;\012sub hyphen backslash slash by hyphen_backslash_slash.liga;\012sub hyphen backslash slash greater by hyphen_backslash_slash_greater.liga;\012sub hyphen hyphen by hyphen_hyphen.liga;\012sub hyphen hyphen hyphen by hyphen_hyphen_hyphen.liga;\012sub hyphen hyphen greater by hyphen_hyphen_greater.liga;\012sub hyphen greater by hyphen_greater.liga;\012sub hyphen greater greater by hyphen_greater_greater.liga;\012sub hyphen less by hyphen_less.liga;\012sub hyphen less bar by hyphen_less_bar.liga;\012sub hyphen less less by hyphen_less_less.liga;\012sub hyphen asciitilde by hyphen_asciitilde.liga;\012sub numbersign braceleft by numbersign_braceleft.liga;\012sub numbersign bracketleft by numbersign_bracketleft.liga;\012sub numbersign exclam by numbersign_exclam.liga;\012sub numbersign numbersign by numbersign_numbersign.liga;\012sub numbersign numbersign numbersign by numbersign_numbersign_numbersign.liga;\012sub numbersign numbersign numbersign numbersign by numbersign_numbersign_numbersign_numbersign.liga;\012sub numbersign parenleft by numbersign_parenleft.liga;\012sub numbersign question by numbersign_question.liga;\012sub numbersign underscore by numbersign_underscore.liga;\012sub numbersign underscore parenleft by numbersign_underscore_parenleft.liga;\012sub period hyphen by period_hyphen.liga;\012sub period equal by period_equal.liga;\012sub period period by period_period.liga;\012sub period period less by period_period_less.liga;\012sub period period period by period_period_period.liga;\012sub period question by period_question.liga;\012sub question colon by question_colon.liga;\012sub question equal by question_equal.liga;\012sub question period by question_period.liga;\012sub question question by question_question.liga;\012sub semicolon semicolon by semicolon_semicolon.liga;\012sub slash asterisk by slash_asterisk.liga;\012sub slash backslash by slash_backslash.liga;\012sub slash equal by slash_equal.liga;\012sub slash equal equal by slash_equal_equal.liga;\012sub slash greater by slash_greater.liga;\012sub slash slash by slash_slash.liga;\012sub slash slash slash by slash_slash_slash.liga;\012sub underscore asterisk by underscore_asterisk.liga;\012sub underscore underscore by underscore_underscore.liga;\012sub at at by at_at.liga;\012sub ampersand ampersand by ampersand_ampersand.liga;\012sub bar bar by bar_bar.liga;\012sub bar bar bar greater by bar_bar_bar_greater.liga;\012sub bar bar equal by bar_bar_equal.liga;\012sub bar bar greater by bar_bar_greater.liga;\012sub bar equal by bar_equal.liga;\012sub bar greater by bar_greater.liga;\012sub asciicircum equal by asciicircum_equal.liga;\012sub dollar greater by dollar_greater.liga;\012sub plus plus by plus_plus.liga;\012sub plus plus plus by plus_plus_plus.liga;\012sub plus greater by plus_greater.liga;\012sub equal colon equal by equal_colon_equal.liga;\012sub equal equal by equal_equal.liga;\012sub equal equal equal by equal_equal_equal.liga;\012sub equal equal greater by equal_equal_greater.liga;\012sub equal greater by equal_greater.liga;\012sub equal greater greater by equal_greater_greater.liga;\012sub equal less by equal_less.liga;\012sub equal less less by equal_less_less.liga;\012sub equal slash equal by equal_slash_equal.liga;\012sub greater colon by greater_colon.liga;\012sub greater hyphen by greater_hyphen.liga;\012sub greater hyphen greater by greater_hyphen_greater.liga;\012sub greater equal by greater_equal.liga;\012sub greater equal greater by greater_equal_greater.liga;\012sub greater greater by greater_greater.liga;\012sub greater greater hyphen by greater_greater_hyphen.liga;\012sub greater greater equal by greater_greater_equal.liga;\012sub greater greater greater by greater_greater_greater.liga;\012sub less asterisk by less_asterisk.liga;\012sub less asterisk greater by less_asterisk_greater.liga;\012sub less backslash slash by less_backslash_slash.liga;\012sub less backslash slash hyphen by less_backslash_slash_hyphen.liga;\012sub less bar by less_bar.liga;\012sub less bar bar bar by less_bar_bar_bar.liga;\012sub less bar hyphen by less_bar_hyphen.liga;\012sub less bar greater by less_bar_greater.liga;\012sub less colon by less_colon.liga;\012sub less colon less by less_colon_less.liga;\012sub less dollar by less_dollar.liga;\012sub less dollar greater by less_dollar_greater.liga;\012sub less exclam hyphen hyphen by less_exclam_hyphen_hyphen.liga;\012sub less hyphen by less_hyphen.liga;\012sub less hyphen hyphen by less_hyphen_hyphen.liga;\012sub less hyphen greater by less_hyphen_greater.liga;\012sub less hyphen less by less_hyphen_less.liga;\012sub less plus by less_plus.liga;\012sub less plus greater by less_plus_greater.liga;\012sub less equal by less_equal.liga;\012sub less equal equal by less_equal_equal.liga;\012sub less equal greater by less_equal_greater.liga;\012sub less equal less by less_equal_less.liga;\012sub less greater by less_greater.liga;\012sub less less by less_less.liga;\012sub less less hyphen by less_less_hyphen.liga;\012sub less less equal by less_less_equal.liga;\012sub less less less by less_less_less.liga;\012sub less asciitilde by less_asciitilde.liga;\012sub less asciitilde greater by less_asciitilde_greater.liga;\012sub less asciitilde asciitilde by less_asciitilde_asciitilde.liga;\012sub less percent by less_percent.liga;\012sub less slash by less_slash.liga;\012sub less slash greater by less_slash_greater.liga;\012sub asciitilde at by asciitilde_at.liga;\012sub asciitilde hyphen by asciitilde_hyphen.liga;\012sub asciitilde equal by asciitilde_equal.liga;\012sub asciitilde greater by asciitilde_greater.liga;\012sub asciitilde asciitilde by asciitilde_asciitilde.liga;\012sub asciitilde asciitilde greater by asciitilde_asciitilde_greater.liga;\012sub percent percent by percent_percent.liga;\012";
 disabled = 1;
 name = liga;
 },
@@ -175,7 +187,7 @@ name = dlig;
 },
 {
 automatic = 1;
-code = "sub zero by zero.zero;\012sub zero.tosf by zero.tosf.zero;\012";
+code = "sub zero.tosf by zero.tosf.zero;\012sub zero by zero.zero;\012";
 name = zero;
 },
 {
@@ -184,7 +196,7 @@ code = "pos @Uppercase <5 0 10 0>;\012";
 name = cpsp;
 },
 {
-code = "### start of generated calt\012\012  lookup less_exclam_hyphen_hyphen {\012    ignore sub less less' exclam hyphen hyphen;\012    ignore sub less' exclam hyphen hyphen hyphen;\012    sub LIG LIG LIG hyphen' by less_exclam_hyphen_hyphen.liga;\012    sub LIG LIG  hyphen' hyphen  by LIG;\012    sub LIG  exclam'  hyphen  hyphen  by LIG;\012    sub less'   exclam   hyphen  hyphen  by LIG;\012  } less_exclam_hyphen_hyphen;\012\012  lookup numbersign_numbersign_numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign numbersign numbersign;\012    ignore sub numbersign' numbersign numbersign numbersign numbersign;\012    sub LIG LIG LIG numbersign' by numbersign_numbersign_numbersign_numbersign.liga;\012    sub LIG LIG  numbersign' numbersign  by LIG;\012    sub LIG  numbersign'  numbersign  numbersign  by LIG;\012    sub numbersign'   numbersign   numbersign  numbersign  by LIG;\012  } numbersign_numbersign_numbersign_numbersign;\012\012  lookup less_bar_bar_bar {\012    ignore sub less less' bar bar bar;\012    ignore sub less' bar bar bar bar;\012    sub LIG LIG LIG bar' by less_bar_bar_bar.liga;\012    sub LIG LIG  bar' bar  by LIG;\012    sub LIG  bar'  bar  bar  by LIG;\012    sub less'   bar   bar  bar  by LIG;\012  } less_bar_bar_bar;\012\012  lookup bar_bar_bar_greater {\012    ignore sub bar bar' bar bar greater;\012    ignore sub bar' bar bar greater greater;\012    sub LIG LIG LIG greater' by bar_bar_bar_greater.liga;\012    sub LIG LIG  bar' greater  by LIG;\012    sub LIG  bar'  bar  greater  by LIG;\012    sub bar'   bar   bar  greater  by LIG;\012  } bar_bar_bar_greater;\012\012  lookup less_plus_greater {\012    ignore sub less less' plus greater;\012    ignore sub less' plus greater greater;\012    sub LIG LIG greater' by less_plus_greater.liga;\012    sub LIG  plus' greater  by LIG;\012    sub less'   plus  greater  by LIG;\012  } less_plus_greater;\012\012  lookup less_dollar_greater {\012    ignore sub less less' dollar greater;\012    ignore sub less' dollar greater greater;\012    sub LIG LIG greater' by less_dollar_greater.liga;\012    sub LIG  dollar' greater  by LIG;\012    sub less'   dollar  greater  by LIG;\012  } less_dollar_greater;\012\012  lookup bar_bar_equal {\012    ignore sub bar bar' bar equal;\012    ignore sub bar' bar equal equal;\012    sub LIG LIG equal' by bar_bar_equal.liga;\012    sub LIG  bar' equal  by LIG;\012    sub bar'   bar  equal  by LIG;\012  } bar_bar_equal;\012\012  lookup less_hyphen_greater {\012    ignore sub less less' hyphen greater;\012    ignore sub less' hyphen greater greater;\012    sub LIG LIG greater' by less_hyphen_greater.liga;\012    sub LIG  hyphen' greater  by LIG;\012    sub less'   hyphen  greater  by LIG;\012  } less_hyphen_greater;\012\012  lookup greater_greater_hyphen {\012    ignore sub greater greater' greater hyphen;\012    ignore sub greater' greater hyphen hyphen;\012    sub LIG LIG hyphen' by greater_greater_hyphen.liga;\012    sub LIG  greater' hyphen  by LIG;\012    sub greater'   greater  hyphen  by LIG;\012  } greater_greater_hyphen;\012\012  lookup equal_less_less {\012    ignore sub equal equal' less less;\012    ignore sub equal' less less less;\012    sub LIG LIG less' by equal_less_less.liga;\012    sub LIG  less' less  by LIG;\012    sub equal'   less  less  by LIG;\012  } equal_less_less;\012\012  lookup less_equal_less {\012    ignore sub less less' equal less;\012    ignore sub less' equal less less;\012    sub LIG LIG less' by less_equal_less.liga;\012    sub LIG  equal' less  by LIG;\012    sub less'   equal  less  by LIG;\012  } less_equal_less;\012\012  lookup asciitilde_asciitilde_greater {\012    ignore sub asciitilde asciitilde' asciitilde greater;\012    ignore sub asciitilde' asciitilde greater greater;\012    sub LIG LIG greater' by asciitilde_asciitilde_greater.liga;\012    sub LIG  asciitilde' greater  by LIG;\012    sub asciitilde'   asciitilde  greater  by LIG;\012  } asciitilde_asciitilde_greater;\012\012  lookup numbersign_numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign numbersign;\012    ignore sub numbersign' numbersign numbersign numbersign;\012    sub LIG LIG numbersign' by numbersign_numbersign_numbersign.liga;\012    sub LIG  numbersign' numbersign  by LIG;\012    sub numbersign'   numbersign  numbersign  by LIG;\012  } numbersign_numbersign_numbersign;\012\012  lookup asterisk_asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk asterisk;\012    ignore sub asterisk' asterisk asterisk asterisk;\012    ignore sub slash asterisk' asterisk asterisk;\012    ignore sub asterisk' asterisk asterisk slash;\012    sub LIG LIG asterisk' by asterisk_asterisk_asterisk.liga;\012    sub LIG  asterisk' asterisk  by LIG;\012    sub asterisk'   asterisk  asterisk  by LIG;\012  } asterisk_asterisk_asterisk;\012\012  lookup backslash_backslash_backslash {\012    ignore sub backslash backslash' backslash backslash;\012    ignore sub backslash' backslash backslash backslash;\012    sub LIG LIG backslash' by backslash_backslash_backslash.liga;\012    sub LIG  backslash' backslash  by LIG;\012    sub backslash'   backslash  backslash  by LIG;\012  } backslash_backslash_backslash;\012\012  lookup less_less_equal {\012    ignore sub less less' less equal;\012    ignore sub less' less equal equal;\012    sub LIG LIG equal' by less_less_equal.liga;\012    sub LIG  less' equal  by LIG;\012    sub less'   less  equal  by LIG;\012  } less_less_equal;\012\012  lookup less_bar_greater {\012    ignore sub less less' bar greater;\012    ignore sub less' bar greater greater;\012    sub LIG LIG greater' by less_bar_greater.liga;\012    sub LIG  bar' greater  by LIG;\012    sub less'   bar  greater  by LIG;\012  } less_bar_greater;\012\012  lookup w_w_w {\012    ignore sub w w' w w;\012    ignore sub w' w w w;\012    sub LIG LIG w' by w_w_w.liga;\012    sub LIG  w' w  by LIG;\012    sub w'   w  w  by LIG;\012  } w_w_w;\012\012  lookup slash_slash_slash {\012    ignore sub slash slash' slash slash;\012    ignore sub slash' slash slash slash;\012    sub LIG LIG slash' by slash_slash_slash.liga;\012    sub LIG  slash' slash  by LIG;\012    sub slash'   slash  slash  by LIG;\012  } slash_slash_slash;\012\012  lookup slash_equal_equal {\012    ignore sub slash slash' equal equal;\012    ignore sub slash' equal equal equal;\012    sub LIG LIG equal' by slash_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub slash'   equal  equal  by LIG;\012  } slash_equal_equal;\012\012  lookup less_hyphen_hyphen {\012    ignore sub less less' hyphen hyphen;\012    ignore sub less' hyphen hyphen hyphen;\012    sub LIG LIG hyphen' by less_hyphen_hyphen.liga;\012    sub LIG  hyphen' hyphen  by LIG;\012    sub less'   hyphen  hyphen  by LIG;\012  } less_hyphen_hyphen;\012\012  lookup equal_greater_greater {\012    ignore sub equal equal' greater greater;\012    ignore sub equal' greater greater greater;\012    sub LIG LIG greater' by equal_greater_greater.liga;\012    sub LIG  greater' greater  by LIG;\012    sub equal'   greater  greater  by LIG;\012  } equal_greater_greater;\012\012  lookup less_hyphen_less {\012    ignore sub less less' hyphen less;\012    ignore sub less' hyphen less less;\012    sub LIG LIG less' by less_hyphen_less.liga;\012    sub LIG  hyphen' less  by LIG;\012    sub less'   hyphen  less  by LIG;\012  } less_hyphen_less;\012\012  lookup less_less_hyphen {\012    ignore sub less less' less hyphen;\012    ignore sub less' less hyphen hyphen;\012    sub LIG LIG hyphen' by less_less_hyphen.liga;\012    sub LIG  less' hyphen  by LIG;\012    sub less'   less  hyphen  by LIG;\012  } less_less_hyphen;\012\012  lookup hyphen_hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen hyphen;\012    ignore sub hyphen' hyphen hyphen hyphen;\012    sub LIG LIG hyphen' by hyphen_hyphen_hyphen.liga;\012    sub LIG  hyphen' hyphen  by LIG;\012    sub hyphen'   hyphen  hyphen  by LIG;\012  } hyphen_hyphen_hyphen;\012\012  lookup less_slash_greater {\012    ignore sub less less' slash greater;\012    ignore sub less' slash greater greater;\012    sub LIG LIG greater' by less_slash_greater.liga;\012    sub LIG  slash' greater  by LIG;\012    sub less'   slash  greater  by LIG;\012  } less_slash_greater;\012\012  lookup hyphen_greater_greater {\012    ignore sub hyphen hyphen' greater greater;\012    ignore sub hyphen' greater greater greater;\012    sub LIG LIG greater' by hyphen_greater_greater.liga;\012    sub LIG  greater' greater  by LIG;\012    sub hyphen'   greater  greater  by LIG;\012  } hyphen_greater_greater;\012\012  lookup hyphen_less_less {\012    ignore sub hyphen hyphen' less less;\012    ignore sub hyphen' less less less;\012    sub LIG LIG less' by hyphen_less_less.liga;\012    sub LIG  less' less  by LIG;\012    sub hyphen'   less  less  by LIG;\012  } hyphen_less_less;\012\012  lookup less_less_less {\012    ignore sub less less' less less;\012    ignore sub less' less less less;\012    sub LIG LIG less' by less_less_less.liga;\012    sub LIG  less' less  by LIG;\012    sub less'   less  less  by LIG;\012  } less_less_less;\012\012  lookup bar_bar_greater {\012    ignore sub bar bar' bar greater;\012    ignore sub bar' bar greater greater;\012    sub LIG LIG greater' by bar_bar_greater.liga;\012    sub LIG  bar' greater  by LIG;\012    sub bar'   bar  greater  by LIG;\012  } bar_bar_greater;\012\012  lookup equal_equal_greater {\012    ignore sub equal equal' equal greater;\012    ignore sub equal' equal greater greater;\012    sub LIG LIG greater' by equal_equal_greater.liga;\012    sub LIG  equal' greater  by LIG;\012    sub equal'   equal  greater  by LIG;\012  } equal_equal_greater;\012\012  lookup period_period_period {\012    ignore sub period period' period period;\012    ignore sub period' period period period;\012    sub LIG LIG period' by period_period_period.liga;\012    sub LIG  period' period  by LIG;\012    sub period'   period  period  by LIG;\012  } period_period_period;\012\012  lookup less_asciitilde_greater {\012    ignore sub less less' asciitilde greater;\012    ignore sub less' asciitilde greater greater;\012    sub LIG LIG greater' by less_asciitilde_greater.liga;\012    sub LIG  asciitilde' greater  by LIG;\012    sub less'   asciitilde  greater  by LIG;\012  } less_asciitilde_greater;\012\012  lookup less_equal_equal {\012    ignore sub less less' equal equal;\012    ignore sub less' equal equal equal;\012    sub LIG LIG equal' by less_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub less'   equal  equal  by LIG;\012  } less_equal_equal;\012\012  lookup greater_equal_greater {\012    ignore sub greater greater' equal greater;\012    ignore sub greater' equal greater greater;\012    sub LIG LIG greater' by greater_equal_greater.liga;\012    sub LIG  equal' greater  by LIG;\012    sub greater'   equal  greater  by LIG;\012  } greater_equal_greater;\012\012  lookup greater_hyphen_greater {\012    ignore sub greater greater' hyphen greater;\012    ignore sub greater' hyphen greater greater;\012    sub LIG LIG greater' by greater_hyphen_greater.liga;\012    sub LIG  hyphen' greater  by LIG;\012    sub greater'   hyphen  greater  by LIG;\012  } greater_hyphen_greater;\012\012  lookup less_asterisk_greater {\012    ignore sub less less' asterisk greater;\012    ignore sub less' asterisk greater greater;\012    sub LIG LIG greater' by less_asterisk_greater.liga;\012    sub LIG  asterisk' greater  by LIG;\012    sub less'   asterisk  greater  by LIG;\012  } less_asterisk_greater;\012\012  lookup numbersign_underscore_parenleft {\012    ignore sub numbersign numbersign' underscore parenleft;\012    ignore sub numbersign' underscore parenleft parenleft;\012    sub LIG LIG parenleft' by numbersign_underscore_parenleft.liga;\012    sub LIG  underscore' parenleft  by LIG;\012    sub numbersign'   underscore  parenleft  by LIG;\012  } numbersign_underscore_parenleft;\012\012  lookup plus_plus_plus {\012    ignore sub plus plus' plus plus;\012    ignore sub plus' plus plus plus;\012    sub LIG LIG plus' by plus_plus_plus.liga;\012    sub LIG  plus' plus  by LIG;\012    sub plus'   plus  plus  by LIG;\012  } plus_plus_plus;\012\012  lookup less_asciitilde_asciitilde {\012    ignore sub less less' asciitilde asciitilde;\012    ignore sub less' asciitilde asciitilde asciitilde;\012    sub LIG LIG asciitilde' by less_asciitilde_asciitilde.liga;\012    sub LIG  asciitilde' asciitilde  by LIG;\012    sub less'   asciitilde  asciitilde  by LIG;\012  } less_asciitilde_asciitilde;\012\012  lookup less_bar_bar {\012    ignore sub less less' bar bar;\012    ignore sub less' bar bar bar;\012    sub LIG LIG bar' by less_bar_bar.liga;\012    sub LIG  bar' bar  by LIG;\012    sub less'   bar  bar  by LIG;\012  } less_bar_bar;\012\012  lookup exclam_equal_equal {\012    ignore sub exclam exclam' equal equal;\012    ignore sub exclam' equal equal equal;\012    sub LIG LIG equal' by exclam_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub exclam'   equal  equal  by LIG;\012  } exclam_equal_equal;\012\012  lookup hyphen_hyphen_greater {\012    ignore sub hyphen hyphen' hyphen greater;\012    ignore sub hyphen' hyphen greater greater;\012    sub LIG LIG greater' by hyphen_hyphen_greater.liga;\012    sub LIG  hyphen' greater  by LIG;\012    sub hyphen'   hyphen  greater  by LIG;\012  } hyphen_hyphen_greater;\012\012  lookup equal_slash_equal {\012    ignore sub equal equal' slash equal;\012    ignore sub equal' slash equal equal;\012    sub LIG LIG equal' by equal_slash_equal.liga;\012    sub LIG  slash' equal  by LIG;\012    sub equal'   slash  equal  by LIG;\012  } equal_slash_equal;\012\012  lookup less_equal_greater {\012    ignore sub less less' equal greater;\012    ignore sub less' equal greater greater;\012    sub LIG LIG greater' by less_equal_greater.liga;\012    sub LIG  equal' greater  by LIG;\012    sub less'   equal  greater  by LIG;\012  } less_equal_greater;\012\012  lookup greater_greater_greater {\012    ignore sub greater greater' greater greater;\012    ignore sub greater' greater greater greater;\012    sub LIG LIG greater' by greater_greater_greater.liga;\012    sub LIG  greater' greater  by LIG;\012    sub greater'   greater  greater  by LIG;\012  } greater_greater_greater;\012\012  lookup greater_greater_equal {\012    ignore sub greater greater' greater equal;\012    ignore sub greater' greater equal equal;\012    sub LIG LIG equal' by greater_greater_equal.liga;\012    sub LIG  greater' equal  by LIG;\012    sub greater'   greater  equal  by LIG;\012  } greater_greater_equal;\012\012  lookup period_period_less {\012    ignore sub period period' period less;\012    ignore sub period' period less less;\012    sub LIG LIG less' by period_period_less.liga;\012    sub LIG  period' less  by LIG;\012    sub period'   period  less  by LIG;\012  } period_period_less;\012\012  lookup equal_colon_equal {\012    ignore sub equal equal' colon equal;\012    ignore sub equal' colon equal equal;\012    sub LIG LIG equal' by equal_colon_equal.liga;\012    sub LIG  colon' equal  by LIG;\012    sub equal'   colon  equal  by LIG;\012  } equal_colon_equal;\012\012  lookup equal_equal_equal {\012    ignore sub equal equal' equal equal;\012    ignore sub equal' equal equal equal;\012    sub LIG LIG equal' by equal_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub equal'   equal  equal  by LIG;\012  } equal_equal_equal;\012\012  lookup colon_colon_colon {\012    ignore sub colon colon' colon colon;\012    ignore sub colon' colon colon colon;\012    sub LIG LIG colon' by colon_colon_colon.liga;\012    sub LIG  colon' colon  by LIG;\012    sub colon'   colon  colon  by LIG;\012  } colon_colon_colon;\012\012  lookup less_dollar {\012    ignore sub less less' dollar;\012    ignore sub less' dollar dollar;\012    sub LIG dollar' by less_dollar.liga;\012    sub less'  dollar  by LIG;\012  } less_dollar;\012\012  lookup question_question {\012    ignore sub question question' question;\012    ignore sub question' question question;\012    sub LIG question' by question_question.liga;\012    sub question'  question  by LIG;\012  } question_question;\012\012  lookup asciitilde_asciitilde {\012    ignore sub asciitilde asciitilde' asciitilde;\012    ignore sub asciitilde' asciitilde asciitilde;\012    sub LIG asciitilde' by asciitilde_asciitilde.liga;\012    sub asciitilde'  asciitilde  by LIG;\012  } asciitilde_asciitilde;\012\012  lookup asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk;\012    ignore sub asterisk' asterisk asterisk;\012    ignore sub slash asterisk' asterisk;\012    ignore sub asterisk' asterisk slash;\012    sub LIG asterisk' by asterisk_asterisk.liga;\012    sub asterisk'  asterisk  by LIG;\012  } asterisk_asterisk;\012\012  lookup greater_greater {\012    ignore sub greater greater' greater;\012    ignore sub greater' greater greater;\012    sub LIG greater' by greater_greater.liga;\012    sub greater'  greater  by LIG;\012  } greater_greater;\012\012  lookup slash_slash {\012    ignore sub slash slash' slash;\012    ignore sub slash' slash slash;\012    sub LIG slash' by slash_slash.liga;\012    sub slash'  slash  by LIG;\012  } slash_slash;\012\012  lookup colon_equal {\012    ignore sub colon colon' equal;\012    ignore sub colon' equal equal;\012    sub LIG equal' by colon_equal.liga;\012    sub colon'  equal  by LIG;\012  } colon_equal;\012\012  lookup less_greater {\012    ignore sub less less' greater;\012    ignore sub less' greater greater;\012    sub LIG greater' by less_greater.liga;\012    sub less'  greater  by LIG;\012  } less_greater;\012\012  lookup exclam_exclam {\012    ignore sub exclam exclam' exclam;\012    ignore sub exclam' exclam exclam;\012    sub LIG exclam' by exclam_exclam.liga;\012    sub exclam'  exclam  by LIG;\012  } exclam_exclam;\012\012  lookup asciitilde_greater {\012    ignore sub asciitilde asciitilde' greater;\012    ignore sub asciitilde' greater greater;\012    sub LIG greater' by asciitilde_greater.liga;\012    sub asciitilde'  greater  by LIG;\012  } asciitilde_greater;\012\012  lookup bar_greater {\012    ignore sub bar bar' greater;\012    ignore sub bar' greater greater;\012    sub LIG greater' by bar_greater.liga;\012    sub bar'  greater  by LIG;\012  } bar_greater;\012\012  lookup less_less {\012    ignore sub less less' less;\012    ignore sub less' less less;\012    sub LIG less' by less_less.liga;\012    sub less'  less  by LIG;\012  } less_less;\012\012  lookup hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen;\012    ignore sub hyphen' hyphen hyphen;\012    sub LIG hyphen' by hyphen_hyphen.liga;\012    sub hyphen'  hyphen  by LIG;\012  } hyphen_hyphen;\012\012  lookup ampersand_ampersand {\012    ignore sub ampersand ampersand' ampersand;\012    ignore sub ampersand' ampersand ampersand;\012    sub LIG ampersand' by ampersand_ampersand.liga;\012    sub ampersand'  ampersand  by LIG;\012  } ampersand_ampersand;\012\012  lookup question_equal {\012    ignore sub question question' equal;\012    ignore sub question' equal equal;\012    sub LIG equal' by question_equal.liga;\012    sub question'  equal  by LIG;\012  } question_equal;\012\012  lookup underscore_underscore {\012    ignore sub underscore underscore' underscore;\012    ignore sub underscore' underscore underscore;\012    sub LIG underscore' by underscore_underscore.liga;\012    sub underscore'  underscore  by LIG;\012  } underscore_underscore;\012\012  lookup plus_greater {\012    ignore sub plus plus' greater;\012    ignore sub plus' greater greater;\012    sub LIG greater' by plus_greater.liga;\012    sub plus'  greater  by LIG;\012  } plus_greater;\012\012  lookup asciitilde_equal {\012    ignore sub asciitilde asciitilde' equal;\012    ignore sub asciitilde' equal equal;\012    sub LIG equal' by asciitilde_equal.liga;\012    sub asciitilde'  equal  by LIG;\012  } asciitilde_equal;\012\012  lookup asciicircum_equal {\012    ignore sub asciicircum asciicircum' equal;\012    ignore sub asciicircum' equal equal;\012    sub LIG equal' by asciicircum_equal.liga;\012    sub asciicircum'  equal  by LIG;\012  } asciicircum_equal;\012\012  lookup bar_equal {\012    ignore sub bar bar' equal;\012    ignore sub bar' equal equal;\012    sub LIG equal' by bar_equal.liga;\012    sub bar'  equal  by LIG;\012  } bar_equal;\012\012  lookup backslash_backslash {\012    ignore sub backslash backslash' backslash;\012    ignore sub backslash' backslash backslash;\012    sub LIG backslash' by backslash_backslash.liga;\012    sub backslash'  backslash  by LIG;\012  } backslash_backslash;\012\012  lookup numbersign_question {\012    ignore sub numbersign numbersign' question;\012    ignore sub numbersign' question question;\012    sub LIG question' by numbersign_question.liga;\012    sub numbersign'  question  by LIG;\012  } numbersign_question;\012\012  lookup less_slash {\012    ignore sub less less' slash;\012    ignore sub less' slash slash;\012    sub LIG slash' by less_slash.liga;\012    sub less'  slash  by LIG;\012  } less_slash;\012\012  lookup bar_bar {\012    ignore sub bar bar' bar;\012    ignore sub bar' bar bar;\012    sub LIG bar' by bar_bar.liga;\012    sub bar'  bar  by LIG;\012  } bar_bar;\012\012  lookup less_plus {\012    ignore sub less less' plus;\012    ignore sub less' plus plus;\012    sub LIG plus' by less_plus.liga;\012    sub less'  plus  by LIG;\012  } less_plus;\012\012  lookup numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign;\012    ignore sub numbersign' numbersign numbersign;\012    sub LIG numbersign' by numbersign_numbersign.liga;\012    sub numbersign'  numbersign  by LIG;\012  } numbersign_numbersign;\012\012  lookup numbersign_parenleft {\012    ignore sub numbersign numbersign' parenleft;\012    ignore sub numbersign' parenleft parenleft;\012    sub LIG parenleft' by numbersign_parenleft.liga;\012    sub numbersign'  parenleft  by LIG;\012  } numbersign_parenleft;\012\012  lookup greater_hyphen {\012    ignore sub greater greater' hyphen;\012    ignore sub greater' hyphen hyphen;\012    sub LIG hyphen' by greater_hyphen.liga;\012    sub greater'  hyphen  by LIG;\012  } greater_hyphen;\012\012  lookup numbersign_exclam {\012    ignore sub numbersign numbersign' exclam;\012    ignore sub numbersign' exclam exclam;\012    sub LIG exclam' by numbersign_exclam.liga;\012    sub numbersign'  exclam  by LIG;\012  } numbersign_exclam;\012\012  lookup greater_equal {\012    ignore sub greater greater' equal;\012    ignore sub greater' equal equal;\012    sub LIG equal' by greater_equal.liga;\012    sub greater'  equal  by LIG;\012  } greater_equal;\012\012  lookup percent_percent {\012    ignore sub percent percent' percent;\012    ignore sub percent' percent percent;\012    sub LIG percent' by percent_percent.liga;\012    sub percent'  percent  by LIG;\012  } percent_percent;\012\012  lookup bracketright_numbersign {\012    ignore sub bracketright bracketright' numbersign;\012    ignore sub bracketright' numbersign numbersign;\012    sub LIG numbersign' by bracketright_numbersign.liga;\012    sub bracketright'  numbersign  by LIG;\012  } bracketright_numbersign;\012\012  lookup equal_greater {\012    ignore sub equal equal' greater;\012    ignore sub equal' greater greater;\012    sub LIG greater' by equal_greater.liga;\012    sub equal'  greater  by LIG;\012  } equal_greater;\012\012  lookup hyphen_less {\012    ignore sub hyphen hyphen' less;\012    ignore sub hyphen' less less;\012    sub LIG less' by hyphen_less.liga;\012    sub hyphen'  less  by LIG;\012  } hyphen_less;\012\012  lookup asciitilde_hyphen {\012    ignore sub asciitilde asciitilde' hyphen;\012    ignore sub asciitilde' hyphen hyphen;\012    sub LIG hyphen' by asciitilde_hyphen.liga;\012    sub asciitilde'  hyphen  by LIG;\012  } asciitilde_hyphen;\012\012  lookup equal_equal {\012    ignore sub equal equal' equal;\012    ignore sub equal' equal equal;\012    sub LIG equal' by equal_equal.liga;\012    sub equal'  equal  by LIG;\012  } equal_equal;\012\012  lookup period_equal {\012    ignore sub period period' equal;\012    ignore sub period' equal equal;\012    sub LIG equal' by period_equal.liga;\012    sub period'  equal  by LIG;\012  } period_equal;\012\012  lookup numbersign_underscore {\012    ignore sub numbersign numbersign' underscore;\012    ignore sub numbersign' underscore underscore;\012    sub LIG underscore' by numbersign_underscore.liga;\012    sub numbersign'  underscore  by LIG;\012  } numbersign_underscore;\012\012  lookup less_bar {\012    ignore sub less less' bar;\012    ignore sub less' bar bar;\012    sub LIG bar' by less_bar.liga;\012    sub less'  bar  by LIG;\012  } less_bar;\012\012  lookup question_period {\012    ignore sub question question' period;\012    ignore sub question' period period;\012    sub LIG period' by question_period.liga;\012    sub question'  period  by LIG;\012  } question_period;\012\012  lookup hyphen_asciitilde {\012    ignore sub hyphen hyphen' asciitilde;\012    ignore sub hyphen' asciitilde asciitilde;\012    sub LIG asciitilde' by hyphen_asciitilde.liga;\012    sub hyphen'  asciitilde  by LIG;\012  } hyphen_asciitilde;\012\012  lookup asterisk_greater {\012    ignore sub asterisk asterisk' greater;\012    ignore sub asterisk' greater greater;\012    sub LIG greater' by asterisk_greater.liga;\012    sub asterisk'  greater  by LIG;\012  } asterisk_greater;\012\012  lookup period_hyphen {\012    ignore sub period period' hyphen;\012    ignore sub period' hyphen hyphen;\012    sub LIG hyphen' by period_hyphen.liga;\012    sub period'  hyphen  by LIG;\012  } period_hyphen;\012\012  lookup plus_plus {\012    ignore sub plus plus' plus;\012    ignore sub plus' plus plus;\012    sub LIG plus' by plus_plus.liga;\012    sub plus'  plus  by LIG;\012  } plus_plus;\012\012  lookup numbersign_bracketleft {\012    ignore sub numbersign numbersign' bracketleft;\012    ignore sub numbersign' bracketleft bracketleft;\012    sub LIG bracketleft' by numbersign_bracketleft.liga;\012    sub numbersign'  bracketleft  by LIG;\012  } numbersign_bracketleft;\012\012  lookup equal_less {\012    ignore sub equal equal' less;\012    ignore sub equal' less less;\012    sub LIG less' by equal_less.liga;\012    sub equal'  less  by LIG;\012  } equal_less;\012\012  lookup less_equal {\012    ignore sub less less' equal;\012    ignore sub less' equal equal;\012    sub LIG equal' by less_equal.liga;\012    sub less'  equal  by LIG;\012  } less_equal;\012\012  lookup period_period {\012    ignore sub period period' period;\012    ignore sub period' period period;\012    sub LIG period' by period_period.liga;\012    sub period'  period  by LIG;\012  } period_period;\012\012  lookup less_asciitilde {\012    ignore sub less less' asciitilde;\012    ignore sub less' asciitilde asciitilde;\012    sub LIG asciitilde' by less_asciitilde.liga;\012    sub less'  asciitilde  by LIG;\012  } less_asciitilde;\012\012  lookup period_question {\012    ignore sub period period' question;\012    ignore sub period' question question;\012    sub LIG question' by period_question.liga;\012    sub period'  question  by LIG;\012  } period_question;\012\012  lookup semicolon_semicolon {\012    ignore sub semicolon semicolon' semicolon;\012    ignore sub semicolon' semicolon semicolon;\012    sub LIG semicolon' by semicolon_semicolon.liga;\012    sub semicolon'  semicolon  by LIG;\012  } semicolon_semicolon;\012\012  lookup dollar_greater {\012    ignore sub dollar dollar' greater;\012    ignore sub dollar' greater greater;\012    sub LIG greater' by dollar_greater.liga;\012    sub dollar'  greater  by LIG;\012  } dollar_greater;\012\012  lookup slash_greater {\012    ignore sub slash slash' greater;\012    ignore sub slash' greater greater;\012    sub LIG greater' by slash_greater.liga;\012    sub slash'  greater  by LIG;\012  } slash_greater;\012\012  lookup question_colon {\012    ignore sub question question' colon;\012    ignore sub question' colon colon;\012    sub LIG colon' by question_colon.liga;\012    sub question'  colon  by LIG;\012  } question_colon;\012\012  lookup slash_asterisk {\012    ignore sub slash slash' asterisk;\012    ignore sub slash' asterisk asterisk;\012    ignore sub slash' asterisk slash;\012    ignore sub asterisk slash' asterisk;\012    sub LIG asterisk' by slash_asterisk.liga;\012    sub slash'  asterisk  by LIG;\012  } slash_asterisk;\012\012  lookup less_asterisk {\012    ignore sub less less' asterisk;\012    ignore sub less' asterisk asterisk;\012    sub LIG asterisk' by less_asterisk.liga;\012    sub less'  asterisk  by LIG;\012  } less_asterisk;\012\012  lookup exclam_equal {\012    ignore sub exclam exclam' equal;\012    ignore sub exclam' equal equal;\012    sub LIG equal' by exclam_equal.liga;\012    sub exclam'  equal  by LIG;\012  } exclam_equal;\012\012  lookup slash_equal {\012    ignore sub slash slash' equal;\012    ignore sub slash' equal equal;\012    sub LIG equal' by slash_equal.liga;\012    sub slash'  equal  by LIG;\012  } slash_equal;\012\012  lookup hyphen_greater {\012    ignore sub hyphen hyphen' greater;\012    ignore sub hyphen' greater greater;\012    sub LIG greater' by hyphen_greater.liga;\012    sub hyphen'  greater  by LIG;\012  } hyphen_greater;\012\012  lookup less_hyphen {\012    ignore sub less less' hyphen;\012    ignore sub less' hyphen hyphen;\012    sub LIG hyphen' by less_hyphen.liga;\012    sub less'  hyphen  by LIG;\012  } less_hyphen;\012\012  lookup colon_colon {\012    ignore sub colon colon' colon;\012    ignore sub colon' colon colon;\012    sub LIG colon' by colon_colon.liga;\012    sub colon'  colon  by LIG;\012  } colon_colon;\012\012  lookup numbersign_braceleft {\012    ignore sub numbersign numbersign' braceleft;\012    ignore sub numbersign' braceleft braceleft;\012    sub LIG braceleft' by numbersign_braceleft.liga;\012    sub numbersign'  braceleft  by LIG;\012  } numbersign_braceleft;\012\012  lookup asterisk_slash {\012    ignore sub asterisk asterisk' slash;\012    ignore sub asterisk' slash slash;\012    ignore sub slash asterisk' slash;\012    ignore sub asterisk' slash asterisk;\012    sub LIG slash' by asterisk_slash.liga;\012    sub asterisk'  slash  by LIG;\012  } asterisk_slash;\012\012  lookup asciitilde_at {\012    ignore sub asciitilde asciitilde' at;\012    ignore sub asciitilde' at at;\012    sub LIG at' by asciitilde_at.liga;\012    sub asciitilde'  at  by LIG;\012  } asciitilde_at;\012\012### end of generated calt\012\012\012sub less asciitilde' greater by asciitilde_asciitilde.liga;\012\012lookup brace_period {\012  ignore sub braceleft \\period' \\period;\012  ignore sub \\period \\period' braceright;\012  sub braceleft \\period' by \\bullet;\012  sub \\period' braceright by \\bullet;\012} brace_period;\012\012lookup lowercase_hyphen {\012  ignore sub @Tall \\hyphen' @Lowercase;\012  ignore sub @Lowercase \\hyphen' @Tall;  \012  sub \\hyphen' @Lowercase by \\hyphen.lc;\012  sub @Lowercase \\hyphen' by \\hyphen.lc;\012} lowercase_hyphen;\012\012lookup lowercase_plus {\012  ignore sub @Tall \\plus' @Lowercase;\012  ignore sub @Lowercase \\plus' @Tall;\012  sub \\plus' @Lowercase by \\plus.lc;\012  sub @Lowercase \\plus' by \\plus.lc;\012} lowercase_plus;\012\012lookup lowercase_asterisk {\012  ignore sub @Tall \\asterisk' @Lowercase;\012  ignore sub @Lowercase \\asterisk' @Tall;\012  sub \\asterisk' @Lowercase by \\asterisk.lc;\012  sub @Lowercase \\asterisk' by \\asterisk.lc;\012} lowercase_asterisk;\012\012lookup uppercase_colon {\012  ignore sub @Tall \\colon' @Lowercase;\012  ignore sub @Lowercase \\colon' @Tall;\012  sub @Tall \\colon' by \\colon.uc;\012  sub \\colon' @Tall by \\colon.uc;\012} uppercase_colon;\012\012sub \\zero \\x' @HexDigit by \\x.multiply;\012sub @Digit \\x' @Digit by \\x.multiply;\012\012###\012\012lookup caltGreekUCdiph {\012  sub @GreekUCdiphIOTA Iota' by Iotadieresis;\012  sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;\012} caltGreekUCdiph;\012\012lookup caltGreekUC {\012  sub @GreekUCAcc' @GreekUC by @GreekUCcalt;\012  sub @GreekUC @GreekUCAcc' by @GreekUCcalt;\012  sub @GreekUCAcc' space @GreekUC by @GreekUCcalt;\012  sub @GreekUC space @GreekUCAcc' by @GreekUCcalt;\012} caltGreekUC;\012";
+code = "### start of generated calt\012\012  lookup less_backslash_slash_hyphen {\012    ignore sub less less' backslash slash hyphen;\012    ignore sub less' backslash slash hyphen hyphen;\012    sub LIG LIG LIG hyphen' by less_backslash_slash_hyphen.liga;\012    sub LIG LIG  slash' hyphen  by LIG;\012    sub LIG  backslash'  slash  hyphen  by LIG;\012    sub less'   backslash   slash  hyphen  by LIG;\012  } less_backslash_slash_hyphen;\012\012  lookup less_exclam_hyphen_hyphen {\012    ignore sub less less' exclam hyphen hyphen;\012    ignore sub less' exclam hyphen hyphen hyphen;\012    sub LIG LIG LIG hyphen' by less_exclam_hyphen_hyphen.liga;\012    sub LIG LIG  hyphen' hyphen  by LIG;\012    sub LIG  exclam'  hyphen  hyphen  by LIG;\012    sub less'   exclam   hyphen  hyphen  by LIG;\012  } less_exclam_hyphen_hyphen;\012\012  lookup numbersign_numbersign_numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign numbersign numbersign;\012    ignore sub numbersign' numbersign numbersign numbersign numbersign;\012    sub LIG LIG LIG numbersign' by numbersign_numbersign_numbersign_numbersign.liga;\012    sub LIG LIG  numbersign' numbersign  by LIG;\012    sub LIG  numbersign'  numbersign  numbersign  by LIG;\012    sub numbersign'   numbersign   numbersign  numbersign  by LIG;\012  } numbersign_numbersign_numbersign_numbersign;\012\012  lookup less_bar_bar_bar {\012    ignore sub less less' bar bar bar;\012    ignore sub less' bar bar bar bar;\012    sub LIG LIG LIG bar' by less_bar_bar_bar.liga;\012    sub LIG LIG  bar' bar  by LIG;\012    sub LIG  bar'  bar  bar  by LIG;\012    sub less'   bar   bar  bar  by LIG;\012  } less_bar_bar_bar;\012\012  lookup bar_bar_bar_greater {\012    ignore sub bar bar' bar bar greater;\012    ignore sub bar' bar bar greater greater;\012    sub LIG LIG LIG greater' by bar_bar_bar_greater.liga;\012    sub LIG LIG  bar' greater  by LIG;\012    sub LIG  bar'  bar  greater  by LIG;\012    sub bar'   bar   bar  greater  by LIG;\012  } bar_bar_bar_greater;\012\012  lookup hyphen_backslash_slash_greater {\012    ignore sub hyphen hyphen' backslash slash greater;\012    ignore sub hyphen' backslash slash greater greater;\012    sub LIG LIG LIG greater' by hyphen_backslash_slash_greater.liga;\012    sub LIG LIG  slash' greater  by LIG;\012    sub LIG  backslash'  slash  greater  by LIG;\012    sub hyphen'   backslash   slash  greater  by LIG;\012  } hyphen_backslash_slash_greater;\012\012  lookup less_plus_greater {\012    ignore sub less less' plus greater;\012    ignore sub less' plus greater greater;\012    sub LIG LIG greater' by less_plus_greater.liga;\012    sub LIG  plus' greater  by LIG;\012    sub less'   plus  greater  by LIG;\012  } less_plus_greater;\012\012  lookup less_dollar_greater {\012    ignore sub less less' dollar greater;\012    ignore sub less' dollar greater greater;\012    sub LIG LIG greater' by less_dollar_greater.liga;\012    sub LIG  dollar' greater  by LIG;\012    sub less'   dollar  greater  by LIG;\012  } less_dollar_greater;\012\012  lookup bar_bar_equal {\012    ignore sub bar bar' bar equal;\012    ignore sub bar' bar equal equal;\012    sub LIG LIG equal' by bar_bar_equal.liga;\012    sub LIG  bar' equal  by LIG;\012    sub bar'   bar  equal  by LIG;\012  } bar_bar_equal;\012\012  lookup less_hyphen_greater {\012    ignore sub less less' hyphen greater;\012    ignore sub less' hyphen greater greater;\012    sub LIG LIG greater' by less_hyphen_greater.liga;\012    sub LIG  hyphen' greater  by LIG;\012    sub less'   hyphen  greater  by LIG;\012  } less_hyphen_greater;\012\012  lookup greater_greater_hyphen {\012    ignore sub greater greater' greater hyphen;\012    ignore sub greater' greater hyphen hyphen;\012    sub LIG LIG hyphen' by greater_greater_hyphen.liga;\012    sub LIG  greater' hyphen  by LIG;\012    sub greater'   greater  hyphen  by LIG;\012  } greater_greater_hyphen;\012\012  lookup equal_less_less {\012    ignore sub equal equal' less less;\012    ignore sub equal' less less less;\012    sub LIG LIG less' by equal_less_less.liga;\012    sub LIG  less' less  by LIG;\012    sub equal'   less  less  by LIG;\012  } equal_less_less;\012\012  lookup less_equal_less {\012    ignore sub less less' equal less;\012    ignore sub less' equal less less;\012    sub LIG LIG less' by less_equal_less.liga;\012    sub LIG  equal' less  by LIG;\012    sub less'   equal  less  by LIG;\012  } less_equal_less;\012\012  lookup asciitilde_asciitilde_greater {\012    ignore sub asciitilde asciitilde' asciitilde greater;\012    ignore sub asciitilde' asciitilde greater greater;\012    sub LIG LIG greater' by asciitilde_asciitilde_greater.liga;\012    sub LIG  asciitilde' greater  by LIG;\012    sub asciitilde'   asciitilde  greater  by LIG;\012  } asciitilde_asciitilde_greater;\012\012  lookup numbersign_numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign numbersign;\012    ignore sub numbersign' numbersign numbersign numbersign;\012    sub LIG LIG numbersign' by numbersign_numbersign_numbersign.liga;\012    sub LIG  numbersign' numbersign  by LIG;\012    sub numbersign'   numbersign  numbersign  by LIG;\012  } numbersign_numbersign_numbersign;\012\012  lookup asterisk_asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk asterisk;\012    ignore sub asterisk' asterisk asterisk asterisk;\012    ignore sub slash asterisk' asterisk asterisk;\012    ignore sub asterisk' asterisk asterisk slash;\012    sub LIG LIG asterisk' by asterisk_asterisk_asterisk.liga;\012    sub LIG  asterisk' asterisk  by LIG;\012    sub asterisk'   asterisk  asterisk  by LIG;\012  } asterisk_asterisk_asterisk;\012\012  lookup backslash_backslash_backslash {\012    ignore sub backslash backslash' backslash backslash;\012    ignore sub backslash' backslash backslash backslash;\012    sub LIG LIG backslash' by backslash_backslash_backslash.liga;\012    sub LIG  backslash' backslash  by LIG;\012    sub backslash'   backslash  backslash  by LIG;\012  } backslash_backslash_backslash;\012\012  lookup less_less_equal {\012    ignore sub less less' less equal;\012    ignore sub less' less equal equal;\012    sub LIG LIG equal' by less_less_equal.liga;\012    sub LIG  less' equal  by LIG;\012    sub less'   less  equal  by LIG;\012  } less_less_equal;\012\012  lookup less_bar_hyphen {\012    ignore sub less less' bar hyphen;\012    ignore sub less' bar hyphen hyphen;\012    sub LIG LIG hyphen' by less_bar_hyphen.liga;\012    sub LIG  bar' hyphen  by LIG;\012    sub less'   bar  hyphen  by LIG;\012  } less_bar_hyphen;\012\012  lookup less_bar_greater {\012    ignore sub less less' bar greater;\012    ignore sub less' bar greater greater;\012    sub LIG LIG greater' by less_bar_greater.liga;\012    sub LIG  bar' greater  by LIG;\012    sub less'   bar  greater  by LIG;\012  } less_bar_greater;\012\012  lookup w_w_w {\012    ignore sub w w' w w;\012    ignore sub w' w w w;\012    sub LIG LIG w' by w_w_w.liga;\012    sub LIG  w' w  by LIG;\012    sub w'   w  w  by LIG;\012  } w_w_w;\012\012  lookup backslash_slash_hyphen {\012    ignore sub backslash backslash' slash hyphen;\012    ignore sub backslash' slash hyphen hyphen;\012    sub LIG LIG hyphen' by backslash_slash_hyphen.liga;\012    sub LIG  slash' hyphen  by LIG;\012    sub backslash'   slash  hyphen  by LIG;\012  } backslash_slash_hyphen;\012\012  lookup slash_slash_slash {\012    ignore sub slash slash' slash slash;\012    ignore sub slash' slash slash slash;\012    sub LIG LIG slash' by slash_slash_slash.liga;\012    sub LIG  slash' slash  by LIG;\012    sub slash'   slash  slash  by LIG;\012  } slash_slash_slash;\012\012  lookup slash_equal_equal {\012    ignore sub slash slash' equal equal;\012    ignore sub slash' equal equal equal;\012    sub LIG LIG equal' by slash_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub slash'   equal  equal  by LIG;\012  } slash_equal_equal;\012\012  lookup less_hyphen_hyphen {\012    ignore sub less less' hyphen hyphen;\012    ignore sub less' hyphen hyphen hyphen;\012    sub LIG LIG hyphen' by less_hyphen_hyphen.liga;\012    sub LIG  hyphen' hyphen  by LIG;\012    sub less'   hyphen  hyphen  by LIG;\012  } less_hyphen_hyphen;\012\012  lookup equal_greater_greater {\012    ignore sub equal equal' greater greater;\012    ignore sub equal' greater greater greater;\012    sub LIG LIG greater' by equal_greater_greater.liga;\012    sub LIG  greater' greater  by LIG;\012    sub equal'   greater  greater  by LIG;\012  } equal_greater_greater;\012\012  lookup less_hyphen_less {\012    ignore sub less less' hyphen less;\012    ignore sub less' hyphen less less;\012    sub LIG LIG less' by less_hyphen_less.liga;\012    sub LIG  hyphen' less  by LIG;\012    sub less'   hyphen  less  by LIG;\012  } less_hyphen_less;\012\012  lookup hyphen_less_bar {\012    ignore sub hyphen hyphen' less bar;\012    ignore sub hyphen' less bar bar;\012    sub LIG LIG bar' by hyphen_less_bar.liga;\012    sub LIG  less' bar  by LIG;\012    sub hyphen'   less  bar  by LIG;\012  } hyphen_less_bar;\012\012  lookup less_less_hyphen {\012    ignore sub less less' less hyphen;\012    ignore sub less' less hyphen hyphen;\012    sub LIG LIG hyphen' by less_less_hyphen.liga;\012    sub LIG  less' hyphen  by LIG;\012    sub less'   less  hyphen  by LIG;\012  } less_less_hyphen;\012\012  lookup less_colon_less {\012    ignore sub less less' colon less;\012    ignore sub less' colon less less;\012    sub LIG LIG less' by less_colon_less.liga;\012    sub LIG  colon' less  by LIG;\012    sub less'   colon  less  by LIG;\012  } less_colon_less;\012\012  lookup backslash_slash_greater {\012    ignore sub backslash backslash' slash greater;\012    ignore sub backslash' slash greater greater;\012    sub LIG LIG greater' by backslash_slash_greater.liga;\012    sub LIG  slash' greater  by LIG;\012    sub backslash'   slash  greater  by LIG;\012  } backslash_slash_greater;\012\012  lookup hyphen_hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen hyphen;\012    ignore sub hyphen' hyphen hyphen hyphen;\012    sub LIG LIG hyphen' by hyphen_hyphen_hyphen.liga;\012    sub LIG  hyphen' hyphen  by LIG;\012    sub hyphen'   hyphen  hyphen  by LIG;\012  } hyphen_hyphen_hyphen;\012\012  lookup less_slash_greater {\012    ignore sub less less' slash greater;\012    ignore sub less' slash greater greater;\012    sub LIG LIG greater' by less_slash_greater.liga;\012    sub LIG  slash' greater  by LIG;\012    sub less'   slash  greater  by LIG;\012  } less_slash_greater;\012\012  lookup hyphen_greater_greater {\012    ignore sub hyphen hyphen' greater greater;\012    ignore sub hyphen' greater greater greater;\012    sub LIG LIG greater' by hyphen_greater_greater.liga;\012    sub LIG  greater' greater  by LIG;\012    sub hyphen'   greater  greater  by LIG;\012  } hyphen_greater_greater;\012\012  lookup hyphen_less_less {\012    ignore sub hyphen hyphen' less less;\012    ignore sub hyphen' less less less;\012    sub LIG LIG less' by hyphen_less_less.liga;\012    sub LIG  less' less  by LIG;\012    sub hyphen'   less  less  by LIG;\012  } hyphen_less_less;\012\012  lookup less_less_less {\012    ignore sub less less' less less;\012    ignore sub less' less less less;\012    sub LIG LIG less' by less_less_less.liga;\012    sub LIG  less' less  by LIG;\012    sub less'   less  less  by LIG;\012  } less_less_less;\012\012  lookup bar_bar_greater {\012    ignore sub bar bar' bar greater;\012    ignore sub bar' bar greater greater;\012    sub LIG LIG greater' by bar_bar_greater.liga;\012    sub LIG  bar' greater  by LIG;\012    sub bar'   bar  greater  by LIG;\012  } bar_bar_greater;\012\012  lookup equal_equal_greater {\012    ignore sub equal equal' equal greater;\012    ignore sub equal' equal greater greater;\012    sub LIG LIG greater' by equal_equal_greater.liga;\012    sub LIG  equal' greater  by LIG;\012    sub equal'   equal  greater  by LIG;\012  } equal_equal_greater;\012\012  lookup backslash_ampersand_slash {\012    ignore sub backslash backslash' ampersand slash;\012    ignore sub backslash' ampersand slash slash;\012    sub LIG LIG slash' by backslash_ampersand_slash.liga;\012    sub LIG  ampersand' slash  by LIG;\012    sub backslash'   ampersand  slash  by LIG;\012  } backslash_ampersand_slash;\012\012  lookup period_period_period {\012    ignore sub period period' period period;\012    ignore sub period' period period period;\012    sub LIG LIG period' by period_period_period.liga;\012    sub LIG  period' period  by LIG;\012    sub period'   period  period  by LIG;\012  } period_period_period;\012\012  lookup less_asciitilde_greater {\012    ignore sub less less' asciitilde greater;\012    ignore sub less' asciitilde greater greater;\012    sub LIG LIG greater' by less_asciitilde_greater.liga;\012    sub LIG  asciitilde' greater  by LIG;\012    sub less'   asciitilde  greater  by LIG;\012  } less_asciitilde_greater;\012\012  lookup less_equal_equal {\012    ignore sub less less' equal equal;\012    ignore sub less' equal equal equal;\012    sub LIG LIG equal' by less_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub less'   equal  equal  by LIG;\012  } less_equal_equal;\012\012  lookup greater_equal_greater {\012    ignore sub greater greater' equal greater;\012    ignore sub greater' equal greater greater;\012    sub LIG LIG greater' by greater_equal_greater.liga;\012    sub LIG  equal' greater  by LIG;\012    sub greater'   equal  greater  by LIG;\012  } greater_equal_greater;\012\012  lookup greater_hyphen_greater {\012    ignore sub greater greater' hyphen greater;\012    ignore sub greater' hyphen greater greater;\012    sub LIG LIG greater' by greater_hyphen_greater.liga;\012    sub LIG  hyphen' greater  by LIG;\012    sub greater'   hyphen  greater  by LIG;\012  } greater_hyphen_greater;\012\012  lookup less_asterisk_greater {\012    ignore sub less less' asterisk greater;\012    ignore sub less' asterisk greater greater;\012    sub LIG LIG greater' by less_asterisk_greater.liga;\012    sub LIG  asterisk' greater  by LIG;\012    sub less'   asterisk  greater  by LIG;\012  } less_asterisk_greater;\012\012  lookup numbersign_underscore_parenleft {\012    ignore sub numbersign numbersign' underscore parenleft;\012    ignore sub numbersign' underscore parenleft parenleft;\012    sub LIG LIG parenleft' by numbersign_underscore_parenleft.liga;\012    sub LIG  underscore' parenleft  by LIG;\012    sub numbersign'   underscore  parenleft  by LIG;\012  } numbersign_underscore_parenleft;\012\012  lookup plus_plus_plus {\012    ignore sub plus plus' plus plus;\012    ignore sub plus' plus plus plus;\012    sub LIG LIG plus' by plus_plus_plus.liga;\012    sub LIG  plus' plus  by LIG;\012    sub plus'   plus  plus  by LIG;\012  } plus_plus_plus;\012\012  lookup less_asciitilde_asciitilde {\012    ignore sub less less' asciitilde asciitilde;\012    ignore sub less' asciitilde asciitilde asciitilde;\012    sub LIG LIG asciitilde' by less_asciitilde_asciitilde.liga;\012    sub LIG  asciitilde' asciitilde  by LIG;\012    sub less'   asciitilde  asciitilde  by LIG;\012  } less_asciitilde_asciitilde;\012\012  lookup exclam_equal_equal {\012    ignore sub exclam exclam' equal equal;\012    ignore sub exclam' equal equal equal;\012    sub LIG LIG equal' by exclam_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub exclam'   equal  equal  by LIG;\012  } exclam_equal_equal;\012\012  lookup hyphen_hyphen_greater {\012    ignore sub hyphen hyphen' hyphen greater;\012    ignore sub hyphen' hyphen greater greater;\012    sub LIG LIG greater' by hyphen_hyphen_greater.liga;\012    sub LIG  hyphen' greater  by LIG;\012    sub hyphen'   hyphen  greater  by LIG;\012  } hyphen_hyphen_greater;\012\012  lookup equal_slash_equal {\012    ignore sub equal equal' slash equal;\012    ignore sub equal' slash equal equal;\012    sub LIG LIG equal' by equal_slash_equal.liga;\012    sub LIG  slash' equal  by LIG;\012    sub equal'   slash  equal  by LIG;\012  } equal_slash_equal;\012\012  lookup backslash_bar_slash {\012    ignore sub backslash backslash' bar slash;\012    ignore sub backslash' bar slash slash;\012    sub LIG LIG slash' by backslash_bar_slash.liga;\012    sub LIG  bar' slash  by LIG;\012    sub backslash'   bar  slash  by LIG;\012  } backslash_bar_slash;\012\012  lookup less_backslash_slash {\012    ignore sub less less' backslash slash;\012    ignore sub less' backslash slash slash;\012    sub LIG LIG slash' by less_backslash_slash.liga;\012    sub LIG  backslash' slash  by LIG;\012    sub less'   backslash  slash  by LIG;\012  } less_backslash_slash;\012\012  lookup less_equal_greater {\012    ignore sub less less' equal greater;\012    ignore sub less' equal greater greater;\012    sub LIG LIG greater' by less_equal_greater.liga;\012    sub LIG  equal' greater  by LIG;\012    sub less'   equal  greater  by LIG;\012  } less_equal_greater;\012\012  lookup greater_greater_greater {\012    ignore sub greater greater' greater greater;\012    ignore sub greater' greater greater greater;\012    sub LIG LIG greater' by greater_greater_greater.liga;\012    sub LIG  greater' greater  by LIG;\012    sub greater'   greater  greater  by LIG;\012  } greater_greater_greater;\012\012  lookup greater_greater_equal {\012    ignore sub greater greater' greater equal;\012    ignore sub greater' greater equal equal;\012    sub LIG LIG equal' by greater_greater_equal.liga;\012    sub LIG  greater' equal  by LIG;\012    sub greater'   greater  equal  by LIG;\012  } greater_greater_equal;\012\012  lookup period_period_less {\012    ignore sub period period' period less;\012    ignore sub period' period less less;\012    sub LIG LIG less' by period_period_less.liga;\012    sub LIG  period' less  by LIG;\012    sub period'   period  less  by LIG;\012  } period_period_less;\012\012  lookup equal_colon_equal {\012    ignore sub equal equal' colon equal;\012    ignore sub equal' colon equal equal;\012    sub LIG LIG equal' by equal_colon_equal.liga;\012    sub LIG  colon' equal  by LIG;\012    sub equal'   colon  equal  by LIG;\012  } equal_colon_equal;\012\012  lookup equal_equal_equal {\012    ignore sub equal equal' equal equal;\012    ignore sub equal' equal equal equal;\012    sub LIG LIG equal' by equal_equal_equal.liga;\012    sub LIG  equal' equal  by LIG;\012    sub equal'   equal  equal  by LIG;\012  } equal_equal_equal;\012\012  lookup hyphen_backslash_slash {\012    ignore sub hyphen hyphen' backslash slash;\012    ignore sub hyphen' backslash slash slash;\012    sub LIG LIG slash' by hyphen_backslash_slash.liga;\012    sub LIG  backslash' slash  by LIG;\012    sub hyphen'   backslash  slash  by LIG;\012  } hyphen_backslash_slash;\012\012  lookup colon_colon_colon {\012    ignore sub colon colon' colon colon;\012    ignore sub colon' colon colon colon;\012    sub LIG LIG colon' by colon_colon_colon.liga;\012    sub LIG  colon' colon  by LIG;\012    sub colon'   colon  colon  by LIG;\012  } colon_colon_colon;\012\012  lookup less_dollar {\012    ignore sub less less' dollar;\012    ignore sub less' dollar dollar;\012    sub LIG dollar' by less_dollar.liga;\012    sub less'  dollar  by LIG;\012  } less_dollar;\012\012  lookup question_question {\012    ignore sub question question' question;\012    ignore sub question' question question;\012    sub LIG question' by question_question.liga;\012    sub question'  question  by LIG;\012  } question_question;\012\012  lookup asciitilde_asciitilde {\012    ignore sub asciitilde asciitilde' asciitilde;\012    ignore sub asciitilde' asciitilde asciitilde;\012    sub LIG asciitilde' by asciitilde_asciitilde.liga;\012    sub asciitilde'  asciitilde  by LIG;\012  } asciitilde_asciitilde;\012\012  lookup underscore_asterisk {\012    ignore sub underscore underscore' asterisk;\012    ignore sub underscore' asterisk asterisk;\012    sub LIG asterisk' by underscore_asterisk.liga;\012    sub underscore'  asterisk  by LIG;\012  } underscore_asterisk;\012\012  lookup asterisk_asterisk {\012    ignore sub asterisk asterisk' asterisk;\012    ignore sub asterisk' asterisk asterisk;\012    ignore sub slash asterisk' asterisk;\012    ignore sub asterisk' asterisk slash;\012    sub LIG asterisk' by asterisk_asterisk.liga;\012    sub asterisk'  asterisk  by LIG;\012  } asterisk_asterisk;\012\012  lookup greater_colon {\012    ignore sub greater greater' colon;\012    ignore sub greater' colon colon;\012    sub LIG colon' by greater_colon.liga;\012    sub greater'  colon  by LIG;\012  } greater_colon;\012\012  lookup greater_greater {\012    ignore sub greater greater' greater;\012    ignore sub greater' greater greater;\012    sub LIG greater' by greater_greater.liga;\012    sub greater'  greater  by LIG;\012  } greater_greater;\012\012  lookup slash_slash {\012    ignore sub slash slash' slash;\012    ignore sub slash' slash slash;\012    sub LIG slash' by slash_slash.liga;\012    sub slash'  slash  by LIG;\012  } slash_slash;\012\012  lookup colon_equal {\012    ignore sub colon colon' equal;\012    ignore sub colon' equal equal;\012    sub LIG equal' by colon_equal.liga;\012    sub colon'  equal  by LIG;\012  } colon_equal;\012\012  lookup less_greater {\012    ignore sub less less' greater;\012    ignore sub less' greater greater;\012    sub LIG greater' by less_greater.liga;\012    sub less'  greater  by LIG;\012  } less_greater;\012\012  lookup exclam_exclam {\012    ignore sub exclam exclam' exclam;\012    ignore sub exclam' exclam exclam;\012    sub LIG exclam' by exclam_exclam.liga;\012    sub exclam'  exclam  by LIG;\012  } exclam_exclam;\012\012  lookup asciitilde_greater {\012    ignore sub asciitilde asciitilde' greater;\012    ignore sub asciitilde' greater greater;\012    sub LIG greater' by asciitilde_greater.liga;\012    sub asciitilde'  greater  by LIG;\012  } asciitilde_greater;\012\012  lookup bar_greater {\012    ignore sub bar bar' greater;\012    ignore sub bar' greater greater;\012    sub LIG greater' by bar_greater.liga;\012    sub bar'  greater  by LIG;\012  } bar_greater;\012\012  lookup less_less {\012    ignore sub less less' less;\012    ignore sub less' less less;\012    sub LIG less' by less_less.liga;\012    sub less'  less  by LIG;\012  } less_less;\012\012  lookup hyphen_hyphen {\012    ignore sub hyphen hyphen' hyphen;\012    ignore sub hyphen' hyphen hyphen;\012    sub LIG hyphen' by hyphen_hyphen.liga;\012    sub hyphen'  hyphen  by LIG;\012  } hyphen_hyphen;\012\012  lookup ampersand_ampersand {\012    ignore sub ampersand ampersand' ampersand;\012    ignore sub ampersand' ampersand ampersand;\012    sub LIG ampersand' by ampersand_ampersand.liga;\012    sub ampersand'  ampersand  by LIG;\012  } ampersand_ampersand;\012\012  lookup question_equal {\012    ignore sub question question' equal;\012    ignore sub question' equal equal;\012    sub LIG equal' by question_equal.liga;\012    sub question'  equal  by LIG;\012  } question_equal;\012\012  lookup underscore_underscore {\012    ignore sub underscore underscore' underscore;\012    ignore sub underscore' underscore underscore;\012    sub LIG underscore' by underscore_underscore.liga;\012    sub underscore'  underscore  by LIG;\012  } underscore_underscore;\012\012  lookup plus_greater {\012    ignore sub plus plus' greater;\012    ignore sub plus' greater greater;\012    sub LIG greater' by plus_greater.liga;\012    sub plus'  greater  by LIG;\012  } plus_greater;\012\012  lookup asciitilde_equal {\012    ignore sub asciitilde asciitilde' equal;\012    ignore sub asciitilde' equal equal;\012    sub LIG equal' by asciitilde_equal.liga;\012    sub asciitilde'  equal  by LIG;\012  } asciitilde_equal;\012\012  lookup asciicircum_equal {\012    ignore sub asciicircum asciicircum' equal;\012    ignore sub asciicircum' equal equal;\012    sub LIG equal' by asciicircum_equal.liga;\012    sub asciicircum'  equal  by LIG;\012  } asciicircum_equal;\012\012  lookup bar_equal {\012    ignore sub bar bar' equal;\012    ignore sub bar' equal equal;\012    sub LIG equal' by bar_equal.liga;\012    sub bar'  equal  by LIG;\012  } bar_equal;\012\012  lookup backslash_backslash {\012    ignore sub backslash backslash' backslash;\012    ignore sub backslash' backslash backslash;\012    sub LIG backslash' by backslash_backslash.liga;\012    sub backslash'  backslash  by LIG;\012  } backslash_backslash;\012\012  lookup numbersign_question {\012    ignore sub numbersign numbersign' question;\012    ignore sub numbersign' question question;\012    sub LIG question' by numbersign_question.liga;\012    sub numbersign'  question  by LIG;\012  } numbersign_question;\012\012  lookup less_slash {\012    ignore sub less less' slash;\012    ignore sub less' slash slash;\012    sub LIG slash' by less_slash.liga;\012    sub less'  slash  by LIG;\012  } less_slash;\012\012  lookup bar_bar {\012    ignore sub bar bar' bar;\012    ignore sub bar' bar bar;\012    sub LIG bar' by bar_bar.liga;\012    sub bar'  bar  by LIG;\012  } bar_bar;\012\012  lookup less_plus {\012    ignore sub less less' plus;\012    ignore sub less' plus plus;\012    sub LIG plus' by less_plus.liga;\012    sub less'  plus  by LIG;\012  } less_plus;\012\012  lookup numbersign_numbersign {\012    ignore sub numbersign numbersign' numbersign;\012    ignore sub numbersign' numbersign numbersign;\012    sub LIG numbersign' by numbersign_numbersign.liga;\012    sub numbersign'  numbersign  by LIG;\012  } numbersign_numbersign;\012\012  lookup less_colon {\012    ignore sub less less' colon;\012    ignore sub less' colon colon;\012    sub LIG colon' by less_colon.liga;\012    sub less'  colon  by LIG;\012  } less_colon;\012\012  lookup numbersign_parenleft {\012    ignore sub numbersign numbersign' parenleft;\012    ignore sub numbersign' parenleft parenleft;\012    sub LIG parenleft' by numbersign_parenleft.liga;\012    sub numbersign'  parenleft  by LIG;\012  } numbersign_parenleft;\012\012  lookup greater_hyphen {\012    ignore sub greater greater' hyphen;\012    ignore sub greater' hyphen hyphen;\012    sub LIG hyphen' by greater_hyphen.liga;\012    sub greater'  hyphen  by LIG;\012  } greater_hyphen;\012\012  lookup numbersign_exclam {\012    ignore sub numbersign numbersign' exclam;\012    ignore sub numbersign' exclam exclam;\012    sub LIG exclam' by numbersign_exclam.liga;\012    sub numbersign'  exclam  by LIG;\012  } numbersign_exclam;\012\012  lookup greater_equal {\012    ignore sub greater greater' equal;\012    ignore sub greater' equal equal;\012    sub LIG equal' by greater_equal.liga;\012    sub greater'  equal  by LIG;\012  } greater_equal;\012\012  lookup percent_percent {\012    ignore sub percent percent' percent;\012    ignore sub percent' percent percent;\012    sub LIG percent' by percent_percent.liga;\012    sub percent'  percent  by LIG;\012  } percent_percent;\012\012  lookup bracketright_numbersign {\012    ignore sub bracketright bracketright' numbersign;\012    ignore sub bracketright' numbersign numbersign;\012    sub LIG numbersign' by bracketright_numbersign.liga;\012    sub bracketright'  numbersign  by LIG;\012  } bracketright_numbersign;\012\012  lookup equal_greater {\012    ignore sub equal equal' greater;\012    ignore sub equal' greater greater;\012    sub LIG greater' by equal_greater.liga;\012    sub equal'  greater  by LIG;\012  } equal_greater;\012\012  lookup hyphen_less {\012    ignore sub hyphen hyphen' less;\012    ignore sub hyphen' less less;\012    sub LIG less' by hyphen_less.liga;\012    sub hyphen'  less  by LIG;\012  } hyphen_less;\012\012  lookup asciitilde_hyphen {\012    ignore sub asciitilde asciitilde' hyphen;\012    ignore sub asciitilde' hyphen hyphen;\012    sub LIG hyphen' by asciitilde_hyphen.liga;\012    sub asciitilde'  hyphen  by LIG;\012  } asciitilde_hyphen;\012\012  lookup equal_equal {\012    ignore sub equal equal' equal;\012    ignore sub equal' equal equal;\012    sub LIG equal' by equal_equal.liga;\012    sub equal'  equal  by LIG;\012  } equal_equal;\012\012  lookup slash_backslash {\012    ignore sub slash slash' backslash;\012    ignore sub slash' backslash backslash;\012    sub LIG backslash' by slash_backslash.liga;\012    sub space slash'  backslash spac  by LIG;\012    sub slash'  backslash  by LIG;\012  } slash_backslash;\012\012  lookup period_equal {\012    ignore sub period period' equal;\012    ignore sub period' equal equal;\012    sub LIG equal' by period_equal.liga;\012    sub period'  equal  by LIG;\012  } period_equal;\012\012  lookup numbersign_underscore {\012    ignore sub numbersign numbersign' underscore;\012    ignore sub numbersign' underscore underscore;\012    sub LIG underscore' by numbersign_underscore.liga;\012    sub numbersign'  underscore  by LIG;\012  } numbersign_underscore;\012\012  lookup less_bar {\012    ignore sub less less' bar;\012    ignore sub less' bar bar;\012    sub LIG bar' by less_bar.liga;\012    sub less'  bar  by LIG;\012  } less_bar;\012\012  lookup at_at {\012    ignore sub at at' at;\012    ignore sub at' at at;\012    sub LIG at' by at_at.liga;\012    sub at'  at  by LIG;\012  } at_at;\012\012  lookup question_period {\012    ignore sub question question' period;\012    ignore sub question' period period;\012    sub LIG period' by question_period.liga;\012    sub question'  period  by LIG;\012  } question_period;\012\012  lookup hyphen_asciitilde {\012    ignore sub hyphen hyphen' asciitilde;\012    ignore sub hyphen' asciitilde asciitilde;\012    sub LIG asciitilde' by hyphen_asciitilde.liga;\012    sub hyphen'  asciitilde  by LIG;\012  } hyphen_asciitilde;\012\012  lookup asterisk_greater {\012    ignore sub asterisk asterisk' greater;\012    ignore sub asterisk' greater greater;\012    sub LIG greater' by asterisk_greater.liga;\012    sub asterisk'  greater  by LIG;\012  } asterisk_greater;\012\012  lookup period_hyphen {\012    ignore sub period period' hyphen;\012    ignore sub period' hyphen hyphen;\012    sub LIG hyphen' by period_hyphen.liga;\012    sub period'  hyphen  by LIG;\012  } period_hyphen;\012\012  lookup plus_plus {\012    ignore sub plus plus' plus;\012    ignore sub plus' plus plus;\012    sub LIG plus' by plus_plus.liga;\012    sub plus'  plus  by LIG;\012  } plus_plus;\012\012  lookup numbersign_bracketleft {\012    ignore sub numbersign numbersign' bracketleft;\012    ignore sub numbersign' bracketleft bracketleft;\012    sub LIG bracketleft' by numbersign_bracketleft.liga;\012    sub numbersign'  bracketleft  by LIG;\012  } numbersign_bracketleft;\012\012  lookup equal_less {\012    ignore sub equal equal' less;\012    ignore sub equal' less less;\012    sub LIG less' by equal_less.liga;\012    sub equal'  less  by LIG;\012  } equal_less;\012\012  lookup less_equal {\012    ignore sub less less' equal;\012    ignore sub less' equal equal;\012    sub LIG equal' by less_equal.liga;\012    sub less'  equal  by LIG;\012  } less_equal;\012\012  lookup period_period {\012    ignore sub period period' period;\012    ignore sub period' period period;\012    sub LIG period' by period_period.liga;\012    sub period'  period  by LIG;\012  } period_period;\012\012  lookup less_asciitilde {\012    ignore sub less less' asciitilde;\012    ignore sub less' asciitilde asciitilde;\012    sub LIG asciitilde' by less_asciitilde.liga;\012    sub less'  asciitilde  by LIG;\012  } less_asciitilde;\012\012  lookup period_question {\012    ignore sub period period' question;\012    ignore sub period' question question;\012    sub LIG question' by period_question.liga;\012    sub period'  question  by LIG;\012  } period_question;\012\012  lookup semicolon_semicolon {\012    ignore sub semicolon semicolon' semicolon;\012    ignore sub semicolon' semicolon semicolon;\012    sub LIG semicolon' by semicolon_semicolon.liga;\012    sub semicolon'  semicolon  by LIG;\012  } semicolon_semicolon;\012\012  lookup backslash_slash {\012    ignore sub backslash backslash' slash;\012    ignore sub backslash' slash slash;\012    sub LIG slash' by backslash_slash.liga;\012    sub backslash'  slash  by LIG;\012  } backslash_slash;\012\012  lookup dollar_greater {\012    ignore sub dollar dollar' greater;\012    ignore sub dollar' greater greater;\012    sub LIG greater' by dollar_greater.liga;\012    sub dollar'  greater  by LIG;\012  } dollar_greater;\012\012  lookup slash_greater {\012    ignore sub slash slash' greater;\012    ignore sub slash' greater greater;\012    sub LIG greater' by slash_greater.liga;\012    sub slash'  greater  by LIG;\012  } slash_greater;\012\012  lookup question_colon {\012    ignore sub question question' colon;\012    ignore sub question' colon colon;\012    sub LIG colon' by question_colon.liga;\012    sub question'  colon  by LIG;\012  } question_colon;\012\012  lookup slash_asterisk {\012    ignore sub slash slash' asterisk;\012    ignore sub slash' asterisk asterisk;\012    ignore sub slash' asterisk slash;\012    ignore sub asterisk slash' asterisk;\012    sub LIG asterisk' by slash_asterisk.liga;\012    sub slash'  asterisk  by LIG;\012  } slash_asterisk;\012\012  lookup less_asterisk {\012    ignore sub less less' asterisk;\012    ignore sub less' asterisk asterisk;\012    sub LIG asterisk' by less_asterisk.liga;\012    sub less'  asterisk  by LIG;\012  } less_asterisk;\012\012  lookup exclam_equal {\012    ignore sub exclam exclam' equal;\012    ignore sub exclam' equal equal;\012    sub LIG equal' by exclam_equal.liga;\012    sub exclam'  equal  by LIG;\012  } exclam_equal;\012\012  lookup slash_equal {\012    ignore sub slash slash' equal;\012    ignore sub slash' equal equal;\012    sub LIG equal' by slash_equal.liga;\012    sub slash'  equal  by LIG;\012  } slash_equal;\012\012  lookup hyphen_greater {\012    ignore sub hyphen hyphen' greater;\012    ignore sub hyphen' greater greater;\012    sub LIG greater' by hyphen_greater.liga;\012    sub hyphen'  greater  by LIG;\012  } hyphen_greater;\012\012  lookup less_percent {\012    ignore sub less less' percent;\012    ignore sub less' percent percent;\012    sub LIG percent' by less_percent.liga;\012    sub less'  percent  by LIG;\012  } less_percent;\012\012  lookup less_hyphen {\012    ignore sub less less' hyphen;\012    ignore sub less' hyphen hyphen;\012    sub LIG hyphen' by less_hyphen.liga;\012    sub less'  hyphen  by LIG;\012  } less_hyphen;\012\012  lookup colon_colon {\012    ignore sub colon colon' colon;\012    ignore sub colon' colon colon;\012    sub LIG colon' by colon_colon.liga;\012    sub colon'  colon  by LIG;\012  } colon_colon;\012\012  lookup numbersign_braceleft {\012    ignore sub numbersign numbersign' braceleft;\012    ignore sub numbersign' braceleft braceleft;\012    sub LIG braceleft' by numbersign_braceleft.liga;\012    sub numbersign'  braceleft  by LIG;\012  } numbersign_braceleft;\012\012  lookup asterisk_slash {\012    ignore sub asterisk asterisk' slash;\012    ignore sub asterisk' slash slash;\012    ignore sub slash asterisk' slash;\012    ignore sub asterisk' slash asterisk;\012    sub LIG slash' by asterisk_slash.liga;\012    sub asterisk'  slash  by LIG;\012  } asterisk_slash;\012\012  lookup asciitilde_at {\012    ignore sub asciitilde asciitilde' at;\012    ignore sub asciitilde' at at;\012    sub LIG at' by asciitilde_at.liga;\012    sub asciitilde'  at  by LIG;\012  } asciitilde_at;\012\012### end of generated calt\012\012\012sub less asciitilde' greater by asciitilde_asciitilde.liga;\012\012lookup brace_period {\012  ignore sub braceleft \\period' \\period;\012  ignore sub \\period \\period' braceright;\012  sub braceleft \\period' by \\bullet;\012  sub \\period' braceright by \\bullet;\012} brace_period;\012\012lookup lowercase_hyphen {\012  ignore sub @Tall \\hyphen' @Lowercase;\012  ignore sub @Lowercase \\hyphen' @Tall;  \012  sub \\hyphen' @Lowercase by \\hyphen.lc;\012  sub @Lowercase \\hyphen' by \\hyphen.lc;\012} lowercase_hyphen;\012\012lookup lowercase_plus {\012  ignore sub @Tall \\plus' @Lowercase;\012  ignore sub @Lowercase \\plus' @Tall;\012  sub \\plus' @Lowercase by \\plus.lc;\012  sub @Lowercase \\plus' by \\plus.lc;\012} lowercase_plus;\012\012lookup lowercase_asterisk {\012  ignore sub @Tall \\asterisk' @Lowercase;\012  ignore sub @Lowercase \\asterisk' @Tall;\012  sub \\asterisk' @Lowercase by \\asterisk.lc;\012  sub @Lowercase \\asterisk' by \\asterisk.lc;\012} lowercase_asterisk;\012\012lookup uppercase_colon {\012  ignore sub @Tall \\colon' @Lowercase;\012  ignore sub @Lowercase \\colon' @Tall;\012  sub @Tall \\colon' by \\colon.uc;\012  sub \\colon' @Tall by \\colon.uc;\012} uppercase_colon;\012\012sub \\zero \\x' @HexDigit by \\x.multiply;\012sub @Digit \\x' @Digit by \\x.multiply;\012\012###\012\012lookup caltGreekUCdiph {\012  sub @GreekUCdiphIOTA Iota' by Iotadieresis;\012  sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;\012} caltGreekUCdiph;\012\012lookup caltGreekUC {\012  sub @GreekUCAcc' @GreekUC by @GreekUCcalt;\012  sub @GreekUC @GreekUCAcc' by @GreekUCcalt;\012  sub @GreekUCAcc' space @GreekUC by @GreekUCcalt;\012  sub @GreekUC space @GreekUCAcc' by @GreekUCcalt;\012} caltGreekUC;\012";
 name = calt;
 }
 );
@@ -17750,507 +17762,6 @@ width = 600;
 unicode = 207F;
 },
 {
-color = 4;
-glyphname = "Dche-cy";
-lastChange = "2015-09-08 09:15:17 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -222}";
-},
-{
-name = top;
-position = "{300, 693}";
-}
-);
-components = (
-{
-name = "descStraight-cy.case";
-transform = "{-1, 0, 0, 1, 446, 0}";
-},
-{
-name = "descStraight-cy.case";
-transform = "{1, 0, 0, 1, 195, 0}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"539 0 LINE",
-"539 693 LINE",
-"225 693 LINE",
-"214 498 LINE SMOOTH",
-"201 283 OFFCURVE",
-"152 197 OFFCURVE",
-"97 120 CURVE",
-"104 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"322 219 OFFCURVE",
-"335 331 OFFCURVE",
-"346 492 CURVE SMOOTH",
-"352 582 LINE",
-"402 582 LINE",
-"402 123 LINE",
-"233 123 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"17 535 LINE SMOOTH",
-"17 378 OFFCURVE",
-"85 290 OFFCURVE",
-"279 290 CURVE",
-"437 289 LINE",
-"437 407 LINE",
-"277 407 LINE SMOOTH",
-"173 407 OFFCURVE",
-"148 447 OFFCURVE",
-"148 537 CURVE SMOOTH",
-"148 693 LINE",
-"17 693 LINE"
-);
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -202}";
-},
-{
-name = top;
-position = "{300, 689}";
-}
-);
-components = (
-{
-name = "descStraight-cy.case";
-transform = "{-1, 0, 0, 1, 412, 0}";
-},
-{
-name = "descStraight-cy.case";
-transform = "{1, 0, 0, 1, 206, 0}";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"528 0 LINE",
-"528 689 LINE",
-"246 689 LINE",
-"222 489 LINE SMOOTH",
-"192 240 OFFCURVE",
-"136 128 OFFCURVE",
-"90 78 CURVE",
-"90 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"239 137 OFFCURVE",
-"287 224 OFFCURVE",
-"316 485 CURVE SMOOTH",
-"330 611 LINE",
-"436 611 LINE",
-"436 78 LINE",
-"183 78 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"56 556 LINE SMOOTH",
-"57 395 OFFCURVE",
-"132 331 OFFCURVE",
-"294 331 CURVE",
-"453 331 LINE",
-"453 407 LINE",
-"298 407 LINE SMOOTH",
-"184 407 OFFCURVE",
-"150 453 OFFCURVE",
-"150 559 CURVE SMOOTH",
-"150 689 LINE",
-"56 689 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 052C;
-},
-{
-color = 4;
-glyphname = "Dzzhe-cy";
-lastChange = "2015-09-08 09:15:17 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -222}";
-},
-{
-name = top;
-position = "{300, 693}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"63 -175 LINE",
-"77 0 LINE",
-"98 0 LINE",
-"71 98 LINE",
-"-15 98 LINE",
-"-15 -175 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"356 -175 LINE",
-"356 98 LINE",
-"271 98 LINE",
-"245 0 LINE",
-"266 0 LINE",
-"278 -175 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"418 0 LINE",
-"418 98 LINE",
-"278 98 LINE",
-"278 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"294 0 LINE",
-"294 693 LINE",
-"81 693 LINE",
-"68 475 LINE SMOOTH",
-"55 240 OFFCURVE",
-"41 150 OFFCURVE",
-"14 98 CURVE",
-"23 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"135 167 OFFCURVE",
-"152 240 OFFCURVE",
-"161 469 CURVE SMOOTH",
-"167 606 LINE",
-"200 606 LINE",
-"200 98 LINE",
-"93 98 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"335 320 LINE",
-"335 0 LINE",
-"426 0 LINE",
-"426 320 LINE",
-"451 320 LINE",
-"513 0 LINE",
-"616 0 LINE",
-"536 379 LINE",
-"607 693 LINE",
-"510 693 LINE",
-"450 402 LINE",
-"426 402 LINE",
-"426 693 LINE",
-"335 693 LINE",
-"335 402 LINE",
-"226 402 LINE",
-"226 320 LINE"
-);
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -202}";
-},
-{
-name = top;
-position = "{300, 689}";
-}
-);
-background = {
-components = (
-{
-name = "descStraight-cy.case";
-transform = "{1, 0, 0, 1, 302, 0}";
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"52 -150 LINE",
-"67 0 LINE",
-"90 0 LINE",
-"90 68 LINE",
-"-13 68 LINE",
-"-13 -150 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"366 -150 LINE",
-"366 68 LINE",
-"263 68 LINE",
-"262 0 LINE",
-"285 0 LINE",
-"300 -150 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"393 0 LINE",
-"393 68 LINE",
-"282 68 LINE",
-"291 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"301 0 LINE",
-"301 689 LINE",
-"100 689 LINE",
-"84 439 LINE SMOOTH",
-"68 200 OFFCURVE",
-"44 131 OFFCURVE",
-"20 68 CURVE",
-"20 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"130 133 OFFCURVE",
-"152 213 OFFCURVE",
-"163 435 CURVE SMOOTH",
-"173 620 LINE",
-"226 620 LINE",
-"226 68 LINE",
-"90 68 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"351 323 LINE",
-"351 0 LINE",
-"426 0 LINE",
-"426 323 LINE",
-"452 323 LINE",
-"527 0 LINE",
-"612 0 LINE",
-"517 364 LINE",
-"593 689 LINE",
-"518 689 LINE",
-"453 396 LINE",
-"426 396 LINE",
-"426 689 LINE",
-"351 689 LINE",
-"351 396 LINE",
-"279 396 LINE",
-"279 323 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 052A;
-},
-{
-color = 4;
-glyphname = "Eldescender-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"131 693 LINE",
-"111 475 LINE SMOOTH",
-"84 181 OFFCURVE",
-"54 138 OFFCURVE",
-"-13 89 CURVE",
-"52 -20 LINE",
-"192 46 OFFCURVE",
-"235 125 OFFCURVE",
-"266 458 CURVE SMOOTH",
-"276 567 LINE",
-"383 567 LINE",
-"383 0 LINE",
-"549 0 LINE",
-"549 693 LINE"
-);
-}
-);
-};
-components = (
-{
-anchor = bottomright;
-name = "descStraight-cy.case";
-transform = "{1, 0, 0, 1, 180, 0}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"136 693 LINE",
-"116 475 LINE SMOOTH",
-"89 181 OFFCURVE",
-"59 138 OFFCURVE",
-"-8 89 CURVE",
-"57 -20 LINE",
-"197 46 OFFCURVE",
-"240 125 OFFCURVE",
-"271 458 CURVE SMOOTH",
-"281 567 LINE",
-"358 567 LINE",
-"358 0 LINE",
-"524 0 LINE",
-"524 693 LINE"
-);
-}
-);
-width = 600;
-},
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"165 689 LINE",
-"128 395 LINE SMOOTH",
-"94 126 OFFCURVE",
-"59 96 OFFCURVE",
-"12 57 CURVE",
-"53 -12 LINE",
-"148 50 OFFCURVE",
-"187 95 OFFCURVE",
-"225 415 CURVE SMOOTH",
-"248 609 LINE",
-"425 609 LINE",
-"425 0 LINE",
-"520 0 LINE",
-"520 689 LINE"
-);
-}
-);
-};
-components = (
-{
-anchor = bottomright;
-name = "descStraight-cy.case";
-transform = "{1, 0, 0, 1, 191, 0}";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"155 689 LINE",
-"118 395 LINE SMOOTH",
-"84 126 OFFCURVE",
-"49 96 OFFCURVE",
-"2 57 CURVE",
-"43 -12 LINE",
-"138 50 OFFCURVE",
-"177 95 OFFCURVE",
-"215 415 CURVE SMOOTH",
-"238 609 LINE",
-"395 609 LINE",
-"395 0 LINE",
-"490 0 LINE",
-"490 689 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 052E;
-},
-{
-color = 7;
-glyphname = "EnLeftHook-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
-layers = (
-{
-components = (
-{
-name = H;
-},
-{
-name = hookHELPER.case;
-transform = "{1, 0, 0, 1, -181, 0}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-},
-{
-components = (
-{
-name = H;
-},
-{
-name = hookHELPER.case;
-transform = "{1, 0, 0, 1, -121, -1}";
-}
-);
-layerId = UUID0;
-width = 600;
-}
-);
-rightMetricsKey = H;
-unicode = 0528;
-},
-{
 color = 7;
 glyphname = "A-cy";
 lastChange = "2015-03-19 16:57:04 +0000";
@@ -24307,6 +23818,117 @@ unicode = 04A2;
 },
 {
 color = 4;
+glyphname = "Enghe-cy";
+lastChange = "2015-03-19 16:57:03 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"650 542 LINE",
+"671 696 LINE"
+);
+}
+);
+};
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"480 563 LINE",
+"599 563 LINE",
+"619 693 LINE",
+"314 693 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"480 0 LINE",
+"480 693 LINE",
+"314 693 LINE",
+"314 430 LINE",
+"198 430 LINE",
+"198 693 LINE",
+"32 693 LINE",
+"32 0 LINE",
+"198 0 LINE",
+"198 289 LINE",
+"314 289 LINE",
+"314 0 LINE"
+);
+}
+);
+width = 600;
+},
+{
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"636 608 LINE",
+"646 689 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"414 0 LINE",
+"414 689 LINE",
+"319 689 LINE",
+"319 401 LINE",
+"69 401 LINE",
+"69 689 LINE",
+"-26 689 LINE",
+"-26 0 LINE",
+"69 0 LINE",
+"69 323 LINE",
+"319 323 LINE",
+"319 0 LINE"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"463 611 LINE",
+"596 611 LINE",
+"606 689 LINE",
+"408 689 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"464 0 LINE",
+"464 689 LINE",
+"369 689 LINE",
+"369 401 LINE",
+"159 401 LINE",
+"159 689 LINE",
+"64 689 LINE",
+"64 0 LINE",
+"159 0 LINE",
+"159 323 LINE",
+"369 323 LINE",
+"369 0 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 04A4;
+},
+{
+color = 4;
 glyphname = "Pemiddlehook-cy";
 lastChange = "2015-09-08 09:15:17 +0000";
 layers = (
@@ -24894,6 +24516,116 @@ width = 600;
 }
 );
 unicode = 04B2;
+},
+{
+color = 4;
+glyphname = "Tetse-cy";
+lastChange = "2015-09-08 09:15:17 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -222}";
+},
+{
+name = top;
+position = "{300, 693}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 693 LINE",
+"0 586 LINE",
+"90 586 LINE",
+"238 586 LINE",
+"312 586 LINE",
+"328 693 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"438 123 LINE",
+"406 0 LINE",
+"439 0 LINE",
+"459 -175 LINE",
+"566 -175 LINE",
+"566 123 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"518 0 LINE",
+"518 693 LINE",
+"372 693 LINE",
+"372 129 LINE",
+"236 129 LINE",
+"236 693 LINE",
+"90 693 LINE",
+"90 0 LINE"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -202}";
+},
+{
+name = top;
+position = "{300, 689}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"0 689 LINE",
+"0 614 LINE",
+"124 614 LINE",
+"219 614 LINE",
+"334 614 LINE",
+"344 689 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"461 78 LINE",
+"451 0 LINE",
+"474 0 LINE",
+"489 -150 LINE",
+"564 -150 LINE",
+"564 78 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"514 0 LINE",
+"514 689 LINE",
+"419 689 LINE",
+"419 78 LINE",
+"219 78 LINE",
+"219 689 LINE",
+"124 689 LINE",
+"124 0 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 04B4;
 },
 {
 color = 7;
@@ -26238,6 +25970,45 @@ width = 600;
 }
 );
 unicode = 04D2;
+},
+{
+color = 7;
+glyphname = "Aie-cy";
+lastChange = "2015-03-19 16:57:06 +0000";
+layers = (
+{
+components = (
+{
+name = AE;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+},
+{
+associatedMasterId = UUID0;
+components = (
+{
+name = AE;
+}
+);
+layerId = "A11F629A-ECF3-413E-B2EC-6C6F8C33A243";
+name = Regular;
+width = 816;
+},
+{
+components = (
+{
+name = AE;
+}
+);
+layerId = UUID0;
+width = 600;
+}
+);
+leftMetricsKey = AE;
+rightMetricsKey = AE;
+unicode = 04D4;
 },
 {
 color = 7;
@@ -30379,6 +30150,507 @@ width = 600;
 }
 );
 unicode = 048E;
+},
+{
+color = 7;
+glyphname = "EnLeftHook-cy";
+lastChange = "2015-03-19 16:57:06 +0000";
+layers = (
+{
+components = (
+{
+name = H;
+},
+{
+name = hookHELPER.case;
+transform = "{1, 0, 0, 1, -181, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+},
+{
+components = (
+{
+name = H;
+},
+{
+name = hookHELPER.case;
+transform = "{1, 0, 0, 1, -121, -1}";
+}
+);
+layerId = UUID0;
+width = 600;
+}
+);
+rightMetricsKey = H;
+unicode = 0528;
+},
+{
+color = 4;
+glyphname = "Dzzhe-cy";
+lastChange = "2015-09-08 09:15:17 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -222}";
+},
+{
+name = top;
+position = "{300, 693}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"63 -175 LINE",
+"77 0 LINE",
+"98 0 LINE",
+"71 98 LINE",
+"-15 98 LINE",
+"-15 -175 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"356 -175 LINE",
+"356 98 LINE",
+"271 98 LINE",
+"245 0 LINE",
+"266 0 LINE",
+"278 -175 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"418 0 LINE",
+"418 98 LINE",
+"278 98 LINE",
+"278 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"294 0 LINE",
+"294 693 LINE",
+"81 693 LINE",
+"68 475 LINE SMOOTH",
+"55 240 OFFCURVE",
+"41 150 OFFCURVE",
+"14 98 CURVE",
+"23 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"135 167 OFFCURVE",
+"152 240 OFFCURVE",
+"161 469 CURVE SMOOTH",
+"167 606 LINE",
+"200 606 LINE",
+"200 98 LINE",
+"93 98 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"335 320 LINE",
+"335 0 LINE",
+"426 0 LINE",
+"426 320 LINE",
+"451 320 LINE",
+"513 0 LINE",
+"616 0 LINE",
+"536 379 LINE",
+"607 693 LINE",
+"510 693 LINE",
+"450 402 LINE",
+"426 402 LINE",
+"426 693 LINE",
+"335 693 LINE",
+"335 402 LINE",
+"226 402 LINE",
+"226 320 LINE"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -202}";
+},
+{
+name = top;
+position = "{300, 689}";
+}
+);
+background = {
+components = (
+{
+name = "descStraight-cy.case";
+transform = "{1, 0, 0, 1, 302, 0}";
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"52 -150 LINE",
+"67 0 LINE",
+"90 0 LINE",
+"90 68 LINE",
+"-13 68 LINE",
+"-13 -150 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"366 -150 LINE",
+"366 68 LINE",
+"263 68 LINE",
+"262 0 LINE",
+"285 0 LINE",
+"300 -150 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"393 0 LINE",
+"393 68 LINE",
+"282 68 LINE",
+"291 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"301 0 LINE",
+"301 689 LINE",
+"100 689 LINE",
+"84 439 LINE SMOOTH",
+"68 200 OFFCURVE",
+"44 131 OFFCURVE",
+"20 68 CURVE",
+"20 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"130 133 OFFCURVE",
+"152 213 OFFCURVE",
+"163 435 CURVE SMOOTH",
+"173 620 LINE",
+"226 620 LINE",
+"226 68 LINE",
+"90 68 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"351 323 LINE",
+"351 0 LINE",
+"426 0 LINE",
+"426 323 LINE",
+"452 323 LINE",
+"527 0 LINE",
+"612 0 LINE",
+"517 364 LINE",
+"593 689 LINE",
+"518 689 LINE",
+"453 396 LINE",
+"426 396 LINE",
+"426 689 LINE",
+"351 689 LINE",
+"351 396 LINE",
+"279 396 LINE",
+"279 323 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 052A;
+},
+{
+color = 4;
+glyphname = "Dche-cy";
+lastChange = "2015-09-08 09:15:17 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -222}";
+},
+{
+name = top;
+position = "{300, 693}";
+}
+);
+components = (
+{
+name = "descStraight-cy.case";
+transform = "{-1, 0, 0, 1, 446, 0}";
+},
+{
+name = "descStraight-cy.case";
+transform = "{1, 0, 0, 1, 195, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"539 0 LINE",
+"539 693 LINE",
+"225 693 LINE",
+"214 498 LINE SMOOTH",
+"201 283 OFFCURVE",
+"152 197 OFFCURVE",
+"97 120 CURVE",
+"104 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"322 219 OFFCURVE",
+"335 331 OFFCURVE",
+"346 492 CURVE SMOOTH",
+"352 582 LINE",
+"402 582 LINE",
+"402 123 LINE",
+"233 123 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"17 535 LINE SMOOTH",
+"17 378 OFFCURVE",
+"85 290 OFFCURVE",
+"279 290 CURVE",
+"437 289 LINE",
+"437 407 LINE",
+"277 407 LINE SMOOTH",
+"173 407 OFFCURVE",
+"148 447 OFFCURVE",
+"148 537 CURVE SMOOTH",
+"148 693 LINE",
+"17 693 LINE"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -202}";
+},
+{
+name = top;
+position = "{300, 689}";
+}
+);
+components = (
+{
+name = "descStraight-cy.case";
+transform = "{-1, 0, 0, 1, 412, 0}";
+},
+{
+name = "descStraight-cy.case";
+transform = "{1, 0, 0, 1, 206, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"528 0 LINE",
+"528 689 LINE",
+"246 689 LINE",
+"222 489 LINE SMOOTH",
+"192 240 OFFCURVE",
+"136 128 OFFCURVE",
+"90 78 CURVE",
+"90 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"239 137 OFFCURVE",
+"287 224 OFFCURVE",
+"316 485 CURVE SMOOTH",
+"330 611 LINE",
+"436 611 LINE",
+"436 78 LINE",
+"183 78 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"56 556 LINE SMOOTH",
+"57 395 OFFCURVE",
+"132 331 OFFCURVE",
+"294 331 CURVE",
+"453 331 LINE",
+"453 407 LINE",
+"298 407 LINE SMOOTH",
+"184 407 OFFCURVE",
+"150 453 OFFCURVE",
+"150 559 CURVE SMOOTH",
+"150 689 LINE",
+"56 689 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 052C;
+},
+{
+color = 4;
+glyphname = "Eldescender-cy";
+lastChange = "2015-03-19 16:57:04 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"131 693 LINE",
+"111 475 LINE SMOOTH",
+"84 181 OFFCURVE",
+"54 138 OFFCURVE",
+"-13 89 CURVE",
+"52 -20 LINE",
+"192 46 OFFCURVE",
+"235 125 OFFCURVE",
+"266 458 CURVE SMOOTH",
+"276 567 LINE",
+"383 567 LINE",
+"383 0 LINE",
+"549 0 LINE",
+"549 693 LINE"
+);
+}
+);
+};
+components = (
+{
+anchor = bottomright;
+name = "descStraight-cy.case";
+transform = "{1, 0, 0, 1, 180, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"136 693 LINE",
+"116 475 LINE SMOOTH",
+"89 181 OFFCURVE",
+"59 138 OFFCURVE",
+"-8 89 CURVE",
+"57 -20 LINE",
+"197 46 OFFCURVE",
+"240 125 OFFCURVE",
+"271 458 CURVE SMOOTH",
+"281 567 LINE",
+"358 567 LINE",
+"358 0 LINE",
+"524 0 LINE",
+"524 693 LINE"
+);
+}
+);
+width = 600;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"165 689 LINE",
+"128 395 LINE SMOOTH",
+"94 126 OFFCURVE",
+"59 96 OFFCURVE",
+"12 57 CURVE",
+"53 -12 LINE",
+"148 50 OFFCURVE",
+"187 95 OFFCURVE",
+"225 415 CURVE SMOOTH",
+"248 609 LINE",
+"425 609 LINE",
+"425 0 LINE",
+"520 0 LINE",
+"520 689 LINE"
+);
+}
+);
+};
+components = (
+{
+anchor = bottomright;
+name = "descStraight-cy.case";
+transform = "{1, 0, 0, 1, 191, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"155 689 LINE",
+"118 395 LINE SMOOTH",
+"84 126 OFFCURVE",
+"49 96 OFFCURVE",
+"2 57 CURVE",
+"43 -12 LINE",
+"138 50 OFFCURVE",
+"177 95 OFFCURVE",
+"215 415 CURVE SMOOTH",
+"238 609 LINE",
+"395 609 LINE",
+"395 0 LINE",
+"490 0 LINE",
+"490 689 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 052E;
 },
 {
 color = 7;
@@ -36562,6 +36834,138 @@ width = 600;
 unicode = 04A3;
 },
 {
+color = 4;
+glyphname = "enghe-cy";
+lastChange = "2015-03-19 16:57:06 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"559 412 LINE",
+"583 531 LINE",
+"289 531 LINE",
+"448 412 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"449 0 LINE",
+"449 531 LINE",
+"289 531 LINE",
+"289 329 LINE",
+"147 329 LINE",
+"147 531 LINE",
+"-13 531 LINE",
+"-13 0 LINE",
+"147 0 LINE",
+"147 211 LINE",
+"289 211 LINE",
+"289 0 LINE"
+);
+}
+);
+};
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"584 412 LINE",
+"608 531 LINE",
+"314 531 LINE",
+"473 412 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"474 0 LINE",
+"474 531 LINE",
+"314 531 LINE",
+"314 329 LINE",
+"202 329 LINE",
+"202 531 LINE",
+"42 531 LINE",
+"42 0 LINE",
+"202 0 LINE",
+"202 211 LINE",
+"314 211 LINE",
+"314 0 LINE"
+);
+}
+);
+width = 600;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"572 453 LINE",
+"582 527 LINE",
+"337 527 LINE",
+"429 453 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"429 0 LINE",
+"429 527 LINE",
+"337 527 LINE",
+"337 306 LINE",
+"115 306 LINE",
+"115 527 LINE",
+"23 527 LINE",
+"23 0 LINE",
+"115 0 LINE",
+"115 232 LINE",
+"337 232 LINE",
+"337 0 LINE"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"593 453 LINE",
+"603 527 LINE",
+"368 527 LINE",
+"460 453 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"460 0 LINE",
+"460 527 LINE",
+"368 527 LINE",
+"368 306 LINE",
+"176 306 LINE",
+"176 527 LINE",
+"84 527 LINE",
+"84 0 LINE",
+"176 0 LINE",
+"176 232 LINE",
+"368 232 LINE",
+"368 0 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 04A5;
+},
+{
 color = 7;
 glyphname = "pedescender-cy";
 lastChange = "2015-03-19 16:57:03 +0000";
@@ -37207,6 +37611,116 @@ width = 600;
 }
 );
 unicode = 04B3;
+},
+{
+color = 4;
+glyphname = "tetse-cy";
+lastChange = "2015-09-08 09:15:17 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -222}";
+},
+{
+name = top;
+position = "{300, 531}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 531 LINE",
+"0 428 LINE",
+"84 428 LINE",
+"234 428 LINE",
+"299 428 LINE",
+"324 531 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"358 118 LINE",
+"234 118 LINE",
+"234 531 LINE",
+"85 531 LINE",
+"85 0 LINE",
+"507 0 LINE",
+"507 531 LINE",
+"358 531 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"381 118 LINE",
+"393 0 LINE",
+"433 0 LINE",
+"453 -175 LINE",
+"567 -175 LINE",
+"567 118 LINE"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -202}";
+},
+{
+name = top;
+position = "{300, 527}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"0 527 LINE",
+"0 457 LINE",
+"121 457 LINE",
+"213 457 LINE",
+"326 457 LINE",
+"337 527 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"404 75 LINE",
+"213 75 LINE",
+"213 527 LINE",
+"121 527 LINE",
+"121 0 LINE",
+"496 0 LINE",
+"496 527 LINE",
+"404 527 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"430 74 LINE",
+"430 0 LINE",
+"466 0 LINE",
+"481 -150 LINE",
+"556 -150 LINE",
+"556 74 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 04B5;
 },
 {
 color = 7;
@@ -38789,6 +39303,45 @@ width = 600;
 }
 );
 unicode = 04D3;
+},
+{
+color = 7;
+glyphname = "aie-cy";
+lastChange = "2015-03-19 16:57:06 +0000";
+layers = (
+{
+components = (
+{
+name = ae;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+},
+{
+associatedMasterId = UUID0;
+components = (
+{
+name = ae;
+}
+);
+layerId = "A11F629A-ECF3-413E-B2EC-6C6F8C33A243";
+name = Regular;
+width = 854;
+},
+{
+components = (
+{
+name = ae;
+}
+);
+layerId = UUID0;
+width = 600;
+}
+);
+leftMetricsKey = ae;
+rightMetricsKey = ae;
+unicode = 04D5;
 },
 {
 color = 7;
@@ -43212,6 +43765,218 @@ width = 600;
 unicode = 048F;
 },
 {
+color = 7;
+glyphname = "enlefthook-cy";
+lastChange = "2015-03-19 16:57:06 +0000";
+layers = (
+{
+components = (
+{
+name = "en-cy";
+},
+{
+name = hookHELPER;
+transform = "{1, 0, 0, 1, -163, -1}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+},
+{
+components = (
+{
+name = "en-cy";
+},
+{
+name = hookHELPER;
+transform = "{1, 0, 0, 1, -107, -1}";
+}
+);
+layerId = UUID0;
+width = 600;
+}
+);
+unicode = 0529;
+},
+{
+color = 4;
+glyphname = "dzzhe-cy";
+lastChange = "2015-09-08 09:15:17 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -222}";
+},
+{
+name = top;
+position = "{300, 531}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"66 -175 LINE",
+"79 0 LINE",
+"106 0 LINE",
+"121 98 LINE",
+"-16 98 LINE",
+"-16 -175 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"359 -175 LINE",
+"359 98 LINE",
+"221 98 LINE",
+"236 0 LINE",
+"263 0 LINE",
+"277 -175 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"139 147 OFFCURVE",
+"156 199 OFFCURVE",
+"162 367 CURVE SMOOTH",
+"165 450 LINE",
+"205 450 LINE",
+"205 98 LINE",
+"104 98 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"298 0 LINE",
+"298 531 LINE",
+"70 531 LINE",
+"58 361 LINE SMOOTH",
+"47 199 OFFCURVE",
+"38 143 OFFCURVE",
+"14 98 CURVE",
+"14 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"343 232 LINE",
+"343 0 LINE",
+"432 0 LINE",
+"432 232 LINE",
+"454 232 LINE",
+"516 0 LINE",
+"616 0 LINE",
+"533 285 LINE",
+"613 531 LINE",
+"517 531 LINE",
+"456 320 LINE",
+"432 320 LINE",
+"432 531 LINE",
+"343 531 LINE",
+"343 320 LINE",
+"269 320 LINE",
+"270 232 LINE"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{300, -202}";
+},
+{
+name = top;
+position = "{300, 527}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"57 -150 LINE",
+"71 0 LINE",
+"104 0 LINE",
+"104 74 LINE",
+"-11 74 LINE",
+"-11 -150 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"355 -150 LINE",
+"355 74 LINE",
+"241 74 LINE",
+"241 0 LINE",
+"274 0 LINE",
+"287 -150 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"132 116 OFFCURVE",
+"139 160 OFFCURVE",
+"151 343 CURVE SMOOTH",
+"158 454 LINE",
+"208 454 LINE",
+"208 74 LINE",
+"86 74 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"287 0 LINE",
+"287 527 LINE",
+"83 527 LINE",
+"70 331 LINE SMOOTH",
+"55 125 OFFCURVE",
+"39 100 OFFCURVE",
+"13 74 CURVE",
+"13 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"335 243 LINE",
+"335 0 LINE",
+"414 0 LINE",
+"414 243 LINE",
+"438 243 LINE",
+"525 0 LINE",
+"610 0 LINE",
+"504 283 LINE",
+"593 527 LINE",
+"515 527 LINE",
+"439 315 LINE",
+"414 315 LINE",
+"414 527 LINE",
+"335 527 LINE",
+"335 315 LINE",
+"233 315 LINE",
+"233 243 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 052B;
+},
+{
 color = 4;
 glyphname = "dche-cy";
 lastChange = "2015-09-08 09:15:17 +0000";
@@ -43423,184 +44188,6 @@ unicode = 052D;
 },
 {
 color = 4;
-glyphname = "dzzhe-cy";
-lastChange = "2015-09-08 09:15:17 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -222}";
-},
-{
-name = top;
-position = "{300, 531}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"66 -175 LINE",
-"79 0 LINE",
-"106 0 LINE",
-"121 98 LINE",
-"-16 98 LINE",
-"-16 -175 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"359 -175 LINE",
-"359 98 LINE",
-"221 98 LINE",
-"236 0 LINE",
-"263 0 LINE",
-"277 -175 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"139 147 OFFCURVE",
-"156 199 OFFCURVE",
-"162 367 CURVE SMOOTH",
-"165 450 LINE",
-"205 450 LINE",
-"205 98 LINE",
-"104 98 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"298 0 LINE",
-"298 531 LINE",
-"70 531 LINE",
-"58 361 LINE SMOOTH",
-"47 199 OFFCURVE",
-"38 143 OFFCURVE",
-"14 98 CURVE",
-"14 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"343 232 LINE",
-"343 0 LINE",
-"432 0 LINE",
-"432 232 LINE",
-"454 232 LINE",
-"516 0 LINE",
-"616 0 LINE",
-"533 285 LINE",
-"613 531 LINE",
-"517 531 LINE",
-"456 320 LINE",
-"432 320 LINE",
-"432 531 LINE",
-"343 531 LINE",
-"343 320 LINE",
-"269 320 LINE",
-"270 232 LINE"
-);
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -202}";
-},
-{
-name = top;
-position = "{300, 527}";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"57 -150 LINE",
-"71 0 LINE",
-"104 0 LINE",
-"104 74 LINE",
-"-11 74 LINE",
-"-11 -150 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"355 -150 LINE",
-"355 74 LINE",
-"241 74 LINE",
-"241 0 LINE",
-"274 0 LINE",
-"287 -150 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"132 116 OFFCURVE",
-"139 160 OFFCURVE",
-"151 343 CURVE SMOOTH",
-"158 454 LINE",
-"208 454 LINE",
-"208 74 LINE",
-"86 74 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"287 0 LINE",
-"287 527 LINE",
-"83 527 LINE",
-"70 331 LINE SMOOTH",
-"55 125 OFFCURVE",
-"39 100 OFFCURVE",
-"13 74 CURVE",
-"13 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"335 243 LINE",
-"335 0 LINE",
-"414 0 LINE",
-"414 243 LINE",
-"438 243 LINE",
-"525 0 LINE",
-"610 0 LINE",
-"504 283 LINE",
-"593 527 LINE",
-"515 527 LINE",
-"439 315 LINE",
-"414 315 LINE",
-"414 527 LINE",
-"335 527 LINE",
-"335 315 LINE",
-"233 315 LINE",
-"233 243 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 052B;
-},
-{
-color = 4;
 glyphname = "eldescender-cy";
 lastChange = "2015-03-19 16:57:06 +0000";
 layers = (
@@ -43714,581 +44301,6 @@ width = 600;
 }
 );
 unicode = 052F;
-},
-{
-color = 7;
-glyphname = "enlefthook-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
-layers = (
-{
-components = (
-{
-name = "en-cy";
-},
-{
-name = hookHELPER;
-transform = "{1, 0, 0, 1, -163, -1}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-},
-{
-components = (
-{
-name = "en-cy";
-},
-{
-name = hookHELPER;
-transform = "{1, 0, 0, 1, -107, -1}";
-}
-);
-layerId = UUID0;
-width = 600;
-}
-);
-unicode = 0529;
-},
-{
-color = 4;
-glyphname = "Enghe-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
-layers = (
-{
-background = {
-paths = (
-{
-closed = 0;
-nodes = (
-"650 542 LINE",
-"671 696 LINE"
-);
-}
-);
-};
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"480 563 LINE",
-"599 563 LINE",
-"619 693 LINE",
-"314 693 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"480 0 LINE",
-"480 693 LINE",
-"314 693 LINE",
-"314 430 LINE",
-"198 430 LINE",
-"198 693 LINE",
-"32 693 LINE",
-"32 0 LINE",
-"198 0 LINE",
-"198 289 LINE",
-"314 289 LINE",
-"314 0 LINE"
-);
-}
-);
-width = 600;
-},
-{
-background = {
-paths = (
-{
-closed = 0;
-nodes = (
-"636 608 LINE",
-"646 689 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"414 0 LINE",
-"414 689 LINE",
-"319 689 LINE",
-"319 401 LINE",
-"69 401 LINE",
-"69 689 LINE",
-"-26 689 LINE",
-"-26 0 LINE",
-"69 0 LINE",
-"69 323 LINE",
-"319 323 LINE",
-"319 0 LINE"
-);
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"463 611 LINE",
-"596 611 LINE",
-"606 689 LINE",
-"408 689 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"464 0 LINE",
-"464 689 LINE",
-"369 689 LINE",
-"369 401 LINE",
-"159 401 LINE",
-"159 689 LINE",
-"64 689 LINE",
-"64 0 LINE",
-"159 0 LINE",
-"159 323 LINE",
-"369 323 LINE",
-"369 0 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 04A4;
-},
-{
-color = 4;
-glyphname = "enghe-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"559 412 LINE",
-"583 531 LINE",
-"289 531 LINE",
-"448 412 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"449 0 LINE",
-"449 531 LINE",
-"289 531 LINE",
-"289 329 LINE",
-"147 329 LINE",
-"147 531 LINE",
-"-13 531 LINE",
-"-13 0 LINE",
-"147 0 LINE",
-"147 211 LINE",
-"289 211 LINE",
-"289 0 LINE"
-);
-}
-);
-};
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"584 412 LINE",
-"608 531 LINE",
-"314 531 LINE",
-"473 412 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"474 0 LINE",
-"474 531 LINE",
-"314 531 LINE",
-"314 329 LINE",
-"202 329 LINE",
-"202 531 LINE",
-"42 531 LINE",
-"42 0 LINE",
-"202 0 LINE",
-"202 211 LINE",
-"314 211 LINE",
-"314 0 LINE"
-);
-}
-);
-width = 600;
-},
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"572 453 LINE",
-"582 527 LINE",
-"337 527 LINE",
-"429 453 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"429 0 LINE",
-"429 527 LINE",
-"337 527 LINE",
-"337 306 LINE",
-"115 306 LINE",
-"115 527 LINE",
-"23 527 LINE",
-"23 0 LINE",
-"115 0 LINE",
-"115 232 LINE",
-"337 232 LINE",
-"337 0 LINE"
-);
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"593 453 LINE",
-"603 527 LINE",
-"368 527 LINE",
-"460 453 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"460 0 LINE",
-"460 527 LINE",
-"368 527 LINE",
-"368 306 LINE",
-"176 306 LINE",
-"176 527 LINE",
-"84 527 LINE",
-"84 0 LINE",
-"176 0 LINE",
-"176 232 LINE",
-"368 232 LINE",
-"368 0 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 04A5;
-},
-{
-color = 4;
-glyphname = "Tetse-cy";
-lastChange = "2015-09-08 09:15:17 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -222}";
-},
-{
-name = top;
-position = "{300, 693}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"0 693 LINE",
-"0 586 LINE",
-"90 586 LINE",
-"238 586 LINE",
-"312 586 LINE",
-"328 693 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"438 123 LINE",
-"406 0 LINE",
-"439 0 LINE",
-"459 -175 LINE",
-"566 -175 LINE",
-"566 123 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"518 0 LINE",
-"518 693 LINE",
-"372 693 LINE",
-"372 129 LINE",
-"236 129 LINE",
-"236 693 LINE",
-"90 693 LINE",
-"90 0 LINE"
-);
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -202}";
-},
-{
-name = top;
-position = "{300, 689}";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"0 689 LINE",
-"0 614 LINE",
-"124 614 LINE",
-"219 614 LINE",
-"334 614 LINE",
-"344 689 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"461 78 LINE",
-"451 0 LINE",
-"474 0 LINE",
-"489 -150 LINE",
-"564 -150 LINE",
-"564 78 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"514 0 LINE",
-"514 689 LINE",
-"419 689 LINE",
-"419 78 LINE",
-"219 78 LINE",
-"219 689 LINE",
-"124 689 LINE",
-"124 0 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 04B4;
-},
-{
-color = 4;
-glyphname = "tetse-cy";
-lastChange = "2015-09-08 09:15:17 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -222}";
-},
-{
-name = top;
-position = "{300, 531}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"0 531 LINE",
-"0 428 LINE",
-"84 428 LINE",
-"234 428 LINE",
-"299 428 LINE",
-"324 531 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"358 118 LINE",
-"234 118 LINE",
-"234 531 LINE",
-"85 531 LINE",
-"85 0 LINE",
-"507 0 LINE",
-"507 531 LINE",
-"358 531 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"381 118 LINE",
-"393 0 LINE",
-"433 0 LINE",
-"453 -175 LINE",
-"567 -175 LINE",
-"567 118 LINE"
-);
-}
-);
-width = 600;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{300, -202}";
-},
-{
-name = top;
-position = "{300, 527}";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"0 527 LINE",
-"0 457 LINE",
-"121 457 LINE",
-"213 457 LINE",
-"326 457 LINE",
-"337 527 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"404 75 LINE",
-"213 75 LINE",
-"213 527 LINE",
-"121 527 LINE",
-"121 0 LINE",
-"496 0 LINE",
-"496 527 LINE",
-"404 527 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"430 74 LINE",
-"430 0 LINE",
-"466 0 LINE",
-"481 -150 LINE",
-"556 -150 LINE",
-"556 74 LINE"
-);
-}
-);
-width = 600;
-}
-);
-unicode = 04B5;
-},
-{
-color = 7;
-glyphname = "Aie-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
-layers = (
-{
-components = (
-{
-name = AE;
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-},
-{
-associatedMasterId = UUID0;
-components = (
-{
-name = AE;
-}
-);
-layerId = "A11F629A-ECF3-413E-B2EC-6C6F8C33A243";
-name = Regular;
-width = 816;
-},
-{
-components = (
-{
-name = AE;
-}
-);
-layerId = UUID0;
-width = 600;
-}
-);
-leftMetricsKey = AE;
-rightMetricsKey = AE;
-unicode = 04D4;
-},
-{
-color = 7;
-glyphname = "aie-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
-layers = (
-{
-components = (
-{
-name = ae;
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-},
-{
-associatedMasterId = UUID0;
-components = (
-{
-name = ae;
-}
-);
-layerId = "A11F629A-ECF3-413E-B2EC-6C6F8C33A243";
-name = Regular;
-width = 854;
-},
-{
-components = (
-{
-name = ae;
-}
-);
-layerId = UUID0;
-width = 600;
-}
-);
-leftMetricsKey = ae;
-rightMetricsKey = ae;
-unicode = 04D5;
 },
 {
 color = 7;
@@ -65016,213 +65028,6 @@ width = 600;
 },
 {
 color = 4;
-glyphname = zero.zero;
-lastChange = "2015-03-19 16:57:04 +0000";
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"150 701 OFFCURVE",
-"72 573 OFFCURVE",
-"72 345 CURVE SMOOTH",
-"72 116 OFFCURVE",
-"150 -12 OFFCURVE",
-"300 -12 CURVE SMOOTH",
-"450 -12 OFFCURVE",
-"528 116 OFFCURVE",
-"528 345 CURVE SMOOTH",
-"528 573 OFFCURVE",
-"450 701 OFFCURVE",
-"300 701 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"427 472 OFFCURVE",
-"433 416 OFFCURVE",
-"433 345 CURVE SMOOTH",
-"433 143 OFFCURVE",
-"383 61 OFFCURVE",
-"300 61 CURVE SMOOTH",
-"265 61 OFFCURVE",
-"235 73 OFFCURVE",
-"214 104 CURVE",
-"416 514 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"336 628 OFFCURVE",
-"366 614 OFFCURVE",
-"388 582 CURVE",
-"185 171 LINE",
-"173 213 OFFCURVE",
-"167 270 OFFCURVE",
-"167 345 CURVE SMOOTH",
-"167 546 OFFCURVE",
-"217 628 OFFCURVE",
-"300 628 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"150 701 OFFCURVE",
-"72 573 OFFCURVE",
-"72 345 CURVE SMOOTH",
-"72 116 OFFCURVE",
-"150 -12 OFFCURVE",
-"300 -12 CURVE SMOOTH",
-"450 -12 OFFCURVE",
-"528 116 OFFCURVE",
-"528 345 CURVE SMOOTH",
-"528 573 OFFCURVE",
-"450 701 OFFCURVE",
-"300 701 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"394 628 OFFCURVE",
-"433 551 OFFCURVE",
-"433 345 CURVE SMOOTH",
-"433 143 OFFCURVE",
-"384 61 OFFCURVE",
-"300 61 CURVE SMOOTH",
-"207 61 OFFCURVE",
-"167 138 OFFCURVE",
-"167 345 CURVE SMOOTH",
-"167 546 OFFCURVE",
-"217 628 OFFCURVE",
-"300 628 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"175 152 LINE",
-"208 92 LINE",
-"423 529 LINE",
-"399 604 LINE"
-);
-}
-);
-width = 600;
-},
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"467 -17 OFFCURVE",
-"551 119 OFFCURVE",
-"551 348 CURVE SMOOTH",
-"551 576 OFFCURVE",
-"467 711 OFFCURVE",
-"300 711 CURVE SMOOTH",
-"133 711 OFFCURVE",
-"49 576 OFFCURVE",
-"49 348 CURVE SMOOTH",
-"49 119 OFFCURVE",
-"133 -17 OFFCURVE",
-"300 -17 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"207 527 OFFCURVE",
-"235 594 OFFCURVE",
-"300 594 CURVE SMOOTH",
-"331 594 OFFCURVE",
-"353 584 OFFCURVE",
-"368 551 CURVE",
-"214 231 LINE",
-"209 262 OFFCURVE",
-"207 300 OFFCURVE",
-"207 348 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"277 99 OFFCURVE",
-"257 105 OFFCURVE",
-"243 123 CURVE",
-"387 421 LINE",
-"391 386 OFFCURVE",
-"393 345 OFFCURVE",
-"393 304 CURVE SMOOTH",
-"393 154 OFFCURVE",
-"360 99 OFFCURVE",
-"300 99 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"133 711 OFFCURVE",
-"49 576 OFFCURVE",
-"49 348 CURVE SMOOTH",
-"49 119 OFFCURVE",
-"133 -17 OFFCURVE",
-"300 -17 CURVE SMOOTH",
-"466 -17 OFFCURVE",
-"551 119 OFFCURVE",
-"551 348 CURVE SMOOTH",
-"551 576 OFFCURVE",
-"466 711 OFFCURVE",
-"300 711 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"378 595 OFFCURVE",
-"400 552 OFFCURVE",
-"400 348 CURVE SMOOTH",
-"400 163 OFFCURVE",
-"370 98 OFFCURVE",
-"300 98 CURVE SMOOTH",
-"221 98 OFFCURVE",
-"199 140 OFFCURVE",
-"199 348 CURVE SMOOTH",
-"199 527 OFFCURVE",
-"230 595 OFFCURVE",
-"300 595 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"189 177 LINE",
-"235 106 LINE",
-"419 486 LINE",
-"378 573 LINE"
-);
-}
-);
-width = 600;
-}
-);
-},
-{
-color = 4;
 glyphname = zero.tosf.zero;
 lastChange = "2015-03-19 16:57:05 +0000";
 layers = (
@@ -65421,6 +65226,213 @@ nodes = (
 "239 89 LINE",
 "407 414 LINE",
 "365 481 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = zero.zero;
+lastChange = "2015-03-19 16:57:04 +0000";
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"150 701 OFFCURVE",
+"72 573 OFFCURVE",
+"72 345 CURVE SMOOTH",
+"72 116 OFFCURVE",
+"150 -12 OFFCURVE",
+"300 -12 CURVE SMOOTH",
+"450 -12 OFFCURVE",
+"528 116 OFFCURVE",
+"528 345 CURVE SMOOTH",
+"528 573 OFFCURVE",
+"450 701 OFFCURVE",
+"300 701 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"427 472 OFFCURVE",
+"433 416 OFFCURVE",
+"433 345 CURVE SMOOTH",
+"433 143 OFFCURVE",
+"383 61 OFFCURVE",
+"300 61 CURVE SMOOTH",
+"265 61 OFFCURVE",
+"235 73 OFFCURVE",
+"214 104 CURVE",
+"416 514 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"336 628 OFFCURVE",
+"366 614 OFFCURVE",
+"388 582 CURVE",
+"185 171 LINE",
+"173 213 OFFCURVE",
+"167 270 OFFCURVE",
+"167 345 CURVE SMOOTH",
+"167 546 OFFCURVE",
+"217 628 OFFCURVE",
+"300 628 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"150 701 OFFCURVE",
+"72 573 OFFCURVE",
+"72 345 CURVE SMOOTH",
+"72 116 OFFCURVE",
+"150 -12 OFFCURVE",
+"300 -12 CURVE SMOOTH",
+"450 -12 OFFCURVE",
+"528 116 OFFCURVE",
+"528 345 CURVE SMOOTH",
+"528 573 OFFCURVE",
+"450 701 OFFCURVE",
+"300 701 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"394 628 OFFCURVE",
+"433 551 OFFCURVE",
+"433 345 CURVE SMOOTH",
+"433 143 OFFCURVE",
+"384 61 OFFCURVE",
+"300 61 CURVE SMOOTH",
+"207 61 OFFCURVE",
+"167 138 OFFCURVE",
+"167 345 CURVE SMOOTH",
+"167 546 OFFCURVE",
+"217 628 OFFCURVE",
+"300 628 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"175 152 LINE",
+"208 92 LINE",
+"423 529 LINE",
+"399 604 LINE"
+);
+}
+);
+width = 600;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"467 -17 OFFCURVE",
+"551 119 OFFCURVE",
+"551 348 CURVE SMOOTH",
+"551 576 OFFCURVE",
+"467 711 OFFCURVE",
+"300 711 CURVE SMOOTH",
+"133 711 OFFCURVE",
+"49 576 OFFCURVE",
+"49 348 CURVE SMOOTH",
+"49 119 OFFCURVE",
+"133 -17 OFFCURVE",
+"300 -17 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"207 527 OFFCURVE",
+"235 594 OFFCURVE",
+"300 594 CURVE SMOOTH",
+"331 594 OFFCURVE",
+"353 584 OFFCURVE",
+"368 551 CURVE",
+"214 231 LINE",
+"209 262 OFFCURVE",
+"207 300 OFFCURVE",
+"207 348 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"277 99 OFFCURVE",
+"257 105 OFFCURVE",
+"243 123 CURVE",
+"387 421 LINE",
+"391 386 OFFCURVE",
+"393 345 OFFCURVE",
+"393 304 CURVE SMOOTH",
+"393 154 OFFCURVE",
+"360 99 OFFCURVE",
+"300 99 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"133 711 OFFCURVE",
+"49 576 OFFCURVE",
+"49 348 CURVE SMOOTH",
+"49 119 OFFCURVE",
+"133 -17 OFFCURVE",
+"300 -17 CURVE SMOOTH",
+"466 -17 OFFCURVE",
+"551 119 OFFCURVE",
+"551 348 CURVE SMOOTH",
+"551 576 OFFCURVE",
+"466 711 OFFCURVE",
+"300 711 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"378 595 OFFCURVE",
+"400 552 OFFCURVE",
+"400 348 CURVE SMOOTH",
+"400 163 OFFCURVE",
+"370 98 OFFCURVE",
+"300 98 CURVE SMOOTH",
+"221 98 OFFCURVE",
+"199 140 OFFCURVE",
+"199 348 CURVE SMOOTH",
+"199 527 OFFCURVE",
+"230 595 OFFCURVE",
+"300 595 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"189 177 LINE",
+"235 106 LINE",
+"419 486 LINE",
+"378 573 LINE"
 );
 }
 );
@@ -70796,13 +70808,13 @@ unicode = 0029;
 {
 color = 7;
 glyphname = parenleftsuperior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2017-06-24 14:22:37 +0000";
 layers = (
 {
 components = (
 {
 name = parenleft.dnom;
-transform = "{1, 0, 0, 1, 6, 315}";
+transform = "{1, 0, 0, 1, 0, 315}";
 }
 );
 layerId = UUID0;
@@ -70824,13 +70836,13 @@ unicode = 207D;
 {
 color = 7;
 glyphname = parenrightsuperior;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2017-06-24 14:22:37 +0000";
 layers = (
 {
 components = (
 {
 name = parenright.dnom;
-transform = "{1, 0, 0, 1, -5, 315}";
+transform = "{1, 0, 0, 1, 0, 315}";
 }
 );
 layerId = UUID0;
@@ -71004,197 +71016,6 @@ components = (
 {
 name = parenright;
 transform = "{1, 0, 0, 1, 0, -10}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-}
-);
-},
-{
-color = 4;
-glyphname = parenleft.dnom;
-lastChange = "2015-03-19 16:57:05 +0000";
-layers = (
-{
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"293 266 OFFCURVE",
-"317 315 OFFCURVE",
-"372 398 CURVE",
-"324 428 LINE",
-"261 348 OFFCURVE",
-"217 283 OFFCURVE",
-"217 161 CURVE SMOOTH",
-"217 40 OFFCURVE",
-"261 -25 OFFCURVE",
-"324 -105 CURVE",
-"372 -75 LINE",
-"317 8 OFFCURVE",
-"293 57 OFFCURVE",
-"293 161 CURVE SMOOTH"
-);
-}
-);
-width = 600;
-},
-{
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"299 268 OFFCURVE",
-"331 314 OFFCURVE",
-"383 390 CURVE",
-"322 444 LINE",
-"239 363 OFFCURVE",
-"186 290 OFFCURVE",
-"186 174 CURVE SMOOTH",
-"186 59 OFFCURVE",
-"239 -14 OFFCURVE",
-"322 -96 CURVE",
-"383 -41 LINE",
-"331 35 OFFCURVE",
-"299 82 OFFCURVE",
-"299 174 CURVE SMOOTH"
-);
-}
-);
-width = 600;
-}
-);
-},
-{
-color = 4;
-glyphname = parenright.dnom;
-lastChange = "2015-03-19 16:57:06 +0000";
-layers = (
-{
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"306 57 OFFCURVE",
-"282 8 OFFCURVE",
-"227 -75 CURVE",
-"275 -105 LINE",
-"338 -25 OFFCURVE",
-"382 40 OFFCURVE",
-"382 161 CURVE SMOOTH",
-"382 283 OFFCURVE",
-"338 348 OFFCURVE",
-"275 428 CURVE",
-"227 398 LINE",
-"282 315 OFFCURVE",
-"306 266 OFFCURVE",
-"306 161 CURVE SMOOTH"
-);
-}
-);
-width = 600;
-},
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"281 82 OFFCURVE",
-"259 25 OFFCURVE",
-"207 -51 CURVE",
-"278 -96 LINE",
-"341 -14 OFFCURVE",
-"394 59 OFFCURVE",
-"394 174 CURVE SMOOTH",
-"394 290 OFFCURVE",
-"341 363 OFFCURVE",
-"278 444 CURVE",
-"207 400 LINE",
-"259 324 OFFCURVE",
-"281 268 OFFCURVE",
-"281 174 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"300 82 OFFCURVE",
-"268 35 OFFCURVE",
-"216 -41 CURVE",
-"277 -96 LINE",
-"360 -14 OFFCURVE",
-"413 59 OFFCURVE",
-"413 174 CURVE SMOOTH",
-"413 290 OFFCURVE",
-"360 363 OFFCURVE",
-"277 444 CURVE",
-"216 390 LINE",
-"268 314 OFFCURVE",
-"300 268 OFFCURVE",
-"300 174 CURVE SMOOTH"
-);
-}
-);
-width = 600;
-}
-);
-},
-{
-color = 7;
-glyphname = parenleft.numr;
-lastChange = "2015-03-19 16:57:04 +0000";
-layers = (
-{
-components = (
-{
-name = parenleft.dnom;
-transform = "{1, 0, 0, 1, 6, 370}";
-}
-);
-layerId = UUID0;
-width = 600;
-},
-{
-components = (
-{
-name = parenleft.dnom;
-transform = "{1, 0, 0, 1, 0, 373}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-}
-);
-},
-{
-color = 7;
-glyphname = parenright.numr;
-lastChange = "2015-03-19 16:57:04 +0000";
-layers = (
-{
-components = (
-{
-name = parenright.dnom;
-transform = "{1, 0, 0, 1, -5, 370}";
-}
-);
-layerId = UUID0;
-width = 600;
-},
-{
-components = (
-{
-name = parenright.dnom;
-transform = "{1, 0, 0, 1, 0, 372}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
@@ -72431,6 +72252,143 @@ width = 600;
 );
 },
 {
+color = 4;
+glyphname = parenleft.dnom;
+lastChange = "2015-03-19 16:57:05 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"293 266 OFFCURVE",
+"317 315 OFFCURVE",
+"372 398 CURVE",
+"324 428 LINE",
+"261 348 OFFCURVE",
+"217 283 OFFCURVE",
+"217 161 CURVE SMOOTH",
+"217 40 OFFCURVE",
+"261 -25 OFFCURVE",
+"324 -105 CURVE",
+"372 -75 LINE",
+"317 8 OFFCURVE",
+"293 57 OFFCURVE",
+"293 161 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"299 268 OFFCURVE",
+"331 314 OFFCURVE",
+"383 390 CURVE",
+"322 444 LINE",
+"239 363 OFFCURVE",
+"186 290 OFFCURVE",
+"186 174 CURVE SMOOTH",
+"186 59 OFFCURVE",
+"239 -14 OFFCURVE",
+"322 -96 CURVE",
+"383 -41 LINE",
+"331 35 OFFCURVE",
+"299 82 OFFCURVE",
+"299 174 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = parenright.dnom;
+lastChange = "2015-03-19 16:57:06 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"306 57 OFFCURVE",
+"282 8 OFFCURVE",
+"227 -75 CURVE",
+"275 -105 LINE",
+"338 -25 OFFCURVE",
+"382 40 OFFCURVE",
+"382 161 CURVE SMOOTH",
+"382 283 OFFCURVE",
+"338 348 OFFCURVE",
+"275 428 CURVE",
+"227 398 LINE",
+"282 315 OFFCURVE",
+"306 266 OFFCURVE",
+"306 161 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"281 82 OFFCURVE",
+"259 25 OFFCURVE",
+"207 -51 CURVE",
+"278 -96 LINE",
+"341 -14 OFFCURVE",
+"394 59 OFFCURVE",
+"394 174 CURVE SMOOTH",
+"394 290 OFFCURVE",
+"341 363 OFFCURVE",
+"278 444 CURVE",
+"207 400 LINE",
+"259 324 OFFCURVE",
+"281 268 OFFCURVE",
+"281 174 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"300 82 OFFCURVE",
+"268 35 OFFCURVE",
+"216 -41 CURVE",
+"277 -96 LINE",
+"360 -14 OFFCURVE",
+"413 59 OFFCURVE",
+"413 174 CURVE SMOOTH",
+"413 290 OFFCURVE",
+"360 363 OFFCURVE",
+"277 444 CURVE",
+"216 390 LINE",
+"268 314 OFFCURVE",
+"300 268 OFFCURVE",
+"300 174 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
 color = 3;
 glyphname = asterisk_asterisk.liga;
 lastChange = "2016-08-30 09:37:00 +0000";
@@ -72652,6 +72610,263 @@ transform = "{1, 0, 0, 1, -100, 0}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = backslash_ampersand_slash.liga;
+lastChange = "2017-06-24 14:25:05 +0000";
+layers = (
+{
+components = (
+{
+name = ampersand;
+transform = "{0.75, 0, 0, 0.75, -525, 310}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-334 -104 LINE",
+"-266 -104 LINE",
+"320 765 LINE",
+"237 810 LINE",
+"-300 12 LINE",
+"-837 810 LINE",
+"-920 765 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = ampersand;
+transform = "{0.75, 0, 0, 0.75, -525, 320}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-353 -112 LINE",
+"-247 -112 LINE",
+"342 740 LINE",
+"198 817 LINE",
+"-300 95 LINE",
+"-797 817 LINE",
+"-942 740 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = backslash_bar_slash.liga;
+lastChange = "2017-06-24 14:16:36 +0000";
+layers = (
+{
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -600, 50}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-334 -104 LINE",
+"-266 -104 LINE",
+"320 765 LINE",
+"237 810 LINE",
+"-300 12 LINE",
+"-837 810 LINE",
+"-920 765 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -600, 80}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-353 -112 LINE",
+"-247 -112 LINE",
+"342 740 LINE",
+"198 817 LINE",
+"-300 95 LINE",
+"-797 817 LINE",
+"-942 740 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = backslash_slash.liga;
+lastChange = "2017-06-23 23:30:05 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-34 -104 LINE",
+"34 -104 LINE",
+"460 775 LINE",
+"387 810 LINE",
+"0 11.529 LINE",
+"-387 810 LINE",
+"-460 775 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-53 -112 LINE",
+"53 -112 LINE",
+"472 760 LINE",
+"348 817 LINE",
+"0.086 94.664 LINE",
+"-347 817 LINE",
+"-472 760 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = backslash_slash_hyphen.liga;
+lastChange = "2017-06-24 01:42:43 +0000";
+layers = (
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -652, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"225 274 LINE",
+"265 352 LINE",
+"-427 352 LINE",
+"-467 274 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -674, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"239 251 LINE",
+"299 375 LINE",
+"-422 375 LINE",
+"-482 251 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = backslash_slash_greater.liga;
+lastChange = "2017-06-24 12:44:30 +0000";
+layers = (
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -680, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-274 707 LINE",
+"186 313 LINE",
+"-164 98 LINE",
+"-116 31 LINE",
+"265 269 LINE",
+"265 358 LINE",
+"-230 776 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -630, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-261 653 LINE",
+"153 314 LINE",
+"-171 129 LINE",
+"-99 15 LINE",
+"291 257 LINE",
+"291 370 LINE",
+"-191 763 LINE"
+);
+}
+);
 width = 600;
 }
 );
@@ -73103,6 +73318,110 @@ width = 600;
 },
 {
 color = 3;
+glyphname = hyphen_backslash_slash.liga;
+lastChange = "2017-06-24 01:45:06 +0000";
+layers = (
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -192, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-385 274 LINE",
+"-425 352 LINE",
+"-1117 352 LINE",
+"-1077 274 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -174, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-361 251 LINE",
+"-421 375 LINE",
+"-1142 375 LINE",
+"-1082 251 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = hyphen_backslash_slash_greater.liga;
+lastChange = "2017-06-24 12:44:10 +0000";
+layers = (
+{
+components = (
+{
+name = hyphen_backslash_slash.liga;
+transform = "{1, 0, 0, 1, -490, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-274 707 LINE",
+"186 313 LINE",
+"-164 98 LINE",
+"-116 31 LINE",
+"265 269 LINE",
+"265 358 LINE",
+"-230 776 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = hyphen_backslash_slash.liga;
+transform = "{1, 0, 0, 1, -460, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-261 653 LINE",
+"153 314 LINE",
+"-171 129 LINE",
+"-99 15 LINE",
+"291 257 LINE",
+"291 370 LINE",
+"-191 763 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
 glyphname = hyphen_hyphen.liga;
 lastChange = "2016-08-30 09:37:00 +0000";
 layers = (
@@ -73458,6 +73777,55 @@ nodes = (
 "229 375 LINE",
 "-492 375 LINE",
 "-492 251 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = hyphen_less_bar.liga;
+lastChange = "2017-06-24 01:29:41 +0000";
+layers = (
+{
+components = (
+{
+name = less_bar.liga;
+transform = "{1, 0, 0, 1, -12, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-335 274 LINE",
+"-335 352 LINE",
+"-1027 352 LINE",
+"-1027 274 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = less_bar.liga;
+transform = "{1, 0, 0, 1, -14, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-321 251 LINE",
+"-321 375 LINE",
+"-1042 375 LINE",
+"-1042 251 LINE"
 );
 }
 );
@@ -75650,6 +76018,33 @@ width = 600;
 );
 },
 {
+color = 6;
+glyphname = slash_backslash.liga;
+lastChange = "2017-06-24 14:10:02 +0000";
+layers = (
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, -1, 0, 704}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, -1, 0, 704}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
 color = 3;
 glyphname = slash_equal.liga;
 lastChange = "2016-08-30 09:37:00 +0000";
@@ -75918,6 +76313,69 @@ width = 600;
 },
 {
 color = 3;
+glyphname = underscore_asterisk.liga;
+lastChange = "2017-06-24 13:32:23 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-36 -182 LINE",
+"253 263 LINE",
+"398 49 LINE",
+"475 108 LINE",
+"311 304 LINE",
+"557 372 LINE",
+"530 461 LINE",
+"287 373 LINE",
+"298 631 LINE",
+"204 631 LINE",
+"216 372 LINE",
+"-26 461 LINE",
+"-57 372 LINE",
+"194 304 LINE",
+"-113 -103 LINE",
+"-600 -103 LINE",
+"-600 -182 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-18 -184 LINE",
+"249 230 LINE",
+"374 34 LINE",
+"484 114 LINE",
+"333 290 LINE",
+"566 348 LINE",
+"525 474 LINE",
+"301 387 LINE",
+"318 631 LINE",
+"181 631 LINE",
+"198 388 LINE",
+"-26 477 LINE",
+"-66 351 LINE",
+"166 291 LINE",
+"-104 -61 LINE",
+"-600 -61 LINE",
+"-600 -186 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
 glyphname = underscore_underscore.liga;
 lastChange = "2016-10-30 20:23:38 +0000";
 layers = (
@@ -75949,6 +76407,60 @@ nodes = (
 );
 }
 );
+width = 600;
+}
+);
+},
+{
+color = 7;
+glyphname = parenleft.numr;
+lastChange = "2015-03-19 16:57:04 +0000";
+layers = (
+{
+components = (
+{
+name = parenleft.dnom;
+transform = "{1, 0, 0, 1, 6, 370}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = parenleft.dnom;
+transform = "{1, 0, 0, 1, 0, 373}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+color = 7;
+glyphname = parenright.numr;
+lastChange = "2015-03-19 16:57:04 +0000";
+layers = (
+{
+components = (
+{
+name = parenright.dnom;
+transform = "{1, 0, 0, 1, -5, 370}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = parenright.dnom;
+transform = "{1, 0, 0, 1, 0, 372}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
 width = 600;
 }
 );
@@ -82442,151 +82954,6 @@ width = 600;
 );
 },
 {
-color = 4;
-glyphname = plus.dnom;
-lastChange = "2015-03-19 16:57:05 +0000";
-layers = (
-{
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"266 287 LINE",
-"266 198 LINE",
-"181 198 LINE",
-"181 134 LINE",
-"266 134 LINE",
-"266 46 LINE",
-"335 46 LINE",
-"335 134 LINE",
-"419 134 LINE",
-"419 198 LINE",
-"335 198 LINE",
-"335 287 LINE"
-);
-}
-);
-width = 600;
-},
-{
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"249 287 LINE",
-"249 207 LINE",
-"170 207 LINE",
-"170 124 LINE",
-"249 124 LINE",
-"249 46 LINE",
-"351 46 LINE",
-"351 124 LINE",
-"430 124 LINE",
-"430 207 LINE",
-"351 207 LINE",
-"351 287 LINE"
-);
-}
-);
-width = 600;
-}
-);
-},
-{
-color = 4;
-glyphname = minus.dnom;
-lastChange = "2015-03-19 16:57:05 +0000";
-layers = (
-{
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"181 196 LINE",
-"181 132 LINE",
-"419 132 LINE",
-"419 196 LINE"
-);
-}
-);
-width = 600;
-},
-{
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"160 205 LINE",
-"160 126 LINE",
-"440 126 LINE",
-"440 205 LINE"
-);
-}
-);
-width = 600;
-}
-);
-},
-{
-color = 4;
-glyphname = equal.dnom;
-lastChange = "2015-03-19 16:57:05 +0000";
-layers = (
-{
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"180 259 LINE",
-"180 194 LINE",
-"419 194 LINE",
-"419 259 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"180 138 LINE",
-"180 73 LINE",
-"419 73 LINE",
-"419 138 LINE"
-);
-}
-);
-width = 600;
-},
-{
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-paths = (
-{
-closed = 1;
-nodes = (
-"160 273 LINE",
-"160 190 LINE",
-"440 190 LINE",
-"440 273 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"160 143 LINE",
-"160 61 LINE",
-"440 61 LINE",
-"440 143 LINE"
-);
-}
-);
-width = 600;
-}
-);
-},
-{
 color = 8;
 glyphname = plus.lc;
 lastChange = "2016-07-17 07:48:24 +0000";
@@ -82606,87 +82973,6 @@ components = (
 {
 name = plus;
 transform = "{1, 0, 0, 1, 0, -40}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-}
-);
-},
-{
-color = 7;
-glyphname = plus.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
-layers = (
-{
-components = (
-{
-name = plus.dnom;
-transform = "{1, 0, 0, 1, 0, 368}";
-}
-);
-layerId = UUID0;
-width = 600;
-},
-{
-components = (
-{
-name = plus.dnom;
-transform = "{1, 0, 0, 1, 0, 371}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-}
-);
-},
-{
-color = 7;
-glyphname = minus.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
-layers = (
-{
-components = (
-{
-name = minus.dnom;
-transform = "{1, 0, 0, 1, 0, 368}";
-}
-);
-layerId = UUID0;
-width = 600;
-},
-{
-components = (
-{
-name = minus.dnom;
-transform = "{1, 0, 0, 1, 0, 371}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-}
-);
-},
-{
-color = 7;
-glyphname = equal.numr;
-lastChange = "2015-03-19 16:57:07 +0000";
-layers = (
-{
-components = (
-{
-name = equal.dnom;
-transform = "{1, 0, 0, 1, 0, 368}";
-}
-);
-layerId = UUID0;
-width = 600;
-},
-{
-components = (
-{
-name = equal.dnom;
-transform = "{1, 0, 0, 1, 0, 371}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
@@ -104578,6 +104864,421 @@ width = 600;
 },
 {
 color = 3;
+glyphname = less_bar.liga.001;
+lastChange = "2017-06-24 14:05:25 +0000";
+layers = (
+{
+components = (
+{
+name = bar_greater.liga;
+transform = "{-1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = bar_greater.liga;
+transform = "{-1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = plus.dnom;
+lastChange = "2015-03-19 16:57:05 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"266 287 LINE",
+"266 198 LINE",
+"181 198 LINE",
+"181 134 LINE",
+"266 134 LINE",
+"266 46 LINE",
+"335 46 LINE",
+"335 134 LINE",
+"419 134 LINE",
+"419 198 LINE",
+"335 198 LINE",
+"335 287 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"249 287 LINE",
+"249 207 LINE",
+"170 207 LINE",
+"170 124 LINE",
+"249 124 LINE",
+"249 46 LINE",
+"351 46 LINE",
+"351 124 LINE",
+"430 124 LINE",
+"430 207 LINE",
+"351 207 LINE",
+"351 287 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = minus.dnom;
+lastChange = "2015-03-19 16:57:05 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"181 196 LINE",
+"181 132 LINE",
+"419 132 LINE",
+"419 196 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"160 205 LINE",
+"160 126 LINE",
+"440 126 LINE",
+"440 205 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 4;
+glyphname = equal.dnom;
+lastChange = "2015-03-19 16:57:05 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"180 259 LINE",
+"180 194 LINE",
+"419 194 LINE",
+"419 259 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"180 138 LINE",
+"180 73 LINE",
+"419 73 LINE",
+"419 138 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"160 273 LINE",
+"160 190 LINE",
+"440 190 LINE",
+"440 273 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"160 143 LINE",
+"160 61 LINE",
+"440 61 LINE",
+"440 143 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = at_at.liga;
+lastChange = "2017-06-24 13:10:39 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-237 701 OFFCURVE",
+"-462 679 OFFCURVE",
+"-512 541 CURVE",
+"-462 483 LINE",
+"-418 617 OFFCURVE",
+"-212 625 OFFCURVE",
+"4 625 CURVE SMOOTH",
+"425 625 OFFCURVE",
+"437 477 OFFCURVE",
+"437 284 CURVE SMOOTH",
+"437 109 OFFCURVE",
+"437 -20 OFFCURVE",
+"377 -20 CURVE SMOOTH",
+"339 -20 OFFCURVE",
+"310 4 OFFCURVE",
+"310 108 CURVE SMOOTH",
+"310 404 LINE",
+"254 434 OFFCURVE",
+"213 442 OFFCURVE",
+"166 442 CURVE SMOOTH",
+"40 442 OFFCURVE",
+"-32 356 OFFCURVE",
+"-32 183 CURVE SMOOTH",
+"-32 51 OFFCURVE",
+"10 -46 OFFCURVE",
+"120 -46 CURVE SMOOTH",
+"199 -46 OFFCURVE",
+"238 4 OFFCURVE",
+"257 51 CURVE",
+"261 51 LINE",
+"261 -1 OFFCURVE",
+"296 -91 OFFCURVE",
+"379 -91 CURVE SMOOTH",
+"500 -91 OFFCURVE",
+"527 34 OFFCURVE",
+"527 286 CURVE SMOOTH",
+"527 495 OFFCURVE",
+"500 701 OFFCURVE",
+"4 701 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"192 376 OFFCURVE",
+"210 372 OFFCURVE",
+"230 362 CURVE",
+"230 107 LINE",
+"219 78 OFFCURVE",
+"199 21 OFFCURVE",
+"132 21 CURVE SMOOTH",
+"74 21 OFFCURVE",
+"56 86 OFFCURVE",
+"56 183 CURVE SMOOTH",
+"56 312 OFFCURVE",
+"82 376 OFFCURVE",
+"169 376 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-268 376 OFFCURVE",
+"-250 372 OFFCURVE",
+"-230 362 CURVE",
+"-230 107 LINE",
+"-241 78 OFFCURVE",
+"-261 21 OFFCURVE",
+"-328 21 CURVE SMOOTH",
+"-386 21 OFFCURVE",
+"-404 86 OFFCURVE",
+"-404 183 CURVE SMOOTH",
+"-404 312 OFFCURVE",
+"-378 376 OFFCURVE",
+"-291 376 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-31 183 LINE",
+"-31 51 OFFCURVE",
+"-44 -20 OFFCURVE",
+"-96 -20 CURVE SMOOTH",
+"-130 -20 OFFCURVE",
+"-150 4 OFFCURVE",
+"-150 108 CURVE SMOOTH",
+"-150 404 LINE",
+"-206 434 OFFCURVE",
+"-247 442 OFFCURVE",
+"-294 442 CURVE SMOOTH",
+"-420 442 OFFCURVE",
+"-492 356 OFFCURVE",
+"-492 183 CURVE SMOOTH",
+"-492 51 OFFCURVE",
+"-450 -46 OFFCURVE",
+"-340 -46 CURVE SMOOTH",
+"-261 -46 OFFCURVE",
+"-222 4 OFFCURVE",
+"-203 51 CURVE",
+"-199 51 LINE",
+"-199 -1 OFFCURVE",
+"-180 -89 OFFCURVE",
+"-96 -89 CURVE SMOOTH",
+"7 -89 OFFCURVE",
+"28 51 OFFCURVE",
+"30 183 CURVE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-242 711 OFFCURVE",
+"-481 705 OFFCURVE",
+"-542 545 CURVE",
+"-479 471 LINE",
+"-432 618 OFFCURVE",
+"-213 613 OFFCURVE",
+"-1 613 CURVE SMOOTH",
+"398 613 OFFCURVE",
+"437 497 OFFCURVE",
+"437 287 CURVE SMOOTH",
+"437 80 OFFCURVE",
+"434 5 OFFCURVE",
+"396 5 CURVE SMOOTH",
+"369 5 OFFCURVE",
+"357 31 OFFCURVE",
+"357 104 CURVE SMOOTH",
+"357 404 LINE",
+"302 434 OFFCURVE",
+"241 448 OFFCURVE",
+"188 448 CURVE SMOOTH",
+"42 448 OFFCURVE",
+"-25 343 OFFCURVE",
+"-25 179 CURVE SMOOTH",
+"-25 50 OFFCURVE",
+"18 -49 OFFCURVE",
+"137 -49 CURVE SMOOTH",
+"208 -49 OFFCURVE",
+"255 -7 OFFCURVE",
+"277 44 CURVE",
+"281 44 LINE",
+"290 -32 OFFCURVE",
+"325 -94 OFFCURVE",
+"401 -94 CURVE SMOOTH",
+"529 -94 OFFCURVE",
+"559 44 OFFCURVE",
+"559 296 CURVE SMOOTH",
+"559 547 OFFCURVE",
+"484 711 OFFCURVE",
+"7 711 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"200 348 OFFCURVE",
+"210 345 OFFCURVE",
+"222 339 CURVE",
+"222 121 LINE",
+"218 90 OFFCURVE",
+"210 51 OFFCURVE",
+"166 51 CURVE SMOOTH",
+"129 51 OFFCURVE",
+"118 88 OFFCURVE",
+"118 179 CURVE SMOOTH",
+"118 307 OFFCURVE",
+"133 348 OFFCURVE",
+"185 348 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-280 348 OFFCURVE",
+"-270 345 OFFCURVE",
+"-258 339 CURVE",
+"-258 121 LINE",
+"-262 90 OFFCURVE",
+"-270 51 OFFCURVE",
+"-314 51 CURVE SMOOTH",
+"-351 51 OFFCURVE",
+"-362 88 OFFCURVE",
+"-362 179 CURVE SMOOTH",
+"-362 307 OFFCURVE",
+"-347 348 OFFCURVE",
+"-295 348 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-17 179 LINE",
+"-17 50 OFFCURVE",
+"-36 5 OFFCURVE",
+"-74 5 CURVE SMOOTH",
+"-111 5 OFFCURVE",
+"-123 31 OFFCURVE",
+"-123 104 CURVE SMOOTH",
+"-123 404 LINE",
+"-178 434 OFFCURVE",
+"-239 448 OFFCURVE",
+"-292 448 CURVE SMOOTH",
+"-438 448 OFFCURVE",
+"-505 343 OFFCURVE",
+"-505 179 CURVE SMOOTH",
+"-505 50 OFFCURVE",
+"-462 -49 OFFCURVE",
+"-343 -49 CURVE SMOOTH",
+"-272 -49 OFFCURVE",
+"-225 -7 OFFCURVE",
+"-203 44 CURVE",
+"-199 44 LINE",
+"-190 -32 OFFCURVE",
+"-145 -94 OFFCURVE",
+"-79 -94 CURVE SMOOTH",
+"-5 -94 OFFCURVE",
+"49 -15 OFFCURVE",
+"49 179 CURVE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
 glyphname = ampersand_ampersand.liga;
 lastChange = "2016-08-30 09:37:00 +0000";
 layers = (
@@ -105912,6 +106613,105 @@ width = 600;
 },
 {
 color = 3;
+glyphname = greater_colon.liga;
+lastChange = "2017-06-24 15:49:03 +0000";
+layers = (
+{
+components = (
+{
+name = _part.greater2;
+transform = "{1, 0, 0, 1, -411, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"170 -11 OFFCURVE",
+"214 -56 OFFCURVE",
+"271 -56 CURVE SMOOTH",
+"329 -56 OFFCURVE",
+"373 -11 OFFCURVE",
+"373 46 CURVE SMOOTH",
+"373 101 OFFCURVE",
+"329 147 OFFCURVE",
+"271 147 CURVE SMOOTH",
+"214 147 OFFCURVE",
+"170 101 OFFCURVE",
+"170 46 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"170 521 OFFCURVE",
+"214 475 OFFCURVE",
+"271 475 CURVE SMOOTH",
+"329 475 OFFCURVE",
+"373 521 OFFCURVE",
+"373 577 CURVE SMOOTH",
+"373 633 OFFCURVE",
+"329 678 OFFCURVE",
+"271 678 CURVE SMOOTH",
+"214 678 OFFCURVE",
+"170 633 OFFCURVE",
+"170 577 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = _part.greater2;
+transform = "{1, 0, 0, 1, -431, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"157 -18 OFFCURVE",
+"209 -70 OFFCURVE",
+"274 -70 CURVE SMOOTH",
+"339 -70 OFFCURVE",
+"390 -18 OFFCURVE",
+"390 46 CURVE SMOOTH",
+"390 109 OFFCURVE",
+"339 160 OFFCURVE",
+"274 160 CURVE SMOOTH",
+"209 160 OFFCURVE",
+"157 109 OFFCURVE",
+"157 46 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"157 525 OFFCURVE",
+"209 472 OFFCURVE",
+"274 472 CURVE SMOOTH",
+"339 472 OFFCURVE",
+"390 525 OFFCURVE",
+"390 588 CURVE SMOOTH",
+"390 651 OFFCURVE",
+"339 705 OFFCURVE",
+"274 705 CURVE SMOOTH",
+"209 705 OFFCURVE",
+"157 651 OFFCURVE",
+"157 588 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
 glyphname = greater_hyphen.liga;
 lastChange = "2016-11-05 11:42:59 +0000";
 layers = (
@@ -106439,6 +107239,114 @@ width = 600;
 },
 {
 color = 3;
+glyphname = less_backslash_slash.liga;
+lastChange = "2017-06-24 02:14:49 +0000";
+layers = (
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -200, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-1144 358 LINE",
+"-1144 269 LINE",
+"-763 31 LINE",
+"-715 98 LINE",
+"-1065 313 LINE",
+"-605 707 LINE",
+"-649 776 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = backslash_slash.liga;
+transform = "{1, 0, 0, 1, -180, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-1101 370 LINE",
+"-1101 257 LINE",
+"-711 15 LINE",
+"-639 129 LINE",
+"-963 314 LINE",
+"-549 653 LINE",
+"-619 763 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = less_backslash_slash_hyphen.liga;
+lastChange = "2017-06-24 02:05:52 +0000";
+layers = (
+{
+components = (
+{
+name = backslash_slash_hyphen.liga;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-1604 358 LINE",
+"-1604 269 LINE",
+"-1223 31 LINE",
+"-1175 98 LINE",
+"-1525 313 LINE",
+"-1065 707 LINE",
+"-1109 776 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = backslash_slash_hyphen.liga;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-1611 370 LINE",
+"-1611 257 LINE",
+"-1221 15 LINE",
+"-1149 129 LINE",
+"-1473 314 LINE",
+"-1059 653 LINE",
+"-1129 763 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
 glyphname = less_bar.liga;
 lastChange = "2016-08-30 09:37:00 +0000";
 layers = (
@@ -106457,33 +107365,6 @@ components = (
 {
 name = bar_greater.liga;
 transform = "{-1, 0, 0, 1, 0, 0}";
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-}
-);
-},
-{
-color = 6;
-glyphname = less_bar_bar.liga;
-lastChange = "2016-11-05 19:10:21 +0000";
-layers = (
-{
-components = (
-{
-name = bar_bar_greater.liga;
-transform = "{-1, 0, 0, 1, -600, 0}";
-}
-);
-layerId = UUID0;
-width = 600;
-},
-{
-components = (
-{
-name = bar_bar_greater.liga;
-transform = "{-1, 0, 0, 1, -600, 0}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
@@ -106514,6 +107395,55 @@ transform = "{-1, 0, 0, 1, -1200, 0}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = less_bar_hyphen.liga;
+lastChange = "2017-06-24 01:48:48 +0000";
+layers = (
+{
+components = (
+{
+name = less_bar.liga;
+transform = "{1, 0, 0, 1, -682, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"295 274 LINE",
+"295 352 LINE",
+"-397 352 LINE",
+"-397 274 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = less_bar.liga;
+transform = "{1, 0, 0, 1, -694, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"319 251 LINE",
+"319 375 LINE",
+"-402 375 LINE",
+"-402 251 LINE"
+);
+}
+);
 width = 600;
 }
 );
@@ -106593,6 +107523,140 @@ nodes = (
 );
 }
 );
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = less_colon.liga;
+lastChange = "2017-06-24 15:49:21 +0000";
+layers = (
+{
+components = (
+{
+name = _part.less2;
+transform = "{1, 0, 0, 1, -631, 0}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"190 -11 OFFCURVE",
+"234 -56 OFFCURVE",
+"291 -56 CURVE SMOOTH",
+"349 -56 OFFCURVE",
+"393 -11 OFFCURVE",
+"393 46 CURVE SMOOTH",
+"393 101 OFFCURVE",
+"349 147 OFFCURVE",
+"291 147 CURVE SMOOTH",
+"234 147 OFFCURVE",
+"190 101 OFFCURVE",
+"190 46 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"190 521 OFFCURVE",
+"234 475 OFFCURVE",
+"291 475 CURVE SMOOTH",
+"349 475 OFFCURVE",
+"393 521 OFFCURVE",
+"393 577 CURVE SMOOTH",
+"393 633 OFFCURVE",
+"349 678 OFFCURVE",
+"291 678 CURVE SMOOTH",
+"234 678 OFFCURVE",
+"190 633 OFFCURVE",
+"190 577 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = _part.less2;
+transform = "{1, 0, 0, 1, -651, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"177 -18 OFFCURVE",
+"229 -70 OFFCURVE",
+"294 -70 CURVE SMOOTH",
+"359 -70 OFFCURVE",
+"410 -18 OFFCURVE",
+"410 46 CURVE SMOOTH",
+"410 109 OFFCURVE",
+"359 160 OFFCURVE",
+"294 160 CURVE SMOOTH",
+"229 160 OFFCURVE",
+"177 109 OFFCURVE",
+"177 46 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"177 525 OFFCURVE",
+"229 472 OFFCURVE",
+"294 472 CURVE SMOOTH",
+"359 472 OFFCURVE",
+"410 525 OFFCURVE",
+"410 588 CURVE SMOOTH",
+"410 651 OFFCURVE",
+"359 705 OFFCURVE",
+"294 705 CURVE SMOOTH",
+"229 705 OFFCURVE",
+"177 651 OFFCURVE",
+"177 588 CURVE SMOOTH"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
+glyphname = less_colon_less.liga;
+lastChange = "2017-06-24 15:49:37 +0000";
+layers = (
+{
+components = (
+{
+name = less_colon.liga;
+transform = "{1, 0, 0, 1, -600, 0}";
+},
+{
+name = _part.less2;
+transform = "{1, 0, 0, 1, -260, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = less_colon.liga;
+transform = "{1, 0, 0, 1, -600, 0}";
+},
+{
+name = _part.less2;
+transform = "{1, 0, 0, 1, -250, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
 width = 600;
 }
 );
@@ -107706,6 +108770,189 @@ width = 600;
 },
 {
 color = 3;
+glyphname = less_percent.liga;
+lastChange = "2017-06-24 18:25:31 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"477 213 OFFCURVE",
+"504 185 OFFCURVE",
+"504 115 CURVE SMOOTH",
+"504 46 OFFCURVE",
+"477 15 OFFCURVE",
+"438 15 CURVE SMOOTH",
+"398 15 OFFCURVE",
+"371 52 OFFCURVE",
+"371 115 CURVE SMOOTH",
+"371 183 OFFCURVE",
+"399 213 OFFCURVE",
+"438 213 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"203 599 OFFCURVE",
+"230 571 OFFCURVE",
+"230 501 CURVE SMOOTH",
+"230 432 OFFCURVE",
+"203 401 OFFCURVE",
+"164 401 CURVE SMOOTH",
+"124 401 OFFCURVE",
+"97 438 OFFCURVE",
+"97 501 CURVE SMOOTH",
+"97 567 OFFCURVE",
+"125 599 OFFCURVE",
+"164 599 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"71 661 OFFCURVE",
+"17 588 OFFCURVE",
+"17 501 CURVE SMOOTH",
+"17 415 OFFCURVE",
+"71 340 OFFCURVE",
+"164 340 CURVE SMOOTH",
+"257 340 OFFCURVE",
+"310 415 OFFCURVE",
+"310 501 CURVE SMOOTH",
+"310 588 OFFCURVE",
+"257 661 OFFCURVE",
+"164 661 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"345 275 OFFCURVE",
+"291 202 OFFCURVE",
+"291 115 CURVE SMOOTH",
+"291 29 OFFCURVE",
+"345 -46 OFFCURVE",
+"438 -46 CURVE SMOOTH",
+"531 -46 OFFCURVE",
+"584 29 OFFCURVE",
+"584 115 CURVE SMOOTH",
+"584 202 OFFCURVE",
+"531 275 OFFCURVE",
+"438 275 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"94 -61 LINE",
+"553 633 LINE",
+"496 668 LINE",
+"80.35 38.398 LINE",
+"-366 313 LINE",
+"-16 527 LINE",
+"-16 623 LINE",
+"-445 358 LINE",
+"-445 269 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"487 189 OFFCURVE",
+"493 163 OFFCURVE",
+"493 110 CURVE SMOOTH",
+"493 61 OFFCURVE",
+"487 32 OFFCURVE",
+"454 32 CURVE SMOOTH",
+"423 32 OFFCURVE",
+"415 63 OFFCURVE",
+"415 110 CURVE SMOOTH",
+"415 159 OFFCURVE",
+"421 189 OFFCURVE",
+"454 189 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"179 593 OFFCURVE",
+"185 567 OFFCURVE",
+"185 514 CURVE SMOOTH",
+"185 465 OFFCURVE",
+"179 436 OFFCURVE",
+"146 436 CURVE SMOOTH",
+"115 436 OFFCURVE",
+"107 467 OFFCURVE",
+"107 514 CURVE SMOOTH",
+"107 563 OFFCURVE",
+"113 593 OFFCURVE",
+"146 593 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"56 671 OFFCURVE",
+"3 605 OFFCURVE",
+"3 514 CURVE SMOOTH",
+"3 419 OFFCURVE",
+"56 358 OFFCURVE",
+"146 358 CURVE SMOOTH",
+"235 358 OFFCURVE",
+"288 419 OFFCURVE",
+"288 514 CURVE SMOOTH",
+"288 609 OFFCURVE",
+"235 671 OFFCURVE",
+"146 671 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"364 267 OFFCURVE",
+"311 201 OFFCURVE",
+"311 110 CURVE SMOOTH",
+"311 15 OFFCURVE",
+"364 -46 OFFCURVE",
+"454 -46 CURVE SMOOTH",
+"543 -46 OFFCURVE",
+"596 15 OFFCURVE",
+"596 110 CURVE SMOOTH",
+"596 205 OFFCURVE",
+"543 267 OFFCURVE",
+"454 267 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"146 -133 LINE",
+"508 641 LINE",
+"423 676 LINE",
+"124.191 46.462 LINE",
+"-344 314 LINE",
+"-20 503 LINE",
+"-20 656 LINE",
+"-482 370 LINE",
+"-482 257 LINE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+color = 3;
 glyphname = less_slash.liga;
 lastChange = "2016-08-30 09:37:00 +0000";
 layers = (
@@ -108478,6 +109725,87 @@ transform = "{1, 0, 0, 1, -550, 0}";
 {
 name = percent;
 transform = "{1, 0, 0, 1, -50, 0}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+color = 7;
+glyphname = plus.numr;
+lastChange = "2015-03-19 16:57:05 +0000";
+layers = (
+{
+components = (
+{
+name = plus.dnom;
+transform = "{1, 0, 0, 1, 0, 368}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = plus.dnom;
+transform = "{1, 0, 0, 1, 0, 371}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+color = 7;
+glyphname = minus.numr;
+lastChange = "2015-03-19 16:57:05 +0000";
+layers = (
+{
+components = (
+{
+name = minus.dnom;
+transform = "{1, 0, 0, 1, 0, 368}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = minus.dnom;
+transform = "{1, 0, 0, 1, 0, 371}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+}
+);
+},
+{
+color = 7;
+glyphname = equal.numr;
+lastChange = "2015-03-19 16:57:07 +0000";
+layers = (
+{
+components = (
+{
+name = equal.dnom;
+transform = "{1, 0, 0, 1, 0, 368}";
+}
+);
+layerId = UUID0;
+width = 600;
+},
+{
+components = (
+{
+name = equal.dnom;
+transform = "{1, 0, 0, 1, 0, 371}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
@@ -113845,91 +115173,6 @@ width = 600;
 unicode = 1FEF;
 },
 {
-color = 7;
-glyphname = oxia;
-lastChange = "2015-03-23 09:33:53 +0000";
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{300, 531}";
-},
-{
-name = top;
-position = "{291, 836}";
-}
-);
-components = (
-{
-name = acutecomb;
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{300, 527}";
-},
-{
-name = top;
-position = "{290, 801}";
-}
-);
-components = (
-{
-name = acutecomb;
-}
-);
-layerId = UUID0;
-width = 600;
-}
-);
-unicode = 1FFD;
-},
-{
-color = 7;
-glyphname = perispomeni;
-lastChange = "2015-03-23 09:11:20 +0000";
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{300, 531}";
-}
-);
-components = (
-{
-name = tildecomb;
-}
-);
-layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
-width = 600;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{300, 527}";
-}
-);
-components = (
-{
-name = tildecomb;
-transform = "{1, 0, 0, 1, -1, 0}";
-}
-);
-layerId = UUID0;
-width = 600;
-}
-);
-unicode = 1FC0;
-},
-{
 color = 0;
 glyphname = varia.case;
 lastChange = "2015-03-30 10:27:40 +0000";
@@ -114002,6 +115245,52 @@ width = 600;
 );
 },
 {
+color = 7;
+glyphname = oxia;
+lastChange = "2015-03-23 09:33:53 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{300, 531}";
+},
+{
+name = top;
+position = "{291, 836}";
+}
+);
+components = (
+{
+name = acutecomb;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{300, 527}";
+},
+{
+name = top;
+position = "{290, 801}";
+}
+);
+components = (
+{
+name = acutecomb;
+}
+);
+layerId = UUID0;
+width = 600;
+}
+);
+unicode = 1FFD;
+},
+{
 color = 0;
 glyphname = oxia.case;
 lastChange = "2015-03-30 10:27:08 +0000";
@@ -114036,6 +115325,45 @@ layerId = UUID0;
 width = 600;
 }
 );
+},
+{
+color = 7;
+glyphname = perispomeni;
+lastChange = "2015-03-23 09:11:20 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{300, 531}";
+}
+);
+components = (
+{
+name = tildecomb;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{300, 527}";
+}
+);
+components = (
+{
+name = tildecomb;
+transform = "{1, 0, 0, 1, -1, 0}";
+}
+);
+layerId = UUID0;
+width = 600;
+}
+);
+unicode = 1FC0;
 },
 {
 color = 6;
