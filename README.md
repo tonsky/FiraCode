@@ -8,7 +8,7 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-#### [Download v1.204](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [News & updates](https://twitter.com/FiraCode)
+#### [Download v1.204](https://github.com/tonsky/FiraCode/releases/download/1.204/FiraCode_1.204.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News & updates](https://twitter.com/FiraCode)
 
 Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
@@ -61,16 +61,18 @@ Scala:
 | **QTerminal**    | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))  |
 | **Terminal.app** (OS X default terminal) | **mate-terminal** |
 | **Termux** (Android terminal emulator) | **mintty** |
-|                  | **PuTTY**           |
+| **ZOC** (macOS)  | **PuTTY**           |
 |                  | **rxvt**            |
+|                  | **ZOC** (Windows)   |
 |                  | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
 
 ### Editor support
 
 | Works | Doesn’t work   |
 | ----- | -------------- |
-| **Anjuta** (unless at the EOF) | **Arduino IDE** |
-| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver** |
+| **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Arduino IDE** |
+| **Anjuta** (unless at the EOF) | **Adobe Dreamweaver** |
+| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Delphi IDE** |
 | **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Eclipse** (Mac and Win, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656)) |
 | **BBEdit/TextWrangler** ([instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Setting-up-Emacs)) |
 | **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** |
@@ -79,7 +81,7 @@ Scala:
 | **Cloud9** | **Monkey Studio IDE** |
 | **Coda 2** | **Notepad++** |
 | **CodeLite** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
-| **Eclipse** (Linux) |
+| **Eclipse** (Linux) |  |
 | **Geany** |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
