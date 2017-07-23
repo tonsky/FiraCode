@@ -45,6 +45,9 @@ Clojure:
 
 <img src="./showcases/clojure.png" />
 
+Swift:
+<img src="./showcases/swift.png" />
+
 
 ### Terminal support
 
@@ -111,7 +114,7 @@ Clojure:
 | **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
 | **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Xamarin Studio/Monodevelop** |
-| **Xcode** (with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
+| **Xcode** (8.0 and above out of the box, < 8.0 with [this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
 
 ### Browser support
