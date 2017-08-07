@@ -75,8 +75,8 @@ Clojure:
 | **Chocolat** | **IDLE** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
 | **Cloud9** | **Monkey Studio IDE** |
-| **Coda 2** | **Notepad++** |
-| **CodeLite** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **Coda 2** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **CodeLite** |  |
 | **Eclipse** (Linux) |  |
 | **Geany** |
 | **gEdit / Pluma** |
@@ -94,6 +94,7 @@ Clojure:
 | **Mousepad** |
 | **NetBeans** |
 | **Notepad** (Win) |
+| **Notepad++** (with a [workaround](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/2287#issuecomment-256638098))  |
 | **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **QtCreator** |
