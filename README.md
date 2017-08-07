@@ -84,6 +84,7 @@ Swift:
 | **CodeLite** |  |
 | **Eclipse** (Mac 4.7+, Linux) |  |
 | **Geany** |
+| **GitLab** ([instructions](https://gist.github.com/jkuchar/8a33962434d7fa61036d21c21ba02f9b))
 | **gEdit / Pluma** |
 | **GNOME Builder** |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
