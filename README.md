@@ -54,13 +54,13 @@ Swift:
 
 | Works            | Doesn’t work       |
 | ---------------- | ------------------ |
-| **upterm**       | **Alacritty**      |
-| **Butterfly**    | **cmd.exe**        |
-| **Hyper.app**    | **Cmder**          |
-| **Konsole**      | **ConEmu**         |
-| **QTerminal**    | **GNOME Terminal** |
-| **Terminal.app** (OS X default terminal) | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))  |
-| **Termux** (Android terminal emulator) | **mate-terminal** |
+| **Butterfly**    | **Alacritty**      |
+| **Hyper.app**    | **cmd.exe**        |
+| **Konsole**      | **Cmder**          |
+| **QTerminal**    | **ConEmu**         |
+| **Terminal.app** (OS X default terminal)    | **GNOME Terminal** |
+| **Termux** (Android terminal emulator) | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))  |
+| **upterm**       | **mate-terminal** |
 | **ZOC** (macOS)  | **mintty** |
 |                  | **PuTTY**           |
 |                  | **rxvt**            |
