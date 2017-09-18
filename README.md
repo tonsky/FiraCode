@@ -54,7 +54,7 @@ Swift:
 
 | Works            | Doesn’t work       |
 | ---------------- | ------------------ |
-| **Black Screen** | **Alacritty**      |
+| **upterm**       | **Alacritty**      |
 | **Butterfly**    | **cmd.exe**        |
 | **Hyper.app**    | **Cmder**          |
 | **Konsole**      | **ConEmu**         |
