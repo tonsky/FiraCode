@@ -122,6 +122,16 @@ Swift:
 
 ### Browser support
 
+```html
+<!-- HTML -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css">
+```
+
+```css
+/* CSS */
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+```
+
 - IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
 - Firefox
 - Safari
