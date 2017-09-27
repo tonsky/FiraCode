@@ -59,10 +59,10 @@ Swift:
 | **Konsole**      | **Cmder**          |
 | **QTerminal**    | **ConEmu**         |
 | **Terminal.app** (OS X default terminal)    | **GNOME Terminal** |
-| **Termux** (Android terminal emulator) | **iTerm 2** ([coming in 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332))  |
+| **Termux** (Android terminal emulator) |     |
 | **upterm**       | **mate-terminal** |
 | **ZOC** (macOS)  | **mintty** |
-|                  | **PuTTY**           |
+| **iTerm 2** ([since 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **PuTTY**           |
 |                  | **rxvt**            |
 |                  | **ZOC** (Windows)   |
 |                  | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
