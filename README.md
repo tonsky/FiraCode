@@ -12,42 +12,46 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 Fira Code is an extension of the Fira Mono font containing a set of ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
-<img src="./showcases/all_ligatures.png" />
+<img src="./showcases/all_ligatures.png">
 
 
 ### Code examples
 
 Ruby:
 
-<img src="./showcases/ruby.png" />
+<img src="./showcases/ruby.png">
 
 JavaScript:
 
-<img src="./showcases/javascript.png" />
+<img src="./showcases/javascript.png">
+
+PHP:
+
+<img src="./showcases/php.png">
 
 Erlang:
 
-<img src="./showcases/erlang.png" />
+<img src="./showcases/erlang.png">
 
 Elixir:
 
-<img src="/showcases/elixir.png" />
+<img src="/showcases/elixir.png">
 
 Go:
 
-<img src="./showcases/go.png" />
+<img src="./showcases/go.png">
 
 LiveScript:
 
-<img src="./showcases/livescript.png" />
+<img src="./showcases/livescript.png">
 
 Clojure:
 
-<img src="./showcases/clojure.png" />
+<img src="./showcases/clojure.png">
 
 Swift:
 
-<img src="./showcases/swift.png" />
+<img src="./showcases/swift.png">
 
 
 ### Terminal support
