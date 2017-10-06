@@ -110,7 +110,7 @@ Swift:
 | **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 | **RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Scratch** |
-| **SublimeText** |
+| **SublimeText** Build 3146 or newer |
 | **Spyder IDE** (only with Qt5) |
 | **TextAdept** (Linux, Mac) |
 | **TextEdit** |
