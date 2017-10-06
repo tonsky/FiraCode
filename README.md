@@ -83,7 +83,7 @@ Swift:
 | **Chocolat** | **IDLE** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
 | **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **Monkey Studio IDE** |
-| **Coda 2** | **SublimeText** ([vote here](http://sublimetext.userecho.com/topic/1030059-does-sublimetext-support-programming-ligatures-fontlike-fira-code/)) |
+| **Coda 2** |  |
 | **CodeLite** |  |
 | **Eclipse** (Mac 4.7+, Linux) |  |
 | **Geany** |
@@ -110,6 +110,7 @@ Swift:
 | **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
 | **RubyMine** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Scratch** |
+| **SublimeText** |
 | **Spyder IDE** (only with Qt5) |
 | **TextAdept** (Linux, Mac) |
 | **TextEdit** |
