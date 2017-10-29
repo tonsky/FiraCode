@@ -56,19 +56,23 @@ Swift:
 
 ### Terminal support
 
-| Works            | Doesn’t work       |
-| ---------------- | ------------------ |
-| **Butterfly**    | **Alacritty**      |
-| **Hyper.app**    | **cmd.exe**        |
-| **Konsole**      | **Cmder**          |
-| **QTerminal**    | **ConEmu**         |
-| **Terminal.app** | **GNOME Terminal** |
-| **Termux**       | **mate-terminal**  |
-| **upterm**       | **mintty**         |
-| **ZOC** (macOS)  | **PuTTY**          |
-| **iTerm 2** ([since 3.1](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **rxvt** |
-|                  | **ZOC** (Windows)  |
-|                  | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+### Works
+
+**[Butterfly][butterfly]**, **Hyper.app**, **Konsole**, **QTerminal**,
+**Terminal.app**, **[Termux][termux]**, **[upterm][upterm]**,
+**ZOC** (macOS), **iTerm 2** ([since 3.1][iterm2_31])
+
+[butterfly]: https://github.com/paradoxxxzero/butterfly
+[upterm]: https://github.com/railsware/upterm
+[termux]: https://termux.com/
+[iterm2_31]: https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332
+
+### Doesn't Work
+
+**Alacritty**, **cmd.exe**, **Cmder**, **ConEmu**, **GNOME Terminal**, **mate-terminal**, **mintty**,
+**PuTTY**, **rxvt**, **ZOC** (Windows), 
+**gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** 
+and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
 
 ### Editor support
 
