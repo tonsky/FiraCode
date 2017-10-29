@@ -58,7 +58,7 @@ Swift:
 
 ### Works
 
-**[Butterfly][butterfly]**, **Hyper.app**, **Konsole**, **QTerminal**,
+**[Butterfly][butterfly]**, **Hyper.app**, **Konsole**, **[QTerminal][qterm]**,
 **Terminal.app**, **[Termux][termux]**, **[upterm][upterm]**,
 **ZOC** (macOS), **iTerm 2** ([since 3.1][iterm2_31])
 
@@ -66,6 +66,7 @@ Swift:
 [upterm]: https://github.com/railsware/upterm
 [termux]: https://termux.com/
 [iterm2_31]: https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332
+[qterm]: https://github.com/lxde/qterminal
 
 ### Doesn't Work
 
