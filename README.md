@@ -112,6 +112,7 @@ Swift:
 | **Scratch** |
 | **SublimeText** (3146+) |
 | **Spyder IDE** (only with Qt5) |
+| **SuperCollider 3** |
 | **TextAdept** (Linux, Mac) |
 | **TextEdit** |
 | **TextMate 2** |
