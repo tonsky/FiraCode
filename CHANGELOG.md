@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - Added `..=` ([#433])
 - Added `=!=` ([#338])
 - Added `|-` `-|` `_|_` and adjusted `|=` `||=` ([#494])
+- Added `#=` ([#208])
 
 #### 1.204 (November 6, 2016)
 
