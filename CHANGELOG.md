@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Adjusted vertical position of colon `:` near `{[()]}` ([#486])
 - Added `:>` ([#547]) and `<:` ([#525])
 - Removed `=<` ([#479] [#468] [#424] [#406] [#355] [#305])
+- Added `::=` ([#539])
 
 #### 1.204 (November 6, 2016)
 
