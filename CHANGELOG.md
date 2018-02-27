@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - Added `✓` (U+2713)
 - Added `..=` ([#433])
 - Added `=!=` ([#338])
+- Added `|-` `-|` `_|_` and adjusted `|=` `||=` ([#494])
 
 #### 1.204 (November 6, 2016)
 
