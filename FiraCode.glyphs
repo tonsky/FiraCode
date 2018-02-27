@@ -73138,13 +73138,13 @@ width = 600;
 {
 color = 6;
 glyphname = colon_greater.liga;
-lastChange = "2018-02-27 09:52:50 +0000";
+lastChange = "2018-02-27 12:47:23 +0000";
 layers = (
 {
 components = (
 {
 name = colon;
-transform = "{1, 0, 0, 1, -550, 62}";
+transform = "{1, 0, 0, 1, -625, 57}";
 }
 );
 layerId = UUID0;
@@ -73152,13 +73152,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-14 514 LINE",
-"377 313 LINE",
-"-14 112 LINE",
-"-14 24 LINE",
-"465 269 LINE",
-"465 357 LINE",
-"-14 602 LINE"
+"9 514 LINE",
+"400 313 LINE",
+"9 112 LINE",
+"9 24 LINE",
+"488 269 LINE",
+"488 357 LINE",
+"9 602 LINE"
 );
 }
 );
@@ -73168,7 +73168,7 @@ width = 600;
 components = (
 {
 name = colon;
-transform = "{1, 0, 0, 1, -550, 53}";
+transform = "{1, 0, 0, 1, -630, 48}";
 }
 );
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
@@ -73176,13 +73176,13 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-28 490 LINE",
-"318 314 LINE",
-"-28 138 LINE",
-"-28 -8 LINE",
-"481 257 LINE",
-"481 371 LINE",
-"-28 633 LINE"
+"-4 490 LINE",
+"342 314 LINE",
+"-4 138 LINE",
+"-4 -8 LINE",
+"505 257 LINE",
+"505 371 LINE",
+"-4 633 LINE"
 );
 }
 );
@@ -75539,17 +75539,17 @@ width = 600;
 {
 color = 6;
 glyphname = period_period_equal.liga;
-lastChange = "2018-02-27 11:10:58 +0000";
+lastChange = "2018-02-27 13:35:12 +0000";
 layers = (
 {
 components = (
 {
 name = bullet;
-transform = "{1, 0, 0, 1, -750, -33}";
+transform = "{1, 0, 0, 1, -1200, -33}";
 },
 {
 name = bullet;
-transform = "{1, 0, 0, 1, -1200, -33}";
+transform = "{1, 0, 0, 1, -750, -33}";
 }
 );
 layerId = UUID0;
@@ -101717,21 +101717,31 @@ unicode = 266B;
 {
 color = 6;
 glyphname = checkmark;
-lastChange = "2018-02-27 10:59:56 +0000";
+lastChange = "2018-02-27 12:33:19 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{300, 0}";
+},
+{
+name = top;
+position = "{300, 693}";
+}
+);
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"461 689 LINE",
-"278 102 LINE",
 "163 434 LINE",
 "68 434 LINE",
 "225 0 LINE",
 "332 0 LINE",
-"554 689 LINE"
+"554 689 LINE",
+"461 689 LINE",
+"278 102 LINE"
 );
 }
 );
