@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 - Slashed zero by default ([#481], [#342])
 - Adjusted vertical position of colon `:` near `{[()]}` ([#486])
+- Added `:>` ([#547]) and `<:` ([#525])
 
 #### 1.204 (November 6, 2016)
 
