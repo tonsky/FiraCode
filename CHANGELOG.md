@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 - Slashed zero by default ([#481] [#342])
 - Adjusted vertical position of colon `:` near `{[()]}` ([#486])
+- Thin backslash except when in `\\`, removed `\\\` ([#536])
 - Added `:>` ([#547]) and `<:` ([#525])
 - Removed `=<` ([#479] [#468] [#424] [#406] [#355] [#305])
 - Added `::=` ([#539])
