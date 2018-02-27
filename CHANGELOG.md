@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 #### 1.205 (February 27, 2018)
 
 - Slashed zero by default ([#481], [#342])
+- Adjusted vertical position of colon `:` near `{[()]}` ([#486])
 
 #### 1.204 (November 6, 2016)
 

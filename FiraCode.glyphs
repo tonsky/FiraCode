@@ -1,7 +1,7 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-":>\012<:\012:=\012[:]\0121230"
+":>\012<:\012:="
 );
 classes = (
 {
@@ -14,6 +14,14 @@ code = "a aacute abreve acircumflex adieresis agrave amacron aogonek aring atild
 name = Lowercase;
 },
 {
+code = "bracketleft braceleft parenleft";
+name = OpeningBracket;
+},
+{
+code = "bracketright braceright parenright";
+name = ClosingBracket;
+},
+{
 code = "zero one two twoTurned threeTurned three four five six seven eight nine";
 name = Digit;
 },
@@ -22,7 +30,7 @@ code = "@Digit a b c d e f A B C D E F";
 name = HexDigit;
 },
 {
-code = "@Uppercase @Digit";
+code = "@Uppercase @Digit @OpeningBracket @ClosingBracket";
 name = Tall;
 },
 {
@@ -44,14 +52,6 @@ name = GreekUCdiphUPSILON;
 {
 code = "Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Alpha\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Epsilon\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Eta\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Iota\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Omicron\012Rho\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Upsilon\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega\012Omega";
 name = GreekUCcalt;
-},
-{
-code = "bracketleft braceleft parenleft";
-name = OpeningBracket;
-},
-{
-code = "bracketright braceright parenright";
-name = ClosingBracket;
 }
 );
 copyright = "Copyright © 2015 by Nikita Prokopov";
