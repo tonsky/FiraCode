@@ -10,6 +10,8 @@ All notable changes to this project will be documented in this file.
 - Removed `=<` ([#479] [#468] [#424] [#406] [#355] [#305])
 - Added `::=` ([#539])
 - Added `[|` `|]` ([#516]) `{|` `|}` ([#330])
+- Added `✓` (U+2713)
+
 
 #### 1.204 (November 6, 2016)
 
