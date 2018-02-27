@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 1.205 (February 27, 2018)
+
+- Slashed zero by default ([#481], [#342])
+
 #### 1.204 (November 6, 2016)
 
 - Added `U+25B6` (black right-pointing triangle) and `U+25C0` (black left-pointing triangle) ([#289])
