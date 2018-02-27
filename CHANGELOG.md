@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 - Added `:>` ([#547]) and `<:` ([#525])
 - Removed `=<` ([#479] [#468] [#424] [#406] [#355] [#305])
 - Added `::=` ([#539])
-- Added `[|` `|]` ([#516])
+- Added `[|` `|]` ([#516]) `{|` `|}` ([#330])
 
 #### 1.204 (November 6, 2016)
 
