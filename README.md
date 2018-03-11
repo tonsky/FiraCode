@@ -153,6 +153,7 @@ Swift:
 - [Klipse](http://app.klipse.tech/)
 - [IlyaBirman.net](http://ilyabirman.net/)
 - [EvilMartians.com](https://evilmartians.com/)
+- [Web Maker](https://webmakerapp.com/)
 
 ### Alternatives
 
