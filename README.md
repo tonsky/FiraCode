@@ -101,6 +101,7 @@ Swift:
 | **Mancy** |
 | **Meld** |
 | **Mousepad** |
+| **NeoVim-gtk** |
 | **NetBeans** |
 | **Notepad** (Win) |
 | **Notepad++** (with a [workaround](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/2287#issuecomment-256638098))  |
