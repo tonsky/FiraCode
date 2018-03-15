@@ -1,0 +1,25 @@
+{
+  "name": "firacode",
+  "version": "1.205.0",
+  "description": "Fira Code: monospaced font with programming ligatures",
+  "keywords": [
+    "font",
+    "Mozilla Fira Type Family",
+    "Fira",
+    "FiraMono"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonsky/FiraCode.git"
+  },
+  "author": "Nikita Prokopov <prokopov@gmail.com>",
+  "license": "OFL-1.1",
+  "bugs": {
+    "url": "https://github.com/tonsky/FiraCode/issues"
+  },
+  "homepage": "https://github.com/tonsky/FiraCode#readme",
+  "files": [
+    "distr"
+  ]
+}
+
