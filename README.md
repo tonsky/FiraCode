@@ -87,6 +87,7 @@ Swift:
 | **Coda 2** |  |
 | **CodeLite** |  |
 | **Eclipse** (Mac 4.7+, Linux) |  |
+| **elementary Code** |  |
 | **Geany** |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
