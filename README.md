@@ -64,11 +64,17 @@ Swift:
 | **Kitty**          | **ConEmu**         |
 | **Konsole**        | **GNOME Terminal** | 
 | **QTerminal**      | **mate-terminal**  |
-| **Terminal.app**   | **mintty**         |
-| **Termux**         | **PuTTY**          |
-| **Token2Shell/MD** | **rxvt**           |
-| **upterm**         | **ZOC** (Windows)  |
-| **ZOC** (macOS)    | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| **Terminal.app**   | **PuTTY**          |
+| **Termux**         | **rxvt**           |
+| **Token2Shell/MD** | **ZOC** (Windows)  |
+| **upterm**         | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| **ZOC** (macOS)    |                    |
+| **mintty** ([Fixed after v2.8.3](https://github.com/mintty/mintty/issues/601))|          |
+
+
+
+
+
 
 ### Editor support
 
