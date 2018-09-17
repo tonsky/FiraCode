@@ -175,4 +175,3 @@ Other monospaced fonts with ligatures:
 - Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
 - Based on: [Fira Mono](https://github.com/mozilla/Fira)
 - Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
-- Software: [Glyphs 2](https://glyphsapp.com) (thx Georg Seifert for a license)
