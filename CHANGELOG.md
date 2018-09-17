@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+#### WIP
+
+- Added `<==>` ([#392])
+
 #### 1.205 (February 27, 2018)
 
 - Slashed zero by default ([#481] [#342])
