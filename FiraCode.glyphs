@@ -1,5 +1,8 @@
 {
 .appVersion = "939";
+DisplayStrings = (
+/asterisk_asterisk.liga
+);
 classes = (
 {
 automatic = 1;
@@ -62903,9 +62906,9 @@ width = 600;
 unicode = 037A;
 },
 {
-color = 6;
+color = 4;
 glyphname = zero;
-lastChange = "2018-02-27 09:51:08 +0000";
+lastChange = "2018-09-27 17:28:30 +0000";
 layers = (
 {
 background = {
@@ -64101,9 +64104,9 @@ width = 600;
 unicode = 0039;
 },
 {
-color = 6;
+color = 4;
 glyphname = zero.tosf;
-lastChange = "2018-02-27 09:51:13 +0000";
+lastChange = "2018-09-27 17:28:30 +0000";
 layers = (
 {
 background = {
@@ -70540,9 +70543,9 @@ width = 600;
 unicode = 007D;
 },
 {
-color = 4;
+color = 6;
 glyphname = bracketleft;
-lastChange = "2018-02-27 11:13:44 +0000";
+lastChange = "2018-09-27 17:28:22 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -70561,7 +70564,7 @@ nodes = (
 );
 }
 );
-width = 610;
+width = 600;
 },
 {
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
@@ -71584,7 +71587,7 @@ width = 600;
 color = 3;
 export = 0;
 glyphname = hyphen.rem;
-lastChange = "2016-08-30 09:37:14 +0000";
+lastChange = "2018-09-27 17:40:22 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -71599,7 +71602,7 @@ nodes = (
 );
 }
 );
-width = 601;
+width = 600;
 },
 {
 layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
@@ -72433,7 +72436,7 @@ width = 600;
 {
 color = 3;
 glyphname = asterisk_asterisk.liga;
-lastChange = "2018-09-17 17:26:08 +0000";
+lastChange = "2018-09-27 17:41:06 +0000";
 layers = (
 {
 components = (
@@ -72447,7 +72450,7 @@ transform = "{1, 0, 0, 1, -25, 0}";
 }
 );
 layerId = UUID0;
-width = 651;
+width = 600;
 },
 {
 components = (

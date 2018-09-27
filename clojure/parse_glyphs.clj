@@ -93,7 +93,35 @@
     (parse-anything!)))
 
 (defn -main [& args]
-  (let [f (-> (slurp "FiraCode.glyphs") parse)]
+  (let [font (-> (slurp "FiraCode.glyphs") parse)]
     (with-open [os (io/writer "clojure/FiraCode.edn")]
       (binding [*out* os]
-        (fipp/pprint f {:width 200})))))
+        (fipp/pprint font {:width 200})))))
+
+(def weights {:Regular "UUID0"
+              :Bold    "BF448B58-7A35-489E-A1C9-12628F60690C"})
+
+(defn layer [l]
+  { :id (case (:layerId l)
+          (:Regular weights) "Regular"
+          (:Bold weights)    "Bold"
+          (:layerId l))
+    :width (:width l) })
+
+(defn save-not600 []
+  (let [font (-> (slurp "FiraCode.glyphs") parse)]
+    (with-open [os (io/writer "clojure/FiraCode_not600.edn")]
+      (binding [*out* os]
+        (let [glyphs (for [glyph (:glyphs font)
+                           :when (->> (:layers glyph)
+                                      (filter #(contains? (set (vals weights)) (:layerId %)))
+                                      (every? #(= 600 (:width %)))
+                                      (not))]
+                       {:glyphname (:glyphname glyph)
+                        :layers    (mapv layer (:layers glyph))})]
+          (doseq [glyph glyphs]
+            (fipp/pprint glyph {:width 200}))
+          (count glyphs))))))
+
+;; (-main)
+;; (save-not600)

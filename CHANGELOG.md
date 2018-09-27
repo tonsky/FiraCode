@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 #### WIP
 
 - Added `<==>` ([#392])
+- Fixed width of `[` `**` ([#607])
 
 #### 1.205 (February 27, 2018)
 
