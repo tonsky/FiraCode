@@ -32,6 +32,12 @@
 
     ["question" "colon"]
     "    ignore sub parenleft question' colon;\n"
+
+    ["less" "bar" "bar"]
+    "    ignore sub less' bar bar greater;\n"
+
+    ["bar" "bar" "greater"]
+    "    ignore sub less bar' bar greater;\n"
 })
 
 (defn liga->rule

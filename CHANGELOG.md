@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Fixed the look of `{| |} [| |]` ([#643])
 - Removed `{. .}` ([#635])
 - Fixed rendering of `(?= (?<= (?:` ([#624])
+- Fixed rendering of `<||>` ([#621])
 
 #### 1.205 (February 27, 2018)
 
