@@ -23,7 +23,16 @@
     (str
       "    ignore sub slash asterisk' asterisk asterisk;\n"
       "    ignore sub asterisk' asterisk asterisk slash;\n")
-    })
+
+    ["question" "equal"]
+    "    ignore sub parenleft question' equal;\n"
+
+    ["less" "equal"]
+    "    ignore sub parenleft question less' equal;\n"
+
+    ["question" "colon"]
+    "    ignore sub parenleft question' colon;\n"
+})
 
 (defn liga->rule
   "[f f i] => { [LIG LIG i] f_f_i.liga
