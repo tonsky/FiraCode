@@ -1,34 +1,7 @@
-#^:shebang '[
-              exec java -cp "$HOME/.m2/repository/org/clojure/clojure/1.8.0/clojure-1.8.0.jar" clojure.main "$0" "$@"]
-             
-
-(require '[clojure.string :as str])
-
-(def file "FiraCode.glyphs")
-
-(println "Looking for ligatures in" file "...\n")
-
-;; [ ["dash" "greater" "greater"] ... ]
-(def ligas (->> (slurp file)
-                (re-seq #"glyphname = ([a-z_]+)\.liga;")
-                (map second)
-                set
-                (mapv #(vec (str/split % #"_")))))
-        
-
-; (def ligas
-;   [ ["hyphen"  "greater"]
-;     ["greater" "equal"]    
-;     ["equal"   "greater"]
-;     ["hyphen"  "hyphen" "greater"]
-;     ["equal"   "equal"  "greater"]
-;     ["greater" "hyphen"]]) 
-
-; (def ligas
-;   [ ["slash"  "asterisk"]
-;     ["slash"  "asterisk" "asterisk"]
-;     ["asterisk" "asterisk"]
-;     ["asterisk" "asterisk" "asterisk"]])
+(ns gen-calt
+  (:require
+    [clojure.string :as str]
+    [parse-glyphs :as parse]))
 
 (def ignores
   { ["slash" "asterisk"]
@@ -50,7 +23,6 @@
     (str
       "    ignore sub slash asterisk' asterisk asterisk;\n"
       "    ignore sub asterisk' asterisk asterisk slash;\n")
-
     })
 
 (defn liga->rule
@@ -92,16 +64,27 @@
                "    sub 1'   2   3  4  by LIG;\n"
                "  } 1_2_3_4;")
           #"\d" {"1" a "2" b "3" c "4" d}))))
-            
 
-(println "### start of generated calt\n")
-(println (->> ligas (sort-by count) (reverse) (map liga->rule) (str/join "\n\n")))
-(println "\n### end of generated calt\n")
+(defn -main [& args]
+  (let [file  (or (first args) "FiraCode.glyphs")
+        _     (println "Looking for ligatures in" file "...\n")
+        font  (parse/parse (slurp file))
+        ligas (for [g (:glyphs font)
+                    :let [name (:glyphname g)]
+                    :when (str/ends-with? name ".liga")
+                    :let [[_ liga] (re-matches #"([a-z_]+)\.liga" name)]]
+                (str/split liga #"_"))] ;; [ ["dash" "greater" "greater"] ... ]
 
-(println "Total ligatures count:" (count ligas))
-(println " " (->> ligas
-                  (group-by count)
-                  (sort-by first)
-                  (map (fn [[k v]] (str (count v) (case k 2 " pairs", 3 " triples", 4 " quadruples"))))
-                  (str/join ", ")))
-(println)
+    (println "### start of generated calt\n")
+    (println (->> ligas (sort-by count) (reverse) (map liga->rule) (str/join "\n\n")))
+    (println "\n### end of generated calt\n")
+
+    (println "Total ligatures count:" (count ligas))
+    (println " " (->> ligas
+                      (group-by count)
+                      (sort-by first)
+                      (map (fn [[k v]] (str (count v) (case k 2 " pairs", 3 " triples", 4 " quadruples"))))
+                      (str/join ", ")))
+    (println)))
+
+;; (-main)

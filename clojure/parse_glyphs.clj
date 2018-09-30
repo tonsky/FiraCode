@@ -103,8 +103,8 @@
 
 (defn layer [l]
   { :id (case (:layerId l)
-          (:Regular weights) "Regular"
-          (:Bold weights)    "Bold"
+          ((:Regular weights)) "Regular"
+          ((:Bold weights))    "Bold"
           (:layerId l))
     :width (:width l) })
 
