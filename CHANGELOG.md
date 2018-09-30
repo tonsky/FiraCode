@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 - Fixed rendering of `(?= (?<= (?:` ([#624])
 - Fixed rendering of `<||>` ([#621])
 - Added `!!.` ([#618])
+- Added `>:` `:<` ([#605])
 
 #### 1.205 (February 27, 2018)
 
