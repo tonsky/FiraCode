@@ -1,9 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-"a/overlinecomb b",
-"a/macroncomb b"
-);
 classes = (
 {
 automatic = 1;
@@ -98550,7 +98546,7 @@ unicode = 254E;
 {
 color = 4;
 glyphname = boxLightDown;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2018-09-30 19:58:43 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -98558,10 +98554,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"260 1000 LINE",
-"260 310 LINE",
-"340 310 LINE",
-"340 1000 LINE"
+"260 390 LINE",
+"260 -500 LINE",
+"340 -500 LINE",
+"340 390 LINE"
 );
 }
 );
@@ -98573,10 +98569,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"260 1000 LINE",
-"260 310 LINE",
-"340 310 LINE",
-"340 1000 LINE"
+"260 390 LINE",
+"260 -500 LINE",
+"340 -500 LINE",
+"340 390 LINE"
 );
 }
 );
@@ -98710,7 +98706,7 @@ unicode = 2576;
 {
 color = 4;
 glyphname = boxLightUp;
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2018-09-30 19:58:54 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -98718,10 +98714,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"260 390 LINE",
-"260 -500 LINE",
-"340 -500 LINE",
-"340 390 LINE"
+"260 1000 LINE",
+"260 310 LINE",
+"340 310 LINE",
+"340 1000 LINE"
 );
 }
 );
@@ -98733,10 +98729,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"260 390 LINE",
-"260 -500 LINE",
-"340 -500 LINE",
-"340 390 LINE"
+"260 1000 LINE",
+"260 310 LINE",
+"340 310 LINE",
+"340 1000 LINE"
 );
 }
 );
