@@ -24,41 +24,80 @@
       "  ignore sub slash asterisk' asterisk asterisk;\n"
       "  ignore sub asterisk' asterisk asterisk slash;\n")
 
+    ;; #624 (?=
     ["question" "equal"]
     "  ignore sub parenleft question' equal;\n"
 
+    ;; #624 (?<=
     ["less" "equal"]
     "  ignore sub parenleft question less' equal;\n"
 
+    ;; #624 (?:
     ["question" "colon"]
     "  ignore sub parenleft question' colon;\n"
-
+    
+    ;; #621 <||>
     ["less" "bar" "bar"]
     "  ignore sub less' bar bar greater;\n"
 
     ["bar" "bar" "greater"]
     "  ignore sub less bar' bar greater;\n"
 
+    ;; #574 :>=
     ["colon" "greater"]
     "  ignore sub colon' greater equal;\n"
 
+    ;; #548 >=<
     ["greater" "equal"]
     "  ignore sub greater' equal less;\n"
 
     ["equal" "less"]
     "  ignore sub greater equal' less;\n"
 
+    ;; #593 {|}
     ["braceleft" "bar"]
     "  ignore sub braceleft' bar braceright;\n"
 
     ["bar" "braceright"]
     "  ignore sub braceleft bar' braceright;\n"
 
+    ;; #593 [|]
     ["bracketleft" "bar"]
     "  ignore sub bracketleft' bar bracketright;\n"
 
     ["bar" "bracketright"]
     "  ignore sub bracketleft bar' bracketright;\n"
+
+    ;; #410 <*>> <+>> <$>>
+    ["greater" "greater"]
+    (str "  ignore sub asterisk greater' greater;\n"
+         "  ignore sub plus greater' greater;\n"
+         "  ignore sub dollar greater' greater;\n")
+
+    ;; #410 <*>>> <+>>> <$>>>
+    ["greater" "greater" "greater"]
+    (str "  ignore sub asterisk greater' greater greater;\n"
+         "  ignore sub plus greater' greater greater;\n"    
+         "  ignore sub dollar greater' greater greater;\n")
+
+    ;; #410 <<*> <<+> <<$>
+    ["less" "less"]
+    (str "  ignore sub less' less asterisk;\n"
+         "  ignore sub less' less plus;\n"
+         "  ignore sub less' less dollar;\n")
+
+    ;; #410 <<<*> <<<+> <<<$>
+    ["less" "less" "less"]
+    (str "  ignore sub less' less less asterisk;\n"
+         "  ignore sub less' less less plus;\n"
+         "  ignore sub less' less less dollar;\n")
+})
+
+(def skip-ignores? #{
+  ;; #410 <<*>> <<+>> <<$>>
+  ["less" "asterisk" "greater"]
+  ["less" "plus" "greater"]
+  ["less" "dollar" "greater"]
 })
 
 (defn liga->rule
@@ -80,8 +119,9 @@
     3 (let [[a b c] liga]
         (str/replace
           (str "lookup 1_2_3 {\n"
-               "  ignore sub 1 1' 2 3;\n"
-               "  ignore sub 1' 2 3 3;\n"
+               (when-not (skip-ignores? liga)
+                (str "  ignore sub 1 1' 2 3;\n"
+                     "  ignore sub 1' 2 3 3;\n"))
                (get ignores liga)
                "  sub LIG LIG 3' by 1_2_3.liga;\n"
                "  sub LIG  2' 3  by LIG;\n"

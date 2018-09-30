@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 - Redrew `{|` `|}` `[|` `|]` ([#643])
 - Removed `{.` `.}` ([#635]), thin backslash ([#577])
 - Disabled ligatures in `(?=` `(?<=` `(?:` ([#624]), `>=<` ([#548]), `{|}` `[|]` ([#593])
-- Fixed ligatures precedence in `<||>` ([#621]), `:>=` ([#574])
+- Fixed ligatures precedence in `<||>` ([#621]), `:>=` ([#574]), `<<*>>` `<<<*>>>` `<<+>>` <<<+>>>` `<<$>>` `<<<$>>>` ([#410])
 - Fixed incorrectly swapped box drawing characters `╵` and `╷` ([#595])
 - Adjusted vertical position of `<=` `>=` to align with `<` `>` ([#483])
 
