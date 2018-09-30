@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - Fixed Box drawing characters "╵" and "╷" (were swapped, [#595])
 - Rolled back thin backslash ([#577])
 - Fixed rendering of `:>=` ([#574])
+- Disabled ligatures for `>=<` ([#548])
 
 #### 1.205 (February 27, 2018)
 

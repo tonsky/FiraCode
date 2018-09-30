@@ -41,6 +41,12 @@
 
     ["colon" "greater"]
     "  ignore sub colon' greater equal;\n"
+
+    ["greater" "equal"]
+    "  ignore sub greater' equal less;\n"
+
+    ["equal" "less"]
+    "  ignore sub greater equal' less;\n"
 })
 
 (defn liga->rule
