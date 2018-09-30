@@ -15,6 +15,7 @@ All notable changes to this project will be documented in this file.
 - Added `>:` `:<` ([#605])
 - Added U+0305 COMBINING OVERLINE ([#608])
 - Fixed Box drawing characters "╵" and "╷" (were swapped, [#595])
+- Rolled back thin backslash ([#577])
 
 #### 1.205 (February 27, 2018)
 
