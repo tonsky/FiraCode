@@ -1,7 +1,7 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"{|}\012[|]\012{| |}\012[| |]"
+"0<0<=0\012o>=o>o"
 );
 classes = (
 {
@@ -227,6 +227,7 @@ value = 265;
 descender = -202;
 guideLines = (
 {
+angle = 90;
 position = "{242, -350}";
 },
 {
@@ -107088,7 +107089,7 @@ width = 600;
 {
 color = 3;
 glyphname = greater_equal.liga;
-lastChange = "2018-09-17 17:26:08 +0000";
+lastChange = "2018-09-30 20:50:59 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -107096,29 +107097,29 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-258 48 LINE",
-"291 292 LINE",
-"259 362 LINE",
-"-290 121 LINE"
+"-258 108 LINE",
+"291 352 LINE",
+"259 422 LINE",
+"-290 181 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-238 -187 LINE",
-"311 57 LINE",
-"279 127 LINE",
-"-270 -114 LINE"
+"-238 -127 LINE",
+"311 117 LINE",
+"279 187 LINE",
+"-270 -54 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"259 306 LINE",
-"291 292 LINE",
-"291 376 LINE",
-"-258 620 LINE",
-"-290 547 LINE"
+"259 366 LINE",
+"291 352 LINE",
+"291 436 LINE",
+"-258 680 LINE",
+"-290 607 LINE"
 );
 }
 );

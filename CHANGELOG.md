@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - Disabled ligatures in `(?=` `(?<=` `(?:` ([#624]), `>=<` ([#548]), `{|}` `[|]` ([#593])
 - Fixed ligatures precedence in `<||>` ([#621]), `:>=` ([#574])
 - Fixed incorrectly swapped box drawing characters `╵` and `╷` ([#595])
+- Adjusted vertical position of `<=` `>=` to align with `<` `>` ([#483])
 
 #### 1.205 (February 27, 2018)
 
