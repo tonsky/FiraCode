@@ -38,6 +38,9 @@
 
     ["bar" "bar" "greater"]
     "  ignore sub less bar' bar greater;\n"
+
+    ["colon" "greater"]
+    "  ignore sub colon' greater equal;\n"
 })
 
 (defn liga->rule
