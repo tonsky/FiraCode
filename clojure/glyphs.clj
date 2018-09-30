@@ -1,7 +1,9 @@
-(ns parse-glyphs
+(ns glyphs
   (:require
     [clojure.java.io :as io]
-    [fipp.edn :as fipp]))
+    [clojure.string :as str]
+    [fipp.edn :as fipp]
+    [flatland.ordered.map :refer [ordered-map]]))
 
 (def ^:dynamic *str)
 (def ^:dynamic *pos)
@@ -23,13 +25,17 @@
   (skip-ws!)
   (when (= \" (current-char))
     (let [sb (StringBuilder.)]
-      (loop []
-        (advance!)
-        (let [ch (current-char)]
-          (cond
-            (= ch \\) (do (.append sb \\) (advance!) (.append sb (current-char)) (recur))
-            (= ch \") (do (advance!) (str sb))
-            :else     (do (.append sb ch) (recur))))))))
+      (->
+        (loop []
+          (advance!)
+          (let [ch (current-char)]
+            (cond
+              (= ch \\) (do (.append sb \\) (advance!) (.append sb (current-char)) (recur))
+              (= ch \") (do (advance!) (str sb))
+              :else     (do (.append sb ch) (recur)))))
+        (str/replace "\\012" "\n")
+        (str/replace "\\\"" "\"")
+        (str/replace "\\\\" "\\")))))
 
 (defn parse-string! []
   (skip-ws!)
@@ -41,8 +47,8 @@
           :else (do (.append sb ch) (advance!) (recur)))))
     (let [res (str sb)]
       (cond
-        (re-matches #"[0-9]+" res) (Integer/parseInt res)
-        (re-matches #"[0-9]+\.[0-9]+" res) (Double/parseDouble res)
+        (re-matches #"-?[1-9][0-9]*" res)          (Integer/parseInt res)
+        (re-matches #"-?[0-9]+\.[0-9]+" res)       (Double/parseDouble res)
         (re-matches #"[a-zA-Z][a-zA-Z\.0-9]*" res) (keyword res)
         :else res))))
 
@@ -53,7 +59,7 @@
   (skip-ws!)
   (when (= \{ (current-char))
     (advance!)
-    (loop [m {}]
+    (loop [m (ordered-map)]
       (skip-ws!)
       (if (= \} (current-char))
         (do (advance!) m)
@@ -92,6 +98,24 @@
             *pos (atom 0)]
     (parse-anything!)))
 
+(def escapes {"\n" "\\012"
+              "\"" "\\\""
+              "\\" "\\\\"})
+
+(def escape-re #"[\n\"\\]")
+
+(defn serialize [form]
+  (cond
+    (string? form)     (if (re-matches #"[a-zA-Z0-9._/]+" form)
+                         form 
+                         (str \" (str/replace form escape-re escapes) \"))
+    (keyword? form)    (name form)
+    (number? form)     (str form)
+    (sequential? form) (str "(\n" (str/join ",\n" (map serialize form)) "\n)")
+    (map? form)        (str "{\n" (str/join "\n" (for [[k v] form] (str (serialize k) " = " (serialize v) ";"))) "\n}")))
+
+; (-> (slurp "FiraCode.glyphs") parse serialize (->> (spit "FiraCode_saved.glyphs")))
+
 (defn -main [& args]
   (let [font (-> (slurp "FiraCode.glyphs") parse)]
     (with-open [os (io/writer "clojure/FiraCode.edn")]
@@ -125,3 +149,5 @@
 
 ;; (-main)
 ;; (save-not600)
+;; (-> (slurp "FiraCode.glyphs") parse keys)
+;; 
