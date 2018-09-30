@@ -1,5 +1,8 @@
 {
 .appVersion = "939";
+DisplayStrings = (
+" /braceleft_bar.liga  |}\012[| |]\012"
+);
 classes = (
 {
 automatic = 1;
@@ -97,7 +100,7 @@ name = note;
 value = "Based on Fira Mono 3.206";
 }
 );
-date = "2018-09-17 17:26:29 +0000";
+date = "2018-09-30 15:05:11 +0000";
 designer = "Nikita Prokopov";
 designerURL = "http://tonsky.me";
 familyName = "Fira Code";
@@ -72579,17 +72582,11 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = braceleft_bar.liga;
-lastChange = "2018-09-17 17:26:08 +0000";
+lastChange = "2018-09-30 15:41:46 +0000";
 layers = (
 {
-components = (
-{
-name = bar;
-transform = "{1, 0, 0, 1, -341, 0}";
-}
-);
 layerId = UUID0;
 paths = (
 {
@@ -72610,8 +72607,8 @@ nodes = (
 "-319 -102 OFFCURVE",
 "-252 -136 OFFCURVE",
 "-132 -136 CURVE",
-"300 -136 LINE",
-"300 -65 LINE",
+"135 -136 LINE",
+"135 -65 LINE",
 "-132 -65 LINE",
 "-204 -65 OFFCURVE",
 "-234 -48 OFFCURVE",
@@ -72627,9 +72624,18 @@ nodes = (
 "-234 749 OFFCURVE",
 "-204 765 OFFCURVE",
 "-132 765 CURVE",
-"300 765 LINE",
-"300 836 LINE",
+"135 765 LINE",
+"135 836 LINE",
 "-132 836 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"217 836 LINE",
+"217 -136 LINE",
+"300 -136 LINE",
+"300 836 LINE"
 );
 }
 );
@@ -72690,9 +72696,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = bracketleft_bar.liga;
-lastChange = "2018-09-17 17:26:08 +0000";
+lastChange = "2018-09-30 15:41:46 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -72700,12 +72706,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"300 -116 LINE",
-"300 -40 LINE",
+"134 -116 LINE",
+"134 -40 LINE",
 "-232 -40 LINE",
 "-232 739 LINE",
-"300 739 LINE",
-"300 816 LINE",
+"134 739 LINE",
+"134 816 LINE",
 "-319 816 LINE",
 "-319 -116 LINE"
 );
@@ -72713,10 +72719,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"-84 783 LINE",
-"-84 -82 LINE",
-"-1 -82 LINE",
-"-1 783 LINE"
+"217 816 LINE",
+"217 -116 LINE",
+"300 -116 LINE",
+"300 816 LINE"
 );
 }
 );
@@ -105656,9 +105662,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = bar_braceright.liga;
-lastChange = "2018-09-17 17:26:08 +0000";
+lastChange = "2018-09-30 15:41:46 +0000";
 layers = (
 {
 components = (
@@ -105683,9 +105689,9 @@ width = 600;
 );
 },
 {
-color = 3;
+color = 6;
 glyphname = bar_bracketright.liga;
-lastChange = "2018-09-17 17:26:08 +0000";
+lastChange = "2018-09-30 15:41:46 +0000";
 layers = (
 {
 components = (

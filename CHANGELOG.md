@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - Added `<==>` ([#392])
 - Fixed width of `[` `**` ([#607])
 - Added `#:` ([#642])
+- Fixed the look of `{| |} [| |]` ([#643])
 
 #### 1.205 (February 27, 2018)
 
