@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - Fixed rendering of `<||>` ([#621])
 - Added `!!.` ([#618])
 - Added `>:` `:<` ([#605])
+- Added U+0305 COMBINING OVERLINE ([#608])
 
 #### 1.205 (February 27, 2018)
 

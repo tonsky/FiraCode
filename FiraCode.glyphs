@@ -1,7 +1,8 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"|>=\012e<T>>\012<: :> a>:b:<c "
+"a/overlinecomb b",
+"a/macroncomb b"
 );
 classes = (
 {
@@ -110830,6 +110831,56 @@ width = 600;
 }
 );
 unicode = 0304;
+},
+{
+color = 7;
+glyphname = overlinecomb;
+lastChange = "2018-09-30 19:53:59 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{300, 527}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"517 691 LINE",
+"84 691 LINE",
+"84 622 LINE",
+"517 622 LINE"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{300, 531}";
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"533 731 LINE",
+"67 731 LINE",
+"67 620 LINE",
+"533 620 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0305;
 },
 {
 color = 7;
