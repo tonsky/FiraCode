@@ -1,7 +1,7 @@
 {
-.appVersion = 939;
+.appVersion = "939";
 DisplayStrings = (
-"0<0<=0\012o>=o>o\012<*>>>"
+/checkmark/ballotBoxWithCheck
 );
 classes = (
 {
@@ -93,7 +93,6 @@ value = 1;
 {
 name = fsType;
 value = (
-
 );
 },
 {
@@ -13994,7 +13993,7 @@ unicode = 0153;
 {
 color = 4;
 glyphname = p;
-lastChange = "2015-09-08 10:51:22 +0000";
+lastChange = "2018-09-30 21:11:41 +0000";
 layers = (
 {
 anchors = (
@@ -14054,7 +14053,7 @@ nodes = (
 );
 }
 );
-width = 600;
+width = 601;
 },
 {
 anchors = (
@@ -32543,7 +32542,7 @@ unicode = 043F;
 {
 color = 7;
 glyphname = "er-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2018-09-30 21:13:29 +0000";
 layers = (
 {
 components = (
@@ -32552,7 +32551,7 @@ name = p;
 }
 );
 layerId = UUID0;
-width = 600;
+width = 601;
 },
 {
 components = (
@@ -82160,9 +82159,9 @@ width = 600;
 unicode = 222B;
 },
 {
-color = 6;
+color = 3;
 glyphname = increment;
-lastChange = "2016-11-05 11:32:46 +0000";
+lastChange = "2018-09-30 21:23:25 +0000";
 layers = (
 {
 components = (
@@ -96173,9 +96172,9 @@ width = 600;
 unicode = 25B2;
 },
 {
-color = 6;
+color = 3;
 glyphname = rightBlackTriangle;
-lastChange = "2016-10-30 20:24:11 +0000";
+lastChange = "2018-09-30 21:23:25 +0000";
 layers = (
 {
 components = (
@@ -96235,9 +96234,9 @@ width = 600;
 unicode = 25BC;
 },
 {
-color = 6;
+color = 3;
 glyphname = leftBlackTriangle;
-lastChange = "2016-10-30 20:24:11 +0000";
+lastChange = "2018-09-30 21:23:25 +0000";
 layers = (
 {
 components = (
@@ -100102,6 +100101,200 @@ width = 600;
 );
 },
 {
+color = 6;
+glyphname = ballotBox;
+lastChange = "2018-09-30 21:22:57 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"30 540 LINE",
+"30 0 LINE",
+"570 0 LINE",
+"570 540 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"483 77 LINE",
+"117 77 LINE",
+"117 463 LINE",
+"483 463 LINE"
+);
+}
+);
+width = 600;
+},
+{
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"10 560 LINE",
+"10 -20 LINE",
+"590 -20 LINE",
+"590 560 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"463 97 LINE",
+"137 97 LINE",
+"137 443 LINE",
+"463 443 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 2610;
+},
+{
+color = 6;
+glyphname = ballotBoxWithCheck;
+lastChange = "2018-09-30 21:22:57 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{317, 144}";
+},
+{
+name = top;
+position = "{317, 837}";
+}
+);
+components = (
+{
+name = ballotBox;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"248 383 LINE",
+"153 383 LINE",
+"242 144 LINE",
+"349 144 LINE",
+"511 646 LINE",
+"418 646 LINE",
+"295 246 LINE"
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{312, 114}";
+},
+{
+name = top;
+position = "{312, 807}";
+}
+);
+components = (
+{
+name = ballotBox;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"265 368 LINE",
+"107 368 LINE",
+"199 114 LINE",
+"395 114 LINE",
+"551 693 LINE",
+"403 693 LINE",
+"295 274 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 2611;
+},
+{
+color = 6;
+glyphname = ballotBoxWithX;
+lastChange = "2018-09-30 21:22:57 +0000";
+layers = (
+{
+components = (
+{
+name = ballotBox;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"300 329 LINE",
+"182 445 LINE",
+"125 388 LINE",
+"243 272 LINE",
+"125 154 LINE",
+"182 97 LINE",
+"300 215 LINE",
+"416 97 LINE",
+"473 154 LINE",
+"357 272 LINE",
+"473 388 LINE",
+"416 445 LINE"
+);
+}
+);
+width = 600;
+},
+{
+components = (
+{
+name = ballotBox;
+}
+);
+layerId = "BF448B58-7A35-489E-A1C9-12628F60690C";
+paths = (
+{
+closed = 1;
+nodes = (
+"300 349 LINE",
+"222 425 LINE",
+"145 348 LINE",
+"223 272 LINE",
+"145 194 LINE",
+"222 117 LINE",
+"300 195 LINE",
+"376 117 LINE",
+"453 194 LINE",
+"377 272 LINE",
+"453 348 LINE",
+"376 425 LINE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 2612;
+},
+{
 color = 4;
 glyphname = skullAndCrossbones;
 lastChange = "2015-03-19 16:57:06 +0000";
@@ -101902,9 +102095,9 @@ width = 600;
 unicode = 266B;
 },
 {
-color = 6;
+color = 3;
 glyphname = checkmark;
-lastChange = "2018-02-27 12:33:19 +0000";
+lastChange = "2018-09-30 21:23:28 +0000";
 layers = (
 {
 anchors = (
@@ -115334,9 +115527,9 @@ width = 600;
 );
 },
 {
-color = 6;
+color = 3;
 glyphname = LIG;
-lastChange = "2018-09-30 20:40:03 +0000";
+lastChange = "2018-09-30 21:23:30 +0000";
 layers = (
 {
 layerId = UUID0;

@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### WIP
 
-- Added `<==>` ([#392]), `#:` ([#642]), `!!.` ([#618]), `>:` `:<` ([#605]), U+0305 Combining overline ([#608])
+- Added `<==>` ([#392]), `#:` ([#642]), `!!.` ([#618]), `>:` `:<` ([#605]), U+0305 Combining overline ([#608]), U+2610 Ballot box, U+2611 Ballot box with check, U+2612 Ballot box with x ([#384])
 - Fixed incorrect width of `[` `**` ([#607])
 - Redrew `{|` `|}` `[|` `|]` ([#643])
 - Removed `{.` `.}` ([#635]), thin backslash ([#577])
