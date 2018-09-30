@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Fixed width of `[` `**` ([#607])
 - Added `#:` ([#642])
 - Fixed the look of `{| |} [| |]` ([#643])
+- Removed `{. .}` ([#635])
 
 #### 1.205 (February 27, 2018)
 
