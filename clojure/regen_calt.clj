@@ -47,6 +47,18 @@
 
     ["equal" "less"]
     "  ignore sub greater equal' less;\n"
+
+    ["braceleft" "bar"]
+    "  ignore sub braceleft' bar braceright;\n"
+
+    ["bar" "braceright"]
+    "  ignore sub braceleft bar' braceright;\n"
+
+    ["bracketleft" "bar"]
+    "  ignore sub bracketleft' bar bracketright;\n"
+
+    ["bar" "bracketright"]
+    "  ignore sub bracketleft bar' bracketright;\n"
 })
 
 (defn liga->rule

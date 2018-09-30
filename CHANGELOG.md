@@ -4,20 +4,13 @@ All notable changes to this project will be documented in this file.
 
 #### WIP
 
-- Added `<==>` ([#392])
-- Fixed width of `[` `**` ([#607])
-- Added `#:` ([#642])
-- Fixed the look of `{| |} [| |]` ([#643])
-- Removed `{. .}` ([#635])
-- Fixed rendering of `(?= (?<= (?:` ([#624])
-- Fixed rendering of `<||>` ([#621])
-- Added `!!.` ([#618])
-- Added `>:` `:<` ([#605])
-- Added U+0305 COMBINING OVERLINE ([#608])
-- Fixed Box drawing characters "╵" and "╷" (were swapped, [#595])
-- Rolled back thin backslash ([#577])
-- Fixed rendering of `:>=` ([#574])
-- Disabled ligatures for `>=<` ([#548])
+- Added `<==>` ([#392]), `#:` ([#642]), `!!.` ([#618]), `>:` `:<` ([#605]), U+0305 Combining overline ([#608])
+- Fixed incorrect width of `[` `**` ([#607])
+- Redrew `{|` `|}` `[|` `|]` ([#643])
+- Removed `{.` `.}` ([#635]), thin backslash ([#577])
+- Disabled ligatures in `(?=` `(?<=` `(?:` ([#624]), `>=<` ([#548]), `{|}` `[|]` ([#593])
+- Fixed ligatures precedence in `<||>` ([#621]), `:>=` ([#574])
+- Fixed incorrectly swapped box drawing characters `╵` and `╷` ([#595])
 
 #### 1.205 (February 27, 2018)
 
