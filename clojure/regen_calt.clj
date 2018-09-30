@@ -30,7 +30,8 @@
 
     ;; #624 (?<=
     ["less" "equal"]
-    "  ignore sub parenleft question less' equal;\n"
+    (str "  ignore sub parenleft question less' equal;\n"
+         "  ignore sub exclam less' equal;\n")
 
     ;; #624 (?:
     ["question" "colon"]
