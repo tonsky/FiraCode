@@ -8,7 +8,7 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-#### [Download v1.205](https://github.com/tonsky/FiraCode/releases/download/1.205/FiraCode_1.205.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News & updates](https://twitter.com/FiraCode)
+#### [Download v1.206](https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip) · [How to install](https://github.com/tonsky/FiraCode/wiki) · [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting) · [News & updates](https://twitter.com/FiraCode)
 
 <a href="https://patreon.com/tonsky" target="_blank"><img src="./fira_code_patreon.png"></a>
 
@@ -134,12 +134,12 @@ Swift:
 
 ```html
 <!-- HTML -->
-<link rel="stylesheet" href="https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/tonsky/FiraCode/1.206/distr/fira_code.css">
 ```
 
 ```css
 /* CSS */
-@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.206/distr/fira_code.css);
 ```
 
 - IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
