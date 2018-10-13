@@ -134,12 +134,12 @@ Swift:
 
 ```html
 <!-- HTML -->
-<link rel="stylesheet" href="https://cdn.rawgit.com/tonsky/FiraCode/1.206/distr/fira_code.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
 ```
 
 ```css
 /* CSS */
-@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.206/distr/fira_code.css);
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 ```
 
 - IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
