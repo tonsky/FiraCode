@@ -92,6 +92,7 @@ Swift:
 | **elementary Code** |  |
 | **Geany** |
 | **gEdit / Pluma** |
+| **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
 | **GNOME Builder** |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Kate, KWrite** |
