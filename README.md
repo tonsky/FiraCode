@@ -64,7 +64,7 @@ Swift:
 | **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **Cmder** |
 | **Kitty**          | **ConEmu**         |
 | **Konsole**        | **GNOME Terminal** | 
-| **mintty** ([2.8.3+](https://github.com/mintty/mintty/issues/601))| **mate-terminal** |
+| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **mate-terminal** |
 | **QTerminal**      | **PuTTY**          |
 | **Terminal.app**   | **rxvt**           |
 | **Termux**         | **ZOC** (Windows)  |
@@ -92,8 +92,8 @@ Swift:
 | **elementary Code** |  |
 | **Geany** |
 | **gEdit / Pluma** |
-| **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
 | **GNOME Builder** |
+| **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Kate, KWrite** |
 | **Komodo** |
