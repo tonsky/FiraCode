@@ -18,4 +18,5 @@ cp distr/otf/*.otf ~/Library/Fonts/
 # Pack zip archive
 cd distr
 find . -not -name ".*" | xargs zip ../FiraCode.zip
+find . -not -name ".*" | xargs zip ../HowToInstall.zip
 cd ..
