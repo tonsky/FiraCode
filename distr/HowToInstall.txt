@@ -1,0 +1,95 @@
+Installing font
+Windows:
+
+In the ttf folder, double-click each font file, click “Install font”; to install all at once, select all files, right-click, and choose “Install”
+or
+
+Use chocolatey: choco install firacode
+Mac:
+
+In the downloaded TTF folder:
+
+Select all font files
+Right click and select Open (alternatively Open With Font Book)
+Select "Install Font"
+or
+
+Use brew and cask:
+
+Not officially supported, might install outdated version
+
+brew tap caskroom/fonts
+brew cask install font-fira-code
+Linux:
+
+Install a package available for your distribution following the instructions
+or
+
+In the ttf folder double-click each font file and click “Install font”; see “Manual Installation” if double-clicking doesn't work
+FreeBSD:
+
+Using pkg(8): pkg install firacode
+or
+
+Using ports: cd /usr/ports/x11-fonts/firacode && make install clean
+How to enable ligatures
+You need to explicitly enable ligatures support in following editors:
+
+Atom
+Brackets
+Cloud9
+Jetbrains' products (IntelliJ, etc)
+Emacs
+MacVim
+VS Code
+BBEdit
+LightTable
+Sublimetext
+For other editors it must be enough to simply select Fira Code as your font of choice. Full list of supported editors
+
+Troubleshooting
+1. Make sure the font your editor displays is actually Fira Code
+Easiest way is to compare the shape of @ & and r with the reference image:
+
+
+
+Issues: #393 #373 #227
+
+2. Make sure you’ve enabled ligatures in your editor
+Consult this wiki (see above ↑) for instruction on how to do that.
+
+Issues: #291
+
+3. Make sure you’re on the latest version of Fira Code
+Consult CHANGELOG to see when it was last updated.
+
+4. Check the list of known issues below ↓
+Known issues
+Hinting issues
+Uneven spacing in === and !== at certain font sizes, esp. on Windows #405 #243 #119 #114
+
+Different height of [] at certain font sizes #332 #251
+
+Powerline characters are of slightly wrong size
+Unfortunately this can’t be fixed for all terminals because they have different ways of calculate font metrics. See this comment
+
+Issues: #426 #131 #44
+
+Some ligatures work while some don’t
+This is an issue with your editor and how it handles tokenization/syntax highlighting. Nothing can be done in a font to work around that. Report your problem to the corresponding editor’s issue tracker.
+
+All ligatures with dashes in Visual Studio (not Code) #422 #395 #360 #273 #259 #233 #220 #196 #181 #157 #99 #43 #32
+
+Ligatures in column 100 in VS Code #403 #397 #372
+
+Atom/VS Code are known to break certain ligatures in certain syntaxes #361 #353 #348 #328 #326 #235
+
+Corrupted font in IntelliJ on Windows
+Go to C:\Windows\Fonts with cmd.exe, find and delete everything having Fira in the file name. It’s important that you use terminal commands, not Explorer.
+
+Issues: #589 #581 #398 IDEA-159901
+
+Anything related to italics
+Fira Code does not have italics at all. If you see italicized glyphs it means your editor is “faking” them.
+
+Issues: #375 #320 #281
