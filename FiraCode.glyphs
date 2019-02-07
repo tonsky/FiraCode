@@ -1,8 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-""
-);
 classes = (
 {
 automatic = 1;
@@ -222,6 +219,18 @@ value = 935;
 {
 name = winDescent;
 value = 265;
+},
+{
+name = hheaAscender;
+value = 935;
+},
+{
+name = hheaDescender;
+value = -265;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -202;
@@ -281,6 +290,18 @@ value = 935;
 {
 name = winDescent;
 value = 265;
+},
+{
+name = hheaAscender;
+value = 935;
+},
+{
+name = hheaDescender;
+value = -265;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -222;
