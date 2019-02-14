@@ -1,5 +1,8 @@
 {
-.appVersion = "939";
+.appVersion = "1192";
+DisplayStrings = (
+"/Eng/Eng/Cacute.loclPLK/Nacute.loclPLK/Oacute.loclPLK/Sacute.loclPLK/Zacute.loclPLK/cacute.loclPLK/nacute.loclPLK/oacute.loclPLK/sacute.loclPLK/zacute.loclPLK/EnLeftHook-cy/EnLeftHook-cy/Iegrave-cy/Iigrave-cy/Pedescender-cy/Tedescender-cy/Chedescender-cy/Shhadescender-cy/Zhebreve-cy/Enhook-cy/Enhook-cy/Abreve-cy/Adieresis-cy/Aie-cy/Iebreve-cy/Schwadieresis-cy/Zhedieresis-cy/Zedieresis-cy/Idieresis-cy/Odieresis-cy/Obarreddieresis-cy/Edieresis-cy/Udieresis-cy/Uhungarumlaut-cy/Chedieresis-cy/Gedescender-cy/Yerudieresis-cy/Elhook-cy/Elhook-cy/We-cy/iegrave-cy/iigrave-cy/pedescender-cy/tedescender-cy/chedescender-cy/shhadescender-cy/zhebreve-cy/enhook-cy/enhook-cy/abreve-cy/adieresis-cy/aie-cy/iebreve-cy/schwadieresis-cy/zhedieresis-cy/zedieresis-cy/idieresis-cy/odieresis-cy/obarreddieresis-cy/edieresis-cy/udieresis-cy/uhungarumlaut-cy/chedieresis-cy/gedescender-cy/yerudieresis-cy/elhook-cy/elhook-cy/we-cy/enlefthook-cy/enlefthook-cy/Omegatonos/Alphavaria/Alphaoxia/Alphavrachy/Alphamacron/Epsilonvaria/Epsilonoxia/Etavaria/Etaoxia/Iotavaria/Iotaoxia/Iotavrachy/Iotamacron/Omicronvaria/Omicronoxia/Upsilonvaria/Upsilonoxia/Upsilonvrachy/Upsilonmacron/Omegavaria/Omegaoxia/alphavaria/alphaoxia/alphaperispomeni/alphavrachy/alphamacron/epsilonvaria/epsilonoxia/etavaria/etaoxia/etaperispomeni/iotavaria/iotaoxia/iotaperispomeni/iotavrachy/iotamacron/iotadialytikavaria/iotadialytikaoxia/iotadialytikaperispomeni/omicronvaria/omicronoxia/upsilonvaria/upsilonoxia/upsilonperispomeni/upsilonvrachy/upsilonmacron/upsilondialytikavaria/upsilondialytikaoxia/upsilondialytikaperispomeni/omegavaria/omegaoxia/omegaperispomeni/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/parenleftsuperior/parenrightsuperior/parenleft.numr/parenright.numr/breve-cy.case/breve-cy.case/breve-cy.case"
+);
 classes = (
 {
 automatic = 1;
@@ -4154,7 +4157,7 @@ unicode = 0145;
 {
 color = 7;
 glyphname = Eng;
-lastChange = "2015-03-23 14:14:55 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 background = {
@@ -4191,9 +4194,11 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, 224, -1}";
 }
@@ -4236,9 +4241,11 @@ nodes = (
 };
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, 151, -1}";
 }
@@ -7813,7 +7820,7 @@ unicode = 017B;
 {
 color = 7;
 glyphname = Cacute.loclPLK;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -7845,9 +7852,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = C;
 },
 {
+alignment = -1;
 name = acute.case.loclPLK;
 transform = "{1, 0, 0, 1, 199, 0}";
 }
@@ -7861,7 +7870,7 @@ width = 560;
 {
 color = 7;
 glyphname = Nacute.loclPLK;
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -7893,9 +7902,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = acute.case.loclPLK;
 transform = "{1, 0, 0, 1, 205, 0}";
 }
@@ -7909,7 +7920,7 @@ width = 683;
 {
 color = 7;
 glyphname = Oacute.loclPLK;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -7941,9 +7952,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = acute.case.loclPLK;
 transform = "{1, 0, 0, 1, 202, 0}";
 }
@@ -7957,7 +7970,7 @@ width = 692;
 {
 color = 7;
 glyphname = Sacute.loclPLK;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -7989,9 +8002,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = S;
 },
 {
+alignment = -1;
 name = acute.case.loclPLK;
 transform = "{1, 0, 0, 1, 128, 0}";
 }
@@ -8005,7 +8020,7 @@ width = 545;
 {
 color = 7;
 glyphname = Zacute.loclPLK;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -8037,9 +8052,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Z;
 },
 {
+alignment = -1;
 name = acute.case.loclPLK;
 transform = "{1, 0, 0, 1, 124, 0}";
 }
@@ -16665,7 +16682,7 @@ unicode = 017C;
 {
 color = 7;
 glyphname = cacute.loclPLK;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -16697,9 +16714,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = c;
 },
 {
+alignment = -1;
 name = acute.loclPLK;
 transform = "{1, 0, 0, 1, 141, 0}";
 }
@@ -16713,7 +16732,7 @@ width = 478;
 {
 color = 7;
 glyphname = nacute.loclPLK;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -16745,9 +16764,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = n;
 },
 {
+alignment = -1;
 name = acute.loclPLK;
 transform = "{1, 0, 0, 1, 150, 0}";
 }
@@ -16761,7 +16782,7 @@ width = 586;
 {
 color = 7;
 glyphname = oacute.loclPLK;
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -16793,9 +16814,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = acute.loclPLK;
 transform = "{1, 0, 0, 1, 144, 0}";
 }
@@ -16809,7 +16832,7 @@ width = 584;
 {
 color = 7;
 glyphname = sacute.loclPLK;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -16841,9 +16864,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = s;
 },
 {
+alignment = -1;
 name = acute.loclPLK;
 transform = "{1, 0, 0, 1, 97, 0}";
 }
@@ -16857,7 +16882,7 @@ width = 467;
 {
 color = 7;
 glyphname = zacute.loclPLK;
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -16889,9 +16914,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = z;
 },
 {
+alignment = -1;
 name = acute.loclPLK;
 transform = "{1, 0, 0, 1, 71, 0}";
 }
@@ -18243,14 +18270,16 @@ unicode = 052E;
 {
 color = 7;
 glyphname = "EnLeftHook-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = H;
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, -181, 0}";
 }
@@ -18261,9 +18290,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = H;
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, -121, -1}";
 }
@@ -18834,7 +18865,7 @@ unicode = 0415;
 {
 color = 7;
 glyphname = "Iegrave-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -18866,9 +18897,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Ie-cy";
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 110, 0}";
 }
@@ -19375,7 +19408,7 @@ unicode = 0419;
 {
 color = 7;
 glyphname = "Iigrave-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -19412,9 +19445,11 @@ position = "{342, 689}";
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Ii-cy";
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 182, 0}";
 }
@@ -24594,7 +24629,7 @@ unicode = 04A6;
 {
 color = 7;
 glyphname = "Pedescender-cy";
-lastChange = "2015-09-08 09:17:26 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -24614,9 +24649,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Pe-cy";
 },
 {
+alignment = -1;
 name = "descStraight-cy.case";
 transform = "{1, 0, 0, 1, 496, 0}";
 }
@@ -24868,7 +24905,7 @@ unicode = 04AA;
 {
 color = 7;
 glyphname = "Tedescender-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -24888,9 +24925,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = T;
 },
 {
+alignment = -1;
 anchor = bottomright;
 name = "descStraight-cy.case";
 transform = "{1, 0, 0, 1, 227, 0}";
@@ -25144,7 +25183,7 @@ unicode = 04B4;
 {
 color = 7;
 glyphname = "Chedescender-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -25178,9 +25217,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Che-cy";
 },
 {
+alignment = -1;
 anchor = bottomright;
 name = "descStraight-cy.case";
 transform = "{1, 0, 0, 1, 433, 0}";
@@ -25407,7 +25448,7 @@ unicode = 04BA;
 {
 color = 4;
 glyphname = "Shhadescender-cy";
-lastChange = "2015-03-26 17:44:56 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -25456,9 +25497,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Shha-cy";
 },
 {
+alignment = -1;
 name = "descStraight-cy.case";
 transform = "{1, 0, 0, 1, 492, 0}";
 }
@@ -25746,7 +25789,7 @@ unicode = 04C0;
 {
 color = 7;
 glyphname = "Zhebreve-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -25764,9 +25807,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Zhe-cy";
 },
 {
+alignment = -1;
 name = "breve-cy.case";
 transform = "{1, 0, 0, 1, 229, 0}";
 }
@@ -26019,14 +26064,16 @@ unicode = 04C5;
 {
 color = 7;
 glyphname = "Enhook-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = H;
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, 151, 0}";
 }
@@ -26037,9 +26084,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = H;
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, 224, 0}";
 }
@@ -26393,7 +26442,7 @@ unicode = 04CD;
 {
 color = 7;
 glyphname = "Abreve-cy";
-lastChange = "2015-11-22 18:55:55 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26411,9 +26460,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = "breve-cy.case";
 transform = "{1, 0, 0, 1, 105, 0}";
 }
@@ -26440,7 +26491,7 @@ unicode = 04D0;
 {
 color = 7;
 glyphname = "Adieresis-cy";
-lastChange = "2015-11-22 18:55:55 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26459,9 +26510,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 94, 0}";
 }
@@ -26488,7 +26541,7 @@ unicode = 04D2;
 {
 color = 7;
 glyphname = "Aie-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26503,6 +26556,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = AE;
 }
 );
@@ -26527,7 +26581,7 @@ unicode = 04D4;
 {
 color = 7;
 glyphname = "Iebreve-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26546,9 +26600,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Ie-cy";
 },
 {
+alignment = -1;
 name = "breve-cy.case";
 transform = "{1, 0, 0, 1, 88, 0}";
 }
@@ -26696,7 +26752,7 @@ unicode = 04D8;
 {
 color = 7;
 glyphname = "Schwadieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26715,9 +26771,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Schwa-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 122, 0}";
 }
@@ -26745,7 +26803,7 @@ unicode = 04DA;
 {
 color = 7;
 glyphname = "Zhedieresis-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26764,9 +26822,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Zhe-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 218, 0}";
 }
@@ -26793,7 +26853,7 @@ unicode = 04DC;
 {
 color = 7;
 glyphname = "Zedieresis-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26812,9 +26872,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Ze-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 70, 0}";
 }
@@ -26975,7 +27037,7 @@ unicode = 04E2;
 {
 color = 7;
 glyphname = "Idieresis-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -26994,9 +27056,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Ii-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 149, 0}";
 }
@@ -27023,7 +27087,7 @@ unicode = 04E4;
 {
 color = 7;
 glyphname = "Odieresis-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27042,9 +27106,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "O-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 157, 0}";
 }
@@ -27206,7 +27272,7 @@ unicode = 04E8;
 {
 color = 7;
 glyphname = "Obarreddieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27225,9 +27291,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Obarred-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 153, 0}";
 }
@@ -27254,7 +27322,7 @@ unicode = 04EA;
 {
 color = 7;
 glyphname = "Edieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27273,9 +27341,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Ereversed-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 45, 0}";
 }
@@ -27337,7 +27407,7 @@ unicode = 04EE;
 {
 color = 7;
 glyphname = "Udieresis-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27356,9 +27426,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "U-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 77, 0}";
 }
@@ -27386,7 +27458,7 @@ unicode = 04F0;
 {
 color = 7;
 glyphname = "Uhungarumlaut-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27405,9 +27477,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "U-cy";
 },
 {
+alignment = -1;
 name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 127, 0}";
 }
@@ -27435,7 +27509,7 @@ unicode = 04F2;
 {
 color = 7;
 glyphname = "Chedieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27454,9 +27528,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Che-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 83, 0}";
 }
@@ -27484,7 +27560,7 @@ unicode = 04F4;
 {
 color = 7;
 glyphname = "Gedescender-cy";
-lastChange = "2015-09-08 09:17:01 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27504,9 +27580,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Ge-cy";
 },
 {
+alignment = -1;
 name = "descStraight-cy.case";
 transform = "{1, 0, 0, 1, 116, 0}";
 }
@@ -27535,7 +27613,7 @@ unicode = 04F6;
 {
 color = 7;
 glyphname = "Yerudieresis-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -27554,9 +27632,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "Yeru-cy";
 },
 {
+alignment = -1;
 name = dieresis.case;
 transform = "{1, 0, 0, 1, 214, 0}";
 }
@@ -29259,14 +29339,16 @@ unicode = 0510;
 {
 color = 7;
 glyphname = "Elhook-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "El-cy";
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, 151, 0}";
 }
@@ -29277,9 +29359,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "El-cy";
 },
 {
+alignment = -1;
 name = hookHELPER.case;
 transform = "{1, 0, 0, 1, 224, 0}";
 }
@@ -29755,7 +29839,7 @@ unicode = 051A;
 {
 color = 7;
 glyphname = "We-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -29770,6 +29854,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = W;
 }
 );
@@ -31389,7 +31474,7 @@ unicode = 0435;
 {
 color = 7;
 glyphname = "iegrave-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -31421,9 +31506,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "ie-cy";
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 133, 0}";
 }
@@ -31854,7 +31941,7 @@ unicode = 0439;
 {
 color = 7;
 glyphname = "iigrave-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -31890,9 +31977,11 @@ position = "{300, 527}";
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "ii-cy";
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 160, 0}";
 }
@@ -36981,7 +37070,7 @@ unicode = 04A5;
 {
 color = 7;
 glyphname = "pedescender-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -37003,9 +37092,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "pe-cy";
 },
 {
+alignment = -1;
 name = "descStraight-cy";
 transform = "{1, 0, 0, 1, 416, 0}";
 }
@@ -37407,7 +37498,7 @@ unicode = 04AB;
 {
 color = 7;
 glyphname = "tedescender-cy";
-lastChange = "2015-09-08 09:17:10 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -37427,9 +37518,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "te-cy";
 },
 {
+alignment = -1;
 name = "descStraight-cy";
 transform = "{1, 0, 0, 1, 192, 0}";
 }
@@ -37738,7 +37831,7 @@ unicode = 04B5;
 {
 color = 7;
 glyphname = "chedescender-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -37778,9 +37871,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "che-cy";
 },
 {
+alignment = -1;
 anchor = bottomright;
 name = "descStraight-cy";
 transform = "{1, 0, 0, 1, 378, 0}";
@@ -37977,7 +38072,7 @@ unicode = 04BB;
 {
 color = 7;
 glyphname = "shhadescender-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -37999,9 +38094,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "shha-cy";
 },
 {
+alignment = -1;
 name = "descStraight-cy";
 transform = "{1, 0, 0, 1, 413, 0}";
 }
@@ -38376,7 +38473,7 @@ unicode = 04CF;
 {
 color = 7;
 glyphname = "zhebreve-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -38394,9 +38491,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "zhe-cy";
 },
 {
+alignment = -1;
 name = "breve-cy";
 transform = "{1, 0, 0, 1, 177, 0}";
 }
@@ -38757,14 +38856,16 @@ unicode = 04C6;
 {
 color = 7;
 glyphname = "enhook-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "en-cy";
 },
 {
+alignment = -1;
 name = hookHELPER;
 transform = "{1, 0, 0, 1, 139, 0}";
 }
@@ -38775,9 +38876,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "en-cy";
 },
 {
+alignment = -1;
 name = hookHELPER;
 transform = "{1, 0, 0, 1, 207, 0}";
 }
@@ -39222,7 +39325,7 @@ unicode = 04CE;
 {
 color = 7;
 glyphname = "abreve-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39241,9 +39344,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = "breve-cy";
 transform = "{1, 0, 0, 1, 79, 0}";
 }
@@ -39271,7 +39376,7 @@ unicode = 04D1;
 {
 color = 7;
 glyphname = "adieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39290,9 +39395,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 68, 0}";
 }
@@ -39320,7 +39427,7 @@ unicode = 04D3;
 {
 color = 7;
 glyphname = "aie-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39335,6 +39442,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = ae;
 }
 );
@@ -39359,7 +39467,7 @@ unicode = 04D5;
 {
 color = 7;
 glyphname = "iebreve-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39378,9 +39486,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "ie-cy";
 },
 {
+alignment = -1;
 name = "breve-cy";
 transform = "{1, 0, 0, 1, 91, 0}";
 }
@@ -39564,7 +39674,7 @@ unicode = 04D9;
 {
 color = 7;
 glyphname = "schwadieresis-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39583,9 +39693,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "schwa-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 90, 0}";
 }
@@ -39613,7 +39725,7 @@ unicode = 04DB;
 {
 color = 7;
 glyphname = "zhedieresis-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39631,9 +39743,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "zhe-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 166, 0}";
 }
@@ -39660,7 +39774,7 @@ unicode = 04DD;
 {
 color = 7;
 glyphname = "zedieresis-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39679,9 +39793,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "ze-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 32, 0}";
 }
@@ -39841,7 +39957,7 @@ unicode = 04E3;
 {
 color = 7;
 glyphname = "idieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39859,9 +39975,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "ii-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 107, 0}";
 }
@@ -39888,7 +40006,7 @@ unicode = 04E5;
 {
 color = 7;
 glyphname = "odieresis-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -39906,9 +40024,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "o-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 99, 0}";
 }
@@ -40134,7 +40254,7 @@ unicode = 04E9;
 {
 color = 7;
 glyphname = "obarreddieresis-cy";
-lastChange = "2015-03-19 16:57:07 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -40153,9 +40273,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "obarred-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 98, 0}";
 }
@@ -40184,7 +40306,7 @@ unicode = 04EB;
 {
 color = 7;
 glyphname = "edieresis-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -40203,9 +40325,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "ereversed-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 25, 0}";
 }
@@ -40265,7 +40389,7 @@ unicode = 04EF;
 {
 color = 7;
 glyphname = "udieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -40283,9 +40407,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "u-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 53, 0}";
 }
@@ -40312,7 +40438,7 @@ unicode = 04F1;
 {
 color = 7;
 glyphname = "uhungarumlaut-cy";
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -40331,9 +40457,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "u-cy";
 },
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
@@ -40361,7 +40489,7 @@ unicode = 04F3;
 {
 color = 7;
 glyphname = "chedieresis-cy";
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -40380,9 +40508,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "che-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 63, 0}";
 }
@@ -40410,7 +40540,7 @@ unicode = 04F5;
 {
 color = 7;
 glyphname = "gedescender-cy";
-lastChange = "2015-09-08 09:16:40 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -40430,9 +40560,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "ge-cy";
 },
 {
+alignment = -1;
 name = "descStraight-cy";
 transform = "{1, 0, 0, 1, 108, 0}";
 }
@@ -40461,7 +40593,7 @@ unicode = 04F7;
 {
 color = 7;
 glyphname = "yerudieresis-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -40479,9 +40611,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "yeru-cy";
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 174, 0}";
 }
@@ -42138,14 +42272,16 @@ unicode = 0511;
 {
 color = 7;
 glyphname = "elhook-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "el-cy";
 },
 {
+alignment = -1;
 name = hookHELPER;
 transform = "{1, 0, 0, 1, 136, 0}";
 }
@@ -42156,9 +42292,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "el-cy";
 },
 {
+alignment = -1;
 name = hookHELPER;
 transform = "{1, 0, 0, 1, 216, 0}";
 }
@@ -42673,7 +42811,7 @@ unicode = 051B;
 {
 color = 7;
 glyphname = "we-cy";
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -42688,6 +42826,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = w;
 }
 );
@@ -44284,14 +44423,16 @@ unicode = 052F;
 {
 color = 7;
 glyphname = "enlefthook-cy";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = "en-cy";
 },
 {
+alignment = -1;
 name = hookHELPER;
 transform = "{1, 0, 0, 1, -163, -1}";
 }
@@ -44302,9 +44443,11 @@ width = 600;
 {
 components = (
 {
+alignment = -1;
 name = "en-cy";
 },
 {
+alignment = -1;
 name = hookHELPER;
 transform = "{1, 0, 0, 1, -107, -1}";
 }
@@ -45888,7 +46031,7 @@ unicode = 038E;
 {
 color = 7;
 glyphname = Omegatonos;
-lastChange = "2015-03-26 14:23:24 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -45920,9 +46063,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Omega;
 },
 {
+alignment = -1;
 name = tonos.case;
 transform = "{1, 0, 0, 1, -71, 0}";
 }
@@ -47770,7 +47915,7 @@ unicode = 1F0F;
 {
 color = 7;
 glyphname = Alphavaria;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -47790,9 +47935,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Alpha;
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 123, 0}";
 }
@@ -47821,7 +47968,7 @@ unicode = 1FBA;
 {
 color = 7;
 glyphname = Alphaoxia;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -47841,9 +47988,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Alpha;
 },
 {
+alignment = -1;
 name = acute.case;
 transform = "{1, 0, 0, 1, 135, 0}";
 }
@@ -47872,7 +48021,7 @@ unicode = 1FBB;
 {
 color = 7;
 glyphname = Alphavrachy;
-lastChange = "2015-11-18 21:09:36 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -47890,9 +48039,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Alpha;
 },
 {
+alignment = -1;
 name = breve.case;
 transform = "{1, 0, 0, 1, 101, 0}";
 }
@@ -47920,7 +48071,7 @@ unicode = 1FB8;
 {
 color = 7;
 glyphname = Alphamacron;
-lastChange = "2015-11-22 18:56:00 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -47939,9 +48090,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Alpha;
 },
 {
+alignment = -1;
 name = macron.case;
 transform = "{1, 0, 0, 1, 116, -6}";
 }
@@ -48503,7 +48656,7 @@ unicode = 1F1D;
 {
 color = 7;
 glyphname = Epsilonvaria;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -48522,9 +48675,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Epsilon;
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 130, 0}";
 }
@@ -48552,7 +48707,7 @@ unicode = 1FC8;
 {
 color = 7;
 glyphname = Epsilonoxia;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -48571,9 +48726,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Epsilon;
 },
 {
+alignment = -1;
 name = acute.case;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
@@ -48889,7 +49046,7 @@ unicode = 1F2F;
 {
 color = 7;
 glyphname = Etavaria;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -48908,9 +49065,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Eta;
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 180, 0}";
 }
@@ -48938,7 +49097,7 @@ unicode = 1FCA;
 {
 color = 7;
 glyphname = Etaoxia;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -48957,9 +49116,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Eta;
 },
 {
+alignment = -1;
 name = acute.case;
 transform = "{1, 0, 0, 1, 192, 0}";
 }
@@ -49597,7 +49758,7 @@ unicode = 1F3F;
 {
 color = 7;
 glyphname = Iotavaria;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -49617,9 +49778,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Iota;
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, -12, 0}";
 }
@@ -49648,7 +49811,7 @@ unicode = 1FDA;
 {
 color = 7;
 glyphname = Iotaoxia;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -49667,9 +49830,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Iota;
 },
 {
+alignment = -1;
 name = acute.case;
 }
 );
@@ -49696,7 +49861,7 @@ unicode = 1FDB;
 {
 color = 7;
 glyphname = Iotavrachy;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -49714,9 +49879,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Iota;
 },
 {
+alignment = -1;
 name = breve.case;
 transform = "{1, 0, 0, 1, -34, 0}";
 }
@@ -49744,7 +49911,7 @@ unicode = 1FD8;
 {
 color = 7;
 glyphname = Iotamacron;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -49763,9 +49930,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Iota;
 },
 {
+alignment = -1;
 name = macron.case;
 transform = "{1, 0, 0, 1, -19, -6}";
 }
@@ -50008,7 +50177,7 @@ unicode = 1F4D;
 {
 color = 7;
 glyphname = Omicronvaria;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50028,9 +50197,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Omicron;
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 190, 0}";
 }
@@ -50059,7 +50230,7 @@ unicode = 1FF8;
 {
 color = 7;
 glyphname = Omicronoxia;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50079,9 +50250,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Omicron;
 },
 {
+alignment = -1;
 name = acute.case;
 transform = "{1, 0, 0, 1, 202, 0}";
 }
@@ -50290,7 +50463,7 @@ unicode = 1F5F;
 {
 color = 7;
 glyphname = Upsilonvaria;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50310,9 +50483,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Upsilon;
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 118, 0}";
 }
@@ -50341,7 +50516,7 @@ unicode = 1FEA;
 {
 color = 7;
 glyphname = Upsilonoxia;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50360,9 +50535,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Upsilon;
 },
 {
+alignment = -1;
 name = acute.case;
 transform = "{1, 0, 0, 1, 130, 0}";
 }
@@ -50390,7 +50567,7 @@ unicode = 1FEB;
 {
 color = 7;
 glyphname = Upsilonvrachy;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50408,9 +50585,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Upsilon;
 },
 {
+alignment = -1;
 name = breve.case;
 transform = "{1, 0, 0, 1, 96, 0}";
 }
@@ -50438,7 +50617,7 @@ unicode = 1FE8;
 {
 color = 7;
 glyphname = Upsilonmacron;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50457,9 +50636,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Upsilon;
 },
 {
+alignment = -1;
 name = macron.case;
 transform = "{1, 0, 0, 1, 111, -6}";
 }
@@ -50778,7 +50959,7 @@ unicode = 1F6F;
 {
 color = 7;
 glyphname = Omegavaria;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50798,9 +50979,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Omega;
 },
 {
+alignment = -1;
 name = grave.case;
 transform = "{1, 0, 0, 1, 184, 0}";
 }
@@ -50829,7 +51012,7 @@ unicode = 1FFA;
 {
 color = 7;
 glyphname = Omegaoxia;
-lastChange = "2015-09-08 09:57:39 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -50849,9 +51032,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = Omega;
 },
 {
+alignment = -1;
 name = acute.case;
 transform = "{1, 0, 0, 1, 196, 0}";
 }
@@ -58299,7 +58484,7 @@ unicode = 1F07;
 {
 color = 7;
 glyphname = alphavaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -58318,9 +58503,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = alpha;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 141, 0}";
 }
@@ -58348,7 +58535,7 @@ unicode = 1F70;
 {
 color = 7;
 glyphname = alphaoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -58367,9 +58554,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = alpha;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 121, 0}";
 }
@@ -58397,7 +58586,7 @@ unicode = 1F71;
 {
 color = 7;
 glyphname = alphaperispomeni;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -58416,9 +58605,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = alpha;
 },
 {
+alignment = -1;
 name = perispomeni;
 transform = "{1, 0, 0, 1, 84, 0}";
 }
@@ -58446,7 +58637,7 @@ unicode = 1FB6;
 {
 color = 7;
 glyphname = alphavrachy;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -58465,9 +58656,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = alpha;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 99, 0}";
 }
@@ -58495,7 +58688,7 @@ unicode = 1FB0;
 {
 color = 7;
 glyphname = alphamacron;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -58514,9 +58707,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = alpha;
 },
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, 114, 0}";
 }
@@ -59244,7 +59439,7 @@ unicode = 1F15;
 {
 color = 7;
 glyphname = epsilonvaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -59263,9 +59458,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = epsilon;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 118, 0}";
 }
@@ -59293,7 +59490,7 @@ unicode = 1F72;
 {
 color = 7;
 glyphname = epsilonoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -59312,9 +59509,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = epsilon;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 98, 0}";
 }
@@ -59614,7 +59813,7 @@ unicode = 1F27;
 {
 color = 7;
 glyphname = etavaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -59633,9 +59832,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = eta;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 154, 0}";
 }
@@ -59662,7 +59863,7 @@ unicode = 1F74;
 {
 color = 7;
 glyphname = etaoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -59681,9 +59882,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = eta;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 134, 0}";
 }
@@ -59710,7 +59913,7 @@ unicode = 1F75;
 {
 color = 7;
 glyphname = etaperispomeni;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -59729,9 +59932,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = eta;
 },
 {
+alignment = -1;
 name = perispomeni;
 transform = "{1, 0, 0, 1, 97, 0}";
 }
@@ -60522,7 +60727,7 @@ unicode = 1F37;
 {
 color = 7;
 glyphname = iotavaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60541,9 +60746,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -4, 0}";
 }
@@ -60571,7 +60778,7 @@ unicode = 1F76;
 {
 color = 7;
 glyphname = iotaoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60590,9 +60797,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, -24, 0}";
 }
@@ -60620,7 +60829,7 @@ unicode = 1F77;
 {
 color = 7;
 glyphname = iotaperispomeni;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60639,9 +60848,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = perispomeni;
 transform = "{1, 0, 0, 1, -61, 0}";
 }
@@ -60669,7 +60880,7 @@ unicode = 1FD6;
 {
 color = 7;
 glyphname = iotavrachy;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60688,9 +60899,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, -46, 0}";
 }
@@ -60718,7 +60931,7 @@ unicode = 1FD0;
 {
 color = 7;
 glyphname = iotamacron;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60737,9 +60950,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, -31, 0}";
 }
@@ -60767,7 +60982,7 @@ unicode = 1FD1;
 {
 color = 7;
 glyphname = iotadialytikavaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60786,13 +61001,16 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -57, 0}";
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, -4, 160}";
 }
@@ -60820,7 +61038,7 @@ unicode = 1FD2;
 {
 color = 7;
 glyphname = iotadialytikaoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60839,9 +61057,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iotadieresis;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, -24, 160}";
 }
@@ -60869,7 +61089,7 @@ unicode = 1FD3;
 {
 color = 7;
 glyphname = iotadialytikaperispomeni;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -60888,13 +61108,16 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = iota;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, -57, 0}";
 },
 {
+alignment = -1;
 name = perispomeni;
 transform = "{1, 0, 0, 1, -61, 160}";
 }
@@ -61126,7 +61349,7 @@ unicode = 1F45;
 {
 color = 7;
 glyphname = omicronvaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61144,9 +61367,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = omicron;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 152, 0}";
 }
@@ -61173,7 +61398,7 @@ unicode = 1F78;
 {
 color = 7;
 glyphname = omicronoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61191,9 +61416,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = omicron;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 132, 0}";
 }
@@ -61560,7 +61787,7 @@ unicode = 1F57;
 {
 color = 7;
 glyphname = upsilonvaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61578,9 +61805,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 149, 0}";
 }
@@ -61607,7 +61836,7 @@ unicode = 1F7A;
 {
 color = 7;
 glyphname = upsilonoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61625,9 +61854,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 129, 0}";
 }
@@ -61654,7 +61885,7 @@ unicode = 1F7B;
 {
 color = 7;
 glyphname = upsilonperispomeni;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61672,9 +61903,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = perispomeni;
 transform = "{1, 0, 0, 1, 92, 0}";
 }
@@ -61701,7 +61934,7 @@ unicode = 1FE6;
 {
 color = 7;
 glyphname = upsilonvrachy;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61719,9 +61952,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 107, 0}";
 }
@@ -61748,7 +61983,7 @@ unicode = 1FE0;
 {
 color = 7;
 glyphname = upsilonmacron;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61766,9 +62001,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, 122, 0}";
 }
@@ -61795,7 +62032,7 @@ unicode = 1FE1;
 {
 color = 7;
 glyphname = upsilondialytikavaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61814,13 +62051,16 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 96, 0}";
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 149, 160}";
 }
@@ -61847,7 +62087,7 @@ unicode = 1FE2;
 {
 color = 7;
 glyphname = upsilondialytikaoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61866,13 +62106,16 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 96, 0}";
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 129, 160}";
 }
@@ -61900,7 +62143,7 @@ unicode = 1FE3;
 {
 color = 7;
 glyphname = upsilondialytikaperispomeni;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -61918,13 +62161,16 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = upsilon;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 96, 0}";
 },
 {
+alignment = -1;
 name = perispomeni;
 transform = "{1, 0, 0, 1, 92, 160}";
 }
@@ -62223,7 +62469,7 @@ unicode = 1F67;
 {
 color = 7;
 glyphname = omegavaria;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -62241,9 +62487,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = omega;
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 249, 0}";
 }
@@ -62270,7 +62518,7 @@ unicode = 1F7C;
 {
 color = 7;
 glyphname = omegaoxia;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -62288,9 +62536,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = omega;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 229, 0}";
 }
@@ -62317,7 +62567,7 @@ unicode = 1F7D;
 {
 color = 7;
 glyphname = omegaperispomeni;
-lastChange = "2015-03-23 11:03:25 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -62335,9 +62585,11 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = omega;
 },
 {
+alignment = -1;
 name = perispomeni;
 transform = "{1, 0, 0, 1, 192, 0}";
 }
@@ -65456,7 +65708,7 @@ width = 600;
 {
 color = 7;
 glyphname = zeroinferior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65482,6 +65734,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = zero.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65496,7 +65749,7 @@ unicode = 2080;
 {
 color = 7;
 glyphname = oneinferior;
-lastChange = "2016-07-17 09:25:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65522,6 +65775,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = one.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65536,7 +65790,7 @@ unicode = 2081;
 {
 color = 7;
 glyphname = twoinferior;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65562,6 +65816,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = two.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65576,7 +65831,7 @@ unicode = 2082;
 {
 color = 7;
 glyphname = threeinferior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65602,6 +65857,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = three.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65616,7 +65872,7 @@ unicode = 2083;
 {
 color = 7;
 glyphname = fourinferior;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65642,6 +65898,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = four.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65656,7 +65913,7 @@ unicode = 2084;
 {
 color = 7;
 glyphname = fiveinferior;
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65682,6 +65939,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = five.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65696,7 +65954,7 @@ unicode = 2085;
 {
 color = 7;
 glyphname = sixinferior;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65722,6 +65980,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = six.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65736,7 +65995,7 @@ unicode = 2086;
 {
 color = 7;
 glyphname = seveninferior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65762,6 +66021,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = seven.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65776,7 +66036,7 @@ unicode = 2087;
 {
 color = 7;
 glyphname = eightinferior;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65802,6 +66062,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = eight.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -65816,7 +66077,7 @@ unicode = 2088;
 {
 color = 7;
 glyphname = nineinferior;
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -65842,6 +66103,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = nine.dnom;
 transform = "{1, 0, 0, 1, 0, -202}";
 }
@@ -66724,7 +66986,7 @@ width = 600;
 {
 color = 7;
 glyphname = zero.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -66750,6 +67012,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = zero.dnom;
 transform = "{1, 0, 0, 1, 0, 273}";
 }
@@ -66763,7 +67026,7 @@ width = 400;
 {
 color = 7;
 glyphname = one.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -66789,6 +67052,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = one.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -66802,7 +67066,7 @@ width = 400;
 {
 color = 7;
 glyphname = two.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -66828,6 +67092,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = two.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -66841,7 +67106,7 @@ width = 400;
 {
 color = 7;
 glyphname = three.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -66867,6 +67132,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = three.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -66880,7 +67146,7 @@ width = 400;
 {
 color = 7;
 glyphname = four.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -66906,6 +67172,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = four.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -66919,7 +67186,7 @@ width = 400;
 {
 color = 7;
 glyphname = five.numr;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -66945,6 +67212,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = five.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -66958,7 +67226,7 @@ width = 400;
 {
 color = 7;
 glyphname = six.numr;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -66984,6 +67252,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = six.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -66997,7 +67266,7 @@ width = 400;
 {
 color = 7;
 glyphname = seven.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67023,6 +67292,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = seven.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -67036,7 +67306,7 @@ width = 400;
 {
 color = 7;
 glyphname = eight.numr;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67062,6 +67332,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = eight.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -67075,7 +67346,7 @@ width = 400;
 {
 color = 7;
 glyphname = nine.numr;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67101,6 +67372,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = nine.dnom;
 transform = "{1, 0, 0, 1, 0, 272}";
 }
@@ -67114,7 +67386,7 @@ width = 400;
 {
 color = 7;
 glyphname = zerosuperior;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67140,6 +67412,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = zero.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67154,7 +67427,7 @@ unicode = 2070;
 {
 color = 7;
 glyphname = onesuperior;
-lastChange = "2016-07-16 16:13:11 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67180,6 +67453,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = one.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67194,7 +67468,7 @@ unicode = 00B9;
 {
 color = 7;
 glyphname = twosuperior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67220,6 +67494,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = two.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67234,7 +67509,7 @@ unicode = 00B2;
 {
 color = 7;
 glyphname = threesuperior;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67260,6 +67535,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = three.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67274,7 +67550,7 @@ unicode = 00B3;
 {
 color = 7;
 glyphname = foursuperior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67300,6 +67576,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = four.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67314,7 +67591,7 @@ unicode = 2074;
 {
 color = 7;
 glyphname = fivesuperior;
-lastChange = "2015-03-19 16:57:07 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67340,6 +67617,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = five.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67354,7 +67632,7 @@ unicode = 2075;
 {
 color = 7;
 glyphname = sixsuperior;
-lastChange = "2015-03-19 16:57:03 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67380,6 +67658,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = six.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67394,7 +67673,7 @@ unicode = 2076;
 {
 color = 7;
 glyphname = sevensuperior;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67420,6 +67699,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = seven.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67434,7 +67714,7 @@ unicode = 2077;
 {
 color = 7;
 glyphname = eightsuperior;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67460,6 +67740,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = eight.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -67474,7 +67755,7 @@ unicode = 2078;
 {
 color = 7;
 glyphname = ninesuperior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
@@ -67500,6 +67781,7 @@ width = 600;
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = nine.dnom;
 transform = "{1, 0, 0, 1, 0, 322}";
 }
@@ -70821,11 +71103,12 @@ unicode = 0029;
 {
 color = 7;
 glyphname = parenleftsuperior;
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = parenleft.dnom;
 transform = "{1, 0, 0, 1, 6, 315}";
 }
@@ -70849,11 +71132,12 @@ unicode = 207D;
 {
 color = 7;
 glyphname = parenrightsuperior;
-lastChange = "2015-03-19 16:57:05 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = parenright.dnom;
 transform = "{1, 0, 0, 1, -5, 315}";
 }
@@ -71176,11 +71460,12 @@ width = 600;
 {
 color = 7;
 glyphname = parenleft.numr;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = parenleft.dnom;
 transform = "{1, 0, 0, 1, 6, 370}";
 }
@@ -71203,11 +71488,12 @@ width = 600;
 {
 color = 7;
 glyphname = parenright.numr;
-lastChange = "2015-03-19 16:57:04 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = parenright.dnom;
 transform = "{1, 0, 0, 1, -5, 370}";
 }
@@ -116268,7 +116554,7 @@ width = 363;
 {
 color = 7;
 glyphname = "breve-cy.case";
-lastChange = "2015-03-19 16:57:06 +0000";
+lastChange = "2019-02-14 09:35:11 +0000";
 layers = (
 {
 anchors = (
@@ -116279,6 +116565,7 @@ position = "{300, 689}";
 );
 components = (
 {
+alignment = -1;
 name = "breve-cy";
 transform = "{1, 0, 0, 1, -1, 126}";
 }
@@ -116295,6 +116582,7 @@ position = "{300, 693}";
 );
 components = (
 {
+alignment = -1;
 name = "breve-cy";
 transform = "{1, 0, 0, 1, 0, 126}";
 }
@@ -116312,6 +116600,7 @@ position = "{182, 689}";
 associatedMasterId = UUID0;
 components = (
 {
+alignment = -1;
 name = "breve-cy";
 transform = "{1, 0, 0, 1, 0, 126}";
 }
@@ -121730,8 +122019,8 @@ cpsp
 );
 interpolationWeight = 62;
 instanceInterpolations = {
+"BF448B58-7A35-489E-A1C9-12628F60690C" = -0.44118;
 UUID0 = 1.44118;
-"BF448B58-7A35-489E-A1C9-12628F60690C" = -0.441176;
 };
 name = Light;
 weightClass = Light;
@@ -121762,8 +122051,8 @@ cpsp
 );
 interpolationWeight = 84;
 instanceInterpolations = {
+"BF448B58-7A35-489E-A1C9-12628F60690C" = -0.11765;
 UUID0 = 1.11765;
-"BF448B58-7A35-489E-A1C9-12628F60690C" = -0.117647;
 };
 name = Regular;
 },
@@ -121797,8 +122086,8 @@ cpsp
 );
 interpolationWeight = 96;
 instanceInterpolations = {
-UUID0 = 0.941176;
-"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.0588235;
+"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.05882;
+UUID0 = 0.94118;
 };
 name = Retina;
 },
@@ -121828,8 +122117,8 @@ cpsp
 );
 interpolationWeight = 112;
 instanceInterpolations = {
-UUID0 = 0.705882;
-"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.294118;
+"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.29412;
+UUID0 = 0.70588;
 };
 name = Medium;
 weightClass = Medium;
@@ -121862,8 +122151,8 @@ cpsp
 );
 interpolationWeight = 132;
 instanceInterpolations = {
-UUID0 = 0.411765;
-"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.588235;
+"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.58824;
+UUID0 = 0.41176;
 };
 isBold = 1;
 name = SemiBold;
@@ -121895,8 +122184,8 @@ cpsp
 );
 interpolationWeight = 158;
 instanceInterpolations = {
-UUID0 = 0.0294118;
-"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.970588;
+"BF448B58-7A35-489E-A1C9-12628F60690C" = 0.97059;
+UUID0 = 0.02941;
 };
 isBold = 1;
 name = Bold;
