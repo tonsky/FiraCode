@@ -144,6 +144,12 @@ Swift:
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 ```
 
+```css
+/* Specify in CSS */
+font-family: 'Fira Code', monospace;
+```
+
+
 - IE 10+, Edge: enable with `font-feature-settings: "calt" 1;`
 - Firefox
 - Safari
