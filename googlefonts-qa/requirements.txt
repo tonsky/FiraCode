@@ -1,0 +1,6 @@
+# first: make & activate virtual environment, `venv`
+# virtualenv -p python3 venv
+
+fontbakery
+git+https://github.com/googlefonts/gftools.git
+fontmake
