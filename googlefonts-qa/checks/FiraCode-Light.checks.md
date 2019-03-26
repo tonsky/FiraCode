@@ -267,11 +267,10 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+<summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
 
-* [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2100, but got 1870 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1000, but got 530 instead [code: descent]
+* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_weight_instances)
+* 🔥 **FAIL** Found an variable font instance with 'wght'=450.0. This should instead be a multiple of 100.
 
 </details>
 <details>
@@ -444,9 +443,9 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 |  | FiraCode-Light.ttf |
 |:--- | ---:|
-| Dehinted Size | 238.0kb |
+| Dehinted Size | 238.1kb |
 | Hinted Size | 236.1kb |
-| Increase | -1996 bytes |
+| Increase | -1992 bytes |
 | Change   | -0.8 % |
 
 
@@ -494,7 +493,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GPOS, gasp, DSIG, loca, GSUB, prep]
+* ℹ **INFO** This font contains the following optional tables [GSUB, loca, GPOS, DSIG, gasp, prep]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -810,6 +809,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
+* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
 
 * [com.google.fonts/check/os2_metrics_match_hhea](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/os2_metrics_match_hhea)
@@ -848,13 +854,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> A variable font must have named instances.</summary>
 
 * [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_has_instances)
-* 🍞 **PASS** OK
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Variable font weight coordinates must be multiples of 100.</summary>
-
-* [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_weight_instances)
 * 🍞 **PASS** OK
 
 </details>

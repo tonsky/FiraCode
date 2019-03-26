@@ -234,11 +234,11 @@ capHeight = 1374;
 customParameters = (
 {
 name = typoAscender;
-value = 1870;
+value = 1980;
 },
 {
 name = typoDescender;
-value = -530;
+value = -644;
 },
 {
 name = typoLineGap;
@@ -246,19 +246,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1870;
+value = 2164;
 },
 {
 name = winDescent;
-value = 530;
+value = 1000;
 },
 {
 name = hheaAscender;
-value = 1870;
+value = 1980;
 },
 {
 name = hheaDescender;
-value = -530;
+value = -644;
 },
 {
 name = hheaLineGap;
@@ -300,11 +300,11 @@ capHeight = 1386;
 customParameters = (
 {
 name = typoAscender;
-value = 1870;
+value = 1980;
 },
 {
 name = typoDescender;
-value = -530;
+value = -644;
 },
 {
 name = typoLineGap;
@@ -312,19 +312,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1870;
+value = 2164;
 },
 {
 name = winDescent;
-value = 530;
+value = 1000;
 },
 {
 name = hheaAscender;
-value = 1870;
+value = 1980;
 },
 {
 name = hheaDescender;
-value = -530;
+value = -644;
 },
 {
 name = hheaLineGap;
@@ -107244,6 +107244,10 @@ name = "Remove Features";
 value = (
 cpsp
 );
+},
+{
+name = weightClass;
+value = 300;
 }
 );
 interpolationWeight = 62;
@@ -107260,6 +107264,10 @@ name = "Remove Features";
 value = (
 cpsp
 );
+},
+{
+name = weightClass;
+value = 400;
 }
 );
 interpolationWeight = 84;
@@ -107270,11 +107278,10 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = weightClass;
-value = 900;
+value = 450;
 },
 {
 name = "Remove Features";
@@ -107289,6 +107296,7 @@ instanceInterpolations = {
 "B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.64583;
 };
 name = Retina;
+weightClass = Normal;
 },
 {
 customParameters = (
@@ -107297,6 +107305,10 @@ name = "Remove Features";
 value = (
 cpsp
 );
+},
+{
+name = weightClass;
+value = 500;
 }
 );
 interpolationWeight = 112;
@@ -107334,6 +107346,10 @@ name = "Remove Features";
 value = (
 cpsp
 );
+},
+{
+name = weightClass;
+value = 700;
 }
 );
 interpolationWeight = 158;
