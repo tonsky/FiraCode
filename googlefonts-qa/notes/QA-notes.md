@@ -4,7 +4,7 @@
 
 ## Checks to resolve
 
-----------------------------
+
 <details>
 <summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
 
@@ -35,15 +35,43 @@
 ----------------------------
 
 <details>
-<summary>🔥 <b>FAIL:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
+<summary><b>[119] FiraCode-Light.ttf</b></summary>
+<details>
+<summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
-* [com.google.fonts/check/name/ascii_only_entries](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/ascii_only_entries)
-* 🔥 **FAIL** There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries.
-* ℹ **INFO** Bad string at [nameID 0, 'utf_16_be']: 'b'Copyright &#169; 2015 by Nikita Prokopov''
+* [com.google.fonts/check/canonical_filename](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/canonical_filename)
+* 🔥 **FAIL** This is a variable font, but it is using a naming scheme typical of a static font.
+* 🔥 **FAIL** Please change the font filename to use one of the following valid suffixes for variable fonts: VF, Italic-VF, Roman-VF
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
+* 🔥 **FAIL** OS/2 usWeightClass expected value for 'Light' is 300 but this font has 400.
 
 </details>
 
-- [ ] remove © symbol
+
+======================================================================================
+
+## Waiting on others
+
+<details>
+<summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts</summary>
+
+* [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
+* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
+But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)'
+
+</details>
+
+- additionally, it's unclear how the original copyright on Fira Mono & Fira Code should best be integrated to credit all designers involved
+
+- [x] file issue on fontbakery (https://github.com/googlefonts/fontbakery/issues/2419)
+- [ ] confirm that current approach is fine (https://github.com/google/fonts/issues/1460#issuecomment-476713822)
+
+----------------------------
 
 ======================================================================================
 
@@ -60,5 +88,18 @@
 </details>
 
 - [x] scale UPM to 2000
+
+----------------------------
+
+<details>
+<summary>🔥 <b>FAIL:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
+
+* [com.google.fonts/check/name/ascii_only_entries](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/ascii_only_entries)
+* 🔥 **FAIL** There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries.
+* ℹ **INFO** Bad string at [nameID 0, 'utf_16_be']: 'b'Copyright &#169; 2015 by Nikita Prokopov''
+
+</details>
+
+- [x] remove © symbol
 
 ----------------------------

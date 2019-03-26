@@ -237,13 +237,6 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Substitute copyright, registered and trademark symbols in name table entries.</summary>
-
-* [com.google.fonts/check/name/unwanted_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/unwanted_chars)
-* 🔥 **FAIL** NAMEID #0 contains symbol that should be replaced by '(c)'.
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
 * [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
@@ -251,19 +244,11 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
-
-* [com.google.fonts/check/name/ascii_only_entries](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/ascii_only_entries)
-* 🔥 **FAIL** There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries.
-* ℹ **INFO** Bad string at [nameID 0, 'utf_16_be']: 'b'Copyright &#169; 2015 by Nikita Prokopov''
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in METADATA.pb</summary>
 
 * [com.google.fonts/check/metadata/valid_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/valid_copyright)
 * 🔥 **FAIL** METADATA.pb: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright  2015 by Nikita Prokopov'
+But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)'
 
 </details>
 <details>
@@ -271,7 +256,7 @@ But instead we have got: 'Copyright  2015 by Nikita Prokopov'
 
 * [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright © 2015 by Nikita Prokopov'
+But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)'
 
 </details>
 <details>
@@ -279,13 +264,6 @@ But instead we have got: 'Copyright © 2015 by Nikita Prokopov'
 
 * [com.google.fonts/check/metadata/os2_weightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/os2_weightclass)
 * 🔥 **FAIL** OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (300:"Light").
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/metadata/nameid/copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/nameid/copyright)
-* 🔥 **FAIL** Copyright field for this font on METADATA.pb ('Copyright  2015 by Nikita Prokopov') differs from a copyright notice entry on the name table: 'Copyright (c) 2015 by Nikita Prokopov'
 
 </details>
 <details>
@@ -466,9 +444,9 @@ But instead we have got: 'Copyright © 2015 by Nikita Prokopov'
 
 |  | FiraCode-Light.ttf |
 |:--- | ---:|
-| Dehinted Size | 237.7kb |
-| Hinted Size | 235.8kb |
-| Increase | -1916 bytes |
+| Dehinted Size | 238.0kb |
+| Hinted Size | 236.1kb |
+| Increase | -1996 bytes |
 | Change   | -0.8 % |
 
 
@@ -516,7 +494,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GSUB, loca, DSIG, prep, gasp, GPOS]
+* ℹ **INFO** This font contains the following optional tables [GPOS, gasp, DSIG, loca, GSUB, prep]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -525,6 +503,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/fstype](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fstype)
 * 🍞 **PASS** OS/2 fsType is properly set to zero.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Substitute copyright, registered and trademark symbols in name table entries.</summary>
+
+* [com.google.fonts/check/name/unwanted_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/unwanted_chars)
+* 🍞 **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
 
 </details>
 <details>
@@ -567,6 +552,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/currency_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/currency_chars)
 * 🍞 **PASS** Font has all expected currency sign characters.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
+
+* [com.google.fonts/check/name/ascii_only_entries](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/ascii_only_entries)
+* 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
 
 </details>
 <details>
@@ -731,6 +723,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * [com.google.fonts/check/mac_style](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/mac_style)
 * 🍞 **PASS** head macStyle ITALIC bit is properly set.
 * 🍞 **PASS** head macStyle BOLD bit is properly set.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
+
+* [com.google.fonts/check/metadata/nameid/copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/nameid/copyright)
+* 🍞 **PASS** Copyright field for this font on METADATA.pb matches copyright notice entries on the name table.
 
 </details>
 <details>
@@ -1097,5 +1096,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 6 | 19 | 7 | 107 |
-| 0% | 7% | 4% | 13% | 5% | 71% |
+| 0 | 8 | 6 | 19 | 7 | 110 |
+| 0% | 5% | 4% | 13% | 5% | 73% |
