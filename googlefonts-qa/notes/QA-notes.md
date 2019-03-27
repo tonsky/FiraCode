@@ -14,6 +14,9 @@
 
 - [ ] explore to find why this would be happening ... 
   - Encode Sans gets an OS/2 usWeightClass of `100`, matching its default instance.
+  
+**Solution**
+- Custom Parameters of `Axis Location` needed to be set in source masters (https://github.com/googlei18n/fontmake/issues/540)
 
 ======================================================================================
 

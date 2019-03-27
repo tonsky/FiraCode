@@ -263,6 +263,15 @@ value = -644;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+}
+);
 }
 );
 descender = -386;
@@ -329,6 +338,15 @@ value = -644;
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+}
+);
 }
 );
 descender = -442;

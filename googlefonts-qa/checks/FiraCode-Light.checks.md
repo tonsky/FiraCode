@@ -237,13 +237,6 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
-* 🔥 **FAIL** OS/2 usWeightClass expected value for 'Light' is 300 but this font has 400.
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in METADATA.pb</summary>
 
 * [com.google.fonts/check/metadata/valid_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/valid_copyright)
@@ -260,17 +253,12 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 </details>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
-
-* [com.google.fonts/check/metadata/os2_weightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/os2_weightclass)
-* 🔥 **FAIL** OS/2 usWeightClass (400:"Regular") does not match weight specified at METADATA.pb (300:"Light").
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
 
 * [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_weight_instances)
-* 🔥 **FAIL** Found an variable font instance with 'wght'=450.0. This should instead be a multiple of 100.
+* 🔥 **FAIL** Found an variable font instance with 'wght'=391.66667. This should instead be a multiple of 100.
+* 🔥 **FAIL** Found an variable font instance with 'wght'=441.66667. This should instead be a multiple of 100.
+* 🔥 **FAIL** Found an variable font instance with 'wght'=508.33333. This should instead be a multiple of 100.
 
 </details>
 <details>
@@ -278,6 +266,13 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 * [com.google.fonts/check/valid_glyphnames](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/valid_glyphnames)
 * 🔥 **FAIL** The following glyph names do not comply with naming conventions: ['numbersign_numbersign_numbersign.liga', 'numbersign_numbersign_numbersign_numbersign.liga', 'numbersign_underscore_parenleft.liga', 'backslash_backslash_backslash.rem', 'numbersign_numbersign_numbersign.liga.rem', 'numbersign_numbersign_numbersign_numbersign.liga.rem', 'semicolon_semicolon_semicolon.rem', 'quadrantUpperLeftAndLowerLeftAndLowerRight', 'quadrantUpperLeftAndUpperRightAndLowerLeft', 'quadrantUpperLeftAndUpperRightAndLowerRight', 'quadrantUpperRightAndLowerLeftAndLowerRight', 'whiteSquareWithUpperLeftQuadrant', 'whiteSquareWithLowerLeftQuadrant', 'whiteSquareWithLowerRightQuadrant', 'whiteSquareWithUpperRightQuadrant', 'asciitilde_asciitilde_greater.liga', 'ampersand_ampersand_ampersand.rem', 'asciitilde_asciitilde_asciitilde.rem'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/varfont/regular_wght_coord](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont/regular_wght_coord)
+* 🔥 **FAIL** The 'wght' axis coordinate of the 'Regular' instance must be 400. Got a '391.66667' coordinate instead.
 
 </details>
 <details>
@@ -443,7 +438,7 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 |  | FiraCode-Light.ttf |
 |:--- | ---:|
-| Dehinted Size | 238.1kb |
+| Dehinted Size | 238.0kb |
 | Hinted Size | 236.1kb |
 | Increase | -1992 bytes |
 | Change   | -0.8 % |
@@ -493,7 +488,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GSUB, loca, GPOS, DSIG, gasp, prep]
+* ℹ **INFO** This font contains the following optional tables [DSIG, prep, gasp, loca, GPOS, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -509,6 +504,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/name/unwanted_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/unwanted_chars)
 * 🍞 **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
+* 🍞 **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -677,6 +679,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/metadata/canonical_weight_value](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/canonical_weight_value)
 * 🍞 **PASS** Font weight has a canonical value.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWeightClass matches weight specified at METADATA.pb.</summary>
+
+* [com.google.fonts/check/metadata/os2_weightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/os2_weightclass)
+* 🍞 **PASS** OS/2 usWeightClass matches weight specified at METADATA.pb
 
 </details>
 <details>
@@ -1061,13 +1070,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/varfont/regular_wght_coord](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont/regular_wght_coord)
-* 🍞 **PASS** Regular:wght is 400.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 700 on the 'Bold' instance.</summary>
 
 * [com.google.fonts/check/varfont/bold_wght_coord](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont/bold_wght_coord)
@@ -1095,5 +1097,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 6 | 19 | 7 | 110 |
-| 0% | 5% | 4% | 13% | 5% | 73% |
+| 0 | 7 | 6 | 19 | 7 | 111 |
+| 0% | 5% | 4% | 13% | 5% | 74% |
