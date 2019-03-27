@@ -1,12 +1,7 @@
 {
 .appVersion = "1220";
 DisplayStrings = (
-"/Eng/Eng/Cacute.loclPLK/Nacute.loclPLK/Oacute.loclPLK/Sacute.loclPLK/Zacute.loclPLK/cacute.loclPLK/nacute.loclPLK/oacute.loclPLK/sacute.loclPLK/zacute.loclPLK/EnLeftHook-cy/EnLeftHook-cy/Iegrave-cy/Iigrave-cy/Pedescender-cy/Tedescender-cy/Chedescender-cy/Shhadescender-cy/Zhebreve-cy/Enhook-cy/Enhook-cy/Abreve-cy/Adieresis-cy/Aie-cy/Iebreve-cy/Schwadieresis-cy/Zhedieresis-cy/Zedieresis-cy/Idieresis-cy/Odieresis-cy/Obarreddieresis-cy/Edieresis-cy/Udieresis-cy/Uhungarumlaut-cy/Chedieresis-cy/Gedescender-cy/Yerudieresis-cy/Elhook-cy/Elhook-cy/We-cy/iegrave-cy/iigrave-cy/pedescender-cy/tedescender-cy/chedescender-cy/shhadescender-cy/zhebreve-cy/enhook-cy/enhook-cy/abreve-cy/adieresis-cy/aie-cy/iebreve-cy/schwadieresis-cy/zhedieresis-cy/zedieresis-cy/idieresis-cy/odieresis-cy/obarreddieresis-cy/edieresis-cy/udieresis-cy/uhungarumlaut-cy/chedieresis-cy/gedescender-cy/yerudieresis-cy/elhook-cy/elhook-cy/we-cy/enlefthook-cy/enlefthook-cy/Omegatonos/Alphavaria/Alphaoxia/Alphavrachy/Alphamacron/Epsilonvaria/Epsilonoxia/Etavaria/Etaoxia/Iotavaria/Iotaoxia/Iotavrachy/Iotamacron/Omicronvaria/Omicronoxia/Upsilonvaria/Upsilonoxia/Upsilonvrachy/Upsilonmacron/Omegavaria/Omegaoxia/alphavaria/alphaoxia/alphaperispomeni/alphavrachy/alphamacron/epsilonvaria/epsilonoxia/etavaria/etaoxia/etaperispomeni/iotavaria/iotaoxia/iotaperispomeni/iotavrachy/iotamacron/iotadialytikavaria/iotadialytikaoxia/iotadialytikaperispomeni/omicronvaria/omicronoxia/upsilonvaria/upsilonoxia/upsilonperispomeni/upsilonvrachy/upsilonmacron/upsilondialytikavaria/upsilondialytikaoxia/upsilondialytikaperispomeni/omegavaria/omegaoxia/omegaperispomeni/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/parenleftsuperior/parenrightsuperior/parenleft.numr/parenright.numr/breve-cy.case/breve-cy.case/breve-cy.case",
-"/numbersign_equal.liga",
-p,
-"/LIG",
-"/_part.numbersign",
-"¶"
+"Ð/Hbar/Lslash MNØ/OE S/Tbar æ/dcroat eg/hbar/lslash/napostrophe ø/oe ß/tbar y/Dche-cy/Dzzhe-cy/Eldescender-cy/De-cy/El-cy/U-cy/Lje-cy/Nje-cy/Iu-cy/Omega-cy/Yat-cy/Eiotified-cy/Izhitsa-cy/Ghestroke-cy/Zhedescender-cy/Kastroke-cy/Haabkhasian-cy/Ustraitstroke-cy/Tetse-cy/Cheverticalstroke-cy/Shha-cy/Shhadescender-cy/Cheabkhasian-cy/Kahook-cy/Eltail-cy/Emtail-cy/Obarred-cy/Hastroke-cy/Komizje-cy/Komilje-cy/Lha-cy/Rha-cy/Elmiddlehook-cy/Semisoftsign-cy/be-cy/ve-cy/de-cy/ze-cy/ii-cy/iishorttail-cy/el-cy/em-cy/lje-cy/eiotified-cy/yusbigiotified-cy/izhitsa-cy/kastroke-cy/haabkhasian-cy/ustraitstroke-cy/tetse-cy/cheabkhasian-cy/eltail-cy/emtail-cy/schwa-cy/hastroke-cy/komidje-cy/komizje-cy/komidzje-cy/komilje-cy/komitje-cy/lha-cy/yae-cy/elmiddlehook-cy/semisoftsign-cy/dche-cy/dzzhe-cy/eldescender-cy/Stigma/UpsilonhookSymbol/SigmaLunateDottedSymbol/SigmaLunateDottedReversedSymbol/alpha/gamma/delta/zeta/theta/kappa/lambda/xi/pi/sigmafinal/sigma/chi/archaicsampi/pamphyliandigamma/dottedlunatesigmasymbol/reverseddottedlunatesigmasymbol/stigma/digamma/koppa/sampi/kaiSymbol/betaSymbol/thetaSymbol/phiSymbol/piSymbol/kappaSymbol/rhoSymbol/san/rhoStrokeSymbol 4689/four.tosf/five.tosf/six.tosf/eight.tosf/nine.tosf/two.dnom/six.dnom/nine.dnom *,!¡?¿;/exclamdown.case/questiondown.case {}/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/braceleft_bar.liga/hyphen_hyphen_greater.liga/hyphen_greater.liga/hyphen_greater_greater.liga/hyphen_asciitilde.liga/numbersign_question.liga/numbersign_underscore_parenleft.liga/question_colon.liga/numbersign_colon.liga_rem/asterisk_large.rem/braceleft_hyphen.rem/bracketleft_bracketright.rem/.notdef/drachma/euro/liraTurkish/approxequal ~/infinity µ/partialdiff/arrowup/arrowupright/arrowright/arrowdownright/arrowdown/arrowdownleft/arrowleft/arrowupleft/arrowboth/arrowupdown/rightHalfBlackWhiteCircle/male/spade @¶§/trademark/literSign/numero/globeWithMeridians/dollar_greater.liga/greater_hyphen_greater.liga/less_dollar.liga/less_dollar_greater.liga/less_exclam_hyphen_hyphen.liga/less_hyphen_greater.liga/asciitilde_at.liga/asciitilde_equal.liga/asciitilde_greater.liga/asciitilde_asciitilde.liga/asciitilde_asciitilde_greater.liga/asciitilde_asciitilde_asciitilde.rem/apostrophemod/tilde/psiliperispomeni/descRound-cy/descTail-cy.case/Ksi-cyHELPER/ksi-cyHELPER/_part.arrowhead2/_part.question/_part.arrowhead1/_part.asterisk/_part.brackets/uniE000/uniE001/uniE002/uniE003/uniE0A0/uniE0A1/uniE0A2"
 );
 classes = (
 {
@@ -1411,7 +1406,7 @@ unicode = 0044;
 {
 color = 4;
 glyphname = Eth;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:29:18 +0000";
 layers = (
 {
 components = (
@@ -1426,10 +1421,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"135 805 LINE",
 "19 805 LINE",
 "19 607 LINE",
-"452 607 LINE",
 "697 607 LINE",
 "697 805 LINE"
 );
@@ -1450,10 +1443,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"477 763 LINE",
 "47 763 LINE",
 "47 649 LINE",
-"56 649 LINE",
 "669 649 LINE",
 "669 763 LINE"
 );
@@ -2337,7 +2328,7 @@ unicode = 0048;
 {
 color = 4;
 glyphname = Hbar;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:29:31 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -2362,8 +2353,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1087 1183 LINE",
-"113 1183 LINE",
 "4 1183 LINE",
 "4 1000 LINE",
 "1196 1000 LINE",
@@ -2396,8 +2385,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"1019 1141 LINE",
-"181 1141 LINE",
 "4 1141 LINE",
 "4 1023 LINE",
 "1196 1023 LINE",
@@ -3356,7 +3343,7 @@ unicode = 013F;
 {
 color = 4;
 glyphname = Lslash;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:29:39 +0000";
 layers = (
 {
 components = (
@@ -3373,7 +3360,6 @@ closed = 1;
 nodes = (
 "900 884 LINE",
 "791 1055 LINE",
-"215 698 LINE",
 "18 576 LINE",
 "125 402 LINE"
 );
@@ -3396,7 +3382,6 @@ closed = 1;
 nodes = (
 "827 896 LINE",
 "763 990 LINE",
-"283 689 LINE",
 "100 579 LINE",
 "161 484 LINE"
 );
@@ -3410,7 +3395,7 @@ unicode = 0141;
 {
 color = 4;
 glyphname = M;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:30:48 +0000";
 layers = (
 {
 anchors = (
@@ -3484,13 +3469,13 @@ nodes = (
 "197 0 LINE",
 "242 760 LINE SMOOTH",
 "251 918 OFFCURVE",
-"252 1206 OFFCURVE",
+"249 1203 OFFCURVE",
 "250 1251 CURVE",
 "523 250 LINE",
 "675 250 LINE",
 "930 1251 LINE",
-"933 1219 OFFCURVE",
-"938 940 OFFCURVE",
+"932 1203 OFFCURVE",
+"937 940 OFFCURVE",
 "949 757 CURVE SMOOTH",
 "1000 0 LINE",
 "1131 0 LINE",
