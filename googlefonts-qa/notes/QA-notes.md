@@ -1,22 +1,11 @@
 # QA Notes – checking & polishing Fira Code for Google Fonts
 
 - [x] autohint static TTFs
+- [ ] check extrapolated outlines for issues
 
 ## Checks to resolve
 
-<details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
 
-* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
-* 🔥 **FAIL** OS/2 usWeightClass expected value for 'Light' is 300 but this font has 400.
-
-</details>
-
-- [ ] explore to find why this would be happening ... 
-  - Encode Sans gets an OS/2 usWeightClass of `100`, matching its default instance.
-  
-**Solution**
-- Custom Parameters of `Axis Location` needed to be set in source masters (https://github.com/googlei18n/fontmake/issues/540)
 
 ======================================================================================
 
@@ -141,4 +130,20 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 - [x] change if you find a better approach to keep Retina without disrupting builds / Regular weight
   - To set up the instance in GlyhpsApp such that it exports a font as expected: "Retina" gets a custom parameter of `weightClass: 450`, and a glyphs menu-weight of "Normal." Tested in axis-praxis, it seems to work well. All instances have a `weightClass` custom parameter.
   
+----------------------------
+
+<details>
+<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
+* 🔥 **FAIL** OS/2 usWeightClass expected value for 'Light' is 300 but this font has 400.
+
+</details>
+
+- [ ] explore to find why this would be happening ... 
+  - Encode Sans gets an OS/2 usWeightClass of `100`, matching its default instance.
+  
+**Solution**
+- Custom Parameters of `Axis Location` needed to be set in source masters (https://github.com/googlei18n/fontmake/issues/540)
+
 ----------------------------
