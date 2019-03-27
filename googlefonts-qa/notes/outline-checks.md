@@ -37,6 +37,19 @@ This crossbar is overly-thick, compared to others – I'll thin it out a bit:
 
 ![](assets/2019-03-27-13-48-03.png)
 
+
+## Kahook-cy
+
+Before:
+
+![](assets/2019-03-27-13-52-23.png)
+
+Now: 
+
+![](assets/2019-03-27-13-53-17.png)
+
+============================================================
+
 ## (Small) issues I'm leaving
 
 Often, crossbars have unnecessary points. These aren't really needed for the shapes and add a very small amount of data, but they're harmless, so I won't remove them right now.

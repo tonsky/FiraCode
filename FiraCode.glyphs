@@ -1,7 +1,7 @@
 {
 .appVersion = "1220";
 DisplayStrings = (
-"Ð/Hbar/Lslash MNØ/OE S/Tbar æ/dcroat eg/hbar/lslash/napostrophe ø/oe ß/tbar y/Dche-cy/Dzzhe-cy/Eldescender-cy/De-cy/El-cy/U-cy/Lje-cy/Nje-cy/Iu-cy/Omega-cy/Yat-cy/Eiotified-cy/Izhitsa-cy/Ghestroke-cy/Zhedescender-cy/Kastroke-cy/Haabkhasian-cy/Ustraitstroke-cy/Tetse-cy/Cheverticalstroke-cy/Shha-cy/Shhadescender-cy/Cheabkhasian-cy/Kahook-cy/Eltail-cy/Emtail-cy/Obarred-cy/Hastroke-cy/Komizje-cy/Komilje-cy/Lha-cy/Rha-cy/Elmiddlehook-cy/Semisoftsign-cy/be-cy/ve-cy/de-cy/ze-cy/ii-cy/iishorttail-cy/el-cy/em-cy/lje-cy/eiotified-cy/yusbigiotified-cy/izhitsa-cy/kastroke-cy/haabkhasian-cy/ustraitstroke-cy/tetse-cy/cheabkhasian-cy/eltail-cy/emtail-cy/schwa-cy/hastroke-cy/komidje-cy/komizje-cy/komidzje-cy/komilje-cy/komitje-cy/lha-cy/yae-cy/elmiddlehook-cy/semisoftsign-cy/dche-cy/dzzhe-cy/eldescender-cy/Stigma/UpsilonhookSymbol/SigmaLunateDottedSymbol/SigmaLunateDottedReversedSymbol/alpha/gamma/delta/zeta/theta/kappa/lambda/xi/pi/sigmafinal/sigma/chi/archaicsampi/pamphyliandigamma/dottedlunatesigmasymbol/reverseddottedlunatesigmasymbol/stigma/digamma/koppa/sampi/kaiSymbol/betaSymbol/thetaSymbol/phiSymbol/piSymbol/kappaSymbol/rhoSymbol/san/rhoStrokeSymbol 4689/four.tosf/five.tosf/six.tosf/eight.tosf/nine.tosf/two.dnom/six.dnom/nine.dnom *,!¡?¿;/exclamdown.case/questiondown.case {}/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/braceleft_bar.liga/hyphen_hyphen_greater.liga/hyphen_greater.liga/hyphen_greater_greater.liga/hyphen_asciitilde.liga/numbersign_question.liga/numbersign_underscore_parenleft.liga/question_colon.liga/numbersign_colon.liga_rem/asterisk_large.rem/braceleft_hyphen.rem/bracketleft_bracketright.rem/.notdef/drachma/euro/liraTurkish/approxequal ~/infinity µ/partialdiff/arrowup/arrowupright/arrowright/arrowdownright/arrowdown/arrowdownleft/arrowleft/arrowupleft/arrowboth/arrowupdown/rightHalfBlackWhiteCircle/male/spade @¶§/trademark/literSign/numero/globeWithMeridians/dollar_greater.liga/greater_hyphen_greater.liga/less_dollar.liga/less_dollar_greater.liga/less_exclam_hyphen_hyphen.liga/less_hyphen_greater.liga/asciitilde_at.liga/asciitilde_equal.liga/asciitilde_greater.liga/asciitilde_asciitilde.liga/asciitilde_asciitilde_greater.liga/asciitilde_asciitilde_asciitilde.rem/apostrophemod/tilde/psiliperispomeni/descRound-cy/descTail-cy.case/Ksi-cyHELPER/ksi-cyHELPER/_part.arrowhead2/_part.question/_part.arrowhead1/_part.asterisk/_part.brackets/uniE000/uniE001/uniE002/uniE003/uniE0A0/uniE0A1/uniE0A2"
+"Ð/Hbar/Lslash MNØ/OE S/Tbar æ/dcroat eg/hbar/lslash/napostrophe ø/oe ß/tbar y/Dche-cy/Dzzhe-cy/Eldescender-cy/De-cy/El-cy/U-cy/Lje-cy/Nje-cy/Iu-cy/Omega-cy/Yat-cy/Eiotified-cy/Izhitsa-cy/Ghestroke-cy/descStraight-cy.case/Zhedescender-cy/Kastroke-cy/Haabkhasian-cy/Ustraitstroke-cy/Tetse-cy/Cheverticalstroke-cy/Shha-cy/Shhadescender-cy/Cheabkhasian-cy/Kahook-cy/Eltail-cy/Emtail-cy/Obarred-cy/Hastroke-cy/Komizje-cy/Komilje-cy/Lha-cy/Rha-cy/Elmiddlehook-cy/Semisoftsign-cy/be-cy/ve-cy/de-cy/ze-cy/ii-cy/iishorttail-cy/el-cy/em-cy/lje-cy/eiotified-cy/yusbigiotified-cy/izhitsa-cy/kastroke-cy/haabkhasian-cy/ustraitstroke-cy/tetse-cy/cheabkhasian-cy/eltail-cy/emtail-cy/schwa-cy/hastroke-cy/komidje-cy/komizje-cy/komidzje-cy/komilje-cy/komitje-cy/lha-cy/yae-cy/elmiddlehook-cy/semisoftsign-cy/dche-cy/dzzhe-cy/eldescender-cy/Stigma/UpsilonhookSymbol/SigmaLunateDottedSymbol/SigmaLunateDottedReversedSymbol/alpha/gamma/delta/zeta/theta/kappa/lambda/xi/pi/sigmafinal/sigma/chi/archaicsampi/pamphyliandigamma/dottedlunatesigmasymbol/reverseddottedlunatesigmasymbol/stigma/digamma/koppa/sampi/kaiSymbol/betaSymbol/thetaSymbol/phiSymbol/piSymbol/kappaSymbol/rhoSymbol/san/rhoStrokeSymbol 4689/four.tosf/five.tosf/six.tosf/eight.tosf/nine.tosf/two.dnom/six.dnom/nine.dnom *,!¡?¿;/exclamdown.case/questiondown.case {}/quotedblbase/quotedblleft/quotedblright/quoteleft/quoteright/braceleft_bar.liga/hyphen_hyphen_greater.liga/hyphen_greater.liga/hyphen_greater_greater.liga/hyphen_asciitilde.liga/numbersign_question.liga/numbersign_underscore_parenleft.liga/question_colon.liga/numbersign_colon.liga_rem/asterisk_large.rem/braceleft_hyphen.rem/bracketleft_bracketright.rem/.notdef/drachma/euro/liraTurkish/approxequal ~/infinity µ/partialdiff/arrowup/arrowupright/arrowright/arrowdownright/arrowdown/arrowdownleft/arrowleft/arrowupleft/arrowboth/arrowupdown/rightHalfBlackWhiteCircle/male/spade @¶§/trademark/literSign/numero/globeWithMeridians/dollar_greater.liga/greater_hyphen_greater.liga/less_dollar.liga/less_dollar_greater.liga/less_exclam_hyphen_hyphen.liga/less_hyphen_greater.liga/asciitilde_at.liga/asciitilde_equal.liga/asciitilde_greater.liga/asciitilde_asciitilde.liga/asciitilde_asciitilde_greater.liga/asciitilde_asciitilde_asciitilde.rem/apostrophemod/tilde/psiliperispomeni/descRound-cy/descTail-cy.case/Ksi-cyHELPER/ksi-cyHELPER/_part.arrowhead2/_part.question/_part.arrowhead1/_part.asterisk/_part.brackets/uniE000/uniE001/uniE002/uniE003/uniE0A0/uniE0A1/uniE0A2"
 );
 classes = (
 {
@@ -5360,7 +5360,7 @@ unicode = 0054;
 {
 color = 4;
 glyphname = Tbar;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:31:16 +0000";
 layers = (
 {
 components = (
@@ -5376,10 +5376,8 @@ closed = 1;
 nodes = (
 "997 628 LINE",
 "997 813 LINE",
-"434 813 LINE",
 "201 813 LINE",
-"201 628 LINE",
-"762 628 LINE"
+"201 628 LINE"
 );
 }
 );
@@ -5399,10 +5397,8 @@ closed = 1;
 nodes = (
 "932 721 LINE",
 "932 841 LINE",
-"533 841 LINE",
 "263 841 LINE",
-"263 721 LINE",
-"660 721 LINE"
+"263 721 LINE"
 );
 }
 );
@@ -7313,7 +7309,7 @@ unicode = 00E3;
 {
 color = 4;
 glyphname = ae;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:31:30 +0000";
 layers = (
 {
 anchors = (
@@ -7462,7 +7458,7 @@ nodes = (
 "677 215 OFFCURVE",
 "659 469 CURVE",
 "1214 469 LINE",
-"1215 493 OFFCURVE",
+"1216 493 OFFCURVE",
 "1217 525 OFFCURVE",
 "1217 561 CURVE SMOOTH",
 "1217 872 OFFCURVE",
@@ -17089,7 +17085,7 @@ unicode = 0422;
 {
 color = 4;
 glyphname = "U-cy";
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:36:58 +0000";
 layers = (
 {
 anchors = (
@@ -17137,6 +17133,12 @@ name = top;
 position = "{620, 1374}";
 }
 );
+guideLines = (
+{
+angle = 246.7784;
+position = "{822, 923}";
+}
+);
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 paths = (
 {
@@ -17147,9 +17149,9 @@ nodes = (
 "205 1374 LINE",
 "72 1374 LINE",
 "533 383 LINE",
-"599 383 LINE",
-"546 218 OFFCURVE",
-"487 134 OFFCURVE",
+"591 383 LINE",
+"508 189 OFFCURVE",
+"439 126 OFFCURVE",
 "231 94 CURVE",
 "252 -20 LINE",
 "517 19 OFFCURVE",
@@ -20265,7 +20267,7 @@ unicode = 0494;
 {
 color = 4;
 glyphname = "Zhedescender-cy";
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:50:10 +0000";
 layers = (
 {
 components = (
@@ -20276,23 +20278,10 @@ name = "Zhe-cy";
 {
 alignment = -1;
 name = "descStraight-cy.case";
-transform = "{0.1, 0, 0, 0.1, 1165, 0}";
+transform = "{0.85, 0, 0, 1, 556, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"987 243 LINE",
-"942 0 LINE",
-"970 0 LINE",
-"1010 -349 LINE",
-"1222 -349 LINE",
-"1222 243 LINE"
-);
-}
-);
 width = 1200;
 },
 {
@@ -20304,23 +20293,10 @@ name = "Zhe-cy";
 {
 alignment = -1;
 name = "descStraight-cy.case";
-transform = "{0.1, 0, 0, 0.1, 1100, 0}";
+transform = "{1, 0, 0, 1, 529, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"1026 116 LINE",
-"1018 0 LINE",
-"1072 0 LINE",
-"1097 -278 LINE",
-"1219 -278 LINE",
-"1219 116 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -20491,7 +20467,7 @@ unicode = 049C;
 {
 color = 4;
 glyphname = "Kastroke-cy";
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:48:11 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -20533,11 +20509,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"624 1039 LINE",
+"624 1051 LINE",
 "624 1165 LINE",
 "253 1165 LINE",
 "90 1165 LINE",
-"90 1039 LINE"
+"90 1051 LINE"
 );
 },
 {
@@ -21267,7 +21243,7 @@ unicode = 04B2;
 {
 color = 4;
 glyphname = "Tetse-cy";
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:51:45 +0000";
 layers = (
 {
 anchors = (
@@ -21312,8 +21288,8 @@ nodes = (
 "747 1386 LINE",
 "747 255 LINE",
 "471 255 LINE",
-"471 1386 LINE",
-"182 1386 LINE",
+"471 1326 LINE",
+"182 1326 LINE",
 "182 0 LINE"
 );
 }
@@ -21363,8 +21339,8 @@ nodes = (
 "879 1374 LINE",
 "879 111 LINE",
 "423 111 LINE",
-"423 1374 LINE",
-"278 1374 LINE",
+"423 1314 LINE",
+"278 1314 LINE",
 "278 0 LINE"
 );
 }
@@ -21933,7 +21909,7 @@ unicode = 04C1;
 {
 color = 4;
 glyphname = "Kahook-cy";
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-03-27 17:53:12 +0000";
 layers = (
 {
 anchors = (
@@ -22030,10 +22006,10 @@ closed = 1;
 nodes = (
 "1043 0 LINE",
 "1043 322 LINE SMOOTH",
-"1043 584 OFFCURVE",
-"908 756 OFFCURVE",
-"600 756 CURVE",
-"622 637 LINE",
+"1043 590 OFFCURVE",
+"901 756 OFFCURVE",
+"555 756 CURVE",
+"555 637 LINE",
 "821 637 OFFCURVE",
 "916 536 OFFCURVE",
 "916 321 CURVE SMOOTH",
