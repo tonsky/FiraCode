@@ -8,7 +8,7 @@
 # call this script from the root of your fira code repo, with the absolute path your your local google/fonts repo
 # `move-check <your_username>/<path>/fonts`
 
-set -ex
+set -e
 source venv/bin/activate
 gFontsDir=$1
 
@@ -23,6 +23,14 @@ firaCodeDir=$(pwd)
 firaCodeQADir=$firaCodeDir/googlefonts-qa
 
 firaCodeVF=$firaCodeDir/distr/variable_ttf/FiraCode-VF.ttf
+
+
+# -------------------------------------------------------------------
+# get latest version ------------------------------------------------
+
+ttx -t head $firaCodeVF
+fontVersion=v$(xml sel -t --match "//*/fontRevision" -v "@value" ${firaCodeVF/".ttf"/".ttx"})
+rm ${firaCodeVF/".ttf"/".ttx"}
 
 # -------------------------------------------------------------------
 # fix variable font metadata as needed ------------------------------
@@ -54,7 +62,10 @@ done
 
 cd $gFontsDir
 git checkout master
+git pull upstream master
+git reset --hard
 git checkout -B firacode
+git clean -f -d
 
 # -------------------------------------------------------------------
 # move fonts --------------------------------------------------------
@@ -73,7 +84,7 @@ done
 # -------------------------------------------------------------------
 # make or move basic metadata ---------------------------------------
 
-gftools add-font ofl/firacode
+cp $firaCodeDir/googlefonts-qa/METADATA.pb ofl/firacode/METADATA.pb
 
 cp $firaCodeDir/LICENSE ofl/firacode/OFL.txt
 
@@ -97,3 +108,7 @@ do
     fontbakery check-googlefonts $ttf --ghmarkdown $firaCodeQADir/checks/${ttf/".ttf"/".checks.md"}
 done
 
+git add .
+git commit -m "fira code: $fontVersion added."
+
+git push --force upstream firacode
