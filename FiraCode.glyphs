@@ -261,13 +261,8 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-}
-);
+name = weightClass;
+value = 300;
 }
 );
 descender = -386;
@@ -336,13 +331,8 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-}
-);
+name = weightClass;
+value = 700;
 }
 );
 descender = -442;

@@ -3,11 +3,11 @@
 source venv/bin/activate
 
 # variable font
-fontmake -m master_ufo/FiraCode.designspace -o variable --output-dir distr/variable_ttf
+fontmake -g FiraCode.glyphs -o variable --output-dir distr/variable_ttf
 
 # statics
-fontmake -m master_ufo/FiraCode.designspace -o ttf --output-dir distr/ttf
-fontmake -m master_ufo/FiraCode.designspace -o otf --output-dir distr/otf
+fontmake -g FiraCode.glyphs -o ttf --output-dir distr/ttf
+fontmake -g FiraCode.glyphs -o otf --output-dir distr/otf
 
 # ============================================================================
 # Autohinting ================================================================
