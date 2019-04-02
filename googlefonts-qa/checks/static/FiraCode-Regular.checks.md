@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.0
+Fontbakery version: 0.7.1
 
 <details>
 <summary><b>[31] Family checks</b></summary>
@@ -15,8 +15,8 @@ Fontbakery version: 0.7.0
 <summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* ℹ **INFO** fontbakery (0.7.0)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.0 (latest)
+* ℹ **INFO** fontbakery (0.7.1)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.1 (latest)
 
 * 🍞 **PASS** Font Bakery is up-to-date
 
@@ -43,10 +43,10 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Fonts have consistent Units Per Em?</summary>
+<summary>🍞 <b>PASS:</b> Does font file include unacceptable control character glyphs?</summary>
 
-* [com.adobe.fonts/check/family/consistent_upm](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/family/consistent_upm)
-* 🍞 **PASS** Fonts have consistent units per em.
+* [com.google.fonts/check/family/control_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/control_chars)
+* 🍞 **PASS** Unacceptable control characters were not identified.
 
 </details>
 <details>
@@ -227,7 +227,7 @@ Fontbakery version: 0.7.0
 <br>
 </details>
 <details>
-<summary><b>[119] FiraCode-Regular.ttf</b></summary>
+<summary><b>[122] FiraCode-Regular.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Substitute copyright, registered and trademark symbols in name table entries.</summary>
 
@@ -263,18 +263,18 @@ But instead we have got: 'Copyright © 2015 by Nikita Prokopov'
 
 </details>
 <details>
+<summary>🔥 <b>FAIL:</b> PPEM must be an integer on hinted fonts.</summary>
+
+* [com.google.fonts/check/integer_ppem_if_hinted](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/integer_ppem_if_hinted)
+* 🔥 **FAIL** This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into and integer value.
+
+</details>
+<details>
 <summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
 
 * [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1050, but got 935 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 500, but got 265 instead [code: descent]
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> PPEM must be an integer on hinted fonts.</summary>
-
-* [com.google.fonts/check/integer_ppem_if_hinted](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/integer_ppem_if_hinted)
-* 🔥 **FAIL** This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into and integer value.
 
 </details>
 <details>
@@ -354,14 +354,6 @@ Glyph name: uni2158	Contours detected: 3	Expected: 4
 
 * [com.google.fonts/check/name/license](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/license)
 * 💤 **SKIP** Unfulfilled Conditions: license
-
-</details>
-<details>
-<summary>💤 <b>SKIP:</b> Font has ttfautohint params? </summary>
-
-* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/has_ttfautohint_params)
-* 💤 **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
-* 💤 **SKIP** Font appears to our heuristic as not hinted using ttfautohint.
 
 </details>
 <details>
@@ -589,6 +581,20 @@ Glyph name: uni2158	Contours detected: 3	Expected: 4
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
+* 💤 **SKIP** Unfulfilled Conditions: ligature_glyphs
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
+
+* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/kerning_for_non_ligated_sequences)
+* 💤 **SKIP** Unfulfilled Conditions: ligatures, has_kerning_info
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> FontForge validation outputs error messages?</summary>
 
 * [com.google.fonts/check/fontforge_stderr](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontforge_stderr)
@@ -603,24 +609,24 @@ Glyph name: uni2158	Contours detected: 3	Expected: 4
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> CFF table FontName must match name table ID 6 (PostScript name).</summary>
+<summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10?</summary>
 
-* [com.adobe.fonts/check/name/postscript_vs_cff](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/name/postscript_vs_cff)
+* [com.adobe.fonts/check/cff_call_depth](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/cff_call_depth)
 * 💤 **SKIP** Unfulfilled Conditions: is_cff
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
+<summary>💤 <b>SKIP:</b> Is the CFF2 subr/gsubr call depth > 10?</summary>
 
-* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/kerning_for_non_ligated_sequences)
-* 💤 **SKIP** Unfulfilled Conditions: ligatures, has_kerning_info
+* [com.adobe.fonts/check/cff2_call_depth](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/cff2_call_depth)
+* 💤 **SKIP** Unfulfilled Conditions: is_cff2
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
+<summary>💤 <b>SKIP:</b> CFF table FontName must match name table ID 6 (PostScript name).</summary>
 
-* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
-* 💤 **SKIP** Unfulfilled Conditions: ligature_glyphs
+* [com.adobe.fonts/check/name/postscript_vs_cff](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/name/postscript_vs_cff)
+* 💤 **SKIP** Unfulfilled Conditions: is_cff
 
 </details>
 <details>
@@ -681,17 +687,10 @@ Glyph name: uni2158	Contours detected: 3	Expected: 4
 |  | static/FiraCode-Regular.ttf |
 |:--- | ---:|
 | Dehinted Size | 170.2kb |
-| Hinted Size | 222.5kb |
-| Increase | 52.3kb |
-| Change   | 30.7 % |
+| Hinted Size | 234.0kb |
+| Increase | 63.7kb |
+| Change   | 37.4 % |
 
-
-</details>
-<details>
-<summary>ℹ <b>INFO:</b> Font has old ttfautohint applied?</summary>
-
-* [com.google.fonts/check/old_ttfautohint](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/old_ttfautohint)
-* ℹ **INFO** Could not detect which version of ttfautohint was used in this font. It is typically specified as a comment in the font version entries of the 'name' table. Such font version strings are currently: ['Version 1.206', 'Version 1.206']
 
 </details>
 <details>
@@ -721,7 +720,7 @@ PPM <= 65535:
 <summary>ℹ <b>INFO:</b> Check for font-v versioning </summary>
 
 * [com.google.fonts/check/fontv](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontv)
-* ℹ **INFO** Version string is: "Version 1.206"
+* ℹ **INFO** Version string is: "Version 1.206; ttfautohint (v1.8.2) -l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X """
 The version string must ideally include a git commit hash and either a 'dev' or a 'release' suffix such as in the example below:
 "Version 1.3; git-0d08353-release"
 
@@ -730,7 +729,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [fpgm, GPOS, prep, gasp, cvt , loca, DSIG, GSUB]
+* ℹ **INFO** This font contains the following optional tables [prep, GPOS, gasp, cvt , DSIG, loca, fpgm, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -767,6 +766,21 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/name/version_format](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/version_format)
 * 🍞 **PASS** Version format in NAME table entries is correct.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Font has ttfautohint params? </summary>
+
+* [com.google.fonts/check/has_ttfautohint_params](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/has_ttfautohint_params)
+* 🍞 **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X "")
+* 🍞 **PASS** Font has ttfautohint params (-l 8 -r 50 -G 200 -x 14 -D latn -f none -a nnn -X "")
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Font has old ttfautohint applied?</summary>
+
+* [com.google.fonts/check/old_ttfautohint](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/old_ttfautohint)
+* 🍞 **PASS** ttfautohint available in the system (1.8.2) is older than the one used in the font (1.8.2).
 
 </details>
 <details>
@@ -871,13 +885,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
-
-* [com.google.fonts/check/os2_metrics_match_hhea](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/os2_metrics_match_hhea)
-* 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
 
 * [com.google.fonts/check/smart_dropout](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/smart_dropout)
@@ -896,6 +903,27 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/aat](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/aat)
 * 🍞 **PASS** There are no unwanted AAT tables.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
+
+* [com.google.fonts/check/name/family_and_style_max_length](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/family_and_style_max_length)
+* 🍞 **PASS** All name entries are good.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
+
+* [com.google.fonts/check/name/trailing_spaces](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/trailing_spaces)
+* 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
+
+* [com.google.fonts/check/os2_metrics_match_hhea](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/os2_metrics_match_hhea)
+* 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
 
 </details>
 <details>
@@ -1046,17 +1074,17 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Combined length of family and style must not exceed 20 characters.</summary>
-
-* [com.google.fonts/check/name/family_and_style_max_length](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/family_and_style_max_length)
-* 🍞 **PASS** All name entries are good.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Name table ID 6 (PostScript name) must be consistent across platforms.</summary>
 
 * [com.adobe.fonts/check/name/postscript_name_consistency](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/name/postscript_name_consistency)
 * 🍞 **PASS** Entries in the 'name' table for ID 6 (PostScript name) are consistent.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
+
+* [com.google.fonts/check/loca/maxp_num_glyphs](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/loca/maxp_num_glyphs)
+* 🍞 **PASS** 'loca' table matches numGlyphs in 'maxp' table.
 
 </details>
 <details>
@@ -1108,13 +1136,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * 🍞 **PASS** All glyph paths have coordinates within bounds!
 
 </details>
-<details>
-<summary>🍞 <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
-
-* [com.google.fonts/check/loca/maxp_num_glyphs](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/loca/maxp_num_glyphs)
-* 🍞 **PASS** 'loca' table matches numGlyphs in 'maxp' table.
-
-</details>
 <br>
 </details>
 
@@ -1122,5 +1143,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 8 | 6 | 62 | 7 | 67 |
-| 0% | 5% | 4% | 41% | 5% | 45% |
+| 0 | 8 | 6 | 63 | 6 | 70 |
+| 0% | 5% | 4% | 41% | 4% | 46% |

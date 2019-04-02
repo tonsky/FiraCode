@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.0
+Fontbakery version: 0.7.1
 
 <details>
 <summary><b>[31] Family checks</b></summary>
@@ -15,8 +15,8 @@ Fontbakery version: 0.7.0
 <summary>ℹ <b>INFO:</b> Do we have the latest version of FontBakery installed?</summary>
 
 * [com.google.fonts/check/fontbakery_version](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontbakery_version)
-* ℹ **INFO** fontbakery (0.7.0)  - Well designed Font QA tool, written in Python 3
-  INSTALLED: 0.7.0 (latest)
+* ℹ **INFO** fontbakery (0.7.1)  - Well designed Font QA tool, written in Python 3
+  INSTALLED: 0.7.1 (latest)
 
 * 🍞 **PASS** Font Bakery is up-to-date
 
@@ -134,10 +134,10 @@ Fontbakery version: 0.7.0
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Fonts have consistent Units Per Em?</summary>
+<summary>🍞 <b>PASS:</b> Does font file include unacceptable control character glyphs?</summary>
 
-* [com.adobe.fonts/check/family/consistent_upm](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/family/consistent_upm)
-* 🍞 **PASS** Fonts have consistent units per em.
+* [com.google.fonts/check/family/control_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/control_chars)
+* 🍞 **PASS** Unacceptable control characters were not identified.
 
 </details>
 <details>
@@ -227,7 +227,7 @@ Fontbakery version: 0.7.0
 <br>
 </details>
 <details>
-<summary><b>[119] FiraCode-Light.ttf</b></summary>
+<summary><b>[122] FiraCode-Light.ttf</b></summary>
 <details>
 <summary>🔥 <b>FAIL:</b> Checking file is named canonically.</summary>
 
@@ -283,17 +283,17 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 </details>
 <details>
-<summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary>
-
-* [com.google.fonts/check/monospace](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/monospace)
-* ⚠ **WARN** Font is monospaced but 26 glyphs (1.5330188679245282%) have a different width. You should check the widths of: ['uni200B', 'uniFEFF', 'uni0308', 'uni0307', 'gravecomb', 'acutecomb', 'uni030B', 'uni0302', 'uni030C', 'uni0306', 'uni030A', 'tildecomb', 'uni0304', 'uni0305', 'uni030F', 'uni0313', 'uni0314', 'uni0326', 'uni0327', 'uni0342', 'uni0345', 'null', '_part.numbersign', 'uniE000', 'uniE001', 'uniE002'] [code: mono-outliers]
-
-</details>
-<details>
 <summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 20 characters.</summary>
 
 * [com.google.fonts/check/name/family_and_style_max_length](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/family_and_style_max_length)
 * ⚠ **WARN** The combined length of family and style exceeds 20 chars in the following 'WINDOWS' entries: FONT_FAMILY_NAME = 'Fira Code Light' / SUBFAMILY_NAME = 'Regular'
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Checking correctness of monospaced metadata.</summary>
+
+* [com.google.fonts/check/monospace](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/monospace)
+* ⚠ **WARN** Font is monospaced but 26 glyphs (1.5330188679245282%) have a different width. You should check the widths of: ['uni200B', 'uniFEFF', 'uni0308', 'uni0307', 'gravecomb', 'acutecomb', 'uni030B', 'uni0302', 'uni030C', 'uni0306', 'uni030A', 'tildecomb', 'uni0304', 'uni0305', 'uni030F', 'uni0313', 'uni0314', 'uni0326', 'uni0327', 'uni0342', 'uni0345', 'null', '_part.numbersign', 'uniE000', 'uniE001', 'uniE002'] [code: mono-outliers]
 
 </details>
 <details>
@@ -368,6 +368,20 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 </details>
 <details>
+<summary>💤 <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
+
+* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
+* 💤 **SKIP** Unfulfilled Conditions: ligature_glyphs
+
+</details>
+<details>
+<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
+
+* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/kerning_for_non_ligated_sequences)
+* 💤 **SKIP** Unfulfilled Conditions: ligatures, has_kerning_info
+
+</details>
+<details>
 <summary>💤 <b>SKIP:</b> FontForge validation outputs error messages?</summary>
 
 * [com.google.fonts/check/fontforge_stderr](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/fontforge_stderr)
@@ -382,24 +396,24 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> CFF table FontName must match name table ID 6 (PostScript name).</summary>
+<summary>💤 <b>SKIP:</b> Is the CFF subr/gsubr call depth > 10?</summary>
 
-* [com.adobe.fonts/check/name/postscript_vs_cff](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/name/postscript_vs_cff)
+* [com.adobe.fonts/check/cff_call_depth](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/cff_call_depth)
 * 💤 **SKIP** Unfulfilled Conditions: is_cff
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Is there kerning info for non-ligated sequences?</summary>
+<summary>💤 <b>SKIP:</b> Is the CFF2 subr/gsubr call depth > 10?</summary>
 
-* [com.google.fonts/check/kerning_for_non_ligated_sequences](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/kerning_for_non_ligated_sequences)
-* 💤 **SKIP** Unfulfilled Conditions: ligatures, has_kerning_info
+* [com.adobe.fonts/check/cff2_call_depth](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/cff2_call_depth)
+* 💤 **SKIP** Unfulfilled Conditions: is_cff2
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Are there caret positions declared for every ligature?</summary>
+<summary>💤 <b>SKIP:</b> CFF table FontName must match name table ID 6 (PostScript name).</summary>
 
-* [com.google.fonts/check/ligature_carets](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/ligature_carets)
-* 💤 **SKIP** Unfulfilled Conditions: ligature_glyphs
+* [com.adobe.fonts/check/name/postscript_vs_cff](https://github.com/googlefonts/fontbakery/search?q=com.adobe.fonts/check/name/postscript_vs_cff)
+* 💤 **SKIP** Unfulfilled Conditions: is_cff
 
 </details>
 <details>
@@ -488,7 +502,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [DSIG, gasp, GPOS, loca, prep, GSUB]
+* ℹ **INFO** This font contains the following optional tables [GSUB, gasp, DSIG, loca, prep, GPOS]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -818,20 +832,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
-<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
-
-* [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
-* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
-
-* [com.google.fonts/check/os2_metrics_match_hhea](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/os2_metrics_match_hhea)
-* 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
-
-</details>
-<details>
 <summary>🍞 <b>PASS:</b> Font enables smart dropout control in "prep" table instructions?</summary>
 
 * [com.google.fonts/check/smart_dropout](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/smart_dropout)
@@ -864,6 +864,27 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/varfont_has_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_has_instances)
 * 🍞 **PASS** OK
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Name table records must not have trailing spaces.</summary>
+
+* [com.google.fonts/check/name/trailing_spaces](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/trailing_spaces)
+* 🍞 **PASS** No trailing spaces on name table entries.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWinAscent & usWinDescent.</summary>
+
+* [com.google.fonts/check/family/win_ascent_and_descent](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/win_ascent_and_descent)
+* 🍞 **PASS** OS/2 usWinAscent & usWinDescent values look good!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 Metrics match hhea Metrics.</summary>
+
+* [com.google.fonts/check/os2_metrics_match_hhea](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/os2_metrics_match_hhea)
+* 🍞 **PASS** OS/2.sTypoAscender/Descender values match hhea.ascent/descent.
 
 </details>
 <details>
@@ -1021,6 +1042,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>🍞 <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
+
+* [com.google.fonts/check/loca/maxp_num_glyphs](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/loca/maxp_num_glyphs)
+* 🍞 **PASS** 'loca' table matches numGlyphs in 'maxp' table.
+
+</details>
+<details>
 <summary>🍞 <b>PASS:</b> Checking Vertical Metric Linegaps.</summary>
 
 * [com.google.fonts/check/linegaps](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/linegaps)
@@ -1083,13 +1111,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * 🍞 **PASS** OK
 
 </details>
-<details>
-<summary>🍞 <b>PASS:</b> Does the number of glyphs in the loca table match the maxp table?</summary>
-
-* [com.google.fonts/check/loca/maxp_num_glyphs](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/loca/maxp_num_glyphs)
-* 🍞 **PASS** 'loca' table matches numGlyphs in 'maxp' table.
-
-</details>
 <br>
 </details>
 
@@ -1097,5 +1118,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 6 | 19 | 7 | 111 |
-| 0% | 5% | 4% | 13% | 5% | 74% |
+| 0 | 7 | 6 | 21 | 7 | 112 |
+| 0% | 5% | 4% | 14% | 5% | 73% |

@@ -14,7 +14,7 @@ gFontsDir=$1
 
 if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
     echo 'Add absolute path to your Google Fonts Git directory, like:'
-    echo 'move-check /Users/username/type-repos/google-font-repos/fonts'
+    echo 'googlefonts-qa/scripts/move-check.sh /Users/your-username/type-repos/google-font-repos/fonts'
     exit 2
 fi
 
@@ -72,7 +72,7 @@ git clean -f -d
 
 mkdir -p ofl/firacode
 
-cp $firaCodeVF    ofl/firacode/FiraCode-Light.ttf
+cp $firaCodeVF    "ofl/firacode/FiraCode-Light.ttf"
 
 mkdir -p ofl/firacode/static
 statics=$(ls $firaCodeDir/distr/ttf/*.ttf)
@@ -99,12 +99,13 @@ mkdir -p $firaCodeQADir/checks/static
 
 cd ofl/firacode
 
-# ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
-ttfs=$(ls *.ttf) # use this to check only the VFs
+ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
+# ttfs=$(ls *.ttf) # use this to check only the VFs
 # ttfs=$(ls -R */*.ttf ) # use this to check only statics
 
 for ttf in $ttfs
 do
+    echo $ttf
     fontbakery check-googlefonts $ttf --ghmarkdown $firaCodeQADir/checks/${ttf/".ttf"/".checks.md"}
 done
 

@@ -3,10 +3,11 @@
 source venv/bin/activate
 
 # variable font
-fontmake -g FiraCode.glyphs -o variable --output-dir distr/variable_ttf
+fontmake -m master_ufo/FiraCode.designspace -o variable --output-dir distr/variable_ttf
 
-# static TTFs
-fontmake -g FiraCode.glyphs -o ttf --output-dir distr/ttf
+# statics
+fontmake -m master_ufo/FiraCode.designspace -o ttf --output-dir distr/ttf
+fontmake -m master_ufo/FiraCode.designspace -o otf --output-dir distr/otf
 
 # ============================================================================
 # Autohinting ================================================================
@@ -22,4 +23,23 @@ for file in $statics; do
     ttfautohint -I ${file} ${hintedFile} --stem-width-mode nnn
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
+done
+
+
+# ============================================================================
+# Build woff2 fonts ==========================================================
+
+# requires https://github.com/google/woff2
+
+rm -rf distr/woff2
+
+ttfs=$(ls distr/*/*.ttf)
+for ttf in $ttfs; do
+    woff2_compress $ttf
+done
+
+mkdir -p distr/woff2
+woff2s=$(ls distr/*/*.woff2)
+for woff2 in $woff2s; do
+    mv $woff2 distr/woff2/$(basename $woff2)
 done
