@@ -249,16 +249,21 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 * [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)'
+But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)'
+
+</details>
+<details>
+<summary>🔥 <b>FAIL:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
+
+* [com.google.fonts/check/metadata/nameid/copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/nameid/copyright)
+* 🔥 **FAIL** Copyright field for this font on METADATA.pb ('Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)') differs from a copyright notice entry on the name table: 'Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)'
 
 </details>
 <details>
 <summary>🔥 <b>FAIL:</b> Variable font weight coordinates must be multiples of 100.</summary>
 
 * [com.google.fonts/check/varfont_weight_instances](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont_weight_instances)
-* 🔥 **FAIL** Found an variable font instance with 'wght'=391.66667. This should instead be a multiple of 100.
-* 🔥 **FAIL** Found an variable font instance with 'wght'=441.66667. This should instead be a multiple of 100.
-* 🔥 **FAIL** Found an variable font instance with 'wght'=508.33333. This should instead be a multiple of 100.
+* 🔥 **FAIL** Found an variable font instance with 'wght'=450.0. This should instead be a multiple of 100.
 
 </details>
 <details>
@@ -266,13 +271,6 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 * [com.google.fonts/check/valid_glyphnames](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/valid_glyphnames)
 * 🔥 **FAIL** The following glyph names do not comply with naming conventions: ['numbersign_numbersign_numbersign.liga', 'numbersign_numbersign_numbersign_numbersign.liga', 'numbersign_underscore_parenleft.liga', 'backslash_backslash_backslash.rem', 'numbersign_numbersign_numbersign.liga.rem', 'numbersign_numbersign_numbersign_numbersign.liga.rem', 'semicolon_semicolon_semicolon.rem', 'quadrantUpperLeftAndLowerLeftAndLowerRight', 'quadrantUpperLeftAndUpperRightAndLowerLeft', 'quadrantUpperLeftAndUpperRightAndLowerRight', 'quadrantUpperRightAndLowerLeftAndLowerRight', 'whiteSquareWithUpperLeftQuadrant', 'whiteSquareWithLowerLeftQuadrant', 'whiteSquareWithLowerRightQuadrant', 'whiteSquareWithUpperRightQuadrant', 'asciitilde_asciitilde_greater.liga', 'ampersand_ampersand_ampersand.rem', 'asciitilde_asciitilde_asciitilde.rem'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
-
-* [com.google.fonts/check/varfont/regular_wght_coord](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont/regular_wght_coord)
-* 🔥 **FAIL** The 'wght' axis coordinate of the 'Regular' instance must be 400. Got a '391.66667' coordinate instead.
 
 </details>
 <details>
@@ -452,9 +450,9 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 
 |  | FiraCode-Light.ttf |
 |:--- | ---:|
-| Dehinted Size | 238.0kb |
-| Hinted Size | 236.1kb |
-| Increase | -1992 bytes |
+| Dehinted Size | 237.7kb |
+| Hinted Size | 235.8kb |
+| Increase | -1976 bytes |
 | Change   | -0.8 % |
 
 
@@ -502,7 +500,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GSUB, gasp, DSIG, loca, prep, GPOS]
+* ℹ **INFO** This font contains the following optional tables [DSIG, loca, GSUB, GPOS, gasp, prep]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -745,13 +743,6 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * [com.google.fonts/check/mac_style](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/mac_style)
 * 🍞 **PASS** head macStyle ITALIC bit is properly set.
 * 🍞 **PASS** head macStyle BOLD bit is properly set.
-
-</details>
-<details>
-<summary>🍞 <b>PASS:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/metadata/nameid/copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/nameid/copyright)
-* 🍞 **PASS** Copyright field for this font on METADATA.pb matches copyright notice entries on the name table.
 
 </details>
 <details>
@@ -1095,6 +1086,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/points_out_of_bounds](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/points_out_of_bounds)
 * 🍞 **PASS** All glyph paths have coordinates within bounds!
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> The variable font 'wght' (Weight) axis coordinate must be 400 on the 'Regular' instance.</summary>
+
+* [com.google.fonts/check/varfont/regular_wght_coord](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/varfont/regular_wght_coord)
+* 🍞 **PASS** Regular:wght is 400.
 
 </details>
 <details>

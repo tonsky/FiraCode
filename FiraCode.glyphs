@@ -2,8 +2,7 @@
 .appVersion = "1224";
 DisplayStrings = (
 "Ð/Hbar/Lslash MNØ/OE S/Tbar æ/dcroat eg/hbar/lslash/napostrophe ø/oe ß/tbar y/Dche-cy/Dzzhe-cy/Eldescender-cy/De-cy/El-cy/U-cy/Lje-cy/Nje-cy/Iu-cy/Omega-cy/Yat-cy/Eiotified-cy/Izhitsa-cy/Ghestroke-cy/descStraight-cy.case/Zhedescender-cy/Kastroke-cy/Haabkhasian-cy/Ustraitstroke-cy/Tetse-cy/Cheverticalstroke-cy/Shha-cy/Shhadescender-cy/Cheabkhasian-cy/Kahook-cy/Eltail-cy/Emtail-cy/Obarred-cy/Hastroke-cy/Komizje-cy/Komilje-cy/Lha-cy/Rha-cy/Elmiddlehook-cy/Semisoftsign-cy/be-cy/ve-cy/de-cy/ze-cy/ii-cy/iishorttail-cy/el-cy/em-cy/lje-cy/eiotified-cy/yusbigiotified-cy/izhitsa-cy/kastroke-cy/haabkhasian-cy/ustraitstroke-cy/tetse-cy/cheabkhasian-cy/eltail-cy/emtail-cy/schwa-cy/hastroke-cy/komidje-cy/komizje-cy/komidzje-cy/komilje-cy/komitje-cy/lha-cy/yae-cy/elmiddlehook-cy/semisoftsign-cy/dche-cy/dzzhe-cy/eldescender-cy/Stigma/UpsilonhookSymbol/SigmaLunateDottedSymbol/SigmaLunateDottedReversedSymbol/alpha/gamma/delta/zeta/theta/kappa/lambda/xi/pi/sigmafinal/sigma/chi/archaicsampi/pamphyliandigamma/dottedlunatesigmasymbol/reverseddottedlunatesigmasymbol/stigma/digamma/koppa/sampi/kaiSymbol/betaSymbol/thetaSymbol/phiSymbol/piSymbol/kappaSymbol/rhoSymbol/san/rhoStrokeSymbol 4689/four.tosf/five.tosf/six.tosf/eight.tosf 9/nine.tosf/two.dnom/six.dnom/nine.dnom *,!¡?¿;/exclamdown.case/questiondown.case {}/quotedblbase/quotedblleft/quotedblright/quoteleft  /quoteright  /braceleft_bar.liga   /hyphen_hyphen_greater.liga  /hyphen_greater.liga   /hyphen_greater_greater.liga   /hyphen_asciitilde.liga    /numbersign_question.liga    /numbersign_underscore_parenleft.liga   /question_colon.liga  /numbersign_colon.liga_rem  /asterisk_large.rem  /braceleft_hyphen.rem  /bracketleft_bracketright.rem  /.notdef  /drachma  /euro  /liraTurkish  /approxequal  ~ /infinity  µ /partialdiff  /arrowup  /arrowupright  /arrowright  /arrowdownright  /arrowdown  /arrowdownleft  /arrowleft  /arrowupleft  /arrowboth  .   /arrowupdown  /rightHalfBlackWhiteCircle  /male  /spade  @ ¶ § /trademark  /literSign       /numero  /globeWithMeridians    /dollar_greater.liga    /greater_hyphen_greater.liga   /less_dollar.liga    /less_dollar_greater.liga      /less_exclam_hyphen_hyphen.liga    /less_hyphen_greater.liga   /asciitilde_at.liga  /asciitilde_equal.liga  /asciitilde_greater.liga  /asciitilde_asciitilde.liga    /asciitilde_asciitilde_greater.liga   /asciitilde_asciitilde_asciitilde.rem  /apostrophemod  /tilde  /psiliperispomeni/descRound-cy  /descTail-cy.case  /Ksi-cyHELPER  /ksi-cyHELPER  /_part.arrowhead2  /_part.question  /_part.arrowhead1  /_part.asterisk   /_part.brackets  /uniE000   /uniE001  /uniE002  /uniE003  /uniE0A0  /uniE0A1  /uniE0A2  ",
-"/r.001",
-"AÁ/Abreve ÂÄÀ/Amacron/Aogonek ÅÃÆ/AEacute BC/Cacute/Ccaron Ç/Ccircumflex/Cdotaccent DÐ/Dcaron/Dcroat EÉ/Ebreve/Ecaron ÊË/Edotaccent È/Emacron/Eogonek FG/Gbreve/Gcircumflex/Gcommaaccent/Gdotaccent H/Hbar/Hcircumflex I/IJ Í/Ibreve ÎÏ/Idotaccent Ì/Imacron/Iogonek/Itilde J/Jcircumflex K/Kcommaaccent L/Lacute/Lcaron/Lcommaaccent/Ldot/Lslash MN/Nacute/Ncaron/Ncommaaccent/Eng ÑOÓ/Obreve ÔÖÒ/Ohungarumlaut/Omacron Ø/Oslashacute Õ/OE PÞQR/Racute/Rcaron/Rcommaaccent S/Sacute/Scaron/Scedilla/Scircumflex/Scommaaccent T/Tbar/Tcaron/Tcedilla/Tcommaaccent UÚ/Ubreve ÛÜÙ/Uhungarumlaut/Umacron/Uogonek/Uring/Utilde VW/Wacute/Wcircumflex/Wdieresis/Wgrave XYÝ/Ycircumflex/Ydieresis/Ygrave Z/Zacute/Zcaron/Zdotaccent/Cacute.loclPLK/Nacute.loclPLK/Oacute.loclPLK/Sacute.loclPLK/Zacute.loclPLK aá/abreve âäà/amacron/aogonek åã æ /aeacute bc/cacute/ccaron ç/ccircumflex/cdotaccent dð/dcaron/dcroat eé/ebreve/ecaron êë/edotaccent è/emacron/eogonek fg/gbreve/gcircumflex/gcommaaccent/gdotaccent h/hbar/hcircumflex i/dotlessi í/ibreve îï/idotaccent ì/ij/imacron/iogonek/itilde j/dotlessj/jcircumflex k/kcommaaccent/kgreenlandic l/lacute/lcaron/lcommaaccent/ldot/lslash mn/nacute/napostrophe/ncaron/ncommaaccent/eng ñoó/obreve ôöò/ohungarumlaut/omacron ø/oslashacute õ/oe pþqr/racute/rcaron/rcommaaccent s/sacute/scaron/scedilla/scircumflex/scommaaccent ßt/tbar/tcaron/tcedilla/tcommaaccent uú/ubreve ûüù/uhungarumlaut/umacron/uogonek/uring/utilde vw/wacute/wcircumflex/wdieresis/wgrave xyý/ycircumflex/ydieresis/ygrave z/zacute/zcaron/zdotaccent/cacute.loclPLK/nacute.loclPLK/oacute.loclPLK/sacute.loclPLK/zacute.loclPLK/x.multiply/r.001 .  /w_w_w.liga/fi/fl ªº/Lha-cy"
+"/r.001"
 );
 classes = (
 {
@@ -56,7 +55,7 @@ code = "Alpha\012Epsilon\012Eta\012Iota\012Omicron\012Upsilon\012Omega\012Alpha\
 name = GreekUCcalt;
 }
 );
-copyright = "Copyright 2012-2015 The Fira Code  Project Authors (https://github.com/tonsky/FiraCode)";
+copyright = "Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)";
 customParameters = (
 {
 name = openTypeNameLicenseURL;
@@ -107572,6 +107571,10 @@ value = (
 liga,
 cpsp
 );
+},
+{
+name = weightClass;
+value = 600;
 }
 );
 interpolationWeight = 132;

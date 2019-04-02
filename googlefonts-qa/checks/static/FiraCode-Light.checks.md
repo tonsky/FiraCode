@@ -229,18 +229,11 @@ Fontbakery version: 0.7.1
 <details>
 <summary><b>[122] FiraCode-Light.ttf</b></summary>
 <details>
-<summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass.</summary>
-
-* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
-* 🔥 **FAIL** OS/2 usWeightClass expected value for 'Light' is 300 but this font has 400.
-
-</details>
-<details>
 <summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts</summary>
 
 * [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)'
+But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)'
 
 </details>
 <details>
@@ -290,7 +283,6 @@ Glyph name: uni04C7	Contours detected: 2	Expected: 1
 Glyph name: uni04C8	Contours detected: 2	Expected: 1
 Glyph name: uni04FB	Contours detected: 2	Expected: 1 or 3
 Glyph name: uni04FE	Contours detected: 2	Expected: 1
-Glyph name: uni0509	Contours detected: 2	Expected: 1
 Glyph name: uni0524	Contours detected: 2	Expected: 1
 Glyph name: uni0525	Contours detected: 2	Expected: 1
 Glyph name: uni0527	Contours detected: 2	Expected: 1
@@ -679,9 +671,9 @@ Glyph name: uni2158	Contours detected: 3	Expected: 4
 
 |  | static/FiraCode-Light.ttf |
 |:--- | ---:|
-| Dehinted Size | 160.9kb |
-| Hinted Size | 218.7kb |
-| Increase | 57.8kb |
+| Dehinted Size | 160.6kb |
+| Hinted Size | 218.3kb |
+| Increase | 57.6kb |
 | Change   | 35.9 % |
 
 
@@ -722,7 +714,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [GSUB, gasp, cvt , prep, GPOS, loca, DSIG, fpgm]
+* ℹ **INFO** This font contains the following optional tables [fpgm, loca, prep, DSIG, GPOS, cvt , gasp, GSUB]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -745,6 +737,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/name/unwanted_chars](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/unwanted_chars)
 * 🍞 **PASS** No need to substitute copyright, registered and trademark symbols in name table entries of this font.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Checking OS/2 usWeightClass.</summary>
+
+* [com.google.fonts/check/usweightclass](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/usweightclass)
+* 🍞 **PASS** OS/2 usWeightClass value looks good!
 
 </details>
 <details>
@@ -1156,5 +1155,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 6 | 63 | 6 | 73 |
+| 0 | 4 | 6 | 63 | 6 | 74 |
 | 0% | 3% | 4% | 41% | 4% | 48% |
