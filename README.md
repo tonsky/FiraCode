@@ -180,6 +180,23 @@ Other monospaced fonts with ligatures:
 - [Iosevka](https://be5invis.github.io/Iosevka/) (free)
 - [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode) (free)
 
+### Building
+
+On macOS:
+
+```
+sudo easy_install pip
+pip install virtualenv --user
+python -m virtualenv venv
+source venv/bin/activate
+pip install gftools
+pip install fontmake
+brew install ttfautohint
+brew install woff2
+```
+
+Run `./build.sh`
+
 ### Credits
 
 - Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
