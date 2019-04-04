@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 1.207 (WIP)
+
+- Variable TTF, cleaned up [many small Light weight errors](https://github.com/thundernixon/FiraCode/blob/qa/googlefonts-qa/notes/outline-checks.md) (done by @thundernixon, PR #735)
+- Dropped EOF/WOFF which were only useful for IE 6-11
+- Fixed different vertical position of `<=` `>=` in Light and Bold caused during [#483]
+
 #### 1.206 (September 30, 2018)
 
 - Added `<==>` ([#392]), `#:` ([#642]), `!!.` ([#618]), `>:` `:<` ([#605]), U+0305 Combining overline ([#608]), U+2610 Ballot box, U+2611 Ballot box with check, U+2612 Ballot box with x ([#384])

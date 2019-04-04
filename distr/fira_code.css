@@ -28,5 +28,5 @@
 
 @font-face {
   font-family: 'Fira Code VF';
-  src: url('variable_ttf/FiraCode-VF.ttf') format('truetype');
+  src: url('woff2/FiraCode-VF.woff2') format('woff2-variations');
 }
