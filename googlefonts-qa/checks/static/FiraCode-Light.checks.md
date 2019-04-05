@@ -714,7 +714,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [prep, loca, fpgm, GSUB, cvt , DSIG, gasp, GPOS]
+* ℹ **INFO** This font contains the following optional tables [GSUB, fpgm, prep, loca, GPOS, cvt , gasp, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>

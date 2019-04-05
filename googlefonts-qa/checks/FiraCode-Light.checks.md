@@ -241,7 +241,7 @@ Fontbakery version: 0.7.1
 
 * [com.google.fonts/check/metadata/valid_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/valid_copyright)
 * 🔥 **FAIL** METADATA.pb: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
-But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)'
+But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)'
 
 </details>
 <details>
@@ -250,13 +250,6 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 * [com.google.fonts/check/font_copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/font_copyright)
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: 'Copyright 2017 The Familyname Project Authors (git url)'
 But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)'
-
-</details>
-<details>
-<summary>🔥 <b>FAIL:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
-
-* [com.google.fonts/check/metadata/nameid/copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/nameid/copyright)
-* 🔥 **FAIL** Copyright field for this font on METADATA.pb ('Copyright 2012-2015 The Mozilla Foundation, Telefonica S.A., and Nikita Prokopov (https://github.com/tonsky/FiraCode)') differs from a copyright notice entry on the name table: 'Copyright 2012-2015 The Fira Code Project Authors (https://github.com/tonsky/FiraCode)'
 
 </details>
 <details>
@@ -451,7 +444,7 @@ But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (htt
 |  | FiraCode-Light.ttf |
 |:--- | ---:|
 | Dehinted Size | 237.7kb |
-| Hinted Size | 235.8kb |
+| Hinted Size | 235.7kb |
 | Increase | -1976 bytes |
 | Change   | -0.8 % |
 
@@ -500,7 +493,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>ℹ <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/required_tables](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/required_tables)
-* ℹ **INFO** This font contains the following optional tables [gasp, GPOS, DSIG, GSUB, prep, loca]
+* ℹ **INFO** This font contains the following optional tables [gasp, loca, GPOS, prep, GSUB, DSIG]
 * 🍞 **PASS** Font contains all required tables.
 
 </details>
@@ -743,6 +736,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 * [com.google.fonts/check/mac_style](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/mac_style)
 * 🍞 **PASS** head macStyle ITALIC bit is properly set.
 * 🍞 **PASS** head macStyle BOLD bit is properly set.
+
+</details>
+<details>
+<summary>🍞 <b>PASS:</b> Copyright field for this font on METADATA.pb matches all copyright notice entries on the name table ?</summary>
+
+* [com.google.fonts/check/metadata/nameid/copyright](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/nameid/copyright)
+* 🍞 **PASS** Copyright field for this font on METADATA.pb matches copyright notice entries on the name table.
 
 </details>
 <details>
@@ -1116,5 +1116,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 6 | 21 | 7 | 112 |
-| 0% | 5% | 4% | 14% | 5% | 73% |
+| 0 | 6 | 6 | 21 | 7 | 113 |
+| 0% | 4% | 4% | 14% | 5% | 74% |

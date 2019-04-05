@@ -8,7 +8,7 @@
 # call this script from the root of your fira code repo, with the absolute path your your local google/fonts repo
 # `move-check <your_username>/<path>/fonts`
 
-set -e
+set -ex
 source venv/bin/activate
 gFontsDir=$1
 
