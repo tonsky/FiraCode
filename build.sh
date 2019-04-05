@@ -1,19 +1,47 @@
 #!/bin/bash
-
+set -e
 source venv/bin/activate
+
+# ============================================================================
+# VARIABLE FONT ==============================================================
 
 # variable font
 rm -rf distr/variable_ttf
 fontmake -g FiraCode.glyphs -o variable --output-dir distr/variable_ttf
 
-# statics
+# -------------------------------------------------------------
+# fix variable font metadata as needed ------------------------
+
+firaCodeVF=distr/variable_ttf/FiraCode-VF.ttf
+
+# fix variable font metadata – very important
+gftools fix-vf-meta $firaCodeVF
+
+# other fixes for metadata and hinting
+gftools fix-nonhinting $firaCodeVF $firaCodeVF
+gftools fix-gasp --autofix $firaCodeVF
+gftools fix-dsig --autofix $firaCodeVF
+
+# cleanup of temp files
+tempFiles=$(ls distr/variable_ttf/*.fix && ls distr/variable_ttf/*-gasp*)
+for temp in $tempFiles
+do
+    rm -rf $temp
+done
+
+# TODO (late 2019?): use TTFautohint-VF for variable font (current support is minimal)
+
+# ============================================================================
+# STATIC FONTS ===============================================================
+
 rm -rf distr/ttf
 fontmake -g FiraCode.glyphs -o ttf --output-dir distr/ttf -i
+
 rm -rf distr/otf
 fontmake -g FiraCode.glyphs -o otf --output-dir distr/otf -i
 
-# ============================================================================
-# Autohinting ================================================================
+# -------------------------------------------------------------
+# Autohinting -------------------------------------------------
 
 statics=$(ls distr/ttf/*.ttf)
 for file in $statics; do 
@@ -32,7 +60,7 @@ done
 # ============================================================================
 # Build woff2 fonts ==========================================================
 
-# requires https://github.com/google/woff2
+# requires woff2_compress (get from https://github.com/bramstein/homebrew-webfonttools)
 
 rm -rf distr/woff2
 
@@ -50,7 +78,7 @@ done
 # ============================================================================
 # Build woff fonts ===========================================================
 
-# requires sfnt2woff-zopfli (https://github.com/bramstein/homebrew-webfonttools)
+# requires sfnt2woff-zopfli (get from https://github.com/bramstein/homebrew-webfonttools)
 
 rm -rf distr/woff
 

@@ -33,31 +33,6 @@ fontVersion=v$(xml sel -t --match "//*/fontRevision" -v "@value" ${firaCodeVF/".
 rm ${firaCodeVF/".ttf"/".ttx"}
 
 # -------------------------------------------------------------------
-# fix variable font metadata as needed ------------------------------
-
-# TODO: Add gftools scripts as needed
-
-# TODO: test VFs with TTFautohint-VF vs no hinting
-
-gftools fix-nonhinting $firaCodeVF $firaCodeVF
-
-# TODO: decide if `--autofix` is really the best option, or if we should assert more control
-gftools fix-gasp --autofix $firaCodeVF
-
-gftools fix-dsig --autofix $firaCodeVF
-
-# fix variable font metadata
-gftools fix-vf-meta $firaCodeVF
-
-# cleanup
-tempFiles=$(ls distr/variable_ttf/*.fix && ls distr/variable_ttf/*-gasp*)
-for temp in $tempFiles
-do
-    rm -rf $temp
-done
-
-
-# -------------------------------------------------------------------
 # navigate to google/fonts repo, then fira code branch --------------
 
 cd $gFontsDir
