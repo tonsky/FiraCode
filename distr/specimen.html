@@ -20,9 +20,17 @@
     .regular { font-weight: 400; }
     .medium { font-weight: 500; }
     .bold { font-weight: 700; }
+    .variable { font-family: 'Fira Code VF'; font-variation-settings: 'wght' 400; }
     i { font-style: normal; color: #c33; }
     b { font-weight: inherit; color: #c33; }
   </style>
+  <script type="text/javascript">
+    function onWeightChange(weight) {
+      // code_variable.style['font-weight'] = weight;
+      code_variable.style['font-variation-settings'] = "'wght' " + weight;
+      span_wght.innerText = weight;
+    }
+  </script>
 <body>
 
 <div class="code light"><b># Fira Code Light</b>
@@ -35,7 +43,7 @@ take = (n, [x, <i>...</i>xs]:list) <i>--></i>
 last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
 
 
-    <div class="code regular"><b># Fira Code Regular</b>
+<div class="code regular"><b># Fira Code Regular</b>
 
 take = (n, [x, <i>...</i>xs]:list) <i>--></i>
   | n <i><=</i> 0     <i>=></i> []
@@ -45,7 +53,7 @@ take = (n, [x, <i>...</i>xs]:list) <i>--></i>
 last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
 
 
-    <div class="code medium"><b># Fira Code Medium</b>
+<div class="code medium"><b># Fira Code Medium</b>
 
 take = (n, [x, <i>...</i>xs]:list) <i>--></i>
   | n <i><=</i> 0     <i>=></i> []
@@ -55,7 +63,18 @@ take = (n, [x, <i>...</i>xs]:list) <i>--></i>
 last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
 
 
-    <div class="code bold"><b># Fira Code Bold</b>
+<div class="code bold"><b># Fira Code Bold</b>
+
+take = (n, [x, <i>...</i>xs]:list) <i>--></i>
+  | n <i><=</i> 0     <i>=></i> []
+  | empty list <i>=></i> []
+  | otherwise  <i>=></i> [x] <i>++</i> take n-1, xs
+
+last3 = reverse <i>>></i> take 3 <i>>></i> reverse</div>
+
+<div id="code_variable" class="code variable"><b># Fira Code Variable</b>
+
+<input type="range" min="300" max="700" value="400" step="10" style="width: 300px;" oninput="onWeightChange(this.value)" onchange="onWeightChange(this.value)"> <span id="span_wght">400</span>
 
 take = (n, [x, <i>...</i>xs]:list) <i>--></i>
   | n <i><=</i> 0     <i>=></i> []
