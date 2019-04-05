@@ -193,6 +193,8 @@ pip install gftools
 pip install fontmake
 brew install ttfautohint
 brew install woff2
+brew tap bramstein/webfonttools
+brew install sfnt2woff-zopfli
 ```
 
 Run `./build.sh`

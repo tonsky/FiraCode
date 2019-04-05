@@ -43,3 +43,21 @@ woff2s=$(ls distr/*/*.woff2)
 for woff2 in $woff2s; do
     mv $woff2 distr/woff2/$(basename $woff2)
 done
+
+# ============================================================================
+# Build woff fonts ===========================================================
+
+# requires sfnt2woff-zopfli (https://github.com/bramstein/homebrew-webfonttools)
+
+rm -rf distr/woff
+
+ttfs=$(ls distr/*/*.ttf)
+for ttf in $ttfs; do
+    sfnt2woff-zopfli $ttf
+done
+
+mkdir -p distr/woff
+woffs=$(ls distr/*/*.woff)
+for woff in $woffs; do
+    mv $woff distr/woff/$(basename $woff)
+done
