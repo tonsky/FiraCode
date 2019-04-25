@@ -60,7 +60,7 @@ Swift:
 | Works              | Doesn’t work       |
 | ------------------ | ------------------ |
 | **Butterfly**      | **Alacritty**      |
-| **Crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **cmd.exe** |
+| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **cmd.exe** |
 | **Hyper.app**      | **Cmder**          |
 | **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
 | **Kitty**          | **GNOME Terminal** |
