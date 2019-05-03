@@ -60,18 +60,19 @@ Swift:
 | Works              | Doesn’t work       |
 | ------------------ | ------------------ |
 | **Butterfly**      | **Alacritty**      |
-| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **cmd.exe** |
-| **Hyper.app**      | **Cmder**          |
-| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
-| **Kitty**          | **GNOME Terminal** |
-| **Konsole**        | **mate-terminal**  | 
-| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
-| **QTerminal**      | **rxvt**           |
-| **Terminal.app**   | **ZOC** (Windows)  |
-| **Termux**         | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Cmder**          |
+| **Hyper.app**      | **ConEmu** |
+| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **GNOME Terminal** |
+| **Kitty**          | **mate-terminal**  | 
+| **Konsole**        | **PuTTY** |
+| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **rxvt**           |
+| **QTerminal**      | **ZOC** (Windows)  |
+| **Terminal.app**   | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| **Termux**         | 
 | **Token2Shell/MD** |
 | **upterm**         |
 | **ZOC** (macOS)    |
+| **cmd.exe**        |
 
 ### Editor support
 
