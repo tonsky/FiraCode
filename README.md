@@ -60,7 +60,7 @@ Swift:
 | Works              | Doesn’t work       |
 | ------------------ | ------------------ |
 | **Butterfly**      | **Alacritty**      |
-| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **cmd.exe** |
+| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Windows Console (conhost.exe)** |
 | **Hyper.app**      | **Cmder**          |
 | **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
 | **Kitty**          | **GNOME Terminal** |
@@ -71,6 +71,7 @@ Swift:
 | **Termux**         | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
 | **Token2Shell/MD** |
 | **upterm**         |
+| **Windows Terminal** |
 | **ZOC** (macOS)    |
 
 ### Editor support
