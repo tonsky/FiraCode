@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 - Variable TTF, cleaned up [many small Light weight errors](https://github.com/thundernixon/FiraCode/blob/qa/googlefonts-qa/notes/outline-checks.md) (done by @thundernixon, PR #735)
 - Dropped EOF/WOFF which were only useful for IE 6-11
 - Fixed different vertical position of `<=` `>=` in Light and Bold caused during [#483]
+- Characters \u25DE "◟" and \u25DF "◞" are swapped [#761]
+- Added Box Drawing Light Arcs U+256D U+256E U+256F U+2570 [#714] [#725]
 
 #### 1.206 (September 30, 2018)
 
