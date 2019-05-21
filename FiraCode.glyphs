@@ -1,8 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-"\U00D0/Hbar/Lslash MN\U00D8/OE S/Tbar \U00E6/dcroat eg/hbar/lslash/napostrophe \U00F8/oe \U00DF/tbar y/Dche-cy/Dzzhe-cy/Eldescender-cy/De-cy/El-cy/U-cy/Lje-cy/Nje-cy/Iu-cy/Omega-cy/Yat-cy/Eiotified-cy/Izhitsa-cy/Ghestroke-cy/descStraight-cy.case/Zhedescender-cy/Kastroke-cy/Haabkhasian-cy/Ustraitstroke-cy/Tetse-cy/Cheverticalstroke-cy/Shha-cy/Shhadescender-cy/Cheabkhasian-cy/Kahook-cy/Eltail-cy/Emtail-cy/Obarred-cy/Hastroke-cy/Komizje-cy/Komilje-cy/Lha-cy/Rha-cy/Elmiddlehook-cy/Semisoftsign-cy/be-cy/ve-cy/de-cy/ze-cy/ii-cy/iishorttail-cy/el-cy/em-cy/lje-cy/eiotified-cy/yusbigiotified-cy/izhitsa-cy/kastroke-cy/haabkhasian-cy/ustraitstroke-cy/tetse-cy/cheabkhasian-cy/eltail-cy/emtail-cy/schwa-cy/hastroke-cy/komidje-cy/komizje-cy/komidzje-cy/komilje-cy/komitje-cy/lha-cy/yae-cy/elmiddlehook-cy/semisoftsign-cy/dche-cy/dzzhe-cy/eldescender-cy/Stigma/UpsilonhookSymbol/SigmaLunateDottedSymbol/SigmaLunateDottedReversedSymbol/alpha/gamma/delta/zeta/theta/kappa/lambda/xi/pi/sigmafinal/sigma/chi/archaicsampi/pamphyliandigamma/dottedlunatesigmasymbol/reverseddottedlunatesigmasymbol/stigma/digamma/koppa/sampi/kaiSymbol/betaSymbol/thetaSymbol/phiSymbol/piSymbol/kappaSymbol/rhoSymbol/san/rhoStrokeSymbol 4689/four.tosf/five.tosf/six.tosf/eight.tosf 9/nine.tosf/two.dnom/six.dnom/nine.dnom *,!\U00A1?\U00BF;/exclamdown.case/questiondown.case {}/quotedblbase/quotedblleft/quotedblright/quoteleft  /quoteright  /braceleft_bar.liga   /hyphen_hyphen_greater.liga  /hyphen_greater.liga   /hyphen_greater_greater.liga   /hyphen_asciitilde.liga    /numbersign_question.liga    /numbersign_underscore_parenleft.liga   /question_colon.liga  /numbersign_colon.liga_rem  /asterisk_large.rem  /braceleft_hyphen.rem  /bracketleft_bracketright.rem  /.notdef  /drachma  /euro  /liraTurkish  /approxequal  ~ /infinity  \U00B5 /partialdiff  /arrowup  /arrowupright  /arrowright  /arrowdownright  /arrowdown  /arrowdownleft  /arrowleft  /arrowupleft  /arrowboth  .   /arrowupdown  /rightHalfBlackWhiteCircle  /male  /spade  @ \U00B6 \U00A7 /trademark  /literSign       /numero  /globeWithMeridians    /dollar_greater.liga    /greater_hyphen_greater.liga   /less_dollar.liga    /less_dollar_greater.liga      /less_exclam_hyphen_hyphen.liga    /less_hyphen_greater.liga   /asciitilde_at.liga  /asciitilde_equal.liga  /asciitilde_greater.liga  /asciitilde_asciitilde.liga    /asciitilde_asciitilde_greater.liga   /asciitilde_asciitilde_asciitilde.rem  /apostrophemod  /tilde  /psiliperispomeni/descRound-cy  /descTail-cy.case  /Ksi-cyHELPER  /ksi-cyHELPER  /_part.arrowhead2  /_part.question  /_part.arrowhead1  /_part.asterisk   /_part.brackets  /uniE000   /uniE001  /uniE002  /uniE003  /uniE0A0  /uniE0A1  /uniE0A2  "
-);
 classes = (
 {
 automatic = 1;
@@ -79823,7 +79820,7 @@ unicode = 25DD;
 {
 color = 4;
 glyphname = lowerRightArc;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-05-21 09:41:45 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -79831,14 +79828,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"60 540 LINE",
-"60 240 OFFCURVE",
-"300 0 OFFCURVE",
-"600 0 CURVE",
-"600 160 LINE",
-"390 160 OFFCURVE",
-"220 330 OFFCURVE",
-"220 540 CURVE"
+"980 540 LINE",
+"980 330 OFFCURVE",
+"808 160 OFFCURVE",
+"600 160 CURVE",
+"600 0 LINE",
+"898 0 OFFCURVE",
+"1140 240 OFFCURVE",
+"1140 540 CURVE"
 );
 }
 );
@@ -79850,14 +79847,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"60 540 LINE",
-"60 240 OFFCURVE",
-"300 0 OFFCURVE",
-"600 0 CURVE",
-"600 160 LINE",
-"390 160 OFFCURVE",
-"220 330 OFFCURVE",
-"220 540 CURVE"
+"980 540 LINE",
+"980 330 OFFCURVE",
+"808 160 OFFCURVE",
+"600 160 CURVE",
+"600 0 LINE",
+"898 0 OFFCURVE",
+"1140 240 OFFCURVE",
+"1140 540 CURVE"
 );
 }
 );
@@ -79869,7 +79866,7 @@ unicode = 25DE;
 {
 color = 4;
 glyphname = lowerLeftArc;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-05-21 09:41:49 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -79877,14 +79874,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"980 540 LINE",
-"980 330 OFFCURVE",
-"808 160 OFFCURVE",
-"600 160 CURVE",
-"600 0 LINE",
-"898 0 OFFCURVE",
-"1140 240 OFFCURVE",
-"1140 540 CURVE"
+"60 540 LINE",
+"60 240 OFFCURVE",
+"300 0 OFFCURVE",
+"600 0 CURVE",
+"600 160 LINE",
+"390 160 OFFCURVE",
+"220 330 OFFCURVE",
+"220 540 CURVE"
 );
 }
 );
@@ -79896,14 +79893,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"980 540 LINE",
-"980 330 OFFCURVE",
-"808 160 OFFCURVE",
-"600 160 CURVE",
-"600 0 LINE",
-"898 0 OFFCURVE",
-"1140 240 OFFCURVE",
-"1140 540 CURVE"
+"60 540 LINE",
+"60 240 OFFCURVE",
+"300 0 OFFCURVE",
+"600 0 CURVE",
+"600 160 LINE",
+"390 160 OFFCURVE",
+"220 330 OFFCURVE",
+"220 540 CURVE"
 );
 }
 );
