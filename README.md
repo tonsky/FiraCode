@@ -182,24 +182,20 @@ Other monospaced fonts with ligatures:
 - [Iosevka](https://be5invis.github.io/Iosevka/) (free)
 - [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode) (free)
 
-### Building
+### Building Fira Code locally
 
-On macOS:
+In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is setup I use on macOS:
 
+```bash
+# install all required build tools
+script/bootstrap
+
+# build the font files
+script/build
+
+# install OTFs to ~/Library/Fonts
+script/install
 ```
-sudo easy_install pip
-pip install virtualenv --user
-python -m virtualenv venv
-source venv/bin/activate
-pip install gftools
-pip install fontmake
-brew install ttfautohint
-brew install woff2
-brew tap bramstein/webfonttools
-brew install sfnt2woff-zopfli
-```
-
-Run `./build.sh`
 
 ### Credits
 

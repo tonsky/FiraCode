@@ -1,0 +1,3 @@
+#!/bin/bash -ex
+
+cp distr/otf/*.otf ~/Library/Fonts

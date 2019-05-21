@@ -1,0 +1,19 @@
+#! /bin/bash -ex
+
+sudo easy_install pip
+pip3 install virtualenv --user
+python3 -m virtualenv venv
+source venv/bin/activate
+
+# https://github.com/googlefonts/gftools/issues/121
+brew install pkg-config
+pip3 install -U Pillow==5.4.1 idna==2.8 requests==2.21.0 urllib3==1.24.1
+export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+pip3 install pycairo
+pip3 install git+https://github.com/googlefonts/gftools
+
+pip3 install fontmake
+brew install ttfautohint
+brew install woff2
+brew tap bramstein/webfonttools
+brew install sfnt2woff-zopfli
