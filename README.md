@@ -98,6 +98,7 @@ Swift:
 | **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Kate, KWrite** |
+| **KDevelop 5+** |
 | **Komodo** |
 | **Leafpad** |
 | **LibreOffice** |
