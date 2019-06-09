@@ -67,9 +67,9 @@ Swift:
 | **Konsole**        | **mate-terminal**  | 
 | **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
 | **QTerminal**      | **rxvt**           |
-| **Terminal.app**   | **ZOC** (Windows)  |
-| **Termux**         | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
-| **Token2Shell/MD** |
+| **Terminal.app**   | **xterm**          |
+| **Termux**         | **ZOC** (Windows)  |
+| **Token2Shell/MD** | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
 | **upterm**         |
 | **Windows Terminal** |
 | **ZOC** (macOS)    |
