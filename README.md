@@ -181,6 +181,7 @@ Other monospaced fonts with ligatures:
 - [Fixedsys Excelsior](https://github.com/kika/fixedsys) (free)
 - [Iosevka](https://be5invis.github.io/Iosevka/) (free)
 - [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode) (free)
+- [Victor Mono](https://rubjo.github.io/victor-mono/) (free)
 
 ### Building Fira Code locally
 
