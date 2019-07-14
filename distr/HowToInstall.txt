@@ -27,7 +27,7 @@ _or_
     <div class="highlight highlight-source-shell">
 
     brew tap caskroom/fonts
-    brew cask install font-fira-code
+    brew cask install caskroom/fonts/font-fira-code
 
 
 
