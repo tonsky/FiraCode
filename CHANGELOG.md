@@ -2,16 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
-#### 1.207 (WIP)
+#### 1.208 (WIP)
 
-- Variable TTF, cleaned up [many small Light weight errors](https://github.com/thundernixon/FiraCode/blob/qa/googlefonts-qa/notes/outline-checks.md) (done by @thundernixon, PR #735)
-- Dropped EOF/WOFF which were only useful for IE 6-11
-- Fixed different vertical position of `<=` `>=` in Light and Bold caused during [#483]
 - Characters U+25DE `◟` and U+25DF `◞` are swapped [#761]
 - Added Box Drawing Light Arcs U+256D `╭` U+256E `╮` U+256F `╯` U+2570 `╰` [#702] [#714] [#725]
 - Added Mathematical Angle Brackets U+27E8 `⟨` U+27E9 `⟩` [#763]
 - Added Light and heavy dashed lines U+2504..U+250B `┄┅┆┇┈┉┊┋` [#702]
 - Adjusted Box drawings double dashes U+254C..U+254F `╌╍╎╏`
+
+#### 1.207 (April 6, 2019)
+
+- Variable TTF, cleaned up [many small Light weight errors](https://github.com/thundernixon/FiraCode/blob/qa/googlefonts-qa/notes/outline-checks.md) (done by @thundernixon, PR #735)
+- Dropped EOF which were only useful for IE 6-11
+- Fixed different vertical position of `<=` `>=` in Light and Bold caused during [#483]
 
 #### 1.206 (September 30, 2018)
 
