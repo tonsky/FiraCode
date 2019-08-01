@@ -1,0 +1,24 @@
+#!/bin/bash -e
+
+source venv/bin/activate
+
+args=( "$@" )
+default_weights=( "Light" "Regular" "Retina" "Medium" "Bold" )
+weights=( "${args[@]:-"${default_weights[@]}"}" )
+
+for weight in "${weights[@]}"; do
+    file=distr/ttf/FiraCode-${weight}.ttf
+    
+    echo "Making " ${file}
+    rm -rf ${file}
+    fontmake -g FiraCode.glyphs -o ttf --output-dir distr/ttf -i "Fira Code ${weight}"
+
+    echo "Fixing DSIG in " ${file}
+    gftools fix-dsig --autofix ${file}
+
+    echo "TTFautohint " ${file}
+    hintedFile=${file/".ttf"/"-hinted.ttf"}
+    ttfautohint -I ${file} ${hintedFile} --stem-width-mode nnn --composites
+    # --windows-compatibility
+    mv ${hintedFile} ${file}
+done

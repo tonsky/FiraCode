@@ -9,3 +9,4 @@ master_ufo
 instance_ufo
 venv
 .DS_Store
+*.numbers
