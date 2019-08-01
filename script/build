@@ -51,7 +51,7 @@ for file in $statics; do
     echo "TTFautohint " ${file}
     # autohint with detailed info
     hintedFile=${file/".ttf"/"-hinted.ttf"}
-    ttfautohint -I ${file} ${hintedFile} --stem-width-mode nnn
+    ttfautohint -I ${file} ${hintedFile} --stem-width-mode nnn --composites --windows-compatibility
     cp ${hintedFile} ${file}
     rm -rf ${hintedFile}
 done

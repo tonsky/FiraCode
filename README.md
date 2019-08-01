@@ -189,13 +189,13 @@ In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself,
 
 ```bash
 # install all required build tools
-script/bootstrap
+./script/bootstrap
 
 # build the font files
-script/build
+./script/build
 
 # install OTFs to ~/Library/Fonts
-script/install
+./script/install
 ```
 
 ### Credits
