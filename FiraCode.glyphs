@@ -1,5 +1,5 @@
 {
-.appVersion = "939";
+.appVersion = "1131";
 classes = (
 {
 automatic = 1;
@@ -7590,8 +7590,8 @@ nodes = (
 );
 }
 );
-width = 1200;
 visible = 1;
+width = 1200;
 }
 );
 unicode = 00E6;
@@ -23615,7 +23615,7 @@ name = X;
 {
 alignment = -1;
 name = hyphen;
-transform = "{1.3, 0, 0, 0.8029, -178, 234}";
+transform = "{1.3, 0, 0, 0.80294, -178, 234}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -23640,7 +23640,7 @@ name = X;
 {
 alignment = -1;
 name = hyphen;
-transform = "{1.3, 0, 0, 0.9441, -181, 144}";
+transform = "{1.3, 0, 0, 0.94412, -181, 144}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -26659,8 +26659,8 @@ nodes = (
 );
 }
 );
-width = 1200;
 visible = 1;
+width = 1200;
 }
 );
 unicode = 0437;
@@ -39285,7 +39285,7 @@ name = SigmaLunateSymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{0.9379, 0, 0, 0.9379, 175, -578}";
+transform = "{0.93788, 0, 0, 0.93788, 175, -578}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -39298,7 +39298,7 @@ name = SigmaLunateSymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{1.0282, 0, 0, 1.0282, 104, -654}";
+transform = "{1.02824, 0, 0, 1.02824, 104, -654}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -39319,7 +39319,7 @@ name = SigmaLunateReversedSymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{0.9379, 0, 0, 0.9379, -105, -578}";
+transform = "{0.93788, 0, 0, 0.93788, -105, -578}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -39332,7 +39332,7 @@ name = SigmaLunateReversedSymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{1.0282, 0, 0, 1.0282, -142, -654}";
+transform = "{1.02824, 0, 0, 1.02824, -142, -654}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -46116,8 +46116,8 @@ nodes = (
 );
 }
 );
-width = 1200;
 visible = 1;
+width = 1200;
 }
 );
 unicode = 0377;
@@ -46228,7 +46228,7 @@ name = sigmaLunateSymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{0.8758, 0, 0, 0.8758, 210, -665}";
+transform = "{0.87576, 0, 0, 0.87576, 210, -665}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -46241,7 +46241,7 @@ name = sigmaLunateSymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{1.0565, 0, 0, 1.0565, 53, -846}";
+transform = "{1.05647, 0, 0, 1.05647, 53, -846}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -46262,7 +46262,7 @@ name = reversedlunatesigmasymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{0.8758, 0, 0, 0.8758, -68, -665}";
+transform = "{0.87576, 0, 0, 0.87576, -68, -665}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -46275,7 +46275,7 @@ name = reversedlunatesigmasymbol;
 },
 {
 name = dotaccentcomb;
-transform = "{1.0565, 0, 0, 1.0565, -123, -846}";
+transform = "{1.05647, 0, 0, 1.05647, -123, -846}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -108564,8 +108564,8 @@ value = 400;
 );
 interpolationWeight = 84;
 instanceInterpolations = {
-"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.770833;
-"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.229167;
+"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.22917;
+"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.77083;
 };
 name = Regular;
 },
@@ -108584,8 +108584,8 @@ cpsp
 );
 interpolationWeight = 96;
 instanceInterpolations = {
-"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.645833;
-"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.354167;
+"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.35417;
+"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.64583;
 };
 name = Retina;
 weightClass = Normal;
@@ -108605,8 +108605,8 @@ value = 500;
 );
 interpolationWeight = 112;
 instanceInterpolations = {
-"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.479167;
-"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.520833;
+"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.52083;
+"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.47917;
 };
 name = Medium;
 weightClass = Medium;
@@ -108628,8 +108628,8 @@ value = 600;
 );
 interpolationWeight = 132;
 instanceInterpolations = {
-"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.270833;
-"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.729167;
+"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.72917;
+"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.27083;
 };
 name = SemiBold;
 weightClass = SemiBold;
