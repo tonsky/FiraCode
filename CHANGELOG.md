@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - Adjusted Box drawings double dashes U+254C..U+254F `╌╍╎╏`
 - Fixed outlines of U+04FA `Ӻ` and U+04FB `ӻ` [#806]
 - Added Not identical to U+2262 `≢` [#396]
+- Added Latin Capital Letter Sharp S U+1E9E `ẞ` [#587]
 
 #### 1.207 (April 6, 2019)
 
