@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Added Light and heavy dashed lines U+2504..U+250B `┄┅┆┇┈┉┊┋` [#702]
 - Adjusted Box drawings double dashes U+254C..U+254F `╌╍╎╏`
 - Fixed outlines of U+04FA `Ӻ` and U+04FB `ӻ` [#806]
+- Added Not identical to U+2262 `≢` [#396]
 
 #### 1.207 (April 6, 2019)
 
