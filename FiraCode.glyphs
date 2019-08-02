@@ -121,7 +121,7 @@ value = (
 );
 }
 );
-date = "2018-09-30 15:05:11 +0000";
+date = "2019-08-02 15:34:39 +0000";
 designer = "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov";
 designerURL = "http://tonsky.me";
 familyName = "Fira Code";
@@ -23468,9 +23468,9 @@ width = 1200;
 unicode = 04F8;
 },
 {
-color = 4;
+color = 6;
 glyphname = "Gestrokehook-cy";
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-08-02 15:29:51 +0000";
 layers = (
 {
 components = (
@@ -23517,10 +23517,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"501 0 LINE",
+"469 0 LINE",
 "596 0 LINE",
 "596 116 LINE",
-"501 116 LINE"
+"469 116 LINE"
 );
 }
 );
@@ -33680,9 +33680,9 @@ width = 1200;
 unicode = 04F9;
 },
 {
-color = 4;
+color = 6;
 glyphname = "gestrokehook-cy";
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-08-02 15:31:24 +0000";
 layers = (
 {
 anchors = (
@@ -33712,8 +33712,8 @@ paths = (
 closed = 1;
 nodes = (
 "382 0 LINE",
-"749 0 LINE",
-"749 233 LINE",
+"748 0 LINE",
+"748 233 LINE",
 "382 233 LINE"
 );
 }
@@ -33739,7 +33739,7 @@ name = "ghestroke-cy";
 {
 alignment = -1;
 name = hookHELPER;
-transform = "{1, 0, 0, 1, 182, 0}";
+transform = "{1, 0, 0, 1, 126, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -33747,10 +33747,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"577 0 LINE",
-"689 0 LINE",
-"689 109 LINE",
-"577 109 LINE"
+"509 0 LINE",
+"633 0 LINE",
+"633 109 LINE",
+"509 109 LINE"
 );
 }
 );
@@ -108682,5 +108682,5 @@ oV = 98;
 };
 };
 versionMajor = 1;
-versionMinor = 207;
+versionMinor = 208;
 }
