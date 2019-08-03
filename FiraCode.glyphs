@@ -1,5 +1,9 @@
 {
 .appVersion = "1131";
+DisplayStrings = (
+"A/canadiansyllabicso (b",
+"/bar_greater.liga"
+);
 classes = (
 {
 automatic = 1;
@@ -107375,6 +107379,86 @@ width = 1200;
 }
 );
 unicode = E0B3;
+},
+{
+color = 6;
+glyphname = canadiansyllabicsa;
+lastChange = "2019-08-03 12:53:57 +0000";
+layers = (
+{
+components = (
+{
+name = canadiansyllabicso;
+transform = "{-1, 0, 0, 1, 1200, 0}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = canadiansyllabicso;
+transform = "{-1, 0, 0, 1, 1200, 0}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+width = 1200;
+}
+);
+unicode = 140A;
+},
+{
+color = 6;
+glyphname = canadiansyllabicso;
+lastChange = "2019-08-03 12:53:03 +0000";
+layers = (
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 64 LINE",
+"1140 687 LINE",
+"60 1310 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"916 687 LINE",
+"172 258 LINE",
+"172 1117 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"60 70 LINE",
+"1140 699 LINE",
+"60 1317 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"660 699 LINE",
+"300 486 LINE",
+"300 901 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+unicode = 1405;
 },
 {
 color = 3;
