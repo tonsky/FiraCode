@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 - Fixed outlines of U+04FA `Ӻ` and U+04FB `ӻ` [#806]
 - Added Not identical to U+2262 `≢` [#396]
 - Added Latin Capital Letter Sharp S U+1E9E `ẞ` [#587]
+- Tuned position and width of U+2044 Fraction Slash ` ⁄ ` [#588] and U+2215 Division Slash `∕` [#805]
 
 #### 1.207 (April 6, 2019)
 
