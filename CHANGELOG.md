@@ -15,6 +15,15 @@ All notable changes to this project will be documented in this file.
 - Tuned position and width of U+2044 Fraction Slash ` ⁄ ` [#588] and U+2215 Division Slash `∕` [#805]
 - Added U+1405 Canadian Syllabics O `ᐅ` and U+140A Canadian Syllabics A `ᐊ` [#666]
 - Added U+2234 Therefore `∴` and U+2235 Because `∵` [#669]
+- Added U+239B..U+23AD multi-line brackets [#675]
+
+```
+⎛ 1 ⎞ ⎡ a ⎤ ⎧ x ⎫
+⎜ 2 ⎟ ⎢ b ⎥ ⎪ y ⎪
+⎜ 3 ⎟ ⎢ c ⎥ ⎨ z ⎬
+⎜ 4 ⎟ ⎢ d ⎥ ⎪ y ⎪
+⎝ 5 ⎠ ⎣ e ⎦ ⎩ x ⎭
+```
 
 #### 1.207 (April 6, 2019)
 
