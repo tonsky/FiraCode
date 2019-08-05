@@ -1,8 +1,8 @@
 {
 .appVersion = "1131";
 DisplayStrings = (
-"A/canadiansyllabicso (b",
-"/bar_greater.liga"
+"A/therefore/because B",
+"/because"
 );
 classes = (
 {
@@ -68478,6 +68478,34 @@ width = 1200;
 );
 },
 {
+color = 6;
+glyphname = because;
+lastChange = "2019-08-05 12:49:18 +0000";
+layers = (
+{
+components = (
+{
+name = therefore;
+transform = "{1, 0, 0, -1, 0, 1374}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = therefore;
+transform = "{1, 0, 0, -1, 0, 1374}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+width = 1200;
+}
+);
+unicode = 2235;
+},
+{
 color = 7;
 glyphname = bulletoperator;
 lastChange = "2019-03-25 21:13:22 +0000";
@@ -71000,6 +71028,50 @@ width = 1200;
 }
 );
 unicode = 2310;
+},
+{
+color = 6;
+glyphname = therefore;
+lastChange = "2019-08-05 12:47:52 +0000";
+layers = (
+{
+components = (
+{
+name = _part.dot;
+transform = "{1, 0, 0, 1, -323, 305}";
+},
+{
+name = _part.dot;
+transform = "{1, 0, 0, 1, 0, 864}";
+},
+{
+name = _part.dot;
+transform = "{1, 0, 0, 1, 323, 305}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = _part.dot;
+transform = "{1, 0, 0, 1, -323, 255}";
+},
+{
+name = _part.dot;
+transform = "{1, 0, 0, 1, 0, 814}";
+},
+{
+name = _part.dot;
+transform = "{1, 0, 0, 1, 323, 255}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+width = 1200;
+}
+);
+unicode = 2234;
 },
 {
 color = 7;
