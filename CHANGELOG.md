@@ -26,6 +26,7 @@ All notable changes to this project will be documented in this file.
 ```
 
 - Added U+27F0..U+27FF Supplemental Arrows-A `⟲⟳⟰⟱⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿` [#677]
+- Added U+2400..U+2426 Control Pictures `␆␈␇␣␢␘␍␐␡␥␔␑␓␒␙␃␄␗␅␛␜␌␝␉␊␕␤␀␞␏␎␠␁␂␚␦␖␟␋` [#764]
 
 #### 1.207 (April 6, 2019)
 
