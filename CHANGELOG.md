@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### 1.208 (WIP)
 
-- Characters U+25DE `◟` and U+25DF `◞` are swapped [#761]
+- Characters U+25DE `◟` and U+25DF `◞` were swapped [#761]
 - Added Box Drawing Light Arcs U+256D `╭` U+256E `╮` U+256F `╯` U+2570 `╰` [#702] [#714] [#725]
 - Added Mathematical Angle Brackets U+27E8 `⟨` U+27E9 `⟩` [#763]
 - Added Light and heavy dashed lines U+2504..U+250B `┄┅┆┇┈┉┊┋` [#702]
@@ -24,6 +24,8 @@ All notable changes to this project will be documented in this file.
 ⎜ 4 ⎟ ⎢ d ⎥ ⎪ y ⎪
 ⎝ 5 ⎠ ⎣ e ⎦ ⎩ x ⎭
 ```
+
+- Added U+27F0..U+27FF Supplemental Arrows-A `⟲⟳⟰⟱⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿` [#677]
 
 #### 1.207 (April 6, 2019)
 
