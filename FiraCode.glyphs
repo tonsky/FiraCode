@@ -1,5 +1,8 @@
 {
 .appVersion = "1131";
+DisplayStrings = (
+"/dblverticalbar x/dblverticalbar"
+);
 classes = (
 {
 automatic = 1;
@@ -58204,6 +58207,42 @@ width = 1200;
 }
 );
 unicode = 002A;
+},
+{
+color = 6;
+glyphname = dblverticalbar;
+lastChange = "2019-08-15 12:09:01 +0000";
+layers = (
+{
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -150, 0}";
+},
+{
+name = bar;
+transform = "{1, 0, 0, 1, 150, 0}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -250, 0}";
+},
+{
+name = bar;
+transform = "{1, 0, 0, 1, 250, 0}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+width = 1200;
+}
+);
+unicode = 2016;
 },
 {
 color = 4;
