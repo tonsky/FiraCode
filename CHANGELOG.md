@@ -29,6 +29,8 @@ All notable changes to this project will be documented in this file.
 - Added U+2400..U+2426 Control Pictures `␆␈␇␣␢␘␍␐␡␥␔␑␓␒␙␃␄␗␅␛␜␌␝␉␊␕␤␀␞␏␎␠␁␂␚␦␖␟␋` [#764]
 - Added U+2388 Helm Symbol `⎈` [#766]
 - Added U+2016 Double Vertical Line `‖` [#780]
+- Tuned metrics (1870,-530 -> 1800,-600, upm 2000 -> 1950, hopefully fix [#552] [#798])
+- Box characters to not overflow line height [#449]
 
 #### 1.207 (April 6, 2019)
 
