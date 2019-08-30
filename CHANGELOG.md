@@ -42,6 +42,7 @@ All notable changes to this project will be documented in this file.
   - U+2304 Down Arrowhead `⌄`
   - U+2305 Projective `⌅`
   - U+2306 Perspective `⌆`
+  - U+2318 Place of interest sign (Command) `⌘`
   - U+2324 Up Arrowhead between two horizontal bars `⌤`
   - U+2325 Option Key `⌥`
   - U+2387 Alternative Key Symbol `⎇`
