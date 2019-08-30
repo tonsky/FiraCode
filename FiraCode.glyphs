@@ -1,7 +1,9 @@
 {
 .appVersion = "1131";
 DisplayStrings = (
-"y/rightTabArrow/pageup/pagedown/arrowdown oOx"
+"y/rightTabArrow/pageup/pagedown/arrowdown Y/optionKey/alternativekeysymbol boOx",
+"%",
+""
 );
 classes = (
 {
@@ -92010,15 +92012,27 @@ unicode = 2406;
 {
 color = 6;
 glyphname = alternativekeysymbol;
-lastChange = "2019-08-15 12:35:24 +0000";
+lastChange = "2019-08-30 14:49:03 +0000";
 layers = (
 {
+components = (
+{
+name = optionKey;
+transform = "{1, 0, 0, -1, 0, 1374}";
+}
+);
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-width = 600;
+width = 1200;
 },
 {
+components = (
+{
+name = optionKey;
+transform = "{1, 0, 0, -1, 0, 1386}";
+}
+);
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 600;
+width = 1200;
 }
 );
 unicode = 2387;
@@ -96246,15 +96260,63 @@ unicode = 2328;
 {
 color = 6;
 glyphname = optionKey;
-lastChange = "2019-08-15 12:35:14 +0000";
+lastChange = "2019-08-30 14:48:55 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"59 1264 LINE",
+"359 1264 LINE",
+"760 0 LINE",
+"1141 0 LINE",
+"1141 110 LINE",
+"840 110 LINE",
+"439 1374 LINE",
+"59 1374 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"754 1264 LINE",
+"1141 1264 LINE",
+"1141 1374 LINE",
+"754 1374 LINE"
+);
+}
+);
+width = 1200;
 },
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"59 1152 LINE",
+"359 1152 LINE",
+"660 0 LINE",
+"1141 0 LINE",
+"1141 234 LINE",
+"840 234 LINE",
+"539 1386 LINE",
+"59 1386 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"754 1142 LINE",
+"1141 1142 LINE",
+"1141 1386 LINE",
+"754 1386 LINE"
+);
+}
+);
+width = 1200;
 }
 );
 unicode = 2325;
