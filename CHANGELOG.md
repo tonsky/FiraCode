@@ -31,7 +31,7 @@ All notable changes to this project will be documented in this file.
 - Added U+2016 Double Vertical Line `‖` [#780]
 - Tuned metrics (1870,-530 -> 1800,-600, upm 2000 -> 1950, hopefully fix [#552] [#798])
 - Box characters to not overflow line height [#449]
-- Added U+2303 Up Arrowhead (Control) `⌃` U+2304 Down Arrowhead `⌄` U+2305 Projective `⌅` U+2306 Perspective `⌆` U+2324 Up Arrowhead between two horizontal bars `⌤` [#799]
+- Added U+21E4 Left Tab Arrow `⇤` U+21E5 Right Tab Arrow `⇥` U+2303 Up Arrowhead (Control) `⌃` U+2304 Down Arrowhead `⌄` U+2305 Projective `⌅` U+2306 Perspective `⌆` U+2324 Up Arrowhead between two horizontal bars `⌤` U+21A9 Leftwards arrow with hook (Return) `↩` [#799]
 
 #### 1.207 (April 6, 2019)
 
