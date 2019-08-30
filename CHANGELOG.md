@@ -37,6 +37,7 @@ All notable changes to this project will be documented in this file.
   - U+21DF Downwards arrow with double stroke (Page down) `⇟`
   - U+21E4 Left Tab Arrow `⇤`
   - U+21E5 Right Tab Arrow `⇥`
+  - U+2300 Diameter sign `⌀`
   - U+2303 Up Arrowhead (Control) `⌃`
   - U+2304 Down Arrowhead `⌄`
   - U+2305 Projective `⌅`
@@ -44,6 +45,8 @@ All notable changes to this project will be documented in this file.
   - U+2324 Up Arrowhead between two horizontal bars `⌤`
   - U+2325 Option Key `⌥`
   - U+2387 Alternative Key Symbol `⎇`
+  - U+238B Broken Circle with Northwest Arrow (Escape) `⎋`
+  - U+23CF Eject symbol `⏏`
 
 #### 1.207 (April 6, 2019)
 
