@@ -1,8 +1,9 @@
 {
 .appVersion = "1131";
 DisplayStrings = (
-"/assertion \012/doesnotforce \012/doesnotprove \012/doubleverticalbardoublerightturnstile \012/forces \012/models \012/negateddoubleverticalbardoublerightturnstile \012/nottrue \012/righttack \012/tackdown \012/tackleft \012/tripleverticalbarrightturnstile \012/true \012/uptack",
-"/doesnotforce"
+"/pagedown",
+"/pageup",
+"tT/pagedown/pageup oOy"
 );
 classes = (
 {
@@ -96910,7 +96911,7 @@ unicode = 2326;
 {
 color = 6;
 glyphname = ejectsymbol;
-lastChange = "2019-08-30 16:58:22 +0000";
+lastChange = "2019-09-02 03:34:53 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -96972,7 +96973,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"39 410 LINE",
+"39 480 LINE",
 "39 76 LINE SMOOTH",
 "39 16 OFFCURVE",
 "99 -44 OFFCURVE",
@@ -96981,7 +96982,7 @@ nodes = (
 "1101 -44 OFFCURVE",
 "1161 16 OFFCURVE",
 "1161 76 CURVE SMOOTH",
-"1161 410 LINE"
+"1161 480 LINE"
 );
 },
 {
@@ -96989,8 +96990,8 @@ closed = 1;
 nodes = (
 "967 154 LINE",
 "233 154 LINE",
-"233 216 LINE",
-"967 216 LINE"
+"233 286 LINE",
+"967 286 LINE"
 );
 },
 {
@@ -97486,13 +97487,13 @@ unicode = 2325;
 {
 color = 6;
 glyphname = pagedown;
-lastChange = "2019-08-30 14:03:22 +0000";
+lastChange = "2019-09-02 03:40:52 +0000";
 layers = (
 {
 components = (
 {
 name = pageup;
-transform = "{1, 0, 0, -1, 0, 1243}";
+transform = "{1, 0, 0, -1, 0, 1232}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -97502,7 +97503,7 @@ width = 1200;
 components = (
 {
 name = pageup;
-transform = "{1, 0, 0, -1, 0, 1304}";
+transform = "{1, 0, 0, -1, 0, 1153}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -97514,7 +97515,7 @@ unicode = 21DF;
 {
 color = 6;
 glyphname = pageup;
-lastChange = "2019-08-30 14:08:07 +0000";
+lastChange = "2019-09-02 03:41:21 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -97522,31 +97523,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"536 801 LINE",
-"536 0 LINE",
-"664 0 LINE",
-"664 801 LINE",
-"1019 801 LINE",
-"600 1321 LINE",
-"181 803 LINE"
+"536 956 LINE",
+"536 -231 LINE",
+"664 -231 LINE",
+"664 956 LINE",
+"1019 956 LINE",
+"600 1476 LINE",
+"181 958 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"226 216 LINE",
-"974 216 LINE",
-"974 326 LINE",
-"226 326 LINE"
+"226 152 LINE",
+"974 152 LINE",
+"974 262 LINE",
+"226 262 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"226 476 LINE",
-"974 476 LINE",
-"974 586 LINE",
-"226 586 LINE"
+"226 480 LINE",
+"974 480 LINE",
+"974 590 LINE",
+"226 590 LINE"
 );
 }
 );
@@ -97558,31 +97559,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"471 876 LINE",
-"471 0 LINE",
-"729 0 LINE",
-"729 876 LINE",
-"1072 876 LINE",
-"600 1381 LINE",
-"128 876 LINE"
+"471 1011 LINE",
+"471 -307 LINE",
+"729 -307 LINE",
+"729 1011 LINE",
+"1072 1011 LINE",
+"600 1516 LINE",
+"128 1011 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"196 140 LINE",
-"1004 140 LINE",
-"1004 374 LINE",
-"196 374 LINE"
+"196 0 LINE",
+"1004 0 LINE",
+"1004 234 LINE",
+"196 234 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"196 508 LINE",
-"1004 508 LINE",
-"1004 742 LINE",
-"196 742 LINE"
+"196 468 LINE",
+"1004 468 LINE",
+"1004 702 LINE",
+"196 702 LINE"
 );
 }
 );
