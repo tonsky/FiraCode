@@ -92,6 +92,13 @@
     (str "  ignore sub less' less less asterisk;\n"
          "  ignore sub less' less less plus;\n"
          "  ignore sub less' less less dollar;\n")
+
+    ;; 713 |-|
+    ["bar" "hyphen"]
+    "  ignore sub bar' hyphen bar;\n"
+
+    ["hyphen" "bar"]
+    "  ignore sub bar hyphen' bar;\n"
 })
 
 (def skip-ignores? #{
@@ -160,6 +167,12 @@
                               (str "### start of generated calt\n" calt "\n### end of generated calt\n"))]
     (assoc-in font [:features idx :code] code')))
 
+(defn compare-ligas [l1 l2]
+  (cond
+    (> (count l1) (count l2)) -1
+    (< (count l1) (count l2)) 1
+    :else (compare l1 l2)))
+
 (defn -main [& args]
   (let [file  (or (first args) "FiraCode.glyphs")
         _     (println "Parsing" file "...")
@@ -169,7 +182,7 @@
                     :when (str/ends-with? name ".liga")
                     :let [[_ liga] (re-matches #"([a-z_]+)\.liga" name)]]
                 (str/split liga #"_")) ;; [ ["dash" "greater" "greater"] ... ]
-        calt  (->> ligas (remove manual?) (sort-by count) (reverse) (map liga->rule) (str/join "\n\n"))
+        calt  (->> ligas (remove manual?) (sort compare-ligas) (map liga->rule) (str/join "\n\n"))
         font' (replace-calt font calt)]
 
     (println "Saving" file "...")
@@ -183,4 +196,5 @@
                       (str/join ", ")))
     (println)))
 
-;; (-main)
+(-main)
+
