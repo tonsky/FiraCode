@@ -50,6 +50,7 @@ All notable changes to this project will be documented in this file.
   - U+23CF Eject symbol `⏏`
 - Added Coq logical and ` /\ ` and logical or ` \/ ` ligatures, U+2227 `∧` and U+2228 `∨` [#738]
 - Added SystemVerilog `|->` `|=>` and `<-|` `<=|` for symmetry [#695]
+- Added Forces `||-` ligature and U+22A2..U+22AF `⊢ ⊣ ⊤ ⊥ ⊦ ⊧ ⊨ ⊩ ⊪ ⊫ ⊬ ⊭ ⊮ ⊯` [#709]
 
 #### 1.207 (April 6, 2019)
 
