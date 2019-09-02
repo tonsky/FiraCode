@@ -53,8 +53,13 @@ All notable changes to this project will be documented in this file.
 - Added Forces `||-` ligature and U+22A2..U+22AF `⊢ ⊣ ⊤ ⊥ ⊦ ⊧ ⊨ ⊩ ⊪ ⊫ ⊬ ⊭ ⊮ ⊯` [#709]
 - Tuned `fl` and `fi` pairs [#795]
 - Disabled ligatures after regexp lookahead/lookbehinds `(?<=<` `(?<=>` `(?<==>` `(?<=|` `(?<==` `(?=:=` `(?=!=` `(?==` `(?===` `(?==>` `(?=>` `(?=>>` `(?=<<` `(?=/=` `(?!!` `(?!!.` `(?!=` `(?!==` `(?<!!` `(?<!!.` `(?<!=` `(?<!==` `(?<!--` [#578]
-- Alternative lowercase `r` (ss01) and ampersand `&` (ss03)
 - Removed ..= [#757]
+- Alternatives (stylistic sets):
+  - Lowercase `r` (ss01) [#601]
+  - `<=` `>=` (ss02) [#263] [#617]
+  - Ampersand `&` (ss03) [#617]
+  - Dotted zero `0` (zero, ss04)
+
 
 #### 1.207 (April 6, 2019)
 
