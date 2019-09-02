@@ -1,4 +1,4 @@
 {:paths ["clojure"]
- :deps {org.clojure/clojure  {:mvn/version "1.10.0-alpha8"}
+ :deps {org.clojure/clojure  {:mvn/version "1.10.1"}
         org.flatland/ordered {:mvn/version "1.5.6"}
         fipp/fipp            {:mvn/version "0.6.12"}}}
