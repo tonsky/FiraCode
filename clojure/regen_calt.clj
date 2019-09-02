@@ -101,6 +101,12 @@
   ["less" "dollar" "greater"]
 })
 
+(def manual? #{
+  ;; /\ \/
+  ["slash" "backslash"]
+  ["backslash" "slash"]
+})
+
 (defn liga->rule
   "[f f i] => { [LIG LIG i] f_f_i.liga
                 [LIG   f i] LIG
@@ -163,7 +169,7 @@
                     :when (str/ends-with? name ".liga")
                     :let [[_ liga] (re-matches #"([a-z_]+)\.liga" name)]]
                 (str/split liga #"_")) ;; [ ["dash" "greater" "greater"] ... ]
-        calt  (->> ligas (sort-by count) (reverse) (map liga->rule) (str/join "\n\n"))
+        calt  (->> ligas (remove manual?) (sort-by count) (reverse) (map liga->rule) (str/join "\n\n"))
         font' (replace-calt font calt)]
 
     (println "Saving" file "...")

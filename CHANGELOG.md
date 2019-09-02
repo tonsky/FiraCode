@@ -48,6 +48,7 @@ All notable changes to this project will be documented in this file.
   - U+2387 Alternative Key Symbol `⎇`
   - U+238B Broken Circle with Northwest Arrow (Escape) `⎋`
   - U+23CF Eject symbol `⏏`
+- Added logical and ` /\ ` and logical or ` \/ ` ligatures, U+2227 `∧` and U+2228 `∨` [#738]
 
 #### 1.207 (April 6, 2019)
 
