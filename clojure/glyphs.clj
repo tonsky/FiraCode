@@ -53,7 +53,11 @@
         :else res))))
 
 (defn expect [c]
-  (assert (= c (current-char)) (str "Expected '" c "', found " (current-char) " at " @*pos)))
+  (assert (= c (current-char))
+    (str "Expected '" c
+      "', found " (current-char)
+      " at " @*pos
+      " around here:\n" (subs @*str (max 0 (- @*pos 100)) (min (count @*str) (+ @*pos 100))))))
 
 (defn parse-map! []
   (skip-ws!)
@@ -111,8 +115,16 @@
                          (str \" (str/replace form escape-re escapes) \"))
     (keyword? form)    (name form)
     (number? form)     (str form)
+    (instance? clojure.lang.MapEntry form)
+                       (str
+                         (serialize (key form))
+                         " = "
+                         (if (= ".appVersion" (key form)) ;; https://github.com/googlefonts/glyphsLib/issues/209
+                           (str \" (val form) \")
+                           (serialize (val form)))
+                         ";")
     (sequential? form) (str "(\n" (str/join ",\n" (map serialize form)) "\n)")
-    (map? form)        (str "{\n" (str/join "\n" (for [[k v] form] (str (serialize k) " = " (serialize v) ";"))) "\n}")))
+    (map? form)        (str "{\n" (str/join "\n" (map serialize form)) "\n}")))
 
 ; (-> (slurp "FiraCode.glyphs") parse serialize (->> (spit "FiraCode_saved.glyphs")))
 

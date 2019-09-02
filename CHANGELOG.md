@@ -48,12 +48,13 @@ All notable changes to this project will be documented in this file.
   - U+2387 Alternative Key Symbol `⎇`
   - U+238B Broken Circle with Northwest Arrow (Escape) `⎋`
   - U+23CF Eject symbol `⏏`
-- Added Coq logical and ` /\ ` and logical or ` \/ ` ligatures, U+2227 `∧` and U+2228 `∨` [#738]
+- Added Coq logical and ` /\ ` and logical or ` \/ ` ligatures, U+2227 `∧` and U+2228 `∨` [#191] [#488] [#738] [#810]
 - Added SystemVerilog `|->` `|=>` and `<-|` `<=|` for symmetry [#695]
 - Added Forces `||-` ligature and U+22A2..U+22AF `⊢ ⊣ ⊤ ⊥ ⊦ ⊧ ⊨ ⊩ ⊪ ⊫ ⊬ ⊭ ⊮ ⊯` [#709]
 - Tuned `fl` and `fi` pairs [#795]
 - Disabled ligatures after regexp lookahead/lookbehinds `(?<=<` `(?<=>` `(?<==>` `(?<=|` `(?<==` `(?=:=` `(?=!=` `(?==` `(?===` `(?==>` `(?=>` `(?=>>` `(?=<<` `(?=/=` `(?!!` `(?!!.` `(?!=` `(?!==` `(?<!!` `(?<!!.` `(?<!=` `(?<!==` `(?<!--` [#578]
 - Alternative lowercase `r` (ss01) and ampersand `&` (ss03)
+- Removed ..= [#757]
 
 #### 1.207 (April 6, 2019)
 
