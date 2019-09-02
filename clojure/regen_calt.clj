@@ -3,6 +3,27 @@
     [clojure.string :as str]
     [glyphs :as glyphs]))
 
+;; No ligature should follow those sequences
+(def ignore-prefixes
+  [["parenleft" "question" "colon"]
+   ;; #578 #624 Regexp lookahead/lookbehind
+   ["parenleft" "question" "equal"]
+   ["parenleft" "question" "less" "equal"]
+   ["parenleft" "question" "exclam"]
+   ["parenleft" "question" "less" "exclam"]])
+
+(defn gen-ignore-prefixes [liga]
+  (str/join
+    (for [prefix ignore-prefixes
+          ;; try to match last N glyphs in `prefix` with N first in `liga`
+          N (range (count liga) 0 -1)
+          :when (= (take-last N prefix) (take N liga))]
+      (str "  ignore sub"
+        " " (str/join " " (drop-last N prefix))
+        " " (first liga) "'"
+        " " (str/join " " (drop 1 liga))
+        ";\n"))))
+
 (def ignores
   { ["slash" "asterisk"]
     (str
@@ -23,50 +44,6 @@
     (str
       "  ignore sub slash asterisk' asterisk asterisk;\n"
       "  ignore sub asterisk' asterisk asterisk slash;\n")
-
-    ;; #624 (?=
-    ["question" "equal"]
-    "  ignore sub parenleft question' equal;\n"
-
-    ;; #624 (?<=
-    ["less" "equal"]
-    (str "  ignore sub parenleft question less' equal;\n"
-         "  ignore sub exclam less' equal;\n")
-
-    ;; #624 (?:
-    ["question" "colon"]
-    "  ignore sub parenleft question' colon;\n"
-
-    ;; #578 (?<=< (?<=> (?<==> (?<=| (?<==
-    ["less" "equal" "less"]
-    "  ignore sub parenleft question less' equal less;\n"
-
-    ; ["equal" "less"]
-    ; moved to #548 >=<
-
-    ["less" "equal" "greater"]
-    "  ignore sub parenleft question less' equal greater;\n"
-
-    ["equal" "greater"]
-    "  ignore sub parenleft question less equal' greater;\n"
-
-    ["less" "equal" "equal" "greater"]
-    "  ignore sub parenleft question less' equal equal greater;\n"
-
-    ["equal" "equal" "greater"]
-    "  ignore sub parenleft question less equal' equal greater;\n"
-
-    ["less" "equal" "bar"]
-    "  ignore sub parenleft question less' equal bar;\n"
-
-    ["equal" "bar"]
-    "  ignore sub parenleft question less equal' bar;\n"
-
-    ["less" "equal" "equal"]
-    "  ignore sub parenleft question less' equal equal;\n"
-
-    ["equal" "equal"]
-    "  ignore sub parenleft question less equal' equal;\n"    
     
     ;; #621 <||>
     ["less" "bar" "bar"]
@@ -84,8 +61,7 @@
     "  ignore sub greater' equal less;\n"
 
     ["equal" "less"]
-    (str "  ignore sub greater equal' less;\n"
-         "  ignore sub parenleft question less equal' less;\n") ;; from #578 (?<=<
+    "  ignore sub greater equal' less;\n"
 
     ;; #593 {|}
     ["braceleft" "bar"]
@@ -133,6 +109,7 @@
     "  ignore sub bar hyphen' bar;\n"
 })
 
+;; DO NOT generate ignores at all
 (def skip-ignores? #{
   ;; #410 <<*>> <<+>> <<$>>
   ["less" "asterisk" "greater"]
@@ -140,6 +117,7 @@
   ["less" "dollar" "greater"]
 })
 
+;; DO NOT generate ligature
 (def manual? #{
   ;; /\ \/
   ["slash" "backslash"]
@@ -157,6 +135,7 @@
           (str "lookup 1_2 {\n"
                "  ignore sub 1 1' 2;\n"
                "  ignore sub 1' 2 2;\n"
+               (gen-ignore-prefixes liga)
                (get ignores liga)
                "  sub LIG 2' by 1_2.liga;\n"
                "  sub 1'  2  by LIG;\n"
@@ -168,6 +147,7 @@
                (when-not (skip-ignores? liga)
                 (str "  ignore sub 1 1' 2 3;\n"
                      "  ignore sub 1' 2 3 3;\n"))
+               (gen-ignore-prefixes liga)
                (get ignores liga)
                "  sub LIG LIG 3' by 1_2_3.liga;\n"
                "  sub LIG  2' 3  by LIG;\n"
@@ -179,6 +159,7 @@
           (str "lookup 1_2_3_4 {\n"
                "  ignore sub 1 1' 2 3 4;\n"
                "  ignore sub 1' 2 3 4 4;\n"
+               (gen-ignore-prefixes liga)
                (get ignores liga)
                "  sub LIG LIG LIG 4' by 1_2_3_4.liga;\n"
                "  sub LIG LIG  3' 4  by LIG;\n"
