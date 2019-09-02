@@ -36,6 +36,37 @@
     ;; #624 (?:
     ["question" "colon"]
     "  ignore sub parenleft question' colon;\n"
+
+    ;; #578 (?<=< (?<=> (?<==> (?<=| (?<==
+    ["less" "equal" "less"]
+    "  ignore sub parenleft question less' equal less;\n"
+
+    ; ["equal" "less"]
+    ; moved to #548 >=<
+
+    ["less" "equal" "greater"]
+    "  ignore sub parenleft question less' equal greater;\n"
+
+    ["equal" "greater"]
+    "  ignore sub parenleft question less equal' greater;\n"
+
+    ["less" "equal" "equal" "greater"]
+    "  ignore sub parenleft question less' equal equal greater;\n"
+
+    ["equal" "equal" "greater"]
+    "  ignore sub parenleft question less equal' equal greater;\n"
+
+    ["less" "equal" "bar"]
+    "  ignore sub parenleft question less' equal bar;\n"
+
+    ["equal" "bar"]
+    "  ignore sub parenleft question less equal' bar;\n"
+
+    ["less" "equal" "equal"]
+    "  ignore sub parenleft question less' equal equal;\n"
+
+    ["equal" "equal"]
+    "  ignore sub parenleft question less equal' equal;\n"    
     
     ;; #621 <||>
     ["less" "bar" "bar"]
@@ -53,7 +84,8 @@
     "  ignore sub greater' equal less;\n"
 
     ["equal" "less"]
-    "  ignore sub greater equal' less;\n"
+    (str "  ignore sub greater equal' less;\n"
+         "  ignore sub parenleft question less equal' less;\n") ;; from #578 (?<=<
 
     ;; #593 {|}
     ["braceleft" "bar"]

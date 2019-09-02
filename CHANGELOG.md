@@ -52,6 +52,7 @@ All notable changes to this project will be documented in this file.
 - Added SystemVerilog `|->` `|=>` and `<-|` `<=|` for symmetry [#695]
 - Added Forces `||-` ligature and U+22A2..U+22AF `⊢ ⊣ ⊤ ⊥ ⊦ ⊧ ⊨ ⊩ ⊪ ⊫ ⊬ ⊭ ⊮ ⊯` [#709]
 - Tuned `fl` and `fi` pairs [#795]
+- Disabled ligatures after regexp lookbehind `(?<=<` `(?<=>` `(?<==>` `(?<=|` `(?<==` [#578]
 
 #### 1.207 (April 6, 2019)
 
