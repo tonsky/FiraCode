@@ -59,6 +59,7 @@ All notable changes to this project will be documented in this file.
   - `<=` `>=` (ss02) [#263] [#617]
   - Ampersand `&` (ss03) [#617]
   - Dotted zero `0` (zero, ss04)
+  - Dollar sign `$` (ss05) [#617]
 
 
 #### 1.207 (April 6, 2019)

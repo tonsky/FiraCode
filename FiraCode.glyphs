@@ -1,9 +1,5 @@
 {
 .appVersion = "1131";
-DisplayStrings = (
-"a<=b<c<d /less_equal.liga \012c>=d /greater_equal.liga",
-"/less_equal.ss02"
-);
 classes = (
 {
 automatic = 1;
@@ -129,7 +125,7 @@ value = (
 );
 }
 );
-date = "2018-09-30 15:05:11 +0000";
+date = "2019-09-03 10:21:25 +0000";
 designer = "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov";
 designerURL = "http://tonsky.me";
 familyName = "Fira Code";
@@ -240,6 +236,11 @@ name = ss03;
 {
 code = "sub zero.tosf by zero.tosf.zero;\012sub zero by zero.zero;\012";
 name = ss04;
+},
+{
+automatic = 1;
+code = "sub dollar by dollar.ss05;\012";
+name = ss05;
 }
 );
 fontMaster = (
@@ -4997,7 +4998,7 @@ unicode = 0156;
 {
 color = 4;
 glyphname = S;
-lastChange = "2019-03-25 21:13:22 +0000";
+lastChange = "2019-09-03 10:13:56 +0000";
 layers = (
 {
 anchors = (
@@ -68515,6 +68516,147 @@ width = 1200;
 unicode = 00A5;
 },
 {
+color = 4;
+glyphname = dollar.ss05;
+lastChange = "2019-09-03 10:16:08 +0000";
+layers = (
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"1136 660 OFFCURVE",
+"981 771 OFFCURVE",
+"719 852 CURVE SMOOTH",
+"498 921 OFFCURVE",
+"435 955 OFFCURVE",
+"435 1044 CURVE SMOOTH",
+"435 1133 OFFCURVE",
+"518 1180 OFFCURVE",
+"643 1180 CURVE SMOOTH",
+"755 1180 OFFCURVE",
+"865 1142 OFFCURVE",
+"959 1064 CURVE",
+"1114 1242 LINE",
+"994 1356 OFFCURVE",
+"831 1421 OFFCURVE",
+"617 1421 CURVE SMOOTH",
+"330 1421 OFFCURVE",
+"95 1273 OFFCURVE",
+"95 1019 CURVE SMOOTH",
+"95 808 OFFCURVE",
+"219 685 OFFCURVE",
+"543 586 CURVE SMOOTH",
+"736 527 OFFCURVE",
+"795 481 OFFCURVE",
+"795 380 CURVE SMOOTH",
+"795 272 OFFCURVE",
+"701 210 OFFCURVE",
+"564 210 CURVE SMOOTH",
+"416 210 OFFCURVE",
+"292 260 OFFCURVE",
+"190 350 CURVE",
+"24 166 LINE",
+"140 52 OFFCURVE",
+"310 -34 OFFCURVE",
+"572 -34 CURVE SMOOTH",
+"925 -34 OFFCURVE",
+"1136 146 OFFCURVE",
+"1136 405 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"493 1712 LINE",
+"493 1334 LINE",
+"743 1335 LINE",
+"743 1712 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"493 34 LINE",
+"493 -324 LINE",
+"743 -324 LINE",
+"743 34 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"1054 640 OFFCURVE",
+"857 723 OFFCURVE",
+"657 779 CURVE SMOOTH",
+"382 859 OFFCURVE",
+"291 924 OFFCURVE",
+"291 1053 CURVE SMOOTH",
+"291 1204 OFFCURVE",
+"428 1276 OFFCURVE",
+"586 1276 CURVE SMOOTH",
+"704 1276 OFFCURVE",
+"823 1238 OFFCURVE",
+"923 1148 CURVE",
+"1009 1242 LINE",
+"895 1339 OFFCURVE",
+"769 1393 OFFCURVE",
+"586 1393 CURVE SMOOTH",
+"330 1393 OFFCURVE",
+"163 1245 OFFCURVE",
+"163 1053 CURVE SMOOTH",
+"163 831 OFFCURVE",
+"349 739 OFFCURVE",
+"605 665 CURVE SMOOTH",
+"855 592 OFFCURVE",
+"922 520 OFFCURVE",
+"922 377 CURVE SMOOTH",
+"922 185 OFFCURVE",
+"752 97 OFFCURVE",
+"576 97 CURVE SMOOTH",
+"402 97 OFFCURVE",
+"283 155 OFFCURVE",
+"190 245 CURVE",
+"106 149 LINE",
+"222 38 OFFCURVE",
+"386 -20 OFFCURVE",
+"569 -20 CURVE SMOOTH",
+"880 -20 OFFCURVE",
+"1054 143 OFFCURVE",
+"1054 374 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"562 1692 LINE",
+"562 1341 LINE",
+"689 1340 LINE",
+"689 1692 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"563 38 LINE",
+"562 -301 LINE",
+"689 -301 LINE",
+"689 38 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
 color = 7;
 glyphname = cent.tosf;
 lastChange = "2019-03-25 21:13:22 +0000";
@@ -114847,9 +114989,6 @@ unitsPerEm = 1950;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "B67F0F2D-EC95-4CB8-966E-23AE86958A69" = {
-"
-};
-"BF448B58-7A35-489E-A1C9-12628F60690C"" = {
 };
 "BF448B58-7A35-489E-A1C9-12628F60690C" = {
 HH = 141;
@@ -114873,7 +115012,4 @@ oV = 98;
 };
 versionMajor = 1;
 versionMinor = 207;
-};
-versionMajor = 1;
-versionMinor = 1;
 }
