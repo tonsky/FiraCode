@@ -1,4 +1,5 @@
 (ns glyphs
+  (:refer-clojure :exclude [load])
   (:require
     [clojure.java.io :as io]
     [clojure.string :as str]
@@ -127,6 +128,14 @@
     (map? form)        (str "{\n" (str/join "\n" (map serialize form)) "\n}")))
 
 ; (-> (slurp "FiraCode.glyphs") parse serialize (->> (spit "FiraCode_saved.glyphs")))
+
+(defn load [path]
+  (println "Parsing" path "...")
+  (parse (slurp path)))
+
+(defn save! [path font]
+  (println "Saving" path "...")
+  (spit path (serialize font)))
 
 (defn -main [& args]
   (let [font (-> (slurp "FiraCode.glyphs") parse)]

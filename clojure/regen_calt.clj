@@ -1,3 +1,5 @@
+;; clj -m regen-calt
+
 (ns regen-calt
   (:require
     [clojure.string :as str]
@@ -187,9 +189,8 @@
     :else (compare l1 l2)))
 
 (defn -main [& args]
-  (let [file  (or (first args) "FiraCode.glyphs")
-        _     (println "Parsing" file "...")
-        font  (glyphs/parse (slurp file))
+  (let [path  (or (first args) "FiraCode.glyphs")
+        font  (glyphs/load path)
         ligas (for [g (:glyphs font)
                     :let [name (:glyphname g)]
                     :when (str/ends-with? name ".liga")
@@ -199,8 +200,7 @@
         calt  (->> ligas (remove manual?) (sort compare-ligas) (map liga->rule) (str/join "\n\n"))
         font' (replace-calt font calt)]
 
-    (println "Saving" file "...")
-    (spit file (glyphs/serialize font'))
+    (glyphs/save! path font')
 
     (println "Total ligatures count:" (count ligas))
     (println " " (->> ligas
@@ -209,6 +209,3 @@
                       (map (fn [[k v]] (str (count v) (case k 2 " pairs", 3 " triples", 4 " quadruples"))))
                       (str/join ", ")))
     (println)))
-
-(-main)
-
