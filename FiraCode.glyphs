@@ -1,7 +1,7 @@
 {
 .appVersion = "1131";
 DisplayStrings = (
-"a:b\012A:B\0120:9\0120x1"
+"/backslash n\012/backslash/backslash n\012/backslash/backslash/backslash n\012/backslash/backslash/backslash/backslash n\012/backslash// \012///backslash \012/backslash// n\012///backslash n"
 );
 classes = (
 {
@@ -259,6 +259,11 @@ notes = "Name: Traditional At sign";
 code = "sub zero by zero.tosf;\012sub one by one.tosf;\012sub two by two.tosf;\012sub three by three.tosf;\012sub four by four.tosf;\012sub five by five.tosf;\012sub six by six.tosf;\012sub seven by seven.tosf;\012sub eight by eight.tosf;\012sub nine by nine.tosf;\012sub zero.zero by zero.zero.tosf;\012";
 name = ss07;
 notes = "Name: Old-style figures";
+},
+{
+code = "sub backslash' by backslash.ss08;\012\012lookup backslash_thin {\012  sub backslash.ss08 backslash.ss08' by backslash.thick.ss08;\012} backslash_thin;";
+name = ss08;
+notes = "Name: thin backslash";
 }
 );
 fontMaster = (
@@ -59018,6 +59023,80 @@ transform = "{1, 0, 0, 1, 0, -80}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+}
+);
+},
+{
+color = 3;
+glyphname = backslash.ss08;
+lastChange = "2019-09-04 10:31:44 +0000";
+layers = (
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"952 -198 LINE",
+"1076 -142 LINE",
+"248 1608 LINE",
+"124 1552 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"996 -192 LINE",
+"1047 -171 LINE",
+"201 1606 LINE",
+"152 1579 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 3;
+glyphname = backslash.thick.ss08;
+lastChange = "2019-09-04 10:25:37 +0000";
+layers = (
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"896 -224 LINE",
+"1143 -111 LINE",
+"304 1634 LINE",
+"57 1521 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"978 -201 LINE",
+"1081 -156 LINE",
+"220 1614 LINE",
+"119 1563 LINE"
+);
+}
+);
 width = 1200;
 }
 );

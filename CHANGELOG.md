@@ -62,8 +62,8 @@ All notable changes to this project will be documented in this file.
   - Dollar sign `$` (ss05) [#617]
   - At sign `@` (ss06) [#617] [#748] [#817]
   - Old-style figures (onum, ss07) [#561] [#715]
+  - Thin backslash (ss08) [#577 #720 #825]
 - Old-style figures no longer prevent ligatures [#561] [#715]
-
 
 #### 1.207 (April 6, 2019)
 
