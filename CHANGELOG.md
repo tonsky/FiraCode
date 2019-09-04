@@ -58,11 +58,11 @@ All notable changes to this project will be documented in this file.
   - Lowercase `r` (ss01) [#601]
   - Less than/greater than `<=` `>=` (ss02) [#263] [#617]
   - Ampersand `&` (ss03) [#617]
-  - Dotted zero `0` (zero, ss04)
-  - Dollar sign `$` (ss05) [#617]
-  - At sign `@` (ss06) [#617] [#748] [#817]
-  - Old-style figures (onum, ss07) [#561] [#715]
-  - Thin backslash (ss08) [#577 #720 #825]
+  - Dollar sign `$` (ss04) [#617]
+  - At sign `@` (ss05) [#617] [#748] [#817]
+  - Thin backslash (ss06) [#577 #720 #825]
+  - Dotted zero `0` (zero, ss19)
+  - Old-style figures (onum, ss20) [#561] [#715]
 - Old-style figures no longer prevent ligatures [#561] [#715]
 
 #### 1.207 (April 6, 2019)

@@ -240,30 +240,30 @@ name = ss03;
 notes = "Name: Traditional Ampersand";
 },
 {
-code = "sub zero.tosf by zero.tosf.zero;\012sub zero by zero.zero;\012";
-name = ss04;
-notes = "Name: Dotted zero";
-},
-{
 automatic = 1;
 code = "sub dollar by dollar.ss05;\012";
-name = ss05;
+name = ss04;
 notes = "Name: Lightweight Dollar Sign";
 },
 {
 code = "sub at by at.ss06;\012sub LIG' asciitilde_at.liga by asciitilde;\012sub asciitilde asciitilde_at.liga' by at.ss06;";
-name = ss06;
+name = ss05;
 notes = "Name: Traditional At sign";
 },
 {
-code = "sub zero by zero.tosf;\012sub one by one.tosf;\012sub two by two.tosf;\012sub three by three.tosf;\012sub four by four.tosf;\012sub five by five.tosf;\012sub six by six.tosf;\012sub seven by seven.tosf;\012sub eight by eight.tosf;\012sub nine by nine.tosf;\012sub zero.zero by zero.zero.tosf;\012";
-name = ss07;
-notes = "Name: Old-style figures";
+code = "sub backslash' by backslash.ss08;\012\012lookup backslash_thin {\012  sub backslash.ss08 backslash.ss08' by backslash.thick.ss08;\012} backslash_thin;";
+name = ss06;
+notes = "Name: Thin backslash";
 },
 {
-code = "sub backslash' by backslash.ss08;\012\012lookup backslash_thin {\012  sub backslash.ss08 backslash.ss08' by backslash.thick.ss08;\012} backslash_thin;";
-name = ss08;
-notes = "Name: thin backslash";
+code = "sub zero.tosf by zero.tosf.zero;\012sub zero by zero.zero;\012";
+name = ss19;
+notes = "Name: Dotted zero";
+},
+{
+code = "sub zero by zero.tosf;\012sub one by one.tosf;\012sub two by two.tosf;\012sub three by three.tosf;\012sub four by four.tosf;\012sub five by five.tosf;\012sub six by six.tosf;\012sub seven by seven.tosf;\012sub eight by eight.tosf;\012sub nine by nine.tosf;\012sub zero.zero by zero.zero.tosf;\012";
+name = ss20;
+notes = "Name: Old-style figures";
 }
 );
 fontMaster = (
@@ -65582,7 +65582,7 @@ width = 1200;
 {
 color = 6;
 glyphname = backslash_slash.liga;
-lastChange = "2019-09-02 01:35:42 +0000";
+lastChange = "2019-09-04 10:38:20 +0000";
 layers = (
 {
 components = (
