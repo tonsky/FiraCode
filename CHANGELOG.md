@@ -30,7 +30,7 @@ All notable changes to this project will be documented in this file.
 - Added U+2388 Helm Symbol `⎈` [#766]
 - Added U+2016 Double Vertical Line `‖` [#780]
 - Tuned metrics (1870,-530 -> 1800,-600, upm 2000 -> 1950, hopefully fix [#552] [#798])
-- Box characters to not overflow line height [#449]
+- Box characters to not overflow line height, taller `|` [#449]
 - Added few technical symbols [#799]:
   - U+21A9 Leftwards arrow with hook (Return) `↩`
   - U+21DE Upwards arrow with double stroke (Page Up) `⇞`
