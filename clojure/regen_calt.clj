@@ -195,7 +195,7 @@
                     :let [name (:glyphname g)]
                     :when (str/ends-with? name ".liga")
                     :when (not= "0" (:export g))
-                    :let [[_ liga] (re-matches #"([a-z_]+)\.liga" name)]]
+                    :let [[_ liga] (re-matches #"([A-Za-z_]+)\.liga" name)]]
                 (str/split liga #"_")) ;; [ ["dash" "greater" "greater"] ... ]
         calt  (->> ligas (remove manual?) (sort compare-ligas) (map liga->rule) (str/join "\n\n"))
         font' (replace-calt font calt)]
