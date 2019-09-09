@@ -109,7 +109,7 @@
 
 (def escape-re #"[\n\"\\]")
 
-(defn serialize [form]
+(defn- serialize-impl [form]
   (cond
     (string? form)     (if (re-matches #"[a-zA-Z0-9._/]+" form)
                          form 
@@ -118,14 +118,21 @@
     (number? form)     (str form)
     (instance? clojure.lang.MapEntry form)
                        (str
-                         (serialize (key form))
+                         (serialize-impl (key form))
                          " = "
                          (if (= ".appVersion" (key form)) ;; https://github.com/googlefonts/glyphsLib/issues/209
                            (str \" (val form) \")
-                           (serialize (val form)))
+                           (serialize-impl (val form)))
                          ";")
-    (sequential? form) (str "(\n" (str/join ",\n" (map serialize form)) "\n)")
-    (map? form)        (str "{\n" (str/join "\n" (map serialize form)) "\n}")))
+    (sequential? form) (if (empty? form)
+                         "(\n)"
+                         (str "(\n" (str/join ",\n" (map serialize-impl form)) "\n)"))
+    (map? form)        (if (empty? form)
+                         "{\n}"
+                         (str "{\n" (str/join "\n" (map serialize-impl form)) "\n}"))))
+
+(defn serialize [font]
+  (str (serialize-impl font) "\n"))
 
 ; (-> (slurp "FiraCode.glyphs") parse serialize (->> (spit "FiraCode_saved.glyphs")))
 

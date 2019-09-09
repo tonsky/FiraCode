@@ -1,7 +1,7 @@
 {
 .appVersion = "1131";
 DisplayStrings = (
-"flask\012Flask\012fiber\012fj\012/f_l.liga lflask\012Tla\012/f_t.liga"
+"flask\012Flask\012fiber\012fji\012Tla"
 );
 classes = (
 {
@@ -97,7 +97,6 @@ value = 1;
 {
 name = fsType;
 value = (
-
 );
 },
 {
@@ -114923,7 +114922,6 @@ unitsPerEm = 1950;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "B67F0F2D-EC95-4CB8-966E-23AE86958A69" = {
-
 };
 "BF448B58-7A35-489E-A1C9-12628F60690C" = {
 HH = 141;
