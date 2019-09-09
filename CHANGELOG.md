@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-#### 1.208 (WIP)
+#### 2.0 (September 9, 2019)
 
 - Characters U+25DE `◟` and U+25DF `◞` were swapped [#761]
 - Added Box Drawing Light Arcs U+256D `╭` U+256E `╮` U+256F `╯` U+2570 `╰` [#702] [#714] [#725]
