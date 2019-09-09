@@ -51,7 +51,7 @@ All notable changes to this project will be documented in this file.
 - Added Coq logical and ` /\ ` and logical or ` \/ ` ligatures, U+2227 `∧` and U+2228 `∨` [#191] [#488] [#738] [#810]
 - Added SystemVerilog `|->` `|=>` and `<-|` `<=|` for symmetry [#695]
 - Added Forces `||-` ligature and U+22A2..U+22AF `⊢ ⊣ ⊤ ⊥ ⊦ ⊧ ⊨ ⊩ ⊪ ⊫ ⊬ ⊭ ⊮ ⊯` [#709]
-- Added `fi` `fj` `fl` `Fl` `Tl` ligatures [#795]
+- Added `fl` `Fl` `Tl` ligatures, adjusted `fi` `fj` pairs [#795]
 - Disabled ligatures after regexp lookahead/lookbehinds `(?<=<` `(?<=>` `(?<==>` `(?<=|` `(?<==` `(?=:=` `(?=!=` `(?==` `(?===` `(?==>` `(?=>` `(?=>>` `(?=<<` `(?=/=` `(?!!` `(?!!.` `(?!=` `(?!==` `(?<!!` `(?<!!.` `(?<!=` `(?<!==` `(?<!--` [#578]
 - Removed `..=` [#757]
 - Alternatives (stylistic sets):
