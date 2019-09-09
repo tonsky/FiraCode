@@ -54,6 +54,12 @@ Swift:
 
 <img src="./showcases/swift.png">
 
+Stylistic sets:
+
+See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+
+<img src="./showcases/stylistic_sets.png">
+
 
 ### Terminal support
 
