@@ -19,3 +19,8 @@ cp distr/otf/*.otf ~/Library/Fonts/
 cd distr
 find . -not -name ".*" | xargs zip ../FiraCode.zip
 cd ..
+
+# Update npm
+npm publish
+
+# Update https://github.com/Homebrew/homebrew-cask-fonts
