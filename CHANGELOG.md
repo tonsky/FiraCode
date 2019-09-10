@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 #### 2.0 (September 9, 2019)
 
 - Characters U+25DE `◟` and U+25DF `◞` were swapped [#761]
-- Added Box Drawing Light Arcs U+256D `╭` U+256E `╮` U+256F `╯` U+2570 `╰` [#702] [#714] [#725]
+- Added Box Drawing Light Arcs U+256D `╭` U+256E `╮` U+256F `╯` U+2570 `╰` [#349] [#702] [#714] [#725]
 - Added Mathematical Angle Brackets U+27E8 `⟨` U+27E9 `⟩` [#763]
 - Added Light and heavy dashed lines U+2504..U+250B `┄┅┆┇┈┉┊┋` [#702]
 - Adjusted Box drawings double dashes U+254C..U+254F `╌╍╎╏`
@@ -29,7 +29,7 @@ All notable changes to this project will be documented in this file.
 - Added U+2400..U+2426 Control Pictures `␆␈␇␣␢␘␍␐␡␥␔␑␓␒␙␃␄␗␅␛␜␌␝␉␊␕␤␀␞␏␎␠␁␂␚␦␖␟␋` [#764]
 - Added U+2388 Helm Symbol `⎈` [#766]
 - Added U+2016 Double Vertical Line `‖` [#780]
-- Tuned metrics (1870,-530 -> 1800,-600, upm 2000 -> 1950, hopefully fix [#552] [#798])
+- Tuned metrics (1870,-530 -> 1800,-600, upm 2000 -> 1950, hopefully fix [#241] [#252] [#459] [#552] [#798])
 - Box characters to not overflow line height, taller `|` [#449]
 - Added few technical symbols [#799]:
   - U+21A9 Leftwards arrow with hook (Return) `↩`
