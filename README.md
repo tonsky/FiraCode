@@ -70,7 +70,7 @@ See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylis
 | **Hyper.app**      | **Cmder**          |
 | **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
 | **Kitty**          | **GNOME Terminal** |
-| **Konsole**        | **mate-terminal**  | 
+| **Konsole**        | **mate-terminal**  |
 | **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
 | **QTerminal**      | **rxvt**           |
 | **Terminal.app**   | **xterm**          |
@@ -188,6 +188,7 @@ Other monospaced fonts with ligatures:
 - [Iosevka](https://be5invis.github.io/Iosevka/) (free)
 - [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode) (free)
 - [Victor Mono](https://rubjo.github.io/victor-mono/) (free)
+- [Cascadia Code](https://github.com/microsoft/cascadia-code) (free)
 
 ### Building Fira Code locally
 
