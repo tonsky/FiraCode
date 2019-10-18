@@ -154,7 +154,11 @@ See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylis
 
 ```css
 /* Specify in CSS */
-font-family: 'Fira Code', monospace;
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
 ```
 
 
