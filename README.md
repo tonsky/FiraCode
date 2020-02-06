@@ -163,7 +163,7 @@ code { font-family: 'Fira Code', monospace; }
 ```
 
 
-- IE 10+, Edge: enable with `font-feature-settings: "calt";`
+- IE 10+, Edge Legacy: enable with `font-feature-settings: "calt";`
 - Firefox
 - Safari
 - Chromium-based browsers (Chrome, Opera)
