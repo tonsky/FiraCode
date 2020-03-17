@@ -194,6 +194,7 @@ Other monospaced fonts with ligatures:
 - [DejaVu Sans Code](https://github.com/SSNikolaevich/DejaVuSansCode) (free)
 - [Victor Mono](https://rubjo.github.io/victor-mono/) (free)
 - [Cascadia Code](https://github.com/microsoft/cascadia-code) (free)
+- [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono) (free)
 
 ### Building Fira Code locally
 
