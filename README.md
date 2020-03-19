@@ -95,7 +95,7 @@ See [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylis
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
 | **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **MATLAB** |
 | **Coda 2** | **Monkey Studio IDE** |
-| **CodeLite** |  |
+| **CodeLite** | **UltraEdit** |
 | **Eclipse** (macOS 4.7+, Linux) |  |
 | **elementary Code** |  |
 | **Geany** (macOS) |
