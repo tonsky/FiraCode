@@ -1,9 +1,11 @@
-;; clj -m regen-calt
-
-(ns regen-calt
+(ns fira-code.calt
   (:require
-    [clojure.string :as str]
-    [glyphs :as glyphs]))
+   [clojure.string :as str]
+   [fira-code.coll :as coll]
+   [fira-code.glyphs :as glyphs]
+   [fira-code.time :as time]
+   [flatland.ordered.map :refer [ordered-map]]))
+
 
 ;; No ligature should follow those sequences
 (def ignore-prefixes
@@ -142,8 +144,8 @@
                       "  ignore sub 1' 2 2;\n"))
                (gen-ignore-prefixes liga)
                (get ignores liga)
-               "  sub LIG 2' by 1_2.liga;\n"
-               "  sub 1'  2  by LIG;\n"
+               "  sub 1.spacer 2' by 1_2.liga;\n"
+               "  sub 1'       2  by 1.spacer;\n"
                "} 1_2;")
           #"\d" {"1" a "2" b}))
     3 (let [[a b c] liga]
@@ -154,9 +156,9 @@
                      "  ignore sub 1' 2 3 3;\n"))
                (gen-ignore-prefixes liga)
                (get ignores liga)
-               "  sub LIG LIG 3' by 1_2_3.liga;\n"
-               "  sub LIG  2' 3  by LIG;\n"
-               "  sub 1'   2  3  by LIG;\n"
+               "  sub 1.spacer 2.spacer 3' by 1_2_3.liga;\n"
+               "  sub 1.spacer 2'       3  by 2.spacer;\n"
+               "  sub 1'       2        3  by 1.spacer;\n"
                "} 1_2_3;")
           #"\d" {"1" a "2" b "3" c}))
     4 (let [[a b c d] liga]
@@ -167,24 +169,13 @@
                       "  ignore sub 1' 2 3 4 4;\n"))
                (gen-ignore-prefixes liga)
                (get ignores liga)
-               "  sub LIG LIG LIG 4' by 1_2_3_4.liga;\n"
-               "  sub LIG LIG  3' 4  by LIG;\n"
-               "  sub LIG  2'  3  4  by LIG;\n"
-               "  sub 1'   2   3  4  by LIG;\n"
+               "  sub 1.spacer 2.spacer 3.spacer 4' by 1_2_3_4.liga;\n"
+               "  sub 1.spacer 2.spacer 3'       4  by 3.spacer;\n"
+               "  sub 1.spacer 2'       3        4  by 2.spacer;\n"
+               "  sub 1'       2        3        4  by 1.spacer;\n"
                "} 1_2_3_4;")
           #"\d" {"1" a "2" b "3" c "4" d}))))
 
-(defn index-of [pred xs]
-  (reduce (fn [i x] (if (pred x) (reduced i) (inc i))) 0 xs))
-
-(defn replace-calt [font calt]
-  (let [features (:features font)
-        idx      (index-of #(= "calt" (:name %)) features)
-        code     (get-in features [idx :code])
-        code'    (str/replace code
-                              #"### start of generated calt\n[^#]+\n### end of generated calt\n"
-                              (str "### start of generated calt\n" calt "\n### end of generated calt\n"))]
-    (assoc-in font [:features idx :code] code')))
 
 (defn compare-ligas [l1 l2]
   (cond
@@ -192,24 +183,26 @@
     (< (count l1) (count l2)) 1
     :else (compare l1 l2)))
 
-(defn -main [& args]
-  (let [path  (or (first args) "FiraCode.glyphs")
-        font  (glyphs/load path)
-        ligas (for [g (:glyphs font)
-                    :let [name (:glyphname g)]
-                    :when (str/ends-with? name ".liga")
-                    :when (not= "0" (:export g))
-                    :let [[_ liga] (re-matches #"([A-Za-z_]+)\.liga" name)]]
-                (str/split liga #"_")) ;; [ ["dash" "greater" "greater"] ... ]
-        calt  (->> ligas (remove manual?) (sort compare-ligas) (map liga->rule) (str/join "\n\n"))
-        font' (replace-calt font calt)]
 
-    (glyphs/save! path font')
+(defn replace-calt [font ligas]
+  (let [ligas' (->> ligas
+                 (remove manual?) 
+                 (sort compare-ligas))
+        calt   (->> ligas'
+                 (map liga->rule)
+                 (str/join "\n\n"))
+        glyphs (map #(str (str/join "_" %) ".liga") ligas')
+        counts (coll/group-by-to count count ligas')]
 
-    (println "Total ligatures count:" (count ligas))
-    (println " " (->> ligas
-                      (group-by count)
-                      (sort-by first)
-                      (map (fn [[k v]] (str (count v) (case k 2 " pairs", 3 " triples", 4 " quadruples"))))
-                      (str/join ", ")))
-    (println)))
+    (println "  generated calt:" 
+      (str/join " " glyphs)
+      (str
+        "(" (get counts 2) " pairs, "
+        (get counts 3) " triples, "
+        (get counts 4) " quadruples, "
+        (count ligas') " total)"))
+
+    (glyphs/update-code font :features "calt"
+      #(str/replace %
+         #"### start of generated calt\n[^#]+\n### end of generated calt\n"
+         (str "### start of generated calt\n" calt "\n### end of generated calt\n")))))

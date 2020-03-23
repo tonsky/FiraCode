@@ -1,0 +1,3 @@
+#!/bin/zsh -euo pipefail
+
+clojure -m fira-code.main

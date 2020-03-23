@@ -1,9 +1,10 @@
-(ns glyphs
+(ns fira-code.glyphs
   (:refer-clojure :exclude [load])
   (:require
     [clojure.java.io :as io]
     [clojure.string :as str]
     [fipp.edn :as fipp]
+    [fira-code.coll :as coll]
     [flatland.ordered.map :refer [ordered-map]]))
 
 (def ^:dynamic *str)
@@ -137,11 +138,11 @@
 ; (-> (slurp "FiraCode.glyphs") parse serialize (->> (spit "FiraCode_saved.glyphs")))
 
 (defn load [path]
-  (println "Parsing" path "...")
+  (println (str "Parsing '" path "'..."))
   (parse (slurp path)))
 
 (defn save! [path font]
-  (println "Saving" path "...")
+  (println (str "Saving '" path "'..."))
   (spit path (serialize font)))
 
 (defn -main [& args]
@@ -150,8 +151,16 @@
       (binding [*out* os]
         (fipp/pprint font {:width 200})))))
 
-(def weights {:Regular "UUID0"
-              :Bold    "BF448B58-7A35-489E-A1C9-12628F60690C"})
+
+(defn update-code [font key name f & args]
+  (let [idx (coll/index-of #(= (:name %) name) (get font key))]
+    (apply update-in font [key idx :code] f args)))
+
+
+(def weights
+  {:Light   "B67F0F2D-EC95-4CB8-966E-23AE86958A69"
+   :Regular "UUID0"
+   :Bold    "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA"})
 
 (defn layer [l]
   { :id (case (:layerId l)
