@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 3.0
+
+- Disabled `<?=` (`?=` after `<`) [#850]
+- Added SemiBold weight [#987]
+- Replaced single LIG with per-glyph *.spacer
+
 #### 2.0 (September 9, 2019)
 
 - Characters U+25DE `◟` and U+25DF `◞` were swapped [#761]

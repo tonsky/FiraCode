@@ -14,7 +14,10 @@
    ["parenleft" "question" "equal"]
    ["parenleft" "question" "less" "equal"]
    ["parenleft" "question" "exclam"]
-   ["parenleft" "question" "less" "exclam"]])
+   ["parenleft" "question" "less" "exclam"]
+   ;; #850 PHP <?=
+   ["less" "question" "equal"]
+  ])
 
 
 (defn gen-ignore-prefixes [liga]
@@ -107,7 +110,7 @@
          "  ignore sub less' less less plus;\n"
          "  ignore sub less' less less dollar;\n")
 
-    ;; 713 |-|
+    ;; #713 |-|
     ["bar" "hyphen"]
     "  ignore sub bar' hyphen bar;\n"
 
