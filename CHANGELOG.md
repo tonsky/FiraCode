@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### 3.0
 
+- Added `=~` and `!~` to `ss07` [#293]
 - Removed `~=` [#381]
 - Re-added `..=` with just a subtle spacing adjustment [#934]
 - Added U+2630..U+2637 `☰☱☲☳☴☵☶☷` (Bagua trigrams) [#859]
