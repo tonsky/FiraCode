@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### 3.0
 
+- Removed `~=` [#381]
 - Re-added `..=` with just a subtle spacing adjustment [#934]
 - Added U+2630..U+2637 `☰☱☲☳☴☵☶☷` (Bagua trigrams) [#859]
 - Disabled `<?=` (`?=` after `<`) [#850]
@@ -134,7 +135,7 @@ All notable changes to this project will be documented in this file.
 
 #### 1.200 (July 18, 2016)
 
-- Removed `!!!` `???` `;;;` `&&&` `|||` `=~` ([#167]) `~~~` `%%%`
+- Removed `!!!` `???` `;;;` `&&&` `|||` `=~` [#167] `~~~` `%%%`
 - New safer `calt` code that doesn’t  apply ligatures to long sequences of chars, e.g. `!!!!`, `>>>>`, etc ([#49], [#110], [#176])
 - Larger `+` `-` `*` and corresponding ligatures ([#86])
 - Hexadecimal `x` (`0xFF`) is now applied to sequences like `128x128` as well ([#161])
