@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 #### 3.0
 
+- Fixed dollar sign in `<$` `$>` `<$>` when `ss04` is active [#830]
+- Removed `ss19` and `ss20` (they are covered by `zero` and `onum`)
 - Added `=~` and `!~` to `ss07` [#293]
 - Removed `~=` [#381]
 - Re-added `..=` with just a subtle spacing adjustment [#934]
