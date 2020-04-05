@@ -3,7 +3,7 @@
 source venv/bin/activate
 
 args=( "$@" )
-default_weights=( "Light" "Regular" "Retina" "Medium" "Bold" )
+default_weights=( "Light" "Regular" "Retina" "Medium" "SemiBold" "Bold" )
 weights=( "${args[@]:-"${default_weights[@]}"}" )
 
 for weight in "${weights[@]}"; do

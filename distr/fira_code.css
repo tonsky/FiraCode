@@ -24,6 +24,14 @@
 
 @font-face {
   font-family: 'Fira Code';
+  src: url('woff2/FiraCode-SemiBold.woff2') format('woff2'),
+    url("woff/FiraCode-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
   src: url('woff2/FiraCode-Bold.woff2') format('woff2'),
     url("woff/FiraCode-Bold.woff") format("woff");
   font-weight: 700;

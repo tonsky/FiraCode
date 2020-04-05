@@ -16,6 +16,7 @@
    ["parenleft" "question" "exclam"]
    ["parenleft" "question" "less" "exclam"]])
 
+
 (defn gen-ignore-prefixes [liga]
   (str/join
     (for [prefix ignore-prefixes
@@ -27,6 +28,7 @@
         " " (first liga) "'"
         " " (str/join " " (drop 1 liga))
         ";\n"))))
+
 
 (def ignores
   { ["slash" "asterisk"]
@@ -113,6 +115,7 @@
     "  ignore sub bar hyphen' bar;\n"
 })
 
+
 ;; DO NOT generate ignores at all
 (def skip-ignores? #{
   ;; #410 <<*>> <<+>> <<$>>
@@ -123,12 +126,14 @@
   ["f" "l"] ["F" "l"] ["T" "l"]
 })
 
+
 ;; DO NOT generate ligature
 (def manual? #{
   ;; /\ \/
   ["slash" "backslash"]
   ["backslash" "slash"]
 })
+
 
 (defn liga->rule
   "[f f i] => { [LIG LIG i] f_f_i.liga
@@ -138,42 +143,48 @@
   (case (count liga)
     2 (let [[a b] liga]
         (str/replace
-          (str "lookup 1_2 {\n"
-               (when-not (skip-ignores? liga)
-                 (str "  ignore sub 1 1' 2;\n"
-                      "  ignore sub 1' 2 2;\n"))
-               (gen-ignore-prefixes liga)
-               (get ignores liga)
-               "  sub 1.spacer 2' by 1_2.liga;\n"
-               "  sub 1'       2  by 1.spacer;\n"
-               "} 1_2;")
+          (str
+            "lookup 1_2 {\n"
+            (when-not (skip-ignores? liga)
+              (str "  ignore sub 1 1' 2;\n"
+                   "  ignore sub 1' 2 2;\n"))
+            (gen-ignore-prefixes liga)
+            (get ignores liga)
+            "  sub 1.spacer 2' by 1_2.liga;\n"
+            "  sub 1'       2  by 1.spacer;\n"
+            ; "sub 1 2 by 1_2.liga;"
+            "} 1_2;")
           #"\d" {"1" a "2" b}))
     3 (let [[a b c] liga]
         (str/replace
-          (str "lookup 1_2_3 {\n"
-               (when-not (skip-ignores? liga)
-                (str "  ignore sub 1 1' 2 3;\n"
-                     "  ignore sub 1' 2 3 3;\n"))
-               (gen-ignore-prefixes liga)
-               (get ignores liga)
-               "  sub 1.spacer 2.spacer 3' by 1_2_3.liga;\n"
-               "  sub 1.spacer 2'       3  by 2.spacer;\n"
-               "  sub 1'       2        3  by 1.spacer;\n"
-               "} 1_2_3;")
+          (str
+            "lookup 1_2_3 {\n"
+            (when-not (skip-ignores? liga)
+             (str "  ignore sub 1 1' 2 3;\n"
+                  "  ignore sub 1' 2 3 3;\n"))
+            (gen-ignore-prefixes liga)
+            (get ignores liga)
+            "  sub 1.spacer 2.spacer 3' by 1_2_3.liga;\n"
+            "  sub 1.spacer 2'       3  by 2.spacer;\n"
+            "  sub 1'       2        3  by 1.spacer;\n"
+            ; "sub 1 2 3 by 1_2_3.liga;"
+            "} 1_2_3;")
           #"\d" {"1" a "2" b "3" c}))
     4 (let [[a b c d] liga]
         (str/replace
-          (str "lookup 1_2_3_4 {\n"
-               (when-not (skip-ignores? liga)
-                 (str "  ignore sub 1 1' 2 3 4;\n"
-                      "  ignore sub 1' 2 3 4 4;\n"))
-               (gen-ignore-prefixes liga)
-               (get ignores liga)
-               "  sub 1.spacer 2.spacer 3.spacer 4' by 1_2_3_4.liga;\n"
-               "  sub 1.spacer 2.spacer 3'       4  by 3.spacer;\n"
-               "  sub 1.spacer 2'       3        4  by 2.spacer;\n"
-               "  sub 1'       2        3        4  by 1.spacer;\n"
-               "} 1_2_3_4;")
+          (str
+            "lookup 1_2_3_4 {\n"
+            (when-not (skip-ignores? liga)
+              (str "  ignore sub 1 1' 2 3 4;\n"
+                   "  ignore sub 1' 2 3 4 4;\n"))
+            (gen-ignore-prefixes liga)
+            (get ignores liga)
+            "  sub 1.spacer 2.spacer 3.spacer 4' by 1_2_3_4.liga;\n"
+            "  sub 1.spacer 2.spacer 3'       4  by 3.spacer;\n"
+            "  sub 1.spacer 2'       3        4  by 2.spacer;\n"
+            "  sub 1'       2        3        4  by 1.spacer;\n"
+            ; "sub 1 2 3 4 by 1_2_3_4.liga;"
+            "} 1_2_3_4;")
           #"\d" {"1" a "2" b "3" c "4" d}))))
 
 
