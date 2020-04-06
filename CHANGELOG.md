@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### 3.0
 
+- Slightly tuned multiple ampersands in `ss03` [#831]
 - Fixed horizontal bar height in `<!--` [#917]
 - Fixed multiply sign in `0xFF` and `10x10` with combination of `onum` and `zero` [#888]
 - Fixed dollar sign in `<$` `$>` `<$>` when `ss04` is active [#830]
