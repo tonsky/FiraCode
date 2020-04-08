@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 #### 3.0
 
+- Added U+300C U+300D Corner brackets `「」` and U+FF62 U+FF63 Halfwidth Corner brackets `｢｣` [#940]
+- Copied U+E0A2 `` to U+1F512 `🔒` [#880]
 - Added `<<->>` [#919]
 - Disabled `fl` `Fl` `Tl` ligatures, adjusted `l` height in combination with `[F T I f]` instead [#902]
 - Added U+25A4..25A9 Squares with fill `▤▥▦▧▨▩` [#450]
