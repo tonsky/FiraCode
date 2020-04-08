@@ -188,7 +188,25 @@
             "  sub 1'       2        3        4  by 1.spacer;\n"
             ; "sub 1 2 3 4 by 1_2_3_4.liga;"
             "} 1_2_3_4;")
-          #"\d" {"1" a "2" b "3" c "4" d}))))
+          #"\d" {"1" a "2" b "3" c "4" d}))
+    5 (let [[a b c d e] liga]
+        (str/replace
+          (str
+            "lookup 1_2_3_4_5 {\n"
+            (when-not (skip-ignores? liga)
+              (str "  ignore sub 1 1' 2 3 4 5;\n"
+                   "  ignore sub 1' 2 3 4 4 5;\n"))
+            (gen-ignore-prefixes liga)
+            (get ignores liga)
+            "  sub 1.spacer 2.spacer 3.spacer 4.spacer 5' by 1_2_3_4_5.liga;\n"
+            "  sub 1.spacer 2.spacer 3.spacer 4'       5  by 4.spacer;\n"
+            "  sub 1.spacer 2.spacer 3'       4        5  by 3.spacer;\n"
+            "  sub 1.spacer 2'       3        4        5  by 2.spacer;\n"
+            "  sub 1'       2        3        4        5  by 1.spacer;\n"
+            ; "sub 1 2 3 4 5 by 1_2_3_4_5.liga;"
+            "} 1_2_3_4_5;")
+          #"\d" {"1" a "2" b "3" c "4" d "5" e}))
+))
 
 
 (defn compare-ligas [l1 l2]
