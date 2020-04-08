@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### 3.0
 
+- Removed `?:` [#970]
 - Added missing set operations U+2200 `∀` U+2203..U+2205 `∃ ∄ ∅` U+2207 `∇` U+2282..U+228B `⊂ ⊃ ⊄ ⊅ ⊆ ⊇ ⊈ ⊉ ⊊ ⊋` U+2208..U+220# `∈ ∉ ∊ ∋ ∌ ∍` U+222A `∪` [#822]
 - Added U+300C U+300D Corner brackets `「」` and U+FF62 U+FF63 Halfwidth Corner brackets `｢｣` [#940]
 - Added `<<->>` [#919]
