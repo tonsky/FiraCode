@@ -116,6 +116,31 @@
 
     ["hyphen" "bar"]
     "  ignore sub bar hyphen' bar;\n"
+
+    ;; #968 [-> [--> [==> [=>
+    ["equal" "greater"]
+    "  ignore sub bracketleft equal' greater;\n"
+
+    ["equal" "equal" "greater"]
+    "  ignore sub bracketleft equal' equal greater;\n"
+
+    ["equal" "equal"]
+    "  ignore sub bracketleft equal' equal;\n"
+
+    ["equal" "equal" "equal"]
+    "  ignore sub bracketleft equal' equal equal;\n"
+
+    ["hyphen" "greater"]
+    "  ignore sub bracketleft hyphen' greater;\n"
+
+    ["hyphen" "hyphen" "greater"]
+    "  ignore sub bracketleft hyphen' hyphen greater;\n"
+
+    ["hyphen" "hyphen"]
+    "  ignore sub bracketleft hyphen' hyphen;\n"
+
+    ["hyphen" "hyphen" "hyphen"]
+    "  ignore sub bracketleft hyphen' hyphen hyphen;\n"
 })
 
 

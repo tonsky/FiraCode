@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### 3.0
 
+- Disabled ligatures in progress bars `[-> [--> [---> [=> [==> [===>` [#968]
 - Added set letters U+2102 `ℂ` U+210D `ℍ` U+2115 `ℕ` U+2119 `ℙ` U+211A `ℚ` U+211D `ℝ` U+2124 `ℤ` and U+1D539 `𝔹` [#841]
 - Removed `?:` [#970]
 - Added missing set operations U+2200 `∀` U+2203..U+2205 `∃ ∄ ∅` U+2207 `∇` U+2282..U+228B `⊂ ⊃ ⊄ ⊅ ⊆ ⊇ ⊈ ⊉ ⊊ ⊋` U+2208..U+220# `∈ ∉ ∊ ∋ ∌ ∍` U+222A `∪` [#822]
