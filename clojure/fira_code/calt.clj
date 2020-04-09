@@ -227,12 +227,12 @@
         counts (coll/group-by-to count count ligas')]
 
     (println "  generated calt:" 
-      (str/join " " glyphs)
+      ; (str/join " " glyphs)
       (str
-        "(" (get counts 2) " pairs, "
+        #_"(" (get counts 2) " pairs, "
         (get counts 3) " triples, "
         (get counts 4) " quadruples, "
-        (count ligas') " total)"))
+        (count ligas') " total" #_")"))
 
     (glyphs/update-code font :features "calt"
       #(str/replace %
