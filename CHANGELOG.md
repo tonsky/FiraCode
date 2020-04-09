@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-#### 3.0
+#### 3.0 (April 9, 2020)
 
 - Disabled ligatures in progress bars `[-> [--> [---> [=> [==> [===>` [#968]
 - Added set letters U+2102 `ℂ` U+210D `ℍ` U+2115 `ℕ` U+2119 `ℙ` U+211A `ℚ` U+211D `ℝ` U+2124 `ℤ` and U+1D539 `𝔹` [#841]
