@@ -1,0 +1,26 @@
+#!/bin/bash -e
+
+rm -rf distr/variable_ttf
+fontmake -g FiraCode.glyphs -o variable --output-dir distr/variable_ttf
+
+# -------------------------------------------------------------
+# fix variable font metadata as needed ------------------------
+
+firaCodeVF=distr/variable_ttf/FiraCode-VF.ttf
+
+# fix variable font metadata – very important
+gftools fix-vf-meta $firaCodeVF
+
+# other fixes for metadata and hinting
+gftools fix-nonhinting $firaCodeVF $firaCodeVF
+gftools fix-gasp --autofix $firaCodeVF
+gftools fix-dsig --autofix $firaCodeVF
+
+# cleanup of temp files
+tempFiles=$(ls distr/variable_ttf/*.fix && ls distr/variable_ttf/*-gasp*)
+for temp in $tempFiles
+do
+    rm -rf $temp
+done
+
+# TODO (late 2019?): use TTFautohint-VF for variable font (current support is minimal)

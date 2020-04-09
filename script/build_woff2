@@ -1,0 +1,15 @@
+#!/bin/bash -e
+# requires woff2_compress (get from https://github.com/bramstein/homebrew-webfonttools)
+
+rm -rf distr/woff2
+
+ttfs=$(ls distr/*/*.ttf)
+for ttf in $ttfs; do
+    woff2_compress $ttf
+done
+
+mkdir -p distr/woff2
+woff2s=$(ls distr/*/*.woff2)
+for woff2 in $woff2s; do
+    mv $woff2 distr/woff2/$(basename $woff2)
+done

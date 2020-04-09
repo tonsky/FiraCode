@@ -1,0 +1,15 @@
+#!/bin/bash -e
+# requires sfnt2woff-zopfli (get from https://github.com/bramstein/homebrew-webfonttools)
+
+rm -rf distr/woff
+
+ttfs=$(ls distr/*/*.ttf)
+for ttf in $ttfs; do
+    sfnt2woff-zopfli $ttf
+done
+
+mkdir -p distr/woff
+woffs=$(ls distr/*/*.woff)
+for woff in $woffs; do
+    mv $woff distr/woff/$(basename $woff)
+done
