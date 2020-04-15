@@ -162,10 +162,12 @@
    :Regular "UUID0"
    :Bold    "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA"})
 
+
 (defn layer [l]
-  { :id (case (:layerId l)
-          ((:Regular weights)) "Regular"
-          ((:Bold weights))    "Bold"
+  { :id (condp = (:layerId l)
+          (:Light weights)   "Light"
+          (:Regular weights) "Regular"
+          (:Bold weights)    "Bold"
           (:layerId l))
     :width (:width l) })
 

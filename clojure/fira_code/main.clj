@@ -3,6 +3,7 @@
    [clojure.string :as str]
    [fira-code.calt :as calt]
    [fira-code.coll :as coll]
+   [fira-code.checks :as checks]
    [fira-code.glyphs :as glyphs]
    [fira-code.not-space :as not-space]
    [fira-code.spacers :as spacers]
@@ -22,6 +23,7 @@
         font'  (-> font
                  (calt/replace-calt ligas)
                  (spacers/add-spacers ligas)
-                 (not-space/regen-not-space))]
+                 (not-space/regen-not-space)
+                 (checks/widths))]
     (glyphs/save! path font')
     (println)))

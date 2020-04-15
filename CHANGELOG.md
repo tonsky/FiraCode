@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 3.1 (April 15, 2020)
+
+- Fixed width of Germandbls, cornerbracketleft, cornerbracketleft, negativeAcknowledge-control, cornerbracketleft.half, cornerbracketright.half [#1000]
+
 #### 3.0 (April 9, 2020)
 
 - Disabled ligatures in progress bars `[-> [--> [---> [=> [==> [===>` [#968]

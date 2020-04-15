@@ -129,7 +129,7 @@ value = (
 );
 }
 );
-date = "2020-04-09 13:10:08 +0000";
+date = "2020-04-15 16:43:56 +0000";
 designer = "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov";
 designerURL = "https://tonsky.me";
 familyName = "Fira Code";
@@ -5220,7 +5220,7 @@ unicode = 0218;
 {
 color = 3;
 glyphname = Germandbls;
-lastChange = "2020-04-05 21:57:02 +0000";
+lastChange = "2020-04-15 15:10:21 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -5269,7 +5269,7 @@ nodes = (
 );
 }
 );
-width = 1198;
+width = 1200;
 },
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -60670,7 +60670,7 @@ unicode = 005D;
 {
 color = 6;
 glyphname = cornerbracketleft;
-lastChange = "2020-04-08 18:25:56 +0000";
+lastChange = "2020-04-15 15:13:23 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -60687,7 +60687,7 @@ nodes = (
 );
 }
 );
-width = 1100;
+width = 1200;
 },
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -60704,7 +60704,7 @@ nodes = (
 );
 }
 );
-width = 1100;
+width = 1200;
 }
 );
 unicode = 300C;
@@ -60976,27 +60976,25 @@ width = 1200;
 {
 color = 6;
 glyphname = cornerbracketleft.half;
-lastChange = "2020-04-08 18:26:42 +0000";
+lastChange = "2020-04-15 16:42:32 +0000";
 layers = (
 {
 components = (
 {
 name = cornerbracketleft;
-transform = "{1, 0, 0, 1, -500, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-width = 600;
+width = 1200;
 },
 {
 components = (
 {
 name = cornerbracketleft;
-transform = "{1, 0, 0, 1, -500, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 600;
+width = 1200;
 }
 );
 unicode = FF62;
@@ -61004,27 +61002,25 @@ unicode = FF62;
 {
 color = 6;
 glyphname = cornerbracketright.half;
-lastChange = "2020-04-08 18:26:35 +0000";
+lastChange = "2020-04-15 16:42:52 +0000";
 layers = (
 {
 components = (
 {
 name = cornerbracketright;
-transform = "{1, 0, 0, 1, -100, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-width = 600;
+width = 1200;
 },
 {
 components = (
 {
 name = cornerbracketright;
-transform = "{1, 0, 0, 1, -100, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 600;
+width = 1200;
 }
 );
 unicode = FF63;
@@ -100960,7 +100956,7 @@ unicode = 240A;
 {
 color = 3;
 glyphname = "negativeAcknowledge-control";
-lastChange = "2020-04-05 21:57:02 +0000";
+lastChange = "2020-04-15 15:13:59 +0000";
 layers = (
 {
 components = (
@@ -100981,7 +100977,7 @@ transform = "{0.33, 0, 0, 0.33, 800, 458}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-width = 1188;
+width = 1200;
 },
 {
 components = (
@@ -118541,6 +118537,6 @@ oV = 98;
 };
 };
 };
-versionMajor = 3;
+versionMajor = 4;
 versionMinor = 0;
 }
