@@ -39756,25 +39756,126 @@ width = 1200;
 unicode = 03D4;
 },
 {
+color = 6;
 glyphname = ThetaSymbol;
-lastChange = "2020-04-05 21:59:13 +0000";
+lastChange = "2020-04-15 17:11:09 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = Theta;
+name = bottom;
+position = "{600, 0}";
+},
+{
+name = top;
+position = "{600, 1386}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"1039 795 LINE",
+"184 795 LINE",
+"184 614 LINE",
+"1039 614 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1155 1143 OFFCURVE",
+"963 1421 OFFCURVE",
+"600 1421 CURVE SMOOTH",
+"237 1421 OFFCURVE",
+"45 1133 OFFCURVE",
+"45 694 CURVE SMOOTH",
+"45 244 OFFCURVE",
+"237 -34 OFFCURVE",
+"600 -34 CURVE SMOOTH",
+"963 -34 OFFCURVE",
+"1155 254 OFFCURVE",
+"1155 694 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"831 349 OFFCURVE",
+"760 206 OFFCURVE",
+"600 206 CURVE SMOOTH",
+"446 206 OFFCURVE",
+"369 347 OFFCURVE",
+"369 694 CURVE SMOOTH",
+"369 1042 OFFCURVE",
+"444 1182 OFFCURVE",
+"600 1182 CURVE SMOOTH",
+"756 1182 OFFCURVE",
+"831 1040 OFFCURVE",
+"831 694 CURVE SMOOTH"
+);
+}
+);
 width = 1200;
 },
 {
-components = (
+anchors = (
 {
-name = Theta;
+name = bottom;
+position = "{600, 0}";
+},
+{
+name = top;
+position = "{600, 1374}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"1039 770 LINE",
+"184 770 LINE",
+"184 637 LINE",
+"1039 637 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1093 1104 OFFCURVE",
+"927 1393 OFFCURVE",
+"600 1393 CURVE SMOOTH",
+"273 1393 OFFCURVE",
+"107 1094 OFFCURVE",
+"107 682 CURVE SMOOTH",
+"107 264 OFFCURVE",
+"273 -20 OFFCURVE",
+"600 -20 CURVE SMOOTH",
+"927 -20 OFFCURVE",
+"1093 274 OFFCURVE",
+"1093 685 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"952 313 OFFCURVE",
+"853 98 OFFCURVE",
+"600 98 CURVE SMOOTH",
+"353 98 OFFCURVE",
+"248 311 OFFCURVE",
+"248 682 CURVE SMOOTH",
+"248 1054 OFFCURVE",
+"345 1275 OFFCURVE",
+"600 1275 CURVE SMOOTH",
+"855 1275 OFFCURVE",
+"952 1057 OFFCURVE",
+"952 685 CURVE SMOOTH"
+);
+}
+);
 width = 1200;
 }
 );
