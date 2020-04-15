@@ -109276,7 +109276,7 @@ unicode = 030F;
 },
 {
 glyphname = commaabovecomb;
-lastChange = "2020-04-05 22:02:26 +0000";
+lastChange = "2020-04-15 17:20:36 +0000";
 layers = (
 {
 anchors = (
@@ -109316,8 +109316,9 @@ width = 1200;
 unicode = 0313;
 },
 {
+color = 6;
 glyphname = commareversedabovecomb;
-lastChange = "2020-04-05 22:02:26 +0000";
+lastChange = "2020-04-15 17:21:33 +0000";
 layers = (
 {
 anchors = (
@@ -109330,7 +109331,7 @@ components = (
 {
 alignment = -1;
 name = commaaccent;
-transform = "{-1, 0, 0, -1, 1194, 1003}";
+transform = "{-1, 0, 0, 1, 1163, 1715}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -109345,9 +109346,8 @@ position = "{598, 1050}";
 );
 components = (
 {
-alignment = -1;
 name = commaaccent;
-transform = "{-1, 0, 0, -1, 1203, 969}";
+transform = "{-1, 0, 0, 1, 1088, 1653}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
