@@ -12,7 +12,7 @@ Fira Code is a free monospaced font containing ligatures for common programming 
 
 ### Download & Install
 
-**<a href="https://github.com/tonsky/FiraCode/releases/download/3/FiraCode_3.zip">Download Fira Code v3</a>**
+**<a href="https://github.com/tonsky/FiraCode/releases/download/3.1/FiraCode_3.1.zip">Download Fira Code v3.1</a>**
 
 Then:
 

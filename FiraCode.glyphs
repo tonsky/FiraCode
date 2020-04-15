@@ -129,7 +129,7 @@ value = (
 );
 }
 );
-date = "2020-04-15 16:43:56 +0000";
+date = "2020-04-15 17:23:06 +0000";
 designer = "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov";
 designerURL = "https://tonsky.me";
 familyName = "Fira Code";
@@ -109276,7 +109276,7 @@ unicode = 030F;
 },
 {
 glyphname = commaabovecomb;
-lastChange = "2020-04-15 17:20:36 +0000";
+lastChange = "2020-04-15 17:26:25 +0000";
 layers = (
 {
 anchors = (
@@ -109318,7 +109318,7 @@ unicode = 0313;
 {
 color = 6;
 glyphname = commareversedabovecomb;
-lastChange = "2020-04-15 17:21:33 +0000";
+lastChange = "2020-04-15 17:25:43 +0000";
 layers = (
 {
 anchors = (
@@ -109351,7 +109351,7 @@ transform = "{-1, 0, 0, 1, 1088, 1653}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-width = 1200;
+width = 1201;
 }
 );
 unicode = 0314;
@@ -118645,6 +118645,6 @@ oV = 98;
 };
 };
 };
-versionMajor = 4;
-versionMinor = 0;
+versionMajor = 3;
+versionMinor = 1;
 }

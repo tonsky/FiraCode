@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-#### 4 (April 15, 2020)
+#### 3.1 (April 15, 2020)
 
 - Fixed width of Germandbls, cornerbracketleft, cornerbracketleft, negativeAcknowledge-control, cornerbracketleft.half, cornerbracketright.half [#1000]
 - Fixed misplaced descenders on U+04B3 `ҳ` U+04CB `Ӌ` and U+04CC`ӌ` [#995]
