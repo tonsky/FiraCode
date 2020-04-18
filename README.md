@@ -156,6 +156,7 @@ Swift:
 | **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Xamarin Studio/Monodevelop** |
 | **Xcode** (8.0+, otherwise [with plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
+| **Xi** |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
 
 ### Browser support
