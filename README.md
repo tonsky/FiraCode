@@ -96,6 +96,7 @@ Swift:
 | **upterm**         |
 | **Windows Terminal** |
 | **ZOC** (macOS)    |
+| **st** ([patch](https://st.suckless.org/patches/ligatures/)) |
 
 ### Editor compatibility list
 
