@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 #### 4.0 (May 10, 2020)
 
+- Arbitrary-long hyphen arrows #346
 - Fixed descender in U+040F `Џ`
 - Undid #995 and properly fixed U+04CB `Ӌ`, U+04CC`ӌ` #1001 and  U+0449 `щ` #1007
 

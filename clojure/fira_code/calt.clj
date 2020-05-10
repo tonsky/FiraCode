@@ -88,27 +88,21 @@
 
     ;; #410 <*>> <+>> <$>>
     ["greater" "greater"]
-    (str "  ignore sub asterisk greater' greater;\n"
-         "  ignore sub plus greater' greater;\n"
-         "  ignore sub dollar greater' greater;\n")
+    (str "  ignore sub [asterisk plus dollar hyphen] greater' greater;\n"
+         "  ignore sub greater' greater hyphen;\n")
 
     ;; #410 <*>>> <+>>> <$>>>
     ["greater" "greater" "greater"]
-    (str "  ignore sub asterisk greater' greater greater;\n"
-         "  ignore sub plus greater' greater greater;\n"    
-         "  ignore sub dollar greater' greater greater;\n")
+    "  ignore sub [asterisk plus dollar] greater' greater greater;\n"
 
     ;; #410 <<*> <<+> <<$>
     ["less" "less"]
-    (str "  ignore sub less' less asterisk;\n"
-         "  ignore sub less' less plus;\n"
-         "  ignore sub less' less dollar;\n")
+    (str "  ignore sub hyphen less' less;\n"
+         "  ignore sub less' less [asterisk plus dollar hyphen];\n")
 
     ;; #410 <<<*> <<<+> <<<$>
     ["less" "less" "less"]
-    (str "  ignore sub less' less less asterisk;\n"
-         "  ignore sub less' less less plus;\n"
-         "  ignore sub less' less less dollar;\n")
+    "  ignore sub less' less less [asterisk plus dollar];\n"
 
     ;; #713 |-|
     ["bar" "hyphen"]
@@ -130,17 +124,13 @@
     ["equal" "equal" "equal"]
     "  ignore sub bracketleft equal' equal equal;\n"
 
-    ["hyphen" "greater"]
-    "  ignore sub bracketleft hyphen' greater;\n"
-
-    ["hyphen" "hyphen" "greater"]
-    "  ignore sub bracketleft hyphen' hyphen greater;\n"
-
     ["hyphen" "hyphen"]
-    "  ignore sub bracketleft hyphen' hyphen;\n"
+    (str "  ignore sub [bracketleft less greater] hyphen' hyphen;\n"
+         "  ignore sub hyphen' hyphen [bracketright less greater];\n")
 
     ["hyphen" "hyphen" "hyphen"]
-    "  ignore sub bracketleft hyphen' hyphen hyphen;\n"
+    (str "  ignore sub [bracketleft less greater] hyphen' hyphen hyphen;\n"
+         "  ignore sub hyphen' hyphen hyphen [bracketright less greater];\n")
 })
 
 
