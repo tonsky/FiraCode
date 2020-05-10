@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 4.0 (May 10, 2020)
+
+- Fixed descender in U+040F `Џ`
+- Undid #995 and properly fixed U+04CB `Ӌ`, U+04CC`ӌ` #1001 and  U+0449 `щ` #1007
+
 #### 3.1 (April 15, 2020)
 
 - Fixed width of Germandbls, cornerbracketleft, cornerbracketleft, negativeAcknowledge-control, cornerbracketleft.half, cornerbracketright.half [#1000]
