@@ -87,6 +87,7 @@
     "  ignore sub bracketleft bar' bracketright;\n"
 
     ;; #410 <*>> <+>> <$>>
+    ;; #346 >>->>
     ["greater" "greater"]
     (str "  ignore sub [asterisk plus dollar hyphen] greater' greater;\n"
          "  ignore sub greater' greater hyphen;\n")
@@ -96,6 +97,7 @@
     "  ignore sub [asterisk plus dollar] greater' greater greater;\n"
 
     ;; #410 <<*> <<+> <<$>
+    ;; #346 <<-<<
     ["less" "less"]
     (str "  ignore sub hyphen less' less;\n"
          "  ignore sub less' less [asterisk plus dollar hyphen];\n")
@@ -104,14 +106,7 @@
     ["less" "less" "less"]
     "  ignore sub less' less less [asterisk plus dollar];\n"
 
-    ;; #713 |-|
-    ["bar" "hyphen"]
-    "  ignore sub bar' hyphen bar;\n"
-
-    ["hyphen" "bar"]
-    "  ignore sub bar hyphen' bar;\n"
-
-    ;; #968 [-> [--> [==> [=>
+    ;; #968 [==> [=>
     ["equal" "greater"]
     "  ignore sub bracketleft equal' greater;\n"
 
@@ -124,13 +119,21 @@
     ["equal" "equal" "equal"]
     "  ignore sub bracketleft equal' equal equal;\n"
 
+    ;; #968 [-> [-->
+    ;; #346 <--> <---> |--| |---|
+
     ["hyphen" "hyphen"]
-    (str "  ignore sub [bracketleft less greater] hyphen' hyphen;\n"
-         "  ignore sub hyphen' hyphen [bracketright less greater];\n")
+    (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen;\n"
+         "  ignore sub hyphen' hyphen [bracketright less greater bar];\n")
 
     ["hyphen" "hyphen" "hyphen"]
-    (str "  ignore sub [bracketleft less greater] hyphen' hyphen hyphen;\n"
-         "  ignore sub hyphen' hyphen hyphen [bracketright less greater];\n")
+    (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen hyphen;\n"
+         "  ignore sub hyphen' hyphen hyphen [bracketright less greater bar];\n")
+
+    ;; #346 ||-||
+    ["bar" "bar"]
+    (str "  ignore sub hyphen bar' bar;\n"
+         "  ignore sub bar' bar hyphen;\n")
 })
 
 
