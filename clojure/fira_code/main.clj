@@ -4,6 +4,7 @@
    [fira-code.calt :as calt]
    [fira-code.coll :as coll]
    [fira-code.checks :as checks]
+   [fira-code.features :as features]
    [fira-code.glyphs :as glyphs]
    [fira-code.not-space :as not-space]
    [fira-code.spacers :as spacers]
@@ -22,6 +23,7 @@
                  (str/split liga #"_")) ;; [ ["dash" "greater" "greater"] ... ]
         font'  (-> font
                  (calt/replace-calt ligas)
+                 (features/append-features)
                  (spacers/add-spacers ligas)
                  (not-space/regen-not-space)
                  (checks/widths))]

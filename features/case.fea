@@ -1,0 +1,31 @@
+### Lowercase/uppercase operators
+
+lookup lowercase_hyphen {
+  ignore sub @Tall \hyphen' @Lowercase;
+  ignore sub @Lowercase \hyphen' @Tall;  
+  sub \hyphen' @Lowercase by \hyphen.lc;
+  sub @Lowercase \hyphen' by \hyphen.lc;
+} lowercase_hyphen;
+
+lookup lowercase_plus {
+  ignore sub @Tall \plus' @Lowercase;
+  ignore sub @Lowercase \plus' @Tall;
+  sub \plus' @Lowercase by \plus.lc;
+  sub @Lowercase \plus' by \plus.lc;
+} lowercase_plus;
+
+lookup lowercase_asterisk {
+  ignore sub @Tall \asterisk' @Lowercase;
+  ignore sub @Lowercase \asterisk' @Tall;
+  sub \asterisk' @Lowercase by \asterisk.lc;
+  sub @Lowercase \asterisk' by \asterisk.lc;
+} lowercase_asterisk;
+
+lookup uppercase_colon {
+  ignore sub @Tall \colon' @Lowercase;
+  ignore sub @Lowercase \colon' @Tall;
+  sub @Tall \colon' by \colon.uc;
+  sub \colon' @Tall by \colon.uc;
+#  pos @Tall \colon' <0 160 0 0>;
+#  pos \colon' @Tall <0 160 0 0>;
+} uppercase_colon;

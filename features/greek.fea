@@ -1,0 +1,13 @@
+### Greek
+
+lookup caltGreekUCdiph {
+  sub @GreekUCdiphIOTA Iota' by Iotadieresis;
+  sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;
+} caltGreekUCdiph;
+
+lookup caltGreekUC {
+  sub @GreekUCAcc' @GreekUC by @GreekUCcalt;
+  sub @GreekUC @GreekUCAcc' by @GreekUCcalt;
+  sub @GreekUCAcc' space @GreekUC by @GreekUCcalt;
+  sub @GreekUC space @GreekUCAcc' by @GreekUCcalt;
+} caltGreekUC;

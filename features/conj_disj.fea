@@ -1,0 +1,15 @@
+### Logical conjuntion/disjunction #738
+
+lookup slash_backslash {
+  ignore sub @NotSpace slash' backslash;
+  ignore sub slash' backslash @NotSpace;
+  sub slash.spacer backslash' by slash_backslash.liga;
+  sub slash' backslash by slash.spacer;
+} slash_backslash;
+
+lookup backslash_slash {
+  ignore sub @NotSpace backslash' slash;
+  ignore sub backslash' slash @NotSpace;
+  sub backslash.spacer slash' by backslash_slash.liga;
+  sub backslash' slash by backslash.spacer;
+} backslash_slash;

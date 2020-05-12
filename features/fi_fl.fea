@@ -1,0 +1,4 @@
+### fi/fl #795
+
+sub [f i.salt_low j.salt_low] [i j]' by [i.salt_low j.salt_low];
+sub [F T I l.salt_low] l' by l.salt_low;

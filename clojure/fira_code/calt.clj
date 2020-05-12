@@ -87,37 +87,38 @@
     "  ignore sub bracketleft bar' bracketright;\n"
 
     ;; #410 <*>> <+>> <$>>
-    ;; #346 >>->>
+    ;; #346 >>->> >>=>>
     ["greater" "greater"]
-    (str "  ignore sub [asterisk plus dollar hyphen] greater' greater;\n"
-         "  ignore sub greater' greater hyphen;\n")
+    (str "  ignore sub [asterisk plus dollar hyphen equal] greater' greater;\n"
+         "  ignore sub greater' greater [hyphen equal];\n")
 
     ;; #410 <*>>> <+>>> <$>>>
+    ;; #346 >>>->>> >>>=>>>
     ["greater" "greater" "greater"]
-    "  ignore sub [asterisk plus dollar] greater' greater greater;\n"
+    (str "  ignore sub [asterisk plus dollar hyphen equal] greater' greater greater;\n"
+         "  ignore sub greater' greater greater [hyphen equal];\n")
 
     ;; #410 <<*> <<+> <<$>
-    ;; #346 <<-<<
+    ;; #346 <<-<< <<=<<
     ["less" "less"]
-    (str "  ignore sub hyphen less' less;\n"
-         "  ignore sub less' less [asterisk plus dollar hyphen];\n")
+    (str "  ignore sub [hyphen equal] less' less;\n"
+         "  ignore sub less' less [asterisk plus dollar hyphen equal];\n")
 
     ;; #410 <<<*> <<<+> <<<$>
+    ;; #346 <<<-<<< <<<=<<<
     ["less" "less" "less"]
-    "  ignore sub less' less less [asterisk plus dollar];\n"
+    (str "  ignore sub [hyphen equal] less' less less;\n"
+         "  ignore sub less' less less [asterisk plus dollar hyphen equal];\n")
 
     ;; #968 [==> [=>
-    ["equal" "greater"]
-    "  ignore sub bracketleft equal' greater;\n"
-
-    ["equal" "equal" "greater"]
-    "  ignore sub bracketleft equal' equal greater;\n"
-
+    ;; #346 <==> <===> |==| |===|
     ["equal" "equal"]
-    "  ignore sub bracketleft equal' equal;\n"
+    (str "  ignore sub [bracketleft less greater bar] equal' equal;\n"
+         "  ignore sub equal' equal [bracketright less greater bar] ;\n")
 
     ["equal" "equal" "equal"]
-    "  ignore sub bracketleft equal' equal equal;\n"
+    (str "  ignore sub [bracketleft less greater bar] equal' equal equal;\n"
+         "  ignore sub equal' equal equal [bracketright less greater bar];\n")
 
     ;; #968 [-> [-->
     ;; #346 <--> <---> |--| |---|
@@ -130,10 +131,10 @@
     (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen hyphen;\n"
          "  ignore sub hyphen' hyphen hyphen [bracketright less greater bar];\n")
 
-    ;; #346 ||-||
+    ;; #346 ||-|| ||=||
     ["bar" "bar"]
-    (str "  ignore sub hyphen bar' bar;\n"
-         "  ignore sub bar' bar hyphen;\n")
+    (str "  ignore sub [hyphen equal] bar' bar;\n"
+         "  ignore sub bar' bar [hyphen equal];\n")
 })
 
 
@@ -252,7 +253,4 @@
         (get counts 4) " quadruples, "
         (count ligas') " total" #_")"))
 
-    (glyphs/update-code font :features "calt"
-      #(str/replace %
-         #"### start of generated calt\n[^#]+\n### end of generated calt\n"
-         (str "### start of generated calt\n" calt "\n### end of generated calt\n")))))
+    (glyphs/update-code font :features "calt" (constantly calt))))

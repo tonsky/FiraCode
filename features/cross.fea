@@ -1,0 +1,7 @@
+### 0xFF
+sub [zero zero.zero] x' [@Digit @HexDigit] by x.multiply;
+sub [zero.tosf zero.zero.tosf zero.tosf.zero] x' [@DigitTosf @HexDigit] by x.multiply.tosf;
+
+### 800x600
+sub @Digit x' @Digit by x.multiply; 
+sub @DigitTosf x' @DigitTosf by x.multiply.tosf;
