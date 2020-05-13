@@ -1,0 +1,8 @@
+# Name: Traditional Ampersand
+
+sub ampersand by ampersand.ss03;
+
+sub ampersand_ampersand.liga by ampersand.ss03;
+sub ampersand.spacer' ampersand.ss03 by ampersand.before.ss03;
+
+sub  [ampersand ampersand.ss03]' [ampersand ampersand.ss03] by ampersand.before.ss03;

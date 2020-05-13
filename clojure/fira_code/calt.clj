@@ -65,12 +65,14 @@
     ["colon" "greater"]
     "  ignore sub colon' greater equal;\n"
 
+    ;; #346 <=< <=> <=|
+    ["less" "equal"]
+    "  ignore sub less' equal [less greater bar];\n"
+    
     ;; #548 >=<
+    ;; #346 >=> >=< >=|
     ["greater" "equal"]
-    "  ignore sub greater' equal less;\n"
-
-    ["equal" "less"]
-    "  ignore sub greater equal' less;\n"
+    "  ignore sub greater' equal [less greater bar];\n"
 
     ;; #593 {|}
     ["braceleft" "bar"]
@@ -95,8 +97,7 @@
     ;; #410 <*>>> <+>>> <$>>>
     ;; #346 >>>->>> >>>=>>>
     ["greater" "greater" "greater"]
-    (str "  ignore sub [asterisk plus dollar hyphen equal] greater' greater greater;\n"
-         "  ignore sub greater' greater greater [hyphen equal];\n")
+    "  ignore sub [asterisk plus dollar] greater' greater greater;\n"
 
     ;; #410 <<*> <<+> <<$>
     ;; #346 <<-<< <<=<<
@@ -105,10 +106,8 @@
          "  ignore sub less' less [asterisk plus dollar hyphen equal];\n")
 
     ;; #410 <<<*> <<<+> <<<$>
-    ;; #346 <<<-<<< <<<=<<<
     ["less" "less" "less"]
-    (str "  ignore sub [hyphen equal] less' less less;\n"
-         "  ignore sub less' less less [asterisk plus dollar hyphen equal];\n")
+    "  ignore sub less' less less [asterisk plus dollar];\n"
 
     ;; #968 [==> [=>
     ;; #346 <==> <===> |==| |===|
@@ -122,7 +121,6 @@
 
     ;; #968 [-> [-->
     ;; #346 <--> <---> |--| |---|
-
     ["hyphen" "hyphen"]
     (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen;\n"
          "  ignore sub hyphen' hyphen [bracketright less greater bar];\n")
@@ -144,8 +142,6 @@
   ["less" "asterisk" "greater"]
   ["less" "plus" "greater"]
   ["less" "dollar" "greater"]
-  ;; #795
-  ["f" "l"] ["F" "l"] ["T" "l"]
 })
 
 
@@ -244,6 +240,15 @@
                  (str/join "\n\n"))
         glyphs (map #(str (str/join "_" %) ".liga") ligas')
         counts (coll/group-by-to count count ligas')]
+
+    (when-some [unused (not-empty (reduce dissoc ignores ligas'))]
+      (println "  WARN Unused ignores" (str/join " " (keys unused))))
+
+    (when-some [unused (not-empty (reduce disj skip-ignores? ligas'))]
+      (println "  WARN Unused skip-ignores?" (str/join " " unused)))
+
+    (when-some [unused (not-empty (reduce disj manual? ligas))]
+      (println "  WARN Unused manual?" (str/join " " unused)))
 
     (println "  generated calt:" 
       ; (str/join " " glyphs)

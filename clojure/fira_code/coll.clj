@@ -3,8 +3,9 @@
 
 (defn index-of [pred xs]
   (let [res (reduce (fn [i x] (if (pred x) (reduced i) (inc i))) 0 xs)]
-    (assert (< res (count xs)) "Nothing found")
-    res))
+    (if (>= res (count xs))
+      -1
+      res)))
 
 
 (defn group-by-to [key-fn value-fn xs]

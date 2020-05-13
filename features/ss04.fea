@@ -1,0 +1,7 @@
+# Name: Lightweight Dollar Sign
+
+sub dollar by dollar.ss04;
+
+sub dollar_greater.liga by dollar_greater.liga.ss04;
+sub less_dollar_greater.liga by less_dollar_greater.liga.ss04;
+sub less_dollar.liga by less_dollar.liga.ss04;

@@ -1,0 +1,15 @@
+# Name: Regex matching operator
+
+lookup equal_asciitilde {
+  ignore sub equal equal' asciitilde;
+  ignore sub equal' asciitilde asciitilde;
+  sub equal.spacer asciitilde' by equal_asciitilde.ss07;
+  sub equal'       asciitilde  by equal.spacer;
+} equal_asciitilde;
+
+lookup exclam_asciitilde {
+  ignore sub exclam exclam' asciitilde;
+  ignore sub exclam' asciitilde asciitilde;
+  sub exclam.spacer asciitilde' by exclam_asciitilde.ss07;
+  sub exclam'       asciitilde  by exclam.spacer;
+} exclam_asciitilde;

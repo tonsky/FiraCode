@@ -1,0 +1,5 @@
+# Name: Traditional At sign
+
+sub at by at.ss05;
+sub asciitilde.spacer' asciitilde_at.liga by asciitilde;
+sub asciitilde asciitilde_at.liga' by at.ss05;

@@ -154,7 +154,38 @@
 
 (defn update-code [font key name f & args]
   (let [idx (coll/index-of #(= (:name %) name) (get font key))]
+    (assert (>= idx 0) (str "Can’t find " key "[name=\"" name "\"], got " (str/join ", " (map :name (get font key)))))
     (apply update-in font [key idx :code] f args)))
+
+
+(defn lines [s]
+  (inc (count (re-seq #"\n" s))))
+
+
+(defn words [s]
+  (count (re-seq #"[^\s]+" s)))
+
+
+(defn set-feature [font name feature]
+  (let [idx (coll/index-of #(= (:name %) name) (:features font))]
+    (if (pos? idx)
+      (do
+        (println "  replacing feature" name "with" (lines (:code feature)) "lines")
+        (assoc-in font [:features idx] feature))
+      (do
+        (println "  appending to feature" name (lines (:code feature)) "lines")
+        (update font :features conj feature)))))
+
+
+(defn set-class [font name class]
+  (let [idx (coll/index-of #(= (:name %) name) (:classes font))]
+    (if (pos? idx)
+      (do
+        (println "  replacing class" name "with" (words (:code class)) "entries")
+        (assoc-in font [:classes idx] class))
+      (do
+        (println "  appending to class" name (words (:code class)) "entries")
+        (update font :classes conj class)))))
 
 
 (def weights
