@@ -65,14 +65,22 @@
     ["colon" "greater"]
     "  ignore sub colon' greater equal;\n"
 
-    ;; #346 <=< <=> <=|
+    ;; #346 =:=
+    ["colon" "equal"]
+    "  ignore sub equal colon' equal;\n"
+
+    ;; #346 =!=
+    ["exclam" "equal"]
+    "  ignore sub equal exclam' equal;\n"
+
+    ;; #346 <=< <=> <=| <=: <=! <=/
     ["less" "equal"]
-    "  ignore sub less' equal [less greater bar];\n"
+    "  ignore sub less' equal [less greater bar colon exclam slash];\n"
     
     ;; #548 >=<
-    ;; #346 >=> >=< >=|
+    ;; #346 >=> >=< >=| >=: >=! >=/
     ["greater" "equal"]
-    "  ignore sub greater' equal [less greater bar];\n"
+    "  ignore sub greater' equal [less greater bar colon exclam slash];\n"
 
     ;; #593 {|}
     ["braceleft" "bar"]
@@ -109,22 +117,26 @@
     ["less" "less" "less"]
     "  ignore sub less' less less [asterisk plus dollar];\n"
 
-    ;; #968 [==> [=>
-    ;; #346 <==> <===> |==| |===|
+    ;; #968 [==
+    ;; #346 <==> >==< |==| /==/ 
     ["equal" "equal"]
-    (str "  ignore sub [bracketleft less greater bar] equal' equal;\n"
-         "  ignore sub equal' equal [bracketright less greater bar] ;\n")
+    (str "  ignore sub [bracketleft less greater bar slash] equal' equal;\n"
+         "  ignore sub equal' equal [bracketright less greater bar slash] ;\n")
 
+    ;; #968 [===
+    ;; #346 <===> >===< |===| /===/
     ["equal" "equal" "equal"]
-    (str "  ignore sub [bracketleft less greater bar] equal' equal equal;\n"
-         "  ignore sub equal' equal equal [bracketright less greater bar];\n")
+    (str "  ignore sub [bracketleft less greater bar slash] equal' equal equal;\n"
+         "  ignore sub equal' equal equal [bracketright less greater bar slash];\n")
 
-    ;; #968 [-> [-->
-    ;; #346 <--> <---> |--| |---|
+    ;; #968 [--
+    ;; #346 <--> >--< |--|
     ["hyphen" "hyphen"]
     (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen;\n"
          "  ignore sub hyphen' hyphen [bracketright less greater bar];\n")
 
+    ;; #968 [---
+    ;; #346 <---> >---< |---|
     ["hyphen" "hyphen" "hyphen"]
     (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen hyphen;\n"
          "  ignore sub hyphen' hyphen hyphen [bracketright less greater bar];\n")

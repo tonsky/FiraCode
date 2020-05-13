@@ -1,6 +1,11 @@
 ### Arbitrary-length arrows #346
 
 lookup arrows {
+  # Disable |||
+  ignore sub bar bar' bar hyphen;
+  ignore sub bar bar' hyphen;
+  ignore sub [hyphen_start.arw hyphen_end.arw] bar' bar bar;
+
   # continue hyphen
   sub [less_start.arw less_less_start.arw less_middle.arw less_less_middle.arw greater_start.arw greater_greater_start.arw greater_middle.arw greater_greater_middle.arw bar_start.arw bar_bar_start.arw bar_middle.arw bar_bar_middle.arw hyphen_start.arw hyphen_end.arw] hyphen' by hyphen_end.arw;
 
@@ -46,13 +51,13 @@ lookup arrows {
 } arrows;
 
 lookup double_arrows {
-  # Disable >=< #548
-  # ignore sub greater' equal less;
-  # ignore sub greater equal' less;
-  # ignore sub greater equal less';
+  # Disable |||
+  ignore sub bar bar' bar equal;
+  ignore sub bar bar' equal;
+  ignore sub [equal_start.darw equal_end.darw] bar' bar bar;
 
   # continue hyphen
-  sub [less_start.darw less_less_start.darw less_middle.darw less_less_middle.darw greater_start.darw greater_greater_start.darw greater_middle.darw greater_greater_middle.darw bar_start.darw bar_bar_start.darw bar_middle.darw bar_bar_middle.darw equal_start.darw equal_end.darw] equal' by equal_end.darw;
+  sub [less_start.darw less_less_start.darw less_middle.darw less_less_middle.darw greater_start.darw greater_greater_start.darw greater_middle.darw greater_greater_middle.darw bar_start.darw bar_bar_start.darw bar_middle.darw bar_bar_middle.darw slash_start.darw slash_middle.darw colon_middle.darw exclam_middle.darw equal_start.darw equal_end.darw] equal' by equal_end.darw;
 
   # double middles
   sub [equal_start.darw equal_end.darw] less.spacer    less'    equal by less_less_middle.darw;
@@ -66,6 +71,9 @@ lookup double_arrows {
   sub [equal_start.darw equal_end.darw] less'    equal by less_middle.darw;
   sub [equal_start.darw equal_end.darw] greater' equal by greater_middle.darw;
   sub [equal_start.darw equal_end.darw] bar'     equal by bar_middle.darw;
+  sub [equal_start.darw equal_end.darw] slash'   equal by slash_middle.darw;
+  sub [equal_start.darw equal_end.darw] colon'   equal by colon_middle.darw;
+  sub [equal_start.darw equal_end.darw] exclam'  equal by exclam_middle.darw;
 
   # double ends
   sub [equal_start.darw equal_end.darw] less.spacer    less'    by less_less_end.darw;
@@ -79,6 +87,7 @@ lookup double_arrows {
   sub [equal_start.darw equal_end.darw] less'    by less_end.darw;
   sub [equal_start.darw equal_end.darw] greater' by greater_end.darw;
   sub [equal_start.darw equal_end.darw] bar'     by bar_end.darw;
+  sub [equal_start.darw equal_end.darw] slash'   by slash_end.darw;
 
   # double beginnings
   sub less.spacer    less'    equal by less_less_start.darw;
@@ -88,9 +97,19 @@ lookup double_arrows {
   sub bar.spacer     bar'     equal by bar_bar_start.darw;
   sub bar'           bar      equal by bar.spacer;
 
+  # Disable >=< #548
+  sub greater' equal less [equal less] by greater_start.darw;
+  ignore sub greater' equal less;
+  
+  # Disable =< #479 #468 #424 #406 #355 #305
+  sub equal' less [equal less] by equal_start.darw;
+  ignore sub equal' less;
+
   # single beginnings
   sub less'    equal by less_start.darw;
   sub greater' equal by greater_start.darw;
   sub bar'     equal by bar_start.darw;
-  sub equal'  [equal less greater bar] by equal_start.darw;
+  sub slash'   equal by slash_start.darw;
+  sub equal'  [equal less greater bar colon exclam slash] by equal_start.darw;
+
 } double_arrows;
