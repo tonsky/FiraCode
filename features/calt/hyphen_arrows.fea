@@ -1,54 +1,53 @@
-
 ### Arbitrary-length arrows #346
 
 lookup hyphen_arrows {
   # Disable |||
   ignore sub bar bar' bar hyphen;
   ignore sub bar bar' hyphen;
-  ignore sub [hyphen_start.arw hyphen_middle.arw] bar' bar bar;
+  ignore sub [hyphen_start.seq hyphen_middle.seq] bar' bar bar;
 
   # hyphen middle & end
-  sub [less_start.arw less_less_start.arw less_middle.arw less_less_middle.arw greater_start.arw greater_greater_start.arw greater_middle.arw greater_greater_middle.arw bar_start.arw bar_bar_start.arw bar_middle.arw bar_bar_middle.arw hyphen_start.arw hyphen_middle.arw] hyphen' [hyphen less greater bar] by hyphen_middle.arw;
+  sub [less_hyphen_start.seq less_less_hyphen_start.seq less_hyphen_middle.seq less_less_hyphen_middle.seq greater_hyphen_start.seq greater_greater_hyphen_start.seq greater_hyphen_middle.seq greater_greater_hyphen_middle.seq bar_hyphen_start.seq bar_bar_hyphen_start.seq bar_hyphen_middle.seq bar_bar_hyphen_middle.seq hyphen_start.seq hyphen_middle.seq] hyphen' [hyphen less greater bar] by hyphen_middle.seq;
 
-  sub [less_start.arw less_less_start.arw less_middle.arw less_less_middle.arw greater_start.arw greater_greater_start.arw greater_middle.arw greater_greater_middle.arw bar_start.arw bar_bar_start.arw bar_middle.arw bar_bar_middle.arw hyphen_start.arw hyphen_middle.arw] hyphen' by hyphen_end.arw;
+  sub [less_hyphen_start.seq less_less_hyphen_start.seq less_hyphen_middle.seq less_less_hyphen_middle.seq greater_hyphen_start.seq greater_greater_hyphen_start.seq greater_hyphen_middle.seq greater_greater_hyphen_middle.seq bar_hyphen_start.seq bar_bar_hyphen_start.seq bar_hyphen_middle.seq bar_bar_hyphen_middle.seq hyphen_start.seq hyphen_middle.seq] hyphen' by hyphen_end.seq;
 
   # double middles
-  sub [hyphen_start.arw hyphen_middle.arw] less.spacer    less'    hyphen by less_less_middle.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] less'          less     hyphen by less.spacer;
-  sub [hyphen_start.arw hyphen_middle.arw] greater.spacer greater' hyphen by greater_greater_middle.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] greater'       greater  hyphen by greater.spacer;
-  sub [hyphen_start.arw hyphen_middle.arw] bar.spacer     bar'     hyphen by bar_bar_middle.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] bar'           bar      hyphen by bar.spacer;
+  sub [hyphen_start.seq hyphen_middle.seq] less.spacer    less'    hyphen by less_less_hyphen_middle.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] less'          less     hyphen by less.spacer;
+  sub [hyphen_start.seq hyphen_middle.seq] greater.spacer greater' hyphen by greater_greater_hyphen_middle.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] greater'       greater  hyphen by greater.spacer;
+  sub [hyphen_start.seq hyphen_middle.seq] bar.spacer     bar'     hyphen by bar_bar_hyphen_middle.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] bar'           bar      hyphen by bar.spacer;
 
   # single middles
-  sub [hyphen_start.arw hyphen_middle.arw] less'    hyphen by less_middle.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] greater' hyphen by greater_middle.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] bar'     hyphen by bar_middle.arw;
+  sub [hyphen_start.seq hyphen_middle.seq] less'    hyphen by less_hyphen_middle.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] greater' hyphen by greater_hyphen_middle.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] bar'     hyphen by bar_hyphen_middle.seq;
 
   # double ends
-  sub [hyphen_start.arw hyphen_middle.arw] less.spacer    less'    by less_less_end.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] less'          less     by less.spacer;
-  sub [hyphen_start.arw hyphen_middle.arw] greater.spacer greater' by greater_greater_end.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] greater'       greater  by greater.spacer;
-  sub [hyphen_start.arw hyphen_middle.arw] bar.spacer     bar'     by bar_bar_end.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] bar'           bar      by bar.spacer;
+  sub [hyphen_start.seq hyphen_middle.seq] less.spacer    less'    by less_less_hyphen_end.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] less'          less     by less.spacer;
+  sub [hyphen_start.seq hyphen_middle.seq] greater.spacer greater' by greater_greater_hyphen_end.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] greater'       greater  by greater.spacer;
+  sub [hyphen_start.seq hyphen_middle.seq] bar.spacer     bar'     by bar_bar_hyphen_end.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] bar'           bar      by bar.spacer;
 
   # single ends
-  sub [hyphen_start.arw hyphen_middle.arw] less'    by less_end.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] greater' by greater_end.arw;
-  sub [hyphen_start.arw hyphen_middle.arw] bar'     by bar_end.arw;
+  sub [hyphen_start.seq hyphen_middle.seq] less'    by less_hyphen_end.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] greater' by greater_hyphen_end.seq;
+  sub [hyphen_start.seq hyphen_middle.seq] bar'     by bar_hyphen_end.seq;
 
   # double beginnings
-  sub less.spacer    less'    hyphen by less_less_start.arw;
+  sub less.spacer    less'    hyphen by less_less_hyphen_start.seq;
   sub less'          less     hyphen by less.spacer;
-  sub greater.spacer greater' hyphen by greater_greater_start.arw;
+  sub greater.spacer greater' hyphen by greater_greater_hyphen_start.seq;
   sub greater'       greater  hyphen by greater.spacer;
-  sub bar.spacer     bar'     hyphen by bar_bar_start.arw;
+  sub bar.spacer     bar'     hyphen by bar_bar_hyphen_start.seq;
   sub bar'           bar      hyphen by bar.spacer;
 
   # single beginnings
-  sub less'    hyphen by less_start.arw;
-  sub greater' hyphen by greater_start.arw;
-  sub bar'     hyphen by bar_start.arw;
-  sub hyphen' [hyphen less greater bar] by hyphen_start.arw;
+  sub less'    hyphen by less_hyphen_start.seq;
+  sub greater' hyphen by greater_hyphen_start.seq;
+  sub bar'     hyphen by bar_hyphen_start.seq;
+  sub hyphen' [hyphen less greater bar] by hyphen_start.seq;
 } hyphen_arrows;

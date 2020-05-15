@@ -1,0 +1,14 @@
+lookup underscores {
+  # middle parts
+  sub [underscore_start.seq underscore_middle.seq] bar' underscore by bar_underscore_middle.seq;
+
+  sub [underscore_start.seq underscore_middle.seq bar_underscore_middle.seq] underscore' bar underscore by underscore_middle.seq;
+  sub [underscore_start.seq underscore_middle.seq bar_underscore_middle.seq] underscore' underscore by underscore_middle.seq;
+
+  # ends
+  sub [underscore_start.seq underscore_middle.seq bar_underscore_middle.seq] underscore' by underscore_end.seq;
+  
+  # beginnings
+  sub underscore' bar underscore by underscore_start.seq; 
+  sub underscore' underscore by underscore_start.seq; 
+} underscores;

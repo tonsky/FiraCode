@@ -1,0 +1,10 @@
+lookup numbersigns {
+  # middle parts
+  sub [numbersign_start.seq numbersign_middle.seq] numbersign' numbersign by numbersign_middle.seq;
+
+  # ends
+  sub [numbersign_start.seq numbersign_middle.seq] numbersign' by numbersign_end.seq;
+  
+  # beginnings
+  sub numbersign' numbersign by numbersign_start.seq; 
+} numbersigns;
