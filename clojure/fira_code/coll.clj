@@ -14,3 +14,12 @@
       (assoc m k (value-fn vs)))
     {}
     (group-by key-fn xs)))
+
+
+(defn multimap-by [f & kvs]
+  (reduce
+    (fn [m [k v]]
+      (if (contains? m k)
+        (update m k f v)
+        (assoc m k v)))
+    {} (partition 2 kvs)))

@@ -32,9 +32,20 @@
         " " (str/join " " (drop 1 liga))
         ";\n"))))
 
+;; #346 We need << <<< >> >>> || ||| substituted before -- --- == ===
+;; so that `ignore [less greater bar] hyphen hyphen` would not trigger
+(def priority?
+  #{["less" "less"]
+    ["less" "less" "less"]
+    ["greater" "greater"]
+    ["greater" "greater" "greater"]
+    ["bar" "bar"]
+    ["bar" "bar" "bar"]})
+
 
 (def ignores
-  { ["slash" "asterisk"]
+  (coll/multimap-by str
+    ["slash" "asterisk"]
     (str
       "  ignore sub slash' asterisk slash;\n"
       "  ignore sub asterisk slash' asterisk;\n")
@@ -65,23 +76,6 @@
     ["colon" "greater"]
     "  ignore sub colon' greater equal;\n"
 
-    ;; #346 =:=
-    ["colon" "equal"]
-    "  ignore sub equal colon' equal;\n"
-
-    ;; #346 =!=
-    ["exclam" "equal"]
-    "  ignore sub equal exclam' equal;\n"
-
-    ;; #346 <=< <=> <=| <=: <=! <=/
-    ["less" "equal"]
-    "  ignore sub less' equal [less greater bar colon exclam slash];\n"
-    
-    ;; #548 >=<
-    ;; #346 >=> >=< >=| >=: >=! >=/
-    ["greater" "equal"]
-    "  ignore sub greater' equal [less greater bar colon exclam slash];\n"
-
     ;; #593 {|}
     ["braceleft" "bar"]
     "  ignore sub braceleft' bar braceright;\n"
@@ -97,55 +91,92 @@
     "  ignore sub bracketleft bar' bracketright;\n"
 
     ;; #410 <*>> <+>> <$>>
-    ;; #346 >>->> >>=>>
     ["greater" "greater"]
-    (str "  ignore sub [asterisk plus dollar hyphen equal] greater' greater;\n"
-         "  ignore sub greater' greater [hyphen equal];\n")
-
+    "  ignore sub [asterisk plus dollar] greater' greater;\n"
+    
     ;; #410 <*>>> <+>>> <$>>>
-    ;; #346 >>>->>> >>>=>>>
     ["greater" "greater" "greater"]
     "  ignore sub [asterisk plus dollar] greater' greater greater;\n"
 
     ;; #410 <<*> <<+> <<$>
-    ;; #346 <<-<< <<=<<
     ["less" "less"]
-    (str "  ignore sub [hyphen equal] less' less;\n"
-         "  ignore sub less' less [asterisk plus dollar hyphen equal];\n")
+    "  ignore sub less' less [asterisk plus dollar];\n"
 
     ;; #410 <<<*> <<<+> <<<$>
     ["less" "less" "less"]
     "  ignore sub less' less less [asterisk plus dollar];\n"
 
-    ;; #968 [==
-    ;; #346 <==> >==< |==| /==/ 
+    ;; #968 [== ==]
     ["equal" "equal"]
-    (str "  ignore sub [bracketleft less greater bar slash] equal' equal;\n"
-         "  ignore sub equal' equal [bracketright less greater bar slash] ;\n")
+    (str "  ignore sub bracketleft equal' equal;\n"
+         "  ignore sub equal' equal bracketright;\n")
 
-    ;; #968 [===
-    ;; #346 <===> >===< |===| /===/
+    ;; #968 [=== ===]
     ["equal" "equal" "equal"]
-    (str "  ignore sub [bracketleft less greater bar slash] equal' equal equal;\n"
-         "  ignore sub equal' equal equal [bracketright less greater bar slash];\n")
+    (str "  ignore sub bracketleft equal' equal equal;\n"
+         "  ignore sub equal' equal equal bracketright;\n")
 
-    ;; #968 [--
-    ;; #346 <--> >--< |--|
-    ["hyphen" "hyphen"]
-    (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen;\n"
-         "  ignore sub hyphen' hyphen [bracketright less greater bar];\n")
+    ;; #346 =:=
+    ["colon" "equal"]
+    "  ignore sub equal colon' equal;\n"
 
-    ;; #968 [---
-    ;; #346 <---> >---< |---|
-    ["hyphen" "hyphen" "hyphen"]
-    (str "  ignore sub [bracketleft less greater bar] hyphen' hyphen hyphen;\n"
-         "  ignore sub hyphen' hyphen hyphen [bracketright less greater bar];\n")
+    ;; #346 =!=
+    ["exclam" "equal"]
+    "  ignore sub equal exclam' equal;\n"
+    ;; #346 =!==
+    ["exclam" "equal" "equal"]
+    "  ignore sub equal exclam' equal equal;\n"
+
+    ;; #346 =<= <=< <=> <=| <=: <=! <=/
+    ["less" "equal"]
+    (str "  ignore sub equal less' equal;\n"
+         "  ignore sub less' equal [less greater bar colon exclam slash];\n")
+    
+    ;; #548 >=<
+    ;; #346 =>= >=> >=< >=| >=: >=! >=/
+    ["greater" "equal"]
+    (str "  ignore sub equal greater' equal;\n"
+         "  ignore sub greater' equal [less greater bar colon exclam slash];\n")
+
+    ;; #346 >>->> >>=>>
+    ["greater" "greater"]
+    (str "  ignore sub [hyphen equal] greater' greater;\n"
+         "  ignore sub greater' greater [hyphen equal];\n")
+
+    ;; #346 <<-<< <<=<<
+    ["less" "less"]
+    (str "  ignore sub [hyphen equal] less' less;\n"
+         "  ignore sub less' less [hyphen equal];\n")
 
     ;; #346 ||-|| ||=||
     ["bar" "bar"]
     (str "  ignore sub [hyphen equal] bar' bar;\n"
          "  ignore sub bar' bar [hyphen equal];\n")
-})
+
+    ;; #346 <--> >--< |--|
+    ["hyphen" "hyphen"]
+    (str "  ignore sub [less greater bar] hyphen' hyphen;\n"
+         "  ignore sub hyphen' hyphen [less greater bar];\n")
+
+    ;; #346 <---> >---< |---|
+    ["hyphen" "hyphen" "hyphen"]
+    (str "  ignore sub [less greater bar] hyphen' hyphen hyphen;\n"
+         "  ignore sub hyphen' hyphen hyphen [less greater bar];\n")
+
+    ;; #346 <==> >==< |==| /==/ =:== =!== ==:= ==!=
+    ["equal" "equal"]
+    (str "  ignore sub equal [colon exclam] equal' equal;\n"
+         "  ignore sub [less greater bar slash] equal' equal;\n"
+         "  ignore sub equal' equal [less greater bar slash] ;\n"
+         "  ignore sub equal' equal [colon exclam] equal;\n")
+
+    ;; #346 <===> >===< |===| /===/ =:=== =!=== ===:= ===!=
+    ["equal" "equal" "equal"]
+    (str "  ignore sub equal [colon exclam] equal' equal equal;\n"
+         "  ignore sub [less greater bar slash] equal' equal equal;\n"
+         "  ignore sub equal' equal equal [less greater bar slash];\n"
+         "  ignore sub equal' equal equal [colon exclam] equal;\n")
+))
 
 
 ;; DO NOT generate ignores at all
@@ -238,6 +269,8 @@
 
 (defn compare-ligas [l1 l2]
   (cond
+    (and (priority? l1) (not (priority? l2))) -1
+    (and (not (priority? l1)) (priority? l2)) 1
     (> (count l1) (count l2)) -1
     (< (count l1) (count l2)) 1
     :else (compare l1 l2)))

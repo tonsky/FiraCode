@@ -1,8 +1,14 @@
 lookup underscore_arrows {
+  # middle parts
   sub [underscore_start.uarw underscore_middle.uarw] bar' underscore by bar_middle.uarw;
+
   sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' bar underscore by underscore_middle.uarw;
   sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' underscore by underscore_middle.uarw;
+
+  # ends
   sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' by underscore_end.uarw;
+  
+  # beginnings
   sub underscore' bar underscore by underscore_start.uarw; 
   sub underscore' underscore by underscore_start.uarw; 
 } underscore_arrows;

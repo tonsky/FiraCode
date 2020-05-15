@@ -1,8 +1,13 @@
 {
 .appVersion = "1330";
+DisplayStrings = (
+":/space =:/space ==:/space ===:/space ====:\012:=/space =:=/space ==:=/space ===:=/space ====:=\012:==/space =:==/space ==:==/space ===:==/space ====:==\012:===/space =:===/space ==:===/space ===:===/space ====:===\012:====/space =:====/space ==:====/space ===:====/space ====:====\012",
+"!/space =!/space ==!/space ===!/space ====!\012!=/space =!=/space ==!=/space ===!=/space ====!=\012!==/space =!==/space ==!==/space ===!==/space ====!==\012!===/space =!===/space ==!===/space ===!===/space ====!===\012!====/space =!====/space ==!====/space ===!====/space ====!====\012",
+"[>----------]\012[=>---------]\012[==>--------]\012[===>-------]\012[====>------]\012[=====>-----]\012[======>----]\012[=======>---]\012[========>--]\012[=========>-]\012[==========>]\012"
+);
 classes = (
 {
-code = "A A-cy AE AEacute Aacute Abreve Abreve-cy Acircumflex Adieresis Adieresis-cy Agrave Aie-cy Aleutka-cy Alpha Alphadasia Alphadasiaoxia Alphadasiaoxiaprosgegrammeni Alphadasiaperispomeni Alphadasiaperispomeniprosgegrammeni Alphadasiaprosgegrammeni Alphadasiavaria Alphadasiavariaprosgegrammeni Alphamacron Alphaoxia Alphaprosgegrammeni Alphapsili Alphapsilioxia Alphapsilioxiaprosgegrammeni Alphapsiliperispomeni Alphapsiliperispomeniprosgegrammeni Alphapsiliprosgegrammeni Alphapsilivaria Alphapsilivariaprosgegrammeni Alphatonos Alphavaria Alphavrachy Amacron Aogonek Archaicsampi Aring Atilde B BdoubleStruck Be-cy Beta C CR Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent CdoubleStruck Che-cy Cheabkhasian-cy Chedescender-cy Chedescenderabkhasian-cy Chedieresis-cy Chekhakassian-cy Cheverticalstroke-cy Chi D Dcaron Dche-cy Dcroat De-cy Delta Digamma Dje-cy Dze-cy Dzeabkhasian-cy Dzhe-cy Dzzhe-cy E E-cy Eacute Ebreve Ecaron Ecircumflex Edieresis Edieresis-cy Edotaccent Ef-cy Egrave Eiotified-cy El-cy Eldescender-cy Elhook-cy Elmiddlehook-cy Eltail-cy Em-cy Emacron Emtail-cy En-cy EnLeftHook-cy Endescender-cy Eng Enghe-cy Enhook-cy Enmiddlehook-cy Entail-cy Eogonek Epsilon Epsilondasia Epsilondasiaoxia Epsilondasiavaria Epsilonoxia Epsilonpsili Epsilonpsilioxia Epsilonpsilivaria Epsilontonos Epsilonvaria Er-cy Ereversed-cy Ertick-cy Es-cy Esdescender-cy Eta Etadasia Etadasiaoxia Etadasiaoxiaprosgegrammeni Etadasiaperispomeni Etadasiaperispomeniprosgegrammeni Etadasiaprosgegrammeni Etadasiavaria Etadasiavariaprosgegrammeni Etaoxia Etaprosgegrammeni Etapsili Etapsilioxia Etapsilioxiaprosgegrammeni Etapsiliperispomeni Etapsiliperispomeniprosgegrammeni Etapsiliprosgegrammeni Etapsilivaria Etapsilivariaprosgegrammeni Etatonos Etavaria Eth F F.spacer Fita-cy G Gamma Gbreve Gcircumflex Gcommaaccent Gdotaccent Ge-cy Gedescender-cy Germandbls Gestrokehook-cy Ghemiddlehook-cy Ghestroke-cy Gheupturn-cy Gje-cy H H18543 H18551 H22073 Ha-cy Haabkhasian-cy Hadescender-cy Hahook-cy Hardsign-cy Hastroke-cy Hbar Hcircumflex HdoubleStruck Heta I I-cy IJ Ia-cy Iacute Ibreve Icircumflex Idieresis Idieresis-cy Idotaccent Ie-cy Iebreve-cy Iegrave-cy Igrave Ii-cy Iigrave-cy Iishort-cy Iishorttail-cy Imacron Imacron-cy Io-cy Iogonek Iota Iotadasia Iotadasiaoxia Iotadasiaperispomeni Iotadasiavaria Iotadieresis Iotamacron Iotaoxia Iotapsili Iotapsilioxia Iotapsiliperispomeni Iotapsilivaria Iotatonos Iotavaria Iotavrachy Itilde Iu-cy Izhitsa-cy Izhitsadblgrave-cy J Jcircumflex Je-cy K Ka-cy Kabashkir-cy Kadescender-cy Kahook-cy KaiSymbol Kappa Kastroke-cy Kaverticalstroke-cy Kcommaaccent Kje-cy Komide-cy Komidje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Komizje-cy Koppa KoppaArchaic Ksi-cy L LIG Lacute Lambda Lcaron Lcommaaccent Ldot Lha-cy Lje-cy Lslash M Mu N Nacute Nacute.loclPLK Ncaron Ncommaaccent NdoubleStruck Nje-cy Ntilde Nu O O-cy OE Oacute Oacute.loclPLK Obarred-cy Obarreddieresis-cy Obreve Ocircumflex Odieresis Odieresis-cy Ograve Ohungarumlaut Omacron Omega Omega-cy Omegadasia Omegadasiaoxia Omegadasiaoxiaprosgegrammeni Omegadasiaperispomeni Omegadasiaperispomeniprosgegrammeni Omegadasiaprosgegrammeni Omegadasiavaria Omegadasiavariaprosgegrammeni Omegaoxia Omegaprosgegrammeni Omegapsili Omegapsilioxia Omegapsilioxiaprosgegrammeni Omegapsiliperispomeni Omegapsiliperispomeniprosgegrammeni Omegapsiliprosgegrammeni Omegapsilivaria Omegapsilivariaprosgegrammeni Omegatonos Omegavaria Omicron Omicrondasia Omicrondasiaoxia Omicrondasiavaria Omicronoxia Omicronpsili Omicronpsilioxia Omicronpsilivaria Omicrontonos Omicronvaria Oslash Oslashacute Otilde P Palochka-cy Pamphyliandigamma PdoubleStruck Pe-cy Pedescender-cy Pemiddlehook-cy Phi Pi Psi Psi-cy Q Qa-cy QdoubleStruck R Racute Rcaron Rcommaaccent RdoubleStruck Reversedze-cy Rha-cy Rho Rhodasia S SF010000 SF020000 SF030000 SF040000 SF050000 SF060000 SF070000 SF080000 SF090000 SF100000 SF110000 SF190000 SF200000 SF210000 SF220000 SF230000 SF240000 SF250000 SF260000 SF270000 SF280000 SF360000 SF370000 SF380000 SF390000 SF400000 SF410000 SF420000 SF430000 SF440000 SF450000 SF460000 SF470000 SF480000 SF490000 SF500000 SF510000 SF520000 SF530000 SF540000 Sacute Sacute.loclPLK Sampi San Scaron Scedilla Schwa-cy Schwadieresis-cy Scircumflex Scommaaccent Semisoftsign-cy Sha-cy Shcha-cy Shha-cy Shhadescender-cy Sho Sigma SigmaLunateDottedReversedSymbol SigmaLunateDottedSymbol SigmaLunateReversedSymbol SigmaLunateSymbol Softsign-cy Stigma T T.spacer Tau Tbar Tcaron Tcedilla Tcommaaccent Te-cy Tedescender-cy Tetse-cy Theta ThetaSymbol Thorn Tse-cy Tshe-cy U U-cy Uacute Ubreve Ucircumflex Udieresis Udieresis-cy Ugrave Uhungarumlaut Uhungarumlaut-cy Uk-cy Umacron Umacron-cy Uogonek Upsilon UpsilonacutehookSymbol Upsilondasia Upsilondasiaoxia Upsilondasiaperispomeni Upsilondasiavaria Upsilondieresis UpsilondieresishookSymbol UpsilonhookSymbol Upsilonmacron Upsilonoxia Upsilontonos Upsilonvaria Upsilonvrachy Uring Ushort-cy Ustrait-cy Ustraitstroke-cy Utilde V Ve-cy W Wacute Wcircumflex Wdieresis We-cy Wgrave X Xi Y Yacute Yae-cy Yat-cy Ycircumflex Ydieresis Yeru-cy Yerudieresis-cy Ygrave Yi-cy Yot-greek Yusbig-cy Yusbigiotified-cy Yuslittle-cy Yuslittleiotified-cy Z Zacute Zacute.loclPLK Zcaron Zdotaccent ZdoubleStruck Ze-cy Zedescender-cy Zedieresis-cy Zeta Zhe-cy Zhebreve-cy Zhedescender-cy Zhedieresis-cy a a-cy aacute abreve abreve-cy acircumflex acknowledge-control acute acute.case acute.case.loclPLK acute.loclPLK acutecomb adieresis adieresis-cy ae aeacute afii00208 agrave aie-cy aleutka-cy alpha alphadasia alphadasiaoxia alphadasiaoxiaypogegrammeni alphadasiaperispomeni alphadasiaperispomeniypogegrammeni alphadasiavaria alphadasiavariaypogegrammeni alphadasiaypogegrammeni alphamacron alphaoxia alphaoxiaypogegrammeni alphaperispomeni alphaperispomeniypogegrammeni alphapsili alphapsilioxia alphapsilioxiaypogegrammeni alphapsiliperispomeni alphapsiliperispomeniypogegrammeni alphapsilivaria alphapsilivariaypogegrammeni alphapsiliypogegrammeni alphatonos alphavaria alphavariaypogegrammeni alphavrachy alphaypogegrammeni alternativekeysymbol amacron ampersand ampersand.before.ss03 ampersand.spacer ampersand.ss03 ampersand_ampersand.liga anoteleia anticlockwiseGappedCircleArrow aogonek apostrophemod approxequal archaicsampi aring arrowboth arrowdown arrowdownleft arrowdownright arrowdownwhite arrowleft arrowleftwhite arrowright arrowrightwhite arrowup arrowupdown arrowupleft arrowupright arrowupwhite asciicircum asciicircum.spacer asciicircum_equal.liga asciitilde asciitilde.spacer asciitilde_asciitilde.liga asciitilde_asciitilde_greater.liga asciitilde_at.liga asciitilde_greater.liga asciitilde_hyphen.liga assertion asterisk asterisk.lc asterisk.spacer asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga at at.spacer at.ss05 atilde b backslash backslash.spacer backslash.ss06 backslash.thick.ss06 backslash_slash.liga backspace-control ballotBox ballotBoxWithCheck ballotBoxWithX bar bar.spacer bar_bar.liga bar_bar_bar_greater.liga bar_bar_end.arw bar_bar_end.darw bar_bar_greater.liga bar_bar_middle.arw bar_bar_middle.darw bar_bar_start.arw bar_bar_start.darw bar_braceright.liga bar_bracketright.liga bar_end.arw bar_end.darw bar_greater.liga bar_middle.arw bar_middle.darw bar_middle.uarw bar_start.arw bar_start.darw be-cy because bell-control beta betaSymbol blackCircle blackDiamond blackLowerLeftTriangle blackLowerRightTriangle blackRightArrow blackUpperLeftTriangle blackUpperRightTriangle blackVerticalRect blank blankSymbol boxDownHeavyAndHorizontalLight boxDownHeavyAndLeftLight boxDownHeavyAndLeftUpLight boxDownHeavyAndRightLight boxDownHeavyAndRightUpLight boxDownHeavyAndUpHorizontalLight boxDownLightAndHorizontalHeavy boxDownLightAndLeftHeavy boxDownLightAndLeftUpHeavy boxDownLightAndRightHeavy boxDownLightAndRightUpHeavy boxDownLightAndUpHorizontalHeavy boxHeavyDoubleDashHorizontal boxHeavyDoubleDashVertical boxHeavyDown boxHeavyDownAndHorizontal boxHeavyDownAndLeft boxHeavyDownAndRight boxHeavyHorizontal boxHeavyLeft boxHeavyLeftAndLightRight boxHeavyQuadrupleDashHorizontal boxHeavyQuadrupleDashVertical boxHeavyRight boxHeavyTripleDashHorizontal boxHeavyTripleDashVertical boxHeavyUp boxHeavyUpAndHorizontal boxHeavyUpAndLeft boxHeavyUpAndLightDown boxHeavyUpAndRight boxHeavyVertical boxHeavyVerticalAndHorizontal boxHeavyVerticalAndLeft boxHeavyVerticalAndRight boxLeftDownHeavyAndRightUpLight boxLeftHeavyAndRightDownLight boxLeftHeavyAndRightUpLight boxLeftHeavyAndRightVerticalLight boxLeftLightAndRightDownHeavy boxLeftLightAndRightUpHeavy boxLeftLightAndRightVerticalHeavy boxLeftUpHeavyAndRightDownLight boxLightDiagonalCross boxLightDiagonalUpperLeftToLowerRight boxLightDiagonalUpperRightToLowerLeft boxLightDoubleDashHorizontal boxLightDoubleDashVertical boxLightDown boxLightLeft boxLightLeftAndHeavyRight boxLightQuadrupleDashHorizontal boxLightQuadrupleDashVertical boxLightRight boxLightTripleDashHorizontal boxLightTripleDashVertical boxLightUp boxLightUpAndHeavyDown boxRightDownHeavyAndLeftUpLight boxRightHeavyAndLeftDownLight boxRightHeavyAndLeftUpLight boxRightHeavyAndLeftVerticalLight boxRightLightAndLeftDownHeavy boxRightLightAndLeftUpHeavy boxRightLightAndLeftVerticalHeavy boxRightUpHeavyAndLeftDownLight boxUpHeavyAndDownHorizontalLight boxUpHeavyAndHorizontalLight boxUpHeavyAndLeftDownLight boxUpHeavyAndLeftLight boxUpHeavyAndRightDownLight boxUpHeavyAndRightLight boxUpLightAndDownHorizontalHeavy boxUpLightAndHorizontalHeavy boxUpLightAndLeftDownHeavy boxUpLightAndLeftHeavy boxUpLightAndRightDownHeavy boxUpLightAndRightHeavy boxVerticalHeavyAndHorizontalLight boxVerticalHeavyAndLeftLight boxVerticalHeavyAndRightLight boxVerticalLightAndHorizontalHeavy boxVerticalLightAndLeftHeavy boxVerticalLightAndRightHeavy braceleft braceleft.case braceleft.spacer braceleft_bar.liga braceright braceright.case braceright.spacer bracketleft bracketleft.case bracketleft.spacer bracketleft_bar.liga bracketright bracketright.case bracketright.spacer bracketright_numbersign.liga breve breve-cy breve-cy.case breve.case brevecomb brokenCircleNorthWestArrow brokenbar bullet bulletoperator bullseye c cacute cacute.loclPLK canadiansyllabicsa canadiansyllabicso cancel-control capslock caron caron.alt caron.case caroncomb carriageReturn-control ccaron ccedilla ccircumflex cdotaccent cedilla cedilla.case cedillacomb cent che-cy cheabkhasian-cy checkmark chedescender-cy chedescenderabkhasian-cy chedieresis-cy chekhakassian-cy cheverticalstroke-cy chi circumflex circumflex.case circumflexcomb clear clockwiseGappedCircleArrow club colon colon.spacer colon.uc colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga colon_greater.liga colon_less.liga colon_middle.darw comma commaabovecomb commaaccent commaaccent.case commareversedabovecomb containsasmemberSmall control copyright cornerbracketleft cornerbracketleft.half cornerbracketright cornerbracketright.half crosshatchFillSquare curlybracketextension currency d dagger daggerdbl dasia dasiaoxia dasiaperispomeni dasiavaria dataLinkEscape-control dblgravecomb dblverticalbar dcaron dche-cy dcroat de-cy degree delete-control deleteFormTwo-control deleteLeftKey deleterightKey delta deviceControlFour-control deviceControlOne-control deviceControlThree-control deviceControlTwo-control diagonalcrosshatchFillSquare dialytikaoxia dialytikaperispomeni dialytikavaria diameterSign diamond dieresis dieresis.case dieresiscomb dieresistonos digamma divide divisionslash dje-cy dkshade doesnotforce doesnotprove dollar dollar.spacer dollar.ss04 dollar_greater.liga dollar_greater.liga.ss04 dotaccent dotaccent.case dotaccentcomb dotlessi dotlessj dottedlunatesigmasymbol doubleprimemod doubleverticalbardoublerightturnstile downArrowHead downBlackArrow downBlock downQuadrupleArrow drachma dze-cy dzeabkhasian-cy dzhe-cy dzzhe-cy e e-cy eacute earthTrigram ebreve ecaron ecircumflex edieresis edieresis-cy edotaccent ef-cy egrave eight eight.dnom eight.numr eight.tosf eightinferior eightsuperior eiotified-cy ejectsymbol el-cy eldescender-cy element elementSmall elhook-cy ellipsis elmiddlehook-cy eltail-cy em-cy emacron emdash emdash.case emptyset emtail-cy en-cy endOfMedium-control endOfText-control endOfTransmission-control endOfTransmissionBlock-control endash endash.case endescender-cy eng enghe-cy enhook-cy enlefthook-cy enmiddlehook-cy enquiry-control entail-cy eogonek epsilon epsilonLunateReversedSymbol epsilonLunateSymbol epsilondasia epsilondasiaoxia epsilondasiavaria epsilonoxia epsilonpsili epsilonpsilioxia epsilonpsilivaria epsilontonos epsilonvaria equal equal.dnom equal.numr equal.spacer equal_asciitilde.ss07 equal_end.darw equal_equal.liga equal_equal_equal.liga equal_start.darw equalsinferior equalsuperior equivalence er-cy ereversed-cy ertick-cy es-cy escape-control esdescender-cy estimated eta etadasia etadasiaoxia etadasiaoxiaypogegrammeni etadasiaperispomeni etadasiaperispomeniypogegrammeni etadasiavaria etadasiavariaypogegrammeni etadasiaypogegrammeni etaoxia etaoxiaypogegrammeni etaperispomeni etaperispomeniypogegrammeni etapsili etapsilioxia etapsilioxiaypogegrammeni etapsiliperispomeni etapsiliperispomeniypogegrammeni etapsilivaria etapsilivariaypogegrammeni etapsiliypogegrammeni etatonos etavaria etavariaypogegrammeni etaypogegrammeni eth euro exclam exclam.spacer exclam_asciitilde.ss07 exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga exclam_middle.darw exclamdown exclamdown.case existential f f.spacer female figuredash fileSeparator-control filledRect filledbox fireTrigram firsttonechinese fisheye fita-cy five five.dnom five.numr five.tosf fiveeighths fiveinferior fivesixths fivesuperior florin forces formFeed-control four four.dnom four.numr four.tosf fourfifths fourinferior foursuperior fraction fullBlock g gamma gbreve gcircumflex gcommaaccent gdotaccent ge-cy gedescender-cy germandbls gestrokehook-cy ghemiddlehook-cy ghestroke-cy gheupturn-cy gje-cy globeWithMeridians gradient grave grave.case gravecomb greater greater.spacer greater_colon.liga greater_end.arw greater_end.darw greater_equal.liga greater_equal.ss02 greater_greater.liga greater_greater_end.arw greater_greater_end.darw greater_greater_greater.liga greater_greater_middle.arw greater_greater_middle.darw greater_greater_start.arw greater_greater_start.darw greater_middle.arw greater_middle.darw greater_start.arw greater_start.darw greaterequal groupSeparator-control guillemetleft guillemetleft.case guillemetright guillemetright.case guilsinglleft guilsinglleft.case guilsinglright guilsinglright.case h ha-cy haabkhasian-cy hadescender-cy hahook-cy hardsign-cy hastroke-cy hbar hcircumflex heart heavenTrigram helmsymbol heta horizontalFillSquare horizontalTabulation-control house hungarumlaut hungarumlaut.case hungarumlautcomb hyphen hyphen.case hyphen.lc hyphen.spacer hyphen_asciitilde.liga hyphen_end.arw hyphen_hyphen.liga hyphen_hyphen_hyphen.liga hyphen_start.arw i i-cy i.salt_low ia-cy iacute ibreve icircumflex idieresis idieresis-cy idotaccent ie-cy iebreve-cy iegrave-cy igrave ii-cy iigrave-cy iishort-cy iishorttail-cy ij imacron imacron-cy increment infinity infinity.case integral integralbt integraltp intersection inverseWhiteCircle invsmileface io-cy iogonek iota iotadasia iotadasiaoxia iotadasiaperispomeni iotadasiavaria iotadialytikaoxia iotadialytikaperispomeni iotadialytikavaria iotadieresis iotadieresistonos iotamacron iotaoxia iotaperispomeni iotapsili iotapsilioxia iotapsiliperispomeni iotapsilivaria iotatonos iotavaria iotavrachy itilde iu-cy izhitsa-cy izhitsadblgrave-cy j j.salt_low jcircumflex je-cy k ka-cy kabashkir-cy kadescender-cy kahook-cy kaiSymbol kappa kappaSymbol kastroke-cy kaverticalstroke-cy kcommaaccent keyboard kgreenlandic kje-cy komide-cy komidje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy komizje-cy koppa koppaArchaic koronis ksi-cy l l.salt_low l.spacer lacute lakeTrigram lambda largeCircle lcaron lcommaaccent ldot leftBlackArrow leftBlackTriangle leftBlock leftFiveEighthsBlock leftHalfBlackCircle leftHalfBlackSquare leftHalfBlackWhiteCircle leftHookArrow leftLongArrow leftLongDoubleArrow leftLongDoubleFromBarArrow leftLongFromBarArrow leftOneEighthBlock leftOneQuarterBlock leftRightLongArrow leftRightLongDoubleArrow leftSevenEighthsBlock leftTabArrow leftThreeEighthsBlock leftThreeQuartersBlock leftanglebracket-math leftcurlybracketlowerhook leftcurlybracketmiddlepiece leftcurlybracketupperhook leftsquarebracketextension leftsquarebracketlowercorner leftsquarebracketuppercorner less less.spacer less_asciitilde.liga less_asciitilde_asciitilde.liga less_asciitilde_greater.liga less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_colon.liga less_dollar.liga less_dollar.liga.ss04 less_dollar_greater.liga less_dollar_greater.liga.ss04 less_end.arw less_end.darw less_equal.liga less_equal.ss02 less_exclam_hyphen_hyphen.liga less_greater.liga less_less.liga less_less_end.arw less_less_end.darw less_less_less.liga less_less_middle.arw less_less_middle.darw less_less_start.arw less_less_start.darw less_middle.arw less_middle.darw less_plus.liga less_plus_greater.liga less_slash.liga less_slash_greater.liga less_start.arw less_start.darw lessequal lha-cy lineFeed-control liraTurkish literSign lje-cy logicaland logicalnot logicalor lowerFiveEighthsBlock lowerHalfArc lowerHalfBlackWhiteCircle lowerHalfInverseWhiteCircle lowerLeftArc lowerLeftQuadrantWhiteCircle lowerOneEighthBlock lowerOneQuarterBlock lowerRightArc lowerRightDiagonalHalfBlackSquare lowerRightQuadrantWhiteCircle lowerSevenEighthsBlock lowerThreeEighthsBlock lowerThreeQuartersBlock lowernumeral-greek lozenge lslash ltshade m macron macron.case macroncomb male micro minus minus.dnom minus.numr minusinferior minussuperior models mountainTrigram mu multiply musicalnote musicalnotedbl n nacute nacute.loclPLK napostrophe ncaron ncommaaccent negateddoubleverticalbardoublerightturnstile negativeAcknowledge-control neitherasubsetofnorequalto neitherasupersetofnorequalto newline-control nine nine.dnom nine.numr nine.tosf nineinferior ninesuperior nje-cy nmod notcontains notelement notequal notidentical notsubset notsuperset nottrue ntilde nu null null-control numbersign numbersign.spacer numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_colon.liga_rem numbersign_equal.liga numbersign_exclam.liga numbersign_numbersign.liga numbersign_numbersign_numbersign.liga numbersign_numbersign_numbersign_numbersign.liga numbersign_parenleft.liga numbersign_question.liga numbersign_underscore.liga numbersign_underscore_parenleft.liga numeral-greek numero o o-cy oacute oacute.loclPLK obarred-cy obarreddieresis-cy obreve ocircumflex odieresis odieresis-cy oe ogonek ograve ohungarumlaut omacron omega omega-cy omegadasia omegadasiaoxia omegadasiaoxiaypogegrammeni omegadasiaperispomeni omegadasiaperispomeniypogegrammeni omegadasiavaria omegadasiavariaypogegrammeni omegadasiaypogegrammeni omegaoxia omegaoxiaypogegrammeni omegaperispomeni omegaperispomeniypogegrammeni omegapsili omegapsilioxia omegapsilioxiaypogegrammeni omegapsiliperispomeni omegapsiliperispomeniypogegrammeni omegapsilivaria omegapsilivariaypogegrammeni omegapsiliypogegrammeni omegatonos omegavaria omegavariaypogegrammeni omegaypogegrammeni omicron omicrondasia omicrondasiaoxia omicrondasiavaria omicronoxia omicronpsili omicronpsilioxia omicronpsilivaria omicrontonos omicronvaria one one.dnom one.numr one.tosf oneeighth onefifth onefraction onehalf oneinferior onequarter onesixth onesuperior onethird optionKey ordfeminine ordmasculine oslash oslashacute otilde overlinecomb oxia oxia.case p pagedown pageup palochka-cy pamphyliandigamma paragraph parenleft parenleft.case parenleft.dnom parenleft.numr parenleft.spacer parenleftextension parenleftinferior parenleftlowerhook parenleftsuperior parenleftupperhook parenright parenright.case parenright.dnom parenright.numr parenrightextension parenrightinferior parenrightlowerhook parenrightsuperior parenrightupperhook partialdiff pe-cy pedescender-cy pemiddlehook-cy percent percent.spacer percent_percent.liga period period.spacer period_equal.liga period_hyphen.liga period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga periodcentered perispomeni perispomenicomb perspective perthousand phi phiSymbol pi piSymbol plus plus.dnom plus.lc plus.numr plus.spacer plus_greater.liga plus_plus.liga plus_plus_plus.liga plusinferior plusminus plussuperior primemod product projective propellor prosgegrammeni psi psi-cy psili psilioxia psiliperispomeni psilivaria q qa-cy quadrantLowerLeft quadrantLowerRight quadrantUpperLeft quadrantUpperLeftAndLowerLeftAndLowerRight quadrantUpperLeftAndLowerRight quadrantUpperLeftAndUpperRightAndLowerLeft quadrantUpperLeftAndUpperRightAndLowerRight quadrantUpperRight quadrantUpperRightAndLowerLeft quadrantUpperRightAndLowerLeftAndLowerRight question question.spacer question_equal.liga question_period.liga question_question.liga questiondown questiondown.case questiongreek quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r r.ss01 racute radical rcaron rcommaaccent recordSeparator-control reflexsubset reflexsuperset registered returnsymbol reverseddottedlunatesigmasymbol reversedlunatesigmasymbol reversedze-cy revlogicalnot rha-cy rho rhoStrokeSymbol rhoSymbol rhodasia rhopsili rightBlackTriangle rightBlock rightCircledPlusArrow rightHalfBlackCircle rightHalfBlackSquare rightHalfBlackWhiteCircle rightLongDoubleArrow rightLongDoubleFromBarArrow rightLongFromBarArrow rightLongSquiggleArrow rightOneEighthBlock rightTabArrow rightanglebracket-math rightcurlybracketlowerhook rightcurlybracketmiddlepiece rightcurlybracketupperhook rightlongArrow rightsquarebracketextension rightsquarebracketlowercorner rightsquarebracketuppercorner righttack ring ring.case ringcomb ruble rupeeIndian s sacute sacute.loclPLK sampi san scaron scedilla schwa-cy schwadieresis-cy scircumflex scommaaccent section semicolon semicolon.spacer semicolon_semicolon.liga semisoftsign-cy seven seven.dnom seven.numr seven.tosf seveneighths seveninferior sevensuperior sha-cy shade shcha-cy shha-cy shhadescender-cy shiftIn-control shiftOut-control sho sigma sigmaLunateSymbol sigmafinal six six.dnom six.numr six.tosf sixinferior sixsuperior skullAndCrossbones slash slash.spacer slash_asterisk.liga slash_backslash.liga slash_end.darw slash_greater.liga slash_middle.darw slash_slash.liga slash_slash_slash.liga slash_start.darw smileface softhyphen softhyphen.case softsign-cy space-control spade squarewhitewithsmallblack startOfHeading-control startOfText-control sterling stigma strokelongoverlay strokeshortoverlay subset subsetnotequal substitute-control substituteFormTwo-control suchthat summation sun superset supersetnotequal synchronousIdle-control t tackdown tackleft tau tbar tcaron tcedilla tcommaaccent te-cy tedescender-cy tetse-cy theredoesnotexist therefore theta thetaSymbol thorn three three.dnom three.numr three.tosf threeTurned threeeighths threefifths threeinferior threequarters threesuperior thunderTrigram tilde tilde.case tildecomb tironiansignet tonos tonos.case trademark triaglf triagupTriangle triangledown triangleright tripleverticalbarrightturnstile true tse-cy tshe-cy two two.dnom two.numr two.tosf twoTurned twofifths twoinferior twosuperior twothirds u u-cy uacute ubreve ucircumflex udieresis udieresis-cy ugrave uhungarumlaut uhungarumlaut-cy uk-cy umacron umacron-cy underscore underscore.spacer underscore_end.uarw underscore_middle.uarw underscore_start.uarw underscoredbl uni256D uni256E uni256F uni2570 uniE000 uniE001 uniE002 uniE003 uniE0A0 uniE0A1 uniE0A2 uniE0B0 uniE0B1 uniE0B2 uniE0B3 uniFEFF union unitSeparator-control universal uogonek upBetweenTwoHorizontalBarsArrowHead upBlackArrow upBlock upQuadrupleArrow upperHalfArc upperHalfBlackWhiteCircle upperHalfInverseWhiteCircle upperLeftArc upperLeftDiagonalHalfBlackSquare upperLeftQuadrantWhiteCircle upperLeftWhiteCircle upperOneEighthBlock upperRightArc upperRightQuadrantWhiteCircle upperlefttolowerrightFillSquare upperrighttolowerleftFillSquare upsilon upsilondasia upsilondasiaoxia upsilondasiaperispomeni upsilondasiavaria upsilondialytikaoxia upsilondialytikaperispomeni upsilondialytikavaria upsilondieresis upsilondieresistonos upsilonmacron upsilonoxia upsilonperispomeni upsilonpsili upsilonpsilioxia upsilonpsiliperispomeni upsilonpsilivaria upsilontonos upsilonvaria upsilonvrachy uptack uring ushort-cy ustrait-cy ustraitstroke-cy utilde v varia varia.case ve-cy verticalBisectingLineWhiteSquare verticalFillSquare verticalTabulation-control w w.spacer w_w_w.liga wacute waterTrigram wcircumflex wdieresis we-cy wgrave whiteCircle whiteDiamond whiteFrowningFace whiteRect whiteSquareWithLowerLeftQuadrant whiteSquareWithLowerRightQuadrant whiteSquareWithRoundedCorners whiteSquareWithUpperLeftQuadrant whiteSquareWithUpperRightQuadrant whiteVerticalRect windTrigram x x.multiply x.multiply.tosf xi y yacute yae-cy yat-cy ycircumflex ydieresis yen yeru-cy yerudieresis-cy ygrave yi-cy yot ypogegrammeni ypogegrammenicomb yusbig-cy yusbigiotified-cy yuslittle-cy yuslittleiotified-cy z zacute zacute.loclPLK zcaron zdotaccent ze-cy zedescender-cy zedieresis-cy zero zero.dnom zero.numr zero.tosf zero.tosf.zero zero.zero zero.zero.tosf zeroinferior zerosuperior zeta zhe-cy zhebreve-cy zhedescender-cy zhedieresis-cy";
+code = "A A-cy AE AEacute Aacute Abreve Abreve-cy Acircumflex Adieresis Adieresis-cy Agrave Aie-cy Aleutka-cy Alpha Alphadasia Alphadasiaoxia Alphadasiaoxiaprosgegrammeni Alphadasiaperispomeni Alphadasiaperispomeniprosgegrammeni Alphadasiaprosgegrammeni Alphadasiavaria Alphadasiavariaprosgegrammeni Alphamacron Alphaoxia Alphaprosgegrammeni Alphapsili Alphapsilioxia Alphapsilioxiaprosgegrammeni Alphapsiliperispomeni Alphapsiliperispomeniprosgegrammeni Alphapsiliprosgegrammeni Alphapsilivaria Alphapsilivariaprosgegrammeni Alphatonos Alphavaria Alphavrachy Amacron Aogonek Archaicsampi Aring Atilde B BdoubleStruck Be-cy Beta C CR Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent CdoubleStruck Che-cy Cheabkhasian-cy Chedescender-cy Chedescenderabkhasian-cy Chedieresis-cy Chekhakassian-cy Cheverticalstroke-cy Chi D Dcaron Dche-cy Dcroat De-cy Delta Digamma Dje-cy Dze-cy Dzeabkhasian-cy Dzhe-cy Dzzhe-cy E E-cy Eacute Ebreve Ecaron Ecircumflex Edieresis Edieresis-cy Edotaccent Ef-cy Egrave Eiotified-cy El-cy Eldescender-cy Elhook-cy Elmiddlehook-cy Eltail-cy Em-cy Emacron Emtail-cy En-cy EnLeftHook-cy Endescender-cy Eng Enghe-cy Enhook-cy Enmiddlehook-cy Entail-cy Eogonek Epsilon Epsilondasia Epsilondasiaoxia Epsilondasiavaria Epsilonoxia Epsilonpsili Epsilonpsilioxia Epsilonpsilivaria Epsilontonos Epsilonvaria Er-cy Ereversed-cy Ertick-cy Es-cy Esdescender-cy Eta Etadasia Etadasiaoxia Etadasiaoxiaprosgegrammeni Etadasiaperispomeni Etadasiaperispomeniprosgegrammeni Etadasiaprosgegrammeni Etadasiavaria Etadasiavariaprosgegrammeni Etaoxia Etaprosgegrammeni Etapsili Etapsilioxia Etapsilioxiaprosgegrammeni Etapsiliperispomeni Etapsiliperispomeniprosgegrammeni Etapsiliprosgegrammeni Etapsilivaria Etapsilivariaprosgegrammeni Etatonos Etavaria Eth F F.spacer Fita-cy G Gamma Gbreve Gcircumflex Gcommaaccent Gdotaccent Ge-cy Gedescender-cy Germandbls Gestrokehook-cy Ghemiddlehook-cy Ghestroke-cy Gheupturn-cy Gje-cy H H18543 H18551 H22073 Ha-cy Haabkhasian-cy Hadescender-cy Hahook-cy Hardsign-cy Hastroke-cy Hbar Hcircumflex HdoubleStruck Heta I I-cy IJ Ia-cy Iacute Ibreve Icircumflex Idieresis Idieresis-cy Idotaccent Ie-cy Iebreve-cy Iegrave-cy Igrave Ii-cy Iigrave-cy Iishort-cy Iishorttail-cy Imacron Imacron-cy Io-cy Iogonek Iota Iotadasia Iotadasiaoxia Iotadasiaperispomeni Iotadasiavaria Iotadieresis Iotamacron Iotaoxia Iotapsili Iotapsilioxia Iotapsiliperispomeni Iotapsilivaria Iotatonos Iotavaria Iotavrachy Itilde Iu-cy Izhitsa-cy Izhitsadblgrave-cy J Jcircumflex Je-cy K Ka-cy Kabashkir-cy Kadescender-cy Kahook-cy KaiSymbol Kappa Kastroke-cy Kaverticalstroke-cy Kcommaaccent Kje-cy Komide-cy Komidje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Komizje-cy Koppa KoppaArchaic Ksi-cy L LIG Lacute Lambda Lcaron Lcommaaccent Ldot Lha-cy Lje-cy Lslash M Mu N Nacute Nacute.loclPLK Ncaron Ncommaaccent NdoubleStruck Nje-cy Ntilde Nu O O-cy OE Oacute Oacute.loclPLK Obarred-cy Obarreddieresis-cy Obreve Ocircumflex Odieresis Odieresis-cy Ograve Ohungarumlaut Omacron Omega Omega-cy Omegadasia Omegadasiaoxia Omegadasiaoxiaprosgegrammeni Omegadasiaperispomeni Omegadasiaperispomeniprosgegrammeni Omegadasiaprosgegrammeni Omegadasiavaria Omegadasiavariaprosgegrammeni Omegaoxia Omegaprosgegrammeni Omegapsili Omegapsilioxia Omegapsilioxiaprosgegrammeni Omegapsiliperispomeni Omegapsiliperispomeniprosgegrammeni Omegapsiliprosgegrammeni Omegapsilivaria Omegapsilivariaprosgegrammeni Omegatonos Omegavaria Omicron Omicrondasia Omicrondasiaoxia Omicrondasiavaria Omicronoxia Omicronpsili Omicronpsilioxia Omicronpsilivaria Omicrontonos Omicronvaria Oslash Oslashacute Otilde P Palochka-cy Pamphyliandigamma PdoubleStruck Pe-cy Pedescender-cy Pemiddlehook-cy Phi Pi Psi Psi-cy Q Qa-cy QdoubleStruck R Racute Rcaron Rcommaaccent RdoubleStruck Reversedze-cy Rha-cy Rho Rhodasia S SF010000 SF020000 SF030000 SF040000 SF050000 SF060000 SF070000 SF080000 SF090000 SF100000 SF110000 SF190000 SF200000 SF210000 SF220000 SF230000 SF240000 SF250000 SF260000 SF270000 SF280000 SF360000 SF370000 SF380000 SF390000 SF400000 SF410000 SF420000 SF430000 SF440000 SF450000 SF460000 SF470000 SF480000 SF490000 SF500000 SF510000 SF520000 SF530000 SF540000 Sacute Sacute.loclPLK Sampi San Scaron Scedilla Schwa-cy Schwadieresis-cy Scircumflex Scommaaccent Semisoftsign-cy Sha-cy Shcha-cy Shha-cy Shhadescender-cy Sho Sigma SigmaLunateDottedReversedSymbol SigmaLunateDottedSymbol SigmaLunateReversedSymbol SigmaLunateSymbol Softsign-cy Stigma T T.spacer Tau Tbar Tcaron Tcedilla Tcommaaccent Te-cy Tedescender-cy Tetse-cy Theta ThetaSymbol Thorn Tse-cy Tshe-cy U U-cy Uacute Ubreve Ucircumflex Udieresis Udieresis-cy Ugrave Uhungarumlaut Uhungarumlaut-cy Uk-cy Umacron Umacron-cy Uogonek Upsilon UpsilonacutehookSymbol Upsilondasia Upsilondasiaoxia Upsilondasiaperispomeni Upsilondasiavaria Upsilondieresis UpsilondieresishookSymbol UpsilonhookSymbol Upsilonmacron Upsilonoxia Upsilontonos Upsilonvaria Upsilonvrachy Uring Ushort-cy Ustrait-cy Ustraitstroke-cy Utilde V Ve-cy W Wacute Wcircumflex Wdieresis We-cy Wgrave X Xi Y Yacute Yae-cy Yat-cy Ycircumflex Ydieresis Yeru-cy Yerudieresis-cy Ygrave Yi-cy Yot-greek Yusbig-cy Yusbigiotified-cy Yuslittle-cy Yuslittleiotified-cy Z Zacute Zacute.loclPLK Zcaron Zdotaccent ZdoubleStruck Ze-cy Zedescender-cy Zedieresis-cy Zeta Zhe-cy Zhebreve-cy Zhedescender-cy Zhedieresis-cy a a-cy aacute abreve abreve-cy acircumflex acknowledge-control acute acute.case acute.case.loclPLK acute.loclPLK acutecomb adieresis adieresis-cy ae aeacute afii00208 agrave aie-cy aleutka-cy alpha alphadasia alphadasiaoxia alphadasiaoxiaypogegrammeni alphadasiaperispomeni alphadasiaperispomeniypogegrammeni alphadasiavaria alphadasiavariaypogegrammeni alphadasiaypogegrammeni alphamacron alphaoxia alphaoxiaypogegrammeni alphaperispomeni alphaperispomeniypogegrammeni alphapsili alphapsilioxia alphapsilioxiaypogegrammeni alphapsiliperispomeni alphapsiliperispomeniypogegrammeni alphapsilivaria alphapsilivariaypogegrammeni alphapsiliypogegrammeni alphatonos alphavaria alphavariaypogegrammeni alphavrachy alphaypogegrammeni alternativekeysymbol amacron ampersand ampersand.before.ss03 ampersand.spacer ampersand.ss03 ampersand_ampersand.liga anoteleia anticlockwiseGappedCircleArrow aogonek apostrophemod approxequal archaicsampi aring arrowboth arrowdown arrowdownleft arrowdownright arrowdownwhite arrowleft arrowleftwhite arrowright arrowrightwhite arrowup arrowupdown arrowupleft arrowupright arrowupwhite asciicircum asciicircum.spacer asciicircum_equal.liga asciitilde asciitilde.spacer asciitilde_asciitilde.liga asciitilde_asciitilde_greater.liga asciitilde_at.liga asciitilde_greater.liga asciitilde_hyphen.liga assertion asterisk asterisk.lc asterisk.spacer asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga at at.spacer at.ss05 atilde b backslash backslash.spacer backslash.ss06 backslash.thick.ss06 backslash_slash.liga backspace-control ballotBox ballotBoxWithCheck ballotBoxWithX bar bar.spacer bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_end.arw bar_bar_end.darw bar_bar_greater.liga bar_bar_middle.arw bar_bar_middle.darw bar_bar_start.arw bar_bar_start.darw bar_braceright.liga bar_bracketright.liga bar_end.arw bar_end.darw bar_greater.liga bar_middle.arw bar_middle.darw bar_middle.uarw bar_start.arw bar_start.darw be-cy because bell-control beta betaSymbol blackCircle blackDiamond blackLowerLeftTriangle blackLowerRightTriangle blackRightArrow blackUpperLeftTriangle blackUpperRightTriangle blackVerticalRect blank blankSymbol boxDownHeavyAndHorizontalLight boxDownHeavyAndLeftLight boxDownHeavyAndLeftUpLight boxDownHeavyAndRightLight boxDownHeavyAndRightUpLight boxDownHeavyAndUpHorizontalLight boxDownLightAndHorizontalHeavy boxDownLightAndLeftHeavy boxDownLightAndLeftUpHeavy boxDownLightAndRightHeavy boxDownLightAndRightUpHeavy boxDownLightAndUpHorizontalHeavy boxHeavyDoubleDashHorizontal boxHeavyDoubleDashVertical boxHeavyDown boxHeavyDownAndHorizontal boxHeavyDownAndLeft boxHeavyDownAndRight boxHeavyHorizontal boxHeavyLeft boxHeavyLeftAndLightRight boxHeavyQuadrupleDashHorizontal boxHeavyQuadrupleDashVertical boxHeavyRight boxHeavyTripleDashHorizontal boxHeavyTripleDashVertical boxHeavyUp boxHeavyUpAndHorizontal boxHeavyUpAndLeft boxHeavyUpAndLightDown boxHeavyUpAndRight boxHeavyVertical boxHeavyVerticalAndHorizontal boxHeavyVerticalAndLeft boxHeavyVerticalAndRight boxLeftDownHeavyAndRightUpLight boxLeftHeavyAndRightDownLight boxLeftHeavyAndRightUpLight boxLeftHeavyAndRightVerticalLight boxLeftLightAndRightDownHeavy boxLeftLightAndRightUpHeavy boxLeftLightAndRightVerticalHeavy boxLeftUpHeavyAndRightDownLight boxLightDiagonalCross boxLightDiagonalUpperLeftToLowerRight boxLightDiagonalUpperRightToLowerLeft boxLightDoubleDashHorizontal boxLightDoubleDashVertical boxLightDown boxLightLeft boxLightLeftAndHeavyRight boxLightQuadrupleDashHorizontal boxLightQuadrupleDashVertical boxLightRight boxLightTripleDashHorizontal boxLightTripleDashVertical boxLightUp boxLightUpAndHeavyDown boxRightDownHeavyAndLeftUpLight boxRightHeavyAndLeftDownLight boxRightHeavyAndLeftUpLight boxRightHeavyAndLeftVerticalLight boxRightLightAndLeftDownHeavy boxRightLightAndLeftUpHeavy boxRightLightAndLeftVerticalHeavy boxRightUpHeavyAndLeftDownLight boxUpHeavyAndDownHorizontalLight boxUpHeavyAndHorizontalLight boxUpHeavyAndLeftDownLight boxUpHeavyAndLeftLight boxUpHeavyAndRightDownLight boxUpHeavyAndRightLight boxUpLightAndDownHorizontalHeavy boxUpLightAndHorizontalHeavy boxUpLightAndLeftDownHeavy boxUpLightAndLeftHeavy boxUpLightAndRightDownHeavy boxUpLightAndRightHeavy boxVerticalHeavyAndHorizontalLight boxVerticalHeavyAndLeftLight boxVerticalHeavyAndRightLight boxVerticalLightAndHorizontalHeavy boxVerticalLightAndLeftHeavy boxVerticalLightAndRightHeavy braceleft braceleft.case braceleft.spacer braceleft_bar.liga braceright braceright.case braceright.spacer bracketleft bracketleft.case bracketleft.spacer bracketleft_bar.liga bracketright bracketright.case bracketright.spacer bracketright_numbersign.liga breve breve-cy breve-cy.case breve.case brevecomb brokenCircleNorthWestArrow brokenbar bullet bulletoperator bullseye c cacute cacute.loclPLK canadiansyllabicsa canadiansyllabicso cancel-control capslock caron caron.alt caron.case caroncomb carriageReturn-control ccaron ccedilla ccircumflex cdotaccent cedilla cedilla.case cedillacomb cent che-cy cheabkhasian-cy checkmark chedescender-cy chedescenderabkhasian-cy chedieresis-cy chekhakassian-cy cheverticalstroke-cy chi circumflex circumflex.case circumflexcomb clear clockwiseGappedCircleArrow club colon colon.spacer colon.uc colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga colon_greater.liga colon_less.liga colon_middle.darw comma commaabovecomb commaaccent commaaccent.case commareversedabovecomb containsasmemberSmall control copyright cornerbracketleft cornerbracketleft.half cornerbracketright cornerbracketright.half crosshatchFillSquare curlybracketextension currency d dagger daggerdbl dasia dasiaoxia dasiaperispomeni dasiavaria dataLinkEscape-control dblgravecomb dblverticalbar dcaron dche-cy dcroat de-cy degree delete-control deleteFormTwo-control deleteLeftKey deleterightKey delta deviceControlFour-control deviceControlOne-control deviceControlThree-control deviceControlTwo-control diagonalcrosshatchFillSquare dialytikaoxia dialytikaperispomeni dialytikavaria diameterSign diamond dieresis dieresis.case dieresiscomb dieresistonos digamma divide divisionslash dje-cy dkshade doesnotforce doesnotprove dollar dollar.spacer dollar.ss04 dollar_greater.liga dollar_greater.liga.ss04 dotaccent dotaccent.case dotaccentcomb dotlessi dotlessj dottedlunatesigmasymbol doubleprimemod doubleverticalbardoublerightturnstile downArrowHead downBlackArrow downBlock downQuadrupleArrow drachma dze-cy dzeabkhasian-cy dzhe-cy dzzhe-cy e e-cy eacute earthTrigram ebreve ecaron ecircumflex edieresis edieresis-cy edotaccent ef-cy egrave eight eight.dnom eight.numr eight.tosf eightinferior eightsuperior eiotified-cy ejectsymbol el-cy eldescender-cy element elementSmall elhook-cy ellipsis elmiddlehook-cy eltail-cy em-cy emacron emdash emdash.case emptyset emtail-cy en-cy endOfMedium-control endOfText-control endOfTransmission-control endOfTransmissionBlock-control endash endash.case endescender-cy eng enghe-cy enhook-cy enlefthook-cy enmiddlehook-cy enquiry-control entail-cy eogonek epsilon epsilonLunateReversedSymbol epsilonLunateSymbol epsilondasia epsilondasiaoxia epsilondasiavaria epsilonoxia epsilonpsili epsilonpsilioxia epsilonpsilivaria epsilontonos epsilonvaria equal equal.dnom equal.numr equal.spacer equal_asciitilde.ss07 equal_end.darw equal_equal.liga equal_equal_equal.liga equal_middle.darw equal_start.darw equalsinferior equalsuperior equivalence er-cy ereversed-cy ertick-cy es-cy escape-control esdescender-cy estimated eta etadasia etadasiaoxia etadasiaoxiaypogegrammeni etadasiaperispomeni etadasiaperispomeniypogegrammeni etadasiavaria etadasiavariaypogegrammeni etadasiaypogegrammeni etaoxia etaoxiaypogegrammeni etaperispomeni etaperispomeniypogegrammeni etapsili etapsilioxia etapsilioxiaypogegrammeni etapsiliperispomeni etapsiliperispomeniypogegrammeni etapsilivaria etapsilivariaypogegrammeni etapsiliypogegrammeni etatonos etavaria etavariaypogegrammeni etaypogegrammeni eth euro exclam exclam.spacer exclam_asciitilde.ss07 exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga exclam_middle.darw exclamdown exclamdown.case existential f f.spacer female figuredash fileSeparator-control filledRect filledbox fireTrigram firsttonechinese fisheye fita-cy five five.dnom five.numr five.tosf fiveeighths fiveinferior fivesixths fivesuperior florin forces formFeed-control four four.dnom four.numr four.tosf fourfifths fourinferior foursuperior fraction fullBlock g gamma gbreve gcircumflex gcommaaccent gdotaccent ge-cy gedescender-cy germandbls gestrokehook-cy ghemiddlehook-cy ghestroke-cy gheupturn-cy gje-cy globeWithMeridians gradient grave grave.case gravecomb greater greater.spacer greater_colon.liga greater_end.arw greater_end.darw greater_equal.liga greater_equal.ss02 greater_greater.liga greater_greater_end.arw greater_greater_end.darw greater_greater_greater.liga greater_greater_middle.arw greater_greater_middle.darw greater_greater_start.arw greater_greater_start.darw greater_middle.arw greater_middle.darw greater_start.arw greater_start.darw greaterequal groupSeparator-control guillemetleft guillemetleft.case guillemetright guillemetright.case guilsinglleft guilsinglleft.case guilsinglright guilsinglright.case h ha-cy haabkhasian-cy hadescender-cy hahook-cy hardsign-cy hastroke-cy hbar hcircumflex heart heavenTrigram helmsymbol heta horizontalFillSquare horizontalTabulation-control house hungarumlaut hungarumlaut.case hungarumlautcomb hyphen hyphen.case hyphen.lc hyphen.spacer hyphen_asciitilde.liga hyphen_end.arw hyphen_hyphen.liga hyphen_hyphen_hyphen.liga hyphen_middle.arw hyphen_start.arw i i-cy i.salt_low ia-cy iacute ibreve icircumflex idieresis idieresis-cy idotaccent ie-cy iebreve-cy iegrave-cy igrave ii-cy iigrave-cy iishort-cy iishorttail-cy ij imacron imacron-cy increment infinity infinity.case integral integralbt integraltp intersection inverseWhiteCircle invsmileface io-cy iogonek iota iotadasia iotadasiaoxia iotadasiaperispomeni iotadasiavaria iotadialytikaoxia iotadialytikaperispomeni iotadialytikavaria iotadieresis iotadieresistonos iotamacron iotaoxia iotaperispomeni iotapsili iotapsilioxia iotapsiliperispomeni iotapsilivaria iotatonos iotavaria iotavrachy itilde iu-cy izhitsa-cy izhitsadblgrave-cy j j.salt_low jcircumflex je-cy k ka-cy kabashkir-cy kadescender-cy kahook-cy kaiSymbol kappa kappaSymbol kastroke-cy kaverticalstroke-cy kcommaaccent keyboard kgreenlandic kje-cy komide-cy komidje-cy komidzje-cy komilje-cy kominje-cy komisje-cy komitje-cy komizje-cy koppa koppaArchaic koronis ksi-cy l l.salt_low l.spacer lacute lakeTrigram lambda largeCircle lcaron lcommaaccent ldot leftBlackArrow leftBlackTriangle leftBlock leftFiveEighthsBlock leftHalfBlackCircle leftHalfBlackSquare leftHalfBlackWhiteCircle leftHookArrow leftLongArrow leftLongDoubleArrow leftLongDoubleFromBarArrow leftLongFromBarArrow leftOneEighthBlock leftOneQuarterBlock leftRightLongArrow leftRightLongDoubleArrow leftSevenEighthsBlock leftTabArrow leftThreeEighthsBlock leftThreeQuartersBlock leftanglebracket-math leftcurlybracketlowerhook leftcurlybracketmiddlepiece leftcurlybracketupperhook leftsquarebracketextension leftsquarebracketlowercorner leftsquarebracketuppercorner less less.spacer less_asciitilde.liga less_asciitilde_asciitilde.liga less_asciitilde_greater.liga less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_colon.liga less_dollar.liga less_dollar.liga.ss04 less_dollar_greater.liga less_dollar_greater.liga.ss04 less_end.arw less_end.darw less_equal.liga less_equal.ss02 less_exclam_hyphen_hyphen.liga less_greater.liga less_less.liga less_less_end.arw less_less_end.darw less_less_less.liga less_less_middle.arw less_less_middle.darw less_less_start.arw less_less_start.darw less_middle.arw less_middle.darw less_plus.liga less_plus_greater.liga less_slash.liga less_slash_greater.liga less_start.arw less_start.darw lessequal lha-cy lineFeed-control liraTurkish literSign lje-cy logicaland logicalnot logicalor lowerFiveEighthsBlock lowerHalfArc lowerHalfBlackWhiteCircle lowerHalfInverseWhiteCircle lowerLeftArc lowerLeftQuadrantWhiteCircle lowerOneEighthBlock lowerOneQuarterBlock lowerRightArc lowerRightDiagonalHalfBlackSquare lowerRightQuadrantWhiteCircle lowerSevenEighthsBlock lowerThreeEighthsBlock lowerThreeQuartersBlock lowernumeral-greek lozenge lslash ltshade m macron macron.case macroncomb male micro minus minus.dnom minus.numr minusinferior minussuperior models mountainTrigram mu multiply musicalnote musicalnotedbl n nacute nacute.loclPLK napostrophe ncaron ncommaaccent negateddoubleverticalbardoublerightturnstile negativeAcknowledge-control neitherasubsetofnorequalto neitherasupersetofnorequalto newline-control nine nine.dnom nine.numr nine.tosf nineinferior ninesuperior nje-cy nmod notcontains notelement notequal notidentical notsubset notsuperset nottrue ntilde nu null null-control numbersign numbersign.spacer numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_colon.liga_rem numbersign_equal.liga numbersign_exclam.liga numbersign_numbersign.liga numbersign_numbersign_numbersign.liga numbersign_numbersign_numbersign_numbersign.liga numbersign_parenleft.liga numbersign_question.liga numbersign_underscore.liga numbersign_underscore_parenleft.liga numeral-greek numero o o-cy oacute oacute.loclPLK obarred-cy obarreddieresis-cy obreve ocircumflex odieresis odieresis-cy oe ogonek ograve ohungarumlaut omacron omega omega-cy omegadasia omegadasiaoxia omegadasiaoxiaypogegrammeni omegadasiaperispomeni omegadasiaperispomeniypogegrammeni omegadasiavaria omegadasiavariaypogegrammeni omegadasiaypogegrammeni omegaoxia omegaoxiaypogegrammeni omegaperispomeni omegaperispomeniypogegrammeni omegapsili omegapsilioxia omegapsilioxiaypogegrammeni omegapsiliperispomeni omegapsiliperispomeniypogegrammeni omegapsilivaria omegapsilivariaypogegrammeni omegapsiliypogegrammeni omegatonos omegavaria omegavariaypogegrammeni omegaypogegrammeni omicron omicrondasia omicrondasiaoxia omicrondasiavaria omicronoxia omicronpsili omicronpsilioxia omicronpsilivaria omicrontonos omicronvaria one one.dnom one.numr one.tosf oneeighth onefifth onefraction onehalf oneinferior onequarter onesixth onesuperior onethird optionKey ordfeminine ordmasculine oslash oslashacute otilde overlinecomb oxia oxia.case p pagedown pageup palochka-cy pamphyliandigamma paragraph parenleft parenleft.case parenleft.dnom parenleft.numr parenleft.spacer parenleftextension parenleftinferior parenleftlowerhook parenleftsuperior parenleftupperhook parenright parenright.case parenright.dnom parenright.numr parenrightextension parenrightinferior parenrightlowerhook parenrightsuperior parenrightupperhook partialdiff pe-cy pedescender-cy pemiddlehook-cy percent percent.spacer percent_percent.liga period period.spacer period_equal.liga period_hyphen.liga period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga periodcentered perispomeni perispomenicomb perspective perthousand phi phiSymbol pi piSymbol plus plus.dnom plus.lc plus.numr plus.spacer plus_greater.liga plus_plus.liga plus_plus_plus.liga plusinferior plusminus plussuperior primemod product projective propellor prosgegrammeni psi psi-cy psili psilioxia psiliperispomeni psilivaria q qa-cy quadrantLowerLeft quadrantLowerRight quadrantUpperLeft quadrantUpperLeftAndLowerLeftAndLowerRight quadrantUpperLeftAndLowerRight quadrantUpperLeftAndUpperRightAndLowerLeft quadrantUpperLeftAndUpperRightAndLowerRight quadrantUpperRight quadrantUpperRightAndLowerLeft quadrantUpperRightAndLowerLeftAndLowerRight question question.spacer question_equal.liga question_period.liga question_question.liga questiondown questiondown.case questiongreek quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r r.ss01 racute radical rcaron rcommaaccent recordSeparator-control reflexsubset reflexsuperset registered returnsymbol reverseddottedlunatesigmasymbol reversedlunatesigmasymbol reversedze-cy revlogicalnot rha-cy rho rhoStrokeSymbol rhoSymbol rhodasia rhopsili rightBlackTriangle rightBlock rightCircledPlusArrow rightHalfBlackCircle rightHalfBlackSquare rightHalfBlackWhiteCircle rightLongDoubleArrow rightLongDoubleFromBarArrow rightLongFromBarArrow rightLongSquiggleArrow rightOneEighthBlock rightTabArrow rightanglebracket-math rightcurlybracketlowerhook rightcurlybracketmiddlepiece rightcurlybracketupperhook rightlongArrow rightsquarebracketextension rightsquarebracketlowercorner rightsquarebracketuppercorner righttack ring ring.case ringcomb ruble rupeeIndian s sacute sacute.loclPLK sampi san scaron scedilla schwa-cy schwadieresis-cy scircumflex scommaaccent section semicolon semicolon.spacer semicolon_semicolon.liga semisoftsign-cy seven seven.dnom seven.numr seven.tosf seveneighths seveninferior sevensuperior sha-cy shade shcha-cy shha-cy shhadescender-cy shiftIn-control shiftOut-control sho sigma sigmaLunateSymbol sigmafinal six six.dnom six.numr six.tosf sixinferior sixsuperior skullAndCrossbones slash slash.spacer slash_asterisk.liga slash_backslash.liga slash_end.darw slash_greater.liga slash_middle.darw slash_slash.liga slash_slash_slash.liga slash_start.darw smileface softhyphen softhyphen.case softsign-cy space-control spade squarewhitewithsmallblack startOfHeading-control startOfText-control sterling stigma strokelongoverlay strokeshortoverlay subset subsetnotequal substitute-control substituteFormTwo-control suchthat summation sun superset supersetnotequal synchronousIdle-control t tackdown tackleft tau tbar tcaron tcedilla tcommaaccent te-cy tedescender-cy tetse-cy theredoesnotexist therefore theta thetaSymbol thorn three three.dnom three.numr three.tosf threeTurned threeeighths threefifths threeinferior threequarters threesuperior thunderTrigram tilde tilde.case tildecomb tironiansignet tonos tonos.case trademark triaglf triagupTriangle triangledown triangleright tripleverticalbarrightturnstile true tse-cy tshe-cy two two.dnom two.numr two.tosf twoTurned twofifths twoinferior twosuperior twothirds u u-cy uacute ubreve ucircumflex udieresis udieresis-cy ugrave uhungarumlaut uhungarumlaut-cy uk-cy umacron umacron-cy underscore underscore.spacer underscore_end.uarw underscore_middle.uarw underscore_start.uarw underscoredbl uni256D uni256E uni256F uni2570 uniE000 uniE001 uniE002 uniE003 uniE0A0 uniE0A1 uniE0A2 uniE0B0 uniE0B1 uniE0B2 uniE0B3 uniFEFF union unitSeparator-control universal uogonek upBetweenTwoHorizontalBarsArrowHead upBlackArrow upBlock upQuadrupleArrow upperHalfArc upperHalfBlackWhiteCircle upperHalfInverseWhiteCircle upperLeftArc upperLeftDiagonalHalfBlackSquare upperLeftQuadrantWhiteCircle upperLeftWhiteCircle upperOneEighthBlock upperRightArc upperRightQuadrantWhiteCircle upperlefttolowerrightFillSquare upperrighttolowerleftFillSquare upsilon upsilondasia upsilondasiaoxia upsilondasiaperispomeni upsilondasiavaria upsilondialytikaoxia upsilondialytikaperispomeni upsilondialytikavaria upsilondieresis upsilondieresistonos upsilonmacron upsilonoxia upsilonperispomeni upsilonpsili upsilonpsilioxia upsilonpsiliperispomeni upsilonpsilivaria upsilontonos upsilonvaria upsilonvrachy uptack uring ushort-cy ustrait-cy ustraitstroke-cy utilde v varia varia.case ve-cy verticalBisectingLineWhiteSquare verticalFillSquare verticalTabulation-control w w.spacer w_w_w.liga wacute waterTrigram wcircumflex wdieresis we-cy wgrave whiteCircle whiteDiamond whiteFrowningFace whiteRect whiteSquareWithLowerLeftQuadrant whiteSquareWithLowerRightQuadrant whiteSquareWithRoundedCorners whiteSquareWithUpperLeftQuadrant whiteSquareWithUpperRightQuadrant whiteVerticalRect windTrigram x x.multiply x.multiply.tosf xi y yacute yae-cy yat-cy ycircumflex ydieresis yen yeru-cy yerudieresis-cy ygrave yi-cy yot ypogegrammeni ypogegrammenicomb yusbig-cy yusbigiotified-cy yuslittle-cy yuslittleiotified-cy z zacute zacute.loclPLK zcaron zdotaccent ze-cy zedescender-cy zedieresis-cy zero zero.dnom zero.numr zero.tosf zero.tosf.zero zero.zero zero.zero.tosf zeroinferior zerosuperior zeta zhe-cy zhebreve-cy zhedescender-cy zhedieresis-cy";
 name = NotSpace;
 },
 {
@@ -215,7 +220,7 @@ code = "pos @Uppercase <5 0 10 0>;\012";
 name = cpsp;
 },
 {
-code = "lookup bar_bar_bar_greater {\012  ignore sub bar bar' bar bar greater;\012  ignore sub bar' bar bar greater greater;\012  sub bar.spacer bar.spacer bar.spacer greater' by bar_bar_bar_greater.liga;\012  sub bar.spacer bar.spacer bar'       greater  by bar.spacer;\012  sub bar.spacer bar'       bar        greater  by bar.spacer;\012  sub bar'       bar        bar        greater  by bar.spacer;\012} bar_bar_bar_greater;\012\012lookup less_bar_bar_bar {\012  ignore sub less less' bar bar bar;\012  ignore sub less' bar bar bar bar;\012  sub less.spacer bar.spacer bar.spacer bar' by less_bar_bar_bar.liga;\012  sub less.spacer bar.spacer bar'       bar  by bar.spacer;\012  sub less.spacer bar'       bar        bar  by bar.spacer;\012  sub less'       bar        bar        bar  by less.spacer;\012} less_bar_bar_bar;\012\012lookup less_exclam_hyphen_hyphen {\012  ignore sub less less' exclam hyphen hyphen;\012  ignore sub less' exclam hyphen hyphen hyphen;\012  ignore sub parenleft question less' exclam hyphen hyphen;\012  sub less.spacer exclam.spacer hyphen.spacer hyphen' by less_exclam_hyphen_hyphen.liga;\012  sub less.spacer exclam.spacer hyphen'       hyphen  by hyphen.spacer;\012  sub less.spacer exclam'       hyphen        hyphen  by exclam.spacer;\012  sub less'       exclam        hyphen        hyphen  by less.spacer;\012} less_exclam_hyphen_hyphen;\012\012lookup numbersign_numbersign_numbersign_numbersign {\012  ignore sub numbersign numbersign' numbersign numbersign numbersign;\012  ignore sub numbersign' numbersign numbersign numbersign numbersign;\012  sub numbersign.spacer numbersign.spacer numbersign.spacer numbersign' by numbersign_numbersign_numbersign_numbersign.liga;\012  sub numbersign.spacer numbersign.spacer numbersign'       numbersign  by numbersign.spacer;\012  sub numbersign.spacer numbersign'       numbersign        numbersign  by numbersign.spacer;\012  sub numbersign'       numbersign        numbersign        numbersign  by numbersign.spacer;\012} numbersign_numbersign_numbersign_numbersign;\012\012lookup asciitilde_asciitilde_greater {\012  ignore sub asciitilde asciitilde' asciitilde greater;\012  ignore sub asciitilde' asciitilde greater greater;\012  sub asciitilde.spacer asciitilde.spacer greater' by asciitilde_asciitilde_greater.liga;\012  sub asciitilde.spacer asciitilde'       greater  by asciitilde.spacer;\012  sub asciitilde'       asciitilde        greater  by asciitilde.spacer;\012} asciitilde_asciitilde_greater;\012\012lookup asterisk_asterisk_asterisk {\012  ignore sub asterisk asterisk' asterisk asterisk;\012  ignore sub asterisk' asterisk asterisk asterisk;\012  ignore sub slash asterisk' asterisk asterisk;\012  ignore sub asterisk' asterisk asterisk slash;\012  sub asterisk.spacer asterisk.spacer asterisk' by asterisk_asterisk_asterisk.liga;\012  sub asterisk.spacer asterisk'       asterisk  by asterisk.spacer;\012  sub asterisk'       asterisk        asterisk  by asterisk.spacer;\012} asterisk_asterisk_asterisk;\012\012lookup bar_bar_greater {\012  ignore sub bar bar' bar greater;\012  ignore sub bar' bar greater greater;\012  ignore sub less bar' bar greater;\012  sub bar.spacer bar.spacer greater' by bar_bar_greater.liga;\012  sub bar.spacer bar'       greater  by bar.spacer;\012  sub bar'       bar        greater  by bar.spacer;\012} bar_bar_greater;\012\012lookup colon_colon_colon {\012  ignore sub colon colon' colon colon;\012  ignore sub colon' colon colon colon;\012  ignore sub parenleft question colon' colon colon;\012  sub colon.spacer colon.spacer colon' by colon_colon_colon.liga;\012  sub colon.spacer colon'       colon  by colon.spacer;\012  sub colon'       colon        colon  by colon.spacer;\012} colon_colon_colon;\012\012lookup colon_colon_equal {\012  ignore sub colon colon' colon equal;\012  ignore sub colon' colon equal equal;\012  ignore sub parenleft question colon' colon equal;\012  sub colon.spacer colon.spacer equal' by colon_colon_equal.liga;\012  sub colon.spacer colon'       equal  by colon.spacer;\012  sub colon'       colon        equal  by colon.spacer;\012} colon_colon_equal;\012\012lookup equal_equal_equal {\012  ignore sub equal equal' equal equal;\012  ignore sub equal' equal equal equal;\012  ignore sub parenleft question equal' equal equal;\012  ignore sub parenleft question less equal' equal equal;\012  ignore sub less question equal' equal equal;\012  ignore sub [bracketleft less greater bar slash] equal' equal equal;\012  ignore sub equal' equal equal [bracketright less greater bar slash];\012  sub equal.spacer equal.spacer equal' by equal_equal_equal.liga;\012  sub equal.spacer equal'       equal  by equal.spacer;\012  sub equal'       equal        equal  by equal.spacer;\012} equal_equal_equal;\012\012lookup exclam_equal_equal {\012  ignore sub exclam exclam' equal equal;\012  ignore sub exclam' equal equal equal;\012  ignore sub parenleft question exclam' equal equal;\012  ignore sub parenleft question less exclam' equal equal;\012  sub exclam.spacer equal.spacer equal' by exclam_equal_equal.liga;\012  sub exclam.spacer equal'       equal  by equal.spacer;\012  sub exclam'       equal        equal  by exclam.spacer;\012} exclam_equal_equal;\012\012lookup exclam_exclam_period {\012  ignore sub exclam exclam' exclam period;\012  ignore sub exclam' exclam period period;\012  ignore sub parenleft question exclam' exclam period;\012  ignore sub parenleft question less exclam' exclam period;\012  sub exclam.spacer exclam.spacer period' by exclam_exclam_period.liga;\012  sub exclam.spacer exclam'       period  by exclam.spacer;\012  sub exclam'       exclam        period  by exclam.spacer;\012} exclam_exclam_period;\012\012lookup greater_greater_greater {\012  ignore sub greater greater' greater greater;\012  ignore sub greater' greater greater greater;\012  ignore sub [asterisk plus dollar] greater' greater greater;\012  sub greater.spacer greater.spacer greater' by greater_greater_greater.liga;\012  sub greater.spacer greater'       greater  by greater.spacer;\012  sub greater'       greater        greater  by greater.spacer;\012} greater_greater_greater;\012\012lookup hyphen_hyphen_hyphen {\012  ignore sub hyphen hyphen' hyphen hyphen;\012  ignore sub hyphen' hyphen hyphen hyphen;\012  ignore sub [bracketleft less greater bar] hyphen' hyphen hyphen;\012  ignore sub hyphen' hyphen hyphen [bracketright less greater bar];\012  sub hyphen.spacer hyphen.spacer hyphen' by hyphen_hyphen_hyphen.liga;\012  sub hyphen.spacer hyphen'       hyphen  by hyphen.spacer;\012  sub hyphen'       hyphen        hyphen  by hyphen.spacer;\012} hyphen_hyphen_hyphen;\012\012lookup less_asciitilde_asciitilde {\012  ignore sub less less' asciitilde asciitilde;\012  ignore sub less' asciitilde asciitilde asciitilde;\012  sub less.spacer asciitilde.spacer asciitilde' by less_asciitilde_asciitilde.liga;\012  sub less.spacer asciitilde'       asciitilde  by asciitilde.spacer;\012  sub less'       asciitilde        asciitilde  by less.spacer;\012} less_asciitilde_asciitilde;\012\012lookup less_asciitilde_greater {\012  ignore sub less less' asciitilde greater;\012  ignore sub less' asciitilde greater greater;\012  sub less.spacer asciitilde.spacer greater' by less_asciitilde_greater.liga;\012  sub less.spacer asciitilde'       greater  by asciitilde.spacer;\012  sub less'       asciitilde        greater  by less.spacer;\012} less_asciitilde_greater;\012\012lookup less_asterisk_greater {\012  sub less.spacer asterisk.spacer greater' by less_asterisk_greater.liga;\012  sub less.spacer asterisk'       greater  by asterisk.spacer;\012  sub less'       asterisk        greater  by less.spacer;\012} less_asterisk_greater;\012\012lookup less_bar_bar {\012  ignore sub less less' bar bar;\012  ignore sub less' bar bar bar;\012  ignore sub less' bar bar greater;\012  sub less.spacer bar.spacer bar' by less_bar_bar.liga;\012  sub less.spacer bar'       bar  by bar.spacer;\012  sub less'       bar        bar  by less.spacer;\012} less_bar_bar;\012\012lookup less_bar_greater {\012  ignore sub less less' bar greater;\012  ignore sub less' bar greater greater;\012  sub less.spacer bar.spacer greater' by less_bar_greater.liga;\012  sub less.spacer bar'       greater  by bar.spacer;\012  sub less'       bar        greater  by less.spacer;\012} less_bar_greater;\012\012lookup less_dollar_greater {\012  sub less.spacer dollar.spacer greater' by less_dollar_greater.liga;\012  sub less.spacer dollar'       greater  by dollar.spacer;\012  sub less'       dollar        greater  by less.spacer;\012} less_dollar_greater;\012\012lookup less_less_less {\012  ignore sub less less' less less;\012  ignore sub less' less less less;\012  ignore sub less' less less [asterisk plus dollar];\012  sub less.spacer less.spacer less' by less_less_less.liga;\012  sub less.spacer less'       less  by less.spacer;\012  sub less'       less        less  by less.spacer;\012} less_less_less;\012\012lookup less_plus_greater {\012  sub less.spacer plus.spacer greater' by less_plus_greater.liga;\012  sub less.spacer plus'       greater  by plus.spacer;\012  sub less'       plus        greater  by less.spacer;\012} less_plus_greater;\012\012lookup less_slash_greater {\012  ignore sub less less' slash greater;\012  ignore sub less' slash greater greater;\012  sub less.spacer slash.spacer greater' by less_slash_greater.liga;\012  sub less.spacer slash'       greater  by slash.spacer;\012  sub less'       slash        greater  by less.spacer;\012} less_slash_greater;\012\012lookup numbersign_numbersign_numbersign {\012  ignore sub numbersign numbersign' numbersign numbersign;\012  ignore sub numbersign' numbersign numbersign numbersign;\012  sub numbersign.spacer numbersign.spacer numbersign' by numbersign_numbersign_numbersign.liga;\012  sub numbersign.spacer numbersign'       numbersign  by numbersign.spacer;\012  sub numbersign'       numbersign        numbersign  by numbersign.spacer;\012} numbersign_numbersign_numbersign;\012\012lookup numbersign_underscore_parenleft {\012  ignore sub numbersign numbersign' underscore parenleft;\012  ignore sub numbersign' underscore parenleft parenleft;\012  sub numbersign.spacer underscore.spacer parenleft' by numbersign_underscore_parenleft.liga;\012  sub numbersign.spacer underscore'       parenleft  by underscore.spacer;\012  sub numbersign'       underscore        parenleft  by numbersign.spacer;\012} numbersign_underscore_parenleft;\012\012lookup period_period_equal {\012  ignore sub period period' period equal;\012  ignore sub period' period equal equal;\012  sub period.spacer period.spacer equal' by period_period_equal.liga;\012  sub period.spacer period'       equal  by period.spacer;\012  sub period'       period        equal  by period.spacer;\012} period_period_equal;\012\012lookup period_period_less {\012  ignore sub period period' period less;\012  ignore sub period' period less less;\012  sub period.spacer period.spacer less' by period_period_less.liga;\012  sub period.spacer period'       less  by period.spacer;\012  sub period'       period        less  by period.spacer;\012} period_period_less;\012\012lookup period_period_period {\012  ignore sub period period' period period;\012  ignore sub period' period period period;\012  sub period.spacer period.spacer period' by period_period_period.liga;\012  sub period.spacer period'       period  by period.spacer;\012  sub period'       period        period  by period.spacer;\012} period_period_period;\012\012lookup plus_plus_plus {\012  ignore sub plus plus' plus plus;\012  ignore sub plus' plus plus plus;\012  sub plus.spacer plus.spacer plus' by plus_plus_plus.liga;\012  sub plus.spacer plus'       plus  by plus.spacer;\012  sub plus'       plus        plus  by plus.spacer;\012} plus_plus_plus;\012\012lookup slash_slash_slash {\012  ignore sub slash slash' slash slash;\012  ignore sub slash' slash slash slash;\012  sub slash.spacer slash.spacer slash' by slash_slash_slash.liga;\012  sub slash.spacer slash'       slash  by slash.spacer;\012  sub slash'       slash        slash  by slash.spacer;\012} slash_slash_slash;\012\012lookup w_w_w {\012  ignore sub w w' w w;\012  ignore sub w' w w w;\012  sub w.spacer w.spacer w' by w_w_w.liga;\012  sub w.spacer w'       w  by w.spacer;\012  sub w'       w        w  by w.spacer;\012} w_w_w;\012\012lookup ampersand_ampersand {\012  ignore sub ampersand ampersand' ampersand;\012  ignore sub ampersand' ampersand ampersand;\012  sub ampersand.spacer ampersand' by ampersand_ampersand.liga;\012  sub ampersand'       ampersand  by ampersand.spacer;\012} ampersand_ampersand;\012\012lookup asciicircum_equal {\012  ignore sub asciicircum asciicircum' equal;\012  ignore sub asciicircum' equal equal;\012  sub asciicircum.spacer equal' by asciicircum_equal.liga;\012  sub asciicircum'       equal  by asciicircum.spacer;\012} asciicircum_equal;\012\012lookup asciitilde_asciitilde {\012  ignore sub asciitilde asciitilde' asciitilde;\012  ignore sub asciitilde' asciitilde asciitilde;\012  sub asciitilde.spacer asciitilde' by asciitilde_asciitilde.liga;\012  sub asciitilde'       asciitilde  by asciitilde.spacer;\012} asciitilde_asciitilde;\012\012lookup asciitilde_at {\012  ignore sub asciitilde asciitilde' at;\012  ignore sub asciitilde' at at;\012  sub asciitilde.spacer at' by asciitilde_at.liga;\012  sub asciitilde'       at  by asciitilde.spacer;\012} asciitilde_at;\012\012lookup asciitilde_greater {\012  ignore sub asciitilde asciitilde' greater;\012  ignore sub asciitilde' greater greater;\012  sub asciitilde.spacer greater' by asciitilde_greater.liga;\012  sub asciitilde'       greater  by asciitilde.spacer;\012} asciitilde_greater;\012\012lookup asciitilde_hyphen {\012  ignore sub asciitilde asciitilde' hyphen;\012  ignore sub asciitilde' hyphen hyphen;\012  sub asciitilde.spacer hyphen' by asciitilde_hyphen.liga;\012  sub asciitilde'       hyphen  by asciitilde.spacer;\012} asciitilde_hyphen;\012\012lookup asterisk_asterisk {\012  ignore sub asterisk asterisk' asterisk;\012  ignore sub asterisk' asterisk asterisk;\012  ignore sub slash asterisk' asterisk;\012  ignore sub asterisk' asterisk slash;\012  sub asterisk.spacer asterisk' by asterisk_asterisk.liga;\012  sub asterisk'       asterisk  by asterisk.spacer;\012} asterisk_asterisk;\012\012lookup asterisk_greater {\012  ignore sub asterisk asterisk' greater;\012  ignore sub asterisk' greater greater;\012  sub asterisk.spacer greater' by asterisk_greater.liga;\012  sub asterisk'       greater  by asterisk.spacer;\012} asterisk_greater;\012\012lookup asterisk_slash {\012  ignore sub asterisk asterisk' slash;\012  ignore sub asterisk' slash slash;\012  ignore sub slash asterisk' slash;\012  ignore sub asterisk' slash asterisk;\012  sub asterisk.spacer slash' by asterisk_slash.liga;\012  sub asterisk'       slash  by asterisk.spacer;\012} asterisk_slash;\012\012lookup bar_bar {\012  ignore sub bar bar' bar;\012  ignore sub bar' bar bar;\012  ignore sub [hyphen equal] bar' bar;\012  ignore sub bar' bar [hyphen equal];\012  sub bar.spacer bar' by bar_bar.liga;\012  sub bar'       bar  by bar.spacer;\012} bar_bar;\012\012lookup bar_braceright {\012  ignore sub bar bar' braceright;\012  ignore sub bar' braceright braceright;\012  ignore sub braceleft bar' braceright;\012  sub bar.spacer braceright' by bar_braceright.liga;\012  sub bar'       braceright  by bar.spacer;\012} bar_braceright;\012\012lookup bar_bracketright {\012  ignore sub bar bar' bracketright;\012  ignore sub bar' bracketright bracketright;\012  ignore sub bracketleft bar' bracketright;\012  sub bar.spacer bracketright' by bar_bracketright.liga;\012  sub bar'       bracketright  by bar.spacer;\012} bar_bracketright;\012\012lookup bar_greater {\012  ignore sub bar bar' greater;\012  ignore sub bar' greater greater;\012  sub bar.spacer greater' by bar_greater.liga;\012  sub bar'       greater  by bar.spacer;\012} bar_greater;\012\012lookup braceleft_bar {\012  ignore sub braceleft braceleft' bar;\012  ignore sub braceleft' bar bar;\012  ignore sub braceleft' bar braceright;\012  sub braceleft.spacer bar' by braceleft_bar.liga;\012  sub braceleft'       bar  by braceleft.spacer;\012} braceleft_bar;\012\012lookup bracketleft_bar {\012  ignore sub bracketleft bracketleft' bar;\012  ignore sub bracketleft' bar bar;\012  ignore sub bracketleft' bar bracketright;\012  sub bracketleft.spacer bar' by bracketleft_bar.liga;\012  sub bracketleft'       bar  by bracketleft.spacer;\012} bracketleft_bar;\012\012lookup bracketright_numbersign {\012  ignore sub bracketright bracketright' numbersign;\012  ignore sub bracketright' numbersign numbersign;\012  sub bracketright.spacer numbersign' by bracketright_numbersign.liga;\012  sub bracketright'       numbersign  by bracketright.spacer;\012} bracketright_numbersign;\012\012lookup colon_colon {\012  ignore sub colon colon' colon;\012  ignore sub colon' colon colon;\012  ignore sub parenleft question colon' colon;\012  sub colon.spacer colon' by colon_colon.liga;\012  sub colon'       colon  by colon.spacer;\012} colon_colon;\012\012lookup colon_equal {\012  ignore sub colon colon' equal;\012  ignore sub colon' equal equal;\012  ignore sub parenleft question colon' equal;\012  ignore sub equal colon' equal;\012  sub colon.spacer equal' by colon_equal.liga;\012  sub colon'       equal  by colon.spacer;\012} colon_equal;\012\012lookup colon_greater {\012  ignore sub colon colon' greater;\012  ignore sub colon' greater greater;\012  ignore sub parenleft question colon' greater;\012  ignore sub colon' greater equal;\012  sub colon.spacer greater' by colon_greater.liga;\012  sub colon'       greater  by colon.spacer;\012} colon_greater;\012\012lookup colon_less {\012  ignore sub colon colon' less;\012  ignore sub colon' less less;\012  ignore sub parenleft question colon' less;\012  sub colon.spacer less' by colon_less.liga;\012  sub colon'       less  by colon.spacer;\012} colon_less;\012\012lookup dollar_greater {\012  ignore sub dollar dollar' greater;\012  ignore sub dollar' greater greater;\012  sub dollar.spacer greater' by dollar_greater.liga;\012  sub dollar'       greater  by dollar.spacer;\012} dollar_greater;\012\012lookup equal_equal {\012  ignore sub equal equal' equal;\012  ignore sub equal' equal equal;\012  ignore sub parenleft question equal' equal;\012  ignore sub parenleft question less equal' equal;\012  ignore sub less question equal' equal;\012  ignore sub [bracketleft less greater bar slash] equal' equal;\012  ignore sub equal' equal [bracketright less greater bar slash] ;\012  sub equal.spacer equal' by equal_equal.liga;\012  sub equal'       equal  by equal.spacer;\012} equal_equal;\012\012lookup exclam_equal {\012  ignore sub exclam exclam' equal;\012  ignore sub exclam' equal equal;\012  ignore sub parenleft question exclam' equal;\012  ignore sub parenleft question less exclam' equal;\012  ignore sub equal exclam' equal;\012  sub exclam.spacer equal' by exclam_equal.liga;\012  sub exclam'       equal  by exclam.spacer;\012} exclam_equal;\012\012lookup exclam_exclam {\012  ignore sub exclam exclam' exclam;\012  ignore sub exclam' exclam exclam;\012  ignore sub parenleft question exclam' exclam;\012  ignore sub parenleft question less exclam' exclam;\012  sub exclam.spacer exclam' by exclam_exclam.liga;\012  sub exclam'       exclam  by exclam.spacer;\012} exclam_exclam;\012\012lookup greater_colon {\012  ignore sub greater greater' colon;\012  ignore sub greater' colon colon;\012  sub greater.spacer colon' by greater_colon.liga;\012  sub greater'       colon  by greater.spacer;\012} greater_colon;\012\012lookup greater_equal {\012  ignore sub greater greater' equal;\012  ignore sub greater' equal equal;\012  ignore sub greater' equal [less greater bar colon exclam slash];\012  sub greater.spacer equal' by greater_equal.liga;\012  sub greater'       equal  by greater.spacer;\012} greater_equal;\012\012lookup greater_greater {\012  ignore sub greater greater' greater;\012  ignore sub greater' greater greater;\012  ignore sub [asterisk plus dollar hyphen equal] greater' greater;\012  ignore sub greater' greater [hyphen equal];\012  sub greater.spacer greater' by greater_greater.liga;\012  sub greater'       greater  by greater.spacer;\012} greater_greater;\012\012lookup hyphen_asciitilde {\012  ignore sub hyphen hyphen' asciitilde;\012  ignore sub hyphen' asciitilde asciitilde;\012  sub hyphen.spacer asciitilde' by hyphen_asciitilde.liga;\012  sub hyphen'       asciitilde  by hyphen.spacer;\012} hyphen_asciitilde;\012\012lookup hyphen_hyphen {\012  ignore sub hyphen hyphen' hyphen;\012  ignore sub hyphen' hyphen hyphen;\012  ignore sub [bracketleft less greater bar] hyphen' hyphen;\012  ignore sub hyphen' hyphen [bracketright less greater bar];\012  sub hyphen.spacer hyphen' by hyphen_hyphen.liga;\012  sub hyphen'       hyphen  by hyphen.spacer;\012} hyphen_hyphen;\012\012lookup less_asciitilde {\012  ignore sub less less' asciitilde;\012  ignore sub less' asciitilde asciitilde;\012  sub less.spacer asciitilde' by less_asciitilde.liga;\012  sub less'       asciitilde  by less.spacer;\012} less_asciitilde;\012\012lookup less_asterisk {\012  ignore sub less less' asterisk;\012  ignore sub less' asterisk asterisk;\012  sub less.spacer asterisk' by less_asterisk.liga;\012  sub less'       asterisk  by less.spacer;\012} less_asterisk;\012\012lookup less_bar {\012  ignore sub less less' bar;\012  ignore sub less' bar bar;\012  sub less.spacer bar' by less_bar.liga;\012  sub less'       bar  by less.spacer;\012} less_bar;\012\012lookup less_colon {\012  ignore sub less less' colon;\012  ignore sub less' colon colon;\012  sub less.spacer colon' by less_colon.liga;\012  sub less'       colon  by less.spacer;\012} less_colon;\012\012lookup less_dollar {\012  ignore sub less less' dollar;\012  ignore sub less' dollar dollar;\012  sub less.spacer dollar' by less_dollar.liga;\012  sub less'       dollar  by less.spacer;\012} less_dollar;\012\012lookup less_equal {\012  ignore sub less less' equal;\012  ignore sub less' equal equal;\012  ignore sub parenleft question less' equal;\012  ignore sub less' equal [less greater bar colon exclam slash];\012  sub less.spacer equal' by less_equal.liga;\012  sub less'       equal  by less.spacer;\012} less_equal;\012\012lookup less_greater {\012  ignore sub less less' greater;\012  ignore sub less' greater greater;\012  sub less.spacer greater' by less_greater.liga;\012  sub less'       greater  by less.spacer;\012} less_greater;\012\012lookup less_less {\012  ignore sub less less' less;\012  ignore sub less' less less;\012  ignore sub [hyphen equal] less' less;\012  ignore sub less' less [asterisk plus dollar hyphen equal];\012  sub less.spacer less' by less_less.liga;\012  sub less'       less  by less.spacer;\012} less_less;\012\012lookup less_plus {\012  ignore sub less less' plus;\012  ignore sub less' plus plus;\012  sub less.spacer plus' by less_plus.liga;\012  sub less'       plus  by less.spacer;\012} less_plus;\012\012lookup less_slash {\012  ignore sub less less' slash;\012  ignore sub less' slash slash;\012  sub less.spacer slash' by less_slash.liga;\012  sub less'       slash  by less.spacer;\012} less_slash;\012\012lookup numbersign_braceleft {\012  ignore sub numbersign numbersign' braceleft;\012  ignore sub numbersign' braceleft braceleft;\012  sub numbersign.spacer braceleft' by numbersign_braceleft.liga;\012  sub numbersign'       braceleft  by numbersign.spacer;\012} numbersign_braceleft;\012\012lookup numbersign_bracketleft {\012  ignore sub numbersign numbersign' bracketleft;\012  ignore sub numbersign' bracketleft bracketleft;\012  sub numbersign.spacer bracketleft' by numbersign_bracketleft.liga;\012  sub numbersign'       bracketleft  by numbersign.spacer;\012} numbersign_bracketleft;\012\012lookup numbersign_colon {\012  ignore sub numbersign numbersign' colon;\012  ignore sub numbersign' colon colon;\012  sub numbersign.spacer colon' by numbersign_colon.liga;\012  sub numbersign'       colon  by numbersign.spacer;\012} numbersign_colon;\012\012lookup numbersign_equal {\012  ignore sub numbersign numbersign' equal;\012  ignore sub numbersign' equal equal;\012  sub numbersign.spacer equal' by numbersign_equal.liga;\012  sub numbersign'       equal  by numbersign.spacer;\012} numbersign_equal;\012\012lookup numbersign_exclam {\012  ignore sub numbersign numbersign' exclam;\012  ignore sub numbersign' exclam exclam;\012  sub numbersign.spacer exclam' by numbersign_exclam.liga;\012  sub numbersign'       exclam  by numbersign.spacer;\012} numbersign_exclam;\012\012lookup numbersign_numbersign {\012  ignore sub numbersign numbersign' numbersign;\012  ignore sub numbersign' numbersign numbersign;\012  sub numbersign.spacer numbersign' by numbersign_numbersign.liga;\012  sub numbersign'       numbersign  by numbersign.spacer;\012} numbersign_numbersign;\012\012lookup numbersign_parenleft {\012  ignore sub numbersign numbersign' parenleft;\012  ignore sub numbersign' parenleft parenleft;\012  sub numbersign.spacer parenleft' by numbersign_parenleft.liga;\012  sub numbersign'       parenleft  by numbersign.spacer;\012} numbersign_parenleft;\012\012lookup numbersign_question {\012  ignore sub numbersign numbersign' question;\012  ignore sub numbersign' question question;\012  sub numbersign.spacer question' by numbersign_question.liga;\012  sub numbersign'       question  by numbersign.spacer;\012} numbersign_question;\012\012lookup numbersign_underscore {\012  ignore sub numbersign numbersign' underscore;\012  ignore sub numbersign' underscore underscore;\012  sub numbersign.spacer underscore' by numbersign_underscore.liga;\012  sub numbersign'       underscore  by numbersign.spacer;\012} numbersign_underscore;\012\012lookup percent_percent {\012  ignore sub percent percent' percent;\012  ignore sub percent' percent percent;\012  sub percent.spacer percent' by percent_percent.liga;\012  sub percent'       percent  by percent.spacer;\012} percent_percent;\012\012lookup period_equal {\012  ignore sub period period' equal;\012  ignore sub period' equal equal;\012  sub period.spacer equal' by period_equal.liga;\012  sub period'       equal  by period.spacer;\012} period_equal;\012\012lookup period_hyphen {\012  ignore sub period period' hyphen;\012  ignore sub period' hyphen hyphen;\012  sub period.spacer hyphen' by period_hyphen.liga;\012  sub period'       hyphen  by period.spacer;\012} period_hyphen;\012\012lookup period_period {\012  ignore sub period period' period;\012  ignore sub period' period period;\012  sub period.spacer period' by period_period.liga;\012  sub period'       period  by period.spacer;\012} period_period;\012\012lookup period_question {\012  ignore sub period period' question;\012  ignore sub period' question question;\012  sub period.spacer question' by period_question.liga;\012  sub period'       question  by period.spacer;\012} period_question;\012\012lookup plus_greater {\012  ignore sub plus plus' greater;\012  ignore sub plus' greater greater;\012  sub plus.spacer greater' by plus_greater.liga;\012  sub plus'       greater  by plus.spacer;\012} plus_greater;\012\012lookup plus_plus {\012  ignore sub plus plus' plus;\012  ignore sub plus' plus plus;\012  sub plus.spacer plus' by plus_plus.liga;\012  sub plus'       plus  by plus.spacer;\012} plus_plus;\012\012lookup question_equal {\012  ignore sub question question' equal;\012  ignore sub question' equal equal;\012  ignore sub parenleft question' equal;\012  ignore sub less question' equal;\012  sub question.spacer equal' by question_equal.liga;\012  sub question'       equal  by question.spacer;\012} question_equal;\012\012lookup question_period {\012  ignore sub question question' period;\012  ignore sub question' period period;\012  sub question.spacer period' by question_period.liga;\012  sub question'       period  by question.spacer;\012} question_period;\012\012lookup question_question {\012  ignore sub question question' question;\012  ignore sub question' question question;\012  sub question.spacer question' by question_question.liga;\012  sub question'       question  by question.spacer;\012} question_question;\012\012lookup semicolon_semicolon {\012  ignore sub semicolon semicolon' semicolon;\012  ignore sub semicolon' semicolon semicolon;\012  sub semicolon.spacer semicolon' by semicolon_semicolon.liga;\012  sub semicolon'       semicolon  by semicolon.spacer;\012} semicolon_semicolon;\012\012lookup slash_asterisk {\012  ignore sub slash slash' asterisk;\012  ignore sub slash' asterisk asterisk;\012  ignore sub slash' asterisk slash;\012  ignore sub asterisk slash' asterisk;\012  sub slash.spacer asterisk' by slash_asterisk.liga;\012  sub slash'       asterisk  by slash.spacer;\012} slash_asterisk;\012\012lookup slash_greater {\012  ignore sub slash slash' greater;\012  ignore sub slash' greater greater;\012  sub slash.spacer greater' by slash_greater.liga;\012  sub slash'       greater  by slash.spacer;\012} slash_greater;\012\012lookup slash_slash {\012  ignore sub slash slash' slash;\012  ignore sub slash' slash slash;\012  sub slash.spacer slash' by slash_slash.liga;\012  sub slash'       slash  by slash.spacer;\012} slash_slash;\012\012### Arbitrary-length arrows #346\012\012lookup arrows {\012  # Disable |||\012  ignore sub bar bar' bar hyphen;\012  ignore sub bar bar' hyphen;\012  ignore sub [hyphen_start.arw hyphen_end.arw] bar' bar bar;\012\012  # continue hyphen\012  sub [less_start.arw less_less_start.arw less_middle.arw less_less_middle.arw greater_start.arw greater_greater_start.arw greater_middle.arw greater_greater_middle.arw bar_start.arw bar_bar_start.arw bar_middle.arw bar_bar_middle.arw hyphen_start.arw hyphen_end.arw] hyphen' by hyphen_end.arw;\012\012  # double middles\012  sub [hyphen_start.arw hyphen_end.arw] less.spacer    less'    hyphen by less_less_middle.arw;\012  sub [hyphen_start.arw hyphen_end.arw] less'          less     hyphen by less.spacer;\012  sub [hyphen_start.arw hyphen_end.arw] greater.spacer greater' hyphen by greater_greater_middle.arw;\012  sub [hyphen_start.arw hyphen_end.arw] greater'       greater  hyphen by greater.spacer;\012  sub [hyphen_start.arw hyphen_end.arw] bar.spacer     bar'     hyphen by bar_bar_middle.arw;\012  sub [hyphen_start.arw hyphen_end.arw] bar'           bar      hyphen by bar.spacer;\012\012  # single middles\012  sub [hyphen_start.arw hyphen_end.arw] less'    hyphen by less_middle.arw;\012  sub [hyphen_start.arw hyphen_end.arw] greater' hyphen by greater_middle.arw;\012  sub [hyphen_start.arw hyphen_end.arw] bar'     hyphen by bar_middle.arw;\012\012  # double ends\012  sub [hyphen_start.arw hyphen_end.arw] less.spacer    less'    by less_less_end.arw;\012  sub [hyphen_start.arw hyphen_end.arw] less'          less     by less.spacer;\012  sub [hyphen_start.arw hyphen_end.arw] greater.spacer greater' by greater_greater_end.arw;\012  sub [hyphen_start.arw hyphen_end.arw] greater'       greater  by greater.spacer;\012  sub [hyphen_start.arw hyphen_end.arw] bar.spacer     bar'     by bar_bar_end.arw;\012  sub [hyphen_start.arw hyphen_end.arw] bar'           bar      by bar.spacer;\012\012  # single ends\012  sub [hyphen_start.arw hyphen_end.arw] less'    by less_end.arw;\012  sub [hyphen_start.arw hyphen_end.arw] greater' by greater_end.arw;\012  sub [hyphen_start.arw hyphen_end.arw] bar'     by bar_end.arw;\012\012  # double beginnings\012  sub less.spacer    less'    hyphen by less_less_start.arw;\012  sub less'          less     hyphen by less.spacer;\012  sub greater.spacer greater' hyphen by greater_greater_start.arw;\012  sub greater'       greater  hyphen by greater.spacer;\012  sub bar.spacer     bar'     hyphen by bar_bar_start.arw;\012  sub bar'           bar      hyphen by bar.spacer;\012\012  # single beginnings\012  sub less'    hyphen by less_start.arw;\012  sub greater' hyphen by greater_start.arw;\012  sub bar'     hyphen by bar_start.arw;\012  sub hyphen' [hyphen less greater bar] by hyphen_start.arw;\012} arrows;\012\012### Lowercase/uppercase operators\012\012lookup lowercase_hyphen {\012  ignore sub @Tall \\hyphen' @Lowercase;\012  ignore sub @Lowercase \\hyphen' @Tall;  \012  sub \\hyphen' @Lowercase by \\hyphen.lc;\012  sub @Lowercase \\hyphen' by \\hyphen.lc;\012} lowercase_hyphen;\012\012lookup lowercase_plus {\012  ignore sub @Tall \\plus' @Lowercase;\012  ignore sub @Lowercase \\plus' @Tall;\012  sub \\plus' @Lowercase by \\plus.lc;\012  sub @Lowercase \\plus' by \\plus.lc;\012} lowercase_plus;\012\012lookup lowercase_asterisk {\012  ignore sub @Tall \\asterisk' @Lowercase;\012  ignore sub @Lowercase \\asterisk' @Tall;\012  sub \\asterisk' @Lowercase by \\asterisk.lc;\012  sub @Lowercase \\asterisk' by \\asterisk.lc;\012} lowercase_asterisk;\012\012lookup uppercase_colon {\012  ignore sub @Tall \\colon' @Lowercase;\012  ignore sub @Lowercase \\colon' @Tall;\012  sub @Tall \\colon' by \\colon.uc;\012  sub \\colon' @Tall by \\colon.uc;\012#  pos @Tall \\colon' <0 160 0 0>;\012#  pos \\colon' @Tall <0 160 0 0>;\012} uppercase_colon;\012\012### Logical conjuntion/disjunction #738\012\012lookup slash_backslash {\012  ignore sub @NotSpace slash' backslash;\012  ignore sub slash' backslash @NotSpace;\012  sub slash.spacer backslash' by slash_backslash.liga;\012  sub slash' backslash by slash.spacer;\012} slash_backslash;\012\012lookup backslash_slash {\012  ignore sub @NotSpace backslash' slash;\012  ignore sub backslash' slash @NotSpace;\012  sub backslash.spacer slash' by backslash_slash.liga;\012  sub backslash' slash by backslash.spacer;\012} backslash_slash;\012\012### 0xFF\012sub [zero zero.zero] x' [@Digit @HexDigit] by x.multiply;\012sub [zero.tosf zero.zero.tosf zero.tosf.zero] x' [@DigitTosf @HexDigit] by x.multiply.tosf;\012\012### 800x600\012sub @Digit x' @Digit by x.multiply; \012sub @DigitTosf x' @DigitTosf by x.multiply.tosf;\012\012lookup double_arrows {\012  # Disable |||\012  ignore sub bar bar' bar equal;\012  ignore sub bar bar' equal;\012  ignore sub [equal_start.darw equal_end.darw] bar' bar bar;\012\012  # continue hyphen\012  sub [less_start.darw less_less_start.darw less_middle.darw less_less_middle.darw greater_start.darw greater_greater_start.darw greater_middle.darw greater_greater_middle.darw bar_start.darw bar_bar_start.darw bar_middle.darw bar_bar_middle.darw slash_start.darw slash_middle.darw colon_middle.darw exclam_middle.darw equal_start.darw equal_end.darw] equal' by equal_end.darw;\012\012  # double middles\012  sub [equal_start.darw equal_end.darw] less.spacer    less'    equal by less_less_middle.darw;\012  sub [equal_start.darw equal_end.darw] less'          less     equal by less.spacer;\012  sub [equal_start.darw equal_end.darw] greater.spacer greater' equal by greater_greater_middle.darw;\012  sub [equal_start.darw equal_end.darw] greater'       greater  equal by greater.spacer;\012  sub [equal_start.darw equal_end.darw] bar.spacer     bar'     equal by bar_bar_middle.darw;\012  sub [equal_start.darw equal_end.darw] bar'           bar      equal by bar.spacer;\012\012  # single middles\012  sub [equal_start.darw equal_end.darw] less'    equal by less_middle.darw;\012  sub [equal_start.darw equal_end.darw] greater' equal by greater_middle.darw;\012  sub [equal_start.darw equal_end.darw] bar'     equal by bar_middle.darw;\012  sub [equal_start.darw equal_end.darw] slash'   equal by slash_middle.darw;\012  sub [equal_start.darw equal_end.darw] colon'   equal by colon_middle.darw;\012  sub [equal_start.darw equal_end.darw] exclam'  equal by exclam_middle.darw;\012\012  # double ends\012  sub [equal_start.darw equal_end.darw] less.spacer    less'    by less_less_end.darw;\012  sub [equal_start.darw equal_end.darw] less'          less     by less.spacer;\012  sub [equal_start.darw equal_end.darw] greater.spacer greater' by greater_greater_end.darw;\012  sub [equal_start.darw equal_end.darw] greater'       greater  by greater.spacer;\012  sub [equal_start.darw equal_end.darw] bar.spacer     bar'     by bar_bar_end.darw;\012  sub [equal_start.darw equal_end.darw] bar'           bar      by bar.spacer;\012\012  # single ends\012  sub [equal_start.darw equal_end.darw] less'    by less_end.darw;\012  sub [equal_start.darw equal_end.darw] greater' by greater_end.darw;\012  sub [equal_start.darw equal_end.darw] bar'     by bar_end.darw;\012  sub [equal_start.darw equal_end.darw] slash'   by slash_end.darw;\012\012  # double beginnings\012  sub less.spacer    less'    equal by less_less_start.darw;\012  sub less'          less     equal by less.spacer;\012  sub greater.spacer greater' equal by greater_greater_start.darw;\012  sub greater'       greater  equal by greater.spacer;\012  sub bar.spacer     bar'     equal by bar_bar_start.darw;\012  sub bar'           bar      equal by bar.spacer;\012\012  # Disable >=< #548\012  sub greater' equal less [equal less] by greater_start.darw;\012  ignore sub greater' equal less;\012  \012  # Disable =< #479 #468 #424 #406 #355 #305\012  sub equal' less [equal less] by equal_start.darw;\012  ignore sub equal' less;\012\012  # single beginnings\012  sub less'    equal by less_start.darw;\012  sub greater' equal by greater_start.darw;\012  sub bar'     equal by bar_start.darw;\012  sub slash'   equal by slash_start.darw;\012  sub equal'  [equal less greater bar colon exclam slash] by equal_start.darw;\012\012} double_arrows;\012\012### fi/fl #795\012\012sub [f i.salt_low j.salt_low] [i j]' by [i.salt_low j.salt_low];\012sub [F T I l.salt_low] l' by l.salt_low;\012\012### Greek\012\012lookup caltGreekUCdiph {\012  sub @GreekUCdiphIOTA Iota' by Iotadieresis;\012  sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;\012} caltGreekUCdiph;\012\012lookup caltGreekUC {\012  sub @GreekUCAcc' @GreekUC by @GreekUCcalt;\012  sub @GreekUC @GreekUCAcc' by @GreekUCcalt;\012  sub @GreekUCAcc' space @GreekUC by @GreekUCcalt;\012  sub @GreekUC space @GreekUCAcc' by @GreekUCcalt;\012} caltGreekUC;\012\012sub less asciitilde' greater by asciitilde_asciitilde.liga;\012\012lookup underscore_arrows {\012  sub [underscore_start.uarw underscore_middle.uarw] bar' underscore by bar_middle.uarw;\012  sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' bar underscore by underscore_middle.uarw;\012  sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' underscore by underscore_middle.uarw;\012  sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' by underscore_end.uarw;\012  sub underscore' bar underscore by underscore_start.uarw; \012  sub underscore' underscore by underscore_start.uarw; \012} underscore_arrows;";
+code = "lookup bar_bar_bar {\012  ignore sub bar bar' bar bar;\012  ignore sub bar' bar bar bar;\012  sub bar.spacer bar.spacer bar' by bar_bar_bar.liga;\012  sub bar.spacer bar'       bar  by bar.spacer;\012  sub bar'       bar        bar  by bar.spacer;\012} bar_bar_bar;\012\012lookup greater_greater_greater {\012  ignore sub greater greater' greater greater;\012  ignore sub greater' greater greater greater;\012  ignore sub [asterisk plus dollar] greater' greater greater;\012  sub greater.spacer greater.spacer greater' by greater_greater_greater.liga;\012  sub greater.spacer greater'       greater  by greater.spacer;\012  sub greater'       greater        greater  by greater.spacer;\012} greater_greater_greater;\012\012lookup less_less_less {\012  ignore sub less less' less less;\012  ignore sub less' less less less;\012  ignore sub less' less less [asterisk plus dollar];\012  sub less.spacer less.spacer less' by less_less_less.liga;\012  sub less.spacer less'       less  by less.spacer;\012  sub less'       less        less  by less.spacer;\012} less_less_less;\012\012lookup bar_bar {\012  ignore sub bar bar' bar;\012  ignore sub bar' bar bar;\012  ignore sub [hyphen equal] bar' bar;\012  ignore sub bar' bar [hyphen equal];\012  sub bar.spacer bar' by bar_bar.liga;\012  sub bar'       bar  by bar.spacer;\012} bar_bar;\012\012lookup greater_greater {\012  ignore sub greater greater' greater;\012  ignore sub greater' greater greater;\012  ignore sub [asterisk plus dollar] greater' greater;\012  ignore sub [hyphen equal] greater' greater;\012  ignore sub greater' greater [hyphen equal];\012  sub greater.spacer greater' by greater_greater.liga;\012  sub greater'       greater  by greater.spacer;\012} greater_greater;\012\012lookup less_less {\012  ignore sub less less' less;\012  ignore sub less' less less;\012  ignore sub less' less [asterisk plus dollar];\012  ignore sub [hyphen equal] less' less;\012  ignore sub less' less [hyphen equal];\012  sub less.spacer less' by less_less.liga;\012  sub less'       less  by less.spacer;\012} less_less;\012\012lookup bar_bar_bar_greater {\012  ignore sub bar bar' bar bar greater;\012  ignore sub bar' bar bar greater greater;\012  sub bar.spacer bar.spacer bar.spacer greater' by bar_bar_bar_greater.liga;\012  sub bar.spacer bar.spacer bar'       greater  by bar.spacer;\012  sub bar.spacer bar'       bar        greater  by bar.spacer;\012  sub bar'       bar        bar        greater  by bar.spacer;\012} bar_bar_bar_greater;\012\012lookup less_bar_bar_bar {\012  ignore sub less less' bar bar bar;\012  ignore sub less' bar bar bar bar;\012  sub less.spacer bar.spacer bar.spacer bar' by less_bar_bar_bar.liga;\012  sub less.spacer bar.spacer bar'       bar  by bar.spacer;\012  sub less.spacer bar'       bar        bar  by bar.spacer;\012  sub less'       bar        bar        bar  by less.spacer;\012} less_bar_bar_bar;\012\012lookup less_exclam_hyphen_hyphen {\012  ignore sub less less' exclam hyphen hyphen;\012  ignore sub less' exclam hyphen hyphen hyphen;\012  ignore sub parenleft question less' exclam hyphen hyphen;\012  sub less.spacer exclam.spacer hyphen.spacer hyphen' by less_exclam_hyphen_hyphen.liga;\012  sub less.spacer exclam.spacer hyphen'       hyphen  by hyphen.spacer;\012  sub less.spacer exclam'       hyphen        hyphen  by exclam.spacer;\012  sub less'       exclam        hyphen        hyphen  by less.spacer;\012} less_exclam_hyphen_hyphen;\012\012lookup numbersign_numbersign_numbersign_numbersign {\012  ignore sub numbersign numbersign' numbersign numbersign numbersign;\012  ignore sub numbersign' numbersign numbersign numbersign numbersign;\012  sub numbersign.spacer numbersign.spacer numbersign.spacer numbersign' by numbersign_numbersign_numbersign_numbersign.liga;\012  sub numbersign.spacer numbersign.spacer numbersign'       numbersign  by numbersign.spacer;\012  sub numbersign.spacer numbersign'       numbersign        numbersign  by numbersign.spacer;\012  sub numbersign'       numbersign        numbersign        numbersign  by numbersign.spacer;\012} numbersign_numbersign_numbersign_numbersign;\012\012lookup asciitilde_asciitilde_greater {\012  ignore sub asciitilde asciitilde' asciitilde greater;\012  ignore sub asciitilde' asciitilde greater greater;\012  sub asciitilde.spacer asciitilde.spacer greater' by asciitilde_asciitilde_greater.liga;\012  sub asciitilde.spacer asciitilde'       greater  by asciitilde.spacer;\012  sub asciitilde'       asciitilde        greater  by asciitilde.spacer;\012} asciitilde_asciitilde_greater;\012\012lookup asterisk_asterisk_asterisk {\012  ignore sub asterisk asterisk' asterisk asterisk;\012  ignore sub asterisk' asterisk asterisk asterisk;\012  ignore sub slash asterisk' asterisk asterisk;\012  ignore sub asterisk' asterisk asterisk slash;\012  sub asterisk.spacer asterisk.spacer asterisk' by asterisk_asterisk_asterisk.liga;\012  sub asterisk.spacer asterisk'       asterisk  by asterisk.spacer;\012  sub asterisk'       asterisk        asterisk  by asterisk.spacer;\012} asterisk_asterisk_asterisk;\012\012lookup bar_bar_greater {\012  ignore sub bar bar' bar greater;\012  ignore sub bar' bar greater greater;\012  ignore sub less bar' bar greater;\012  sub bar.spacer bar.spacer greater' by bar_bar_greater.liga;\012  sub bar.spacer bar'       greater  by bar.spacer;\012  sub bar'       bar        greater  by bar.spacer;\012} bar_bar_greater;\012\012lookup colon_colon_colon {\012  ignore sub colon colon' colon colon;\012  ignore sub colon' colon colon colon;\012  ignore sub parenleft question colon' colon colon;\012  sub colon.spacer colon.spacer colon' by colon_colon_colon.liga;\012  sub colon.spacer colon'       colon  by colon.spacer;\012  sub colon'       colon        colon  by colon.spacer;\012} colon_colon_colon;\012\012lookup colon_colon_equal {\012  ignore sub colon colon' colon equal;\012  ignore sub colon' colon equal equal;\012  ignore sub parenleft question colon' colon equal;\012  sub colon.spacer colon.spacer equal' by colon_colon_equal.liga;\012  sub colon.spacer colon'       equal  by colon.spacer;\012  sub colon'       colon        equal  by colon.spacer;\012} colon_colon_equal;\012\012lookup equal_equal_equal {\012  ignore sub equal equal' equal equal;\012  ignore sub equal' equal equal equal;\012  ignore sub parenleft question equal' equal equal;\012  ignore sub parenleft question less equal' equal equal;\012  ignore sub less question equal' equal equal;\012  ignore sub bracketleft equal' equal equal;\012  ignore sub equal' equal equal bracketright;\012  ignore sub equal [colon exclam] equal' equal equal;\012  ignore sub [less greater bar slash] equal' equal equal;\012  ignore sub equal' equal equal [less greater bar slash];\012  ignore sub equal' equal equal [colon exclam] equal;\012  sub equal.spacer equal.spacer equal' by equal_equal_equal.liga;\012  sub equal.spacer equal'       equal  by equal.spacer;\012  sub equal'       equal        equal  by equal.spacer;\012} equal_equal_equal;\012\012lookup exclam_equal_equal {\012  ignore sub exclam exclam' equal equal;\012  ignore sub exclam' equal equal equal;\012  ignore sub parenleft question exclam' equal equal;\012  ignore sub parenleft question less exclam' equal equal;\012  ignore sub equal exclam' equal equal;\012  sub exclam.spacer equal.spacer equal' by exclam_equal_equal.liga;\012  sub exclam.spacer equal'       equal  by equal.spacer;\012  sub exclam'       equal        equal  by exclam.spacer;\012} exclam_equal_equal;\012\012lookup exclam_exclam_period {\012  ignore sub exclam exclam' exclam period;\012  ignore sub exclam' exclam period period;\012  ignore sub parenleft question exclam' exclam period;\012  ignore sub parenleft question less exclam' exclam period;\012  sub exclam.spacer exclam.spacer period' by exclam_exclam_period.liga;\012  sub exclam.spacer exclam'       period  by exclam.spacer;\012  sub exclam'       exclam        period  by exclam.spacer;\012} exclam_exclam_period;\012\012lookup hyphen_hyphen_hyphen {\012  ignore sub hyphen hyphen' hyphen hyphen;\012  ignore sub hyphen' hyphen hyphen hyphen;\012  ignore sub [less greater bar] hyphen' hyphen hyphen;\012  ignore sub hyphen' hyphen hyphen [less greater bar];\012  sub hyphen.spacer hyphen.spacer hyphen' by hyphen_hyphen_hyphen.liga;\012  sub hyphen.spacer hyphen'       hyphen  by hyphen.spacer;\012  sub hyphen'       hyphen        hyphen  by hyphen.spacer;\012} hyphen_hyphen_hyphen;\012\012lookup less_asciitilde_asciitilde {\012  ignore sub less less' asciitilde asciitilde;\012  ignore sub less' asciitilde asciitilde asciitilde;\012  sub less.spacer asciitilde.spacer asciitilde' by less_asciitilde_asciitilde.liga;\012  sub less.spacer asciitilde'       asciitilde  by asciitilde.spacer;\012  sub less'       asciitilde        asciitilde  by less.spacer;\012} less_asciitilde_asciitilde;\012\012lookup less_asciitilde_greater {\012  ignore sub less less' asciitilde greater;\012  ignore sub less' asciitilde greater greater;\012  sub less.spacer asciitilde.spacer greater' by less_asciitilde_greater.liga;\012  sub less.spacer asciitilde'       greater  by asciitilde.spacer;\012  sub less'       asciitilde        greater  by less.spacer;\012} less_asciitilde_greater;\012\012lookup less_asterisk_greater {\012  sub less.spacer asterisk.spacer greater' by less_asterisk_greater.liga;\012  sub less.spacer asterisk'       greater  by asterisk.spacer;\012  sub less'       asterisk        greater  by less.spacer;\012} less_asterisk_greater;\012\012lookup less_bar_bar {\012  ignore sub less less' bar bar;\012  ignore sub less' bar bar bar;\012  ignore sub less' bar bar greater;\012  sub less.spacer bar.spacer bar' by less_bar_bar.liga;\012  sub less.spacer bar'       bar  by bar.spacer;\012  sub less'       bar        bar  by less.spacer;\012} less_bar_bar;\012\012lookup less_bar_greater {\012  ignore sub less less' bar greater;\012  ignore sub less' bar greater greater;\012  sub less.spacer bar.spacer greater' by less_bar_greater.liga;\012  sub less.spacer bar'       greater  by bar.spacer;\012  sub less'       bar        greater  by less.spacer;\012} less_bar_greater;\012\012lookup less_dollar_greater {\012  sub less.spacer dollar.spacer greater' by less_dollar_greater.liga;\012  sub less.spacer dollar'       greater  by dollar.spacer;\012  sub less'       dollar        greater  by less.spacer;\012} less_dollar_greater;\012\012lookup less_plus_greater {\012  sub less.spacer plus.spacer greater' by less_plus_greater.liga;\012  sub less.spacer plus'       greater  by plus.spacer;\012  sub less'       plus        greater  by less.spacer;\012} less_plus_greater;\012\012lookup less_slash_greater {\012  ignore sub less less' slash greater;\012  ignore sub less' slash greater greater;\012  sub less.spacer slash.spacer greater' by less_slash_greater.liga;\012  sub less.spacer slash'       greater  by slash.spacer;\012  sub less'       slash        greater  by less.spacer;\012} less_slash_greater;\012\012lookup numbersign_numbersign_numbersign {\012  ignore sub numbersign numbersign' numbersign numbersign;\012  ignore sub numbersign' numbersign numbersign numbersign;\012  sub numbersign.spacer numbersign.spacer numbersign' by numbersign_numbersign_numbersign.liga;\012  sub numbersign.spacer numbersign'       numbersign  by numbersign.spacer;\012  sub numbersign'       numbersign        numbersign  by numbersign.spacer;\012} numbersign_numbersign_numbersign;\012\012lookup numbersign_underscore_parenleft {\012  ignore sub numbersign numbersign' underscore parenleft;\012  ignore sub numbersign' underscore parenleft parenleft;\012  sub numbersign.spacer underscore.spacer parenleft' by numbersign_underscore_parenleft.liga;\012  sub numbersign.spacer underscore'       parenleft  by underscore.spacer;\012  sub numbersign'       underscore        parenleft  by numbersign.spacer;\012} numbersign_underscore_parenleft;\012\012lookup period_period_equal {\012  ignore sub period period' period equal;\012  ignore sub period' period equal equal;\012  sub period.spacer period.spacer equal' by period_period_equal.liga;\012  sub period.spacer period'       equal  by period.spacer;\012  sub period'       period        equal  by period.spacer;\012} period_period_equal;\012\012lookup period_period_less {\012  ignore sub period period' period less;\012  ignore sub period' period less less;\012  sub period.spacer period.spacer less' by period_period_less.liga;\012  sub period.spacer period'       less  by period.spacer;\012  sub period'       period        less  by period.spacer;\012} period_period_less;\012\012lookup period_period_period {\012  ignore sub period period' period period;\012  ignore sub period' period period period;\012  sub period.spacer period.spacer period' by period_period_period.liga;\012  sub period.spacer period'       period  by period.spacer;\012  sub period'       period        period  by period.spacer;\012} period_period_period;\012\012lookup plus_plus_plus {\012  ignore sub plus plus' plus plus;\012  ignore sub plus' plus plus plus;\012  sub plus.spacer plus.spacer plus' by plus_plus_plus.liga;\012  sub plus.spacer plus'       plus  by plus.spacer;\012  sub plus'       plus        plus  by plus.spacer;\012} plus_plus_plus;\012\012lookup slash_slash_slash {\012  ignore sub slash slash' slash slash;\012  ignore sub slash' slash slash slash;\012  sub slash.spacer slash.spacer slash' by slash_slash_slash.liga;\012  sub slash.spacer slash'       slash  by slash.spacer;\012  sub slash'       slash        slash  by slash.spacer;\012} slash_slash_slash;\012\012lookup w_w_w {\012  ignore sub w w' w w;\012  ignore sub w' w w w;\012  sub w.spacer w.spacer w' by w_w_w.liga;\012  sub w.spacer w'       w  by w.spacer;\012  sub w'       w        w  by w.spacer;\012} w_w_w;\012\012lookup ampersand_ampersand {\012  ignore sub ampersand ampersand' ampersand;\012  ignore sub ampersand' ampersand ampersand;\012  sub ampersand.spacer ampersand' by ampersand_ampersand.liga;\012  sub ampersand'       ampersand  by ampersand.spacer;\012} ampersand_ampersand;\012\012lookup asciicircum_equal {\012  ignore sub asciicircum asciicircum' equal;\012  ignore sub asciicircum' equal equal;\012  sub asciicircum.spacer equal' by asciicircum_equal.liga;\012  sub asciicircum'       equal  by asciicircum.spacer;\012} asciicircum_equal;\012\012lookup asciitilde_asciitilde {\012  ignore sub asciitilde asciitilde' asciitilde;\012  ignore sub asciitilde' asciitilde asciitilde;\012  sub asciitilde.spacer asciitilde' by asciitilde_asciitilde.liga;\012  sub asciitilde'       asciitilde  by asciitilde.spacer;\012} asciitilde_asciitilde;\012\012lookup asciitilde_at {\012  ignore sub asciitilde asciitilde' at;\012  ignore sub asciitilde' at at;\012  sub asciitilde.spacer at' by asciitilde_at.liga;\012  sub asciitilde'       at  by asciitilde.spacer;\012} asciitilde_at;\012\012lookup asciitilde_greater {\012  ignore sub asciitilde asciitilde' greater;\012  ignore sub asciitilde' greater greater;\012  sub asciitilde.spacer greater' by asciitilde_greater.liga;\012  sub asciitilde'       greater  by asciitilde.spacer;\012} asciitilde_greater;\012\012lookup asciitilde_hyphen {\012  ignore sub asciitilde asciitilde' hyphen;\012  ignore sub asciitilde' hyphen hyphen;\012  sub asciitilde.spacer hyphen' by asciitilde_hyphen.liga;\012  sub asciitilde'       hyphen  by asciitilde.spacer;\012} asciitilde_hyphen;\012\012lookup asterisk_asterisk {\012  ignore sub asterisk asterisk' asterisk;\012  ignore sub asterisk' asterisk asterisk;\012  ignore sub slash asterisk' asterisk;\012  ignore sub asterisk' asterisk slash;\012  sub asterisk.spacer asterisk' by asterisk_asterisk.liga;\012  sub asterisk'       asterisk  by asterisk.spacer;\012} asterisk_asterisk;\012\012lookup asterisk_greater {\012  ignore sub asterisk asterisk' greater;\012  ignore sub asterisk' greater greater;\012  sub asterisk.spacer greater' by asterisk_greater.liga;\012  sub asterisk'       greater  by asterisk.spacer;\012} asterisk_greater;\012\012lookup asterisk_slash {\012  ignore sub asterisk asterisk' slash;\012  ignore sub asterisk' slash slash;\012  ignore sub slash asterisk' slash;\012  ignore sub asterisk' slash asterisk;\012  sub asterisk.spacer slash' by asterisk_slash.liga;\012  sub asterisk'       slash  by asterisk.spacer;\012} asterisk_slash;\012\012lookup bar_braceright {\012  ignore sub bar bar' braceright;\012  ignore sub bar' braceright braceright;\012  ignore sub braceleft bar' braceright;\012  sub bar.spacer braceright' by bar_braceright.liga;\012  sub bar'       braceright  by bar.spacer;\012} bar_braceright;\012\012lookup bar_bracketright {\012  ignore sub bar bar' bracketright;\012  ignore sub bar' bracketright bracketright;\012  ignore sub bracketleft bar' bracketright;\012  sub bar.spacer bracketright' by bar_bracketright.liga;\012  sub bar'       bracketright  by bar.spacer;\012} bar_bracketright;\012\012lookup bar_greater {\012  ignore sub bar bar' greater;\012  ignore sub bar' greater greater;\012  sub bar.spacer greater' by bar_greater.liga;\012  sub bar'       greater  by bar.spacer;\012} bar_greater;\012\012lookup braceleft_bar {\012  ignore sub braceleft braceleft' bar;\012  ignore sub braceleft' bar bar;\012  ignore sub braceleft' bar braceright;\012  sub braceleft.spacer bar' by braceleft_bar.liga;\012  sub braceleft'       bar  by braceleft.spacer;\012} braceleft_bar;\012\012lookup bracketleft_bar {\012  ignore sub bracketleft bracketleft' bar;\012  ignore sub bracketleft' bar bar;\012  ignore sub bracketleft' bar bracketright;\012  sub bracketleft.spacer bar' by bracketleft_bar.liga;\012  sub bracketleft'       bar  by bracketleft.spacer;\012} bracketleft_bar;\012\012lookup bracketright_numbersign {\012  ignore sub bracketright bracketright' numbersign;\012  ignore sub bracketright' numbersign numbersign;\012  sub bracketright.spacer numbersign' by bracketright_numbersign.liga;\012  sub bracketright'       numbersign  by bracketright.spacer;\012} bracketright_numbersign;\012\012lookup colon_colon {\012  ignore sub colon colon' colon;\012  ignore sub colon' colon colon;\012  ignore sub parenleft question colon' colon;\012  sub colon.spacer colon' by colon_colon.liga;\012  sub colon'       colon  by colon.spacer;\012} colon_colon;\012\012lookup colon_equal {\012  ignore sub colon colon' equal;\012  ignore sub colon' equal equal;\012  ignore sub parenleft question colon' equal;\012  ignore sub equal colon' equal;\012  sub colon.spacer equal' by colon_equal.liga;\012  sub colon'       equal  by colon.spacer;\012} colon_equal;\012\012lookup colon_greater {\012  ignore sub colon colon' greater;\012  ignore sub colon' greater greater;\012  ignore sub parenleft question colon' greater;\012  ignore sub colon' greater equal;\012  sub colon.spacer greater' by colon_greater.liga;\012  sub colon'       greater  by colon.spacer;\012} colon_greater;\012\012lookup colon_less {\012  ignore sub colon colon' less;\012  ignore sub colon' less less;\012  ignore sub parenleft question colon' less;\012  sub colon.spacer less' by colon_less.liga;\012  sub colon'       less  by colon.spacer;\012} colon_less;\012\012lookup dollar_greater {\012  ignore sub dollar dollar' greater;\012  ignore sub dollar' greater greater;\012  sub dollar.spacer greater' by dollar_greater.liga;\012  sub dollar'       greater  by dollar.spacer;\012} dollar_greater;\012\012lookup equal_equal {\012  ignore sub equal equal' equal;\012  ignore sub equal' equal equal;\012  ignore sub parenleft question equal' equal;\012  ignore sub parenleft question less equal' equal;\012  ignore sub less question equal' equal;\012  ignore sub bracketleft equal' equal;\012  ignore sub equal' equal bracketright;\012  ignore sub equal [colon exclam] equal' equal;\012  ignore sub [less greater bar slash] equal' equal;\012  ignore sub equal' equal [less greater bar slash] ;\012  ignore sub equal' equal [colon exclam] equal;\012  sub equal.spacer equal' by equal_equal.liga;\012  sub equal'       equal  by equal.spacer;\012} equal_equal;\012\012lookup exclam_equal {\012  ignore sub exclam exclam' equal;\012  ignore sub exclam' equal equal;\012  ignore sub parenleft question exclam' equal;\012  ignore sub parenleft question less exclam' equal;\012  ignore sub equal exclam' equal;\012  sub exclam.spacer equal' by exclam_equal.liga;\012  sub exclam'       equal  by exclam.spacer;\012} exclam_equal;\012\012lookup exclam_exclam {\012  ignore sub exclam exclam' exclam;\012  ignore sub exclam' exclam exclam;\012  ignore sub parenleft question exclam' exclam;\012  ignore sub parenleft question less exclam' exclam;\012  sub exclam.spacer exclam' by exclam_exclam.liga;\012  sub exclam'       exclam  by exclam.spacer;\012} exclam_exclam;\012\012lookup greater_colon {\012  ignore sub greater greater' colon;\012  ignore sub greater' colon colon;\012  sub greater.spacer colon' by greater_colon.liga;\012  sub greater'       colon  by greater.spacer;\012} greater_colon;\012\012lookup greater_equal {\012  ignore sub greater greater' equal;\012  ignore sub greater' equal equal;\012  ignore sub equal greater' equal;\012  ignore sub greater' equal [less greater bar colon exclam slash];\012  sub greater.spacer equal' by greater_equal.liga;\012  sub greater'       equal  by greater.spacer;\012} greater_equal;\012\012lookup hyphen_asciitilde {\012  ignore sub hyphen hyphen' asciitilde;\012  ignore sub hyphen' asciitilde asciitilde;\012  sub hyphen.spacer asciitilde' by hyphen_asciitilde.liga;\012  sub hyphen'       asciitilde  by hyphen.spacer;\012} hyphen_asciitilde;\012\012lookup hyphen_hyphen {\012  ignore sub hyphen hyphen' hyphen;\012  ignore sub hyphen' hyphen hyphen;\012  ignore sub [less greater bar] hyphen' hyphen;\012  ignore sub hyphen' hyphen [less greater bar];\012  sub hyphen.spacer hyphen' by hyphen_hyphen.liga;\012  sub hyphen'       hyphen  by hyphen.spacer;\012} hyphen_hyphen;\012\012lookup less_asciitilde {\012  ignore sub less less' asciitilde;\012  ignore sub less' asciitilde asciitilde;\012  sub less.spacer asciitilde' by less_asciitilde.liga;\012  sub less'       asciitilde  by less.spacer;\012} less_asciitilde;\012\012lookup less_asterisk {\012  ignore sub less less' asterisk;\012  ignore sub less' asterisk asterisk;\012  sub less.spacer asterisk' by less_asterisk.liga;\012  sub less'       asterisk  by less.spacer;\012} less_asterisk;\012\012lookup less_bar {\012  ignore sub less less' bar;\012  ignore sub less' bar bar;\012  sub less.spacer bar' by less_bar.liga;\012  sub less'       bar  by less.spacer;\012} less_bar;\012\012lookup less_colon {\012  ignore sub less less' colon;\012  ignore sub less' colon colon;\012  sub less.spacer colon' by less_colon.liga;\012  sub less'       colon  by less.spacer;\012} less_colon;\012\012lookup less_dollar {\012  ignore sub less less' dollar;\012  ignore sub less' dollar dollar;\012  sub less.spacer dollar' by less_dollar.liga;\012  sub less'       dollar  by less.spacer;\012} less_dollar;\012\012lookup less_equal {\012  ignore sub less less' equal;\012  ignore sub less' equal equal;\012  ignore sub parenleft question less' equal;\012  ignore sub equal less' equal;\012  ignore sub less' equal [less greater bar colon exclam slash];\012  sub less.spacer equal' by less_equal.liga;\012  sub less'       equal  by less.spacer;\012} less_equal;\012\012lookup less_greater {\012  ignore sub less less' greater;\012  ignore sub less' greater greater;\012  sub less.spacer greater' by less_greater.liga;\012  sub less'       greater  by less.spacer;\012} less_greater;\012\012lookup less_plus {\012  ignore sub less less' plus;\012  ignore sub less' plus plus;\012  sub less.spacer plus' by less_plus.liga;\012  sub less'       plus  by less.spacer;\012} less_plus;\012\012lookup less_slash {\012  ignore sub less less' slash;\012  ignore sub less' slash slash;\012  sub less.spacer slash' by less_slash.liga;\012  sub less'       slash  by less.spacer;\012} less_slash;\012\012lookup numbersign_braceleft {\012  ignore sub numbersign numbersign' braceleft;\012  ignore sub numbersign' braceleft braceleft;\012  sub numbersign.spacer braceleft' by numbersign_braceleft.liga;\012  sub numbersign'       braceleft  by numbersign.spacer;\012} numbersign_braceleft;\012\012lookup numbersign_bracketleft {\012  ignore sub numbersign numbersign' bracketleft;\012  ignore sub numbersign' bracketleft bracketleft;\012  sub numbersign.spacer bracketleft' by numbersign_bracketleft.liga;\012  sub numbersign'       bracketleft  by numbersign.spacer;\012} numbersign_bracketleft;\012\012lookup numbersign_colon {\012  ignore sub numbersign numbersign' colon;\012  ignore sub numbersign' colon colon;\012  sub numbersign.spacer colon' by numbersign_colon.liga;\012  sub numbersign'       colon  by numbersign.spacer;\012} numbersign_colon;\012\012lookup numbersign_equal {\012  ignore sub numbersign numbersign' equal;\012  ignore sub numbersign' equal equal;\012  sub numbersign.spacer equal' by numbersign_equal.liga;\012  sub numbersign'       equal  by numbersign.spacer;\012} numbersign_equal;\012\012lookup numbersign_exclam {\012  ignore sub numbersign numbersign' exclam;\012  ignore sub numbersign' exclam exclam;\012  sub numbersign.spacer exclam' by numbersign_exclam.liga;\012  sub numbersign'       exclam  by numbersign.spacer;\012} numbersign_exclam;\012\012lookup numbersign_numbersign {\012  ignore sub numbersign numbersign' numbersign;\012  ignore sub numbersign' numbersign numbersign;\012  sub numbersign.spacer numbersign' by numbersign_numbersign.liga;\012  sub numbersign'       numbersign  by numbersign.spacer;\012} numbersign_numbersign;\012\012lookup numbersign_parenleft {\012  ignore sub numbersign numbersign' parenleft;\012  ignore sub numbersign' parenleft parenleft;\012  sub numbersign.spacer parenleft' by numbersign_parenleft.liga;\012  sub numbersign'       parenleft  by numbersign.spacer;\012} numbersign_parenleft;\012\012lookup numbersign_question {\012  ignore sub numbersign numbersign' question;\012  ignore sub numbersign' question question;\012  sub numbersign.spacer question' by numbersign_question.liga;\012  sub numbersign'       question  by numbersign.spacer;\012} numbersign_question;\012\012lookup numbersign_underscore {\012  ignore sub numbersign numbersign' underscore;\012  ignore sub numbersign' underscore underscore;\012  sub numbersign.spacer underscore' by numbersign_underscore.liga;\012  sub numbersign'       underscore  by numbersign.spacer;\012} numbersign_underscore;\012\012lookup percent_percent {\012  ignore sub percent percent' percent;\012  ignore sub percent' percent percent;\012  sub percent.spacer percent' by percent_percent.liga;\012  sub percent'       percent  by percent.spacer;\012} percent_percent;\012\012lookup period_equal {\012  ignore sub period period' equal;\012  ignore sub period' equal equal;\012  sub period.spacer equal' by period_equal.liga;\012  sub period'       equal  by period.spacer;\012} period_equal;\012\012lookup period_hyphen {\012  ignore sub period period' hyphen;\012  ignore sub period' hyphen hyphen;\012  sub period.spacer hyphen' by period_hyphen.liga;\012  sub period'       hyphen  by period.spacer;\012} period_hyphen;\012\012lookup period_period {\012  ignore sub period period' period;\012  ignore sub period' period period;\012  sub period.spacer period' by period_period.liga;\012  sub period'       period  by period.spacer;\012} period_period;\012\012lookup period_question {\012  ignore sub period period' question;\012  ignore sub period' question question;\012  sub period.spacer question' by period_question.liga;\012  sub period'       question  by period.spacer;\012} period_question;\012\012lookup plus_greater {\012  ignore sub plus plus' greater;\012  ignore sub plus' greater greater;\012  sub plus.spacer greater' by plus_greater.liga;\012  sub plus'       greater  by plus.spacer;\012} plus_greater;\012\012lookup plus_plus {\012  ignore sub plus plus' plus;\012  ignore sub plus' plus plus;\012  sub plus.spacer plus' by plus_plus.liga;\012  sub plus'       plus  by plus.spacer;\012} plus_plus;\012\012lookup question_equal {\012  ignore sub question question' equal;\012  ignore sub question' equal equal;\012  ignore sub parenleft question' equal;\012  ignore sub less question' equal;\012  sub question.spacer equal' by question_equal.liga;\012  sub question'       equal  by question.spacer;\012} question_equal;\012\012lookup question_period {\012  ignore sub question question' period;\012  ignore sub question' period period;\012  sub question.spacer period' by question_period.liga;\012  sub question'       period  by question.spacer;\012} question_period;\012\012lookup question_question {\012  ignore sub question question' question;\012  ignore sub question' question question;\012  sub question.spacer question' by question_question.liga;\012  sub question'       question  by question.spacer;\012} question_question;\012\012lookup semicolon_semicolon {\012  ignore sub semicolon semicolon' semicolon;\012  ignore sub semicolon' semicolon semicolon;\012  sub semicolon.spacer semicolon' by semicolon_semicolon.liga;\012  sub semicolon'       semicolon  by semicolon.spacer;\012} semicolon_semicolon;\012\012lookup slash_asterisk {\012  ignore sub slash slash' asterisk;\012  ignore sub slash' asterisk asterisk;\012  ignore sub slash' asterisk slash;\012  ignore sub asterisk slash' asterisk;\012  sub slash.spacer asterisk' by slash_asterisk.liga;\012  sub slash'       asterisk  by slash.spacer;\012} slash_asterisk;\012\012lookup slash_greater {\012  ignore sub slash slash' greater;\012  ignore sub slash' greater greater;\012  sub slash.spacer greater' by slash_greater.liga;\012  sub slash'       greater  by slash.spacer;\012} slash_greater;\012\012lookup slash_slash {\012  ignore sub slash slash' slash;\012  ignore sub slash' slash slash;\012  sub slash.spacer slash' by slash_slash.liga;\012  sub slash'       slash  by slash.spacer;\012} slash_slash;\012\012### Lowercase/uppercase operators\012\012lookup lowercase_hyphen {\012  ignore sub @Tall \\hyphen' @Lowercase;\012  ignore sub @Lowercase \\hyphen' @Tall;  \012  sub \\hyphen' @Lowercase by \\hyphen.lc;\012  sub @Lowercase \\hyphen' by \\hyphen.lc;\012} lowercase_hyphen;\012\012lookup lowercase_plus {\012  ignore sub @Tall \\plus' @Lowercase;\012  ignore sub @Lowercase \\plus' @Tall;\012  sub \\plus' @Lowercase by \\plus.lc;\012  sub @Lowercase \\plus' by \\plus.lc;\012} lowercase_plus;\012\012lookup lowercase_asterisk {\012  ignore sub @Tall \\asterisk' @Lowercase;\012  ignore sub @Lowercase \\asterisk' @Tall;\012  sub \\asterisk' @Lowercase by \\asterisk.lc;\012  sub @Lowercase \\asterisk' by \\asterisk.lc;\012} lowercase_asterisk;\012\012lookup uppercase_colon {\012  ignore sub @Tall \\colon' @Lowercase;\012  ignore sub @Lowercase \\colon' @Tall;\012  sub @Tall \\colon' by \\colon.uc;\012  sub \\colon' @Tall by \\colon.uc;\012#  pos @Tall \\colon' <0 160 0 0>;\012#  pos \\colon' @Tall <0 160 0 0>;\012} uppercase_colon;\012\012### Logical conjuntion/disjunction #738\012\012lookup slash_backslash {\012  ignore sub @NotSpace slash' backslash;\012  ignore sub slash' backslash @NotSpace;\012  sub slash.spacer backslash' by slash_backslash.liga;\012  sub slash' backslash by slash.spacer;\012} slash_backslash;\012\012lookup backslash_slash {\012  ignore sub @NotSpace backslash' slash;\012  ignore sub backslash' slash @NotSpace;\012  sub backslash.spacer slash' by backslash_slash.liga;\012  sub backslash' slash by backslash.spacer;\012} backslash_slash;\012\012### 0xFF\012sub [zero zero.zero] x' [@Digit @HexDigit] by x.multiply;\012sub [zero.tosf zero.zero.tosf zero.tosf.zero] x' [@DigitTosf @HexDigit] by x.multiply.tosf;\012\012### 800x600\012sub @Digit x' @Digit by x.multiply; \012sub @DigitTosf x' @DigitTosf by x.multiply.tosf;\012\012lookup equal_arrows {\012  # Disable |||\012  ignore sub bar bar' bar equal;\012  ignore sub bar bar' equal;\012  ignore sub [equal_start.darw equal_middle.darw] bar' bar bar;\012\012  # equal middle & end\012  sub [less_start.darw less_less_start.darw less_middle.darw less_less_middle.darw greater_start.darw greater_greater_start.darw greater_middle.darw greater_greater_middle.darw bar_start.darw bar_bar_start.darw bar_middle.darw bar_bar_middle.darw slash_start.darw slash_middle.darw colon_middle.darw exclam_middle.darw equal_start.darw equal_middle.darw] equal' [equal less greater bar slash colon exclam] by equal_middle.darw;\012\012  sub [less_start.darw less_less_start.darw less_middle.darw less_less_middle.darw greater_start.darw greater_greater_start.darw greater_middle.darw greater_greater_middle.darw bar_start.darw bar_bar_start.darw bar_middle.darw bar_bar_middle.darw slash_start.darw slash_middle.darw colon_middle.darw exclam_middle.darw equal_start.darw equal_middle.darw] equal' by equal_end.darw;\012\012  # double middles\012  sub [equal_start.darw equal_middle.darw] less.spacer    less'    equal by less_less_middle.darw;\012  sub [equal_start.darw equal_middle.darw] less'          less     equal by less.spacer;\012  sub [equal_start.darw equal_middle.darw] greater.spacer greater' equal by greater_greater_middle.darw;\012  sub [equal_start.darw equal_middle.darw] greater'       greater  equal by greater.spacer;\012  sub [equal_start.darw equal_middle.darw] bar.spacer     bar'     equal by bar_bar_middle.darw;\012  sub [equal_start.darw equal_middle.darw] bar'           bar      equal by bar.spacer;\012\012  # single middles\012  sub [equal_start.darw equal_middle.darw] less'    equal by less_middle.darw;\012  sub [equal_start.darw equal_middle.darw] greater' equal by greater_middle.darw;\012  sub [equal_start.darw equal_middle.darw] bar'     equal by bar_middle.darw;\012  sub [equal_start.darw equal_middle.darw] slash'   equal by slash_middle.darw;\012  sub [equal_start.darw equal_middle.darw] colon'   equal by colon_middle.darw;\012  sub [equal_start.darw equal_middle.darw] exclam'  equal by exclam_middle.darw;\012\012  # double ends\012  sub [equal_start.darw equal_middle.darw] less.spacer    less'    by less_less_end.darw;\012  sub [equal_start.darw equal_middle.darw] less'          less     by less.spacer;\012  sub [equal_start.darw equal_middle.darw] greater.spacer greater' by greater_greater_end.darw;\012  sub [equal_start.darw equal_middle.darw] greater'       greater  by greater.spacer;\012  sub [equal_start.darw equal_middle.darw] bar.spacer     bar'     by bar_bar_end.darw;\012  sub [equal_start.darw equal_middle.darw] bar'           bar      by bar.spacer;\012\012  # single ends\012  sub [equal_start.darw equal_middle.darw] less'    by less_end.darw;\012  sub [equal_start.darw equal_middle.darw] greater' by greater_end.darw;\012  sub [equal_start.darw equal_middle.darw] bar'     by bar_end.darw;\012  sub [equal_start.darw equal_middle.darw] slash'   by slash_end.darw;\012\012  # double beginnings\012  sub less.spacer    less'    equal by less_less_start.darw;\012  sub less'          less     equal by less.spacer;\012  sub greater.spacer greater' equal by greater_greater_start.darw;\012  sub greater'       greater  equal by greater.spacer;\012  sub bar.spacer     bar'     equal by bar_bar_start.darw;\012  sub bar'           bar      equal by bar.spacer;\012\012  # Disable >=< #548\012  sub greater' equal less [equal less] by greater_start.darw;\012  ignore sub greater' equal less;\012  \012  # Disable =< #479 #468 #424 #406 #355 #305\012  sub equal' less [equal less] by equal_start.darw;\012  ignore sub equal' less;\012\012  # single beginnings\012  sub less'    equal by less_start.darw;\012  sub greater' equal by greater_start.darw;\012  sub bar'     equal by bar_start.darw;\012  sub slash'   equal by slash_start.darw;\012  sub equal'  [equal less greater bar colon exclam slash] by equal_start.darw;\012\012} equal_arrows;\012\012### fi/fl #795\012\012sub [f i.salt_low j.salt_low] [i j]' by [i.salt_low j.salt_low];\012sub [F T I l.salt_low] l' by l.salt_low;\012\012### Greek\012\012lookup caltGreekUCdiph {\012  sub @GreekUCdiphIOTA Iota' by Iotadieresis;\012  sub @GreekUCdiphUPSILON Upsilon' by Upsilondieresis;\012} caltGreekUCdiph;\012\012lookup caltGreekUC {\012  sub @GreekUCAcc' @GreekUC by @GreekUCcalt;\012  sub @GreekUC @GreekUCAcc' by @GreekUCcalt;\012  sub @GreekUCAcc' space @GreekUC by @GreekUCcalt;\012  sub @GreekUC space @GreekUCAcc' by @GreekUCcalt;\012} caltGreekUC;\012\012### Arbitrary-length arrows #346\012\012lookup hyphen_arrows {\012  # Disable |||\012  ignore sub bar bar' bar hyphen;\012  ignore sub bar bar' hyphen;\012  ignore sub [hyphen_start.arw hyphen_middle.arw] bar' bar bar;\012\012  # hyphen middle & end\012  sub [less_start.arw less_less_start.arw less_middle.arw less_less_middle.arw greater_start.arw greater_greater_start.arw greater_middle.arw greater_greater_middle.arw bar_start.arw bar_bar_start.arw bar_middle.arw bar_bar_middle.arw hyphen_start.arw hyphen_middle.arw] hyphen' [hyphen less greater bar] by hyphen_middle.arw;\012\012  sub [less_start.arw less_less_start.arw less_middle.arw less_less_middle.arw greater_start.arw greater_greater_start.arw greater_middle.arw greater_greater_middle.arw bar_start.arw bar_bar_start.arw bar_middle.arw bar_bar_middle.arw hyphen_start.arw hyphen_middle.arw] hyphen' by hyphen_end.arw;\012\012  # double middles\012  sub [hyphen_start.arw hyphen_middle.arw] less.spacer    less'    hyphen by less_less_middle.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] less'          less     hyphen by less.spacer;\012  sub [hyphen_start.arw hyphen_middle.arw] greater.spacer greater' hyphen by greater_greater_middle.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] greater'       greater  hyphen by greater.spacer;\012  sub [hyphen_start.arw hyphen_middle.arw] bar.spacer     bar'     hyphen by bar_bar_middle.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] bar'           bar      hyphen by bar.spacer;\012\012  # single middles\012  sub [hyphen_start.arw hyphen_middle.arw] less'    hyphen by less_middle.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] greater' hyphen by greater_middle.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] bar'     hyphen by bar_middle.arw;\012\012  # double ends\012  sub [hyphen_start.arw hyphen_middle.arw] less.spacer    less'    by less_less_end.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] less'          less     by less.spacer;\012  sub [hyphen_start.arw hyphen_middle.arw] greater.spacer greater' by greater_greater_end.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] greater'       greater  by greater.spacer;\012  sub [hyphen_start.arw hyphen_middle.arw] bar.spacer     bar'     by bar_bar_end.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] bar'           bar      by bar.spacer;\012\012  # single ends\012  sub [hyphen_start.arw hyphen_middle.arw] less'    by less_end.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] greater' by greater_end.arw;\012  sub [hyphen_start.arw hyphen_middle.arw] bar'     by bar_end.arw;\012\012  # double beginnings\012  sub less.spacer    less'    hyphen by less_less_start.arw;\012  sub less'          less     hyphen by less.spacer;\012  sub greater.spacer greater' hyphen by greater_greater_start.arw;\012  sub greater'       greater  hyphen by greater.spacer;\012  sub bar.spacer     bar'     hyphen by bar_bar_start.arw;\012  sub bar'           bar      hyphen by bar.spacer;\012\012  # single beginnings\012  sub less'    hyphen by less_start.arw;\012  sub greater' hyphen by greater_start.arw;\012  sub bar'     hyphen by bar_start.arw;\012  sub hyphen' [hyphen less greater bar] by hyphen_start.arw;\012} hyphen_arrows;\012\012sub less asciitilde' greater by asciitilde_asciitilde.liga;\012\012lookup underscore_arrows {\012  # middle parts\012  sub [underscore_start.uarw underscore_middle.uarw] bar' underscore by bar_middle.uarw;\012\012  sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' bar underscore by underscore_middle.uarw;\012  sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' underscore by underscore_middle.uarw;\012\012  # ends\012  sub [underscore_start.uarw underscore_middle.uarw bar_middle.uarw] underscore' by underscore_end.uarw;\012  \012  # beginnings\012  sub underscore' bar underscore by underscore_start.uarw; \012  sub underscore' underscore by underscore_start.uarw; \012} underscore_arrows;";
 name = calt;
 },
 {
@@ -59778,7 +59783,7 @@ unicode = 0023;
 },
 {
 glyphname = slash;
-lastChange = "2020-04-05 21:59:32 +0000";
+lastChange = "2020-05-15 00:22:58 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -62746,36 +62751,26 @@ width = 1200;
 {
 color = 6;
 glyphname = hyphen_end.arw;
-lastChange = "2020-05-10 20:22:00 +0000";
+lastChange = "2020-05-14 14:41:09 +0000";
 layers = (
 {
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"941 568 LINE",
-"941 684 LINE",
-"-269 684 LINE",
-"-269 568 LINE"
-);
+name = hyphen_start.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 width = 1200;
 },
 {
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"983 497 LINE",
-"983 755 LINE",
-"-227 755 LINE",
-"-227 497 LINE"
-);
+name = hyphen_start.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 width = 1200;
 }
 );
@@ -62783,7 +62778,7 @@ width = 1200;
 {
 color = 6;
 glyphname = hyphen_start.arw;
-lastChange = "2020-05-10 20:11:59 +0000";
+lastChange = "2020-05-14 14:40:27 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -62791,8 +62786,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 568 LINE",
-"941 684 LINE",
+"1220 568 LINE",
+"1220 684 LINE",
 "259 684 LINE",
 "259 568 LINE"
 );
@@ -62806,8 +62801,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 497 LINE",
-"983 755 LINE",
+"1220 497 LINE",
+"1220 755 LINE",
 "217 755 LINE",
 "217 497 LINE"
 );
@@ -62819,8 +62814,45 @@ width = 1200;
 },
 {
 color = 6;
+glyphname = hyphen_middle.arw;
+lastChange = "2020-05-14 22:23:53 +0000";
+layers = (
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 568 LINE",
+"1220 684 LINE",
+"-20 684 LINE",
+"-20 568 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 497 LINE",
+"1220 755 LINE",
+"-20 755 LINE",
+"-20 497 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 6;
 glyphname = colon_middle.darw;
-lastChange = "2020-05-13 22:04:42 +0000";
+lastChange = "2020-05-15 00:59:09 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -62862,19 +62894,37 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"268 748 LINE",
-"268 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
+"168 752 LINE",
+"168 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"268 380 LINE",
-"268 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
+"168 384 LINE",
+"168 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 752 LINE",
+"1220 868 LINE",
+"1032 868 LINE",
+"1032 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 384 LINE",
+"1220 500 LINE",
+"1032 500 LINE",
+"1032 384 LINE"
 );
 }
 );
@@ -62920,19 +62970,37 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"228 710 LINE",
-"228 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
+"128 714 LINE",
+"128 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"228 288 LINE",
-"228 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
+"128 292 LINE",
+"128 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 714 LINE",
+"1220 960 LINE",
+"1072 960 LINE",
+"1072 714 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 292 LINE",
+"1220 538 LINE",
+"1072 538 LINE",
+"1072 292 LINE"
 );
 }
 );
@@ -62943,7 +63011,7 @@ width = 1200;
 {
 color = 6;
 glyphname = exclam_middle.darw;
-lastChange = "2020-05-13 22:04:42 +0000";
+lastChange = "2020-05-15 00:58:37 +0000";
 layers = (
 {
 components = (
@@ -62957,19 +63025,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"258 748 LINE",
-"258 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
+"158 752 LINE",
+"158 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"258 380 LINE",
-"258 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
+"158 384 LINE",
+"158 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 752 LINE",
+"1220 868 LINE",
+"1042 868 LINE",
+"1042 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 384 LINE",
+"1220 500 LINE",
+"1042 500 LINE",
+"1042 384 LINE"
 );
 }
 );
@@ -62986,19 +63072,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"228 710 LINE",
-"228 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
+"128 714 LINE",
+"128 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"228 288 LINE",
-"228 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
+"128 292 LINE",
+"128 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 714 LINE",
+"1220 960 LINE",
+"1072 960 LINE",
+"1072 714 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 292 LINE",
+"1220 538 LINE",
+"1072 538 LINE",
+"1072 292 LINE"
 );
 }
 );
@@ -63009,7 +63113,7 @@ width = 1200;
 {
 color = 6;
 glyphname = slash_end.darw;
-lastChange = "2020-05-13 22:04:42 +0000";
+lastChange = "2020-05-14 22:53:53 +0000";
 layers = (
 {
 components = (
@@ -63022,19 +63126,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"703 748 LINE",
-"703 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
+"703 752 LINE",
+"703 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"480 380 LINE",
-"480 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
+"480 384 LINE",
+"480 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
 );
 }
 );
@@ -63051,19 +63155,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"703 710 LINE",
-"703 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
+"703 714 LINE",
+"703 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"480 288 LINE",
-"480 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
+"480 292 LINE",
+"480 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
 );
 }
 );
@@ -63074,7 +63178,7 @@ width = 1200;
 {
 color = 6;
 glyphname = slash_middle.darw;
-lastChange = "2020-05-13 22:04:42 +0000";
+lastChange = "2020-05-14 22:54:16 +0000";
 layers = (
 {
 components = (
@@ -63087,19 +63191,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
+"1220 752 LINE",
+"1220 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
+"1220 384 LINE",
+"1220 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
 );
 }
 );
@@ -63116,19 +63220,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
+"1220 714 LINE",
+"1220 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
+"1220 292 LINE",
+"1220 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
 );
 }
 );
@@ -63139,7 +63243,7 @@ width = 1200;
 {
 color = 6;
 glyphname = slash_start.darw;
-lastChange = "2020-05-13 22:04:42 +0000";
+lastChange = "2020-05-14 22:54:35 +0000";
 layers = (
 {
 components = (
@@ -63152,19 +63256,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"706 864 LINE",
-"706 748 LINE"
+"1220 752 LINE",
+"1220 868 LINE",
+"706 868 LINE",
+"706 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"484 496 LINE",
-"484 380 LINE"
+"1220 384 LINE",
+"1220 500 LINE",
+"484 500 LINE",
+"484 384 LINE"
 );
 }
 );
@@ -63181,19 +63285,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"728 956 LINE",
-"728 710 LINE"
+"1220 714 LINE",
+"1220 960 LINE",
+"728 960 LINE",
+"728 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"469 534 LINE",
-"469 288 LINE"
+"1220 292 LINE",
+"1220 538 LINE",
+"469 538 LINE",
+"469 292 LINE"
 );
 }
 );
@@ -97900,7 +98004,7 @@ unicode = 2300;
 },
 {
 glyphname = bar;
-lastChange = "2020-04-05 22:02:11 +0000";
+lastChange = "2020-05-15 00:23:28 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -97908,10 +98012,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"452 1800 LINE",
-"452 -600 LINE",
-"746 -600 LINE",
-"746 1800 LINE"
+"453 1800 LINE",
+"453 -600 LINE",
+"747 -600 LINE",
+"747 1800 LINE"
 );
 }
 );
@@ -97923,10 +98027,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"545 1800 LINE",
-"545 -600 LINE",
-"653 -600 LINE",
-"653 1800 LINE"
+"546 1800 LINE",
+"546 -600 LINE",
+"654 -600 LINE",
+"654 1800 LINE"
 );
 }
 );
@@ -103060,7 +103164,7 @@ width = 1200;
 {
 color = 6;
 glyphname = bar_start.arw;
-lastChange = "2020-05-10 23:57:54 +0000";
+lastChange = "2020-05-14 14:41:58 +0000";
 layers = (
 {
 components = (
@@ -103073,8 +103177,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 568 LINE",
-"941 684 LINE",
+"1220 568 LINE",
+"1220 684 LINE",
 "600 684 LINE",
 "600 568 LINE"
 );
@@ -103093,8 +103197,8 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 497 LINE",
-"983 755 LINE",
+"1220 497 LINE",
+"1220 755 LINE",
 "600 755 LINE",
 "600 497 LINE"
 );
@@ -103107,48 +103211,26 @@ width = 1200;
 {
 color = 6;
 glyphname = bar_end.arw;
-lastChange = "2020-05-10 23:56:40 +0000";
+lastChange = "2020-05-14 14:42:40 +0000";
 layers = (
 {
 components = (
 {
-name = _part.bar;
+name = bar_start.arw;
 transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"600 684 LINE",
-"-269 684 LINE",
-"-269 568 LINE",
-"600 568 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.bar;
+name = bar_start.arw;
 transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"600 755 LINE",
-"-227 755 LINE",
-"-227 497 LINE",
-"600 497 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -103156,168 +103238,7 @@ width = 1200;
 {
 color = 6;
 glyphname = bar_bar_start.arw;
-lastChange = "2020-05-11 15:18:58 +0000";
-layers = (
-{
-components = (
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -593, 0}";
-},
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -1107, 0}";
-}
-);
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"3 684 LINE",
-"3 568 LINE",
-"941 568 LINE",
-"941 684 LINE"
-);
-}
-);
-width = 1200;
-},
-{
-components = (
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -500, 0}";
-},
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -1200, 0}";
-}
-);
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"120 755 LINE",
-"120 497 LINE",
-"983 497 LINE",
-"983 755 LINE"
-);
-}
-);
-width = 1200;
-}
-);
-},
-{
-color = 6;
-glyphname = bar_bar_end.arw;
-lastChange = "2020-05-11 15:19:35 +0000";
-layers = (
-{
-components = (
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 645, 0}";
-},
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 1159, 0}";
-}
-);
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"-1469 568 LINE",
-"56 568 LINE",
-"56 684 LINE",
-"-1469 684 LINE"
-);
-}
-);
-width = 1200;
-},
-{
-components = (
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 552, 0}";
-},
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 1252, 0}";
-}
-);
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"-1427 497 LINE",
-"-68 497 LINE",
-"-68 755 LINE",
-"-1427 755 LINE"
-);
-}
-);
-width = 1200;
-}
-);
-},
-{
-color = 6;
-glyphname = bar_middle.arw;
-lastChange = "2020-05-11 00:46:58 +0000";
-layers = (
-{
-components = (
-{
-name = _part.bar;
-}
-);
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"-269 568 LINE",
-"941 568 LINE",
-"941 684 LINE",
-"-269 684 LINE"
-);
-}
-);
-width = 1200;
-},
-{
-components = (
-{
-name = _part.bar;
-}
-);
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"-227 497 LINE",
-"983 497 LINE",
-"983 755 LINE",
-"-227 755 LINE"
-);
-}
-);
-width = 1200;
-}
-);
-},
-{
-color = 6;
-glyphname = bar_bar_middle.arw;
-lastChange = "2020-05-11 15:17:17 +0000";
+lastChange = "2020-05-14 14:48:39 +0000";
 layers = (
 {
 components = (
@@ -103337,15 +103258,146 @@ closed = 1;
 nodes = (
 "250 684 LINE",
 "250 568 LINE",
-"941 568 LINE",
-"941 684 LINE"
+"1220 568 LINE",
+"1220 684 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+components = (
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -249, 0}";
+},
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -949, 0}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"350 755 LINE",
+"350 497 LINE",
+"1220 497 LINE",
+"1220 755 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 6;
+glyphname = bar_bar_end.arw;
+lastChange = "2020-05-14 14:44:24 +0000";
+layers = (
+{
+components = (
+{
+name = bar_bar_start.arw;
+transform = "{-1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = bar_bar_start.arw;
+transform = "{-1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+width = 1200;
+}
+);
+},
+{
+color = 6;
+glyphname = bar_middle.arw;
+lastChange = "2020-05-14 14:45:59 +0000";
+layers = (
+{
+components = (
+{
+name = _part.bar;
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"-20 568 LINE",
+"1220 568 LINE",
+"1220 684 LINE",
+"-20 684 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+components = (
+{
+name = _part.bar;
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"-20 497 LINE",
+"1220 497 LINE",
+"1220 755 LINE",
+"-20 755 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 6;
+glyphname = bar_bar_middle.arw;
+lastChange = "2020-05-14 14:46:54 +0000";
+layers = (
+{
+components = (
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -342, 0}";
+},
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -856, 0}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"250 684 LINE",
+"250 568 LINE",
+"1220 568 LINE",
+"1220 684 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1469 684 LINE",
-"-1469 568 LINE",
+"-1220 684 LINE",
+"-1220 568 LINE",
 "-250 568 LINE",
 "-250 684 LINE"
 );
@@ -103371,15 +103423,15 @@ closed = 1;
 nodes = (
 "350 755 LINE",
 "350 497 LINE",
-"983 497 LINE",
-"983 755 LINE"
+"1220 497 LINE",
+"1220 755 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-1427 755 LINE",
-"-1427 497 LINE",
+"-1220 755 LINE",
+"-1220 497 LINE",
 "-350 497 LINE",
 "-350 755 LINE"
 );
@@ -103392,55 +103444,43 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_end.arw;
-lastChange = "2020-05-10 20:21:52 +0000";
+lastChange = "2020-05-14 15:10:39 +0000";
 layers = (
 {
+components = (
+{
+name = _part.arrowhead1;
+}
+);
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 paths = (
 {
 closed = 1;
 nodes = (
-"315 1132 LINE",
-"644 770 LINE SMOOTH",
-"690 718 OFFCURVE",
-"690 715 OFFCURVE",
-"738 684 CURVE",
-"-269 684 LINE",
-"-269 568 LINE",
-"740 568 LINE",
-"701 544 OFFCURVE",
-"671 511 OFFCURVE",
-"644 482 CURVE SMOOTH",
-"315 120 LINE",
-"415 36 LINE",
-"941 626 LINE",
-"415 1216 LINE"
+"800 684 LINE",
+"-20 684 LINE",
+"-20 568 LINE",
+"800 568 LINE"
 );
 }
 );
 width = 1200;
 },
 {
+components = (
+{
+name = _part.arrowhead1;
+}
+);
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 paths = (
 {
 closed = 1;
 nodes = (
-"191 1120 LINE",
-"331 968 LINE SMOOTH",
-"414 879 OFFCURVE",
-"486 808 OFFCURVE",
-"571 755 CURVE",
-"-227 755 LINE",
-"-227 497 LINE",
-"568 497 LINE",
-"486 442 OFFCURVE",
-"411 373 OFFCURVE",
-"331 284 CURVE SMOOTH",
-"191 132 LINE",
-"398 -46 LINE",
-"1003 626 LINE",
-"398 1298 LINE"
+"800 755 LINE",
+"-20 755 LINE",
+"-20 497 LINE",
+"800 497 LINE"
 );
 }
 );
@@ -103451,57 +103491,43 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_start.arw;
-lastChange = "2020-05-10 20:52:40 +0000";
+lastChange = "2020-05-14 15:11:19 +0000";
 layers = (
 {
+components = (
+{
+name = _part.arrowhead;
+}
+);
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 paths = (
 {
 closed = 1;
 nodes = (
-"941 684 LINE",
+"1220 684 LINE",
 "782 684 LINE",
 "782 568 LINE",
-"941 568 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"260 1132 LINE",
-"720 626 LINE",
-"260 120 LINE",
-"360 36 LINE",
-"869 607 LINE",
-"869 645 LINE",
-"360 1216 LINE"
+"1220 568 LINE"
 );
 }
 );
 width = 1200;
 },
 {
+components = (
+{
+name = _part.arrowhead;
+}
+);
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 paths = (
 {
 closed = 1;
 nodes = (
-"983 755 LINE",
+"1220 755 LINE",
 "743 755 LINE",
 "743 497 LINE",
-"983 497 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"198 1120 LINE",
-"652 626 LINE",
-"198 132 LINE",
-"405 -46 LINE",
-"935 543 LINE",
-"935 709 LINE",
-"405 1298 LINE"
+"1220 497 LINE"
 );
 }
 );
@@ -103512,17 +103538,17 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_greater_start.arw;
-lastChange = "2020-05-10 20:58:33 +0000";
+lastChange = "2020-05-14 21:42:21 +0000";
 layers = (
 {
 components = (
 {
 name = _part.arrowhead;
-transform = "{1, 0, 0, 1, -705, 0}";
+transform = "{1, 0, 0, 1, -1200, 0}";
 },
 {
 name = _part.arrowhead;
-transform = "{1, 0, 0, 1, -1255, 0}";
+transform = "{1, 0, 0, 1, -647, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -103530,10 +103556,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 684 LINE",
-"142 684 LINE",
-"142 568 LINE",
-"941 568 LINE"
+"1220 684 LINE",
+"180 684 LINE",
+"180 568 LINE",
+"1220 568 LINE"
 );
 }
 );
@@ -103543,11 +103569,11 @@ width = 1200;
 components = (
 {
 name = _part.arrowhead;
-transform = "{1, 0, 0, 1, -408, 0}";
+transform = "{1, 0, 0, 1, -1200, 0}";
 },
 {
 name = _part.arrowhead;
-transform = "{1, 0, 0, 1, -1193, 0}";
+transform = "{1, 0, 0, 1, -415, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -103555,10 +103581,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 755 LINE",
+"1220 755 LINE",
 "346 755 LINE",
 "346 497 LINE",
-"983 497 LINE"
+"1220 497 LINE"
 );
 }
 );
@@ -103569,12 +103595,16 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_greater_end.arw;
-lastChange = "2020-05-10 20:55:40 +0000";
+lastChange = "2020-05-14 15:23:29 +0000";
 layers = (
 {
 components = (
 {
 name = _part.arrowhead;
+},
+{
+name = _part.arrowhead1;
+transform = "{1, 0, 0, 1, -555, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -103582,21 +103612,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-240 1132 LINE",
-"89 770 LINE SMOOTH",
-"136 718 OFFCURVE",
-"135 715 OFFCURVE",
-"184 684 CURVE",
-"-1469 684 LINE",
-"-1469 568 LINE",
-"185 568 LINE",
-"147 544 OFFCURVE",
-"117 511 OFFCURVE",
-"89 482 CURVE SMOOTH",
-"-240 120 LINE",
-"-139 36 LINE",
-"386 626 LINE",
-"-139 1216 LINE"
+"260 684 LINE",
+"-1220 684 LINE",
+"-1220 568 LINE",
+"260 568 LINE"
 );
 }
 );
@@ -103606,6 +103625,10 @@ width = 1200;
 components = (
 {
 name = _part.arrowhead;
+},
+{
+name = _part.arrowhead1;
+transform = "{1, 0, 0, 1, -784, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -103613,21 +103636,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-593 1120 LINE",
-"-453 968 LINE SMOOTH",
-"-369 879 OFFCURVE",
-"-297 808 OFFCURVE",
-"-212 755 CURVE",
-"-1427 755 LINE",
-"-1427 497 LINE",
-"-216 497 LINE",
-"-297 442 OFFCURVE",
-"-372 373 OFFCURVE",
-"-453 284 CURVE SMOOTH",
-"-593 132 LINE",
-"-385 -46 LINE",
-"219 626 LINE",
-"-385 1298 LINE"
+"0 755 LINE",
+"-1220 755 LINE",
+"-1220 497 LINE",
+"0 497 LINE"
 );
 }
 );
@@ -103638,13 +103650,12 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_middle.arw;
-lastChange = "2020-05-11 00:47:02 +0000";
+lastChange = "2020-05-14 15:11:58 +0000";
 layers = (
 {
 components = (
 {
 name = _part.arrowhead1;
-transform = "{1, 0, 0, 1, -200, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -103652,10 +103663,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-269 568 LINE",
-"941 568 LINE",
-"941 684 LINE",
-"-269 684 LINE"
+"-20 568 LINE",
+"1220 568 LINE",
+"1220 684 LINE",
+"-20 684 LINE"
 );
 }
 );
@@ -103665,7 +103676,6 @@ width = 1200;
 components = (
 {
 name = _part.arrowhead1;
-transform = "{1, 0, 0, 1, -200, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -103673,10 +103683,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-227 497 LINE",
-"983 497 LINE",
-"983 755 LINE",
-"-227 755 LINE"
+"-20 497 LINE",
+"1220 497 LINE",
+"1220 755 LINE",
+"-20 755 LINE"
 );
 }
 );
@@ -103687,13 +103697,17 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_greater_middle.arw;
-lastChange = "2020-05-11 01:23:34 +0000";
+lastChange = "2020-05-14 15:25:46 +0000";
 layers = (
 {
 components = (
 {
 name = _part.arrowhead;
-transform = "{1, 0, 0, 1, -251, 0}";
+transform = "{1, 0, 0, 1, -301, 0}";
+},
+{
+name = _part.arrowhead1;
+transform = "{1, 0, 0, 1, -856, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -103701,30 +103715,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-491 1132 LINE",
-"-162 770 LINE SMOOTH",
-"-115 718 OFFCURVE",
-"-116 715 OFFCURVE",
-"-67 684 CURVE",
-"-1469 684 LINE",
-"-1469 568 LINE",
-"-66 568 LINE",
-"-104 544 OFFCURVE",
-"-135 512 OFFCURVE",
-"-162 482 CURVE SMOOTH",
-"-491 120 LINE",
-"-390 36 LINE",
-"135 626 LINE",
-"-390 1216 LINE"
+"-49 684 LINE",
+"-1220 684 LINE",
+"-1220 568 LINE",
+"-49 568 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"593 684 LINE",
-"593 568 LINE",
-"941 568 LINE",
-"941 684 LINE"
+"543 684 LINE",
+"543 568 LINE",
+"1220 568 LINE",
+"1220 684 LINE"
 );
 }
 );
@@ -103734,7 +103737,11 @@ width = 1200;
 components = (
 {
 name = _part.arrowhead;
-transform = "{1, 0, 0, 1, -105, 0}";
+transform = "{1, 0, 0, 1, -155, 0}";
+},
+{
+name = _part.arrowhead1;
+transform = "{1, 0, 0, 1, -939, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -103742,21 +103749,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-699 1120 LINE",
-"-559 968 LINE SMOOTH",
-"-476 878 OFFCURVE",
-"-403 808 OFFCURVE",
-"-318 755 CURVE",
-"-1427 755 LINE",
-"-1427 497 LINE",
-"-322 497 LINE",
-"-403 442 OFFCURVE",
-"-477 373 OFFCURVE",
-"-559 284 CURVE SMOOTH",
-"-699 132 LINE",
-"-491 -46 LINE",
-"113 626 LINE",
-"-491 1298 LINE"
+"-120 755 LINE",
+"-1220 755 LINE",
+"-1220 497 LINE",
+"-120 497 LINE"
 );
 },
 {
@@ -103764,8 +103760,8 @@ closed = 1;
 nodes = (
 "571 755 LINE",
 "571 497 LINE",
-"983 497 LINE",
-"983 755 LINE"
+"1220 497 LINE",
+"1220 755 LINE"
 );
 }
 );
@@ -103776,58 +103772,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_start.arw;
-lastChange = "2020-05-10 20:52:40 +0000";
+lastChange = "2020-05-14 15:12:42 +0000";
 layers = (
 {
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"259 626 LINE",
-"785 36 LINE",
-"885 120 LINE",
-"556 482 LINE SMOOTH",
-"529 511 OFFCURVE",
-"499 544 OFFCURVE",
-"460 568 CURVE",
-"941 568 LINE",
-"941 684 LINE",
-"462 684 LINE",
-"510 715 OFFCURVE",
-"510 718 OFFCURVE",
-"556 770 CURVE SMOOTH",
-"885 1132 LINE",
-"785 1216 LINE"
-);
+name = greater_end.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 width = 1200;
 },
 {
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"197 626 LINE",
-"802 -46 LINE",
-"1009 132 LINE",
-"869 284 LINE SMOOTH",
-"789 373 OFFCURVE",
-"714 442 OFFCURVE",
-"632 497 CURVE",
-"983 497 LINE",
-"983 755 LINE",
-"629 755 LINE",
-"714 808 OFFCURVE",
-"786 879 OFFCURVE",
-"869 968 CURVE SMOOTH",
-"1009 1120 LINE",
-"802 1298 LINE"
-);
+name = greater_end.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 width = 1200;
 }
 );
@@ -103835,48 +103799,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_end.arw;
-lastChange = "2020-05-10 20:52:40 +0000";
+lastChange = "2020-05-14 15:13:01 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 1255, 0}";
+name = greater_start.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"418 568 LINE",
-"418 684 LINE",
-"-269 684 LINE",
-"-269 568 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 1193, 0}";
+name = greater_start.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"457 497 LINE",
-"457 755 LINE",
-"-227 755 LINE",
-"-227 497 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -103884,70 +103826,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_less_start.arw;
-lastChange = "2020-05-10 20:59:45 +0000";
+lastChange = "2020-05-14 15:26:37 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead;
+name = greater_greater_end.arw;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"-386 626 LINE",
-"139 36 LINE",
-"240 120 LINE",
-"-89 482 LINE SMOOTH",
-"-117 511 OFFCURVE",
-"-147 544 OFFCURVE",
-"-185 568 CURVE",
-"941 568 LINE",
-"941 684 LINE",
-"-184 684 LINE",
-"-135 715 OFFCURVE",
-"-136 718 OFFCURVE",
-"-89 770 CURVE SMOOTH",
-"240 1132 LINE",
-"139 1216 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead;
+name = greater_greater_end.arw;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"-219 626 LINE",
-"385 -46 LINE",
-"593 132 LINE",
-"453 284 LINE SMOOTH",
-"372 373 OFFCURVE",
-"297 442 OFFCURVE",
-"216 497 CURVE",
-"983 497 LINE",
-"983 755 LINE",
-"212 755 LINE",
-"297 808 OFFCURVE",
-"369 879 OFFCURVE",
-"453 968 CURVE SMOOTH",
-"593 1120 LINE",
-"385 1298 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -103955,56 +103853,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_less_end.arw;
-lastChange = "2020-05-10 20:56:53 +0000";
+lastChange = "2020-05-14 15:27:25 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 705, 0}";
-},
-{
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 1255, 0}";
+name = greater_greater_start.arw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"-142 568 LINE",
-"-142 684 LINE",
-"-1469 684 LINE",
-"-1469 568 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 408, 0}";
-},
-{
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 1193, 0}";
+name = greater_greater_start.arw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"-346 497 LINE",
-"-346 755 LINE",
-"-1427 755 LINE",
-"-1427 497 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -104012,48 +103880,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_middle.arw;
-lastChange = "2020-05-11 00:48:53 +0000";
+lastChange = "2020-05-14 15:13:27 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead1;
-transform = "{-1, 0, 0, 1, 1400, 0}";
+name = greater_middle.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"-269 568 LINE",
-"941 568 LINE",
-"941 684 LINE",
-"-269 684 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead1;
-transform = "{-1, 0, 0, 1, 1400, 0}";
+name = greater_middle.arw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"-227 497 LINE",
-"983 497 LINE",
-"983 755 LINE",
-"-227 755 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -104061,88 +103907,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_less_middle.arw;
-lastChange = "2020-05-11 01:33:37 +0000";
+lastChange = "2020-05-14 15:27:46 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 351, 0}";
+name = greater_greater_middle.arw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"-1469 684 LINE",
-"-1469 568 LINE",
-"-470 568 LINE",
-"-470 684 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-35 626 LINE",
-"490 36 LINE",
-"591 120 LINE",
-"262 482 LINE SMOOTH",
-"235 512 OFFCURVE",
-"204 544 OFFCURVE",
-"166 568 CURVE",
-"941 568 LINE",
-"941 684 LINE",
-"167 684 LINE",
-"216 715 OFFCURVE",
-"215 718 OFFCURVE",
-"262 770 CURVE SMOOTH",
-"591 1132 LINE",
-"490 1216 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead;
-transform = "{-1, 0, 0, 1, 205, 0}";
+name = greater_greater_middle.arw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"-1427 755 LINE",
-"-1427 497 LINE",
-"-540 497 LINE",
-"-540 755 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-14 626 LINE",
-"590 -46 LINE",
-"798 132 LINE",
-"658 284 LINE SMOOTH",
-"576 373 OFFCURVE",
-"502 442 OFFCURVE",
-"421 497 CURVE",
-"983 497 LINE",
-"983 755 LINE",
-"417 755 LINE",
-"502 808 OFFCURVE",
-"575 878 OFFCURVE",
-"658 968 CURVE SMOOTH",
-"798 1120 LINE",
-"590 1298 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -104150,7 +103934,7 @@ width = 1200;
 {
 color = 6;
 glyphname = bar_start.darw;
-lastChange = "2020-05-13 21:57:46 +0000";
+lastChange = "2020-05-14 22:16:59 +0000";
 layers = (
 {
 components = (
@@ -104163,19 +103947,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"600 864 LINE",
-"600 748 LINE"
+"1220 752 LINE",
+"1220 868 LINE",
+"600 868 LINE",
+"600 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"600 496 LINE",
-"600 380 LINE"
+"1220 384 LINE",
+"1220 500 LINE",
+"600 500 LINE",
+"600 384 LINE"
 );
 }
 );
@@ -104192,19 +103976,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"600 956 LINE",
-"600 710 LINE"
+"1220 714 LINE",
+"1220 960 LINE",
+"600 960 LINE",
+"600 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"600 534 LINE",
-"600 288 LINE"
+"1220 292 LINE",
+"1220 538 LINE",
+"600 538 LINE",
+"600 292 LINE"
 );
 }
 );
@@ -104215,66 +103999,26 @@ width = 1200;
 {
 color = 6;
 glyphname = bar_end.darw;
-lastChange = "2020-05-12 22:16:16 +0000";
+lastChange = "2020-05-14 22:18:07 +0000";
 layers = (
 {
 components = (
 {
-name = _part.bar;
+name = bar_start.darw;
 transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"600 748 LINE",
-"600 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"600 380 LINE",
-"600 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.bar;
+name = bar_start.darw;
 transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"600 710 LINE",
-"600 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"600 288 LINE",
-"600 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -104282,222 +104026,7 @@ width = 1200;
 {
 color = 6;
 glyphname = bar_bar_start.darw;
-lastChange = "2020-05-12 22:18:56 +0000";
-layers = (
-{
-components = (
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -593, 0}";
-},
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -1107, 0}";
-}
-);
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"0 864 LINE",
-"0 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"0 496 LINE",
-"0 380 LINE"
-);
-}
-);
-width = 1200;
-},
-{
-components = (
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -500, 0}";
-},
-{
-name = _part.bar;
-transform = "{1, 0, 0, 1, -1200, 0}";
-}
-);
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"0 956 LINE",
-"0 710 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"0 534 LINE",
-"0 288 LINE"
-);
-}
-);
-width = 1200;
-}
-);
-},
-{
-color = 6;
-glyphname = bar_bar_end.darw;
-lastChange = "2020-05-12 22:19:51 +0000";
-layers = (
-{
-components = (
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 645, 0}";
-},
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 1159, 0}";
-}
-);
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"50 748 LINE",
-"50 864 LINE",
-"-1469 864 LINE",
-"-1469 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"50 380 LINE",
-"50 496 LINE",
-"-1469 496 LINE",
-"-1469 380 LINE"
-);
-}
-);
-width = 1200;
-},
-{
-components = (
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 552, 0}";
-},
-{
-name = _part.bar;
-transform = "{-1, 0, 0, 1, 1252, 0}";
-}
-);
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"50 710 LINE",
-"50 956 LINE",
-"-1427 956 LINE",
-"-1427 710 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"50 288 LINE",
-"50 534 LINE",
-"-1427 534 LINE",
-"-1427 288 LINE"
-);
-}
-);
-width = 1200;
-}
-);
-},
-{
-color = 6;
-glyphname = bar_middle.darw;
-lastChange = "2020-05-13 21:58:14 +0000";
-layers = (
-{
-components = (
-{
-name = _part.bar;
-}
-);
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
-);
-}
-);
-width = 1200;
-},
-{
-components = (
-{
-name = _part.bar;
-}
-);
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
-);
-}
-);
-width = 1200;
-}
-);
-},
-{
-color = 6;
-glyphname = bar_bar_middle.darw;
-lastChange = "2020-05-12 22:19:35 +0000";
+lastChange = "2020-05-14 22:17:46 +0000";
 layers = (
 {
 components = (
@@ -104515,37 +104044,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"260 864 LINE",
-"260 748 LINE"
+"1220 752 LINE",
+"1220 868 LINE",
+"250 868 LINE",
+"250 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"260 496 LINE",
-"260 380 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-260 748 LINE",
-"-260 864 LINE",
-"-1469 864 LINE",
-"-1469 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-260 380 LINE",
-"-260 496 LINE",
-"-1469 496 LINE",
-"-1469 380 LINE"
+"1220 384 LINE",
+"1220 500 LINE",
+"250 500 LINE",
+"250 384 LINE"
 );
 }
 );
@@ -104567,37 +104078,222 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"260 956 LINE",
-"260 710 LINE"
+"1220 714 LINE",
+"1220 960 LINE",
+"350 960 LINE",
+"350 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"260 534 LINE",
-"260 288 LINE"
+"1220 292 LINE",
+"1220 538 LINE",
+"350 538 LINE",
+"350 292 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 6;
+glyphname = bar_bar_end.darw;
+lastChange = "2020-05-14 22:19:07 +0000";
+layers = (
+{
+components = (
+{
+name = bar_bar_start.darw;
+transform = "{-1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = bar_bar_start.darw;
+transform = "{-1, 0, 0, 1, 0, 0}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+width = 1200;
+}
+);
+},
+{
+color = 6;
+glyphname = bar_middle.darw;
+lastChange = "2020-05-14 22:19:35 +0000";
+layers = (
+{
+components = (
+{
+name = _part.bar;
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 752 LINE",
+"1220 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-260 710 LINE",
-"-260 956 LINE",
-"-1427 956 LINE",
-"-1427 710 LINE"
+"1220 384 LINE",
+"1220 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+components = (
+{
+name = _part.bar;
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 714 LINE",
+"1220 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-260 288 LINE",
-"-260 534 LINE",
-"-1427 534 LINE",
-"-1427 288 LINE"
+"1220 292 LINE",
+"1220 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 6;
+glyphname = bar_bar_middle.darw;
+lastChange = "2020-05-14 22:20:47 +0000";
+layers = (
+{
+components = (
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -342, 0}";
+},
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -856, 0}";
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 752 LINE",
+"1220 868 LINE",
+"260 868 LINE",
+"260 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 384 LINE",
+"1220 500 LINE",
+"260 500 LINE",
+"260 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-260 752 LINE",
+"-260 868 LINE",
+"-1220 868 LINE",
+"-1220 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-260 384 LINE",
+"-260 500 LINE",
+"-1220 500 LINE",
+"-1220 384 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+components = (
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -249, 0}";
+},
+{
+name = _part.bar;
+transform = "{1, 0, 0, 1, -949, 0}";
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 714 LINE",
+"1220 960 LINE",
+"260 960 LINE",
+"260 714 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 292 LINE",
+"1220 538 LINE",
+"260 538 LINE",
+"260 292 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-260 714 LINE",
+"-260 960 LINE",
+"-1220 960 LINE",
+"-1220 714 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-260 292 LINE",
+"-260 538 LINE",
+"-1220 538 LINE",
+"-1220 292 LINE"
 );
 }
 );
@@ -104608,7 +104304,7 @@ width = 1200;
 {
 color = 6;
 glyphname = equal_start.darw;
-lastChange = "2020-05-12 22:24:57 +0000";
+lastChange = "2020-05-14 22:24:21 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -104616,19 +104312,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"259 864 LINE",
-"259 748 LINE"
+"1220 752 LINE",
+"1220 868 LINE",
+"259 868 LINE",
+"259 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"259 496 LINE",
-"259 380 LINE"
+"1220 384 LINE",
+"1220 500 LINE",
+"259 500 LINE",
+"259 384 LINE"
 );
 }
 );
@@ -104640,19 +104336,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"217 956 LINE",
-"217 710 LINE"
+"1220 714 LINE",
+"1220 960 LINE",
+"217 960 LINE",
+"217 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"217 534 LINE",
-"217 288 LINE"
+"1220 292 LINE",
+"1220 538 LINE",
+"217 538 LINE",
+"217 292 LINE"
 );
 }
 );
@@ -104663,7 +104359,7 @@ width = 1200;
 {
 color = 6;
 glyphname = equal_end.darw;
-lastChange = "2020-05-12 22:24:52 +0000";
+lastChange = "2020-05-14 22:24:25 +0000";
 layers = (
 {
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -104671,19 +104367,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"941 748 LINE",
-"941 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
+"941 752 LINE",
+"941 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"941 380 LINE",
-"941 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
+"941 384 LINE",
+"941 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
 );
 }
 );
@@ -104695,19 +104391,74 @@ paths = (
 {
 closed = 1;
 nodes = (
-"983 710 LINE",
-"983 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
+"983 714 LINE",
+"983 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"983 288 LINE",
-"983 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
+"983 292 LINE",
+"983 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 6;
+glyphname = equal_middle.darw;
+lastChange = "2020-05-14 22:24:18 +0000";
+layers = (
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 752 LINE",
+"1220 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 384 LINE",
+"1220 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"1220 714 LINE",
+"1220 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1220 292 LINE",
+"1220 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
 );
 }
 );
@@ -104718,13 +104469,12 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_end.darw;
-lastChange = "2020-05-11 15:33:02 +0000";
+lastChange = "2020-05-14 22:22:17 +0000";
 layers = (
 {
 components = (
 {
 name = _part.arrowhead2;
-transform = "{1, 0, 0, 1, -100, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -104732,19 +104482,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"690 748 LINE",
-"690 864 LINE",
-"-269 864 LINE",
-"-269 748 LINE"
+"690 752 LINE",
+"690 868 LINE",
+"-20 868 LINE",
+"-20 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"690 380 LINE",
-"690 496 LINE",
-"-269 496 LINE",
-"-269 380 LINE"
+"690 384 LINE",
+"690 500 LINE",
+"-20 500 LINE",
+"-20 384 LINE"
 );
 }
 );
@@ -104754,7 +104504,6 @@ width = 1200;
 components = (
 {
 name = _part.arrowhead2;
-transform = "{1, 0, 0, 1, -100, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -104762,19 +104511,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"645 710 LINE",
-"645 956 LINE",
-"-227 956 LINE",
-"-227 710 LINE"
+"645 714 LINE",
+"645 960 LINE",
+"-20 960 LINE",
+"-20 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"645 288 LINE",
-"645 534 LINE",
-"-227 534 LINE",
-"-227 288 LINE"
+"645 292 LINE",
+"645 538 LINE",
+"-20 538 LINE",
+"-20 292 LINE"
 );
 }
 );
@@ -104785,59 +104534,61 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_start.darw;
-lastChange = "2020-05-11 15:40:16 +0000";
+lastChange = "2020-05-14 22:37:21 +0000";
 layers = (
 {
+components = (
+{
+name = _part.arrowhead3;
+}
+);
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 paths = (
 {
 closed = 1;
 nodes = (
-"670 864 LINE",
-"360 1212 LINE",
-"260 1128 LINE",
-"602 748 LINE",
-"941 748 LINE",
-"941 864 LINE"
+"685 868 LINE",
+"685 752 LINE",
+"1220 752 LINE",
+"1220 868 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"602 496 LINE",
-"260 116 LINE",
-"360 32 LINE",
-"670 380 LINE",
-"941 380 LINE",
-"941 496 LINE"
+"685 500 LINE",
+"685 384 LINE",
+"1220 384 LINE",
+"1220 500 LINE"
 );
 }
 );
 width = 1200;
 },
 {
+components = (
+{
+name = _part.arrowhead3;
+}
+);
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 paths = (
 {
 closed = 1;
 nodes = (
-"707 956 LINE",
-"405 1294 LINE",
-"198 1116 LINE",
-"570 710 LINE",
-"983 710 LINE",
-"983 956 LINE"
+"630 960 LINE",
+"630 714 LINE",
+"1220 714 LINE",
+"1220 960 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"570 534 LINE",
-"198 128 LINE",
-"405 -50 LINE",
-"707 288 LINE",
-"983 288 LINE",
-"983 534 LINE"
+"630 538 LINE",
+"630 292 LINE",
+"1220 292 LINE",
+"1220 538 LINE"
 );
 }
 );
@@ -104848,81 +104599,71 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_greater_start.darw;
-lastChange = "2020-05-12 23:40:51 +0000";
+lastChange = "2020-05-14 22:38:24 +0000";
 layers = (
 {
+components = (
+{
+name = _part.arrowhead;
+transform = "{1, 0, 0, 1, -1200, 0}";
+},
+{
+name = _part.arrowhead3;
+transform = "{1, 0, 0, 1, -729, 0}";
+}
+);
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 paths = (
 {
 closed = 1;
 nodes = (
-"-52 864 LINE",
-"-405 1256 LINE",
-"-505 1172 LINE",
-"-120 748 LINE",
-"941 748 LINE",
-"941 864 LINE"
+"-49 868 LINE",
+"-49 752 LINE",
+"1220 752 LINE",
+"1220 868 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-128 496 LINE",
-"-505 80 LINE",
-"-405 -4 LINE",
-"-59 380 LINE",
-"941 380 LINE",
-"941 496 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-932 1128 LINE",
-"-477 622 LINE",
-"-932 116 LINE",
-"-832 32 LINE",
-"-307 622 LINE",
-"-832 1212 LINE"
+"-49 500 LINE",
+"-49 384 LINE",
+"1220 384 LINE",
+"1220 500 LINE"
 );
 }
 );
 width = 1200;
 },
 {
+components = (
+{
+name = _part.arrowhead;
+transform = "{1, 0, 0, 1, -1200, 0}";
+},
+{
+name = _part.arrowhead3;
+transform = "{1, 0, 0, 1, -520, 0}";
+}
+);
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 paths = (
 {
 closed = 1;
 nodes = (
-"182 956 LINE",
-"-184 1364 LINE",
-"-389 1186 LINE",
-"45 710 LINE",
-"983 710 LINE",
-"983 956 LINE"
+"94 960 LINE",
+"94 714 LINE",
+"1220 714 LINE",
+"1220 960 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"45 534 LINE",
-"-389 58 LINE",
-"-184 -120 LINE",
-"182 288 LINE",
-"983 288 LINE",
-"983 534 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-1000 1116 LINE",
-"-548 622 LINE",
-"-1000 128 LINE",
-"-793 -50 LINE",
-"-193 622 LINE",
-"-793 1294 LINE"
+"94 538 LINE",
+"94 292 LINE",
+"1220 292 LINE",
+"1220 538 LINE"
 );
 }
 );
@@ -104933,13 +104674,13 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_greater_end.darw;
-lastChange = "2020-05-12 21:31:40 +0000";
+lastChange = "2020-05-14 22:46:50 +0000";
 layers = (
 {
 components = (
 {
 name = _part.arrowhead2;
-transform = "{1, 0, 0, 1, -560, 0}";
+transform = "{1, 0, 0, 1, -473, 0}";
 },
 {
 name = _part.arrowhead;
@@ -104950,19 +104691,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"230 748 LINE",
-"230 864 LINE",
-"-1469 864 LINE",
-"-1469 748 LINE"
+"222 752 LINE",
+"222 868 LINE",
+"-1220 868 LINE",
+"-1220 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"230 380 LINE",
-"230 496 LINE",
-"-1469 496 LINE",
-"-1469 380 LINE"
+"222 384 LINE",
+"222 500 LINE",
+"-1220 500 LINE",
+"-1220 384 LINE"
 );
 }
 );
@@ -104972,7 +104713,7 @@ width = 1200;
 components = (
 {
 name = _part.arrowhead2;
-transform = "{1, 0, 0, 1, -770, 0}";
+transform = "{1, 0, 0, 1, -680, 0}";
 },
 {
 name = _part.arrowhead;
@@ -104983,19 +104724,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-25 710 LINE",
-"-25 956 LINE",
-"-1427 956 LINE",
-"-1427 710 LINE"
+"-85 714 LINE",
+"-85 960 LINE",
+"-1220 960 LINE",
+"-1220 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-25 288 LINE",
-"-25 534 LINE",
-"-1427 534 LINE",
-"-1427 288 LINE"
+"-85 292 LINE",
+"-85 538 LINE",
+"-1220 538 LINE",
+"-1220 292 LINE"
 );
 }
 );
@@ -105006,73 +104747,63 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_middle.darw;
-lastChange = "2020-05-12 21:34:06 +0000";
+lastChange = "2020-05-14 22:50:21 +0000";
 layers = (
 {
+components = (
+{
+name = _part.arrowhead2;
+transform = "{1, 0, 0, 1, 50, 0}";
+}
+);
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 paths = (
 {
 closed = 1;
 nodes = (
-"-269 864 LINE",
-"-269 748 LINE",
-"941 748 LINE",
-"941 864 LINE"
+"-20 868 LINE",
+"-20 752 LINE",
+"1220 752 LINE",
+"1220 868 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-269 496 LINE",
-"-269 380 LINE",
-"941 380 LINE",
-"941 496 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"260 1128 LINE",
-"715 622 LINE",
-"260 116 LINE",
-"360 32 LINE",
-"885 622 LINE",
-"360 1212 LINE"
+"-20 500 LINE",
+"-20 384 LINE",
+"1220 384 LINE",
+"1220 500 LINE"
 );
 }
 );
 width = 1200;
 },
 {
+components = (
+{
+name = _part.arrowhead2;
+transform = "{1, 0, 0, 1, 100, 0}";
+}
+);
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 paths = (
 {
 closed = 1;
 nodes = (
-"-227 956 LINE",
-"-227 710 LINE",
-"983 710 LINE",
-"983 956 LINE"
+"-20 960 LINE",
+"-20 714 LINE",
+"1220 714 LINE",
+"1220 960 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-227 534 LINE",
-"-227 288 LINE",
-"983 288 LINE",
-"983 534 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"138 1116 LINE",
-"590 622 LINE",
-"138 128 LINE",
-"345 -50 LINE",
-"945 622 LINE",
-"345 1294 LINE"
+"-20 538 LINE",
+"-20 292 LINE",
+"1220 292 LINE",
+"1220 538 LINE"
 );
 }
 );
@@ -105083,13 +104814,17 @@ width = 1200;
 {
 color = 6;
 glyphname = greater_greater_middle.darw;
-lastChange = "2020-05-12 21:48:24 +0000";
+lastChange = "2020-05-14 22:45:45 +0000";
 layers = (
 {
 components = (
 {
 name = _part.arrowhead2;
-transform = "{1, 0, 0, 1, -909, 0}";
+transform = "{1, 0, 0, 1, -805, 0}";
+},
+{
+name = _part.arrowhead3;
+transform = "{1, 0, 0, 1, -332, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
@@ -105097,41 +104832,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-119 748 LINE",
-"-119 864 LINE",
-"-1469 864 LINE",
-"-1469 748 LINE"
+"-110 752 LINE",
+"-110 868 LINE",
+"-1220 868 LINE",
+"-1220 752 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-119 380 LINE",
-"-119 496 LINE",
-"-1469 496 LINE",
-"-1469 380 LINE"
+"-110 384 LINE",
+"-110 500 LINE",
+"-1220 500 LINE",
+"-1220 384 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"313 496 LINE",
-"-64 80 LINE",
-"36 -4 LINE",
-"382 380 LINE",
-"941 380 LINE",
-"941 496 LINE"
+"353 868 LINE",
+"353 752 LINE",
+"1220 752 LINE",
+"1220 868 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"389 864 LINE",
-"36 1256 LINE",
-"-64 1172 LINE",
-"321 748 LINE",
-"941 748 LINE",
-"941 864 LINE"
+"353 500 LINE",
+"353 384 LINE",
+"1220 384 LINE",
+"1220 500 LINE"
 );
 }
 );
@@ -105141,7 +104872,11 @@ width = 1200;
 components = (
 {
 name = _part.arrowhead2;
-transform = "{1, 0, 0, 1, -933, 0}";
+transform = "{1, 0, 0, 1, -820, 0}";
+},
+{
+name = _part.arrowhead3;
+transform = "{1, 0, 0, 1, -139, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -105149,41 +104884,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-188 710 LINE",
-"-188 956 LINE",
-"-1427 956 LINE",
-"-1427 710 LINE"
+"-225 714 LINE",
+"-225 960 LINE",
+"-1220 960 LINE",
+"-1220 714 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-188 288 LINE",
-"-188 534 LINE",
-"-1427 534 LINE",
-"-1427 288 LINE"
+"-225 292 LINE",
+"-225 538 LINE",
+"-1220 538 LINE",
+"-1220 292 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"407 534 LINE",
-"35 128 LINE",
-"242 -50 LINE",
-"544 288 LINE",
-"983 288 LINE",
-"983 534 LINE"
+"491 960 LINE",
+"491 714 LINE",
+"1220 714 LINE",
+"1220 960 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"544 956 LINE",
-"242 1294 LINE",
-"35 1116 LINE",
-"407 710 LINE",
-"983 710 LINE",
-"983 956 LINE"
+"491 538 LINE",
+"491 292 LINE",
+"1220 292 LINE",
+"1220 538 LINE"
 );
 }
 );
@@ -105194,66 +104925,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_start.darw;
-lastChange = "2020-05-12 21:52:46 +0000";
+lastChange = "2020-05-14 22:47:36 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead2;
-transform = "{-1, 0, 0, 1, 1300, 0}";
+name = greater_end.darw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"941 864 LINE",
-"510 864 LINE",
-"510 748 LINE",
-"941 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"941 496 LINE",
-"510 496 LINE",
-"510 380 LINE",
-"941 380 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead2;
-transform = "{-1, 0, 0, 1, 1330, 0}";
+name = greater_end.darw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"984 956 LINE",
-"585 956 LINE",
-"585 710 LINE",
-"984 710 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"984 534 LINE",
-"585 534 LINE",
-"585 288 LINE",
-"984 288 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -105261,62 +104952,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_end.darw;
-lastChange = "2020-05-12 21:53:50 +0000";
+lastChange = "2020-05-14 22:47:55 +0000";
 layers = (
 {
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-269 748 LINE",
-"598 748 LINE",
-"940 1128 LINE",
-"840 1212 LINE",
-"530 864 LINE",
-"-269 864 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-269 380 LINE",
-"530 380 LINE",
-"840 32 LINE",
-"940 116 LINE",
-"598 496 LINE",
-"-269 496 LINE"
-);
+name = greater_start.darw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 width = 1200;
 },
 {
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-227 710 LINE",
-"630 710 LINE",
-"1002 1116 LINE",
-"795 1294 LINE",
-"493 956 LINE",
-"-227 956 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-227 288 LINE",
-"493 288 LINE",
-"795 -50 LINE",
-"1002 128 LINE",
-"630 534 LINE",
-"-227 534 LINE"
-);
+name = greater_start.darw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 width = 1200;
 }
 );
@@ -105324,74 +104979,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_less_start.darw;
-lastChange = "2020-05-12 22:09:44 +0000";
+lastChange = "2020-05-14 22:48:18 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead2;
-transform = "{-1, 0, 0, 1, 560, 0}";
-},
-{
-name = _part.arrowhead;
+name = greater_greater_end.darw;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"941 864 LINE",
-"-230 864 LINE",
-"-230 748 LINE",
-"941 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"941 496 LINE",
-"-230 496 LINE",
-"-230 380 LINE",
-"941 380 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead2;
-transform = "{-1, 0, 0, 1, 770, 0}";
-},
-{
-name = _part.arrowhead;
+name = greater_greater_end.darw;
 transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"983 956 LINE",
-"25 956 LINE",
-"25 710 LINE",
-"983 710 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"983 534 LINE",
-"25 534 LINE",
-"25 288 LINE",
-"983 288 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -105399,84 +105006,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_less_end.darw;
-lastChange = "2020-05-12 23:40:02 +0000";
+lastChange = "2020-05-14 22:48:41 +0000";
 layers = (
 {
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-1469 748 LINE",
-"120 748 LINE",
-"505 1172 LINE",
-"405 1256 LINE",
-"52 864 LINE",
-"-1469 864 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-1469 380 LINE",
-"59 380 LINE",
-"405 -4 LINE",
-"505 80 LINE",
-"128 496 LINE",
-"-1469 496 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"307 622 LINE",
-"832 32 LINE",
-"932 116 LINE",
-"477 622 LINE",
-"932 1128 LINE",
-"832 1212 LINE"
-);
+name = greater_greater_start.darw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 width = 1200;
 },
 {
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-1427 710 LINE",
-"-45 710 LINE",
-"389 1186 LINE",
-"184 1364 LINE",
-"-182 956 LINE",
-"-1427 956 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-1427 288 LINE",
-"-182 288 LINE",
-"184 -120 LINE",
-"389 58 LINE",
-"-45 534 LINE",
-"-1427 534 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"193 622 LINE",
-"793 -50 LINE",
-"1000 128 LINE",
-"548 622 LINE",
-"1000 1116 LINE",
-"793 1294 LINE"
-);
+name = greater_greater_start.darw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 width = 1200;
 }
 );
@@ -105484,76 +105033,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_middle.darw;
-lastChange = "2020-05-12 21:55:56 +0000";
+lastChange = "2020-05-14 22:50:45 +0000";
 layers = (
 {
-layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-269 748 LINE",
-"941 748 LINE",
-"941 864 LINE",
-"-269 864 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-269 380 LINE",
-"941 380 LINE",
-"941 496 LINE",
-"-269 496 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"260 622 LINE",
-"785 32 LINE",
-"885 116 LINE",
-"430 622 LINE",
-"885 1128 LINE",
-"785 1212 LINE"
-);
+name = greater_middle.darw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
 width = 1200;
 },
 {
-layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"-227 710 LINE",
-"983 710 LINE",
-"983 956 LINE",
-"-227 956 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-227 288 LINE",
-"983 288 LINE",
-"983 534 LINE",
-"-227 534 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"138 622 LINE",
-"738 -50 LINE",
-"945 128 LINE",
-"493 622 LINE",
-"945 1116 LINE",
-"738 1294 LINE"
-);
+name = greater_middle.darw;
+transform = "{-1, 0, 0, 1, 1200, 0}";
 }
 );
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 width = 1200;
 }
 );
@@ -105561,110 +105060,26 @@ width = 1200;
 {
 color = 6;
 glyphname = less_less_middle.darw;
-lastChange = "2020-05-12 22:12:08 +0000";
+lastChange = "2020-05-14 22:51:11 +0000";
 layers = (
 {
 components = (
 {
-name = _part.arrowhead2;
-transform = "{-1, 0, 0, 1, 909, 0}";
+name = greater_greater_middle.darw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
-paths = (
-{
-closed = 1;
-nodes = (
-"941 864 LINE",
-"119 864 LINE",
-"119 748 LINE",
-"941 748 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"941 496 LINE",
-"119 496 LINE",
-"119 380 LINE",
-"941 380 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-1469 380 LINE",
-"-382 380 LINE",
-"-36 -4 LINE",
-"64 80 LINE",
-"-313 496 LINE",
-"-1469 496 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-1469 748 LINE",
-"-321 748 LINE",
-"64 1172 LINE",
-"-36 1256 LINE",
-"-389 864 LINE",
-"-1469 864 LINE"
-);
-}
-);
 width = 1200;
 },
 {
 components = (
 {
-name = _part.arrowhead2;
-transform = "{-1, 0, 0, 1, 933, 0}";
+name = greater_greater_middle.darw;
+transform = "{-1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-paths = (
-{
-closed = 1;
-nodes = (
-"983 956 LINE",
-"188 956 LINE",
-"188 710 LINE",
-"983 710 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"983 534 LINE",
-"188 534 LINE",
-"188 288 LINE",
-"983 288 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-1427 288 LINE",
-"-544 288 LINE",
-"-242 -50 LINE",
-"-35 128 LINE",
-"-407 534 LINE",
-"-1427 534 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-1427 710 LINE",
-"-407 710 LINE",
-"-35 1116 LINE",
-"-242 1294 LINE",
-"-544 956 LINE",
-"-1427 956 LINE"
-);
-}
-);
 width = 1200;
 }
 );
@@ -105943,6 +105358,46 @@ transform = "{1, 0, 0, 1, -240, 0}";
 }
 );
 layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+}
+);
+},
+{
+glyphname = bar_bar_bar.liga;
+lastChange = "2020-05-15 00:39:59 +0000";
+layers = (
+{
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -1200, 0}";
+},
+{
+name = bar;
+transform = "{1, 0, 0, 1, -2400, 0}";
+},
+{
+name = bar;
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = bar;
+transform = "{1, 0, 0, 1, -1200, 0}";
+},
+{
+name = bar;
+transform = "{1, 0, 0, 1, -2400, 0}";
+},
+{
+name = bar;
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
 width = 1200;
 }
 );
@@ -116211,7 +115666,7 @@ width = 1200;
 color = 3;
 export = 0;
 glyphname = _part.arrowhead1;
-lastChange = "2020-04-05 22:04:00 +0000";
+lastChange = "2020-05-14 15:09:11 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -116219,19 +115674,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"391 1120 LINE",
-"531 968 LINE SMOOTH",
-"614 879 OFFCURVE",
-"686 808 OFFCURVE",
-"771 755 CURVE",
-"768 497 LINE",
-"686 442 OFFCURVE",
-"611 373 OFFCURVE",
-"531 284 CURVE SMOOTH",
-"391 132 LINE",
-"598 -46 LINE",
-"1203 626 LINE",
-"598 1298 LINE"
+"191 1120 LINE",
+"331 968 LINE SMOOTH",
+"412 880 OFFCURVE",
+"486 808 OFFCURVE",
+"571 755 CURVE",
+"571 497 LINE",
+"486 444 OFFCURVE",
+"412 372 OFFCURVE",
+"331 284 CURVE SMOOTH",
+"191 132 LINE",
+"398 -46 LINE",
+"1003 626 LINE",
+"398 1298 LINE"
 );
 }
 );
@@ -116243,19 +115698,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"515 1132 LINE",
-"844 770 LINE SMOOTH",
-"890 718 OFFCURVE",
-"890 715 OFFCURVE",
-"938 684 CURVE",
-"940 568 LINE",
-"901 544 OFFCURVE",
-"871 511 OFFCURVE",
-"844 482 CURVE SMOOTH",
-"515 120 LINE",
-"615 36 LINE",
-"1141 626 LINE",
-"615 1216 LINE"
+"315 1132 LINE",
+"644 770 LINE SMOOTH",
+"691 719 OFFCURVE",
+"699 708 OFFCURVE",
+"738 684 CURVE",
+"738 568 LINE",
+"699 544 OFFCURVE",
+"691 533 OFFCURVE",
+"644 482 CURVE SMOOTH",
+"315 120 LINE",
+"415 36 LINE",
+"941 626 LINE",
+"415 1216 LINE"
 );
 }
 );
@@ -116267,7 +115722,7 @@ width = 1200;
 color = 3;
 export = 0;
 glyphname = _part.arrowhead2;
-lastChange = "2020-04-05 22:04:00 +0000";
+lastChange = "2020-05-14 15:09:31 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -116275,22 +115730,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"291 1116 LINE",
-"364 1037 LINE",
-"388 1010 OFFCURVE",
-"414 982 OFFCURVE",
-"457 956 CURVE",
-"664 709 LINE",
-"745 622 LINE",
-"664 535 LINE",
-"457 290 LINE",
-"414 262 OFFCURVE",
-"388 236 OFFCURVE",
-"364 207 CURVE",
-"291 128 LINE",
-"498 -50 LINE",
-"1103 622 LINE",
-"498 1294 LINE"
+"191 1120 LINE",
+"264 1041 LINE",
+"288 1012 OFFCURVE",
+"314 985 OFFCURVE",
+"357 959 CURVE",
+"564 713 LINE",
+"645 626 LINE",
+"564 539 LINE",
+"357 293 LINE",
+"314 267 OFFCURVE",
+"288 240 OFFCURVE",
+"264 211 CURVE",
+"191 132 LINE",
+"398 -46 LINE",
+"1003 626 LINE",
+"398 1298 LINE"
 );
 }
 );
@@ -116302,22 +115757,78 @@ paths = (
 {
 closed = 1;
 nodes = (
-"415 1128 LINE",
-"556 975 LINE",
-"589 937 OFFCURVE",
-"623 900 OFFCURVE",
-"688 863 CURVE",
-"760 748 LINE",
-"875 622 LINE",
-"760 496 LINE",
-"688 380 LINE",
-"623 344 OFFCURVE",
-"589 309 OFFCURVE",
-"556 272 CURVE",
-"415 116 LINE",
-"515 32 LINE",
-"1041 622 LINE",
-"515 1212 LINE"
+"315 1132 LINE",
+"456 979 LINE",
+"489 941 OFFCURVE",
+"523 904 OFFCURVE",
+"588 868 CURVE",
+"660 752 LINE",
+"775 626 LINE",
+"660 500 LINE",
+"588 384 LINE",
+"523 348 OFFCURVE",
+"489 311 OFFCURVE",
+"456 273 CURVE",
+"315 120 LINE",
+"415 36 LINE",
+"941 626 LINE",
+"415 1216 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 6;
+export = 0;
+glyphname = _part.arrowhead3;
+lastChange = "2020-05-14 22:36:19 +0000";
+layers = (
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"415 1216 LINE",
+"315 1132 LINE",
+"660 752 LINE",
+"829 752 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"660 500 LINE",
+"315 120 LINE",
+"415 36 LINE",
+"829 500 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"398 1298 LINE",
+"191 1120 LINE",
+"564 714 LINE",
+"924 714 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"564 538 LINE",
+"191 132 LINE",
+"398 -46 LINE",
+"924 538 LINE"
 );
 }
 );
@@ -116427,7 +115938,7 @@ width = 1200;
 color = 3;
 export = 0;
 glyphname = _part.bar;
-lastChange = "2020-04-05 22:04:00 +0000";
+lastChange = "2020-05-14 14:46:19 +0000";
 layers = (
 {
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
@@ -116435,10 +115946,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"452 1454 LINE",
-"452 -210 LINE",
-"746 -210 LINE",
-"746 1454 LINE"
+"453 1454 LINE",
+"453 -210 LINE",
+"747 -210 LINE",
+"747 1454 LINE"
 );
 }
 );
@@ -116450,10 +115961,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"545 1445 LINE",
-"545 -201 LINE",
-"653 -201 LINE",
-"653 1445 LINE"
+"546 1445 LINE",
+"546 -201 LINE",
+"654 -201 LINE",
+"654 1445 LINE"
 );
 }
 );

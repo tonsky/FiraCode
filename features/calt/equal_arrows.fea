@@ -1,0 +1,65 @@
+lookup equal_arrows {
+  # Disable |||
+  ignore sub bar bar' bar equal;
+  ignore sub bar bar' equal;
+  ignore sub [equal_start.darw equal_middle.darw] bar' bar bar;
+
+  # equal middle & end
+  sub [less_start.darw less_less_start.darw less_middle.darw less_less_middle.darw greater_start.darw greater_greater_start.darw greater_middle.darw greater_greater_middle.darw bar_start.darw bar_bar_start.darw bar_middle.darw bar_bar_middle.darw slash_start.darw slash_middle.darw colon_middle.darw exclam_middle.darw equal_start.darw equal_middle.darw] equal' [equal less greater bar slash colon exclam] by equal_middle.darw;
+
+  sub [less_start.darw less_less_start.darw less_middle.darw less_less_middle.darw greater_start.darw greater_greater_start.darw greater_middle.darw greater_greater_middle.darw bar_start.darw bar_bar_start.darw bar_middle.darw bar_bar_middle.darw slash_start.darw slash_middle.darw colon_middle.darw exclam_middle.darw equal_start.darw equal_middle.darw] equal' by equal_end.darw;
+
+  # double middles
+  sub [equal_start.darw equal_middle.darw] less.spacer    less'    equal by less_less_middle.darw;
+  sub [equal_start.darw equal_middle.darw] less'          less     equal by less.spacer;
+  sub [equal_start.darw equal_middle.darw] greater.spacer greater' equal by greater_greater_middle.darw;
+  sub [equal_start.darw equal_middle.darw] greater'       greater  equal by greater.spacer;
+  sub [equal_start.darw equal_middle.darw] bar.spacer     bar'     equal by bar_bar_middle.darw;
+  sub [equal_start.darw equal_middle.darw] bar'           bar      equal by bar.spacer;
+
+  # single middles
+  sub [equal_start.darw equal_middle.darw] less'    equal by less_middle.darw;
+  sub [equal_start.darw equal_middle.darw] greater' equal by greater_middle.darw;
+  sub [equal_start.darw equal_middle.darw] bar'     equal by bar_middle.darw;
+  sub [equal_start.darw equal_middle.darw] slash'   equal by slash_middle.darw;
+  sub [equal_start.darw equal_middle.darw] colon'   equal by colon_middle.darw;
+  sub [equal_start.darw equal_middle.darw] exclam'  equal by exclam_middle.darw;
+
+  # double ends
+  sub [equal_start.darw equal_middle.darw] less.spacer    less'    by less_less_end.darw;
+  sub [equal_start.darw equal_middle.darw] less'          less     by less.spacer;
+  sub [equal_start.darw equal_middle.darw] greater.spacer greater' by greater_greater_end.darw;
+  sub [equal_start.darw equal_middle.darw] greater'       greater  by greater.spacer;
+  sub [equal_start.darw equal_middle.darw] bar.spacer     bar'     by bar_bar_end.darw;
+  sub [equal_start.darw equal_middle.darw] bar'           bar      by bar.spacer;
+
+  # single ends
+  sub [equal_start.darw equal_middle.darw] less'    by less_end.darw;
+  sub [equal_start.darw equal_middle.darw] greater' by greater_end.darw;
+  sub [equal_start.darw equal_middle.darw] bar'     by bar_end.darw;
+  sub [equal_start.darw equal_middle.darw] slash'   by slash_end.darw;
+
+  # double beginnings
+  sub less.spacer    less'    equal by less_less_start.darw;
+  sub less'          less     equal by less.spacer;
+  sub greater.spacer greater' equal by greater_greater_start.darw;
+  sub greater'       greater  equal by greater.spacer;
+  sub bar.spacer     bar'     equal by bar_bar_start.darw;
+  sub bar'           bar      equal by bar.spacer;
+
+  # Disable >=< #548
+  sub greater' equal less [equal less] by greater_start.darw;
+  ignore sub greater' equal less;
+  
+  # Disable =< #479 #468 #424 #406 #355 #305
+  sub equal' less [equal less] by equal_start.darw;
+  ignore sub equal' less;
+
+  # single beginnings
+  sub less'    equal by less_start.darw;
+  sub greater' equal by greater_start.darw;
+  sub bar'     equal by bar_start.darw;
+  sub slash'   equal by slash_start.darw;
+  sub equal'  [equal less greater bar colon exclam slash] by equal_start.darw;
+
+} equal_arrows;
