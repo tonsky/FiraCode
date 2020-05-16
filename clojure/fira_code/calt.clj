@@ -32,15 +32,27 @@
         " " (str/join " " (drop 1 liga))
         ";\n"))))
 
-;; #346 We need << <<< >> >>> || ||| substituted before -- --- == ===
-;; so that `ignore [less greater bar] hyphen hyphen` would not trigger
-(def priority?
-  #{["less" "less"]
-    ["less" "less" "less"]
-    ["greater" "greater"]
-    ["greater" "greater" "greater"]
-    ["bar" "bar"]
-    ["bar" "bar" "bar"]})
+
+(def priorities
+  {;; <|>
+   ["less" "bar" "greater"]        0
+
+   ;; |||> ||> |> <| <|| <|||
+   ["bar" "bar" "bar" "greater"]   1
+   ["bar" "bar" "greater"]         1
+   ["bar" "greater"]               1
+   ["less" "bar" "bar" "bar"]      1
+   ["less" "bar" "bar"]            1
+   ["less" "bar"]                  1
+
+   ;; #346 We need << <<< >> >>> || ||| substituted before -- --- == ===
+   ;; so that `ignore [less greater bar] hyphen hyphen` would not trigger
+   ["less" "less"]                 2
+   ["less" "less" "less"]          2
+   ["greater" "greater"]           2
+   ["greater" "greater" "greater"] 2
+   ["bar" "bar"]                   2
+   ["bar" "bar" "bar"]             2})
 
 
 (def ignores
@@ -106,11 +118,13 @@
     ["less" "less" "less"]
     "  ignore sub less' less less [asterisk plus dollar];\n"
 
+    ;; #948 [==[ ]==]
     ;; #968 [== ==]
     ["equal" "equal"]
     (str "  ignore sub bracketleft equal' equal;\n"
          "  ignore sub equal' equal bracketright;\n")
 
+    ;; #948 [===[ ]===]
     ;; #968 [=== ===]
     ["equal" "equal" "equal"]
     (str "  ignore sub bracketleft equal' equal equal;\n"
@@ -268,12 +282,16 @@
 
 
 (defn compare-ligas [l1 l2]
-  (cond
-    (and (priority? l1) (not (priority? l2))) -1
-    (and (not (priority? l1)) (priority? l2)) 1
-    (> (count l1) (count l2)) -1
-    (< (count l1) (count l2)) 1
-    :else (compare l1 l2)))
+  (let [p1 (priorities l1 Long/MAX_VALUE)
+        p2 (priorities l2 Long/MAX_VALUE)
+        pc (compare p1 p2)
+        c1 (count l1)
+        c2 (count l2)
+        cc (compare c1 c2)]
+    (cond
+      (not= 0 pc) pc     ;; lower priority first
+      (not= 0 cc) (- cc) ;; longer first
+      :else (compare l1 l2)))) ;; alphabetical
 
 
 (defn replace-calt [font ligas]
