@@ -2,7 +2,9 @@
 
 All notable changes to this project will be documented in this file.
 
-#### 4.0 (May 10, 2020)
+#### 4.0 (May 18, 2020)
+
+Removed 44 individual arrow ligatures, replaced with four universal, combinative substitutions. 100-150% faster shaping performance, infinite amount of arrow combinations.
 
 - Arbitrary-long combinative hyphen-based arrows #346 #494 #713 #826 #968 #983 #1029
 - Arbitrary-long combinative equal-based arrows #229 #234 #346 #494 #698 #826 #919 #931 #946 #948 #968 #1016 #1018 #1022 
@@ -10,6 +12,7 @@ All notable changes to this project will be documented in this file.
 - Arbitrary-long numbersign sequences #1014
 - Fixed descender in U+040F `Џ`
 - Undid #995 and properly fixed U+04CB `Ӌ`, U+04CC`ӌ` #1001 and  U+0449 `щ` #1007
+- Added `|||` to prevent partial ligatures in `|||-|||` `|||=|||` #346
 
 #### 3.1 (April 15, 2020)
 

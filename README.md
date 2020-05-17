@@ -12,7 +12,7 @@ Fira Code is a free monospaced font containing ligatures for common programming 
 
 ### Download & Install
 
-**<a href="https://github.com/tonsky/FiraCode/releases/download/3.1/FiraCode_3.1.zip">Download Fira Code v3.1</a>**
+<a href="https://github.com/tonsky/FiraCode/releases/download/4/Fira_Code_v4.zip"><img src="./extras/download.png" width="520" height="130"></a>
 
 Then:
 
@@ -30,78 +30,37 @@ Fira Code is a personal, free-time project with no funding and huge [feature req
 
 Left: ligatures as rendered in Fira Code. Right: same character sequences without ligatures.
 
-<img src="./showcases/v3/all_ligatures.png">
+<img src="./extras/ligatures.png" width="754" height="1326">
 
-Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+Fira Code comes with huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
 
-<img src="./showcases/v3/stylistic_sets.png">
+<img src="./extras/arrows.png" width="754" height="799">
 
-In addition to that, Fira Code contains huge variety of Unicode characters well-suited for technical writing, math formulas and terminal UIs.
+Fira Code is not only about ligatures. Some fine-tuning is done for punctuation and frequent letter pairs.
 
-<img src="./showcases/v3/unicode.png">
+<img src="./extras/typographics.png" width="754" height="649">
 
-### Code examples
+Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable.](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
-Ruby:
+<img src="./extras/stylistic_sets.png" width="754" height="391">
 
-<img src="./showcases/v3/ruby.png">
+Being programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs.
 
-JavaScript:
+<img src="./extras/console.png" width="754" height="357">
 
-<img src="./showcases/v3/javascript.png">
+Unicode coverage makes Fira Code great choice for mathematical writing.
 
-PHP:
+<img src="./extras/math.png" width="754" height="289">
 
-<img src="./showcases/v3/php.png">
+### How does it look?
 
-Erlang:
-
-<img src="./showcases/v3/erlang.png">
-
-Elixir:
-
-<img src="/showcases/v3/elixir.png">
-
-Go:
-
-<img src="./showcases/v3/go.png">
-
-LiveScript:
-
-<img src="./showcases/v3/livescript.png">
-
-Clojure:
-
-<img src="./showcases/v3/clojure.png">
-
-Swift:
-
-<img src="./showcases/v3/swift.png">
-
-### Terminal compatibility list
-
-| Works              | Doesn’t work       |
-| ------------------ | ------------------ |
-| **Butterfly**      | **Alacritty**      |
-| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Windows Console (conhost.exe)** |
-| **Hyper.app**      | **Cmder**          |
-| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
-| **Kitty**          | **GNOME Terminal** |
-| **Konsole**        | **mate-terminal**  |
-| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
-| **QTerminal**      | **rxvt**           |
-| **Terminal.app**   | **xterm**          |
-| **Termux**         | **ZOC** (Windows)  |
-| **Token2Shell/MD** | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
-| **upterm**         |
-| **Windows Terminal** |
-| **ZOC** (macOS)    |
-| **st** ([patch](https://st.suckless.org/patches/ligatures/)) |
+<img src="./extras/samples.png" width="754" height="1068">
+<img src="./extras/samples2.png" width="754" height="1257">
 
 ### Editor compatibility list
 
 | Works | Doesn’t work   |
-| ----- | -------------- |
+|-------|----------------|
 | **Abricotine** | **Arduino IDE** |
 | **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver** |
 | **Anjuta** (unless at the EOF) | **Delphi IDE** |
@@ -160,16 +119,36 @@ Swift:
 | **Xi** |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
 
+### Terminal compatibility list
+
+| Works              | Doesn’t work       |
+|--------------------|--------------------|
+| **Butterfly**      | **Alacritty**      |
+| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Windows Console (conhost.exe)** |
+| **Hyper.app**      | **Cmder**          |
+| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
+| **Kitty**          | **GNOME Terminal** |
+| **Konsole**        | **mate-terminal**  |
+| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
+| **QTerminal**      | **rxvt**           |
+| **Terminal.app**   | **xterm**          |
+| **Termux**         | **ZOC** (Windows)  |
+| **Token2Shell/MD** | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| **upterm**         |
+| **Windows Terminal** |
+| **ZOC** (macOS)    |
+| **st** ([patch](https://st.suckless.org/patches/ligatures/)) |
+
 ### Browser support
 
 ```html
 <!-- HTML -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@3/distr/fira_code.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css">
 ```
 
 ```css
 /* CSS */
-@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@3/distr/fira_code.css);
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css);
 ```
 
 ```css
@@ -180,7 +159,6 @@ code { font-family: 'Fira Code', monospace; }
   code { font-family: 'Fira Code VF', monospace; }
 }
 ```
-
 
 - IE 10+, Edge Legacy: enable with `font-feature-settings: "calt";`
 - Firefox
@@ -203,7 +181,7 @@ code { font-family: 'Fira Code', monospace; }
 
 ### Alternatives
 
-Other free monospaced fonts with ligatures:
+Free monospaced fonts with ligatures:
 
 - [Hasklig](https://github.com/i-tu/Hasklig)
 - [Monoid](http://larsenwork.com/monoid/)

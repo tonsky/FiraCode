@@ -8,6 +8,8 @@ for ttf in $ttfs; do
     sfnt2woff-zopfli $ttf
 done
 
+rm distr/ttf/FiraCode-Retina.woff
+
 mkdir -p distr/woff
 woffs=$(ls distr/*/*.woff)
 for woff in $woffs; do

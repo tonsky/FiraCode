@@ -8,6 +8,8 @@ for ttf in $ttfs; do
     woff2_compress $ttf
 done
 
+rm distr/ttf/FiraCode-Retina.woff2
+
 mkdir -p distr/woff2
 woff2s=$(ls distr/*/*.woff2)
 for woff2 in $woff2s; do
