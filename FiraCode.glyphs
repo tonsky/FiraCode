@@ -1,7 +1,7 @@
 {
 .appVersion = "1330";
 DisplayStrings = (
-"<|/space <||/space <|||\012|>/space ||>/space |||>"
+"FTl/space l\012fij"
 );
 classes = (
 {
@@ -1919,7 +1919,7 @@ unicode = 0118;
 },
 {
 glyphname = F;
-lastChange = "2020-04-05 21:58:07 +0000";
+lastChange = "2020-05-16 21:58:34 +0000";
 layers = (
 {
 anchors = (
@@ -1981,7 +1981,7 @@ nodes = (
 );
 }
 );
-width = 1200;
+width = 1230;
 }
 );
 unicode = 0046;
@@ -10450,7 +10450,7 @@ unicode = 0138;
 },
 {
 glyphname = l;
-lastChange = "2020-04-05 21:58:23 +0000";
+lastChange = "2020-05-16 21:55:40 +0000";
 layers = (
 {
 anchors = (
@@ -10497,7 +10497,7 @@ nodes = (
 );
 }
 );
-width = 1200;
+width = 1210;
 },
 {
 anchors = (
@@ -10551,7 +10551,7 @@ unicode = 006C;
 },
 {
 glyphname = lacute;
-lastChange = "2020-04-05 21:58:23 +0000";
+lastChange = "2020-05-16 21:56:03 +0000";
 layers = (
 {
 components = (
@@ -10564,7 +10564,7 @@ transform = "{1, 0, 0, 1, -88, 422}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 1200;
+width = 1210;
 },
 {
 components = (
@@ -10584,7 +10584,7 @@ unicode = 013A;
 },
 {
 glyphname = lcaron;
-lastChange = "2020-04-05 21:58:23 +0000";
+lastChange = "2020-05-16 21:56:03 +0000";
 layers = (
 {
 components = (
@@ -10597,7 +10597,7 @@ transform = "{1, 0, 0, 1, 313, 106}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 1200;
+width = 1210;
 },
 {
 components = (
@@ -10617,7 +10617,7 @@ unicode = 013E;
 },
 {
 glyphname = lcommaaccent;
-lastChange = "2020-04-05 21:58:23 +0000";
+lastChange = "2020-05-16 21:56:03 +0000";
 layers = (
 {
 components = (
@@ -10630,7 +10630,7 @@ transform = "{1, 0, 0, 1, 108, 0}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 1200;
+width = 1210;
 },
 {
 components = (
@@ -10650,7 +10650,7 @@ unicode = 013C;
 },
 {
 glyphname = ldot;
-lastChange = "2020-04-05 21:58:23 +0000";
+lastChange = "2020-05-16 21:56:03 +0000";
 layers = (
 {
 components = (
@@ -10663,7 +10663,7 @@ transform = "{1, 0, 0, 1, 536, -674}";
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 1200;
+width = 1210;
 },
 {
 components = (
@@ -14690,7 +14690,7 @@ width = 1200;
 {
 color = 3;
 glyphname = l.salt_low;
-lastChange = "2020-04-15 16:46:25 +0000";
+lastChange = "2020-05-16 21:55:20 +0000";
 layers = (
 {
 anchors = (
@@ -14717,8 +14717,8 @@ paths = (
 closed = 1;
 nodes = (
 "136 1374 LINE",
-"136 1266 LINE",
-"462 1266 LINE",
+"136 1256 LINE",
+"462 1256 LINE",
 "462 238 LINE SMOOTH",
 "462 74 OFFCURVE",
 "593 -20 OFFCURVE",
@@ -14764,8 +14764,8 @@ paths = (
 closed = 1;
 nodes = (
 "65 1386 LINE",
-"65 1170 LINE",
-"378 1170 LINE",
+"65 1135 LINE",
+"378 1135 LINE",
 "378 373 LINE SMOOTH",
 "378 125 OFFCURVE",
 "494 -34 OFFCURVE",
@@ -33215,7 +33215,7 @@ unicode = 04BF;
 },
 {
 glyphname = "palochka-cy";
-lastChange = "2020-04-05 21:58:58 +0000";
+lastChange = "2020-05-16 21:56:03 +0000";
 layers = (
 {
 components = (
@@ -33224,7 +33224,7 @@ name = l;
 }
 );
 layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
-width = 1200;
+width = 1210;
 },
 {
 components = (
