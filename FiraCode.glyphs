@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"1/ratio 2"
+"/threeemdash \012/twoemdash"
 );
 classes = (
 {
@@ -61546,6 +61546,82 @@ width = 1200;
 }
 );
 unicode = 2012;
+},
+{
+color = 6;
+glyphname = threeemdash;
+lastChange = "2020-06-05 14:45:50 +0000";
+layers = (
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"3391 568 LINE",
+"3391 684 LINE",
+"209 684 LINE",
+"209 568 LINE"
+);
+}
+);
+width = 3600;
+},
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"3433 503 LINE",
+"3433 749 LINE",
+"167 749 LINE",
+"167 503 LINE"
+);
+}
+);
+width = 3600;
+}
+);
+unicode = 2E3B;
+},
+{
+color = 6;
+glyphname = twoemdash;
+lastChange = "2020-06-05 14:46:02 +0000";
+layers = (
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"2191 568 LINE",
+"2191 684 LINE",
+"209 684 LINE",
+"209 568 LINE"
+);
+}
+);
+width = 2400;
+},
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"2233 503 LINE",
+"2233 749 LINE",
+"167 749 LINE",
+"167 503 LINE"
+);
+}
+);
+width = 2400;
+}
+);
+unicode = 2E3A;
 },
 {
 glyphname = underscore;
