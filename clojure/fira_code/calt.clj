@@ -76,17 +76,22 @@
     (str
       "  ignore sub slash asterisk' asterisk asterisk;\n"
       "  ignore sub asterisk' asterisk asterisk slash;\n")
-    
+
+    ;; #1061
+    ["colon" "colon"]
+    (str "  ignore sub colon' colon [less greater];\n"
+         "  ignore sub [less greater] colon' colon;\n")
+
+    ["colon" "colon" "colon"]
+    (str "  ignore sub colon' colon colon [less greater];\n"
+         "  ignore sub [less greater] colon' colon colon;\n")
+
     ;; #621 <||>
     ["less" "bar" "bar"]
     "  ignore sub less' bar bar greater;\n"
 
     ["bar" "bar" "greater"]
     "  ignore sub less bar' bar greater;\n"
-
-    ;; #574 :>=
-    ["colon" "greater"]
-    "  ignore sub colon' greater equal;\n"
 
     ;; #593 {|}
     ["braceleft" "bar"]

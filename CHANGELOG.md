@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added U+2236 Ratio `∶` #926
 - Added U+2E3A 2-em dash `⸺`, U+2E3B 3-em dash `⸻` #1019
 - Fixed arrows next to lowercase letters #1049 #1059
+- Vertically-aligned colons, greater/less signs #980 #1061
 
 #### 4.0 (May 18, 2020)
 

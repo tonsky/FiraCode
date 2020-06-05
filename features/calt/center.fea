@@ -1,0 +1,21 @@
+### Vertical-align colon/greater/less
+
+# :> :< >: <:
+# :>: :<:
+# <:> >:< <:< >:>
+# <::> <::< >::< >::>
+# <:::> <:::< >:::< >:::>
+# <::::> <::::< >::::< >::::>
+
+lookup center {
+    #574 :>= :<=
+    ignore sub colon' [less greater] [equal hyphen];
+
+    # middles & ends
+    sub [less.center greater.center colon.center] colon' by colon.center;
+    sub colon.center [less greater]' by [less.center greater.center];
+
+    # starts
+    sub [less greater]' colon by [less.center greater.center];
+    sub colon' [less greater] by colon.center;
+} center;
