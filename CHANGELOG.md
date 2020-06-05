@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 - Fixed Box drawing diagonal lines U+2571 `╱` U+2572 `╲` U+2573 `╳` #929
 - Added U+2236 Ratio `∶` #926
 - Added U+2E3A 2-em dash `⸺`, U+2E3B 3-em dash `⸻` #1019
+- Fixed arrows next to lowercase letters #1049 #1059
 
 #### 4.0 (May 18, 2020)
 

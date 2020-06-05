@@ -1,5 +1,7 @@
 ### Lowercase/uppercase operators
 
+# Must go after hyphen_arrows.fea
+
 lookup lowercase_hyphen {
   ignore sub @Tall \hyphen' @Lowercase;
   ignore sub @Lowercase \hyphen' @Tall;  
