@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 #### 5.0
 
 - Fixed Box drawing diagonal lines U+2571 `╱` U+2572 `╲` U+2573 `╳` #929
+- Added U+2236 Ratio `∶` #926
 
 #### 4.0 (May 18, 2020)
 

@@ -1,7 +1,7 @@
 {
 .appVersion = "1339";
 DisplayStrings = (
-"/fullBlock/boxLightDiagonalCross/boxLightDiagonalUpperLeftToLowerRight/boxLightDiagonalUpperRightToLowerLeft/boxLightDoubleDashVertical/boxUpLightAndHorizontalHeavy/uni2570/uni256D \012/space/space/boxLightDiagonalUpperRightToLowerLeft"
+"1/ratio 2"
 );
 classes = (
 {
@@ -75351,6 +75351,32 @@ width = 1200;
 }
 );
 unicode = 207A;
+},
+{
+color = 6;
+glyphname = ratio;
+lastChange = "2020-06-05 14:42:04 +0000";
+layers = (
+{
+components = (
+{
+name = colon.uc;
+}
+);
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+width = 1200;
+},
+{
+components = (
+{
+name = colon.uc;
+}
+);
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+width = 1200;
+}
+);
+unicode = 2236;
 },
 {
 color = 3;
