@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 5.0
+
+- Fixed Box drawing diagonal lines U+2571 `╱` U+2572 `╲` U+2573 `╳` #929
+
 #### 4.0 (May 18, 2020)
 
 Removed 44 individual arrow ligatures, replaced with four universal, combinative substitutions. 100-150% faster shaping performance, infinite amount of arrow combinations.
@@ -11,13 +15,13 @@ Removed 44 individual arrow ligatures, replaced with four universal, combinative
 - Arbitrary-long underscores #120 #269 #346 #494
 - Arbitrary-long numbersign sequences #1014
 - Fixed descender in U+040F `Џ`
-- Undid #995 and properly fixed U+04CB `Ӌ`, U+04CC`ӌ` #1001 and  U+0449 `щ` #1007
+- Undid #995 and properly fixed U+04CB `Ӌ`, U+04CC `ӌ` #1001 and  U+0449 `щ` #1007
 - Added `|||` to prevent partial ligatures in `|||-|||` `|||=|||` #346
 
 #### 3.1 (April 15, 2020)
 
 - Fixed width of Germandbls, cornerbracketleft, cornerbracketleft, negativeAcknowledge-control, cornerbracketleft.half, cornerbracketright.half [#1000]
-- Fixed misplaced descenders on U+04B3 `ҳ` U+04CB `Ӌ` and U+04CC`ӌ` [#995]
+- Fixed misplaced descenders on U+04B3 `ҳ` U+04CB `Ӌ` and U+04CC `ӌ` [#995]
 - Fixed U+03F4 `ϴ` [#996]
 - Fixed U+0314 COMBINING REVERSED COMMA ABOVE [#997]
 
