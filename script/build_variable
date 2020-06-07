@@ -1,26 +1,29 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 
-rm -rf distr/variable_ttf
-fontmake -g FiraCode.glyphs -o variable --output-dir distr/variable_ttf
+cd "`dirname $0`/.."
 
-# -------------------------------------------------------------
-# fix variable font metadata as needed ------------------------
+DIR=distr/variable_ttf
+FILE=FiraCode-VF.ttf
 
-firaCodeVF=distr/variable_ttf/FiraCode-VF.ttf
+rm -rf $DIR/$FILE
+fontmake -g FiraCode.glyphs -o variable --output-dir $DIR
+
+cd distr/variable_ttf
 
 # fix variable font metadata – very important
-gftools fix-vf-meta $firaCodeVF
+gftools fix-vf-meta $FILE
+mv $FILE.fix $FILE
 
 # other fixes for metadata and hinting
-gftools fix-nonhinting $firaCodeVF $firaCodeVF
-gftools fix-gasp --autofix $firaCodeVF
-gftools fix-dsig --autofix $firaCodeVF
+gftools fix-nonhinting $FILE $FILE.fix
+mv $FILE.fix $FILE
+
+gftools fix-gasp --autofix $FILE
+mv $FILE.fix $FILE
+
+gftools fix-dsig --autofix $FILE
 
 # cleanup of temp files
-tempFiles=$(ls distr/variable_ttf/*.fix && ls distr/variable_ttf/*-gasp*)
-for temp in $tempFiles
-do
-    rm -rf $temp
-done
+rm -rf *-gasp.ttf
 
 # TODO (late 2019?): use TTFautohint-VF for variable font (current support is minimal)

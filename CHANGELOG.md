@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - Vertically-aligned colons, greater/less signs #980 #1061
 - Make U+2388 Helm Symbol `⎈` single-width #1036
 - Disable `=/` because of conflicts with paths `PATH=/...` #1056
+- Fixed STAT table in FiraCode-VF.ttf #1054
 
 #### 4.0 (May 18, 2020)
 
