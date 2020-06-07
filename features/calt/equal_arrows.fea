@@ -53,13 +53,15 @@ lookup equal_arrows {
   
   # Disable =< #479 #468 #424 #406 #355 #305
   sub equal' less [equal less] by equal_start.seq;
-  ignore sub equal' less;
+
+  # Disable =/ #1056
+  sub equal'   slash equal by equal_start.seq; 
 
   # single beginnings
   sub less'    equal by less_equal_start.seq;
   sub greater' equal by greater_equal_start.seq;
   sub bar'     equal by bar_equal_start.seq;
   sub slash'   equal by slash_equal_start.seq;
-  sub equal'  [equal less greater bar colon exclam slash] by equal_start.seq;
+  sub equal'  [equal greater bar colon exclam] by equal_start.seq;
 
 } equal_arrows;
