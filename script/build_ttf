@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 
 source venv/bin/activate
 
@@ -17,8 +17,6 @@ for weight in "${weights[@]}"; do
     gftools fix-dsig --autofix ${file}
 
     echo "TTFautohint " ${file}
-    hintedFile=${file/".ttf"/"-hinted.ttf"}
-    ttfautohint -I ${file} ${hintedFile} --stem-width-mode nnn --composites
-    # --windows-compatibility
-    mv ${hintedFile} ${file}
+    ttfautohint -I ${file} ${file}.hinted --stem-width-mode nnn --composites --windows-compatibility
+    mv ${file}.hinted ${file}
 done

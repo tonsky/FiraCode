@@ -172,6 +172,11 @@
     (str "  ignore sub [hyphen equal] bar' bar;\n"
          "  ignore sub bar' bar [hyphen equal];\n")
 
+    ;; #816 //=
+    ["slash" "slash"]
+    (str "  ignore sub equal slash' slash;\n"
+         "  ignore sub slash' slash equal;\n")
+
     ;; #346 <--> >--< |--|
     ["hyphen" "hyphen"]
     (str "  ignore sub [less greater bar] hyphen' hyphen;\n"

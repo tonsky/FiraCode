@@ -5,9 +5,9 @@ lookup equal_arrows {
   ignore sub [equal_start.seq equal_middle.seq] bar' bar bar;
 
   # equal middle & end
-  sub [less_equal_start.seq less_less_equal_start.seq less_equal_middle.seq less_less_equal_middle.seq greater_equal_start.seq greater_greater_equal_start.seq greater_equal_middle.seq greater_greater_equal_middle.seq bar_equal_start.seq bar_bar_equal_start.seq bar_equal_middle.seq bar_bar_equal_middle.seq slash_equal_start.seq slash_equal_middle.seq colon_equal_middle.seq exclam_equal_middle.seq equal_start.seq equal_middle.seq] equal' [equal less greater bar slash colon exclam] by equal_middle.seq;
+  sub [less_equal_start.seq less_less_equal_start.seq less_equal_middle.seq less_less_equal_middle.seq greater_equal_start.seq greater_greater_equal_start.seq greater_equal_middle.seq greater_greater_equal_middle.seq bar_equal_start.seq bar_bar_equal_start.seq bar_equal_middle.seq bar_bar_equal_middle.seq slash_equal_start.seq slash_slash_equal_start.seq slash_equal_middle.seq slash_slash_equal_middle.seq colon_equal_middle.seq exclam_equal_middle.seq equal_start.seq equal_middle.seq] equal' [equal less greater bar slash colon exclam] by equal_middle.seq;
 
-  sub [less_equal_start.seq less_less_equal_start.seq less_equal_middle.seq less_less_equal_middle.seq greater_equal_start.seq greater_greater_equal_start.seq greater_equal_middle.seq greater_greater_equal_middle.seq bar_equal_start.seq bar_bar_equal_start.seq bar_equal_middle.seq bar_bar_equal_middle.seq slash_equal_start.seq slash_equal_middle.seq colon_equal_middle.seq exclam_equal_middle.seq equal_start.seq equal_middle.seq] equal' by equal_end.seq;
+  sub [less_equal_start.seq less_less_equal_start.seq less_equal_middle.seq less_less_equal_middle.seq greater_equal_start.seq greater_greater_equal_start.seq greater_equal_middle.seq greater_greater_equal_middle.seq bar_equal_start.seq bar_bar_equal_start.seq bar_equal_middle.seq bar_bar_equal_middle.seq slash_equal_start.seq slash_slash_equal_start.seq slash_equal_middle.seq slash_slash_equal_middle.seq colon_equal_middle.seq exclam_equal_middle.seq equal_start.seq equal_middle.seq] equal' by equal_end.seq;
 
   # double middles
   sub [equal_start.seq equal_middle.seq] less.spacer    less'    equal by less_less_equal_middle.seq;
@@ -16,6 +16,8 @@ lookup equal_arrows {
   sub [equal_start.seq equal_middle.seq] greater'       greater  equal by greater.spacer;
   sub [equal_start.seq equal_middle.seq] bar.spacer     bar'     equal by bar_bar_equal_middle.seq;
   sub [equal_start.seq equal_middle.seq] bar'           bar      equal by bar.spacer;
+  sub [equal_start.seq equal_middle.seq] slash.spacer   slash'   equal by slash_slash_equal_middle.seq;
+  sub [equal_start.seq equal_middle.seq] slash'         slash    equal by slash.spacer;
 
   # single middles
   sub [equal_start.seq equal_middle.seq] less'    equal by less_equal_middle.seq;
@@ -32,6 +34,8 @@ lookup equal_arrows {
   sub [equal_start.seq equal_middle.seq] greater'       greater  by greater.spacer;
   sub [equal_start.seq equal_middle.seq] bar.spacer     bar'     by bar_bar_equal_end.seq;
   sub [equal_start.seq equal_middle.seq] bar'           bar      by bar.spacer;
+  sub [equal_start.seq equal_middle.seq] slash.spacer   slash'   by slash_slash_equal_end.seq;
+  sub [equal_start.seq equal_middle.seq] slash'         slash    by slash.spacer;
 
   # single ends
   sub [equal_start.seq equal_middle.seq] less'    by less_equal_end.seq;
@@ -46,6 +50,8 @@ lookup equal_arrows {
   sub greater'       greater  equal by greater.spacer;
   sub bar.spacer     bar'     equal by bar_bar_equal_start.seq;
   sub bar'           bar      equal by bar.spacer;
+  sub slash.spacer   slash'   equal by slash_slash_equal_start.seq;
+  sub slash'         slash    equal by slash.spacer;
 
   # Disable >=< #548
   sub greater' equal less [equal less] by greater_equal_start.seq;
@@ -55,7 +61,7 @@ lookup equal_arrows {
   sub equal' less [equal less] by equal_start.seq;
 
   # Disable =/ #1056
-  sub equal'   slash equal by equal_start.seq; 
+  sub equal'   slash [equal slash] by equal_start.seq; 
 
   # single beginnings
   sub less'    equal by less_equal_start.seq;
