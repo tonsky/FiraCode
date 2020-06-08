@@ -1,7 +1,5 @@
 #!/bin/zsh -euo pipefail
-
 cd "`dirname $0`/.."
-
 
 setopt BASH_REMATCH
 MAJOR=`cat FiraCode.glyphs | grep versionMajor`

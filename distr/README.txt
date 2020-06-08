@@ -10,7 +10,7 @@ OR
 
 Use https://chocolatey.org:
 
-    choco install firacode
+    choco install firacode-ttf
 
 
 macOS

@@ -1,17 +1,17 @@
-#!/bin/bash -e
+#!/bin/bash -euo pipefail
 # requires sfnt2woff-zopfli (get from https://github.com/bramstein/homebrew-webfonttools)
 
-rm -rf distr/woff
+cd "`dirname $0`/.."
+source venv/bin/activate
+
+rm -rf distr/*/*.woff
 
 ttfs=$(ls distr/*/*.ttf)
 for ttf in $ttfs; do
+    echo "sfnt2woff-zopfli $ttf"
     sfnt2woff-zopfli $ttf
 done
 
-rm distr/ttf/FiraCode-Retina.woff
-
 mkdir -p distr/woff
-woffs=$(ls distr/*/*.woff)
-for woff in $woffs; do
-    mv $woff distr/woff/$(basename $woff)
-done
+mv distr/*/*.woff distr/woff
+rm distr/woff/FiraCode-Retina.woff

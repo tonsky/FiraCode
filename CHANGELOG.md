@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-#### 5.0
+#### 5.0 (June 8, 2020)
 
 - Fixed Box drawing diagonal lines U+2571 `╱` U+2572 `╲` U+2573 `╳` #929
 - Added U+2236 Ratio `∶` #926
@@ -13,9 +13,10 @@ All notable changes to this project will be documented in this file.
 - Disable `=/` because of conflicts with paths `PATH=/...` #1056
 - Fixed STAT table in FiraCode-VF.ttf #770 #1054
 - Added `//=` `=//` `=//=` #816 
-- Added U+21B0..U+21B3 `↰↱↲↳`, U+2770..U+2771 `❰❱` #1032
+- Added U+21B0..U+21B3 `↰ ↱ ↲ ↳`, U+2770..U+2771 `❰ ❱` #1032
 - Fixed U+27F8 `⟸` U+27F9 `⟹` U+27FA `⟺` U+27FD `⟽` U+27FE `⟾` U+27FF `⟿` that were broken in v4 #1067
 - Added ss08 that adds gaps to `==` `===` `!=` `!==` #383
+- Removed OTF from distr to avoid confusion #939
 
 #### 4.0 (May 18, 2020)
 

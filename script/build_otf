@@ -1,6 +1,0 @@
-#!/bin/bash -e
-
-source venv/bin/activate
-
-rm -rf distr/otf
-fontmake -g FiraCode.glyphs -o otf --output-dir distr/otf -i
