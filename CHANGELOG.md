@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - Disable `=/` because of conflicts with paths `PATH=/...` #1056
 - Fixed STAT table in FiraCode-VF.ttf #770 #1054
 - Added `//=` `=//` `=//=` #816 
+- Added U+21B0..U+21B3 `↰↱↲↳`, U+2770..U+2771 `❰❱` #1032 
 
 #### 4.0 (May 18, 2020)
 
