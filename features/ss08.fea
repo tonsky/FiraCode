@@ -1,0 +1,6 @@
+# Name: Gaps in double-triple equals
+
+sub equal_equal.liga by equal_equal.ss08;
+sub equal_equal_equal.liga by equal_equal_equal.ss08;
+sub exclam_equal.liga by exclam_equal.ss08;
+sub exclam_equal_equal.liga by exclam_equal_equal.ss08;
