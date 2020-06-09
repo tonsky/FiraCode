@@ -122723,6 +122723,27 @@ instances = (
 {
 customParameters = (
 {
+name = weightClass;
+value = 350;
+},
+{
+name = "Remove Features";
+value = (
+cpsp
+);
+}
+);
+interpolationWeight = 72;
+instanceInterpolations = {
+"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.16667;
+"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.83333;
+};
+name = Book;
+weightClass = Normal;
+},
+{
+customParameters = (
+{
 name = "Remove Features";
 value = (
 cpsp
@@ -122739,6 +122760,27 @@ instanceInterpolations = {
 };
 name = Light;
 weightClass = Light;
+},
+{
+customParameters = (
+{
+name = weightClass;
+value = 475;
+},
+{
+name = "Remove Features";
+value = (
+cpsp
+);
+}
+);
+interpolationWeight = 108;
+instanceInterpolations = {
+"4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA" = 0.41667;
+"B67F0F2D-EC95-4CB8-966E-23AE86958A69" = 0.58333;
+};
+name = Thick;
+weightClass = Normal;
 },
 {
 customParameters = (
