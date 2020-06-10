@@ -1,0 +1,4 @@
+### Long dashes
+
+sub twoemdash by hyphen_start.seq hyphen_end.seq;
+sub threeemdash by hyphen_start.seq hyphen_middle.seq hyphen_end.seq;

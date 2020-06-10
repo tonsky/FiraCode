@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 5.1 (June 10, 2020)
+
+- Fixed monospace property broken by adding threeemdash #1073
+
 #### 5.0 (June 8, 2020)
 
 - Fixed Box drawing diagonal lines U+2571 `╱` U+2572 `╲` U+2573 `╳` #929
