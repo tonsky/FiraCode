@@ -40,7 +40,7 @@ Ubuntu Zesty (17.04), Debian Stretch (9) or newer
 Arch Linux
 ----------
 
-Fira Code package is available in the official repository: https://www.archlinux.org/packages/community/any/otf-fira-code/.
+Fira Code package is available in the official repository: https://www.archlinux.org/packages/community/any/ttf-fira-code/.
 
 Variant of Fira Code package is available in the AUR: https://aur.archlinux.org/packages/otf-fira-code-git/.
 
