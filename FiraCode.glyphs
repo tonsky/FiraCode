@@ -133,7 +133,7 @@ value = (
 );
 }
 );
-date = "2020-06-10 18:59:21 +0000";
+date = "2020-06-12 13:02:47 +0000";
 designer = "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov";
 designerURL = "https://tonsky.me";
 familyName = "Fira Code";
@@ -122853,5 +122853,5 @@ oV = 98;
 };
 };
 versionMajor = 5;
-versionMinor = 1;
+versionMinor = 2;
 }

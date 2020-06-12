@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+#### 5.2 (June 12, 2020)
+
+- Fixed hinting problems caused by build_ttf #1075
+
 #### 5.1 (June 10, 2020)
 
 - Fixed monospace property broken by adding threeemdash #1073
