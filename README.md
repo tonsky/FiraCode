@@ -64,17 +64,17 @@ Unicode coverage makes Fira Code great choice for mathematical writing.
 | **Abricotine** | **Arduino IDE** |
 | **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Adobe Dreamweaver** |
 | **Anjuta** (unless at the EOF) | **Delphi IDE** |
-| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Eclipse** (Windows, [vote here](https://bugs.eclipse.org/bugs/show_bug.cgi?id=398656)) |
-| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
-| **BBEdit/TextWrangler** (v. 11 only, [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Geany** (Windows) |
-| **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **Godot** ([issue](https://github.com/godotengine/godot/issues/9961)) |
-| **Chocolat** | **gVim** (Windows [workaround](https://github.com/tonsky/FiraCode/issues/462)) |
-| **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **IDLE** |
-| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **KDevelop 4** |
-| **Coda 2** | **MATLAB** |
-| **CodeLite** | **Monkey Studio IDE** |
-| **Eclipse** (macOS 4.7+, Linux) | **UltraEdit** |
-| **elementary Code** |  |
+| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
+| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Geany** (Windows) |
+| **BBEdit/TextWrangler** (v. 11 only, [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Godot** ([issue](https://github.com/godotengine/godot/issues/9961)) |
+| **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** (Windows [workaround](https://github.com/tonsky/FiraCode/issues/462)) |
+| **Chocolat** | **IDLE** |
+| **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
+| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **MATLAB** |
+| **Coda 2** | **Monkey Studio IDE** |
+| **CodeLite** | **UltraEdit** |
+| **Eclipse** |
+| **elementary Code** |
 | **Geany** (macOS) |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
