@@ -2,7 +2,7 @@
 # requires woff2_compress (get from https://github.com/bramstein/homebrew-webfonttools)
 
 cd "`dirname $0`/.."
-source venv/bin/activate
+[ -d venv ] && source venv/bin/activate
 
 rm -rf distr/*/*.woff2
 

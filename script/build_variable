@@ -2,7 +2,7 @@
 
 cd "`dirname $0`/.."
 
-source venv/bin/activate
+[ -d venv ] && source venv/bin/activate
 
 DIR=distr/variable_ttf
 FILE=FiraCode-VF.ttf

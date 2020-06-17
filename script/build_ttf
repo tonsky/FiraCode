@@ -1,6 +1,6 @@
 #!/bin/bash -euo pipefail
 
-source venv/bin/activate
+[ -d venv ] && source venv/bin/activate
 
 args=( "$@" )
 default_weights=( "Light" "Regular" "Retina" "Medium" "SemiBold" "Bold" )
