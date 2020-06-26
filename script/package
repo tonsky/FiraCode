@@ -17,7 +17,7 @@ if [[ $MINOR =~ 'versionMinor = ([0-9]+);' ]] ; then
     fi
 fi
 
-FILE="Fira_Code_v$VERSION.zip"
+FILE="Fira_Code_Fixed_v$VERSION.zip"
 rm -f $FILE
 
 pushd distr

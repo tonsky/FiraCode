@@ -5,7 +5,7 @@ cd "`dirname $0`/.."
 source venv/bin/activate
 
 DIR=distr/variable_ttf
-FILE=FiraCode-VF.ttf
+FILE=FiraCodeFixed-VF.ttf
 
 rm -rf $DIR/$FILE
 fontmake -g FiraCode.glyphs -o variable --output-dir $DIR

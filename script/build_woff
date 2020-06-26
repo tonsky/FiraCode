@@ -14,4 +14,4 @@ done
 
 mkdir -p distr/woff
 mv distr/*/*.woff distr/woff
-rm distr/woff/FiraCode-Retina.woff
+rm distr/woff/FiraCodeFixed-Retina.woff
