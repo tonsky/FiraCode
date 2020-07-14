@@ -24,7 +24,7 @@ Then:
 
 <a href="https://github.com/sponsors/tonsky" target="_blank"><img src="./extras/sponsor.png"></a>
 
-Fira Code is a personal, free-time project with no funding and huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
+Fira Code is a personal, free-time project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
 
 ### What’s in the box?
 
@@ -32,7 +32,7 @@ Left: ligatures as rendered in Fira Code. Right: same character sequences withou
 
 <img src="./extras/ligatures.png" width="754" height="1326">
 
-Fira Code comes with huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
+Fira Code comes with a huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
 
 <img src="./extras/arrows.png" width="754" height="799">
 
@@ -40,15 +40,15 @@ Fira Code is not only about ligatures. Some fine-tuning is done for punctuation 
 
 <img src="./extras/typographics.png" width="754" height="649">
 
-Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable.](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
 <img src="./extras/stylistic_sets.png" width="754" height="391">
 
-Being programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs.
+Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs.
 
 <img src="./extras/console.png" width="754" height="357">
 
-Unicode coverage makes Fira Code great choice for mathematical writing.
+Unicode coverage makes Fira Code a great choice for mathematical writing.
 
 <img src="./extras/math.png" width="754" height="289">
 
@@ -199,7 +199,7 @@ Paid monospaced fonts with ligatures:
 
 ### Building Fira Code locally
 
-In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is setup I use on macOS:
+In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is the setup I use on macOS:
 
 ```bash
 # install all required build tools
