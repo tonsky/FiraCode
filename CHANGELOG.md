@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### 6.0
+
+- Fixed height of `∑` U+2211 N-ARY SUMMATION #1083
+
 #### 5.2 (June 12, 2020)
 
 - Fixed hinting problems caused by build_ttf #1075
