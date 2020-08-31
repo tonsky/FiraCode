@@ -6,7 +6,7 @@
 
 
 (defn width-ok? [w]
-  (#{"0" 0 1200 2400} w))
+  (#{"0" 0 1200} w))
 
 
 (defn widths [font]
