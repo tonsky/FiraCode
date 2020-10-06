@@ -4,11 +4,11 @@
 
 ### Problem
 
-Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `->`, `<=` or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
+Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `->`, `<=`, or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse, and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
 
 ### Solution
 
-Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
+Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: the underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
 
 ### Download & Install
 
@@ -40,11 +40,11 @@ Fira Code is not only about ligatures. Some fine-tuning is done for punctuation 
 
 <img src="./extras/typographics.png" width="754" height="649">
 
-Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+Fira Code comes with a few different character variants so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
 <img src="./extras/stylistic_sets.png" width="754" height="391">
 
-Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs.
+Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline, and other forms of console UIs.
 
 <img src="./extras/console.png" width="754" height="357">
 
@@ -167,7 +167,7 @@ code { font-family: 'Fira Code', monospace; }
 - ACE
 - CodeMirror (enable with `font-variant-ligatures: contextual;`)
 
-### Projects using Fira Code
+### Projects using the Fira Code
 
 - All [JetBrains products](https://www.jetbrains.com/)
 - [CodePen](https://codepen.io/)
