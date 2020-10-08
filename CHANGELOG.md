@@ -8,6 +8,22 @@ All notable changes to this project will be documented in this file.
 - Added U+2241..U+224B `≁ ≂ ≃ ≄ ≅ ≆ ≇ ≉ ≊ ≋` #1090
 - Added new enclosed characters from Unicode 13 U+0229C `⊜`, U+1F10D `🄍`, U+1F10E `🄎`, U+1F10F `🄏`, U+1F16D `🅭`, U+1F16E `🅮`, U+1F16F `🅯`, U+1F1AD `🆭` #1070
 - Redrew U+27F0..U+27FF Supplemental Arrows-A to be strict monospace `⟲⟳⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿`
+- Alternative `a` cv01
+- Alternative `g` cv02 #886
+- Alternative `i` cv03-cv06
+- Alternative `l` cv07-cv10 #899
+- Alternative `0` cv11-cv13
+- Alternative `3` cv14
+- Alternative `{}` cv15
+- Alternative `*` cv16
+- Alternative `~` cv17
+- Alternative `%` cv18
+- `<=` with a horizontal bar `cv19`
+- `<=` as an arrow `cv20` #34 #696 #858
+- `=<` as less than or equal `cv21` #34
+- `=<` as less than or equal with horizontal bar `cv22` #34
+- `>=` with a horizontal bar `cv23`
+- Moved `.-` into `dlig` #1103
 
 #### 5.2 (June 12, 2020)
 
@@ -30,7 +46,7 @@ All notable changes to this project will be documented in this file.
 - Added `//=` `=//` `=//=` #816 
 - Added U+21B0..U+21B3 `↰ ↱ ↲ ↳`, U+2770..U+2771 `❰ ❱` #1032
 - Fixed U+27F8 `⟸` U+27F9 `⟹` U+27FA `⟺` U+27FD `⟽` U+27FE `⟾` U+27FF `⟿` that were broken in v4 #1067
-- Added ss08 that adds gaps to `==` `===` `!=` `!==` #383
+- Added `ss08` that adds gaps to `==` `===` `!=` `!==` #187 #383
 - Removed OTF from distr to avoid confusion #939
 
 #### 4.0 (May 18, 2020)
