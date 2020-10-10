@@ -1,0 +1,31 @@
+# Name: Ligatures for Tl Fl fi fj fl ft
+
+lookup T_l {
+  sub T.spacer [l l.salt_low]' by T_l.liga.ss10;
+  sub T' [l l.salt_low] by T.spacer;
+} T_l;
+
+lookup F_l {
+  sub F.spacer [l l.salt_low]' by F_l.liga.ss10;
+  sub F' [l l.salt_low] by F.spacer;
+} F_l;
+
+lookup f_i {
+  sub f.spacer [i i.salt_low]' by f_i.liga.ss10;
+  sub f' [i i.salt_low] by f.spacer;
+} f_i;
+
+lookup f_j {
+  sub f.spacer [j j.salt_low]' by f_j.liga.ss10;
+  sub f' [j j.salt_low] by f.spacer;
+} f_j;
+
+lookup f_l {
+  sub f.spacer l' by f_l.liga.ss10;
+  sub f' l by f.spacer;
+} f_l;
+
+lookup f_t {
+  sub f.spacer t' by f_t.liga.ss10;
+  sub f' t by f.spacer;
+} f_t;
