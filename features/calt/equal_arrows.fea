@@ -66,7 +66,7 @@ lookup equal_arrows {
   # single beginnings
   sub less'    equal by less_equal_start.seq;
   sub greater' equal by greater_equal_start.seq;
-  sub bar'     equal by bar_equal_start.seq;
+  sub bar'     equal [equal less greater bar colon exclam slash] by bar_equal_start.seq; # disable |= 
   sub slash'   equal by slash_equal_start.seq;
   sub equal'  [equal greater bar colon exclam] by equal_start.seq;
 

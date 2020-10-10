@@ -1,0 +1,19 @@
+lookup restore_greater_greater_equal {
+  sub greater_greater_equal_start.seq equal' by equal_end.seq;
+  sub greater_greater.liga' equal by greater_greater_equal_start.seq;
+} restore_greater_greater_equal;
+
+lookup restore_less_less_equal {
+  sub less_less_equal_start.seq equal' by equal_end.seq;
+  sub less_less.liga' equal by less_less_equal_start.seq;
+} restore_less_less_equal;
+
+lookup restore_bar_bar_equal {
+  sub bar_bar_equal_start.seq equal' by equal_end.seq;
+  sub bar_bar.liga' equal by bar_bar_equal_start.seq;
+} restore_bar_bar_equal;
+
+lookup restore_bar_equal {
+  sub bar_equal_start.seq equal' by equal_end.seq;
+  sub bar' equal by bar_equal_start.seq;
+} restore_bar_equal;

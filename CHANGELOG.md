@@ -7,8 +7,8 @@ All notable changes to this project will be documented in this file.
 - Fixed height of `∑` U+2211 N-ARY SUMMATION #1083
 - Added U+2241..U+224B `≁ ≂ ≃ ≄ ≅ ≆ ≇ ≉ ≊ ≋` #1090
 - Added new enclosed characters from Unicode 13 U+0229C `⊜`, U+1F10D `🄍`, U+1F10E `🄎`, U+1F10F `🄏`, U+1F16D `🅭`, U+1F16E `🅮`, U+1F16F `🅯`, U+1F1AD `🆭` #1070
-- Redrew U+27F0..U+27FF Supplemental Arrows-A to be strict monospace `⟲⟳⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿`
-- Alternative `a` cv01
+- Redrew U+27F0..U+27FF Supplemental Arrows-A to be strict monospace `⟲⟳⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿` #1109 #1123
+- Alternative `a` cv01 #949
 - Alternative `g` cv02 #886
 - Alternative `i` cv03-cv06
 - Alternative `l` cv07-cv10 #899
@@ -23,7 +23,9 @@ All notable changes to this project will be documented in this file.
 - `=<` as less than or equal `cv21` #34
 - `=<` as less than or equal with horizontal bar `cv22` #34
 - `>=` with a horizontal bar `cv23`
-- Moved `.-` into `dlig` #1103
+- Moved `.-` into `dlig` #860 #1103
+- Returned `[]` as `dlig`
+- C-style compound assignment `>>=` `<<=` `||=` `|=` are not combined with equal sign by default. Old behavior is moved into `ss09` #974
 
 #### 5.2 (June 12, 2020)
 
@@ -146,7 +148,7 @@ Removed 44 individual arrow ligatures, replaced with four universal, combinative
 - Alternatives (stylistic sets):
   - Lowercase `r` (ss01) [#601]
   - Less than/greater than `<=` `>=` (ss02) [#263] [#617]
-  - Ampersand `&` (ss03) [#617]
+  - Ampersand `&` (ss03) [#371] [#617] 
   - Dollar sign `$` (ss04) [#617]
   - At sign `@` (ss05) [#617] [#748] [#817]
   - Thin backslash (ss06) [#577 #720 #825]

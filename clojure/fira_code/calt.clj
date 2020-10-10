@@ -158,19 +158,25 @@
          "  ignore sub greater' equal [less greater bar colon exclam slash];\n")
 
     ;; #346 >>->> >>=>>
+    ;; #974 keep >>=
     ["greater" "greater"]
     (str "  ignore sub [hyphen equal] greater' greater;\n"
-         "  ignore sub greater' greater [hyphen equal];\n")
+         "  ignore sub greater' greater hyphen;\n"
+         "  ignore sub greater' greater equal [equal less greater bar colon exclam slash];\n")
 
     ;; #346 <<-<< <<=<<
+    ;; #974 keep <<=
     ["less" "less"]
     (str "  ignore sub [hyphen equal] less' less;\n"
-         "  ignore sub less' less [hyphen equal];\n")
+         "  ignore sub less' less hyphen;\n"
+         "  ignore sub less' less equal [equal less greater bar colon exclam slash];\n")
 
     ;; #346 ||-|| ||=||
+    ;; #974 keep ||=
     ["bar" "bar"]
     (str "  ignore sub [hyphen equal] bar' bar;\n"
-         "  ignore sub bar' bar [hyphen equal];\n")
+         "  ignore sub bar' bar hyphen;\n"
+         "  ignore sub bar' bar equal [equal less greater bar colon exclam slash];\n")
 
     ;; #816 //=
     ["slash" "slash"]
