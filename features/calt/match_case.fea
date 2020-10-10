@@ -23,6 +23,13 @@ lookup lowercase_asterisk {
   sub @Lowercase \asterisk' by \asterisk.lc;
 } lowercase_asterisk;
 
+lookup lowercase_asteriskmath {
+  ignore sub @Tall \asteriskmath' @Lowercase;
+  ignore sub @Lowercase \asteriskmath' @Tall;
+  sub \asteriskmath' @Lowercase by \asteriskmath.lc;
+  sub @Lowercase \asteriskmath' by \asteriskmath.lc;
+} lowercase_asteriskmath;
+
 lookup uppercase_colon {
   ignore sub @Tall \colon' @Lowercase;
   ignore sub @Lowercase \colon' @Tall;

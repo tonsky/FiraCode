@@ -1,0 +1,8 @@
+# Name: :- as ligature
+
+lookup colon_hyphen {
+  ignore sub colon colon' hyphen;
+  ignore sub colon' hyphen hyphen;
+  sub colon.spacer hyphen' by colon_hyphen.cv26;
+  sub colon'       hyphen  by colon.spacer;
+} colon_hyphen;

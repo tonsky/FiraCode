@@ -1,0 +1,6 @@
+# Name: [] as ligature
+
+lookup bracketleft_bracketright {
+  sub bracketleft.spacer bracketright' by bracketleft_bracketright.cv27;
+  sub bracketleft'       bracketright  by bracketleft.spacer;
+} bracketleft_bracketright;

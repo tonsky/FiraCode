@@ -1,0 +1,9 @@
+# Name: =< with horizontal bar
+
+lookup equal_less_cv22 {
+  ignore sub equal equal' less;
+  ignore sub equal' less [less greater equal];
+
+  sub equal.spacer less' by less_equal.ss02;
+  sub equal' less by equal.spacer;
+} equal_less_cv22;

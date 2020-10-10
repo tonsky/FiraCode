@@ -15,9 +15,9 @@ All notable changes to this project will be documented in this file.
 - Alternative `l` `cv07`-`cv10` #899
 - Alternative `0` `cv11`-`cv13`
 - Alternative `3` `cv14`
-- Alternative `{}` `cv15`
-- Alternative `*` `cv16`
-- Alternative `~` `cv17`
+- Top-aligned `*` `cv15`
+- Hexagonal `*` `cv16` #708 #1134
+- Top-aligned `~` `cv17`
 - Alternative `%` `cv18`
 - `<=` with a horizontal bar `cv19`
 - `<=` as an arrow `cv20` #34 #696 #858
@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file.
 - Added `:-` to `cv26` #790
 - Returned `[]` as `cv27`
 - Returned `{. .}` as `cv28` #875 #635 #409 #279 #264 #214
+- Alternative `{}` `cv29`
 - Returned full ligatures for `Fl` `Tl` `fi` `fj` `fl` `ft` as `ss10`
 
 #### 5.2 (June 12, 2020)

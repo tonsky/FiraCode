@@ -1,0 +1,6 @@
+# Name: Less Than + Equal as an arrow 
+
+lookup less_equal_cv20 {
+  sub less_equal_start.seq less_equal.liga' by equal_end.seq;
+  sub less.spacer' less_equal.liga by less_equal_start.seq;
+} less_equal_cv20;

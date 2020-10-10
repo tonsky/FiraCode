@@ -1,0 +1,7 @@
+# Name: Hexagonal asterisk
+
+sub [asterisk asterisk.lc asterisk.cv15 asteriskmath asteriskmath.lc asteriskmath.cv15]
+ by [asteriskmath asteriskmath.lc asteriskmath.cv15 asterisk asterisk.lc asterisk.cv15];
+
+sub [asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_slash.liga slash_asterisk.liga less_asterisk.liga less_asterisk_greater.liga asterisk_greater.liga]
+ by [asterisk_asterisk.liga.cv16 asterisk_asterisk_asterisk.liga.cv16 asterisk_slash.liga.cv16 slash_asterisk.liga.cv16 less_asterisk.liga.cv16 less_asterisk_greater.liga.cv16 asterisk_greater.liga.cv16];

@@ -1,0 +1,6 @@
+# Name: /= as not equal
+
+lookup slash_equal_as_not_equal {
+  sub slash.spacer equal_end.seq' by exclam_equal.liga;
+  sub slash_equal_start.seq' equal_end.seq by slash.spacer;
+} slash_equal_as_not_equal;

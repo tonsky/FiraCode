@@ -1,0 +1,9 @@
+# Name: =<
+
+lookup equal_less_cv21 {
+  ignore sub equal equal' less;
+  ignore sub equal' less [less greater equal];
+
+  sub equal.spacer less' by less_equal.liga;
+  sub equal' less by equal.spacer;
+} equal_less_cv21;

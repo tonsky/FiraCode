@@ -1,0 +1,4 @@
+# Name: Top-aligned asterisk
+
+sub [asterisk asterisk.lc] by asterisk.cv15;
+sub [asteriskmath asteriskmath.lc] by asteriskmath.cv15;
