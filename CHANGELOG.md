@@ -8,25 +8,27 @@ All notable changes to this project will be documented in this file.
 - Added U+2241..U+224B `≁ ≂ ≃ ≄ ≅ ≆ ≇ ≉ ≊ ≋` #1090
 - Added new enclosed characters from Unicode 13 U+0229C `⊜`, U+1F10D `🄍`, U+1F10E `🄎`, U+1F10F `🄏`, U+1F16D `🅭`, U+1F16E `🅮`, U+1F16F `🅯`, U+1F1AD `🆭` #1070
 - Redrew U+27F0..U+27FF Supplemental Arrows-A to be strict monospace `⟲⟳⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿` #1109 #1123
-- Alternative `a` cv01 #949
-- Alternative `g` cv02 #886
-- Alternative `i` cv03-cv06
-- Alternative `l` cv07-cv10 #899
-- Alternative `0` cv11-cv13
-- Alternative `3` cv14
-- Alternative `{}` cv15
-- Alternative `*` cv16
-- Alternative `~` cv17
-- Alternative `%` cv18
+- C-style compound assignment `>>=` `<<=` `||=` `|=` are not combined with equal sign by default. Old behavior is moved into `ss09` #974
+- Alternative `a` `cv01` #949
+- Alternative `g` `cv02` #886
+- Alternative `i` `cv03`-`cv06`
+- Alternative `l` `cv07`-`cv10` #899
+- Alternative `0` `cv11`-`cv13`
+- Alternative `3` `cv14`
+- Alternative `{}` `cv15`
+- Alternative `*` `cv16`
+- Alternative `~` `cv17`
+- Alternative `%` `cv18`
 - `<=` with a horizontal bar `cv19`
 - `<=` as an arrow `cv20` #34 #696 #858
 - `=<` as less than or equal `cv21` #34
 - `=<` as less than or equal with horizontal bar `cv22` #34
 - `>=` with a horizontal bar `cv23`
 - `/=` as not equals `cv24` #125
-- Moved `.-` into `dlig` #860 #1103
-- Returned `[]` as `dlig`
-- C-style compound assignment `>>=` `<<=` `||=` `|=` are not combined with equal sign by default. Old behavior is moved into `ss09` #974
+- Moved `.-` into `cv25` #860 #1103
+- Added `:-` to `cv26` #790
+- Returned `[]` as `cv27`
+
 
 #### 5.2 (June 12, 2020)
 
