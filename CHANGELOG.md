@@ -28,6 +28,7 @@ All notable changes to this project will be documented in this file.
 - Moved `.-` into `cv25` #860 #1103
 - Added `:-` to `cv26` #790
 - Returned `[]` as `cv27`
+- Returned `{. .}` as `cv28` #875 #635 #409 #279 #264 #214
 - Returned full ligatures for `Fl` `Tl` `fi` `fj` `fl` `ft` as `ss10`
 
 #### 5.2 (June 12, 2020)

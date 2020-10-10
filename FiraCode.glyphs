@@ -1,8 +1,7 @@
 {
 .appVersion = "1346";
 DisplayStrings = (
-"<<=/space <=/space <<==/space <=</space <=>/space <<=\012>>=/space >>==\012||=/space ||==/space ||=|\012|=/space |==/space |=|/space =|=\012//=\012!=\012a/space/colon_hyphen.cv26 b\012t.-r\012x:=y\012Fl/space Tl/space fi/space fj/space fl/space ft",
-"/period_hyphen.cv25"
+"{..}"
 );
 classes = (
 {
@@ -421,6 +420,10 @@ notes = "Name: := as ligature";
 code = "lookup bracketleft_bracketright {\012  sub bracketleft.spacer bracketright' by bracketleft_bracketright.cv27;\012  sub bracketleft'       bracketright  by bracketleft.spacer;\012} bracketleft_bracketright;\012";
 name = cv27;
 notes = "Name: [] as ligature";
+},
+{
+code = "sub braceleft period' by bullet;\012sub period' braceright by bullet;";
+name = cv28;
 }
 );
 fontMaster = (
