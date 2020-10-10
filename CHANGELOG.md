@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file.
 - `=<` as less than or equal `cv21` #34
 - `=<` as less than or equal with horizontal bar `cv22` #34
 - `>=` with a horizontal bar `cv23`
+- `/=` as not equals `cv24` #125
 - Moved `.-` into `dlig` #860 #1103
 - Returned `[]` as `dlig`
 - C-style compound assignment `>>=` `<<=` `||=` `|=` are not combined with equal sign by default. Old behavior is moved into `ss09` #974

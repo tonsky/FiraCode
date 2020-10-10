@@ -1,7 +1,7 @@
 {
 .appVersion = "1346";
 DisplayStrings = (
-"<<=/space <=/space <<==/space <=</space <=>/space <<=\012>>=/space >>==\012||=/space ||==/space ||=|\012|=/space |==/space |=|/space =|="
+"<<=/space <=/space <<==/space <=</space <=>/space <<=\012>>=/space >>==\012||=/space ||==/space ||=|\012|=/space |==/space |=|/space =|=\012//=\012!="
 );
 classes = (
 {
@@ -401,6 +401,11 @@ notes = "Name: Equal + Less Than with horizontal bar";
 code = "sub greater_equal.liga by greater_equal.ss02;";
 name = cv23;
 notes = "Name: Greater Than + Equal with horizontal bar";
+},
+{
+code = "lookup slash_equal_as_not_equal {\012  sub slash.spacer equal_end.seq' by exclam_equal.liga;\012  sub slash_equal_start.seq' equal_end.seq by slash.spacer;\012} slash_equal_as_not_equal;";
+name = cv24;
+notes = "Name: /= as not equal";
 }
 );
 fontMaster = (
