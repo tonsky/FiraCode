@@ -31,6 +31,7 @@ All notable changes to this project will be documented in this file.
 - Returned `{. .}` as `cv28` #875 #635 #409 #279 #264 #214
 - Alternative `{}` `cv29`
 - Returned full ligatures for `Fl` `Tl` `fi` `fj` `fl` `ft` as `ss10`
+- Restored short `|` by default, long one moved to `cv30` #843
 
 #### 5.2 (June 12, 2020)
 
