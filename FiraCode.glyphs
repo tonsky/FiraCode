@@ -77391,6 +77391,43 @@ width = 1200;
 unicode = 220A;
 },
 {
+glyphname = endofproof;
+lastChange = "2020-10-11 20:48:59 +0000";
+layers = (
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"300 0 LINE",
+"900 0 LINE",
+"900 1050 LINE",
+"300 1050 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"300 0 LINE",
+"900 0 LINE",
+"900 1062 LINE",
+"300 1062 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+unicode = 220E;
+},
+{
 glyphname = equalsinferior;
 lastChange = "2020-04-05 22:00:31 +0000";
 layers = (

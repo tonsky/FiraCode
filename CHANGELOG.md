@@ -4,11 +4,22 @@ All notable changes to this project will be documented in this file.
 
 ### 6.0
 
+Unicode:
+
 - Fixed height of `∑` U+2211 N-ARY SUMMATION #1083
 - Added U+2241..U+224B `≁ ≂ ≃ ≄ ≅ ≆ ≇ ≉ ≊ ≋` #1090
 - Added new enclosed characters from Unicode 13 U+0229C `⊜`, U+1F10D `🄍`, U+1F10E `🄎`, U+1F10F `🄏`, U+1F16D `🅭`, U+1F16E `🅮`, U+1F16F `🅯`, U+1F1AD `🆭` #1070
 - Redrew U+27F0..U+27FF Supplemental Arrows-A to be strict monospace `⟲⟳⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿` #1109 #1123
+- Added U+220E End of Proof `∎` #1115
+
+Removed:
+
 - C-style compound assignment `>>=` `<<=` `||=` `|=` are not combined with equal sign by default. Old behavior is moved into `ss09` #974
+- Restored short `|` by default, long one moved to `cv30` #843
+- Moved `.-` into `cv25` #860 #1103
+
+Added (variants):
+
 - Alternative `a` `cv01` #949
 - Alternative `g` `cv02` #886
 - Alternative `i` `cv03`-`cv06`
@@ -25,13 +36,11 @@ All notable changes to this project will be documented in this file.
 - `=<` as less than or equal with horizontal bar `cv22` #34
 - `>=` with a horizontal bar `cv23`
 - `/=` as not equals `cv24` #125
-- Moved `.-` into `cv25` #860 #1103
 - Added `:-` to `cv26` #790
 - Returned `[]` as `cv27`
 - Returned `{. .}` as `cv28` #875 #635 #409 #279 #264 #214
 - Alternative `{}` `cv29`
 - Returned full ligatures for `Fl` `Tl` `fi` `fj` `fl` `ft` as `ss10`
-- Restored short `|` by default, long one moved to `cv30` #843
 
 #### 5.2 (June 12, 2020)
 
