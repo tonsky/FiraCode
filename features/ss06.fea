@@ -1,7 +1,6 @@
 # Name: Thin backslash
 
-sub backslash' by backslash.ss06;
-
 lookup backslash_thin {
-  sub backslash.ss06 backslash.ss06' by backslash.thick.ss06;
+  ignore sub backslash.ss06 backslash';
+  sub backslash' by backslash.ss06;
 } backslash_thin;
