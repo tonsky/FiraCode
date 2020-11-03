@@ -73,6 +73,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **MATLAB** |
 | **Coda 2** | **Monkey Studio IDE** |
 | **CodeLite** | **UltraEdit** |
+| **CotEditor** |
 | **Eclipse** |
 | **elementary Code** |
 | **Geany** (macOS) |
