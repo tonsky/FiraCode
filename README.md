@@ -122,23 +122,48 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 
 ### Terminal compatibility list
 
+#### Cross Platform (incl. Web)
+
 | Works              | Doesn’t work       |
 |--------------------|--------------------|
-| **Butterfly**      | **Alacritty**      |
-| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | **Windows Console (conhost.exe)** |
-| **Hyper.app**      | **Cmder**          |
-| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) | **ConEmu** |
-| **Kitty**          | **GNOME Terminal** |
+| **[Butterfly](https://github.com/paradoxxxzero/butterfly)**      | **[Alacritty](https://github.com/alacritty/alacritty)**      |
+| **[Hyper.app](https://hyper.is)**      |           |
+| **[Kitty](https://sw.kovidgoyal.net/kitty/)**          |  |
+
+#### Linux only
+
+| Works              | Doesn’t work       |
+|--------------------|--------------------|
 | **Konsole**        | **mate-terminal**  |
-| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
 | **QTerminal**      | **rxvt**           |
-| **Terminal.app**   | **xterm**          |
-| **Termux**         | **ZOC** (Windows)  |
-| **Token2Shell/MD** | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
-| **upterm**         |
-| **Windows Terminal** |
-| **ZOC** (macOS)    |
-| **st** ([patch](https://st.suckless.org/patches/ligatures/)) |
+| **Termux**         | **GNOME Terminal** |
+| | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
+| **st** ([patch](https://st.suckless.org/patches/ligatures/)) | **xterm** |
+
+#### Mac only
+
+| Works              | Doesn’t work       |
+|--------------------|--------------------|
+| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) |  |
+| **Terminal.app**   | |
+| **ZOC** (macOS)    | |
+
+#### Windows only
+
+| Works              | Doesn’t work       |
+|--------------------|--------------------|
+| **Windows Terminal** | **Windows Console (conhost.exe)** |
+| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
+| **[Token2Shell/MD](https://token2shell.com)** | **Cmder** |
+| | **ConEmu** |
+| | **ZOC** (Windows) |
+
+#### ChromeOS only
+
+| Works              | Doesn’t work       |
+|--------------------|--------------------|
+| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) |  |
+
 
 ### Browser support
 
