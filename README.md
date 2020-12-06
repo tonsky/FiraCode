@@ -122,48 +122,12 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 
 ### Terminal compatibility list
 
-#### Cross Platform (incl. Web)
-
-| Works              | Doesn’t work       |
-|--------------------|--------------------|
-| **[Butterfly](https://github.com/paradoxxxzero/butterfly)**      | **[Alacritty](https://github.com/alacritty/alacritty)**      |
-| | **[Hyper.app](https://hyper.is)** (see [issue #3607](https://github.com/vercel/hyper/issues/3607) |
-| **[Kitty](https://sw.kovidgoyal.net/kitty/)**          |  |
-
-#### Linux only
-
-| Works              | Doesn’t work       |
-|--------------------|--------------------|
-| **Konsole**        | **mate-terminal**  |
-| **QTerminal**      | **rxvt**           |
-| **Termux**         | **GNOME Terminal** |
-| | **gtkterm, guake, LXTerminal, sakura, Terminator, xfce4-terminal,** and other libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)) |
-| **st** ([patch](https://st.suckless.org/patches/ligatures/)) | **xterm** |
-
-#### Mac only
-
-| Works              | Doesn’t work       |
-|--------------------|--------------------|
-| **iTerm 2** ([3.1+](https://gitlab.com/gnachman/iterm2/issues/3568#note_13118332)) |  |
-| **Terminal.app**   | |
-| **ZOC** (macOS)    | |
-
-#### Windows only
-
-| Works              | Doesn’t work       |
-|--------------------|--------------------|
-| **Windows Terminal** | **Windows Console (conhost.exe)** |
-| **mintty** (partial support [2.8.3+](https://github.com/mintty/mintty/issues/601))| **PuTTY** |
-| **[Token2Shell/MD](https://token2shell.com)** | **Cmder** |
-| | **ConEmu** |
-| | **ZOC** (Windows) |
-
-#### ChromeOS only
-
-| Works              | Doesn’t work       |
-|--------------------|--------------------|
-| **crosh** (ChromeOS, [instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) |  |
-
+| Platform       | Works | Doesn’t work |
+|----------------|-------|--------------|
+| macOS          | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>iTerm 2<br>Kitty<br>Terminal.app<br>ZOC | Alacritty |
+| Windows        | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>Mintty<br>Token2Shell<br>Windows Terminal | Alacritty<br>Cmder<br>ConEmu<br>PuTTY<br>Windows Console<br>ZOC |
+| Linux          | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>Kitty<br>Konsole<br>QTerminal<br>Termux<br>st ([patch](https://st.suckless.org/patches/ligatures/)) | Alacritty<br>GNOME Terminal<br>libvte-based terminals ([bug report](https://bugzilla.gnome.org/show_bug.cgi?id=584160)): <ul><li>gtkterm<li>guake<li>LXTerminal<li> sakura<li>Terminator<li>xfce4-terminal</ul>mate-terminal<br>rxvt<br>xterm
+| ChromeOS       | crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | |
 
 ### Browser support
 
