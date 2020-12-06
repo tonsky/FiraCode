@@ -127,7 +127,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | Works              | Doesn’t work       |
 |--------------------|--------------------|
 | **[Butterfly](https://github.com/paradoxxxzero/butterfly)**      | **[Alacritty](https://github.com/alacritty/alacritty)**      |
-| **[Hyper.app](https://hyper.is)**      |           |
+| | **[Hyper.app](https://hyper.is)** (see [issue #3607](https://github.com/vercel/hyper/issues/3607) |
 | **[Kitty](https://sw.kovidgoyal.net/kitty/)**          |  |
 
 #### Linux only
