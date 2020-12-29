@@ -11,6 +11,7 @@ Unicode:
 - Added new enclosed characters from Unicode 13 U+0229C `⊜`, U+1F10D `🄍`, U+1F10E `🄎`, U+1F10F `🄏`, U+1F16D `🅭`, U+1F16E `🅮`, U+1F16F `🅯`, U+1F1AD `🆭` #1070
 - Redrew U+27F0..U+27FF Supplemental Arrows-A to be strict monospace `⟲⟳⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿` #1109 #1123
 - Added U+220E End of Proof `∎` #1115
+- Added U+FFFD Replacement Character `�` #1137, thanks @gjvnq
 
 Removed:
 
