@@ -185,7 +185,7 @@ Free monospaced fonts with ligatures:
 Paid monospaced fonts with ligatures:
 
 - [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm)
-- [Mono Lisa](https://a.paddle.com/v2/click/105822/122582?link=2447)
+- [Mono Lisa](https://www.monolisa.dev/)
 
 ### Building Fira Code locally
 
