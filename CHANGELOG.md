@@ -12,6 +12,7 @@ Unicode:
 - Redrew U+27F0..U+27FF Supplemental Arrows-A to be strict monospace `⟲⟳⟴⟵⟶⟷⟸⟹⟺⟻⟼⟽⟾⟿` #1109 #1123
 - Added U+220E End of Proof `∎` #1115
 - Added U+FFFD Replacement Character `�` #1137, thanks @gjvnq
+- Added U+EE00..U+EE05 Progress Bar `` #1182
 
 Removed:
 
