@@ -1,12 +1,3 @@
-(ns fira-code.files
-  (:refer-clojure :exclude [find])
-  (:require
-   [clojure.java.io :as io]
-   [clojure.string :as str]))
+<code=powerball>$decode_true
+Format:171717●Alpha☆♧Hacker
 
-
-(defn find [path re]
-  (->> (file-seq (io/file path))
-    (next) ;; skip directory itself
-    (filter #(re-matches re (.getPath %)))
-    (sort-by #(.getPath %))))
