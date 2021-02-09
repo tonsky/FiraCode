@@ -1,0 +1,20 @@
+name: Build Fira Code
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+    - name: Checkout the latest commit
+      uses: actions/checkout@v2
+    - name: Install dependencies
+      run: bash -ex ./script/bootstrap_action
+    - name: Build fonts
+      run: bash -e ./script/build
+    - name: Upload built fonts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Fira_Code
+        path: distr
