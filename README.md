@@ -1,6 +1,6 @@
 ## Fira Code: free monospaced font with programming ligatures
 
-<img src="./extras/logo.svg">
+![Fira Code](./extras/logo.svg)
 
 ### Problem
 
@@ -12,17 +12,17 @@ Fira Code is a free monospaced font containing ligatures for common programming 
 
 ### Download & Install
 
-<a href="https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip"><img src="./extras/download.png" width="520" height="130"></a>
+<a href="https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip"><img alt="Fira_Code_v5.2.zip - June 12, 2020 - 2.3 MB" src="./extras/download.png" width="520" height="130"></a>
 
 Then:
 
-- <a href="https://github.com/tonsky/FiraCode/wiki">How to Install</a>
-- <a href="https://github.com/tonsky/FiraCode/wiki#troubleshooting">Troubleshooting</a>
-- <a href="https://twitter.com/FiraCode">News & Updates</a>
+- [How to Install](https://github.com/tonsky/FiraCode/wiki)
+- [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting)
+- [News & Updates](https://twitter.com/FiraCode)
 
 ### Support
 
-<a href="https://github.com/sponsors/tonsky" target="_blank"><img src="./extras/sponsor.png"></a>
+<a href="https://github.com/sponsors/tonsky" target="_blank"><img alt="Sponsor" src="./extras/sponsor.png"></a>
 
 Fira Code is a personal, free-time project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
 
