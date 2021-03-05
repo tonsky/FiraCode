@@ -172,7 +172,7 @@ Brackets
 --------
 
 1. From the `View` menu choose `Themes....`
-2. Paste `'Fira Code'`, at the begining of `Font Family`
+2. Paste `'Fira Code'`, at the beginning of `Font Family`
 
 
 Emacs
