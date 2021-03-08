@@ -70,9 +70,9 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | **gVim** (Windows [workaround](https://github.com/tonsky/FiraCode/issues/462)) |
 | **Chocolat** | **IDLE** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **KDevelop 4** |
-| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | 
-| **Coda 2** | **Monkey Studio IDE** |
-| **CodeLite** | **UltraEdit** |
+| **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **Monkey Studio IDE** |
+| **Coda 2** | **UltraEdit** |
+| **CodeLite** | 
 | **CotEditor** |
 | **Eclipse** |
 | **elementary Code** |
@@ -90,7 +90,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **LINQPad** |
 | **MacVim** 7.4 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/MacVim-instructions)) |
 | **Mancy** |
-| **MATLAB** ([instructions] (https://github.com/tonsky/FiraCode/wiki/MATLAB-for-Windows-Instructions)) |
+| **MATLAB** ([instructions](https://github.com/tonsky/FiraCode/wiki/MATLAB-for-Windows-Instructions)) |
 | **Meld** |
 | **Mousepad** |
 | **NeoVim-gtk** |
