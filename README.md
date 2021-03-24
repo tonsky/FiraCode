@@ -73,6 +73,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **Monkey Studio IDE** |
 | **Coda 2** | **UltraEdit** |
 | **CodeLite** | 
+| **CodeRunner** | 
 | **CotEditor** |
 | **Eclipse** |
 | **elementary Code** |
@@ -98,6 +99,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **Notepad** (Windows) |
 | **Notepad++** (with a [workaround](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/2287#issuecomment-256638098))  |
 | **Notepad3** ([instructions](https://github.com/rizonesoft/Notepad3/issues/361#issuecomment-365977420))|
+| **Nova** | 
 | **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **QtCreator** |
