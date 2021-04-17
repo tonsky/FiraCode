@@ -14,6 +14,10 @@ Unicode:
 - Added U+FFFD Replacement Character `�` #1137, thanks @gjvnq
 - Added U+EE00..U+EE05 Progress Bar `` #1182
 
+Fixed:
+
+- Weird look of `::<` `::>` `<::` `>::` #1145
+
 Removed:
 
 - C-style compound assignment `>>=` `<<=` `||=` `|=` are not combined with equal sign by default. Old behavior is moved into `ss09` #974
