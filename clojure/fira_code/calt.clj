@@ -188,11 +188,6 @@
     (str "  ignore sub [less greater bar] hyphen' hyphen;\n"
          "  ignore sub hyphen' hyphen [less greater bar];\n")
 
-    ;; #346 <---> >---< |---|
-    ["hyphen" "hyphen" "hyphen"]
-    (str "  ignore sub [less greater bar] hyphen' hyphen hyphen;\n"
-         "  ignore sub hyphen' hyphen hyphen [less greater bar];\n")
-
     ;; #346 <==> >==< |==| /==/ =:== =!== ==:= ==!=
     ["equal" "equal"]
     (str "  ignore sub equal [colon exclam] equal' equal;\n"

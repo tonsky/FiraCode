@@ -14,9 +14,10 @@ Unicode:
 - Added U+FFFD Replacement Character `�` #1137, thanks @gjvnq
 - Added U+EE00..U+EE05 Progress Bar `` #1182
 
-Fixed:
+Changed:
 
-- Weird look of `::<` `::>` `<::` `>::` #1145
+- Fixed weird look of `::<` `::>` `<::` `>::` #1145
+- `---` now makes a line #1190
 
 Removed:
 
