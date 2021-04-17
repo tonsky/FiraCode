@@ -21,7 +21,7 @@ Fixed:
 Removed:
 
 - C-style compound assignment `>>=` `<<=` `||=` `|=` are not combined with equal sign by default. Old behavior is moved into `ss09` #974
-- Restored short `|` by default, long one moved to `cv30` #843
+- Restored short `|` by default, long one moved to `cv30` #843 #1160
 - Moved `.-` into `cv25` #860 #1103
 
 Added (variants):
