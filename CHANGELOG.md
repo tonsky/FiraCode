@@ -49,6 +49,7 @@ Added (variants):
 - Returned `{. .}` as `cv28` #875 #635 #409 #279 #264 #214
 - Alternative `{}` `cv29`
 - Returned full ligatures for `Fl` `Tl` `fi` `fj` `fl` `ft` as `ss10`
+- Alternative `()` `cv31` #1198
 
 #### 5.2 (June 12, 2020)
 
