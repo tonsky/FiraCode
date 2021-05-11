@@ -27,7 +27,7 @@ OR
 Use http://brew.sh:
 
     `brew tap homebrew/cask-fonts`
-    `brew install --cask font-fira-code`
+    `brew install font-fira-code`
 
 
 Ubuntu Zesty (17.04), Debian Stretch (9) or newer
