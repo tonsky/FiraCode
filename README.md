@@ -77,7 +77,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **CotEditor** |
 | **Eclipse** |
 | **elementary Code** |
-| **Geany** (1.37+ for Windows) |
+| **Geany** (1.37+) |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
 | **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
