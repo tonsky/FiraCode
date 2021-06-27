@@ -162,7 +162,6 @@ code { font-family: 'Fira Code', monospace; }
 
 ### Projects using Fira Code
 
-- All [JetBrains products](https://www.jetbrains.com/)
 - [CodePen](https://codepen.io/)
 - [Blink Shell](http://www.blink.sh/)
 - [Klipse](http://app.klipse.tech/)
