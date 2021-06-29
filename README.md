@@ -102,6 +102,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **Nova** | 
 | **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
+| **QOwnNotes** (21.16.6+) |
 | **QtCreator** |
 | **Rider** |
 | **RStudio** ([instructions](https://github.com/tonsky/FiraCode/wiki/RStudio-instructions)) |
