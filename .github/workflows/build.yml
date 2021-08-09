@@ -1,17 +1,14 @@
-name: Build Fira Code
-
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build
+    container: tonsky/firacode:latest
     steps:
     - uses: actions/checkout@v2
-    - run: echo "FIRA_CODE_VERSION=$(python3 ./script/version.py)" >> $GITHUB_ENV
-    - run: ./script/bootstrap_linux.sh
+    - run: echo ${GITHUB_REF#refs/heads/}
+    - run: echo "version=$(git rev-parse --short $GITHUB_SHA)" >> $GITHUB_ENV
     - run: ./script/build.sh
     - uses: actions/upload-artifact@v2
       with:
-        name: Fira_Code_v${{ env.FIRA_CODE_VERSION }}
+        name: Fira_Code_${{ env.version }}
         path: distr
