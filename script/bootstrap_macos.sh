@@ -1,4 +1,6 @@
-#! /bin/bash -ex
+#!/bin/bash
+set -o errexit -o nounset -o pipefail
+cd "`dirname $0`/.."
 
 sudo easy_install-3.8 pip
 pip install virtualenv --user

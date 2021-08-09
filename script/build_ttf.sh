@@ -1,6 +1,9 @@
-#!/bin/bash -euo pipefail
-
+#!/bin/bash
+set -o errexit -o nounset -o pipefail
+cd "`dirname $0`/.."
 [ -d venv ] && source venv/bin/activate
+mkdir -p distr/ttf
+rm -rf distr/ttf/*
 
 args=( "$@" )
 default_weights=( "Light" "Regular" "Retina" "Medium" "SemiBold" "Bold" )

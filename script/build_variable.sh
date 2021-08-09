@@ -1,16 +1,17 @@
-#!/bin/bash -euo pipefail
-
+#!/bin/bash
+set -o errexit -o nounset -o pipefail
 cd "`dirname $0`/.."
-
 [ -d venv ] && source venv/bin/activate
+mkdir -p distr/variable_ttf
+rm -rf distr/variable_ttf/*
 
-DIR=distr/variable_ttf
 FILE=FiraCode-VF.ttf
 
-rm -rf $DIR/$FILE
-fontmake -g FiraCode.glyphs -o variable --output-dir $DIR
+awk '/name = Retina;/ { print; print "exports = 0;"; next }1' FiraCode.glyphs > FiraCode_VF.glyphs
+fontmake -g FiraCode_VF.glyphs -o variable --output-dir distr/variable_ttf
+rm FiraCode_VF.glyphs
 
-cd distr/variable_ttf
+pushd distr/variable_ttf
 
 # fix variable font metadata – very important
 gftools fix-vf-meta $FILE
@@ -29,3 +30,5 @@ gftools fix-dsig --autofix $FILE
 rm -rf *-gasp.ttf
 
 # TODO (late 2019?): use TTFautohint-VF for variable font (current support is minimal)
+
+popd

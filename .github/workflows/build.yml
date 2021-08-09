@@ -7,14 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Build
     steps:
-    - name: Checkout the latest commit
-      uses: actions/checkout@v2
-    - name: Install dependencies
-      run: bash -ex ./script/bootstrap_action
-    - name: Build fonts
-      run: bash -e ./script/build
-    - name: Upload built fonts
-      uses: actions/upload-artifact@v2
+    - uses: actions/checkout@v2
+    - run: echo "FIRA_CODE_VERSION=$(python3 ./script/version.py)" >> $GITHUB_ENV
+    - run: ./script/bootstrap_linux.sh
+    - run: ./script/build.sh
+    - uses: actions/upload-artifact@v2
       with:
-        name: Fira_Code
+        name: Fira_Code_v${{ env.FIRA_CODE_VERSION }}
         path: distr
