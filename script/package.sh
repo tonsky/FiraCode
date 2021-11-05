@@ -1,4 +1,5 @@
-#!/bin/zsh -euo pipefail
+#!/bin/bash
+set -o errexit -o nounset -o pipefail
 cd "`dirname $0`/.."
 
 VERSION="$(git describe --tags)"
