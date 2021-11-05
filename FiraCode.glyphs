@@ -1,7 +1,7 @@
 {
 .appVersion = "3091";
 DisplayStrings = (
-"/rightHookArrow"
+"/minustilde"
 );
 classes = (
 {
@@ -69915,8 +69915,9 @@ width = 1200;
 );
 },
 {
+color = 6;
 glyphname = numbersign_braceleft.liga.cv29;
-lastChange = "2020-10-11 19:02:47 +0000";
+lastChange = "2021-11-05 22:49:53 +0000";
 layers = (
 {
 components = (
@@ -96858,7 +96859,7 @@ unicode = 207B;
 {
 color = 6;
 glyphname = minustilde;
-lastChange = "2020-08-30 21:17:28 +0000";
+lastChange = "2021-11-05 23:48:53 +0000";
 layers = (
 {
 components = (
@@ -96872,10 +96873,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"970 747 LINE",
-"970 863 LINE",
 "230 863 LINE",
-"230 747 LINE"
+"230 747 LINE",
+"970 747 LINE",
+"970 863 LINE"
 );
 }
 );
