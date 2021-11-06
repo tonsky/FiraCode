@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: echo ${GITHUB_REF#refs/heads/}
-    - run: echo "version=$(git rev-parse --short $GITHUB_SHA)" >> $GITHUB_ENV
+    - run: echo "version=$(./script/update_version.py)" >> $GITHUB_ENV
     - run: ./script/build.sh
     - uses: actions/upload-artifact@v2
       with:
