@@ -1,7 +1,0 @@
-#!/bin/bash -euo pipefail
-cd "`dirname $0`/.."
-
-npm publish
-
-# Update https://github.com/Homebrew/homebrew-cask-fonts
-# Update https://github.com/matthewjberger/scoop-nerd-fonts/blob/master/bucket/FiraCode.json

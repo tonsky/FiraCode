@@ -1,14 +1,27 @@
-on: [push]
+on:
+  push:
+    branches:
+      - 'master'
+    tags:
+      - '[0-9]+.[0-9]+'
+    paths:
+      - '.github/workflows/**'
+      - 'FiraCode.glyphs'
+      - 'script/**'
+      
 jobs:
   build:
     runs-on: ubuntu-latest
     container: tonsky/firacode:latest
     steps:
     - uses: actions/checkout@v2
-    - run: echo ${GITHUB_REF#refs/heads/}
-    - run: echo "version=$(./script/update_version.py)" >> $GITHUB_ENV
+    - if: startsWith(github.ref, 'refs/tags/')
+      run: python3 ./script/update_version.py
     - run: ./script/build.sh
+    - run: echo "hash=$(git rev-parse --short $GITHUB_SHA)" >> $GITHUB_ENV
     - uses: actions/upload-artifact@v2
       with:
-        name: Fira_Code_${{ env.version }}
+        name: Fira_Code_${{ env.hash }}
         path: distr
+    - if: startsWith(github.ref, 'refs/tags/')
+      run: python3 ./script/release.py
