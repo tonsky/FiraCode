@@ -42,15 +42,29 @@ Fira Code is not only about ligatures. Some fine-tuning is done for punctuation 
 
 Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
-<img src="./extras/stylistic_sets.png" width="754" height="391">
+<img src="./extras/character_variants.png" width="754" height="391">
 
-Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs.
+Some ligatures can be altered or enabled using stylistic sets/character variants:
 
-<img src="./extras/console.png" width="754" height="357">
+<img src="./extras/ligature_variants.png" width="754" height="561">
 
-Unicode coverage makes Fira Code a great choice for mathematical writing.
+Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs:
 
-<img src="./extras/math.png" width="754" height="289">
+<img src="./extras/console.png" width="754" height="459">
+
+Fira Code is the first programming font to offer dedicated glyphs to render progress bars:
+
+<img src="./extras/progress.png" width="754" height="282">
+
+In action:
+
+<img src="./extras/progress.gif" width="560" height="181">
+
+We hope more programming fonts will adopt this convention and ship their own versions.
+
+Unicode coverage makes Fira Code a great choice for mathematical writing:
+
+<img src="./extras/math.png" width="754" height="323">
 
 ### How does it look?
 
