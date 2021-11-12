@@ -72,8 +72,8 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Monkey Studio IDE** |
 | **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | **UltraEdit** |
 | **Coda 2** |
-| **CodeLite** | 
-| **CodeRunner** | 
+| **CodeLite** |
+| **CodeRunner** |
 | **CotEditor** |
 | **Eclipse** |
 | **elementary Code** |
@@ -99,7 +99,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing.
 | **Notepad** (Windows) |
 | **Notepad++** (with a [workaround](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/2287#issuecomment-256638098))  |
 | **Notepad3** ([instructions](https://github.com/rizonesoft/Notepad3/issues/361#issuecomment-365977420))|
-| **Nova** | 
+| **Nova** |
 | **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **PyCharm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **QOwnNotes** (21.16.6+) |
@@ -196,13 +196,23 @@ In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself,
 
 ```bash
 # install all required build tools
-./script/bootstrap
+./script/bootstrap_macos.sh
 
 # build the font files
-./script/build
+./script/build.sh
 
 # install OTFs to ~/Library/Fonts
-./script/install
+cp distr/otf/*.otf ~/Library/Fonts
+```
+
+Alternatively, you can build Fira Code using Docker:
+
+```bash
+# install dependencies in a container and build the font files
+make
+
+# package the font files from dist/ into a zip
+make package
 ```
 
 ### Credits
