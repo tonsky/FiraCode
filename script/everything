@@ -2,8 +2,8 @@
 cd "`dirname $0`/.."
 
 ./script/check_widths
-# ./script/build_ttf
-./script/build_variable
-./script/build_woff
-./script/build_woff2
-./script/package
+# ./script/build_ttf.sh
+./script/build_variable.sh
+./script/build_woff.sh
+./script/build_woff2.sh
+./script/package.sh
