@@ -98,6 +98,41 @@ r 0 123456789 & && $ <$ <$> $> @ <= >=
 ⎜ 4 ⎟ ⎢ d ⎥ ⎪ y ⎪
 ⎝ 5 ⎠ ⎣ e ⎦ ⎩ x ⎭
 
+# Stylistic sets
+
+cv01             a
+cv02             g
+cv03..06         i
+cv07..10         l
+ss01             r
+zero, cv11..13   0
+cv14             3
+onum             0123456789
+cv17             ~
+ss05             @
+ss04             $
+cv18             %
+ss03             &
+cv15..16         *
+cv31             ()
+cv29             {}
+cv30             |
+
+ss02             <= >=
+cv19..20         <=
+cv23             >=
+cv21..22         =<
+ss08             == === != !==
+cv24             /=
+ss09             >>= <<= ||= |=
+cv25             .-
+cv26             :-
+cv32             .=
+cv27             []
+cv28             {. .}
+ss06             \\
+ss07             =~ !~
+ss10             Fl Tl fi fj fl ft
 
 # Arbitrary-length arrows #346
 
