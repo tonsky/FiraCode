@@ -1,6 +1,6 @@
 {
   "name": "firacode",
-  "version": "5.2.0",
+  "version": "6.0.0",
   "description": "Fira Code: monospaced font with programming ligatures",
   "main": "distr/fira_code.css",
   "keywords": [
