@@ -1,4 +1,9 @@
 {:paths ["clojure"]
  :deps {org.clojure/clojure  {:mvn/version "1.10.1"}
         org.flatland/ordered {:mvn/version "1.5.7"}
-        fipp/fipp            {:mvn/version "0.6.18"}}}
+        fipp/fipp            {:mvn/version "0.6.18"}}
+ :aliases {
+   :nrepl {
+     :extra-deps {
+       nrepl/nrepl {:mvn/version "0.8.3"}
+}}}}
