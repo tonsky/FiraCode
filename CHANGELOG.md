@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### 6.1
+
+- Fixed hinting settings to match Glyphs export #1315
+
 ### 6.0
 
 Unicode:
@@ -15,7 +19,7 @@ Unicode:
 - Added U+EE00..U+EE0B Progress Bar `` #1182
 - Added U+2237 Propotion `∷` #1219
 - Added U+21AA Rightwards Arrow with Hook `↪` #1307
-
+  
 Changed:
 
 - Fixed weird look of `::<` `::>` `<::` `>::` #1145
@@ -27,6 +31,7 @@ Removed:
 - Restored short `|` by default, long one moved to `cv30` #843 #1160
 - Moved `.-` into `cv25` #670 #860 #1103
 - Moved `.=` into `cv32` #670
+- Removed named “Retina” instance from FiraCode-VF.ttf (you can still get it by setting `wght=450`) #1318
 
 Added (variants):
 

@@ -20,7 +20,6 @@ for weight in "${weights[@]}"; do
     gftools fix-dsig --autofix ${file}
 
     echo "TTFautohint " ${file}
-    ttfautohint --detailed-info ${file} ${file}.hinted --stem-width-mode nnn --composites
-    #--windows-compatibility
+    ttfautohint --no-info --ignore-restrictions ${file} ${file}.hinted
     mv ${file}.hinted ${file}
 done
