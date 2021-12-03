@@ -132,7 +132,7 @@ name = note;
 value = "Based on Fira Mono 3.206";
 }
 );
-date = "2021-04-17 22:46:44 +0000";
+date = "2021-12-03 16:48:46 +0000";
 designer = "Carrois Corporate, Edenspiekermann AG, Nikita Prokopov";
 designerURL = "https://tonsky.me";
 familyName = "Fira Code";
@@ -131575,5 +131575,5 @@ oV = 98;
 };
 };
 versionMajor = 6;
-versionMinor = 0;
+versionMinor = 1;
 }
