@@ -54,11 +54,8 @@ Gentoo
 Fedora
 ------
 
-A Fedora copr repository is available: https://copr.fedorainfracloud.org/coprs/evana/fira-code-fonts/. Package sources https://gitlab.com/evana11/fira-code-fonts-fedora.
-
 To install, perform the following commands:
 
-    dnf copr enable evana/fira-code-fonts
     dnf install fira-code-fonts
 
 
