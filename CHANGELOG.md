@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### 6.2
+
+- Fixed monospaced property #1325
+
 ### 6.1
 
 - Fixed hinting settings to match Glyphs export #1315

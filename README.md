@@ -12,7 +12,7 @@ Fira Code is a free monospaced font containing ligatures for common programming 
 
 ### Download & Install
 
-<a href="https://github.com/tonsky/FiraCode/releases/download/6.1/Fira_Code_v6.1.zip"><img alt="Fira_Code_v6.1.zip - December 3, 2021 - 2.9 MB" src="./extras/download.png" width="520" height="130"></a>
+<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="./extras/download.png" width="520" height="130"></a>
 
 Then:
 
@@ -152,12 +152,12 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 
 ```html
 <!-- HTML -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.1.0/distr/fira_code.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
 ```
 
 ```css
 /* CSS */
-@import url(https://cdn.jsdelivr.net/npm/firacode@6.1.0/distr/fira_code.css);
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 ```
 
 ```css
