@@ -95,7 +95,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **gEdit / Pluma** |
 | **GNOME Builder** |
 | **GoormIDE** ([instructions](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
-| **gVim** (GTK GUI (8.2.3524+), [instructions](https://vimhelp.org/options.txt.html#%27guiligatures%27); Windows (with DirectX renderer), [instructions](https://github.com/tonsky/FiraCode/issues/462)) |
+| **gVim** ([Windows](https://github.com/tonsky/FiraCode/issues/462), [GTK](https://vimhelp.org/options.txt.html#%27guiligatures%27)) |
 | **IntelliJ IDEA** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) |
 | **Kate, KWrite** |
 | **KDevelop 5+** |
