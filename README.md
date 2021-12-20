@@ -1,7 +1,8 @@
 ## Fira Code: free monospaced font with programming ligatures
 
-[English](./README.md)|[简体中文](./README_CN.md)
 ![Fira Code](./extras/logo.svg)
+
+Read in [English](./README.md) | [简体中文](./README_CN.md)
 
 ### Problem
 
