@@ -129,6 +129,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **SublimeText** (3146+) |
 | **Spyder IDE** (only with Qt5) |
 | **SuperCollider 3** |
+| **TeXShop**|
 | **TextAdept** (Linux, macOS) |
 | **TextEdit** |
 | **TextMate 2** |
