@@ -129,6 +129,7 @@ La covertura del estándar Unicode hace de Fira Code una gran elección para la 
 | **SublimeText** (3146+) |
 | **Spyder IDE** (solamente con Qt5) |
 | **SuperCollider 3** |
+| **TeXShop** |
 | **TextAdept** (Linux, macOS) |
 | **TextEdit** |
 | **TextMate 2** |
