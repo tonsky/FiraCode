@@ -1,4 +1,4 @@
-### Logical conjuntion/disjunction #738
+### Logical conjunction/disjunction #738
 
 lookup slash_backslash {
   ignore sub @NotSpace slash' backslash;
