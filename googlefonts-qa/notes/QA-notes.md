@@ -128,7 +128,7 @@ But instead we have got: 'Copyright 2012-2015 The Mozilla Foundation, Telefonica
 - [x] uncheck "Retina" instance as `is active` instance
 - [x] file issue with FontBakery to ask Dave/Marc about this `450` weight "Retina" instance (https://github.com/googlefonts/fontbakery/issues/2420)- 
 - [x] change if you find a better approach to keep Retina without disrupting builds / Regular weight
-  - To set up the instance in GlyhpsApp such that it exports a font as expected: "Retina" gets a custom parameter of `weightClass: 450`, and a glyphs menu-weight of "Normal." Tested in axis-praxis, it seems to work well. All instances have a `weightClass` custom parameter.
+  - To set up the instance in GlyphsApp such that it exports a font as expected: "Retina" gets a custom parameter of `weightClass: 450`, and a glyphs menu-weight of "Normal." Tested in axis-praxis, it seems to work well. All instances have a `weightClass` custom parameter.
   
 ----------------------------
 
