@@ -265,7 +265,7 @@ Removed 44 individual arrow ligatures, replaced with four universal, combinative
 
 #### 1.102
 
-- Support for IntelliJ-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions))
+- Support for IntelliJ-based IDEs ([instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions))
 - Turned on autohinting
 
 #### 1.101
