@@ -146,7 +146,7 @@ Straightened in Bold & Reg:
 
 ### betaSymbol
 
-These lines are't supposed to intersect:
+These lines aren't supposed to intersect:
 
 ![](assets/2019-03-28-14-20-11.png)
 
