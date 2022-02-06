@@ -21,7 +21,7 @@ Unicode:
 - Added U+220E End of Proof `∎` #1115
 - Added U+FFFD Replacement Character `�` #1137, thanks @gjvnq
 - Added U+EE00..U+EE0B Progress Bar `` #1182
-- Added U+2237 Propotion `∷` #1219
+- Added U+2237 Proportion `∷` #1219
 - Added U+21AA Rightwards Arrow with Hook `↪` #1307
   
 Changed:
