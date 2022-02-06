@@ -506,7 +506,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb: Font styles are named canonically?</summary>
 
-* [com.google.fonts/check/metatada/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metatada/canonical_style_names)
+* [com.google.fonts/check/metadata/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/canonical_style_names)
 * 💤 **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>

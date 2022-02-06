@@ -703,7 +703,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <details>
 <summary>🍞 <b>PASS:</b> METADATA.pb: Font styles are named canonically?</summary>
 
-* [com.google.fonts/check/metatada/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metatada/canonical_style_names)
+* [com.google.fonts/check/metadata/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/canonical_style_names)
 * 🍞 **PASS** Font styles are named canonically.
 
 </details>

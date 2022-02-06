@@ -511,7 +511,7 @@ Glyph name: uni2158	Contours detected: 3	Expected: 4
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb: Font styles are named canonically?</summary>
 
-* [com.google.fonts/check/metatada/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metatada/canonical_style_names)
+* [com.google.fonts/check/metadata/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/canonical_style_names)
 * 💤 **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
