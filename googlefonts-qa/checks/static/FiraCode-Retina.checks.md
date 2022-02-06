@@ -868,7 +868,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
 
 * [com.google.fonts/check/name/ascii_only_entries](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/ascii_only_entries)
-* 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
+* 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characters.
 
 </details>
 <details>
