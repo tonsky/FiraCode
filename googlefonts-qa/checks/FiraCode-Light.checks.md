@@ -53,7 +53,7 @@ Fontbakery version: 0.7.1
 <summary>🍞 <b>PASS:</b> Check METADATA.pb parse correctly. </summary>
 
 * [com.google.fonts/check/metadata/parses](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/parses)
-* 🍞 **PASS** METADATA.pb parsed successfuly.
+* 🍞 **PASS** METADATA.pb parsed successfully.
 
 </details>
 <details>
