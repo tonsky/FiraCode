@@ -865,7 +865,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
 
 * [com.google.fonts/check/name/postscriptname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/postscriptname)
-* 🍞 **PASS** POSTCRIPT_NAME entries are all good.
+* 🍞 **PASS** POSTSCRIPT_NAME entries are all good.
 
 </details>
 <details>
