@@ -476,7 +476,7 @@ In a workspace:
         font-family: 'Fira Code';
     }
 
-4. Click Aplly or OK
+4. Click Apply or OK
 5. Happy coding!
 
 
