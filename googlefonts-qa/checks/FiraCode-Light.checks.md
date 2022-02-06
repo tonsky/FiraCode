@@ -331,7 +331,7 @@ But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (htt
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
+<summary>💤 <b>SKIP:</b> Glyphs are similar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/production_glyphs_similarity](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/production_glyphs_similarity)
 * 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
