@@ -53,7 +53,7 @@ Fontbakery version: 0.7.1
 <summary>🍞 <b>PASS:</b> Check METADATA.pb parse correctly. </summary>
 
 * [com.google.fonts/check/metadata/parses](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/parses)
-* 🍞 **PASS** METADATA.pb parsed successfuly.
+* 🍞 **PASS** METADATA.pb parsed successfully.
 
 </details>
 <details>
@@ -331,7 +331,7 @@ But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (htt
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
+<summary>💤 <b>SKIP:</b> Glyphs are similar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/production_glyphs_similarity](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/production_glyphs_similarity)
 * 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
@@ -564,7 +564,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
 
 * [com.google.fonts/check/name/ascii_only_entries](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/ascii_only_entries)
-* 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
+* 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characters.
 
 </details>
 <details>
@@ -703,7 +703,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <details>
 <summary>🍞 <b>PASS:</b> METADATA.pb: Font styles are named canonically?</summary>
 
-* [com.google.fonts/check/metatada/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metatada/canonical_style_names)
+* [com.google.fonts/check/metadata/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/canonical_style_names)
 * 🍞 **PASS** Font styles are named canonically.
 
 </details>
@@ -777,7 +777,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
 
 * [com.google.fonts/check/name/postscriptname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/postscriptname)
-* 🍞 **PASS** POSTCRIPT_NAME entries are all good.
+* 🍞 **PASS** POSTSCRIPT_NAME entries are all good.
 
 </details>
 <details>

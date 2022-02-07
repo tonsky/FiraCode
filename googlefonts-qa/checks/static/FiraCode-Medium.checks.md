@@ -25,7 +25,7 @@ Fontbakery version: 0.7.1
 <summary>🍞 <b>PASS:</b> Fonts have equal numbers of glyphs?</summary>
 
 * [com.google.fonts/check/family/equal_numbers_of_glyphs](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/family/equal_numbers_of_glyphs)
-* 🍞 **PASS** All font files in this family have an equal total ammount of glyphs.
+* 🍞 **PASS** All font files in this family have an equal total amount of glyphs.
 
 </details>
 <details>
@@ -261,7 +261,7 @@ But instead we have got: 'Copyright 2012-2015 The Fira Code Project Authors (htt
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
 * [com.google.fonts/check/contour_count](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/contour_count)
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
+* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are inferred from the typical amounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
 
 The following glyphs do not have the recommended number of contours:
 
@@ -506,7 +506,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 <details>
 <summary>💤 <b>SKIP:</b> METADATA.pb: Font styles are named canonically?</summary>
 
-* [com.google.fonts/check/metatada/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metatada/canonical_style_names)
+* [com.google.fonts/check/metadata/canonical_style_names](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/metadata/canonical_style_names)
 * 💤 **SKIP** Unfulfilled Conditions: font_metadata
 
 </details>
@@ -518,7 +518,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 
 </details>
 <details>
-<summary>💤 <b>SKIP:</b> Glyphs are similiar to Google Fonts version?</summary>
+<summary>💤 <b>SKIP:</b> Glyphs are similar to Google Fonts version?</summary>
 
 * [com.google.fonts/check/production_glyphs_similarity](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/production_glyphs_similarity)
 * 💤 **SKIP** Unfulfilled Conditions: api_gfonts_ttFont
@@ -807,7 +807,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Are there non-ASCII characters in ASCII-only NAME table entries?</summary>
 
 * [com.google.fonts/check/name/ascii_only_entries](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/ascii_only_entries)
-* 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characteres.
+* 🍞 **PASS** None of the ASCII-only NAME table entries contain non-ASCII characters.
 
 </details>
 <details>
@@ -873,7 +873,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>🍞 <b>PASS:</b> Check name table: POSTSCRIPT_NAME entries. </summary>
 
 * [com.google.fonts/check/name/postscriptname](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/name/postscriptname)
-* 🍞 **PASS** POSTCRIPT_NAME entries are all good.
+* 🍞 **PASS** POSTSCRIPT_NAME entries are all good.
 
 </details>
 <details>
