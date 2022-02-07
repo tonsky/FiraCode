@@ -5,7 +5,7 @@
 # USAGE: 
 # Install requirements with `pip install -U -r googlefonts-qa/requirements.txt`
 # 
-# call this script from the root of your fira code repo, with the absolute path your your local google/fonts repo
+# call this script from the root of your fira code repo, with the absolute path to your local google/fonts repo
 # `move-check <your_username>/<path>/fonts`
 
 set -ex
