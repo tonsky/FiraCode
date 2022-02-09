@@ -22,11 +22,25 @@ Then:
 - [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting)
 - [News & Updates](https://twitter.com/FiraCode)
 
-### Support
-
-<a href="https://github.com/sponsors/tonsky" target="_blank"><img alt="Sponsor" src="./extras/sponsor.png"></a>
+### Sponsors
 
 Fira Code is a personal, free-time project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
+
+Huge thanks to:
+
+<table>
+  <td align="center">
+    <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
+      <div>
+        <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
+      </div>
+      <b>Your app, enterprise-ready.</b>
+      <div>
+        <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
+      </div>
+    </a>
+  </td>
+</table>
 
 ### What’s in the box?
 
