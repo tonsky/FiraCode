@@ -12,7 +12,7 @@ Fira Code是一种免费的等宽字体，包含常用的编程语言中多种�
 
 ### 下载和安装
 
-<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="./extras/download.png" width="520" height="130"></a>
+<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="./extras/download.png" width="520"></a>
 
 下一步:
 
@@ -30,45 +30,45 @@ Fira Code 是一个个人项目,没有资金和巨大的空闲时间项目 [feat
 
 左侧：Fira Code中呈现的连字。右侧：没有连字的相同字符序列。
 
-<img src="./extras/ligatures.png" width="754" height="1326">
+<img src="./extras/ligatures.png" width="754">
 
 Fira Code 带有种类繁多的箭头。更棒的是：您可以随心所欲地制作它们，并根据需要组合开始/中间/结束片段！
 
-<img src="./extras/arrows.png" width="754" height="799">
+<img src="./extras/arrows.png" width="754">
 
 Fira Code 不仅与连字有关，还对标点符号和频繁的字母对进行了一些微调。
 
-<img src="./extras/typographics.png" width="754" height="649">
+<img src="./extras/typographics.png" width="754">
 
 Fira Code 附带了几个不同的字符变体，以便每个人都可以选择最适合自己的. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
-<img src="./extras/character_variants.png" width="754" height="391">
+<img src="./extras/character_variants.png" width="754">
 
 可以使用样式集/字符变体更改或启用某些连字：
 
-<img src="./extras/ligature_variants.png" width="754" height="561">
+<img src="./extras/ligature_variants.png" width="754">
 
 作为一种编程字体，Fira Code 对 ASCII/框绘图、电力线和其他形式的控制台 UI 具有出色的支持：
 
-<img src="./extras/console.png" width="754" height="459">
+<img src="./extras/console.png" width="754">
 
 Fira Code 是第一个提供专用字形来渲染进度条的编程字体：
 
-<img src="./extras/progress.png" width="754" height="282">
+<img src="./extras/progress.png" width="754">
 
 在不断更新的进度条中:
 
-<img src="./extras/progress.gif" width="560" height="181">
+<img src="./extras/progress.gif" width="560">
 
 我们希望更多的编程字体能够采用这个约定并发布自己的版本。
 
 Unicode 覆盖使 Fira Code 成为数学写作的绝佳选择：
-<img src="./extras/math.png" width="754" height="323">
+<img src="./extras/math.png" width="754">
 
 ### 它看起来怎样?
 
-<img src="./extras/samples.png" width="754" height="1068">
-<img src="./extras/samples2.png" width="754" height="1257">
+<img src="./extras/samples.png" width="754">
+<img src="./extras/samples2.png" width="754">
 
 ### 编辑器兼容性列表
 
