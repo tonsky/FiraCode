@@ -14,7 +14,7 @@ Fira Code is a free monospaced font containing ligatures for common programming 
 
 ### Download & Install
 
-<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="./extras/download.png" width="520" height="130"></a>
+<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="./extras/download.png" width="520"></a>
 
 Then:
 
@@ -46,46 +46,46 @@ Huge thanks to:
 
 Left: ligatures as rendered in Fira Code. Right: same character sequences without ligatures.
 
-<img src="./extras/ligatures.png" width="754" height="1326">
+<img src="./extras/ligatures.png" width="754">
 
 Fira Code comes with a huge variety of arrows. Even better: you can make them as long as you like and combine start/middle/end fragments however you want!
 
-<img src="./extras/arrows.png" width="754" height="799">
+<img src="./extras/arrows.png" width="754">
 
 Fira Code is not only about ligatures. Some fine-tuning is done for punctuation and frequent letter pairs.
 
-<img src="./extras/typographics.png" width="754" height="649">
+<img src="./extras/typographics.png" width="754">
 
 Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
-<img src="./extras/character_variants.png" width="754" height="391">
+<img src="./extras/character_variants.png" width="754">
 
 Some ligatures can be altered or enabled using stylistic sets/character variants:
 
-<img src="./extras/ligature_variants.png" width="754" height="561">
+<img src="./extras/ligature_variants.png" width="754">
 
 Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs:
 
-<img src="./extras/console.png" width="754" height="459">
+<img src="./extras/console.png" width="754">
 
 Fira Code is the first programming font to offer dedicated glyphs to render progress bars:
 
-<img src="./extras/progress.png" width="754" height="282">
+<img src="./extras/progress.png" width="754">
 
 In action:
 
-<img src="./extras/progress.gif" width="560" height="181">
+<img src="./extras/progress.gif" width="560">
 
 We hope more programming fonts will adopt this convention and ship their own versions.
 
 Unicode coverage makes Fira Code a great choice for mathematical writing:
 
-<img src="./extras/math.png" width="754" height="323">
+<img src="./extras/math.png" width="754">
 
 ### How does it look?
 
-<img src="./extras/samples.png" width="754" height="1068">
-<img src="./extras/samples2.png" width="754" height="1257">
+<img src="./extras/samples.png" width="754">
+<img src="./extras/samples2.png" width="754">
 
 ### Editor compatibility list
 
