@@ -1,0 +1,13 @@
+# Name: lowercase I without any horizontal decorations
+
+sub i by i.cv03;
+sub idotless by idotless.cv03;
+sub iacute by iacute.cv03;
+sub ibreve by ibreve.cv03;
+sub icircumflex by icircumflex.cv03;
+sub idieresis by idieresis.cv03;
+sub idotaccent by idotaccent.cv03;
+sub igrave by igrave.cv03;
+sub imacron by imacron.cv03;
+sub iogonek by iogonek.cv03;
+sub itilde by itilde.cv03;

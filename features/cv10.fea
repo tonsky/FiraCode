@@ -1,0 +1,8 @@
+# Name: lowercase L with horizontal left line at the top and horizontal base
+
+sub l by l.cv10;
+sub lacute by lacute.cv10;
+sub lcaron by lcaron.cv10;
+sub lcommaaccent by lcommaaccent.cv10;
+sub ldot by ldot.cv10;
+sub lslash by lslash.cv10;

@@ -1,0 +1,4 @@
+# Name: Zero with a dot inside
+
+sub zero by zero.zero;
+sub zero.tosf by zero.tosf.zero;

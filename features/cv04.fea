@@ -1,0 +1,13 @@
+# Name: lowercase I with horizontal left line at the top
+
+sub i by i.cv04;
+sub idotless by idotless.cv04;
+sub iacute by iacute.cv04;
+sub ibreve by ibreve.cv04;
+sub icircumflex by icircumflex.cv04;
+sub idieresis by idieresis.cv04;
+sub idotaccent by idotaccent.cv04;
+sub igrave by igrave.cv04;
+sub imacron by imacron.cv04;
+sub iogonek by iogonek.cv04;
+sub itilde by itilde.cv04;

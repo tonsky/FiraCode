@@ -3,6 +3,6 @@
 lookup period_equal {
   ignore sub period period' equal;
   ignore sub period' equal equal;
-  sub period.spacer equal' by period_equal.cv25;
+  sub period.spacer equal' by period_equal.cv32;
   sub period'       equal  by period.spacer;
 } period_equal;

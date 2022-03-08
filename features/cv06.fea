@@ -1,0 +1,13 @@
+# Name: lowercase I with horizontal left line at the top and curved right hook at the bottom
+
+sub i by i.cv06;
+sub idotless by idotless.cv06;
+sub iacute by iacute.cv06;
+sub ibreve by ibreve.cv06;
+sub icircumflex by icircumflex.cv06;
+sub idieresis by idieresis.cv06;
+sub idotaccent by idotaccent.cv06;
+sub igrave by igrave.cv06;
+sub imacron by imacron.cv06;
+sub iogonek by iogonek.cv06;
+sub itilde by itilde.cv06;

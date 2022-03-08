@@ -1,0 +1,18 @@
+# Name: longer pipe symbol
+
+sub bar by bar.cv30;
+sub bar_bar.liga by bar_bar.liga.cv30;
+sub bar_bar_bar.liga by bar_bar_bar.liga.cv30;
+sub bar_bar_equal_middle.seq by bar_bar_equal_middle.seq.cv30;
+sub bar_equal_middle.seq by bar_equal_middle.seq.cv30;
+sub bar_bar_equal_end.seq by bar_bar_equal_end.seq.cv30;
+sub bar_bar_equal_start.seq by bar_bar_equal_start.seq.cv30;
+sub bar_bar_hyphen_middle.seq by bar_bar_hyphen_middle.seq.cv30;
+sub bar_hyphen_middle.seq by bar_hyphen_middle.seq.cv30;
+sub bar_bar_hyphen_end.seq by bar_bar_hyphen_end.seq.cv30;
+sub bar_bar_hyphen_start.seq by bar_bar_hyphen_start.seq.cv30;
+sub bar_equal_end.seq by bar_equal_end.seq.cv30;
+sub bar_equal_start.seq by bar_equal_start.seq.cv30;
+sub bar_hyphen_end.seq by bar_hyphen_end.seq.cv30;
+sub bar_hyphen_start.seq by bar_hyphen_start.seq.cv30;
+sub bar_underscore_middle.seq by bar_underscore_middle.seq.cv30;

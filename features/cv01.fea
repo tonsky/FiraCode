@@ -1,0 +1,12 @@
+# Name: alternate lowercase a
+
+sub a by a.cv01;
+sub aacute by aacute.cv01;
+sub abreve by abreve.cv01;
+sub acircumflex by acircumflex.cv01;
+sub adieresis by adieresis.cv01;
+sub agrave by agrave.cv01;
+sub amacron by amacron.cv01;
+sub aogonek by aogonek.cv01;
+sub aring by aring.cv01;
+sub atilde by atilde.cv01;
