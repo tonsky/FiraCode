@@ -3,6 +3,6 @@
 lookup period_hyphen {
   ignore sub period period' hyphen;
   ignore sub period' hyphen hyphen;
-  sub period.spacer hyphen' by period_hyphen.cv32;
+  sub period.spacer hyphen' by period_hyphen.cv25;
   sub period'       hyphen  by period.spacer;
 } period_hyphen;

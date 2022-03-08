@@ -1,0 +1,5 @@
+# Name: percent sign with dots instead of hollow circles
+
+sub percent by percent.cv18;
+sub perthousand by perthousand.cv18;
+sub percent_percent.liga by percent_percent.liga.cv18;

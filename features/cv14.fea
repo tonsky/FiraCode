@@ -1,0 +1,8 @@
+# Name: 3 with straight lines for the top half
+
+sub three by three.cv14;
+sub three.tosf by three.tosf.cv14;
+sub threeinferior by threeinferior.cv14;
+sub three.dnom by three.dnom.cv14;
+sub three.numr by three.numr.cv14;
+sub threesuperior by threesuperior.cv14;

@@ -1,0 +1,8 @@
+# Name: lowercase L with horizontal left line at the top
+
+sub l by l.cv08;
+sub lacute by lacute.cv08;
+sub lcaron by lcaron.cv08;
+sub lcommaaccent by lcommaaccent.cv08;
+sub ldot by ldot.cv08;
+sub lslash by lslash.cv08;

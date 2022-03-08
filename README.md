@@ -247,6 +247,20 @@ make
 make package
 ```
 
+If you want to *permanently enable* certain style sets or character variations, maybe because your editor of choice does not allow you to toggle these individually, you can provide the desired features as a comma separated list to the build script via the `-f / --features` flag.<br>Default: none.
+
+To separate different versions of your font you can specify the desired font family name with the `-n / --family-name` flag. The special value 'features' will append a sorted, space separated list of enabled features to the default family name.<br>Default: "Fira Code"
+
+You can also limit the font weights that will be created with the `-w / --weights` option.<br>Default: "Light,Regular,Retina,Medium,SemiBold,Bold"
+
+```bash
+# locally in your shell
+./script/build.sh --features "ss02,ss08,ss10,cv03,cv07,cv14" --family-name "Fira Code straight" --weights "Regular,Bold"
+
+# or via a docker container (creates the family name 'Fira Code cv01 cv02 cv06 cv31 onum ss01 ss03 ss04 zero')
+docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "cv01,cv02,cv06,ss01,zero,onum,ss03,ss04,cv31" -n "features"
+```
+
 ### Credits
 
 - Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)

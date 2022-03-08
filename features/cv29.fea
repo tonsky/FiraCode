@@ -1,0 +1,5 @@
+# Name: Rounded curly braces {}
+
+sub braceleft by braceleft.cv29;
+sub braceright by braceright.cv29;
+sub numbersign_braceleft.liga by numbersign_braceleft.liga.cv29;
