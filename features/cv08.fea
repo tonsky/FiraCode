@@ -1,4 +1,4 @@
-# Name: lowercase L with horizontal left line at the top
+# lowercase L with horizontal left line at the top
 
 sub l by l.cv08;
 sub lacute by lacute.cv08;

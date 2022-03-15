@@ -1,4 +1,4 @@
-# Name: lowercase I with horizontal left line at the top and right line at the bottom
+# lowercase I with horizontal left line at the top and right line at the bottom
 
 sub i by i.cv05;
 sub idotless by idotless.cv05;

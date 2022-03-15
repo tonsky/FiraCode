@@ -1,4 +1,4 @@
-# Name: =< with horizontal bar
+# =< with horizontal bar
 
 lookup equal_less_cv22 {
   ignore sub equal equal' less;

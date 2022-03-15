@@ -1,4 +1,4 @@
-# Name: :- as ligature
+# :- as ligature
 
 lookup colon_hyphen {
   ignore sub colon colon' hyphen;

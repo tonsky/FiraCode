@@ -1,4 +1,4 @@
-# Name: zero with a vertical line inside
+# zero with a vertical line inside
 
 sub zero by zero.cv13;
 sub zero.tosf by zero.tosf.cv13;

@@ -1,4 +1,4 @@
-# Name: lowercase L without any horizontal decorations
+# lowercase L without any horizontal decorations
 
 sub l by l.cv07;
 sub lacute by lacute.cv07;

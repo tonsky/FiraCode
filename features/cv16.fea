@@ -1,4 +1,4 @@
-# Name: Hexagonal asterisk
+# Hexagonal asterisk
 
 sub [asterisk asterisk.lc asterisk.cv15 asteriskmath asteriskmath.lc asteriskmath.cv15]
  by [asteriskmath asteriskmath.lc asteriskmath.cv15 asterisk asterisk.lc asterisk.cv15];

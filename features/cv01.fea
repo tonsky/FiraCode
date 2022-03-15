@@ -1,4 +1,4 @@
-# Name: alternate lowercase a
+# alternate lowercase a
 
 sub a by a.cv01;
 sub aacute by aacute.cv01;

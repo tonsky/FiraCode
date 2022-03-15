@@ -1,4 +1,4 @@
-# Name: /= as not equal
+# /= as not equal
 
 lookup slash_equal_as_not_equal {
   sub slash.spacer equal_end.seq' by exclam_equal.liga;

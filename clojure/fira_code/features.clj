@@ -20,12 +20,10 @@
   (let [[_ name]  (re-matches #"([^.]+)\.fea" (.getName file))
         code      (slurp file)
         [_ notes code'] (re-matches #"(?s)#([^\n]+)\n(.*)" code)
-        feature   (if notes
-                    {:code  (str/trim code')
-                     :name  name
-                     :notes (str/trim notes)}
-                    {:code  (str/trim code)
-                     :name  name})]
+        feature   (cond-> {:code (str/trim (or code' code))
+                           :name name}                    
+                    notes
+                    (assoc :notes (str/trim notes)))]
     (glyphs/set-feature font name feature)))
 
 
