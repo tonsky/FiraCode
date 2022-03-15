@@ -58,7 +58,9 @@ done
 ########### ############## ########### }}}
 
 # Create a temporary file that can be manipulated without messing with the original
-FIRACODE_GLYPHS_FILE=$(mktemp --suffix=".glyphs")
+FIRACODE_GLYPHS_FILE=$(mktemp)
+mv "${FIRACODE_GLYPHS_FILE}" "${FIRACODE_GLYPHS_FILE}.glyphs"
+FIRACODE_GLYPHS_FILE="${FIRACODE_GLYPHS_FILE}.glyphs"
 export FIRACODE_GLYPHS_FILE
 cp ../FiraCode.glyphs "${FIRACODE_GLYPHS_FILE}"
 
@@ -75,7 +77,7 @@ if [ "${use_features_for_family_name}" -ne 0 ]; then
 fi
 
 if [ "${FIRACODE_FAMILY_NAME}" != "Fira Code" ]; then
-	tmp_glyphs=$(mktemp --suffix=".glyphs")
+	tmp_glyphs=$(mktemp)
 	echo "Creating font with family name: ${FIRACODE_FAMILY_NAME}"
 
 	awk '/familyName = "Fira Code";/ {$0=nc}1' nc="familyName = \"${FIRACODE_FAMILY_NAME}\";" \
