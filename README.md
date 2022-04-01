@@ -158,12 +158,25 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 
 ### Terminal compatibility list
 
-| Platform       | Works | Doesn’t work |
-|----------------|-------|--------------|
-| macOS          | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>iTerm 2<br>Kitty<br>Terminal.app<br>ZOC | Alacritty |
-| Windows        | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>Mintty<br>Token2Shell<br>Windows Terminal | Alacritty<br>Cmder<br>ConEmu<br>PuTTY<br>Windows Console<br>ZOC |
-| Linux          | Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607))<br>Kitty<br>Konsole<br>QTerminal<br>Termux<br>st ([patch](https://st.suckless.org/patches/ligatures/)) | Alacritty<br>GNOME Terminal<br>libvte-based terminals ([bug report](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)): <ul><li>gtkterm<li>guake<li>LXTerminal<li> sakura<li>Terminator<li>xfce4-terminal</ul>mate-terminal<br>rxvt<br>terminology<br>xterm
-| ChromeOS       | crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | |
+| Works | Doesn’t work |
+|-------|--------------|
+| crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | Alacritty |
+| Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607)) | Cmder |
+| iTerm 2 | ConEmu |
+| Kitty | GNOME Terminal |
+| Konsole | gtkterm ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Mintty | guake ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| QTerminal | LXTerminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| st ([patch](https://st.suckless.org/patches/ligatures/)) | mate-terminal |
+| Terminal.app | PuTTY |
+| Termux | rxvt |
+| Token2Shell | sakura ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Wez’s terminal | Terminator ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Windows Terminal | terminology |
+| ZOC (macOS) | Windows Console |
+| | xfce4-terminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| | xterm |
+| | ZOC (Windows) |
 
 ### Browser support
 
