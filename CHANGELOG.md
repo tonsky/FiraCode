@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### 7.0
+
+- Fixed overlap in U+2573 ╳ #1414
+
 ### 6.2
 
 - Fixed monospaced property #1325
