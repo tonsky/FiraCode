@@ -104,6 +104,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **Coda 2** |
 | **CodeLite** |
 | **CodeRunner** |
+| **Comma** (Under: Preferences > Editor > Font) |
 | **CotEditor** |
 | **Eclipse** |
 | **elementary Code** |
