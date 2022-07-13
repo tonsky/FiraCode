@@ -24,7 +24,7 @@ Fira Code是一种免费的等宽字体，包含常用的编程语言中多种�
 
 <a href="https://github.com/sponsors/tonsky" target="_blank"><img alt="Sponsor" src="./extras/sponsor.png"></a>
 
-Fira Code 是一个个人的，空闲时间的项目，没有资金和大量的 [功能请求积压](https://github.com/tonsky/FiraCode/issues)。如果你也热爱这个项目, 考虑通过 [GitHub Sponsors](https://github.com/sponsors/tonsky) 或 [Patreon](https://patreon.com/tonsky) 来支持它的发展。任何帮助都很重要！
+Fira Code 是个人的空闲时间进行的项目，缺乏资金但有大量的 [功能请求积压](https://github.com/tonsky/FiraCode/issues)。如果你也热爱这个项目, 请考虑通过 [GitHub Sponsors](https://github.com/sponsors/tonsky) 或 [Patreon](https://patreon.com/tonsky) 来支持它的发展。任何帮助都很重要！
 
 ### 字体里都有哪些特征?
 
