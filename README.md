@@ -56,11 +56,9 @@ Fira Code is not only about ligatures. Some fine-tuning is done for punctuation 
 
 <img src="./extras/typographics.png" width="754">
 
-Fira Code comes with a few different character variants, so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+Fira Code comes with a few different character variants, so that everyone can [choose](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets) what’s best for them.
 
 <img src="./extras/character_variants.png" width="754">
-
-Some ligatures can be altered or enabled using stylistic sets/character variants:
 
 <img src="./extras/ligature_variants.png" width="754">
 
