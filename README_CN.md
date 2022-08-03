@@ -26,6 +26,22 @@ Fira Code是一种免费的等宽字体，包含常用的编程语言中多种�
 
 Fira Code 是个人的空闲时间进行的项目，缺乏资金但有大量的 [功能请求积压](https://github.com/tonsky/FiraCode/issues)。如果你也热爱这个项目, 请考虑通过 [GitHub Sponsors](https://github.com/sponsors/tonsky) 或 [Patreon](https://patreon.com/tonsky) 来支持它的发展。任何帮助都很重要！
 
+非常感谢：
+
+<table>
+  <td align="center">
+    <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=firacode&utm_source=github">
+      <div>
+        <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
+      </div>
+      <b>Your app, enterprise-ready.</b>
+      <div>
+        <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
+      </div>
+    </a>
+  </td>
+</table>
+
 ### 字体里都有哪些特征?
 
 左侧：Fira Code中呈现的连字。右侧：没有连字的相同字符序列。
@@ -48,7 +64,7 @@ Fira Code 带有各种各样的箭头，更棒的是，您可以随心所欲地�
 
 <img src="./extras/ligature_variants.png" width="754">
 
-作为一种编程字体，Fira Code 对 ASCII/框绘图、电力线和其他形式的控制台 UI 具有出色的支持：
+作为一种编程字体，Fira Code 对 ASCII/框绘图、powerline和其他形式的控制台 UI 具有出色的支持：
 
 <img src="./extras/console.png" width="754">
 
@@ -63,6 +79,7 @@ Fira Code 是第一个提供专用字形来渲染进度条的编程字体：
 我们希望更多的编程字体能够采用这个约定并发布自己的版本。
 
 Unicode 覆盖使 Fira Code 成为数学写作的绝佳选择：
+
 <img src="./extras/math.png" width="754">
 
 ### 它看起来怎样?
@@ -72,27 +89,29 @@ Unicode 覆盖使 Fira Code 成为数学写作的绝佳选择：
 
 ### 编辑器兼容性列表
 
-| 支持 | 不支持   |
+|  支持  |  不支持   |
 |-------|----------------|
 | **Abricotine** | **Arduino IDE** |
 | **Android Studio** (2.3+, [说明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | **Adobe Dreamweaver** |
 | **Anjuta** (除非在 EOF) | **Delphi IDE** |
-| **AppCode** (2016.2+, [说明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([解决方法](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
-| **Atom** 1.1 或更新版本 ([说明](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Godot** ([问题](https://github.com/godotengine/godot/issues/9961)) |
-| **BBEdit/TextWrangler** (仅限 v. 11, [说明](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **IDLE** |
-| **Brackets** (使用 [此插件](https://github.com/polo2ro/firacode-in-brackets)) | **KDevelop 4** |
-| **Chocolat** | **Monkey Studio IDE** |
-| **CLion** (2016.2+, [说明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | **UltraEdit** |
+| **AppCode** (2016.2+, [说明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([解决方法](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) | **IDLE** |
+| **Atom** 1.1 或更新版本 ([说明](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **KDevelop 4** |
+| **BBEdit/TextWrangler** (仅限 v. 11, [说明](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Monkey Studio IDE** |
+| **Brackets** (使用 [此插件](https://github.com/polo2ro/firacode-in-brackets)) | 
+| **Chocolat** | **UltraEdit** |
+| **CLion** (2016.2+, [说明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | 
 | **Cloud9** ([说明](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | 
 | **Coda 2** |
 | **CodeLite** |
 | **CodeRunner** |
+| **Comma** (在 首选项 > 编辑器 > 字体 中) |
 | **CotEditor** |
 | **Eclipse** |
 | **elementary Code** |
 | **Geany** (1.37+) |
 | **gEdit / Pluma** |
 | **GNOME Builder** |
+| **Godot** |
 | **GoormIDE** ([说明](https://github.com/tonsky/FiraCode/wiki/GoormIDE-Instructions)) |
 | **gVim** ([Windows](https://github.com/tonsky/FiraCode/issues/462), [GTK](https://vimhelp.org/options.txt.html#%27guiligatures%27)) |
 | **IntelliJ IDEA** (2016.2+, [说明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) |
@@ -126,6 +145,7 @@ Unicode 覆盖使 Fira Code 成为数学写作的绝佳选择：
 | **SublimeText** (3146+) |
 | **Spyder IDE** (仅适用于 Qt5) |
 | **SuperCollider 3** |
+| **TeXShop**|
 | **TextAdept** (Linux, macOS) |
 | **TextEdit** |
 | **TextMate 2** |
@@ -140,12 +160,25 @@ Unicode 覆盖使 Fira Code 成为数学写作的绝佳选择：
 
 ### 终端兼容性列表
 
-| 平台       | 支持 | 不支持 |
-|----------------|-------|--------------|
-| macOS          | Hyper (参见 [#3607](https://github.com/vercel/hyper/issues/3607))<br>iTerm 2<br>Kitty<br>Terminal.app<br>ZOC | Alacritty |
-| Windows        | Hyper (参见 [#3607](https://github.com/vercel/hyper/issues/3607))<br>Mintty<br>Token2Shell<br>Windows Terminal | Alacritty<br>Cmder<br>ConEmu<br>PuTTY<br>Windows Console<br>ZOC |
-| Linux          | Hyper (参见 [#3607](https://github.com/vercel/hyper/issues/3607))<br>Kitty<br>Konsole<br>QTerminal<br>Termux<br>st ([补丁](https://st.suckless.org/patches/ligatures/)) | Alacritty<br>GNOME Terminal<br>libvte-based terminals ([缺陷报告](https://bugzilla.gnome.org/show_bug.cgi?id=584160)): <ul><li>gtkterm<li>guake<li>LXTerminal<li> sakura<li>Terminator<li>xfce4-terminal</ul>mate-terminal<br>rxvt<br>terminology<br>xterm
-| ChromeOS       | crosh ([说明](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | |
+|  支持  |  不支持  |
+|-------|--------------|
+| crosh ([说明](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | Alacritty |
+| Hyper (参见 [#3607](https://github.com/vercel/hyper/issues/3607)) | Cmder |
+| iTerm 2 | ConEmu |
+| Kitty | GNOME Terminal |
+| Konsole | gtkterm ([需求](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Mintty | guake ([需求](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| QTerminal | LXTerminal ([需求](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| st ([补丁](https://st.suckless.org/patches/ligatures/)) | mate-terminal |
+| Terminal.app | PuTTY |
+| Termux | rxvt |
+| Token2Shell | sakura ([需求](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Wez’s terminal | Terminator ([需求](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Windows Terminal | terminology |
+| ZOC (macOS) | Windows Console |
+| | xfce4-terminal ([需求](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| | xterm |
+| | ZOC (Windows) |
 
 ### 浏览器支持
 
@@ -209,13 +242,13 @@ code { font-family: 'Fira Code', monospace; }
 如果您想更改 FiraCode.glyphs 并自己构建 OTF / TTF / WOFF 文件，这是我在 macOS 上使用的设置：
 
 ```bash
-# install all required build tools
+# 安装所有编译需要的工具
 ./script/bootstrap_macos.sh
 
-# build the font files
+# 编译字体文件
 ./script/build.sh
 
-# install OTFs to ~/Library/Fonts
+# 将otf文件安装到 ~/Library/Fonts
 cp distr/otf/*.otf ~/Library/Fonts
 ```
 
@@ -227,6 +260,20 @@ make
 
 # package the font files from dist/ into a zip
 make package
+```
+
+如果你想要*永久开启*某个特定的文体集或者字符变种，但你的编辑器有可能不允许你单独开启它们，你可以将你想要的功能作为一个用逗号分隔的列表，通过 `-f / --features` 标志来加入到编译脚本中。<br>默认：无。
+
+要分隔不同的字体版本的话，你可以用 `-n / --family-name` 标志来指定你所需的字体系列名称。特殊值 'features' 将在默认的系列名称后面添加一个有序的、空格分隔的列表，列表内为已经启用的功能。<br>默认："Fira Code"
+
+你也可以用 `-w / --weights` 选项来限制将要被编译的字体的重量。<br>默认："Light,Regular,Retina,Medium,SemiBold,Bold"
+
+```bash
+# 在你本地的shell中
+./script/build.sh --features "ss02,ss08,ss10,cv03,cv07,cv14" --family-name "Fira Code straight" --weights "Regular,Bold"
+
+# 或者通过一个docker容器 (创建系列名为：'Fira Code cv01 cv02 cv06 cv31 onum ss01 ss03 ss04 zero')
+docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "cv01,cv02,cv06,ss01,zero,onum,ss03,ss04,cv31" -n "features"
 ```
 
 ### 制作人员
