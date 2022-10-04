@@ -96,7 +96,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **Anjuta** (unless at the EOF) | **Delphi IDE** |
 | **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) | **IDLE** |
 | **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **KDevelop 4** |
-| **BBEdit/TextWrangler** (v. 11 only, [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Monkey Studio IDE** |
+| **BBEdit** (14.6+ [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Monkey Studio IDE** |
 | **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | 
 | **Chocolat** | **UltraEdit** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | 

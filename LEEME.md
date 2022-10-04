@@ -82,7 +82,7 @@ La covertura del estándar Unicode hace de Fira Code una gran elección para la 
 | **Anjuta** (excepto con EOF) | **Delphi IDE** |
 | **AppCode** (2016.2+, [instrucciones](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **Emacs** por sí solo ([solución alternativa](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
 | **Atom** 1.1 o más nuevo ([instrucciones](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Godot** ([reporte](https://github.com/godotengine/godot/issues/9961)) |
-| **BBEdit/TextWrangler** (solamente v. 11, [instrucciones](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **IDLE** |
+| **BBEdit** (14.6+, [instrucciones](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **IDLE** |
 | **Brackets** (con [este plugin](https://github.com/polo2ro/firacode-in-brackets)) | **KDevelop 4** |
 | **Chocolat** | **Monkey Studio IDE** |
 | **CLion** (2016.2+, [instrucciones](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)) | **UltraEdit** |
