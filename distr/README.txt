@@ -155,14 +155,11 @@ Additionally, if a Color Scheme is selected:
 4. Select Fira Code as "Primary font" under Settings → Editor → Color Scheme → Color Scheme Font
 
 
-BBEdit, TextWrangler
---------------------
+BBEdit
+------
 
-Run in your terminal:
-
-    defaults write com.barebones.bbedit "EnableFontLigatures_Fira Code" -bool YES
-
-Source: https://www.barebones.com/support/bbedit/ExpertPreferences.html
+1. Install FiraCode as per the [macOS installation instructions](https://github.com/tonsky/FiraCode/wiki/Installing#macos)
+2. Open BBEdit preferences, Editor Defaults, assign Fira Code as the Default font
 
 
 Brackets
