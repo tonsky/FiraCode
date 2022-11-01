@@ -38,13 +38,16 @@ def github_release(version):
   data = '{"tag_name":"' + version + '","name":"' + version + '"}'
   headers = github_headers()
   resp = urllib.request.urlopen(urllib.request.Request('https://api.github.com/repos/tonsky/FiraCode/releases', data=data.encode('utf-8'), headers=headers)).read()
-  upload_url = re.match('https://.*/assets', json.loads(resp.decode('utf-8'))['upload_url']).group(0)
+  upload_url = re.match('https://.*/assets',
+                        json.loads(resp.decode('utf-8'))['upload_url'])[0]
 
   print('github_release: Uploading', zip, 'to', upload_url)
   headers['Content-Type'] = 'application/zip'
   headers['Content-Length'] = os.path.getsize(zip)
   with open(zip, 'rb') as data:
-    urllib.request.urlopen(urllib.request.Request(upload_url + '?name=' + zip, data=data, headers=headers))
+    urllib.request.urlopen(
+        urllib.request.Request(
+            f'{upload_url}?name={zip}', data=data, headers=headers))
 
 @log_errors("npm_publish")
 def npm_publish(version):
