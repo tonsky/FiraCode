@@ -13,3 +13,6 @@ distr/*/
 *.glyphs
 !FiraCode.glyphs
 
+.idea
+.fleet
+*.iml
