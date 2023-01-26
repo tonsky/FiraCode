@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     container: tonsky/firacode:latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - if: startsWith(github.ref, 'refs/tags/')
       run: python3 ./script/update_version.py
     - run: ./script/build.sh
     - run: echo "hash=$(git rev-parse --short $GITHUB_SHA)" >> $GITHUB_ENV
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: Fira_Code_${{ env.hash }}
         path: distr
