@@ -175,7 +175,8 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | Token2Shell | sakura ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
 | Wez’s terminal | Terminator ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
 | Windows Terminal | terminology |
-| ZOC (macOS) | Windows Console |
+| ZOC (macOS) | Tilix |
+| | Windows Console |
 | | xfce4-terminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
 | | xterm |
 | | ZOC (Windows) |
