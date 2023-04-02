@@ -4,20 +4,33 @@
    [fira-code.coll :as coll]
    [fira-code.glyphs :as glyphs]))
 
+(def expected-widths #{"0" 0 1200})
+
 (defn width-ok? [w]
-  (#{"0" 0 1200} w))
+  (expected-widths w))
 
 (defn widths [font]
-  (doseq [g     (:glyphs font)
-          :when (not= "0" (:export g))
-          :let  [[w & _ :as ws] (mapv :width (:layers g))]]
-    (when-not (apply = ws) 
-      (println (str "WARN glyph '" (:glyphname g) "' has different widths=" (pr-str ws))))
-    (when-not (width-ok? w)
-      (println (str "WARN glyph '" (:glyphname g) "' has unexpected width=" (pr-str w)))))
-  font)
+  (let [warnings (for [g (:glyphs font)
+                       :when (not= "0" (:export g))
+                       :let [ws (mapv :width (:layers g))]]
+                   (cond
+                     (not (apply = ws))
+                     (str "Glyph '" (:glyphname g) "' has different widths: " (pr-str ws))
+
+                     (not (width-ok? (first ws)))
+                     (str "Glyph '" (:glyphname g) "' has unexpected width: " (pr-str (first ws)))
+
+                     :else nil))]
+    (remove nil warnings)))
 
 (defn -main [& args]
-  (let [path (or (first args) "FiraCode.glyphs")
-        font (glyphs/load path)]
-    (widths font)))
+  (let [path (or (first args) "FiraCode.glyphs")]
+    (when-not (and (.exists (java.io.File. path))
+                    (.canRead (java.io.File. path)))
+      (println (str "ERROR: File not found or not readable: " path))
+      (System/exit 1))
+    (let [font (glyphs/load path)
+          warnings (widths font)]
+      (doseq [w warnings]
+        (println (str "WARNING: " w)))
+      font)))
