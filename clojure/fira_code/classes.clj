@@ -5,14 +5,21 @@
    [fira-code.glyphs :as glyphs]
    [fira-code.files :as files]))
 
-
 (defn fill-class [font file]
-  (let [[_ name] (re-matches #"([^.]+)\.fea" (.getName file))
-        code     (slurp file)
-        class    {:code (str/trim code)
-                  :name name}]
-    (glyphs/set-class font name class)))
-
+  (let [filename (.getName file)
+        class-name (->> filename
+                      (re-find #"classes/([^/]+)\.fea$")
+                      (second))
+        class-code (str/trim (slurp file))
+        class {:name class-name
+               :code class-code}]
+    (glyphs/set-class font class-name class)))
 
 (defn fill-all [font]
-  (reduce fill-class font (files/find "classes" #"classes/[^/]+\.fea")))
+  (let [class-files (files/find "classes" #"classes/[^/]+\.fea$")]
+    (doseq [file class-files]
+      (try
+        (fill-class font file)
+        (catch Exception e
+          (println (str "ERROR: Could not fill class from file " (.getPath file) ": " e)))))
+    font))
