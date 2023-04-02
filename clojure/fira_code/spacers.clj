@@ -2,22 +2,17 @@
   (:require
    [clojure.string :as str]
    [fira-code.glyphs :as glyphs]
-   [fira-code.time :as time]
-   [flatland.ordered.map :refer [ordered-map]]))
-
+   [fira-code.time :as time]))
 
 (defn spacer [name]
-  (ordered-map
-    :color 3,
-    :glyphname name,
-    :lastChange (time/now-str),
-    :layers
-    [(ordered-map :layerId (:Light glyphs/weights), :width 1200)
-     (ordered-map :layerId (:Bold glyphs/weights), :width 1200)]))
+  {:color 3
+   :glyphname name
+   :lastChange (time/now-str)
+   :layers [{:layerId (:Light glyphs/weights) :width 1200}
+            {:layerId (:Bold glyphs/weights) :width 1200}]})
 
-
-(defn add-spacers [font ligas]
-  (let [needed   (->> (into #{} cat ligas)
+(defn add-spacers [font ligature-names]
+  (let [needed   (->> (into #{} cat ligature-names)
                    (map #(str % ".spacer")))
         existing (->> (:glyphs font)
                    (map :glyphname)
