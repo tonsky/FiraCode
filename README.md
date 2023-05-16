@@ -91,7 +91,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 
 | Works | Doesn’t work   |
 |-------|----------------|
-| **Abricotine** | **Arduino IDE** |
+| **Abricotine** | **Arduino IDE** (Only the [old](https://github.com/arduino/arduino) IDE Doesn’t work. The [new](https://github.com/arduino/arduino-ide) (2.0.0 +) is the same as [VS Code instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions) ) |
 | **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | **Adobe Dreamweaver** |
 | **Anjuta** (unless at the EOF) | **Delphi IDE** |
 | **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) | **IDLE** |
