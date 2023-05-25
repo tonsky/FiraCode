@@ -91,15 +91,15 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 
 | Works | Doesn’t work   |
 |-------|----------------|
-| **Arduino IDE** (2.0+,same instructions as [vscode](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions))
-| **Abricotine** |
-| **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | **Adobe Dreamweaver** |
-| **Anjuta** (unless at the EOF) | **Delphi IDE** |
-| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) | **IDLE** |
-| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **KDevelop 4** |
-| **BBEdit** (14.6+ [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **Monkey Studio IDE** |
+| **Arduino IDE** (2.0+,same instructions as [vscode](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) | **Adobe Dreamweaver** |
+| **Abricotine** | **Delphi IDE** |
+| **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
+| **Anjuta** (unless at the EOF) |  **IDLE** |
+| **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | **KDevelop 4** |
+| **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Monkey Studio IDE** |
+| **BBEdit** (14.6+ [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **UltraEdit** (Windows) |
 | **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | 
-| **Chocolat** | **UltraEdit** |
+| **Chocolat** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | 
 | **Cloud9** ([instructions](https://github.com/tonsky/FiraCode/wiki/Cloud9-Instructions)) | 
 | **Coda 2** |
@@ -150,6 +150,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **TextAdept** (Linux, macOS) |
 | **TextEdit** |
 | **TextMate 2** |
+| **UltraEdit (UEX)** (Linux) |
 | **VimR** ([instructions](https://github.com/qvacua/vimr/wiki#ligatures)) |
 | **Visual Studio** (2015+, [instructions](https://github.com/tonsky/FiraCode/wiki/Visual-Studio-Instructions)) |
 | **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
@@ -164,19 +165,21 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | Works | Doesn’t work |
 |-------|--------------|
 | crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | Alacritty |
-| Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607)) | Cmder |
-| iTerm 2 | ConEmu |
-| Kitty | GNOME Terminal |
-| Konsole | gtkterm ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| Mintty | guake ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| QTerminal | LXTerminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| st ([patch](https://st.suckless.org/patches/ligatures/)) | mate-terminal |
+| Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607)) | Asbru Connection Manager |
+| iTerm 2 | Cmder |
+| Kitty | ConEmu |
+| Konsole | GNOME Terminal |
+| Mintty | gtkterm ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| QTerminal | guake ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| st ([patch](https://st.suckless.org/patches/ligatures/)) | LXTerminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Tabby | mate-terminal |
 | Terminal.app | PuTTY |
 | Termux | rxvt |
 | Token2Shell | sakura ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| Wez’s terminal | Terminator ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| Windows Terminal | terminology |
-| ZOC (macOS) | Tilix |
+| Wez’s terminal | SecureCRT
+| Windows Terminal | Terminator ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| ZOC (macOS) | terminology |
+| | Tilix |
 | | Windows Console |
 | | xfce4-terminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
 | | xterm |
