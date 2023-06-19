@@ -2,7 +2,7 @@
 
 ![Fira Code](./extras/logo.svg)
 
-Leer en [English](./README.md) | [简体中文](./README_CN.md)
+Leer en [English](./README.md) | [简体中文](./README_CN.md) | [日本語](./README_JA.md)
 
 ### El problema
 
