@@ -2,7 +2,7 @@
 
 ![Fira Code](./extras/logo.svg)
 
-[Español](./LEEME.md) | [简体中文](./README_CN.md)で読む
+[English](./README.md) | [Español](./LEEME.md) | [简体中文](./README_CN.md) で読む
 
 ### 問題点
 
@@ -93,7 +93,7 @@ Fira Code は、プログレスバーを描画するための専用グリフを�
 |-------|----------------|
 | **Arduino IDE** (2.0+,same instructions as [vscode](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) | **Adobe Dreamweaver** |
 | **Abricotine** | **Delphi IDE** |
-| **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([回避方法](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
+| **Android Studio** (2.3+, [説明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([回避方法](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
 | **Anjuta** (unless at the EOF) |  **IDLE** |
 | **AppCode** (2016.2+, [説明](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | **KDevelop 4** |
 | **Atom** 1.1 or newer ([説明](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Monkey Studio IDE** |
@@ -144,7 +144,7 @@ Fira Code は、プログレスバーを描画するための専用グリフを�
 | **Scratch** |
 | **Scribus** (1.5.3+) |
 | **SublimeText** (3146+) |
-| **Spyder IDE** (only with Qt5) |
+| **Spyder IDE** (Qt5 のみ) |
 | **SuperCollider 3** |
 | **TeXShop**|
 | **TextAdept** (Linux, macOS) |
@@ -171,7 +171,7 @@ Fira Code は、プログレスバーを描画するための専用グリフを�
 | Konsole | GNOME Terminal |
 | Mintty | gtkterm ([チケット](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
 | QTerminal | guake ([チケット](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| st ([patch](https://st.suckless.org/patches/ligatures/)) | LXTerminal ([チケット](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| st ([パッチ](https://st.suckless.org/patches/ligatures/)) | LXTerminal ([チケット](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
 | Tabby | mate-terminal |
 | Terminal.app | PuTTY |
 | Termux | rxvt |
