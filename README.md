@@ -131,7 +131,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **NeoVim-gtk** |
 | **NetBeans** |
 | **Notepad** (Windows) |
-| **Notepad++** (with a [workaround](https://github.com/notepad-plus-plus/notepad-plus-plus/issues/2287#issuecomment-256638098))  |
+| **Notepad++** ([instructions](https://github.com/tonsky/FiraCode/issues/1555))  |
 | **Notepad3** ([instructions](https://github.com/rizonesoft/Notepad3/issues/361#issuecomment-365977420))|
 | **Nova** |
 | **PhpStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) |
