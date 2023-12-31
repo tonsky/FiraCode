@@ -1,7 +1,7 @@
 {
 .appVersion = "3108";
 DisplayStrings = (
-"/lowerOneEighthBlock"
+"/horizontalOneEighthBlock-1358"
 );
 classes = (
 {
@@ -120183,6 +120183,64 @@ unicode = 2570;
 },
 {
 color = 3;
+glyphname = upperAndlowerOneEighthBlock;
+lastChange = "2023-12-31 14:06:05 +0000";
+layers = (
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -300 LINE",
+"0 -600 LINE",
+"1200 -600 LINE",
+"1200 -300 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 1800 LINE",
+"0 1500 LINE",
+"1200 1500 LINE",
+"1200 1800 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 -300 LINE",
+"0 -600 LINE",
+"1200 -600 LINE",
+"1200 -300 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 1800 LINE",
+"0 1500 LINE",
+"1200 1500 LINE",
+"1200 1800 LINE"
+);
+}
+);
+width = 1200;
+}
+);
+unicode = 1FB80;
+category = Symbol;
+subCategory = Geometry;
+},
+{
+color = 3;
 glyphname = upperOneQuarterBlock;
 lastChange = "2023-12-31 13:46:42 +0000";
 layers = (
@@ -129514,6 +129572,97 @@ nodes = (
 "333 1370 OFFCURVE",
 "464 1314 OFFCURVE",
 "597 1314 CURVE SMOOTH"
+);
+}
+);
+width = 1200;
+}
+);
+},
+{
+color = 3;
+glyphname = "horizontalOneEighthBlock-1358";
+lastChange = "2023-12-31 14:07:49 +0000";
+layers = (
+{
+layerId = "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 1800 LINE",
+"0 1500 LINE",
+"1200 1500 LINE",
+"1200 1800 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 1200 LINE",
+"0 900 LINE",
+"1200 900 LINE",
+"1200 1200 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 600 LINE",
+"0 300 LINE",
+"1200 300 LINE",
+"1200 600 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 -300 LINE",
+"0 -600 LINE",
+"1200 -600 LINE",
+"1200 -300 LINE"
+);
+}
+);
+width = 1200;
+},
+{
+layerId = "B67F0F2D-EC95-4CB8-966E-23AE86958A69";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 1800 LINE",
+"0 1500 LINE",
+"1200 1500 LINE",
+"1200 1800 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 1200 LINE",
+"0 900 LINE",
+"1200 900 LINE",
+"1200 1200 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 600 LINE",
+"0 300 LINE",
+"1200 300 LINE",
+"1200 600 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"0 -300 LINE",
+"0 -600 LINE",
+"1200 -600 LINE",
+"1200 -300 LINE"
 );
 }
 );
