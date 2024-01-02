@@ -2,6 +2,7 @@
 target
 clojure/*.edn
 .cpcache
+.repl-port
 master_ufo
 instance_ufo
 venv

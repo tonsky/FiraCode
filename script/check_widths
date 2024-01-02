@@ -1,3 +1,3 @@
 #!/bin/zsh -euo pipefail
 
-clojure -m fira-code.checks
+clojure -m fira-code.checks $@
