@@ -1,0 +1,259 @@
+[33mcommit 5e5c110e2cebe0f0d9690133aca21b4a38478b57[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: ben 10 <yatharthshukla004@gmail.com>
+Date:   Sat Jan 20 13:38:13 2024 +0530
+
+    add yathart.txt
+
+[33mcommit ef565289eb3c8a40915909f36f3c999526ac52bd[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Tue Jan 2 17:09:24 2024 +0100
+
+    Symbols for Legacy Computing: Set color to blue #1566
+
+[33mcommit 40fc56fc4e6c17d69c0e245928eecb1427fdcbd0[m
+Merge: 747fab5 f70e21b
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Tue Jan 2 17:07:54 2024 +0100
+
+    Add Block elements from the Symbols for Legacy Computing #1566
+
+[33mcommit f70e21b6e5c2f144fc91914fbfd0c232a8666acf[m
+Author: Josh McKinney <joshka@users.noreply.github.com>
+Date:   Sun Dec 31 06:37:41 2023 -0800
+
+    Remove makefile edit
+
+[33mcommit 2b2de1d7a0e4793a43b134671181818d4dfc5b43[m
+Author: Josh McKinney <joshka@users.noreply.github.com>
+Date:   Sun Dec 31 06:27:47 2023 -0800
+
+    Add rest of legacy block elements
+
+[33mcommit 525f223010f909718675bf022eed3002c17e033c[m
+Author: Josh McKinney <joshka@users.noreply.github.com>
+Date:   Sun Dec 31 06:08:36 2023 -0800
+
+    Add horizontal eighth combination blocks
+
+[33mcommit ea1a77ce7530efe65b822b7ae2b1ad6bb1fb109b[m
+Author: Josh McKinney <joshka@users.noreply.github.com>
+Date:   Sun Dec 31 06:05:20 2023 -0800
+
+    Add combination one eighth blocks
+
+[33mcommit 6dfa7e2385c6a9108986116b7d13763b2a0b2855[m
+Author: Josh McKinney <joshka@users.noreply.github.com>
+Date:   Sun Dec 31 05:59:29 2023 -0800
+
+    Add horizontal one eighth blocks
+
+[33mcommit 122cf42d404f3c579266a6727787823087011a6f[m
+Author: Josh McKinney <joshka@users.noreply.github.com>
+Date:   Sun Dec 31 05:44:27 2023 -0800
+
+    Add Vertical eighth blocks and upper quarter block
+
+[33mcommit 747fab5be740365ed3c6db73c98f0c2d167b41eb[m
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Tue Jan 2 16:26:37 2024 +0100
+
+    user.clj, nrepl -> socket repl
+
+[33mcommit f064e54c06fc10e5b9b5a45c844ac7f125832d9f[m
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Thu Nov 9 14:41:46 2023 +0100
+
+    Update Notepad++ instructions link #1555
+
+[33mcommit ba21c00cdf6f3c8fa12e45522a50703865d649d8[m
+Author: Ikko Eltociear Ashimine <eltociear@gmail.com>
+Date:   Tue Jun 20 00:28:36 2023 +0900
+
+    minor fix
+
+[33mcommit 6f05dc20188e7ca68f9ad3fb2f84ab66dcf7bdc2[m
+Author: Ikko Eltociear Ashimine <eltociear@gmail.com>
+Date:   Tue Jun 20 00:23:58 2023 +0900
+
+    Add Japanese README
+
+[33mcommit 5de1abb167ac39aea15b6637c6de5b4c87149c49[m
+Author: jim-p <jimp@netgate.com>
+Date:   Thu May 25 17:16:15 2023 -0400
+
+    Update Compatibility List. Fixes #1532
+    
+    * Adds several entries to Editors and Terminals lists
+    * Fixes some broken formatting and ordering in the
+      second column of Editor list
+
+[33mcommit ee125da078b65de44ed3b4d0151032ff514e4ad5[m
+Author: matan h <56131718+matan-h@users.noreply.github.com>
+Date:   Tue May 16 16:39:32 2023 +0300
+
+    move Arduino IDE 2.0 to the Works list
+
+[33mcommit a47db68a73da3eb8423137853a1b21963d0de95c[m
+Author: matan h <56131718+matan-h@users.noreply.github.com>
+Date:   Tue May 16 15:31:50 2023 +0300
+
+    add arduino-ide 2.0 to the explain message of arduino in editor compatibility list
+
+[33mcommit 79b02adef14275fec5e7846421998f1e68b7c9b4[m
+Author: Björn Kautler <Bjoern@Kautler.net>
+Date:   Thu Apr 27 00:10:41 2023 +0200
+
+    Add an example Docker call for MSYS2 based shells
+
+[33mcommit 20f11a21e0b7284e0cb40c594d2fa6091d775256[m
+Merge: b94cc3e f61975c
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Thu Mar 16 03:34:27 2023 -0700
+
+    Merge pull request #1514 from ecerulm/patch-1
+    
+    Update README with cv01, ss01 , zero, onum, etc
+
+[33mcommit f61975c306242a4c3b329a6d77f3db052638546b[m
+Author: Ruben Laguna <ruben.laguna@gmail.com>
+Date:   Thu Mar 16 08:36:54 2023 +0100
+
+    Update README with cv01, ss01 , zero, onum, etc
+    
+    Those are already reference in the images, but they are not searchable.
+    By putting in the text is easier to find as you can search for calt, onum, zero, cv01, ss01,
+    and find the relevant documentation
+
+[33mcommit b94cc3e0de1cf7cf73a3d34363a481622603e02e[m
+Merge: 22c5754 db910e4
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Wed Mar 8 08:07:46 2023 -0800
+
+    Merge pull request #1512 from snan/master
+    
+    I don't understand why some are red and some are black.
+
+[33mcommit db910e4cd6ce709e83c9126c951883f15d09ef2a[m
+Author: Sandra Snan <sandra.snan@idiomdrottning.org>
+Date:   Wed Mar 8 10:08:02 2023 +0100
+
+    I don't understand why some are red and some are black.
+    
+    Let's make it a little bit more consistent.
+
+[33mcommit 22c57542899d0b5c6eff52a80aa52466e051c143[m
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Wed Feb 22 16:42:08 2023 +0100
+
+    Tilix doesn’t work (closes #1506)
+
+[33mcommit 63976dd1297dfa2f3e3024889aa865cb34b16c54[m
+Merge: a03fb50 a696ca5
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Thu Jan 26 13:23:39 2023 -0800
+
+    Minor tweaks #1501
+
+[33mcommit a696ca56b0cb65304cf75966fe0d1eb1d7a668d5[m
+Author: Goooler <wangzongler@gmail.com>
+Date:   Thu Jan 26 18:20:34 2023 +0800
+
+    Ignore IDEA files
+
+[33mcommit f7a8ac72f2f84eae7cd5bafb343e7ed610fae4d7[m
+Author: Goooler <wangzongler@gmail.com>
+Date:   Thu Jan 26 18:20:02 2023 +0800
+
+    Bump GHA versions
+
+[33mcommit a03fb501d33f17e9d9d5fe133188b629def42063[m
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Tue Jan 17 18:35:09 2023 +0000
+
+    Update scripts for fresh gftools and cross-platform mktemp
+
+[33mcommit e19f63e0e92dd6226576f139f664262b8a3f806d[m
+Merge: ab2aaf3 9f01d4d
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Wed Oct 5 00:56:28 2022 +0200
+
+    Merge pull request #1471 from ollicle/master
+    
+    Docs: BBEdit support
+
+[33mcommit 9f01d4d3767328fe0a04c430780348256563c39c[m
+Author: Oliver Boermans <ollie@ollicle.com>
+Date:   Tue Oct 4 21:44:32 2022 +1030
+
+    Docs: BBEdit support
+    
+    [Latest version of BBEdit](https://www.barebones.com/support/bbedit/notes-14.6.html) supports ligatures once more.
+    
+    BBEdit no longer requires expert preferences to enable ligatures
+    
+    TextWrangler is no more – replaced by the unlicenced version of BBEdit.
+    
+    Update the README files to reflect these changes.
+
+[33mcommit ab2aaf3e732fe14d4b1a5a20edd2086eb2ba4177[m
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Thu Sep 1 17:32:32 2022 +0200
+
+    Misspelling of Haskell in Spanish README (closes #1463)
+
+[33mcommit 4cabdfdfb320b407bd2011c272156c9fdcf9379b[m
+Merge: c9d4324 aaafcd3
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Wed Aug 3 15:53:16 2022 +0200
+
+    Merge pull request #1452 from ACnoway/master
+    
+    Update README_CN.md
+
+[33mcommit aaafcd3702bd8c1b40efe729e1bde4cada52f086[m
+Author: ACnoway <imlzhyt@163.com>
+Date:   Wed Aug 3 10:25:35 2022 +0800
+
+    update README_CN.md
+
+[33mcommit 4926aeac29e94842cdcda02a78dffd927d6356bc[m
+Author: ACnoway <imlzhyt@163.com>
+Date:   Tue Aug 2 19:13:50 2022 +0800
+
+    wiki Chinese translation
+
+[33mcommit c9d4324d9043430554ff3eff2936e457946e57d8[m
+Merge: caf0020 3b2506c
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Sat Jul 23 02:12:56 2022 +0200
+
+    Merge pull request #1446 from HyunseungLee-Travis/master
+    
+    Update quotes to single quote
+
+[33mcommit 3b2506cd317f98c650bcf4b4227fbcf75a046358[m
+Author: Hyunseung Lee <78584173+HyunseungLee-Travis@users.noreply.github.com>
+Date:   Sat Jul 23 08:33:34 2022 +0900
+
+    Update quotes to single quote
+
+[33mcommit caf00206a7e23eee91be0b59260c304fe20908ce[m
+Merge: 16de164 a0130c9
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Wed Jul 13 20:52:58 2022 +0200
+
+    Merge pull request #1440 from xgdgsc/patch-1
+    
+    fix cn translation regarding sponser
+
+[33mcommit 16de164e667b08938dd6dd3cdf2b1b5b2e8ea1a5[m
+Merge: ad43187 c44df2b
+Author: Nikita Prokopov <niki@tonsky.me>
+Date:   Wed Jul 13 20:52:38 2022 +0200
+
+    Merge pull request #1438 from ShalokShalom/patch-1
+    
+    Move Godot to supported
+
+[33mcommit a0130c91faca4e700eb900fc6c69e436fd59f96e[m
+Author: xgdgsc <xgdgsc@users.noreply.github.com>
