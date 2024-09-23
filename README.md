@@ -289,3 +289,8 @@ MSYS2_ARG_CONV_EXCL="*" docker run --rm -v "${PWD}":/opt tonsky/firacode:latest 
 - Author: Nikita Prokopov [@nikitonsky](https://twitter.com/nikitonsky)
 - Based on: [Fira Mono](https://github.com/mozilla/Fira)
 - Inspired by: [Hasklig](https://github.com/i-tu/Hasklig)
+
+  ### Contributors
+
+  <img src="https://markupgo.com/github/tonsky/FiraCode/contributors?count=0&circleSize=32&circleRadius=32&center=true" width="100%" /> 
+  
