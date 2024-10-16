@@ -1,4 +1,8 @@
 lookup underscores {
+  # ignore
+  ignore sub [bracketleft comma] nbspace [underscore_start.seq underscore_middle.seq] bar' underscore;
+  ignore sub [bracketleft comma] [underscore_start.seq underscore_middle.seq] bar' underscore;
+
   # middle parts
   sub [underscore_start.seq underscore_middle.seq] bar' underscore by bar_underscore_middle.seq;
 
