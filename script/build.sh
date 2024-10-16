@@ -94,6 +94,7 @@ if [ "${gen_glyphs_file_only}" -ne 0 ]; then
 	exit 0
 fi
 
+./build_otf.sh "${weights[@]}"
 ./build_ttf.sh "${weights[@]}"
 ./build_variable.sh
 ./build_woff2.sh
