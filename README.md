@@ -6,7 +6,7 @@ Read in [Español](./LEEME.md) | [简体中文](./README_CN.md) | [日本語](./
 
 ### Problem
 
-Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `->`, `<=` or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
+Programmers use a lot of symbols, often encoded with several characters. For the human brain, sequences like `->`, `<=`, or `:=` are single logical tokens, even if they take two or three characters on the screen. Your eye spends a non-zero amount of energy to scan, parse and join multiple characters into a single logical one. Ideally, all programming languages should be designed with full-fledged Unicode symbols for operators, but that’s not the case yet.
 
 ### Solution
 
@@ -56,7 +56,7 @@ Fira Code is not only about ligatures. Some fine-tuning is done for punctuation 
 
 <img src="./extras/typographics.png" width="754">
 
-Fira Code comes with a few different character variants (`cv01`, `cv02`, etc), stylistic sets (`ss01`, `ss02` , etc) and other font features (`zero`, `onum`, `calt`, etc), so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+Fira Code comes with a few different character variants (`cv01`, `cv02`, etc), stylistic sets (`ss01`, `ss02`, etc), and other font features (`zero`, `onum`, `calt`, etc), so that everyone can choose what’s best for them. [How to enable](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
 
 <img src="./extras/character_variants.png" width="754">
 
@@ -64,7 +64,7 @@ Some ligatures can be altered or enabled using stylistic sets/character variants
 
 <img src="./extras/ligature_variants.png" width="754">
 
-Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline and other forms of console UIs:
+Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline, and other forms of console UIs:
 
 <img src="./extras/console.png" width="754">
 
