@@ -278,7 +278,7 @@ You can also limit the font weights that will be created with the `-w / --weight
 ./script/build.sh --features "ss02,ss08,ss10,cv03,cv07,cv14" --family-name "Fira Code straight" --weights "Regular,Bold"
 
 # or via a docker container (creates the family name 'Fira Code cv01 cv02 cv06 cv31 onum ss01 ss03 ss04 zero')
-docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "cv01,cv02,cv06,ss01,zero,onum,ss03,ss04,cv31" -n "features"
+docker run --rm -v "${PWD}/output":/opt/distr tonsky/firacode:latest ./script/build.sh -f "cv01,cv02,cv06,ss01,zero,onum,ss03,ss04,cv31" -n "features"
 
 # in Git Bash from Git for Windows, or any other MSYS2 based shell, you might need to disable path conversion
 MSYS2_ARG_CONV_EXCL="*" docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "ss02,ss03,ss04,ss05,ss06,ss07"
