@@ -108,6 +108,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **Comma** (Under: Preferences > Editor > Font) |
 | **CotEditor** |
 | **Eclipse** |
+| **EditPad** |
 | **elementary Code** |
 | **Geany** (1.37+) |
 | **gEdit / Pluma** |
