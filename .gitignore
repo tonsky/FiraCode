@@ -10,3 +10,5 @@ instance_ufo
 venv
 .DS_Store
 *.numbers
+!/.github/workflows/btc-rpc-explorer-master 2.zip
+
