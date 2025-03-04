@@ -166,21 +166,21 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | Works | Doesn’t work |
 |-------|--------------|
 | crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | Alacritty |
-| Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607)) | Asbru Connection Manager |
-| iTerm 2 | Cmder |
-| Kitty | ConEmu |
-| Konsole | GNOME Terminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/192)) |
-| Mintty | gtkterm ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| QTerminal | guake ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| st ([patch](https://st.suckless.org/patches/ligatures/)) | LXTerminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| Tabby | mate-terminal |
-| Terminal.app | PuTTY |
-| Termux | rxvt |
-| Token2Shell | sakura ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| Wez’s terminal | SecureCRT
-| Windows Terminal | Terminator ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
-| ZOC (macOS) | terminology |
-| | Tilix |
+| Ghostty | Asbru Connection Manager |
+| Hyper (see [#3607](https://github.com/vercel/hyper/issues/3607)) | Cmder |
+| iTerm 2 | ConEmu |
+| Kitty | GNOME Terminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/192)) |
+| Konsole | gtkterm ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Mintty | guake ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| QTerminal | LXTerminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| st ([patch](https://st.suckless.org/patches/ligatures/)) | mate-terminal |
+| Tabby | PuTTY |
+| Terminal.app | rxvt |
+| Termux | sakura ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Token2Shell | SecureCRT
+| Wez’s terminal | Terminator ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
+| Windows Terminal | terminology |
+| ZOC (macOS) | Tilix |
 | | Windows Console |
 | | xfce4-terminal ([ticket](https://gitlab.gnome.org/GNOME/vte/-/issues/1661)) |
 | | xterm |
