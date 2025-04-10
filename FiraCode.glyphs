@@ -647,6 +647,7 @@ feature cv26;
 feature cv27;
 feature cv28;
 feature cv29;
+feature dk01;
 ";
 tag = aalt;
 },
@@ -2450,6 +2451,16 @@ code = "lookup period_equal {
 } period_equal;";
 notes = ".= as ligature";
 tag = cv32;
+},
+{
+code = "sub backslash i n by element;
+sub backslash n o t i n by notelement;
+sub backslash s u b s e t e q by reflexsubset;
+sub backslash u n i o n by union;
+sub backslash i n t e r s e c t by intersection;
+sub backslash A by universal;
+sub backslash E by existential;";
+tag = dk01;
 }
 );
 fontMaster = (
