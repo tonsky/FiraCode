@@ -2,7 +2,7 @@
 
 ![Fira Code](./extras/logo.svg)
 
-[English](./README.md) | [Español](./LEEME.md) | [简体中文](./README_CN.md) で読む
+[English](./README.md) | [Español](./LEEME.md) | [简体中文](./README_CN.md) で読む | [Português brasileiro](./LEIAME.md)
 
 ### 問題点
 
