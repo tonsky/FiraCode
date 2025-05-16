@@ -144,6 +144,7 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **Xcode** (8.0+, otherwise [with plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 | **Xi** |
 | Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
+| **Zed** ([instructions](https://zed.dev/docs/configuring-zed#buffer-font-family)) | |
 
 ### Terminal compatibility list
 
