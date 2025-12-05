@@ -1,8 +1,24 @@
+<!-- omit in toc -->
 ## Fira Code: free monospaced font with programming ligatures
 
 ![Fira Code](./extras/logo.svg)
 
 Read in [Español](./LEEME.md) | [简体中文](./README_CN.md) | [日本語](./README_JA.md) | [Português brasileiro](./LEIAME.md)
+<!-- omit in toc -->
+## Table of Contents
+- [Problem](#problem)
+- [Solution](#solution)
+- [Download \& Install](#download--install)
+- [What’s in the box?](#whats-in-the-box)
+- [How does it look?](#how-does-it-look)
+- [Editor compatibility list](#editor-compatibility-list)
+- [Terminal compatibility list](#terminal-compatibility-list)
+- [Browser support](#browser-support)
+- [Building Fira Code locally](#building-fira-code-locally)
+- [Projects using Fira Code](#projects-using-fira-code)
+- [Alternatives](#alternatives)
+- [Sponsors](#sponsors)
+- [Credits](#credits)
 
 ### Problem
 
@@ -10,7 +26,7 @@ Programmers use a lot of symbols, often encoded with several characters. For the
 
 ### Solution
 
-Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature: underlying code remains ASCII-compatible. This helps to read and understand code faster. For some frequent sequences like `..` or `//`, ligatures allow us to correct spacing.
+Fira Code is a free monospaced font containing ligatures for common programming multi-character combinations. This is just a font rendering feature - underlying code remains ASCII-compatible. This makes code easier and quicker to read and understand. For some frequent sequences like `..` or `//`, ligatures help ensure proper spacing.
 
 ### Download & Install
 
@@ -22,10 +38,6 @@ Then:
 - [Troubleshooting](https://github.com/tonsky/FiraCode/wiki#troubleshooting)
 - [News & Updates](https://twitter.com/FiraCode)
 
-### Sponsors
-
-Fira Code is a personal, free-time project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you love it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
-
 ### What’s in the box?
 
 Left: ligatures as rendered in Fira Code. Right: same character sequences without ligatures.
@@ -36,7 +48,7 @@ Fira Code comes with a huge variety of arrows. Even better: you can make them as
 
 <img src="./extras/arrows.png" width="754">
 
-Fira Code is not only about ligatures. Some fine-tuning is done for punctuation and frequent letter pairs.
+Fira Code is not only about ligatures. It also offers fine-tuning of punctuation and frequent letter pairs.
 
 <img src="./extras/typographics.png" width="754">
 
@@ -44,11 +56,11 @@ Fira Code comes with a few different character variants (`cv01`, `cv02`, etc), s
 
 <img src="./extras/character_variants.png" width="754">
 
-Some ligatures can be altered or enabled using stylistic sets/character variants:
+You can alter or enable some ligatures using stylistic sets/character variants:
 
 <img src="./extras/ligature_variants.png" width="754">
 
-Being a programming font, Fira Code has fantastic support for ASCII/box drawing, powerline, and other forms of console UIs:
+As a programming font, Fira Code has seamless support for ASCII/box drawing, powerline, and other forms of console UIs:
 
 <img src="./extras/console.png" width="754">
 
@@ -56,7 +68,7 @@ Fira Code is the first programming font to offer dedicated glyphs to render prog
 
 <img src="./extras/progress.png" width="754">
 
-In action:
+Here's how it looks:
 
 <img src="./extras/progress.gif" width="560">
 
@@ -73,15 +85,15 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 
 ### Editor compatibility list
 
-| Works | Doesn’t work   |
+| Compatible | Incompatible   |
 |-------|----------------|
-| **Arduino IDE** (2.0+,same instructions as [vscode](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) | **Adobe Dreamweaver** |
+| **Arduino IDE** (2.0+, same instructions as [vscode](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) | **Adobe Dreamweaver** |
 | **Abricotine** | **Delphi IDE** |
 | **Android Studio** (2.3+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | Standalone **Emacs** ([workaround](https://github.com/tonsky/FiraCode/wiki/Emacs-instructions)) |
 | **Anjuta** (unless at the EOF) |  **IDLE** |
 | **AppCode** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | **KDevelop 4** |
 | **Atom** 1.1 or newer ([instructions](https://github.com/tonsky/FiraCode/wiki/Atom-instructions)) | **Monkey Studio IDE** |
-| **BBEdit** (14.6+ [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **UltraEdit** (Windows) |
+| **BBEdit** (14.6+, [instructions](https://github.com/tonsky/FiraCode/wiki/BBEdit-instructions)) | **UltraEdit** (Windows) |
 | **Brackets** (with [this plugin](https://github.com/polo2ro/firacode-in-brackets)) | 
 | **Chocolat** |
 | **CLion** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) | 
@@ -141,14 +153,14 @@ Unicode coverage makes Fira Code a great choice for mathematical writing:
 | **Visual Studio Code** ([instructions](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions)) |
 | **WebStorm** (2016.2+, [instructions](https://github.com/tonsky/FiraCode/wiki/IntelliJ-products-instructions)) |
 | **Xamarin Studio/Monodevelop** |
-| **Xcode** (8.0+, otherwise [with plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
+| **Xcode** (8.0+, otherwise [with this plugin](https://github.com/robertvojta/LigatureXcodePlugin)) |
 | **Xi** |
-| Probably work: **Smultron, Vico** | Under question: **Code::Blocks IDE** |
-| **Zed** ([instructions](https://zed.dev/docs/configuring-zed#buffer-font-family)) | |
+| **Zed** ([instructions](https://zed.dev/docs/configuring-zed#buffer-font-family))
+| Likely compatible: **Smultron, Vico** | Compatibility status pending: **Code::Blocks IDE** | |
 
 ### Terminal compatibility list
 
-| Works | Doesn’t work |
+| Compatible | Incompatible |
 |-------|--------------|
 | crosh ([instructions](https://github.com/tonsky/FiraCode/wiki/ChromeOS-Terminal)) | Alacritty |
 | Ghostty | Asbru Connection Manager |
@@ -192,12 +204,54 @@ code { font-family: 'Fira Code', monospace; }
 }
 ```
 
-- IE 10+, Edge Legacy: enable with `font-feature-settings: "calt";`
+- IE 10+, Edge Legacy (enable with `font-feature-settings: "calt";`)
 - Firefox
 - Safari
 - Chromium-based browsers (Chrome, Opera)
 - ACE
 - CodeMirror (enable with `font-variant-ligatures: contextual;`)
+
+### Building Fira Code locally
+
+In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, you can use my setup for macOS:
+
+```bash
+# install all required build tools
+./script/bootstrap_macos.sh
+
+# build the font files
+./script/build.sh
+
+# install OTFs to ~/Library/Fonts
+cp distr/otf/*.otf ~/Library/Fonts
+```
+
+Alternatively, you can build Fira Code using Docker:
+
+```bash
+# install dependencies in a container and build the font files
+make
+
+# package the font files from dist/ into a zip
+make package
+```
+
+To *permanently enable* certain style sets or character variations (maybe because your editor of choice does not allow you to toggle these individually), provide the desired features as a comma-separated list to the build script via the `-f / --features` flag.<br>Default: none.
+
+To separate different versions of your font, specify the desired font family name with the `-n / --family-name` flag. The special value 'features' will append a sorted, space separated list of enabled features to the default family name.<br>Default: "Fira Code"
+
+To limit the font weights that will be created, use the `-w / --weights` option.<br>Default: "Light,Regular,Retina,Medium,SemiBold,Bold"
+
+```bash
+# locally in your shell
+./script/build.sh --features "ss02,ss08,ss10,cv03,cv07,cv14" --family-name "Fira Code straight" --weights "Regular,Bold"
+
+# or via a docker container (creates the family name 'Fira Code cv01 cv02 cv06 cv31 onum ss01 ss03 ss04 zero')
+docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "cv01,cv02,cv06,ss01,zero,onum,ss03,ss04,cv31" -n "features"
+
+# in Git Bash from Git for Windows, or any other MSYS2 based shell, you might need to disable path conversion
+MSYS2_ARG_CONV_EXCL="*" docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "ss02,ss03,ss04,ss05,ss06,ss07"
+```
 
 ### Projects using Fira Code
 
@@ -228,47 +282,9 @@ Paid monospaced fonts with ligatures:
 - [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm)
 - [Mono Lisa](https://www.monolisa.dev/)
 
-### Building Fira Code locally
+### Sponsors
 
-In case you want to alter FiraCode.glyphs and build OTF/TTF/WOFF files yourself, this is the setup I use on macOS:
-
-```bash
-# install all required build tools
-./script/bootstrap_macos.sh
-
-# build the font files
-./script/build.sh
-
-# install OTFs to ~/Library/Fonts
-cp distr/otf/*.otf ~/Library/Fonts
-```
-
-Alternatively, you can build Fira Code using Docker:
-
-```bash
-# install dependencies in a container and build the font files
-make
-
-# package the font files from dist/ into a zip
-make package
-```
-
-If you want to *permanently enable* certain style sets or character variations, maybe because your editor of choice does not allow you to toggle these individually, you can provide the desired features as a comma separated list to the build script via the `-f / --features` flag.<br>Default: none.
-
-To separate different versions of your font you can specify the desired font family name with the `-n / --family-name` flag. The special value 'features' will append a sorted, space separated list of enabled features to the default family name.<br>Default: "Fira Code"
-
-You can also limit the font weights that will be created with the `-w / --weights` option.<br>Default: "Light,Regular,Retina,Medium,SemiBold,Bold"
-
-```bash
-# locally in your shell
-./script/build.sh --features "ss02,ss08,ss10,cv03,cv07,cv14" --family-name "Fira Code straight" --weights "Regular,Bold"
-
-# or via a docker container (creates the family name 'Fira Code cv01 cv02 cv06 cv31 onum ss01 ss03 ss04 zero')
-docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "cv01,cv02,cv06,ss01,zero,onum,ss03,ss04,cv31" -n "features"
-
-# in Git Bash from Git for Windows, or any other MSYS2 based shell, you might need to disable path conversion
-MSYS2_ARG_CONV_EXCL="*" docker run --rm -v "${PWD}":/opt tonsky/firacode:latest ./script/build.sh -f "ss02,ss03,ss04,ss05,ss06,ss07"
-```
+Fira Code is a personal pet-project with no funding and a huge [feature request backlog](https://github.com/tonsky/FiraCode/issues). If you like it, consider supporting its development via [GitHub Sponsors](https://github.com/sponsors/tonsky) or [Patreon](https://patreon.com/tonsky). Any help counts!
 
 ### Credits
 
