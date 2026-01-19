@@ -19,6 +19,7 @@ jobs:
     - uses: actions/checkout@v4
     - if: startsWith(github.ref, 'refs/tags/')
       run: python3 ./script/update_version.py
+    - run: pip install --upgrade fontmake glyphsLib
     - run: ./script/build.sh
     - run: echo "hash=$(git rev-parse --short $GITHUB_SHA)" >> $GITHUB_ENV
     - uses: actions/upload-artifact@v4
