@@ -14,12 +14,31 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    container: tonsky/firacode:latest
     steps:
     - uses: actions/checkout@v4
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - name: Install System Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ttfautohint woff2 zlib1g-dev
+    - name: Install sfnt2woff-zopfli
+      run: |
+        git clone https://github.com/bramstein/sfnt2woff-zopfli.git
+        cd sfnt2woff-zopfli
+        make
+        chmod +x sfnt2woff-zopfli
+        sudo mv sfnt2woff-zopfli /usr/local/bin/sfnt2woff-zopfli
+        cd ..
+        rm -rf sfnt2woff-zopfli
+    - name: Install Python Dependencies
+      run: |
+        pip install --upgrade pip
+        pip install fontmake glyphsLib gftools fontbakery ufo2ft statmake
     - if: startsWith(github.ref, 'refs/tags/')
       run: python3 ./script/update_version.py
-    - run: pip install --upgrade fontmake glyphsLib
     - run: ./script/build.sh
     - run: echo "hash=$(git rev-parse --short $GITHUB_SHA)" >> $GITHUB_ENV
     - uses: actions/upload-artifact@v4
