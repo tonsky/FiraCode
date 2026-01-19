@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-import argparse, base64, common, glob, json, os, platform, re, subprocess, sys, urllib.request, zipfile
+import argparse, base64, common, glob, json, os, platform, re, subprocess, sys, urllib.request, urllib.error, zipfile
 
 def log_errors(name):
   def wrap(f):
@@ -34,7 +34,6 @@ def github_headers():
     'Authorization': auth
   }
 
-@log_errors("github_release")
 def github_release(version):
   zip = f"Fira_Code_v{version}.zip"
 
@@ -43,14 +42,21 @@ def github_release(version):
 
   data = '{"tag_name":"' + version + '","name":"' + version + '"}'
   headers = github_headers()
-  resp = urllib.request.urlopen(urllib.request.Request(f'https://api.github.com/repos/{repo}/releases', data=data.encode('utf-8'), headers=headers)).read()
-  upload_url = re.match('https://.*/assets', json.loads(resp.decode('utf-8'))['upload_url']).group(0)
+  
+  try:
+    req = urllib.request.Request(f'https://api.github.com/repos/{repo}/releases', data=data.encode('utf-8'), headers=headers)
+    resp = urllib.request.urlopen(req).read()
+    upload_url = re.match('https://.*/assets', json.loads(resp.decode('utf-8'))['upload_url']).group(0)
 
-  print('github_release: Uploading', zip, 'to', upload_url)
-  headers['Content-Type'] = 'application/zip'
-  headers['Content-Length'] = os.path.getsize(zip)
-  with open(zip, 'rb') as data:
-    urllib.request.urlopen(urllib.request.Request(upload_url + '?name=' + zip, data=data, headers=headers))
+    print('github_release: Uploading', zip, 'to', upload_url)
+    headers['Content-Type'] = 'application/zip'
+    headers['Content-Length'] = os.path.getsize(zip)
+    with open(zip, 'rb') as data:
+      urllib.request.urlopen(urllib.request.Request(upload_url + '?name=' + zip, data=data, headers=headers))
+  except urllib.error.HTTPError as e:
+    print(f"github_release: HTTP Error {e.code} {e.reason}")
+    print(e.read().decode('utf-8'))
+    raise e
 
 @log_errors("npm_publish")
 def npm_publish(version):
