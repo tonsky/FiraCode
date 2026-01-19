@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-import argparse, base64, common, glob, os, platform, re, subprocess, sys, urllib.request, zipfile
+import argparse, base64, common, glob, json, os, platform, re, subprocess, sys, urllib.request, zipfile
 
 def log_errors(name):
   def wrap(f):
@@ -25,7 +25,10 @@ def github_headers():
   if os.environ.get('GITHUB_BASIC'):
     auth = 'Basic ' + base64.b64encode(os.environ.get('GITHUB_BASIC').encode('utf-8')).decode('utf-8')
   else:
-    auth = 'token ' + os.environ.get('API_TOKEN')
+    token = os.environ.get('API_TOKEN') or os.environ.get('GITHUB_TOKEN')
+    if not token:
+      raise Exception("Missing API_TOKEN or GITHUB_TOKEN")
+    auth = 'token ' + token
   return {
     'Accept': 'application/vnd.github.v3+json',
     'Authorization': auth
@@ -35,9 +38,12 @@ def github_headers():
 def github_release(version):
   zip = f"Fira_Code_v{version}.zip"
 
+  repo = os.environ.get('GITHUB_REPOSITORY', 'tonsky/FiraCode')
+  print(f"Releasing to {repo}")
+
   data = '{"tag_name":"' + version + '","name":"' + version + '"}'
   headers = github_headers()
-  resp = urllib.request.urlopen(urllib.request.Request('https://api.github.com/repos/tonsky/FiraCode/releases', data=data.encode('utf-8'), headers=headers)).read()
+  resp = urllib.request.urlopen(urllib.request.Request(f'https://api.github.com/repos/{repo}/releases', data=data.encode('utf-8'), headers=headers)).read()
   upload_url = re.match('https://.*/assets', json.loads(resp.decode('utf-8'))['upload_url']).group(0)
 
   print('github_release: Uploading', zip, 'to', upload_url)

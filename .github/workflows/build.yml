@@ -11,6 +11,8 @@ on:
       
 jobs:
   build:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     container: tonsky/firacode:latest
     steps:
@@ -24,4 +26,7 @@ jobs:
         name: Fira_Code_${{ env.hash }}
         path: distr
     - if: startsWith(github.ref, 'refs/tags/')
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
       run: python3 ./script/release.py
