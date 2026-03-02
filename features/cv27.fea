@@ -1,4 +1,4 @@
-# [] as ligature
+### Bracket left bracket right [] ligature
 
 lookup bracketleft_bracketright {
   sub bracketleft.spacer bracketright' by bracketleft_bracketright.cv27;

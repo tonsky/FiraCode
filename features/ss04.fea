@@ -1,4 +1,4 @@
-# Name: Lightweight Dollar Sign
+### Lightweight dollar sign
 
 sub dollar by dollar.ss04;
 

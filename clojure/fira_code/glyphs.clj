@@ -106,34 +106,51 @@
             *pos (atom 0)]
     (parse-anything!)))
 
-(def escapes
-  {"\"" "\\\""
-   "\\" "\\\\"})
-
-(def escape-re
-  #"[\n\"\\]")
-
 (defn- serialize-impl [form]
   (cond
-    (string? form)     (if (re-matches #"[a-zA-Z0-9._/]+" form)
-                         form 
-                         (str \" (str/replace form escape-re escapes) \"))
-    (keyword? form)    (name form)
-    (number? form)     (str form)
+    (string? form)
+    (if (re-matches #"[a-zA-Z0-9._/]+" form)
+      form
+      (str \" (str/replace form #"[\"\\]" {"\"" "\\\""
+                                           "\\" "\\\\"}) \"))
+
+    (keyword? form)
+    (name form)
+
+    (number? form)
+    (str form)
+
     (instance? clojure.lang.MapEntry form)
-                       (str
-                         (serialize-impl (key form))
-                         " = "
-                         (if (= ".appVersion" (key form)) ;; https://github.com/googlefonts/glyphsLib/issues/209
-                           (str \" (val form) \")
-                           (serialize-impl (val form)))
-                         ";")
-    (sequential? form) (if (empty? form)
-                         "(\n)"
-                         (str "(\n" (str/join ",\n" (map serialize-impl form)) "\n)"))
-    (map? form)        (if (empty? form)
-                         "{\n}"
-                         (str "{\n" (str/join "\n" (map serialize-impl form)) "\n}"))))
+    (str
+      (serialize-impl (key form))
+      " = "
+      (case (key form)
+        ;; https://github.com/googlefonts/glyphsLib/issues/209
+        ".appVersion"
+        (str \" (val form) \")
+
+        ;; ¯\_(ツ)_/¯
+        (:stemValues "stemValues")
+        (str "(\n" (str/join ",\n" (val form)) "\n)")
+
+        ;; else
+        (serialize-impl (val form)))
+      ";")
+
+    (and (sequential? form) (empty? form))
+    "(\n)"
+
+    (and (sequential? form) (<= 2 (count form) 3) (not (coll? (first form))))
+    (str "(" (str/join "," (map serialize-impl form)) ")")
+
+    (sequential? form)
+    (str "(\n" (str/join ",\n" (map serialize-impl form)) "\n)")
+
+    (and (map? form) (empty? form))
+    "{\n}"
+
+    (map? form)
+    (str "{\n" (str/join "\n" (map serialize-impl form)) "\n}")))
 
 (defn serialize [font]
   (str (serialize-impl font) "\n"))
@@ -154,9 +171,9 @@
       (binding [*out* os]
         (fipp/pprint font {:width 200})))))
 
-(defn update-code [font key name f & args]
-  (let [idx (coll/index-of #(= (:tag %) name) (get font key))]
-    (assert (>= idx 0) (str "Can’t find " key " tag=" name ", got " (str/join ", " (map :name (get font key)))))
+(defn update-code [font key name-attr name f & args]
+  (let [idx (coll/index-of #(= (get % name-attr) name) (get font key))]
+    (assert (>= idx 0) (str "Can’t find " key " tag=" name ", got " (str/join ", " (map #(get % name-attr) (get font key)))))
     (apply update-in font [key idx :code] f args)))
 
 (defn lines [s]
@@ -166,7 +183,7 @@
   (count (re-seq #"[^\s]+" s)))
 
 (defn set-feature [font name feature]
-  (let [idx (coll/index-of #(= (:name %) name) (:features font))]
+  (let [idx (coll/index-of #(= (:tag %) name) (:features font))]
     (if (pos? idx)
       (do
         (println "  replacing feature" name "with" (lines (:code feature)) "lines")

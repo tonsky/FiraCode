@@ -1,4 +1,4 @@
-# .= as ligature
+### Period equal .= as ligature
 
 lookup period_equal {
   ignore sub period period' equal;

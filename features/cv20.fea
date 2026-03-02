@@ -1,4 +1,4 @@
-# Less Than + Equal as an arrow 
+### Less than + equal as an arrow
 
 lookup less_equal_cv20 {
   sub less_equal_start.seq less_equal.liga' by equal_end.seq;

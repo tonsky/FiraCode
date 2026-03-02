@@ -1,4 +1,4 @@
-# Name: Traditional At sign
+### Traditional at sign
 
 sub at by at.ss05;
 sub asciitilde.spacer' asciitilde_at.liga by asciitilde;

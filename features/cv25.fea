@@ -1,4 +1,4 @@
-# .- as ligature
+### Period hyphen .- ligature
 
 lookup period_hyphen {
   ignore sub period period' hyphen;

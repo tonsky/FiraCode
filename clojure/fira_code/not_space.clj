@@ -10,4 +10,4 @@
                      (map :glyphname)
                      (sort))]
     (println "  regenerated NotSpace:" (count not-spaces) "glyphs")
-    (glyphs/update-code font :classes "NotSpace" (constantly (str/join " " not-spaces)))))
+    (glyphs/update-code font :classes :name "NotSpace" (constantly (str/join " " not-spaces)))))

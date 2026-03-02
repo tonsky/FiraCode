@@ -1,4 +1,4 @@
-# =< with horizontal bar
+### Equal less than =< with horizontal bar
 
 lookup equal_less_cv22 {
   ignore sub equal equal' less;

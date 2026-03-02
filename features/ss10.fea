@@ -1,4 +1,4 @@
-# Name: Ligatures for Tl Fl fi fj fl ft
+### Ligatures for Tl Fl fi fj fl ft
 
 lookup T_l {
   sub T.spacer [l l.salt_low]' by T_l.liga.ss10;

@@ -1,4 +1,4 @@
-# Name: Regex matching operator
+### Regex matching operator
 
 lookup equal_asciitilde {
   ignore sub equal equal' asciitilde;

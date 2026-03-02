@@ -23,7 +23,8 @@
           ;; try to match last N glyphs in `prefix` with N first in `liga`
           N (range (count liga) 0 -1)
           :when (= (take-last N prefix) (take N liga))]
-      (str "  ignore sub"
+      (str
+        "  ignore sub"
         " " (str/join " " (drop-last N prefix))
         " " (first liga) "'"
         " " (str/join " " (drop 1 liga))
@@ -237,7 +238,8 @@
           (str
             "lookup 1_2 {\n"
             (when-not (skip-ignores? liga)
-              (str "  ignore sub 1 1' 2;\n"
+              (str
+                "  ignore sub 1 1' 2;\n"
                 "  ignore sub 1' 2 2;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
@@ -251,7 +253,8 @@
           (str
             "lookup 1_2_3 {\n"
             (when-not (skip-ignores? liga)
-              (str "  ignore sub 1 1' 2 3;\n"
+              (str
+                "  ignore sub 1 1' 2 3;\n"
                 "  ignore sub 1' 2 3 3;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
@@ -266,7 +269,8 @@
           (str
             "lookup 1_2_3_4 {\n"
             (when-not (skip-ignores? liga)
-              (str "  ignore sub 1 1' 2 3 4;\n"
+              (str
+                "  ignore sub 1 1' 2 3 4;\n"
                 "  ignore sub 1' 2 3 4 4;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
@@ -282,7 +286,8 @@
           (str
             "lookup 1_2_3_4_5 {\n"
             (when-not (skip-ignores? liga)
-              (str "  ignore sub 1 1' 2 3 4 5;\n"
+              (str
+                "  ignore sub 1 1' 2 3 4 5;\n"
                 "  ignore sub 1' 2 3 4 4 5;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
@@ -335,4 +340,4 @@
         (get counts 4) " quadruples, "
         (count ligas') " total" #_")"))
 
-    (glyphs/update-code font :features "calt" (constantly calt))))
+    (glyphs/update-code font :features :tag "calt" (constantly calt))))

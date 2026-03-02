@@ -1,4 +1,4 @@
-# Name: Restore <<= >>= ||= |= as arrows
+### Restore <<= >>= ||= |= as arrows
 
 lookup restore_greater_greater_equal {
   sub greater_greater_equal_start.seq equal' by equal_end.seq;

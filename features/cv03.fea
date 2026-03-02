@@ -1,4 +1,4 @@
-# lowercase I without any horizontal decorations
+### Lowercase I without any horizontal decorations
 
 sub i by i.cv03;
 sub idotless by idotless.cv03;

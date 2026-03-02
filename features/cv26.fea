@@ -1,4 +1,4 @@
-# :- as ligature
+### Color hyphen :- ligature
 
 lookup colon_hyphen {
   ignore sub colon colon' hyphen;

@@ -1,4 +1,4 @@
-# Name: Less Than/Greater Than with horizontal bar
+### Less than/greater than with horizontal bar
 
 sub greater_equal.liga by greater_equal.ss02;
 sub less_equal.liga by less_equal.ss02;
