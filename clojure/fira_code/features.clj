@@ -26,9 +26,10 @@
         [_ name code'] (re-matches #"(?s)###[ ]*([^\n]*[^\n ])[ ]*\n(.*)" code)
         code           (trim (or code' code))
         feature        (cond-> {:code code}
-                         name (assoc :labels
-                                [{:language "dflt"
-                                  :value    name}])
+                         (and (str/starts-with? tag "ss") name)
+                         (assoc :labels
+                           [{:language "dflt"
+                             :value    name}])
                          true (assoc :tag tag))]
     (glyphs/set-feature font tag feature)))
 

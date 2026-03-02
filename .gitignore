@@ -18,3 +18,4 @@ distr/*/
 .fleet
 *.iml
 *.glyphspackage
+.vibe

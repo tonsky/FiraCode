@@ -1,0 +1,6 @@
+fontmake==3.11.1
+glyphsLib==6.12.7
+gftools==0.9.993
+fontbakery==1.1.0
+ufo2ft==3.7.0
+uharfbuzz==0.53.3

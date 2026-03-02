@@ -14,7 +14,7 @@ name = NotSpace;
 },
 {
 automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK F.spacer T.spacer F_l.liga.ss10 T_l.liga.ss10 A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy Gedescender-cy Ghestroke-cy Ghemiddlehook-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Omega-cy Yat-cy Eiotified-cy Yuslittle-cy Yuslittleiotified-cy Yusbig-cy Yusbigiotified-cy Ksi-cy Psi-cy Fita-cy Izhitsa-cy Izhitsadblgrave-cy Uk-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Lha-cy Rha-cy Yae-cy Qa-cy We-cy Aleutka-cy Elmiddlehook-cy Enmiddlehook-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Dzzhe-cy Dche-cy Eldescender-cy Yot-greek Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis Heta Archaicsampi Pamphyliandigamma KoppaArchaic Stigma Digamma Koppa Sampi KaiSymbol UpsilonhookSymbol UpsilonacutehookSymbol UpsilondieresishookSymbol ThetaSymbol Sho SigmaLunateSymbol San SigmaLunateReversedSymbol SigmaLunateDottedSymbol SigmaLunateDottedReversedSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni BdoubleStruck CdoubleStruck HdoubleStruck NdoubleStruck PdoubleStruck QdoubleStruck RdoubleStruck ZdoubleStruck";
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK F.spacer T.spacer A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Iishorttail-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Omega-cy Yat-cy Eiotified-cy Yuslittle-cy Yuslittleiotified-cy Yusbig-cy Yusbigiotified-cy Ksi-cy Psi-cy Fita-cy Izhitsa-cy Izhitsadblgrave-cy Uk-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kastroke-cy Kabashkir-cy Endescender-cy Enghe-cy Pemiddlehook-cy Pedescender-cy Haabkhasian-cy Esdescender-cy Tedescender-cy Ustrait-cy Ustraitstroke-cy Hadescender-cy Tetse-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Shhadescender-cy Cheabkhasian-cy Chedescenderabkhasian-cy Palochka-cy Zhebreve-cy Kahook-cy Eltail-cy Enhook-cy Entail-cy Chekhakassian-cy Emtail-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Schwadieresis-cy Zhedieresis-cy Zedieresis-cy Dzeabkhasian-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Obarreddieresis-cy Edieresis-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Gestrokehook-cy Hahook-cy Hastroke-cy Komide-cy Komidje-cy Komizje-cy Komidzje-cy Komilje-cy Kominje-cy Komisje-cy Komitje-cy Reversedze-cy Elhook-cy Lha-cy Rha-cy Yae-cy Qa-cy We-cy Aleutka-cy Elmiddlehook-cy Enmiddlehook-cy Semisoftsign-cy Ertick-cy EnLeftHook-cy Dzzhe-cy Dche-cy Eldescender-cy Yot-greek Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis Heta Archaicsampi Pamphyliandigamma KoppaArchaic Stigma Digamma Koppa Sampi KaiSymbol UpsilonhookSymbol UpsilonacutehookSymbol UpsilondieresishookSymbol ThetaSymbol Sho SigmaLunateSymbol San SigmaLunateReversedSymbol SigmaLunateDottedSymbol SigmaLunateDottedReversedSymbol Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni BdoubleStruck CdoubleStruck HdoubleStruck NdoubleStruck PdoubleStruck QdoubleStruck RdoubleStruck ZdoubleStruck";
 name = Uppercase;
 },
 {
@@ -602,6 +602,7 @@ feature case;
 feature locl;
 feature zero;
 feature calt;
+feature salt;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -643,9 +644,6 @@ feature cv26;
 feature cv27;
 feature cv28;
 feature cv29;
-feature cv30;
-feature cv31;
-feature cv32;
 ";
 tag = aalt;
 },
@@ -736,11 +734,11 @@ code = "lookup FRAC {
 	sub slash by fraction;
 } FRAC;
 lookup UP {
-	sub [three.cv14 zero one two three four five six seven eight nine parenleft parenright plus minus equal] by [three.cv14.numr zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr plus.numr minus.numr equal.numr];
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
 } UP;
 lookup DOWN {
-	sub fraction [three.cv14.numr zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr plus.numr minus.numr equal.numr]' by [three.cv14.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom plus.dnom minus.dnom equal.dnom];
-	sub [three.cv14.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom plus.dnom minus.dnom equal.dnom] [three.cv14.numr zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr plus.numr minus.numr equal.numr]' by [three.cv14.dnom zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom plus.dnom minus.dnom equal.dnom];
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
 } DOWN;
 ";
 tag = frac;
@@ -778,24 +776,21 @@ tag = onum;
 automatic = 1;
 code = "sub exclamdown by exclamdown.case;
 sub questiondown by questiondown.case;
-sub hyphen by hyphen.case;
-sub softhyphen by softhyphen.case;
-sub endash by endash.case;
-sub emdash by emdash.case;
 sub parenleft by parenleft.case;
 sub parenright by parenright.case;
 sub braceleft by braceleft.case;
 sub braceright by braceright.case;
 sub bracketleft by bracketleft.case;
 sub bracketright by bracketright.case;
+sub hyphen by hyphen.case;
+sub softhyphen by softhyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
 sub guillemetleft by guillemetleft.case;
 sub guillemetright by guillemetright.case;
 sub guilsinglleft by guilsinglleft.case;
 sub guilsinglright by guilsinglright.case;
 sub infinity by infinity.case;
-sub tonos by tonos.case;
-sub varia by varia.case;
-sub oxia by oxia.case;
 sub commaaccent by commaaccent.case;
 sub dieresis by dieresis.case;
 sub dotaccent by dotaccent.case;
@@ -809,19 +804,10 @@ sub ring by ring.case;
 sub tilde by tilde.case;
 sub macron by macron.case;
 sub cedilla by cedilla.case;
+sub tonos by tonos.case;
+sub varia by varia.case;
+sub oxia by oxia.case;
 sub breve-cy by breve-cy.case;
-sub x.multiply.tosf by x.multiply;
-sub zero.tosf by zero;
-sub one.tosf by one;
-sub two.tosf by two;
-sub three.tosf by three;
-sub four.tosf by four;
-sub five.tosf by five;
-sub six.tosf by six;
-sub seven.tosf by seven;
-sub eight.tosf by eight;
-sub nine.tosf by nine;
-sub zero.zero.tosf by zero.zero;
 ";
 tag = case;
 },
@@ -963,12 +949,6 @@ tag = locl;
 {
 code = "sub zero by zero.zero;
 sub zero.tosf by zero.tosf.zero;";
-labels = (
-{
-language = dflt;
-value = "Zero with a dot inside";
-}
-);
 tag = zero;
 },
 {
@@ -1938,6 +1918,12 @@ lookup underscores {
 tag = calt;
 },
 {
+automatic = 1;
+code = "sub r by r.ss01;
+";
+tag = salt;
+},
+{
 code = "sub r by r.ss01;";
 labels = (
 {
@@ -2111,33 +2097,21 @@ tag = ss10;
 },
 {
 automatic = 1;
-code = "lookup ccmp_DFLT_1 {
+code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commareversedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb perispomenicomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-} ccmp_DFLT_1;
-
-lookup ccmp_Other_1 {
-	lookupflag 0;
-	@Markscomb = [tonos varia oxia commaaccent dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla];
-	@MarkscombCase = [tonos.case varia.case oxia.case commaaccent.case dieresis.case dotaccent.case grave.case acute.case hungarumlaut.case circumflex.case caron.case breve.case ring.case tilde.case macron.case cedilla.case];
+	@CombiningNonTopAccents = [cedillacomb commaaccent ypogegrammenicomb];
+	sub [i]' @CombiningTopAccents by [idotless];
+	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];
+	@Markscomb = [commaaccent dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla tonos varia oxia];
+	@MarkscombCase = [commaaccent.case dieresis.case dotaccent.case grave.case acute.case hungarumlaut.case circumflex.case caron.case breve.case ring.case tilde.case macron.case cedilla.case tonos.case varia.case oxia.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
 } ccmp_Other_1;
 
 lookup ccmp_Other_2 {
-	lookupflag 0;
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
-
-lookup ccmp_latn_1 {
-	lookupflag 0;
-	sub napostrophe by apostrophemod n;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
 ";
 tag = ccmp;
 },
@@ -2178,12 +2152,6 @@ sub amacron by amacron.cv01;
 sub aogonek by aogonek.cv01;
 sub aring by aring.cv01;
 sub atilde by atilde.cv01;";
-labels = (
-{
-language = dflt;
-value = "Alternate lowercase a";
-}
-);
 tag = cv01;
 },
 {
@@ -2192,12 +2160,6 @@ sub gbreve by gbreve.cv02;
 sub gcircumflex by gcircumflex.cv02;
 sub gcommaaccent by gcommaaccent.cv02;
 sub gdotaccent by gdotaccent.cv02;";
-labels = (
-{
-language = dflt;
-value = "Single storey lowercase g";
-}
-);
 tag = cv02;
 },
 {
@@ -2212,12 +2174,6 @@ sub igrave by igrave.cv03;
 sub imacron by imacron.cv03;
 sub iogonek by iogonek.cv03;
 sub itilde by itilde.cv03;";
-labels = (
-{
-language = dflt;
-value = "Lowercase I without any horizontal decorations";
-}
-);
 tag = cv03;
 },
 {
@@ -2232,12 +2188,6 @@ sub igrave by igrave.cv04;
 sub imacron by imacron.cv04;
 sub iogonek by iogonek.cv04;
 sub itilde by itilde.cv04;";
-labels = (
-{
-language = dflt;
-value = "Lowercase I with horizontal left line at the top";
-}
-);
 tag = cv04;
 },
 {
@@ -2252,12 +2202,6 @@ sub igrave by igrave.cv05;
 sub imacron by imacron.cv05;
 sub iogonek by iogonek.cv05;
 sub itilde by itilde.cv05;";
-labels = (
-{
-language = dflt;
-value = "Lowercase I with horizontal left line at the top and right line at the bottom";
-}
-);
 tag = cv05;
 },
 {
@@ -2272,12 +2216,6 @@ sub igrave by igrave.cv06;
 sub imacron by imacron.cv06;
 sub iogonek by iogonek.cv06;
 sub itilde by itilde.cv06;";
-labels = (
-{
-language = dflt;
-value = "Lowercase I with horizontal left line at the top and curved right hook at the bottom";
-}
-);
 tag = cv06;
 },
 {
@@ -2287,12 +2225,6 @@ sub lcaron by lcaron.cv07;
 sub lcommaaccent by lcommaaccent.cv07;
 sub ldot by ldot.cv07;
 sub lslash by lslash.cv07;";
-labels = (
-{
-language = dflt;
-value = "Lowercase L without any horizontal decorations";
-}
-);
 tag = cv07;
 },
 {
@@ -2302,12 +2234,6 @@ sub lcaron by lcaron.cv08;
 sub lcommaaccent by lcommaaccent.cv08;
 sub ldot by ldot.cv08;
 sub lslash by lslash.cv08;";
-labels = (
-{
-language = dflt;
-value = "Lowercase L with horizontal left line at the top";
-}
-);
 tag = cv08;
 },
 {
@@ -2317,12 +2243,6 @@ sub lcaron by lcaron.cv09;
 sub lcommaaccent by lcommaaccent.cv09;
 sub ldot by ldot.cv09;
 sub lslash by lslash.cv09;";
-labels = (
-{
-language = dflt;
-value = "Lowercase L with horizontal left line at the top and right line at the bottom";
-}
-);
 tag = cv09;
 },
 {
@@ -2332,45 +2252,21 @@ sub lcaron by lcaron.cv10;
 sub lcommaaccent by lcommaaccent.cv10;
 sub ldot by ldot.cv10;
 sub lslash by lslash.cv10;";
-labels = (
-{
-language = dflt;
-value = "Lowercase L with horizontal left line at the top and horizontal base";
-}
-);
 tag = cv10;
 },
 {
 code = "sub zero by zero.cv11;
 sub zero.tosf by zero.tosf.cv11;";
-labels = (
-{
-language = dflt;
-value = "Zero without anything inside";
-}
-);
 tag = cv11;
 },
 {
 code = "sub zero by zero.cv12;
 sub zero.tosf by zero.tosf.cv12;";
-labels = (
-{
-language = dflt;
-value = "Zero with a backslash inside";
-}
-);
 tag = cv12;
 },
 {
 code = "sub zero by zero.cv13;
 sub zero.tosf by zero.tosf.cv13;";
-labels = (
-{
-language = dflt;
-value = "Zero with a vertical line inside";
-}
-);
 tag = cv13;
 },
 {
@@ -2380,23 +2276,11 @@ sub threeinferior by threeinferior.cv14;
 sub three.dnom by three.dnom.cv14;
 sub three.numr by three.numr.cv14;
 sub threesuperior by threesuperior.cv14;";
-labels = (
-{
-language = dflt;
-value = "3 with straight lines for the top half";
-}
-);
 tag = cv14;
 },
 {
 code = "sub [asterisk asterisk.lc] by asterisk.cv15;
 sub [asteriskmath asteriskmath.lc] by asteriskmath.cv15;";
-labels = (
-{
-language = dflt;
-value = "Top-aligned asterisk";
-}
-);
 tag = cv15;
 },
 {
@@ -2405,44 +2289,20 @@ code = "sub [asterisk asterisk.lc asterisk.cv15 asteriskmath asteriskmath.lc ast
 
 sub [asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_slash.liga slash_asterisk.liga less_asterisk.liga less_asterisk_greater.liga asterisk_greater.liga]
  by [asterisk_asterisk.liga.cv16 asterisk_asterisk_asterisk.liga.cv16 asterisk_slash.liga.cv16 slash_asterisk.liga.cv16 less_asterisk.liga.cv16 less_asterisk_greater.liga.cv16 asterisk_greater.liga.cv16];";
-labels = (
-{
-language = dflt;
-value = "Hexagonal asterisk";
-}
-);
 tag = cv16;
 },
 {
 code = "sub asciitilde by asciitilde.cv17;";
-labels = (
-{
-language = dflt;
-value = "Top-aligned tilde";
-}
-);
 tag = cv17;
 },
 {
 code = "sub percent by percent.cv18;
 sub perthousand by perthousand.cv18;
 sub percent_percent.liga by percent_percent.liga.cv18;";
-labels = (
-{
-language = dflt;
-value = "Percent sign with dots instead of hollow circles";
-}
-);
 tag = cv18;
 },
 {
 code = "sub less_equal.liga by less_equal.ss02;";
-labels = (
-{
-language = dflt;
-value = "Less than + equal with horizontal bar";
-}
-);
 tag = cv19;
 },
 {
@@ -2450,12 +2310,6 @@ code = "lookup less_equal_cv20 {
   sub less_equal_start.seq less_equal.liga' by equal_end.seq;
   sub less.spacer' less_equal.liga by less_equal_start.seq;
 } less_equal_cv20;";
-labels = (
-{
-language = dflt;
-value = "Less than + equal as an arrow";
-}
-);
 tag = cv20;
 },
 {
@@ -2466,12 +2320,6 @@ code = "lookup equal_less_cv21 {
   sub equal.spacer less' by less_equal.liga;
   sub equal' less by equal.spacer;
 } equal_less_cv21;";
-labels = (
-{
-language = dflt;
-value = "Equal less than =< ligature";
-}
-);
 tag = cv21;
 },
 {
@@ -2482,22 +2330,10 @@ code = "lookup equal_less_cv22 {
   sub equal.spacer less' by less_equal.ss02;
   sub equal' less by equal.spacer;
 } equal_less_cv22;";
-labels = (
-{
-language = dflt;
-value = "Equal less than =< with horizontal bar";
-}
-);
 tag = cv22;
 },
 {
 code = "sub greater_equal.liga by greater_equal.ss02;";
-labels = (
-{
-language = dflt;
-value = "Greater than + equal >= with horizontal bar";
-}
-);
 tag = cv23;
 },
 {
@@ -2505,12 +2341,6 @@ code = "lookup slash_equal_as_not_equal {
   sub slash.spacer equal_end.seq' by exclam_equal.liga;
   sub slash_equal_start.seq' equal_end.seq by slash.spacer;
 } slash_equal_as_not_equal;";
-labels = (
-{
-language = dflt;
-value = "Slash + equal /= as not equal";
-}
-);
 tag = cv24;
 },
 {
@@ -2520,12 +2350,6 @@ code = "lookup period_hyphen {
   sub period.spacer hyphen' by period_hyphen.cv25;
   sub period'       hyphen  by period.spacer;
 } period_hyphen;";
-labels = (
-{
-language = dflt;
-value = "Period hyphen .- ligature";
-}
-);
 tag = cv25;
 },
 {
@@ -2535,12 +2359,6 @@ code = "lookup colon_hyphen {
   sub colon.spacer hyphen' by colon_hyphen.cv26;
   sub colon'       hyphen  by colon.spacer;
 } colon_hyphen;";
-labels = (
-{
-language = dflt;
-value = "Color hyphen :- ligature";
-}
-);
 tag = cv26;
 },
 {
@@ -2548,35 +2366,17 @@ code = "lookup bracketleft_bracketright {
   sub bracketleft.spacer bracketright' by bracketleft_bracketright.cv27;
   sub bracketleft'       bracketright  by bracketleft.spacer;
 } bracketleft_bracketright;";
-labels = (
-{
-language = dflt;
-value = "Bracket left bracket right [] ligature";
-}
-);
 tag = cv27;
 },
 {
 code = "sub braceleft period' by bullet;
 sub period' braceright by bullet;";
-labels = (
-{
-language = dflt;
-value = "Brace left/right period {. .} as ligature";
-}
-);
 tag = cv28;
 },
 {
 code = "sub braceleft by braceleft.cv29;
 sub braceright by braceright.cv29;
 sub numbersign_braceleft.liga by numbersign_braceleft.liga.cv29;";
-labels = (
-{
-language = dflt;
-value = "Rounded curly braces {}";
-}
-);
 tag = cv29;
 },
 {
@@ -2596,23 +2396,11 @@ sub bar_equal_start.seq by bar_equal_start.seq.cv30;
 sub bar_hyphen_end.seq by bar_hyphen_end.seq.cv30;
 sub bar_hyphen_start.seq by bar_hyphen_start.seq.cv30;
 sub bar_underscore_middle.seq by bar_underscore_middle.seq.cv30;";
-labels = (
-{
-language = dflt;
-value = "Longer pipe symbol";
-}
-);
 tag = cv30;
 },
 {
 code = "sub parenleft by parenleft.cv31;
 sub parenright by parenright.cv31;";
-labels = (
-{
-language = dflt;
-value = "Circular parentheses";
-}
-);
 tag = cv31;
 },
 {
@@ -2622,12 +2410,6 @@ code = "lookup period_equal {
   sub period.spacer equal' by period_equal.cv32;
   sub period'       equal  by period.spacer;
 } period_equal;";
-labels = (
-{
-language = dflt;
-value = "Period equal .= as ligature";
-}
-);
 tag = cv32;
 }
 );
