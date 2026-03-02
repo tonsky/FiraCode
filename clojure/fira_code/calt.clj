@@ -6,7 +6,6 @@
    [fira-code.time :as time]
    [flatland.ordered.map :refer [ordered-map]]))
 
-
 ;; No ligature should follow those sequences
 (def ignore-prefixes
   [["parenleft" "question" "colon"]
@@ -16,9 +15,7 @@
    ["parenleft" "question" "exclam"]
    ["parenleft" "question" "less" "exclam"]
    ;; #850 PHP <?=
-   ["less" "question" "equal"]
-  ])
-
+   ["less" "question" "equal"]])
 
 (defn gen-ignore-prefixes [liga]
   (str/join
@@ -31,7 +28,6 @@
         " " (first liga) "'"
         " " (str/join " " (drop 1 liga))
         ";\n"))))
-
 
 (def priorities
   {;; <|>
@@ -53,7 +49,6 @@
    ["greater" "greater" "greater"] 2
    ["bar" "bar"]                   2
    ["bar" "bar" "bar"]             2})
-
 
 (def ignores
   (coll/multimap-by str
@@ -79,12 +74,14 @@
 
     ;; #1061
     ["colon" "colon"]
-    (str "  ignore sub colon' colon [less greater];\n"
-         "  ignore sub [less greater] colon' colon;\n")
+    (str
+      "  ignore sub colon' colon [less greater];\n"
+      "  ignore sub [less greater] colon' colon;\n")
 
     ["colon" "colon" "colon"]
-    (str "  ignore sub colon' colon colon [less greater];\n"
-         "  ignore sub [less greater] colon' colon colon;\n")
+    (str
+      "  ignore sub colon' colon colon [less greater];\n"
+      "  ignore sub [less greater] colon' colon colon;\n")
 
     ;; #621 <||>
     ["less" "bar" "bar"]
@@ -126,14 +123,16 @@
     ;; #948 [==[ ]==]
     ;; #968 [== ==]
     ["equal" "equal"]
-    (str "  ignore sub bracketleft equal' equal;\n"
-         "  ignore sub equal' equal bracketright;\n")
+    (str
+      "  ignore sub bracketleft equal' equal;\n"
+      "  ignore sub equal' equal bracketright;\n")
 
     ;; #948 [===[ ]===]
     ;; #968 [=== ===]
     ["equal" "equal" "equal"]
-    (str "  ignore sub bracketleft equal' equal equal;\n"
-         "  ignore sub equal' equal equal bracketright;\n")
+    (str
+      "  ignore sub bracketleft equal' equal equal;\n"
+      "  ignore sub equal' equal equal bracketright;\n")
 
     ;; #346 =:=
     ["colon" "equal"]
@@ -148,78 +147,84 @@
 
     ;; #346 =<= <=< <=> <=| <=: <=! <=/
     ["less" "equal"]
-    (str "  ignore sub equal less' equal;\n"
-         "  ignore sub less' equal [less greater bar colon exclam slash];\n")
+    (str
+      "  ignore sub equal less' equal;\n"
+      "  ignore sub less' equal [less greater bar colon exclam slash];\n")
     
     ;; #548 >=<
     ;; #346 =>= >=> >=< >=| >=: >=! >=/
     ["greater" "equal"]
-    (str "  ignore sub equal greater' equal;\n"
-         "  ignore sub greater' equal [less greater bar colon exclam slash];\n")
+    (str
+      "  ignore sub equal greater' equal;\n"
+      "  ignore sub greater' equal [less greater bar colon exclam slash];\n")
 
     ;; #346 >>->> >>=>>
     ;; #974 keep >>=
     ["greater" "greater"]
-    (str "  ignore sub [hyphen equal] greater' greater;\n"
-         "  ignore sub greater' greater hyphen;\n"
-         "  ignore sub greater' greater equal [equal less greater bar colon exclam slash];\n")
+    (str
+      "  ignore sub [hyphen equal] greater' greater;\n"
+      "  ignore sub greater' greater hyphen;\n"
+      "  ignore sub greater' greater equal [equal less greater bar colon exclam slash];\n")
 
     ;; #346 <<-<< <<=<<
     ;; #974 keep <<=
     ["less" "less"]
-    (str "  ignore sub [hyphen equal] less' less;\n"
-         "  ignore sub less' less hyphen;\n"
-         "  ignore sub less' less equal [equal less greater bar colon exclam slash];\n")
+    (str
+      "  ignore sub [hyphen equal] less' less;\n"
+      "  ignore sub less' less hyphen;\n"
+      "  ignore sub less' less equal [equal less greater bar colon exclam slash];\n")
 
     ;; #346 ||-|| ||=||
     ;; #974 keep ||=
     ["bar" "bar"]
-    (str "  ignore sub [hyphen equal] bar' bar;\n"
-         "  ignore sub bar' bar hyphen;\n"
-         "  ignore sub bar' bar equal [equal less greater bar colon exclam slash];\n")
+    (str
+      "  ignore sub [hyphen equal] bar' bar;\n"
+      "  ignore sub bar' bar hyphen;\n"
+      "  ignore sub bar' bar equal [equal less greater bar colon exclam slash];\n")
 
     ;; #816 //=
     ["slash" "slash"]
-    (str "  ignore sub equal slash' slash;\n"
-         "  ignore sub slash' slash equal;\n")
+    (str
+      "  ignore sub equal slash' slash;\n"
+      "  ignore sub slash' slash equal;\n")
 
     ;; #346 <--> >--< |--|
     ["hyphen" "hyphen"]
-    (str "  ignore sub [less greater bar] hyphen' hyphen;\n"
-         "  ignore sub hyphen' hyphen [less greater bar];\n")
+    (str
+      "  ignore sub [less greater bar] hyphen' hyphen;\n"
+      "  ignore sub hyphen' hyphen [less greater bar];\n")
 
     ;; #346 <==> >==< |==| /==/ =:== =!== ==:= ==!=
     ["equal" "equal"]
-    (str "  ignore sub equal [colon exclam] equal' equal;\n"
-         "  ignore sub [less greater bar slash] equal' equal;\n"
-         "  ignore sub equal' equal [less greater bar slash] ;\n"
-         "  ignore sub equal' equal [colon exclam] equal;\n")
+    (str
+      "  ignore sub equal [colon exclam] equal' equal;\n"
+      "  ignore sub [less greater bar slash] equal' equal;\n"
+      "  ignore sub equal' equal [less greater bar slash] ;\n"
+      "  ignore sub equal' equal [colon exclam] equal;\n")
 
     ;; #346 <===> >===< |===| /===/ =:=== =!=== ===:= ===!=
     ["equal" "equal" "equal"]
-    (str "  ignore sub equal [colon exclam] equal' equal equal;\n"
-         "  ignore sub [less greater bar slash] equal' equal equal;\n"
-         "  ignore sub equal' equal equal [less greater bar slash];\n"
-         "  ignore sub equal' equal equal [colon exclam] equal;\n")
-))
-
+    (str
+      "  ignore sub equal [colon exclam] equal' equal equal;\n"
+      "  ignore sub [less greater bar slash] equal' equal equal;\n"
+      "  ignore sub equal' equal equal [less greater bar slash];\n"
+      "  ignore sub equal' equal equal [colon exclam] equal;\n")
+    ))
 
 ;; DO NOT generate ignores at all
 (def skip-ignores? #{
-  ;; #410 <<*>> <<+>> <<$>>
-  ["less" "asterisk" "greater"]
-  ["less" "plus" "greater"]
-  ["less" "dollar" "greater"]
-})
-
+                     ;; #410 <<*>> <<+>> <<$>>
+                     ["less" "asterisk" "greater"]
+                     ["less" "plus" "greater"]
+                     ["less" "dollar" "greater"]
+                     })
 
 ;; DO NOT generate ligature
 (def manual? #{
-  ;; /\ \/
-  ["slash" "backslash"]
-  ["backslash" "slash"]
-})
-
+               ;; /\ \/
+               ["slash" "backslash"]
+               ["backslash" "slash"]
+               })
 
 (defn liga->rule
   "[f f i] => { [LIG LIG i] f_f_i.liga
@@ -233,7 +238,7 @@
             "lookup 1_2 {\n"
             (when-not (skip-ignores? liga)
               (str "  ignore sub 1 1' 2;\n"
-                   "  ignore sub 1' 2 2;\n"))
+                "  ignore sub 1' 2 2;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
             "  sub 1.spacer 2' by 1_2.liga;\n"
@@ -246,8 +251,8 @@
           (str
             "lookup 1_2_3 {\n"
             (when-not (skip-ignores? liga)
-             (str "  ignore sub 1 1' 2 3;\n"
-                  "  ignore sub 1' 2 3 3;\n"))
+              (str "  ignore sub 1 1' 2 3;\n"
+                "  ignore sub 1' 2 3 3;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
             "  sub 1.spacer 2.spacer 3' by 1_2_3.liga;\n"
@@ -262,7 +267,7 @@
             "lookup 1_2_3_4 {\n"
             (when-not (skip-ignores? liga)
               (str "  ignore sub 1 1' 2 3 4;\n"
-                   "  ignore sub 1' 2 3 4 4;\n"))
+                "  ignore sub 1' 2 3 4 4;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
             "  sub 1.spacer 2.spacer 3.spacer 4' by 1_2_3_4.liga;\n"
@@ -278,7 +283,7 @@
             "lookup 1_2_3_4_5 {\n"
             (when-not (skip-ignores? liga)
               (str "  ignore sub 1 1' 2 3 4 5;\n"
-                   "  ignore sub 1' 2 3 4 4 5;\n"))
+                "  ignore sub 1' 2 3 4 4 5;\n"))
             (gen-ignore-prefixes liga)
             (get ignores liga)
             "  sub 1.spacer 2.spacer 3.spacer 4.spacer 5' by 1_2_3_4_5.liga;\n"
@@ -289,8 +294,7 @@
             ; "sub 1 2 3 4 5 by 1_2_3_4_5.liga;"
             "} 1_2_3_4_5;")
           #"\d" {"1" a "2" b "3" c "4" d "5" e}))
-))
-
+    ))
 
 (defn compare-ligas [l1 l2]
   (let [p1 (priorities l1 Long/MAX_VALUE)
@@ -303,7 +307,6 @@
       (not= 0 pc) pc     ;; lower priority first
       (not= 0 cc) (- cc) ;; longer first
       :else (compare l1 l2)))) ;; alphabetical
-
 
 (defn replace-calt [font ligas]
   (let [ligas' (->> ligas

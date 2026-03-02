@@ -1,3 +1,5 @@
-#!/bin/zsh -euo pipefail
+#!/bin/bash
+set -o errexit -o nounset -o pipefail
+cd "`dirname $0`/.."
 
-clojure -M -m fira-code.main
+clojure -M:dev -m fira-code.main

@@ -1,9 +1,6 @@
 {
-.appVersion = "3414";
+.appVersion = "3436";
 .formatVersion = 3;
-DisplayStrings = (
-"/ampersand_ampersand.liga.ss03  & &&"
-);
 axes = (
 {
 name = Weight;

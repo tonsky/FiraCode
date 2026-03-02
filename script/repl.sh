@@ -1,6 +1,5 @@
 #!/bin/bash
 set -o errexit -o nounset -o pipefail
-dir=`dirname $0`
-cd $dir/..
+cd "`dirname $0`/.."
 
-clojure -M -m user
+clojure -X:dev clojure+.core.server/start-server

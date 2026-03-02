@@ -3,7 +3,6 @@
    [clojure.string :as str]
    [fira-code.glyphs :as glyphs]))
 
-
 (defn regen-not-space [font]
   (let [not-spaces (->> (:glyphs font)
                      (remove #(re-find #"^\.|space$|space\." (:glyphname %)))

@@ -8,11 +8,14 @@
     [flatland.ordered.map :refer [ordered-map]]))
 
 (def ^:dynamic *str)
+
 (def ^:dynamic *pos)
 
-(defn current-char [] (nth @*str @*pos))
+(defn current-char []
+  (nth @*str @*pos))
 
-(defn advance! [] (swap! *pos inc))
+(defn advance! []
+  (swap! *pos inc))
 
 (declare parse-anything!)
 
@@ -35,7 +38,6 @@
               (= ch \\) (do (.append sb \\) (advance!) (.append sb (current-char)) (recur))
               (= ch \") (do (advance!) (str sb))
               :else     (do (.append sb ch) (recur)))))
-        (str/replace "\\012" "\n")
         (str/replace "\\\"" "\"")
         (str/replace "\\\\" "\\")))))
 
@@ -104,11 +106,12 @@
             *pos (atom 0)]
     (parse-anything!)))
 
-(def escapes {"\n" "\\012"
-              "\"" "\\\""
-              "\\" "\\\\"})
+(def escapes
+  {"\"" "\\\""
+   "\\" "\\\\"})
 
-(def escape-re #"[\n\"\\]")
+(def escape-re
+  #"[\n\"\\]")
 
 (defn- serialize-impl [form]
   (cond
@@ -151,20 +154,16 @@
       (binding [*out* os]
         (fipp/pprint font {:width 200})))))
 
-
 (defn update-code [font key name f & args]
-  (let [idx (coll/index-of #(= (:name %) name) (get font key))]
-    (assert (>= idx 0) (str "Can’t find " key "[name=\"" name "\"], got " (str/join ", " (map :name (get font key)))))
+  (let [idx (coll/index-of #(= (:tag %) name) (get font key))]
+    (assert (>= idx 0) (str "Can’t find " key " tag=" name ", got " (str/join ", " (map :name (get font key)))))
     (apply update-in font [key idx :code] f args)))
-
 
 (defn lines [s]
   (inc (count (re-seq #"\n" s))))
 
-
 (defn words [s]
   (count (re-seq #"[^\s]+" s)))
-
 
 (defn set-feature [font name feature]
   (let [idx (coll/index-of #(= (:name %) name) (:features font))]
@@ -176,7 +175,6 @@
         (println "  appending to feature" name (lines (:code feature)) "lines")
         (update font :features conj feature)))))
 
-
 (defn set-class [font name class]
   (let [idx (coll/index-of #(= (:name %) name) (:classes font))]
     (if (pos? idx)
@@ -187,20 +185,18 @@
         (println "  appending to class" name (words (:code class)) "entries")
         (update font :classes conj class)))))
 
-
 (def weights
   {:Light   "B67F0F2D-EC95-4CB8-966E-23AE86958A69"
    :Regular "UUID0"
    :Bold    "4B7A3BAF-EAD8-4024-9BEA-BB1DE86CFCFA"})
 
-
 (defn layer [l]
-  { :id (condp = (:layerId l)
-          (:Light weights)   "Light"
-          (:Regular weights) "Regular"
-          (:Bold weights)    "Bold"
-          (:layerId l))
-    :width (:width l) })
+  {:id    (condp = (:layerId l)
+            (:Light weights)   "Light"
+            (:Regular weights) "Regular"
+            (:Bold weights)    "Bold"
+            (:layerId l))
+   :width (:width l)})
 
 (defn save-not600 []
   (let [font (-> (slurp "FiraCode.glyphs") parse)]

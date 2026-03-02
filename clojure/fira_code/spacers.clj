@@ -5,7 +5,6 @@
    [fira-code.time :as time]
    [flatland.ordered.map :refer [ordered-map]]))
 
-
 (defn spacer [name]
   (ordered-map
     :color 3,
@@ -14,7 +13,6 @@
     :layers
     [(ordered-map :layerId (:Light glyphs/weights), :width 1200)
      (ordered-map :layerId (:Bold glyphs/weights), :width 1200)]))
-
 
 (defn add-spacers [font ligas]
   (let [needed   (->> (into #{} cat ligas)

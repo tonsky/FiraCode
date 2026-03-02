@@ -3,9 +3,8 @@
    [java.time LocalDateTime ZoneId]
    [java.time.format DateTimeFormatter]))
 
-
-(def ^ZoneId UTC (ZoneId/of "UTC"))
-
+(def ^ZoneId UTC
+  (ZoneId/of "UTC"))
 
 (defn now-str []
   (.format
