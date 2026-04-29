@@ -9,6 +9,7 @@ on:
       - 'FiraCode.glyphs'
       - 'requirements.txt'
       - 'script/**'
+  workflow_dispatch: 
 
 jobs:
   build:
