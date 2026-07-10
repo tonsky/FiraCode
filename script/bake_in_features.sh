@@ -22,7 +22,7 @@ for feat in "$@"; do
 done
 
 # code block is one line above name declaration
-linenum=$(sed -n "/name = calt;/=" "${glyphs_file}")
+linenum=$(sed -n "/tag = calt;/=" "${glyphs_file}")
 linenum=$((linenum - 1))
 # replace end of line (";) with code on specified line number
 sed -i -e "${linenum}s@\";\$@\n${code_blocks[*]}\";@" "${glyphs_file}"
