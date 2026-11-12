@@ -48,6 +48,8 @@ Being a programming font, Fira Code has fantastic support for ASCII/box drawing,
 
 <img src="./extras/console.png" width="754">
 
+<a name="progressbars"></a> <!-- Stable GitHub anchor for links to this section. -->
+
 Fira Code is the first programming font to offer dedicated glyphs to render progress bars:
 
 <img src="./extras/progress.png" width="754">
@@ -57,6 +59,21 @@ In action:
 <img src="./extras/progress.gif" width="560">
 
 We hope more programming fonts will adopt this convention and ship their own versions. Implementation detail: there is no way for programs to detect whether a font has progress bar glyphs at U+EE00, so they need to decide what to output without knowing if it will be rendered properly or not. We propose a new environment variable, `UNICODE_PROGRESS_BAR=true`, to use as a heuristic. If present, it’s safe to assume U+EE00..EE0B will be rendered properly.
+
+The following fonts and software support Fira Code progress bar glyphs:
+
+- Fonts
+    - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/pull/1733) (from 3.3.0)
+    - [Iosevka](https://github.com/be5invis/Iosevka/releases/tag/v11.2.0) (from 11.2.0)
+    - [JuliaMono](https://github.com/cormullion/juliamono/blob/master/CHANGELOG.md#v0045-2022-05-05) (from 0.045)
+    - [SFMono Square](https://github.com/delphinus/homebrew-sfmono-square/releases/tag/v3.4.0) (from 3.4.0)
+- Libraries
+    - [cheggaaa/pb](https://github.com/cheggaaa/pb/pull/236) (from 3.2.0)
+    - [schollz/progressbar](https://github.com/schollz/progressbar/pull/204) (from 3.16.1)
+    - [gomlx/gomlx](https://github.com/gomlx/gomlx/commit/48ddaa0cd205f2b968579886213db7ab00c3044e) (from 0.13.0)
+- Tools
+    - [pacman in CachyOS](https://github.com/CachyOS/CachyOS-PKGBUILDS/pull/377) (from 6.0.2-17)
+    - [asciimoth/zpg](https://github.com/asciimoth/zpg#progress-display) (from 0.1.0)
 
 Unicode coverage makes Fira Code a great choice for mathematical writing:
 
