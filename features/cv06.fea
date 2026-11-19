@@ -11,3 +11,5 @@ sub igrave by igrave.cv06;
 sub imacron by imacron.cv06;
 sub iogonek by iogonek.cv06;
 sub itilde by itilde.cv06;
+sub ihookabove by ihookabove.cv06;
+sub idotbelow by idotbelow.cv06;
