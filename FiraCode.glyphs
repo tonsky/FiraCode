@@ -1103,8 +1103,6 @@ lookup colon_colon_colon {
   ignore sub colon colon' colon colon;
   ignore sub colon' colon colon colon;
   ignore sub parenleft question colon' colon colon;
-  ignore sub colon' colon colon [less greater];
-  ignore sub [less greater] colon' colon colon;
   sub colon.spacer colon.spacer colon' by colon_colon_colon.liga;
   sub colon.spacer colon'       colon  by colon.spacer;
   sub colon'       colon        colon  by colon.spacer;
@@ -1365,8 +1363,6 @@ lookup colon_colon {
   ignore sub colon colon' colon;
   ignore sub colon' colon colon;
   ignore sub parenleft question colon' colon;
-  ignore sub colon' colon [less greater];
-  ignore sub [less greater] colon' colon;
   sub colon.spacer colon' by colon_colon.liga;
   sub colon'       colon  by colon.spacer;
 } colon_colon;
@@ -1658,9 +1654,6 @@ lookup center {
     #574 :>= :<=
     ignore sub colon' [less greater] [equal hyphen];
 
-    #1145 ::< ::> <:: >::
-    ignore sub colon colon' [less greater];
-    ignore sub [less greater]' colon colon;
 
     # middles & ends
     sub [less.center greater.center colon.center] colon' by colon.center;
